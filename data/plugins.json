@@ -1,114 +1,168 @@
 {
-  "generated_at": "2026-07-28 02:26 UTC",
+  "generated_at": "2026-07-28 03:16 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
       "key": "notify",
       "label_ja": "通知・アラート",
       "label_en": "Notifications & Alerts",
-      "purpose": "エージェントが完了した / 入力待ちで止まったのを、席を外していても知りたい"
+      "label_zh": "通知与提醒",
+      "purpose_ja": "エージェントが完了した / 入力待ちで止まったのを、席を外していても知りたい",
+      "purpose_en": "I want to know when an agent finishes or gets stuck waiting for input, even when I'm away from my desk",
+      "purpose_zh": "即使离开座位，也想知道 Agent 何时完成或卡在等待输入"
     },
     {
       "key": "remote",
       "label_ja": "スマホ・リモート操作",
       "label_en": "Mobile & Remote Control",
-      "purpose": "外出先やスマホからエージェントを監視して、承認だけ返したい"
+      "label_zh": "手机与远程操控",
+      "purpose_ja": "外出先やスマホからエージェントを監視して、承認だけ返したい",
+      "purpose_en": "I want to monitor agents from my phone or while away, and just send back approvals",
+      "purpose_zh": "想在外出或用手机时监控 Agent，只需回传批准即可"
     },
     {
       "key": "agents",
       "label_ja": "エージェント統括・並列実行",
       "label_en": "Agent Orchestration",
-      "purpose": "複数の AI エージェントをまとめて起動・分担・管理したい"
+      "label_zh": "Agent 编排与并行执行",
+      "purpose_ja": "複数の AI エージェントをまとめて起動・分担・管理したい",
+      "purpose_en": "I want to launch, split up, and manage multiple AI agents together",
+      "purpose_zh": "想统一启动、分工并管理多个 AI Agent"
     },
     {
       "key": "worktree",
       "label_ja": "git worktree・ブランチ運用",
       "label_en": "Git Worktrees & Branches",
-      "purpose": "作業ごとに worktree を切って、片付けまで自動でやりたい"
+      "label_zh": "git 工作树与分支管理",
+      "purpose_ja": "作業ごとに worktree を切って、片付けまで自動でやりたい",
+      "purpose_en": "I want to spin up a worktree for each piece of work, and have the cleanup handled automatically too",
+      "purpose_zh": "想为每项工作单独开一个工作树，收尾清理也自动完成"
     },
     {
       "key": "review",
       "label_ja": "コードレビュー・差分確認",
       "label_en": "Code Review & Diffs",
-      "purpose": "エージェントが書いた差分を読んで、コメントを返したい"
+      "label_zh": "代码审查与差异对比",
+      "purpose_ja": "エージェントが書いた差分を読んで、コメントを返したい",
+      "purpose_en": "I want to read the diff an agent wrote and send comments back on it",
+      "purpose_zh": "想阅读 Agent 写的差异并对其发表评论"
     },
     {
       "key": "forge",
       "label_ja": "GitHub / issue トラッカー連携",
       "label_en": "GitHub & Issue Trackers",
-      "purpose": "issue や PR を起点に作業を始めたい / PR の状態を追いたい"
+      "label_zh": "GitHub / issue 跟踪工具集成",
+      "purpose_ja": "issue や PR を起点に作業を始めたい / PR の状態を追いたい",
+      "purpose_en": "I want to kick off work from an issue or PR, and track PR status",
+      "purpose_zh": "想以 issue 或 PR 为起点开始工作，并追踪 PR 状态"
     },
     {
       "key": "layout",
       "label_ja": "ワークスペース・レイアウト構築",
       "label_en": "Workspaces & Layouts",
-      "purpose": "プロジェクトを開いたら、タブ・ペイン・起動コマンドまで一発で整えたい"
+      "label_zh": "工作区与布局搭建",
+      "purpose_ja": "プロジェクトを開いたら、タブ・ペイン・起動コマンドまで一発で整えたい",
+      "purpose_en": "When I open a project, I want tabs, panes, and startup commands all set up in one shot",
+      "purpose_zh": "打开项目时，希望标签页、窗格和启动命令一次性就位"
     },
     {
       "key": "navigate",
       "label_ja": "ペイン移動・キー操作",
       "label_en": "Pane Navigation & Keys",
-      "purpose": "ペインやワークスペース間の移動・リサイズを、エディタと同じキーで済ませたい"
+      "label_zh": "窗格导航与快捷键",
+      "purpose_ja": "ペインやワークスペース間の移動・リサイズを、エディタと同じキーで済ませたい",
+      "purpose_en": "I want to move and resize between panes and workspaces using the same keys as my editor",
+      "purpose_zh": "想用和编辑器一样的快捷键在窗格、工作区之间移动和调整大小"
     },
     {
       "key": "files",
       "label_ja": "ファイル閲覧・エディタ連携",
       "label_en": "File Viewers & Editors",
-      "purpose": "ペインの中でファイルツリーを開いたり、エディタ側と状態を揃えたい"
+      "label_zh": "文件浏览与编辑器联动",
+      "purpose_ja": "ペインの中でファイルツリーを開いたり、エディタ側と状態を揃えたい",
+      "purpose_en": "I want to open a file tree inside a pane, or keep it in sync with my editor",
+      "purpose_zh": "想在窗格中打开文件树，或与编辑器的状态保持一致"
     },
     {
       "key": "cost",
       "label_ja": "トークン・コスト管理",
       "label_en": "Tokens & Cost",
-      "purpose": "エージェントがいくら使っているかを見たい / 使用量を削りたい"
+      "label_zh": "Token 与费用管理",
+      "purpose_ja": "エージェントがいくら使っているかを見たい / 使用量を削りたい",
+      "purpose_en": "I want to see how much an agent is spending, and cut down on usage",
+      "purpose_zh": "想看看 Agent 花费了多少，并想削减用量"
     },
     {
       "key": "monitor",
       "label_ja": "監視・ダッシュボード",
       "label_en": "Monitoring & Dashboards",
-      "purpose": "エージェントやマシンの状態を一覧で眺めたい"
+      "label_zh": "监控与仪表盘",
+      "purpose_ja": "エージェントやマシンの状態を一覧で眺めたい",
+      "purpose_en": "I want an at-a-glance overview of agent and machine status",
+      "purpose_zh": "想一目览尽 Agent 和机器的状态"
     },
     {
       "key": "finder",
       "label_ja": "検索・ファジーファインダー",
       "label_en": "Fuzzy Finders & Palettes",
-      "purpose": "コマンドやプロジェクトを、名前をうろ覚えのまま呼び出したい"
+      "label_zh": "搜索与模糊查找器",
+      "purpose_ja": "コマンドやプロジェクトを、名前をうろ覚えのまま呼び出したい",
+      "purpose_en": "I want to invoke commands or projects even when I only half-remember their names",
+      "purpose_zh": "只记得大概名字也想调出命令或项目"
     },
     {
       "key": "automation",
       "label_ja": "自動化・フック・定期実行",
       "label_en": "Automation, Hooks & Schedules",
-      "purpose": "worktree 作成時やタイミングを決めて、決まった手順を自動で走らせたい"
+      "label_zh": "自动化、钩子与定时任务",
+      "purpose_ja": "worktree 作成時やタイミングを決めて、決まった手順を自動で走らせたい",
+      "purpose_en": "I want a fixed set of steps to run automatically on worktree creation or at a chosen time",
+      "purpose_zh": "想在创建工作树或指定时机自动运行固定的操作步骤"
     },
     {
       "key": "session",
       "label_ja": "セッション保存・復元",
       "label_en": "Session State & Restore",
-      "purpose": "作業を閉じても、あとで同じ状態から再開したい"
+      "label_zh": "会话保存与恢复",
+      "purpose_ja": "作業を閉じても、あとで同じ状態から再開したい",
+      "purpose_en": "I want to close my work and later resume from exactly the same state",
+      "purpose_zh": "关闭工作后，希望之后能从同一状态继续"
     },
     {
       "key": "naming",
       "label_ja": "タイトル・命名・見た目",
       "label_en": "Titles, Naming & Looks",
-      "purpose": "タブ名やターミナルタイトルを自動で分かりやすくしたい / 見た目を変えたい"
+      "label_zh": "标题、命名与外观",
+      "purpose_ja": "タブ名やターミナルタイトルを自動で分かりやすくしたい / 見た目を変えたい",
+      "purpose_en": "I want tab names and terminal titles to be automatically clear, or want to change how things look",
+      "purpose_zh": "想让标签页名称和终端标题自动变得清晰易懂，或想改变外观"
     },
     {
       "key": "text",
       "label_ja": "テキスト・URL 抽出",
       "label_en": "Text & URL Grabbing",
-      "purpose": "画面に出ている文字列やパス・URL を、マウスなしで拾いたい"
+      "label_zh": "文本与 URL 提取",
+      "purpose_ja": "画面に出ている文字列やパス・URL を、マウスなしで拾いたい",
+      "purpose_en": "I want to grab strings, paths, or URLs shown on screen without touching the mouse",
+      "purpose_zh": "想不用鼠标就抓取屏幕上显示的字符串、路径或 URL"
     },
     {
       "key": "meta",
       "label_ja": "プラグイン管理・開発",
       "label_en": "Plugin Management & Authoring",
-      "purpose": "プラグイン自体を管理したい / 自分で作りたい"
+      "label_zh": "插件管理与开发",
+      "purpose_ja": "プラグイン自体を管理したい / 自分で作りたい",
+      "purpose_en": "I want to manage plugins themselves, or build my own",
+      "purpose_zh": "想管理插件本身，或者自己动手做一个"
     },
     {
       "key": "other",
       "label_ja": "その他・ユーティリティ",
       "label_en": "Other & Utilities",
-      "purpose": "上のどれにも当てはまらない便利もの"
+      "label_zh": "其他与实用工具",
+      "purpose_ja": "上のどれにも当てはまらない便利もの",
+      "purpose_en": "Handy things that don't fit any of the categories above",
+      "purpose_zh": "不属于以上任何分类，但很实用的东西"
     }
   ],
   "plugins": [
@@ -277,7 +331,7 @@
       "description": "For keeping all my Dotfiles update to date",
       "note": "",
       "stars": 77,
-      "language": "DIGITAL Command Language",
+      "language": "TypeScript",
       "tags": [
         "dotfiles",
         "emacs",
@@ -286,11 +340,11 @@
         "nixos-configuration",
         "vim",
         "zsh",
-        "digital command language"
+        "typescript"
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-07-27T23:24:47Z",
+      "pushed_at": "2026-07-28T02:49:29Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -300,7 +354,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 63,
+      "stars": 67,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -1195,8 +1249,31 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-07-27T14:43:16Z",
+      "pushed_at": "2026-07-28T02:39:23Z",
       "install": "herdr plugin install luminexord/herdres"
+    },
+    {
+      "full_name": "nelsonPires5/herdr-board",
+      "name": "herdr-board",
+      "owner": "nelsonPires5",
+      "url": "https://github.com/nelsonPires5/herdr-board",
+      "description": "Kanban board for herdr — cards are prompts dispatched to AI agents in visible panes",
+      "note": "",
+      "stars": 7,
+      "language": "Rust",
+      "tags": [
+        "board",
+        "kanban",
+        "kanban-board",
+        "tui",
+        "rust"
+      ],
+      "category": "agents",
+      "also": [
+        "monitor"
+      ],
+      "pushed_at": "2026-07-27T13:57:07Z",
+      "install": "herdr plugin install nelsonPires5/herdr-board"
     },
     {
       "full_name": "senna-lang/herdr-agent-usage",
@@ -1323,29 +1400,6 @@
       "also": [],
       "pushed_at": "2026-07-18T22:28:26Z",
       "install": "herdr plugin install mrcndz/herdr-routines"
-    },
-    {
-      "full_name": "nelsonPires5/herdr-board",
-      "name": "herdr-board",
-      "owner": "nelsonPires5",
-      "url": "https://github.com/nelsonPires5/herdr-board",
-      "description": "Kanban board for herdr — cards are prompts dispatched to AI agents in visible panes",
-      "note": "",
-      "stars": 6,
-      "language": "Rust",
-      "tags": [
-        "board",
-        "kanban",
-        "kanban-board",
-        "tui",
-        "rust"
-      ],
-      "category": "agents",
-      "also": [
-        "monitor"
-      ],
-      "pushed_at": "2026-07-27T13:57:07Z",
-      "install": "herdr plugin install nelsonPires5/herdr-board"
     },
     {
       "full_name": "tdi/herdr-worktree-from-pr",
@@ -1520,7 +1574,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-07-28T02:09:38Z",
+      "pushed_at": "2026-07-28T03:00:14Z",
       "install": "herdr plugin install maro114510/herdr-toggle-popup"
     },
     {
@@ -2056,7 +2110,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-28T01:38:43Z",
+      "pushed_at": "2026-07-28T03:01:14Z",
       "install": "herdr plugin install aorumbayev/herdr-workflows"
     },
     {
@@ -2834,6 +2888,23 @@
       "also": [],
       "pushed_at": "2026-07-10T17:39:53Z",
       "install": "herdr plugin install ditwrd/herdr-remote-worktrunk"
+    },
+    {
+      "full_name": "dzwduan/herdr-convo-index",
+      "name": "herdr-convo-index",
+      "owner": "dzwduan",
+      "url": "https://github.com/dzwduan/herdr-convo-index",
+      "description": "Turn index for Claude Code panes in herdr — jump to any past turn and read it in a popup",
+      "note": "",
+      "stars": 2,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-07-27T15:05:05Z",
+      "install": "herdr plugin install dzwduan/herdr-convo-index"
     },
     {
       "full_name": "furuhashin/herdr-synchronize-panes",
@@ -3844,23 +3915,6 @@
       "install": "herdr plugin install dmnkf/herdr-omnisearch"
     },
     {
-      "full_name": "dzwduan/herdr-convo-index",
-      "name": "herdr-convo-index",
-      "owner": "dzwduan",
-      "url": "https://github.com/dzwduan/herdr-convo-index",
-      "description": "Turn index for Claude Code panes in herdr — jump to any past turn and read it in a popup",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-07-27T15:05:05Z",
-      "install": "herdr plugin install dzwduan/herdr-convo-index"
-    },
-    {
       "full_name": "edmundmiller/herdr-plugin-dotfiles-github-link-preview",
       "name": "herdr-plugin-dotfiles-github-link-preview",
       "owner": "edmundmiller",
@@ -3952,6 +4006,23 @@
       ],
       "pushed_at": "2026-07-02T22:59:47Z",
       "install": "herdr plugin install Feasy01/herdr-allow"
+    },
+    {
+      "full_name": "gw31415/herdr-amphetamine-macos",
+      "name": "herdr-amphetamine-macos",
+      "owner": "gw31415",
+      "url": "https://github.com/gw31415/herdr-amphetamine-macos",
+      "description": "herdr plugin that tops up Amphetamine while agents work",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-07-09T14:08:51Z",
+      "install": "herdr plugin install gw31415/herdr-amphetamine-macos"
     },
     {
       "full_name": "haphamdev/herdr-simple-switcher",
@@ -4563,7 +4634,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-07-28T01:12:15Z",
+      "pushed_at": "2026-07-28T02:52:25Z",
       "install": "herdr plugin install speardragon/herdr-command-center"
     },
     {
@@ -5475,23 +5546,6 @@
       "install": "herdr plugin install go-min/herdr-pane-name"
     },
     {
-      "full_name": "gw31415/herdr-amphetamine-macos",
-      "name": "herdr-amphetamine-macos",
-      "owner": "gw31415",
-      "url": "https://github.com/gw31415/herdr-amphetamine-macos",
-      "description": "herdr plugin that tops up Amphetamine while agents work",
-      "note": "",
-      "stars": 0,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-07-09T14:08:51Z",
-      "install": "herdr plugin install gw31415/herdr-amphetamine-macos"
-    },
-    {
       "full_name": "hadeson/herdr-harpoon",
       "name": "herdr-harpoon",
       "owner": "hadeson",
@@ -6028,7 +6082,7 @@
       ],
       "category": "notify",
       "also": [],
-      "pushed_at": "2026-07-27T14:05:06Z",
+      "pushed_at": "2026-07-28T02:56:53Z",
       "install": "herdr plugin install lsisoft/herdr-telegram-slack-bridge"
     },
     {
