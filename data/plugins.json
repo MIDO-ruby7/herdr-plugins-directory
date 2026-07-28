@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 03:37 UTC",
+  "generated_at": "2026-07-28 04:28 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -182,7 +182,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-07-28T03:29:38Z",
+      "pushed_at": "2026-07-28T04:19:40Z",
       "install": "herdr plugin install openclaw/crabbox"
     },
     {
@@ -216,7 +216,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 263,
+      "stars": 264,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -344,7 +344,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-07-28T03:15:57Z",
+      "pushed_at": "2026-07-28T04:11:52Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -354,7 +354,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 67,
+      "stars": 69,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -411,7 +411,7 @@
       "url": "https://github.com/paulbkim-dev/vim-herdr-navigation",
       "description": "Seamless Ctrl+h/j/k/l navigation across herdr panes and Vim/Neovim splits — vim-tmux-navigator ported to herdr",
       "note": "",
-      "stars": 55,
+      "stars": 56,
       "language": "Shell",
       "tags": [
         "neovim",
@@ -465,7 +465,7 @@
       "url": "https://github.com/lmilojevicc/herdr-splits.nvim",
       "description": "Smart splits navigation and resizing for Herdr and Neovim",
       "note": "",
-      "stars": 31,
+      "stars": 32,
       "language": "Lua",
       "tags": [
         "lua",
@@ -809,6 +809,28 @@
       "install": "herdr plugin install wyattjoh/herdr-plugin-gh-pr"
     },
     {
+      "full_name": "alexarthurs/herdr-sidebar",
+      "name": "herdr-sidebar",
+      "owner": "alexarthurs",
+      "url": "https://github.com/alexarthurs/herdr-sidebar",
+      "description": "VS Code-style sidebar for the herdr: file explorer + git source control in one pane — syntax-highlighted previews, VS Code-style diffs, GitLens-style drawers, AI commit messages",
+      "note": "",
+      "stars": 12,
+      "language": "Rust",
+      "tags": [
+        "git",
+        "ratatui",
+        "rust",
+        "sidebar",
+        "terminal",
+        "tui"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-07-25T14:42:55Z",
+      "install": "herdr plugin install alexarthurs/herdr-sidebar"
+    },
+    {
       "full_name": "ImArtisann/zed-herdr",
       "name": "zed-herdr",
       "owner": "ImArtisann",
@@ -824,28 +846,6 @@
       "also": [],
       "pushed_at": "2026-07-16T20:39:33Z",
       "install": "herdr plugin install ImArtisann/zed-herdr"
-    },
-    {
-      "full_name": "alexarthurs/herdr-sidebar",
-      "name": "herdr-sidebar",
-      "owner": "alexarthurs",
-      "url": "https://github.com/alexarthurs/herdr-sidebar",
-      "description": "VS Code-style sidebar for the herdr: file explorer + git source control in one pane — syntax-highlighted previews, VS Code-style diffs, GitLens-style drawers, AI commit messages",
-      "note": "",
-      "stars": 11,
-      "language": "Rust",
-      "tags": [
-        "git",
-        "ratatui",
-        "rust",
-        "sidebar",
-        "terminal",
-        "tui"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-07-25T14:42:55Z",
-      "install": "herdr plugin install alexarthurs/herdr-sidebar"
     },
     {
       "full_name": "tdi/herdr-worktree-from-linear",
@@ -1249,7 +1249,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-07-28T03:20:38Z",
+      "pushed_at": "2026-07-28T04:17:10Z",
       "install": "herdr plugin install luminexord/herdres"
     },
     {
@@ -1561,6 +1561,27 @@
       "install": "herdr plugin install dot/herdr-terminal-notifier"
     },
     {
+      "full_name": "jeffarese/herdr-bar",
+      "name": "herdr-bar",
+      "owner": "jeffarese",
+      "url": "https://github.com/jeffarese/herdr-bar",
+      "description": "Cmd+K for herdr: fuzzy-jump to any tab, agent, repo or branch. Python stdlib only.",
+      "note": "",
+      "stars": 5,
+      "language": "Python",
+      "tags": [
+        "command-bar",
+        "fuzzy-finder",
+        "python",
+        "terminal",
+        "tui"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-07-25T18:01:24Z",
+      "install": "herdr plugin install jeffarese/herdr-bar"
+    },
+    {
       "full_name": "maro114510/herdr-toggle-popup",
       "name": "herdr-toggle-popup",
       "owner": "maro114510",
@@ -1574,7 +1595,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-07-28T03:31:42Z",
+      "pushed_at": "2026-07-28T03:53:26Z",
       "install": "herdr plugin install maro114510/herdr-toggle-popup"
     },
     {
@@ -1749,7 +1770,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-07-28T02:13:31Z",
+      "pushed_at": "2026-07-28T04:20:07Z",
       "install": "herdr plugin install hmu332233/herdr-f1"
     },
     {
@@ -1785,27 +1806,6 @@
       "also": [],
       "pushed_at": "2026-07-10T20:49:41Z",
       "install": "herdr plugin install hotchpotch/herdr-tiny-fingers"
-    },
-    {
-      "full_name": "jeffarese/herdr-bar",
-      "name": "herdr-bar",
-      "owner": "jeffarese",
-      "url": "https://github.com/jeffarese/herdr-bar",
-      "description": "Cmd+K for herdr: fuzzy-jump to any tab, agent, repo or branch. Python stdlib only.",
-      "note": "",
-      "stars": 4,
-      "language": "Python",
-      "tags": [
-        "command-bar",
-        "fuzzy-finder",
-        "python",
-        "terminal",
-        "tui"
-      ],
-      "category": "finder",
-      "also": [],
-      "pushed_at": "2026-07-25T18:01:24Z",
-      "install": "herdr plugin install jeffarese/herdr-bar"
     },
     {
       "full_name": "kakigakki/herdr-auto-namer",
@@ -2048,7 +2048,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-28T03:34:38Z",
+      "pushed_at": "2026-07-28T04:23:34Z",
       "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
@@ -3147,6 +3147,23 @@
       "also": [],
       "pushed_at": "2026-07-15T11:51:15Z",
       "install": "herdr plugin install malone-c/herdr-keybind-search"
+    },
+    {
+      "full_name": "MIDO-ruby7/herdr-plugins-directory",
+      "name": "herdr-plugins-directory",
+      "owner": "MIDO-ruby7",
+      "url": "https://github.com/MIDO-ruby7/herdr-plugins-directory",
+      "description": "A link collection for finding herdr plugins by what you want to get done.",
+      "note": "",
+      "stars": 2,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-07-28T04:27:46Z",
+      "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
       "full_name": "miiraheart/herdr-beads",
@@ -4308,6 +4325,27 @@
       "also": [],
       "pushed_at": "2026-07-02T12:53:23Z",
       "install": "herdr plugin install lmilojevicc/herdr-tab-rename"
+    },
+    {
+      "full_name": "LoneExile/merino",
+      "name": "merino",
+      "owner": "LoneExile",
+      "url": "https://github.com/LoneExile/merino",
+      "description": "Merino — menu bar + phone dashboard for herdr agents",
+      "note": "",
+      "stars": 1,
+      "language": "Go",
+      "tags": [
+        "go",
+        "macos",
+        "menubar",
+        "react",
+        "wails"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-07-28T04:26:43Z",
+      "install": "herdr plugin install LoneExile/merino"
     },
     {
       "full_name": "matheus3301/herdr-phone",
