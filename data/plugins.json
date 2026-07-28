@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 00:59 UTC",
+  "generated_at": "2026-07-28 01:58 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -294,6 +294,29 @@
       "install": "herdr plugin install nikok6/herdr-mirror"
     },
     {
+      "full_name": "ogulcancelik/herdr-browser",
+      "name": "herdr-browser",
+      "owner": "ogulcancelik",
+      "url": "https://github.com/ogulcancelik/herdr-browser",
+      "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
+      "note": "",
+      "stars": 63,
+      "language": "TypeScript",
+      "tags": [
+        "browser",
+        "browser-automation",
+        "cdp",
+        "chromium",
+        "kitty-graphics",
+        "terminal",
+        "typescript"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-07-27T17:13:11Z",
+      "install": "herdr plugin install ogulcancelik/herdr-browser"
+    },
+    {
       "full_name": "osolmaz/ghzinga",
       "name": "ghzinga",
       "owner": "osolmaz",
@@ -326,29 +349,6 @@
       "also": [],
       "pushed_at": "2026-07-24T06:44:51Z",
       "install": "herdr plugin install devashish2203/herdr-worktrunk"
-    },
-    {
-      "full_name": "ogulcancelik/herdr-browser",
-      "name": "herdr-browser",
-      "owner": "ogulcancelik",
-      "url": "https://github.com/ogulcancelik/herdr-browser",
-      "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
-      "note": "",
-      "stars": 58,
-      "language": "TypeScript",
-      "tags": [
-        "browser",
-        "browser-automation",
-        "cdp",
-        "chromium",
-        "kitty-graphics",
-        "terminal",
-        "typescript"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-07-27T17:13:11Z",
-      "install": "herdr plugin install ogulcancelik/herdr-browser"
     },
     {
       "full_name": "paulbkim-dev/vim-herdr-navigation",
@@ -662,6 +662,23 @@
       "install": "herdr plugin install ogulcancelik/herdr-plugin-github-start"
     },
     {
+      "full_name": "rmarganti/herdr-pluck",
+      "name": "herdr-pluck",
+      "owner": "rmarganti",
+      "url": "https://github.com/rmarganti/herdr-pluck",
+      "description": "quickly copy pattern-matched strings from Herdr panes",
+      "note": "",
+      "stars": 15,
+      "language": "Rust",
+      "tags": [
+        "rust"
+      ],
+      "category": "text",
+      "also": [],
+      "pushed_at": "2026-07-24T15:44:09Z",
+      "install": "herdr plugin install rmarganti/herdr-pluck"
+    },
+    {
       "full_name": "Tyru5/herdr-floax",
       "name": "herdr-floax",
       "owner": "Tyru5",
@@ -679,23 +696,6 @@
       "also": [],
       "pushed_at": "2026-07-26T00:01:24Z",
       "install": "herdr plugin install Tyru5/herdr-floax"
-    },
-    {
-      "full_name": "rmarganti/herdr-pluck",
-      "name": "herdr-pluck",
-      "owner": "rmarganti",
-      "url": "https://github.com/rmarganti/herdr-pluck",
-      "description": "quickly copy pattern-matched strings from Herdr panes",
-      "note": "",
-      "stars": 14,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "text",
-      "also": [],
-      "pushed_at": "2026-07-24T15:44:09Z",
-      "install": "herdr plugin install rmarganti/herdr-pluck"
     },
     {
       "full_name": "fullerzz/herdr-plugin-sesh",
@@ -1994,7 +1994,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-27T17:02:55Z",
+      "pushed_at": "2026-07-28T00:59:38Z",
       "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
@@ -2056,7 +2056,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-28T00:56:09Z",
+      "pushed_at": "2026-07-28T01:38:43Z",
       "install": "herdr plugin install aorumbayev/herdr-workflows"
     },
     {
@@ -4563,7 +4563,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-07-27T23:11:23Z",
+      "pushed_at": "2026-07-28T01:12:15Z",
       "install": "herdr plugin install speardragon/herdr-command-center"
     },
     {
@@ -6539,7 +6539,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-07-27T15:58:35Z",
+      "pushed_at": "2026-07-28T01:07:02Z",
       "install": "herdr plugin install phin-tech/herdr-phin-util"
     },
     {
