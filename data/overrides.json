@@ -50,15 +50,71 @@
     "note": "書き方の例。存在しないリポジトリは無視される"
   },
   "riq0h/tab-blank-number": {
-    "category": "naming"
+    "category": "naming",
+    "description": "herdr plugin that clears herdr's default numeric tab labels (1, 2, 3…) to blank."
   },
   "riq0h/tab-process-name": {
-    "category": "naming"
+    "category": "naming",
+    "description": "herdr plugin that labels each tab with its foreground process name — tmux's automatic-rename behavior, for herdr."
   },
   "ryonakae/shepherd": {
     "category": "monitor"
   },
   "taxueseek/session-digger": {
     "category": "session"
+  },
+  "aashishd/herdr-agent-messenger": {
+    "description": "Send focused, self-contained messages between AI agents running in live Herdr panes, so one agent can coordinate work with another without sharing its full context."
+  },
+  "darjss/herdr-orchestrate": {
+    "description": "Pi-native orchestration for visible Herdr worker sessions — a run board, durable prompts/reports/state, isolated git worktrees, and explicit model routing."
+  },
+  "krystof018/herdr-git-status": {
+    "description": "Surfaces CI status inside herdr for both GitLab (pipelines + merge requests) and GitHub (Actions + pull requests), auto-detected from the repo's origin."
+  },
+  "lachieh/herdr-plugin-cmux": {
+    "description": "Mirrors every herdr-managed agent into a cmux sidebar as its own live row, with a status pill and a click-to-jump task line."
+  },
+  "aclima01/herdr-edit-windows": {
+    "description": "A simple text editor that runs in a herdr pane beside your coding agent — file tree, syntax-highlighted editor, and an uncommitted-diff tab. Windows-only."
+  },
+  "HikaruEgashira/say-hook": {
+    "description": "A macOS CLI that reads Claude Code hook events aloud using ElevenLabs text-to-speech."
+  },
+  "Allianaab2m/herdr-hunk-gh-diff": {
+    "description": "Herdr plugin: open a Hunk diff between the branch checked out in the current pane and the target branch of its GitHub pull request."
+  },
+  "gilvanecesar/herdr-attach": {
+    "description": "Pick local files from a Herdr popup and send them to the focused coding agent, attaching file context without leaving the terminal."
+  },
+  "maedana/herdr-agents-bridge": {
+    "description": "Monitor and interact with your coding agents from your phone via a local mobile-friendly web UI — connect by scanning a QR code."
+  },
+  "maedana/herdr-agents-preview": {
+    "description": "Multi-agent terminal preview dashboard for Herdr: all running agents shown at once, with the selected agent taking most of the width."
+  },
+  "maedana/herdr-agents-status": {
+    "description": "Always-on-top transparent overlay showing Herdr agent status — a spiritual successor to claudeye, built for Herdr instead of tmux."
+  },
+  "maedana/herdr-hint": {
+    "description": "Vimium-style hint labels for Herdr — press a key to see labels on tabs and agents, then press a label to jump."
+  },
+  "maedana/herdr-whereami": {
+    "description": "Herdr plugin that automatically renames tabs to show where you are, e.g. repo-name/branch when inside a git repository."
+  },
+  "MartinBspheroid/herdr-agent-dash": {
+    "description": "Herdr Agent Board: a local, keyboard-first plugin for scanning active coding agents, their state, working directory, and Git context at a glance."
+  },
+  "OiAnthony/herdr-plugin-telegram-notify": {
+    "description": "Standalone Herdr plugin that sends Telegram notifications when an agent is done or blocked."
+  },
+  "Qu4tro/herdr-whichkey": {
+    "description": "A blezz/which-key-style action menu for herdr: one trigger key, then one keystroke per action — no typing, no Enter."
+  },
+  "raghu-nandan-bs/herdr-deck-navigation": {
+    "description": "Replaces herdr's flat workspace/tab/pane navigator with a Deck view built to reach any pane fast without scrolling."
+  },
+  "tomaszhanc/herdr-plugins": {
+    "description": "A personal monorepo of herdr plugins, each living in its own folder with a herdr-plugin.toml manifest and an executable."
   }
 }
