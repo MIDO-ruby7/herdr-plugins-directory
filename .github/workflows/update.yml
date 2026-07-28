@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: update-index
@@ -33,7 +34,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/build.py
 
-      - name: Commit if changed
+      - name: Open and merge index-refresh PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,6 +44,15 @@ jobs:
             echo "no changes"
             exit 0
           fi
+          BRANCH="bot/update-index"
+          git checkout -B "$BRANCH"
           git add README.md data/plugins.json
           git commit -m "chore: refresh plugin index ($(date -u +%Y-%m-%d))"
-          git push
+          git push -f origin "$BRANCH"
+          if [ "$(gh pr list --base main --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
+            gh pr create --base main --head "$BRANCH" \
+              --title "chore: refresh plugin index ($(date -u +%Y-%m-%d))" \
+              --body "Automated index refresh from scripts/build.py."
+          fi
+          PR_NUMBER=$(gh pr list --base main --head "$BRANCH" --state open --json number --jq '.[0].number')
+          gh pr merge "$PR_NUMBER" --squash --delete-branch
