@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/build.py"
       - "data/overrides.json"
+      - "data/translations.json"
       - ".github/workflows/update.yml"
 
 permissions:
@@ -40,13 +41,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- README.md data/plugins.json; then
+          if git diff --quiet -- README.md README.en.md README.zh.md data/plugins.json; then
             echo "no changes"
             exit 0
           fi
           BRANCH="bot/update-index"
           git checkout -B "$BRANCH"
-          git add README.md data/plugins.json
+          git add README.md README.en.md README.zh.md data/plugins.json
           git commit -m "chore: refresh plugin index ($(date -u +%Y-%m-%d))"
           git push -f origin "$BRANCH"
           if [ "$(gh pr list --base main --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
