@@ -383,7 +383,8 @@ def build() -> None:
         })
 
     entries.sort(key=lambda e: (-e["stars"], e["full_name"].lower()))
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now = datetime.now(timezone.utc)
+    generated = now.strftime("%Y-%m-%d %H:%M UTC")
 
     DATA.mkdir(exist_ok=True)
     (DATA / "plugins.json").write_text(json.dumps({
@@ -397,11 +398,11 @@ def build() -> None:
         "plugins": entries,
     }, ensure_ascii=False, indent=2) + "\n")
 
-    (ROOT / "README.md").write_text(render_readme(entries, generated))
+    (ROOT / "README.md").write_text(render_readme(entries, generated, now))
     print(f"wrote README.md and data/plugins.json ({len(entries)} plugins)")
 
 
-def render_readme(entries: list[dict], generated: str) -> str:
+def render_readme(entries: list[dict], generated: str, now: datetime) -> str:
     cats = [(k, ja, en, blurb) for k, ja, en, blurb, _ in CATEGORIES]
     cats.append(OTHER)
 
@@ -455,10 +456,10 @@ def render_readme(entries: list[dict], generated: str) -> str:
         add("")
         add(f"> {blurb}")
         add("")
-        add("| プラグイン | できること | タグ | ★ | 更新 |")
+        add("| プラグイン | できること | タグ | ★ | 最終更新 |")
         add("| --- | --- | --- | --: | --- |")
         for entry in items:
-            add(row(entry))
+            add(row(entry, now))
         add("")
         extras = [e for e in secondary[key] if e["category"] != key]
         if extras:
@@ -512,12 +513,18 @@ def render_readme(entries: list[dict], generated: str) -> str:
     return "\n".join(lines)
 
 
-def row(entry: dict) -> str:
+RECENT_DAYS = 14
+
+
+def row(entry: dict, now: datetime) -> str:
     tags = " ".join(f"`{t}`" for t in entry["tags"][:5]) or "—"
     desc = one_line(entry["description"])
     if entry["note"]:
         desc += f"<br>📝 {one_line(entry['note'], 90)}"
-    pushed = entry["pushed_at"][:7]
+    pushed_at = datetime.fromisoformat(entry["pushed_at"].replace("Z", "+00:00"))
+    pushed = pushed_at.strftime("%Y-%m-%d")
+    if (now - pushed_at).days <= RECENT_DAYS:
+        pushed = f"🆕 {pushed}"
     return (f"| [**{entry['name']}**]({entry['url']})<br><sub>{entry['owner']}</sub>"
             f" | {desc} | {tags} | {entry['stars']} | {pushed} |")
 
