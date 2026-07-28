@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 03:16 UTC",
+  "generated_at": "2026-07-28 03:27 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -344,7 +344,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-07-28T02:49:29Z",
+      "pushed_at": "2026-07-28T03:15:57Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -1249,7 +1249,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-07-28T02:39:23Z",
+      "pushed_at": "2026-07-28T03:20:38Z",
       "install": "herdr plugin install luminexord/herdres"
     },
     {
