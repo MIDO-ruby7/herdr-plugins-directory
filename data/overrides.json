@@ -1,0 +1,64 @@
+{
+  "Newt6611/herdr-plugin-rust": {
+    "category": "meta"
+  },
+  "Orchard-Robotics/herdview": {
+    "category": "remote"
+  },
+  "TaylorFinklea/herdr-ask": {
+    "category": "agents"
+  },
+  "alexjsp/herdr-scrollback-capture": {
+    "category": "text"
+  },
+  "devskale/herdr-flist": {
+    "category": "files"
+  },
+  "jasonrr/herdr-tally": {
+    "category": "monitor",
+    "add_tags": [
+      "todo"
+    ],
+    "note": "プロジェクト単位の TODO 管理"
+  },
+  "jwarykowski/shepherd": {
+    "category": "monitor"
+  },
+  "lancodev/herdr-laravel-tinker": {
+    "category": "other",
+    "add_tags": [
+      "laravel",
+      "repl"
+    ]
+  },
+  "miiraheart/herdr-beads": {
+    "category": "monitor",
+    "add_tags": [
+      "kanban",
+      "todo"
+    ]
+  },
+  "ogulcancelik/herdr-plugin-examples": {
+    "category": "meta",
+    "note": "公式のサンプル集。コピー元として使う想定で、メンテされた公式プラグインではない"
+  },
+  "owner/repo-example": {
+    "category": "other",
+    "add_tags": [
+      "例"
+    ],
+    "note": "書き方の例。存在しないリポジトリは無視される"
+  },
+  "riq0h/tab-blank-number": {
+    "category": "naming"
+  },
+  "riq0h/tab-process-name": {
+    "category": "naming"
+  },
+  "ryonakae/shepherd": {
+    "category": "monitor"
+  },
+  "taxueseek/session-digger": {
+    "category": "session"
+  }
+}
