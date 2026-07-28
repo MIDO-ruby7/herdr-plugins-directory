@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 00:09 UTC",
+  "generated_at": "2026-07-28 00:59 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -185,7 +185,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
       "note": "",
-      "stars": 257,
+      "stars": 259,
       "language": "Rust",
       "tags": [
         "code-review",
@@ -328,6 +328,29 @@
       "install": "herdr plugin install devashish2203/herdr-worktrunk"
     },
     {
+      "full_name": "ogulcancelik/herdr-browser",
+      "name": "herdr-browser",
+      "owner": "ogulcancelik",
+      "url": "https://github.com/ogulcancelik/herdr-browser",
+      "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
+      "note": "",
+      "stars": 58,
+      "language": "TypeScript",
+      "tags": [
+        "browser",
+        "browser-automation",
+        "cdp",
+        "chromium",
+        "kitty-graphics",
+        "terminal",
+        "typescript"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-07-27T17:13:11Z",
+      "install": "herdr plugin install ogulcancelik/herdr-browser"
+    },
+    {
       "full_name": "paulbkim-dev/vim-herdr-navigation",
       "name": "vim-herdr-navigation",
       "owner": "paulbkim-dev",
@@ -345,29 +368,6 @@
       "also": [],
       "pushed_at": "2026-07-07T21:38:23Z",
       "install": "herdr plugin install paulbkim-dev/vim-herdr-navigation"
-    },
-    {
-      "full_name": "ogulcancelik/herdr-browser",
-      "name": "herdr-browser",
-      "owner": "ogulcancelik",
-      "url": "https://github.com/ogulcancelik/herdr-browser",
-      "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
-      "note": "",
-      "stars": 52,
-      "language": "TypeScript",
-      "tags": [
-        "browser",
-        "browser-automation",
-        "cdp",
-        "chromium",
-        "kitty-graphics",
-        "terminal",
-        "typescript"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-07-27T17:13:11Z",
-      "install": "herdr plugin install ogulcancelik/herdr-browser"
     },
     {
       "full_name": "yuk1ty/herdr-spreader",
@@ -1677,7 +1677,7 @@
       ],
       "category": "worktree",
       "also": [],
-      "pushed_at": "2026-07-21T00:14:28Z",
+      "pushed_at": "2026-07-28T00:13:45Z",
       "install": "herdr plugin install EzraCerpac/jj-waltz"
     },
     {
@@ -2056,7 +2056,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-26T18:01:44Z",
+      "pushed_at": "2026-07-28T00:56:09Z",
       "install": "herdr plugin install aorumbayev/herdr-workflows"
     },
     {
@@ -2507,6 +2507,25 @@
       "also": [],
       "pushed_at": "2026-07-05T20:37:50Z",
       "install": "herdr plugin install scott306lr/herdr-plugin-hunk-autodiff"
+    },
+    {
+      "full_name": "ShankyJS/herdr-space-scoped-agents",
+      "name": "herdr-space-scoped-agents",
+      "owner": "ShankyJS",
+      "url": "https://github.com/ShankyJS/herdr-space-scoped-agents",
+      "description": "herdr plugin that scopes the agent panel to the space you're focused on",
+      "note": "",
+      "stars": 3,
+      "language": "Go",
+      "tags": [
+        "coding-agents",
+        "terminal",
+        "go"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-07-23T02:49:43Z",
+      "install": "herdr plugin install ShankyJS/herdr-space-scoped-agents"
     },
     {
       "full_name": "shizlie/herdr-setup-bootstrap",
@@ -6509,7 +6528,7 @@
       "name": "herdr-phin-util",
       "owner": "phin-tech",
       "url": "https://github.com/phin-tech/herdr-phin-util",
-      "description": "Herdr plugin: small everyday utilities. Promote a pane into its own Space — moving the live terminal, so an agent keeps its session.",
+      "description": "Personal Herdr Utils",
       "note": "",
       "stars": 0,
       "language": "Go",
@@ -6518,7 +6537,7 @@
         "tui",
         "go"
       ],
-      "category": "agents",
+      "category": "other",
       "also": [],
       "pushed_at": "2026-07-27T15:58:35Z",
       "install": "herdr plugin install phin-tech/herdr-phin-util"
