@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01 13:54 UTC",
+  "generated_at": "2026-08-01 19:33 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "url": "https://github.com/openclaw/crabbox",
       "description": "Crabbox: warm a box, sync the diff, run the suite.",
       "note": "",
-      "stars": 1241,
+      "stars": 1243,
       "language": "Go",
       "tags": [
         "agent-skills",
@@ -216,7 +216,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 310,
+      "stars": 315,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -239,7 +239,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
       "note": "",
-      "stars": 299,
+      "stars": 303,
       "language": "Rust",
       "tags": [
         "code-review",
@@ -260,7 +260,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 224,
+      "stars": 225,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -283,7 +283,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 208,
+      "stars": 213,
       "language": "TypeScript",
       "tags": [
         "typescript"
@@ -300,7 +300,7 @@
       "url": "https://github.com/cloudmanic/herdr-plus",
       "description": "An extension for herdr, built as a first-class herdr plugin — a collection of tools that make it better: Projects and Quick Actions.",
       "note": "",
-      "stars": 188,
+      "stars": 189,
       "language": "Go",
       "tags": [
         "go"
@@ -367,7 +367,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-01T10:48:35Z",
+      "pushed_at": "2026-08-01T19:20:54Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -377,7 +377,7 @@
       "url": "https://github.com/devashish2203/herdr-worktrunk",
       "description": "Herdr Plugin to integrate worktrunk for git worktree management",
       "note": "",
-      "stars": 71,
+      "stars": 74,
       "language": "Shell",
       "tags": [
         "shell"
@@ -411,7 +411,7 @@
       "url": "https://github.com/paulbkim-dev/vim-herdr-navigation",
       "description": "Seamless Ctrl+h/j/k/l navigation across herdr panes and Vim/Neovim splits — vim-tmux-navigator ported to herdr",
       "note": "",
-      "stars": 64,
+      "stars": 65,
       "language": "Shell",
       "tags": [
         "neovim",
@@ -430,7 +430,7 @@
       "url": "https://github.com/yuk1ty/herdr-spreader",
       "description": "Spin up your whole herdr workspace layout — tabs, panes, commands, and all — from a single YAML file.",
       "note": "",
-      "stars": 57,
+      "stars": 58,
       "language": "Rust",
       "tags": [
         "rust"
@@ -447,7 +447,7 @@
       "url": "https://github.com/thanhdat77/herdr-navigator",
       "description": "Jump to any Herdr workspace, agent, project, session, remote, directory, or action from one fuzzy navigator.",
       "note": "",
-      "stars": 40,
+      "stars": 41,
       "language": "Rust",
       "tags": [
         "fuzzy-finder",
@@ -532,7 +532,7 @@
       "url": "https://github.com/fkiene/llmtrim-herdr",
       "description": "💸 Shrink your token bill in herdr: compresses every agent pane's requests (-31% input / -74% output, measured live) and shows the savings on a per-pane badge",
       "note": "",
-      "stars": 27,
+      "stars": 28,
       "language": "PowerShell",
       "tags": [
         "llm-proxy",
@@ -734,25 +734,6 @@
       "install": "herdr plugin install alexarthurs/herdr-sidebar"
     },
     {
-      "full_name": "cobanov/herdr-ntfysh",
-      "name": "herdr-ntfysh",
-      "owner": "cobanov",
-      "url": "https://github.com/cobanov/herdr-ntfysh",
-      "description": "herdr plugin: push ntfy notifications when an agent finishes or needs your input",
-      "note": "",
-      "stars": 18,
-      "language": "Go",
-      "tags": [
-        "notifications",
-        "ntfy",
-        "go"
-      ],
-      "category": "notify",
-      "also": [],
-      "pushed_at": "2026-07-02T13:51:52Z",
-      "install": "herdr plugin install cobanov/herdr-ntfysh"
-    },
-    {
       "full_name": "Tyru5/herdr-floax",
       "name": "herdr-floax",
       "owner": "Tyru5",
@@ -920,6 +901,23 @@
       "install": "herdr plugin install ragamo/herdr-flock"
     },
     {
+      "full_name": "third774/herdr-last-workspace",
+      "name": "herdr-last-workspace",
+      "owner": "third774",
+      "url": "https://github.com/third774/herdr-last-workspace",
+      "description": "Plugin for swapping to the last workspace you had focused",
+      "note": "",
+      "stars": 13,
+      "language": "Rust",
+      "tags": [
+        "rust"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-06-22T17:05:17Z",
+      "install": "herdr plugin install third774/herdr-last-workspace"
+    },
+    {
       "full_name": "Crokily/herdr-lazygit",
       "name": "herdr-lazygit",
       "owner": "Crokily",
@@ -976,23 +974,6 @@
       "also": [],
       "pushed_at": "2026-07-06T05:32:09Z",
       "install": "herdr plugin install ribbons-digital/pi-herd"
-    },
-    {
-      "full_name": "third774/herdr-last-workspace",
-      "name": "herdr-last-workspace",
-      "owner": "third774",
-      "url": "https://github.com/third774/herdr-last-workspace",
-      "description": "Plugin for swapping to the last workspace you had focused",
-      "note": "",
-      "stars": 12,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-06-22T17:05:17Z",
-      "install": "herdr plugin install third774/herdr-last-workspace"
     },
     {
       "full_name": "senna-lang/herdr-agent-usage",
@@ -1094,6 +1075,29 @@
       "also": [],
       "pushed_at": "2026-07-21T09:30:38Z",
       "install": "herdr plugin install Matovidlo/herdr-pr-tracker"
+    },
+    {
+      "full_name": "ntindle/herdr-resurrect",
+      "name": "herdr-resurrect",
+      "owner": "ntindle",
+      "url": "https://github.com/ntindle/herdr-resurrect",
+      "description": "tmux-resurrect for herdr — snapshot workspaces, tabs, panes, cwd, running programs and agents, and restore them after a crash or reboot.",
+      "note": "",
+      "stars": 10,
+      "language": "JavaScript",
+      "tags": [
+        "crash-recovery",
+        "session-manager",
+        "terminal-multiplexer",
+        "tmux-resurrect",
+        "javascript"
+      ],
+      "category": "session",
+      "also": [
+        "layout"
+      ],
+      "pushed_at": "2026-07-12T16:03:50Z",
+      "install": "herdr plugin install ntindle/herdr-resurrect"
     },
     {
       "full_name": "qu8n/herdr-automatic-rename",
@@ -1211,29 +1215,6 @@
       "install": "herdr plugin install nelsonPires5/herdr-board"
     },
     {
-      "full_name": "ntindle/herdr-resurrect",
-      "name": "herdr-resurrect",
-      "owner": "ntindle",
-      "url": "https://github.com/ntindle/herdr-resurrect",
-      "description": "tmux-resurrect for herdr — snapshot workspaces, tabs, panes, cwd, running programs and agents, and restore them after a crash or reboot.",
-      "note": "",
-      "stars": 9,
-      "language": "JavaScript",
-      "tags": [
-        "crash-recovery",
-        "session-manager",
-        "terminal-multiplexer",
-        "tmux-resurrect",
-        "javascript"
-      ],
-      "category": "session",
-      "also": [
-        "layout"
-      ],
-      "pushed_at": "2026-07-12T16:03:50Z",
-      "install": "herdr plugin install ntindle/herdr-resurrect"
-    },
-    {
       "full_name": "ChmaraX/herdr-nvim",
       "name": "herdr-nvim",
       "owner": "ChmaraX",
@@ -1270,6 +1251,27 @@
       "also": [],
       "pushed_at": "2026-07-30T00:22:17Z",
       "install": "herdr plugin install ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay"
+    },
+    {
+      "full_name": "jeffarese/herdr-bar",
+      "name": "herdr-bar",
+      "owner": "jeffarese",
+      "url": "https://github.com/jeffarese/herdr-bar",
+      "description": "Cmd+K for herdr: fuzzy-jump to any tab, agent, repo or branch. Python stdlib only.",
+      "note": "",
+      "stars": 8,
+      "language": "Python",
+      "tags": [
+        "command-bar",
+        "fuzzy-finder",
+        "python",
+        "terminal",
+        "tui"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-07-25T18:01:24Z",
+      "install": "herdr plugin install jeffarese/herdr-bar"
     },
     {
       "full_name": "lmilojevicc/seshagy",
@@ -1412,27 +1414,6 @@
       "install": "herdr plugin install dwarvesf/herdr-quicklook"
     },
     {
-      "full_name": "jeffarese/herdr-bar",
-      "name": "herdr-bar",
-      "owner": "jeffarese",
-      "url": "https://github.com/jeffarese/herdr-bar",
-      "description": "Cmd+K for herdr: fuzzy-jump to any tab, agent, repo or branch. Python stdlib only.",
-      "note": "",
-      "stars": 7,
-      "language": "Python",
-      "tags": [
-        "command-bar",
-        "fuzzy-finder",
-        "python",
-        "terminal",
-        "tui"
-      ],
-      "category": "finder",
-      "also": [],
-      "pushed_at": "2026-07-25T18:01:24Z",
-      "install": "herdr plugin install jeffarese/herdr-bar"
-    },
-    {
       "full_name": "luminexord/herdres",
       "name": "herdres",
       "owner": "luminexord",
@@ -1448,7 +1429,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-08-01T13:25:12Z",
+      "pushed_at": "2026-08-01T19:22:38Z",
       "install": "herdr plugin install luminexord/herdres"
     },
     {
@@ -1704,7 +1685,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-01T04:19:08Z",
+      "pushed_at": "2026-08-01T16:53:09Z",
       "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
@@ -1848,7 +1829,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-01T08:34:08Z",
+      "pushed_at": "2026-08-01T13:55:02Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2376,7 +2357,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-01T13:54:35Z",
+      "pushed_at": "2026-08-01T14:11:13Z",
       "install": "herdr plugin install aorumbayev/herdr-workflows"
     },
     {
@@ -3192,7 +3173,7 @@
       ],
       "category": "layout",
       "also": [],
-      "pushed_at": "2026-07-31T19:25:52Z",
+      "pushed_at": "2026-08-01T15:22:15Z",
       "install": "herdr plugin install danilolucasmd/herdr-clone-layout"
     },
     {
@@ -3612,7 +3593,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-07-31T17:24:43Z",
+      "pushed_at": "2026-08-01T16:03:55Z",
       "install": "herdr plugin install LoneExile/merino"
     },
     {
@@ -3746,6 +3727,26 @@
       "also": [],
       "pushed_at": "2026-07-23T14:13:50Z",
       "install": "herdr plugin install qq88976321/herdr-copy-search"
+    },
+    {
+      "full_name": "rohankewal/herdr-nerd-font-tab-name",
+      "name": "herdr-nerd-font-tab-name",
+      "owner": "rohankewal",
+      "url": "https://github.com/rohankewal/herdr-nerd-font-tab-name",
+      "description": "Nerd Font icons for your herdr tabs — a port of joshmedeski/tmux-nerd-font-window-name",
+      "note": "",
+      "stars": 2,
+      "language": "Python",
+      "tags": [
+        "nerd-fonts",
+        "python",
+        "terminal",
+        "tui"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-07-31T18:28:02Z",
+      "install": "herdr plugin install rohankewal/herdr-nerd-font-tab-name"
     },
     {
       "full_name": "rvalledorjr/herdr-fresh",
@@ -5005,6 +5006,24 @@
       "install": "herdr plugin install mattyan1053/herdr-compose"
     },
     {
+      "full_name": "ndom91/herdr-ai-tab-name",
+      "name": "herdr-ai-tab-name",
+      "owner": "ndom91",
+      "url": "https://github.com/ndom91/herdr-ai-tab-name",
+      "description": "Auto-rename your Herdr Tabs with local LLMs",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "local-llm",
+        "python"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-08-01T16:13:47Z",
+      "install": "herdr plugin install ndom91/herdr-ai-tab-name"
+    },
+    {
       "full_name": "Newt6611/herdr-plugin-rust",
       "name": "herdr-plugin-rust",
       "owner": "Newt6611",
@@ -5156,26 +5175,6 @@
       "also": [],
       "pushed_at": "2026-07-10T04:01:33Z",
       "install": "herdr plugin install robert-flo/herdr-terminal-file-manager"
-    },
-    {
-      "full_name": "rohankewal/herdr-nerd-font-tab-name",
-      "name": "herdr-nerd-font-tab-name",
-      "owner": "rohankewal",
-      "url": "https://github.com/rohankewal/herdr-nerd-font-tab-name",
-      "description": "Nerd Font icons for your herdr tabs — a port of joshmedeski/tmux-nerd-font-window-name",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "nerd-fonts",
-        "python",
-        "terminal",
-        "tui"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-07-31T18:28:02Z",
-      "install": "herdr plugin install rohankewal/herdr-nerd-font-tab-name"
     },
     {
       "full_name": "RooseveltAdvisors/herdr-leap",
@@ -5339,7 +5338,7 @@
       "also": [
         "agents"
       ],
-      "pushed_at": "2026-08-01T05:21:47Z",
+      "pushed_at": "2026-08-01T19:03:59Z",
       "install": "herdr plugin install steig/worktender"
     },
     {
@@ -5697,6 +5696,24 @@
       "also": [],
       "pushed_at": "2026-07-31T05:24:14Z",
       "install": "herdr plugin install yxhta/herdr-agents-picker"
+    },
+    {
+      "full_name": "3mmdrew/herdr-layout",
+      "name": "herdr-layout",
+      "owner": "3mmdrew",
+      "url": "https://github.com/3mmdrew/herdr-layout",
+      "description": "Minimalist workspace layouts for herdr. Lua file in -> workspace out. No deps, no daemon, no YAML.",
+      "note": "",
+      "stars": 0,
+      "language": "Lua",
+      "tags": [
+        "lua",
+        "terminal"
+      ],
+      "category": "layout",
+      "also": [],
+      "pushed_at": "2026-08-01T15:53:52Z",
+      "install": "herdr plugin install 3mmdrew/herdr-layout"
     },
     {
       "full_name": "ablause/herdr-flutter",
@@ -6154,7 +6171,7 @@
       "also": [
         "files"
       ],
-      "pushed_at": "2026-07-24T14:22:49Z",
+      "pushed_at": "2026-08-01T14:35:35Z",
       "install": "herdr plugin install ctbaum/herdr-deck"
     },
     {
@@ -6844,6 +6861,28 @@
       ],
       "pushed_at": "2026-07-24T07:52:15Z",
       "install": "herdr plugin install khatriafaz/herdr-plugin-auto-rename"
+    },
+    {
+      "full_name": "kojunseo/herdr-mobile-app",
+      "name": "herdr-mobile-app",
+      "owner": "kojunseo",
+      "url": "https://github.com/kojunseo/herdr-mobile-app",
+      "description": "Mobile companion site for persistent Herdr sessions over SSH",
+      "note": "",
+      "stars": 0,
+      "language": "HTML",
+      "tags": [
+        "android",
+        "github-pages",
+        "herdr-mobile",
+        "ios",
+        "ssh-client",
+        "html"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-08-01T14:47:24Z",
+      "install": "herdr plugin install kojunseo/herdr-mobile-app"
     },
     {
       "full_name": "kosuketut/herdr-remotedownloder",
@@ -8142,7 +8181,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-08-01T07:03:39Z",
+      "pushed_at": "2026-08-01T16:40:54Z",
       "install": "herdr plugin install shadowfax92/herdr-talon"
     },
     {
