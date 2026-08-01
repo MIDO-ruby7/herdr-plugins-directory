@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01 08:34 UTC",
+  "generated_at": "2026-08-01 13:54 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -182,7 +182,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-08-01T07:53:48Z",
+      "pushed_at": "2026-08-01T09:45:40Z",
       "install": "herdr plugin install openclaw/crabbox"
     },
     {
@@ -206,7 +206,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-07-30T19:28:44Z",
+      "pushed_at": "2026-08-01T10:03:40Z",
       "install": "herdr plugin install madarco/agentbox"
     },
     {
@@ -216,7 +216,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 308,
+      "stars": 310,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -239,7 +239,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
       "note": "",
-      "stars": 298,
+      "stars": 299,
       "language": "Rust",
       "tags": [
         "code-review",
@@ -250,7 +250,7 @@
       "also": [
         "files"
       ],
-      "pushed_at": "2026-08-01T06:16:45Z",
+      "pushed_at": "2026-08-01T09:33:18Z",
       "install": "herdr plugin install persiyanov/herdr-reviewr"
     },
     {
@@ -283,7 +283,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 207,
+      "stars": 208,
       "language": "TypeScript",
       "tags": [
         "typescript"
@@ -300,7 +300,7 @@
       "url": "https://github.com/cloudmanic/herdr-plus",
       "description": "An extension for herdr, built as a first-class herdr plugin — a collection of tools that make it better: Projects and Quick Actions.",
       "note": "",
-      "stars": 187,
+      "stars": 188,
       "language": "Go",
       "tags": [
         "go"
@@ -367,7 +367,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-01T04:01:29Z",
+      "pushed_at": "2026-08-01T10:48:35Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -447,7 +447,7 @@
       "url": "https://github.com/thanhdat77/herdr-navigator",
       "description": "Jump to any Herdr workspace, agent, project, session, remote, directory, or action from one fuzzy navigator.",
       "note": "",
-      "stars": 39,
+      "stars": 40,
       "language": "Rust",
       "tags": [
         "fuzzy-finder",
@@ -469,7 +469,7 @@
       "url": "https://github.com/NathanFlurry/herdr-plugin-jj-workspace",
       "description": "Create and remove Jujutsu (jj) workspaces as Herdr workspaces",
       "note": "",
-      "stars": 36,
+      "stars": 37,
       "language": "Rust",
       "tags": [
         "jujutsu",
@@ -567,7 +567,7 @@
       "also": [
         "layout"
       ],
-      "pushed_at": "2026-08-01T08:23:36Z",
+      "pushed_at": "2026-08-01T09:52:11Z",
       "install": "herdr plugin install andrewchng/herdr-sessionizer"
     },
     {
@@ -664,7 +664,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-07-31T21:51:14Z",
+      "pushed_at": "2026-08-01T11:11:31Z",
       "install": "herdr plugin install 0cv/herdr-mobile-relay"
     },
     {
@@ -1448,7 +1448,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-08-01T05:43:44Z",
+      "pushed_at": "2026-08-01T13:25:12Z",
       "install": "herdr plugin install luminexord/herdres"
     },
     {
@@ -1848,7 +1848,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-01T03:49:39Z",
+      "pushed_at": "2026-08-01T08:34:08Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2376,7 +2376,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-07-30T18:38:49Z",
+      "pushed_at": "2026-08-01T13:54:35Z",
       "install": "herdr plugin install aorumbayev/herdr-workflows"
     },
     {
@@ -4672,7 +4672,7 @@
       ],
       "category": "finder",
       "also": [],
-      "pushed_at": "2026-08-01T08:20:28Z",
+      "pushed_at": "2026-08-01T09:03:01Z",
       "install": "herdr plugin install haphamdev/herdr-simple-switcher"
     },
     {
@@ -5825,6 +5825,23 @@
       "install": "herdr plugin install asermax/herdr-suspend-workspace"
     },
     {
+      "full_name": "asumaran/gotopr",
+      "name": "gotopr",
+      "owner": "asumaran",
+      "url": "https://github.com/asumaran/gotopr",
+      "description": "Herdr plugin: jump to your open GitHub PRs across local repos and worktrees",
+      "note": "",
+      "stars": 0,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-08-01T08:49:48Z",
+      "install": "herdr plugin install asumaran/gotopr"
+    },
+    {
       "full_name": "azizuysal/herdr-workbench",
       "name": "herdr-workbench",
       "owner": "azizuysal",
@@ -5951,6 +5968,25 @@
       "also": [],
       "pushed_at": "2026-07-27T12:50:07Z",
       "install": "herdr plugin install calorie/herdr-auto-focus"
+    },
+    {
+      "full_name": "caoer/ccc-herdr-layout",
+      "name": "ccc-herdr-layout",
+      "owner": "caoer",
+      "url": "https://github.com/caoer/ccc-herdr-layout",
+      "description": "Visual layout picker plugin for herdr — one key, live preview",
+      "note": "",
+      "stars": 0,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "layout",
+      "also": [
+        "finder"
+      ],
+      "pushed_at": "2026-08-01T09:56:12Z",
+      "install": "herdr plugin install caoer/ccc-herdr-layout"
     },
     {
       "full_name": "cedrus-8864/herdr-prompt-reply",
@@ -7315,7 +7351,7 @@
       ],
       "category": "cost",
       "also": [],
-      "pushed_at": "2026-08-01T07:47:22Z",
+      "pushed_at": "2026-08-01T10:25:11Z",
       "install": "herdr plugin install mgh3326/scopefuel"
     },
     {
@@ -7373,23 +7409,6 @@
       "also": [],
       "pushed_at": "2026-07-02T14:19:20Z",
       "install": "herdr plugin install mikevalstar/herdr-machine-title"
-    },
-    {
-      "full_name": "morisono/herdr-translate",
-      "name": "herdr-translate",
-      "owner": "morisono",
-      "url": "https://github.com/morisono/herdr-translate",
-      "description": "Minimal translation pane: offline Argos machine translation with dictionary support, plus optional AI (LLM) translation",
-      "note": "",
-      "stars": 0,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-07-31T07:22:41Z",
-      "install": "herdr plugin install morisono/herdr-translate"
     },
     {
       "full_name": "mroth/herdr-jj-status",
@@ -7804,7 +7823,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-01T06:20:51Z",
+      "pushed_at": "2026-08-01T12:33:17Z",
       "install": "herdr plugin install plotarmordev/tendwire"
     },
     {
@@ -7912,6 +7931,23 @@
       "also": [],
       "pushed_at": "2026-07-28T20:27:34Z",
       "install": "herdr plugin install redsquiggle/herdr-browser"
+    },
+    {
+      "full_name": "retroaalto/herdr-smartnav",
+      "name": "herdr-smartnav",
+      "owner": "retroaalto",
+      "url": "https://github.com/retroaalto/herdr-smartnav",
+      "description": "Direction-aware pane navigation plugin for Herdr",
+      "note": "",
+      "stars": 0,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-08-01T11:36:02Z",
+      "install": "herdr plugin install retroaalto/herdr-smartnav"
     },
     {
       "full_name": "riq0h/tab-blank-number",
