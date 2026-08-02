@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02 19:33 UTC",
+  "generated_at": "2026-08-02 20:45 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -216,7 +216,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 324,
+      "stars": 325,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -367,7 +367,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-02T19:22:58Z",
+      "pushed_at": "2026-08-02T20:34:58Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -1022,7 +1022,7 @@
         "navigate",
         "naming"
       ],
-      "pushed_at": "2026-07-30T01:10:51Z",
+      "pushed_at": "2026-08-02T20:10:32Z",
       "install": "herdr plugin install qu8n/herdr-automatic-rename"
     },
     {
@@ -1487,7 +1487,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-02T13:53:56Z",
+      "pushed_at": "2026-08-02T20:45:18Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2491,6 +2491,25 @@
       "install": "herdr plugin install aclima01/herdr-notify-windows"
     },
     {
+      "full_name": "aimdevlee/herdr-nvim-nav",
+      "name": "herdr-nvim-nav",
+      "owner": "aimdevlee",
+      "url": "https://github.com/aimdevlee/herdr-nvim-nav",
+      "description": "Seamless Ctrl+h/j/k/l across herdr panes and Neovim splits — socket-based, no per-keystroke process",
+      "note": "",
+      "stars": 3,
+      "language": "Lua",
+      "tags": [
+        "neovim",
+        "neovim-plugin",
+        "lua"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-08-02T14:11:41Z",
+      "install": "herdr plugin install aimdevlee/herdr-nvim-nav"
+    },
+    {
       "full_name": "AkashJana18/herdr-scratch",
       "name": "herdr-scratch",
       "owner": "AkashJana18",
@@ -3146,25 +3165,6 @@
       "install": "herdr plugin install aashishd/herdr-agent-messenger"
     },
     {
-      "full_name": "aimdevlee/herdr-nvim-nav",
-      "name": "herdr-nvim-nav",
-      "owner": "aimdevlee",
-      "url": "https://github.com/aimdevlee/herdr-nvim-nav",
-      "description": "Seamless Ctrl+h/j/k/l across herdr panes and Neovim splits — socket-based, no per-keystroke process",
-      "note": "",
-      "stars": 2,
-      "language": "Lua",
-      "tags": [
-        "neovim",
-        "neovim-plugin",
-        "lua"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-08-02T14:11:41Z",
-      "install": "herdr plugin install aimdevlee/herdr-nvim-nav"
-    },
-    {
       "full_name": "alasano/house-of-herdr",
       "name": "house-of-herdr",
       "owner": "alasano",
@@ -3711,6 +3711,28 @@
       "also": [],
       "pushed_at": "2026-07-01T22:21:51Z",
       "install": "herdr plugin install kamaaina/herdr_sync"
+    },
+    {
+      "full_name": "kojunseo/sheperd-ssh-app",
+      "name": "sheperd-ssh-app",
+      "owner": "kojunseo",
+      "url": "https://github.com/kojunseo/sheperd-ssh-app",
+      "description": "Mobile companion site for persistent Herdr sessions over SSH",
+      "note": "",
+      "stars": 2,
+      "language": "HTML",
+      "tags": [
+        "android",
+        "github-pages",
+        "herdr-mobile",
+        "ios",
+        "ssh-client",
+        "html"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-08-02T07:50:58Z",
+      "install": "herdr plugin install kojunseo/sheperd-ssh-app"
     },
     {
       "full_name": "LeonardoTrapani/herdr-js-worktree-bootstrap",
@@ -4668,6 +4690,23 @@
       "install": "herdr plugin install cokekitten/herdr-telegram-bridge"
     },
     {
+      "full_name": "comparitiko/herdr-automations",
+      "name": "herdr-automations",
+      "owner": "comparitiko",
+      "url": "https://github.com/comparitiko/herdr-automations",
+      "description": "Schedule coding agents in isolated, reviewable Herdr worktrees",
+      "note": "",
+      "stars": 1,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-08-02T20:10:26Z",
+      "install": "herdr plugin install comparitiko/herdr-automations"
+    },
+    {
       "full_name": "crexi/herdr-worktree-copy",
       "name": "herdr-worktree-copy",
       "owner": "crexi",
@@ -5102,28 +5141,6 @@
       "also": [],
       "pushed_at": "2026-07-27T10:40:40Z",
       "install": "herdr plugin install kbrdn1/herdr-plugin-gwm"
-    },
-    {
-      "full_name": "kojunseo/sheperd-ssh-app",
-      "name": "sheperd-ssh-app",
-      "owner": "kojunseo",
-      "url": "https://github.com/kojunseo/sheperd-ssh-app",
-      "description": "Mobile companion site for persistent Herdr sessions over SSH",
-      "note": "",
-      "stars": 1,
-      "language": "HTML",
-      "tags": [
-        "android",
-        "github-pages",
-        "herdr-mobile",
-        "ios",
-        "ssh-client",
-        "html"
-      ],
-      "category": "remote",
-      "also": [],
-      "pushed_at": "2026-08-02T07:50:58Z",
-      "install": "herdr plugin install kojunseo/sheperd-ssh-app"
     },
     {
       "full_name": "lucasleon2107/herdr-tab-title-sync",
@@ -6288,23 +6305,6 @@
       "install": "herdr plugin install ChmaraX/herdr-gitview"
     },
     {
-      "full_name": "Comparitiko/herdr-automations",
-      "name": "herdr-automations",
-      "owner": "Comparitiko",
-      "url": "https://github.com/Comparitiko/herdr-automations",
-      "description": "Schedule coding agents in isolated, reviewable Herdr worktrees",
-      "note": "",
-      "stars": 0,
-      "language": "Go",
-      "tags": [
-        "go"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-08-01T15:05:43Z",
-      "install": "herdr plugin install Comparitiko/herdr-automations"
-    },
-    {
       "full_name": "Coolsik/herdr-codex-cost",
       "name": "herdr-codex-cost",
       "owner": "Coolsik",
@@ -6358,7 +6358,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-07-30T20:50:29Z",
+      "pushed_at": "2026-08-02T20:36:22Z",
       "install": "herdr plugin install CowboyVang/herdr-which-key"
     },
     {
@@ -6810,7 +6810,7 @@
       "also": [
         "text"
       ],
-      "pushed_at": "2026-08-02T13:36:47Z",
+      "pushed_at": "2026-08-02T20:23:56Z",
       "install": "herdr plugin install itayo-m/herdr-tab-session-name-sync"
     },
     {
