@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02 20:45 UTC",
+  "generated_at": "2026-08-02 23:58 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -216,7 +216,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 325,
+      "stars": 326,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -239,7 +239,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
       "note": "",
-      "stars": 309,
+      "stars": 310,
       "language": "Rust",
       "tags": [
         "code-review",
@@ -260,7 +260,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 238,
+      "stars": 239,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -283,7 +283,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 221,
+      "stars": 222,
       "language": "TypeScript",
       "tags": [
         "typescript"
@@ -336,7 +336,7 @@
       "url": "https://github.com/nikok6/herdr-mirror",
       "description": "Unify your local and remote sessions in one window: mirror remote herdr servers into your local sidebar and drive them over SSH",
       "note": "",
-      "stars": 87,
+      "stars": 88,
       "language": "Rust",
       "tags": [
         "rust"
@@ -367,7 +367,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-02T20:34:58Z",
+      "pushed_at": "2026-08-02T23:47:22Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -493,7 +493,7 @@
       "url": "https://github.com/NathanFlurry/herdr-plugin-jj-workspace",
       "description": "Create and remove Jujutsu (jj) workspaces as Herdr workspaces",
       "note": "",
-      "stars": 37,
+      "stars": 38,
       "language": "Rust",
       "tags": [
         "jujutsu",
@@ -711,7 +711,7 @@
       "also": [
         "layout"
       ],
-      "pushed_at": "2026-08-02T14:02:18Z",
+      "pushed_at": "2026-08-02T22:20:45Z",
       "install": "herdr plugin install fullerzz/herdr-plugin-sesh"
     },
     {
@@ -1487,7 +1487,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-02T20:45:18Z",
+      "pushed_at": "2026-08-02T23:57:36Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -1550,6 +1550,23 @@
       "also": [],
       "pushed_at": "2026-07-28T09:51:37Z",
       "install": "herdr plugin install StructuPath/herdr-browser"
+    },
+    {
+      "full_name": "0xGosu/herdr-auto-pilot",
+      "name": "herdr-auto-pilot",
+      "owner": "0xGosu",
+      "url": "https://github.com/0xGosu/herdr-auto-pilot",
+      "description": "A Herdr plugin that will automatically prompt the running AI Coding CLI on-behalf of you via Herdr API. The plugin has training mode which learn from your actions and also has guards to prevent dangerous/malicious actions to be performed. Once it has been trained with enough interaction you can let it run on Full-Self Prompting mode (FSP)",
+      "note": "",
+      "stars": 6,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-08-02T14:39:05Z",
+      "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
       "full_name": "AVGVSTVS96/herdr-drovr",
@@ -1711,23 +1728,6 @@
       "also": [],
       "pushed_at": "2026-06-23T07:23:02Z",
       "install": "herdr plugin install zom-2018/herdr-ntfy-notify"
-    },
-    {
-      "full_name": "0xGosu/herdr-auto-pilot",
-      "name": "herdr-auto-pilot",
-      "owner": "0xGosu",
-      "url": "https://github.com/0xGosu/herdr-auto-pilot",
-      "description": "A Herdr plugin that will automatically prompt the running AI Coding CLI on-behalf of you via Herdr API. The plugin has training mode which learn from your actions and also has guards to prevent dangerous/malicious actions to be performed. Once it has been trained with enough interaction you can let it run on Full-Self Prompting mode (FSP)",
-      "note": "",
-      "stars": 5,
-      "language": "Go",
-      "tags": [
-        "go"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-08-02T14:39:05Z",
-      "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
       "full_name": "aarsh21/herdr-tab-title",
@@ -4497,6 +4497,23 @@
       "install": "herdr plugin install benkraus/herdr-plugin-codex-subs"
     },
     {
+      "full_name": "benkraus/herdr-plugin-mobile-relay",
+      "name": "herdr-plugin-mobile-relay",
+      "owner": "benkraus",
+      "url": "https://github.com/benkraus/herdr-plugin-mobile-relay",
+      "description": "",
+      "note": "",
+      "stars": 1,
+      "language": "TypeScript",
+      "tags": [
+        "typescript"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-08-02T21:22:51Z",
+      "install": "herdr plugin install benkraus/herdr-plugin-mobile-relay"
+    },
+    {
       "full_name": "blurname/herdr-git-tab-name",
       "name": "herdr-git-tab-name",
       "owner": "blurname",
@@ -6125,23 +6142,6 @@
       "install": "herdr plugin install bengemine/herdr-hibernate"
     },
     {
-      "full_name": "benkraus/herdr-plugin-mobile-relay",
-      "name": "herdr-plugin-mobile-relay",
-      "owner": "benkraus",
-      "url": "https://github.com/benkraus/herdr-plugin-mobile-relay",
-      "description": "",
-      "note": "",
-      "stars": 0,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "remote",
-      "also": [],
-      "pushed_at": "2026-08-02T18:58:53Z",
-      "install": "herdr plugin install benkraus/herdr-plugin-mobile-relay"
-    },
-    {
       "full_name": "bkarpinos/herdr-picker",
       "name": "herdr-picker",
       "owner": "bkarpinos",
@@ -6157,6 +6157,23 @@
       "also": [],
       "pushed_at": "2026-07-25T02:16:50Z",
       "install": "herdr plugin install bkarpinos/herdr-picker"
+    },
+    {
+      "full_name": "bredebjorhovd/herdr-board",
+      "name": "herdr-board",
+      "owner": "bredebjorhovd",
+      "url": "https://github.com/bredebjorhovd/herdr-board",
+      "description": "Where coding agents queue up and run their own work — GitHub issues in, autonomous agents in herdr panes, PR reviews delivered back to the agent that wrote them.",
+      "note": "",
+      "stars": 0,
+      "language": "Rust",
+      "tags": [
+        "rust"
+      ],
+      "category": "forge",
+      "also": [],
+      "pushed_at": "2026-08-02T21:30:44Z",
+      "install": "herdr plugin install bredebjorhovd/herdr-board"
     },
     {
       "full_name": "brianh20/herdr-stagr",
@@ -7599,6 +7616,26 @@
       "install": "herdr plugin install maxBRT/herdr-omarchy-theme-sync"
     },
     {
+      "full_name": "mdetweil/herdr-lazytask",
+      "name": "herdr-lazytask",
+      "owner": "mdetweil",
+      "url": "https://github.com/mdetweil/herdr-lazytask",
+      "description": "Lazytask in a herdr split pane (open/focus/toggle) plus Taskwarrior quick actions",
+      "note": "",
+      "stars": 0,
+      "language": "Rust",
+      "tags": [
+        "lazytask",
+        "taskwarrior",
+        "terminal",
+        "rust"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-08-02T22:59:47Z",
+      "install": "herdr plugin install mdetweil/herdr-lazytask"
+    },
+    {
       "full_name": "mgh3326/scopefuel",
       "name": "scopefuel",
       "owner": "mgh3326",
@@ -7660,6 +7697,26 @@
       "also": [],
       "pushed_at": "2026-07-31T19:52:32Z",
       "install": "herdr plugin install mikedclarke/herdr-shepherd"
+    },
+    {
+      "full_name": "mikedclarke/herdr-workspaces",
+      "name": "herdr-workspaces",
+      "owner": "mikedclarke",
+      "url": "https://github.com/mikedclarke/herdr-workspaces",
+      "description": "Directories as workspaces for herdr: register the places you work, fuzzy-pick one, get a named workspace there",
+      "note": "",
+      "stars": 0,
+      "language": "Go",
+      "tags": [
+        "go",
+        "terminal",
+        "tui",
+        "workspaces"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-08-02T23:04:12Z",
+      "install": "herdr plugin install mikedclarke/herdr-workspaces"
     },
     {
       "full_name": "mikevalstar/herdr-machine-title",
