@@ -444,6 +444,13 @@ def build() -> None:
     overrides = json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
     translations_path = DATA / "translations.json"
     translations = json.loads(translations_path.read_text()) if translations_path.exists() else {}
+    plugins_path = DATA / "plugins.json"
+    previous_full_names: set[str] = set()
+    if plugins_path.exists():
+        previous = json.loads(plugins_path.read_text())
+        previous_full_names = {p["full_name"] for p in previous.get("plugins", [])}
+    new_arrivals_path = DATA / "new_arrivals.json"
+    new_arrivals = json.loads(new_arrivals_path.read_text()) if new_arrivals_path.exists() else {}
 
     print("fetching repositories…")
     repos = fetch_repos()
@@ -474,6 +481,18 @@ def build() -> None:
     now = datetime.now(timezone.utc)
     generated = now.strftime("%Y-%m-%d %H:%M UTC")
 
+    current_full_names = {e["full_name"] for e in entries}
+    today = now.strftime("%Y-%m-%d")
+    for full_name in current_full_names - previous_full_names:
+        new_arrivals.setdefault(full_name, today)
+    for full_name in list(new_arrivals):
+        first_seen = datetime.strptime(new_arrivals[full_name], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        if full_name not in current_full_names or (now - first_seen).days > NEW_ARRIVAL_DAYS:
+            del new_arrivals[full_name]
+    new_arrivals_path.write_text(
+        json.dumps(new_arrivals, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    )
+
     DATA.mkdir(exist_ok=True)
     (DATA / "plugins.json").write_text(json.dumps({
         "generated_at": generated,
@@ -490,7 +509,7 @@ def build() -> None:
 
     for lang in LANGS:
         (ROOT / README_PATH[lang]).write_text(
-            render_readme(entries, generated, now, lang, translations)
+            render_readme(entries, generated, now, lang, translations, new_arrivals)
         )
     print(f"wrote {', '.join(README_PATH.values())} and data/plugins.json ({len(entries)} plugins)")
 
@@ -509,6 +528,9 @@ UI = {
         "warning": "> ここは自動収集の索引で、審査済みカタログではありません。"
                     "プラグインは自分のマシンでそのまま動くコードなので、"
                     "入れる前にマニフェストと実行されるコマンドを確認してください。",
+        "new_heading": "## 🆕 最近追加されたプラグイン",
+        "new_blurb": "直近 {days} 日以内にこの一覧に加わったプラグインです。"
+                      "プラグイン名の🆕はこの一覧への新規追加、日付欄の🔄は直近のコミットpushを表します。",
         "browse_heading": "## 目的から探す",
         "table_header": "| プラグイン | できること | タグ | ★ | 最終更新 |",
         "also_relevant": "この目的にも関係するもの",
@@ -544,6 +566,9 @@ UI = {
         "warning": "> This is an auto-collected index, not a vetted catalog. "
                     "Plugins are code that runs directly on your machine, so check the manifest "
                     "and the commands it runs before installing.",
+        "new_heading": "## 🆕 Recently added",
+        "new_blurb": "Plugins that joined this list in the last {days} days. "
+                      "🆕 on the name means newly added to this list; 🔄 next to the date means a recent commit push.",
         "browse_heading": "## Browse by purpose",
         "table_header": "| Plugin | What it does | Tags | ★ | Last updated |",
         "also_relevant": "Also relevant to this purpose",
@@ -577,6 +602,9 @@ UI = {
                          " —— [官方文档](https://herdr.dev/docs/plugins/)",
         "warning": "> 这是自动采集的索引，不是经过审核的目录。"
                     "插件是直接在你的电脑上运行的代码，安装前请检查其 manifest 和会执行的命令。",
+        "new_heading": "## 🆕 最近新增",
+        "new_blurb": "最近 {days} 天内加入本列表的插件。"
+                      "名称旁的 🆕 表示新加入本列表；日期旁的 🔄 表示最近有提交推送。",
         "browse_heading": "## 按目的浏览",
         "table_header": "| 插件 | 能做什么 | 标签 | ★ | 最后更新 |",
         "also_relevant": "与此目的也相关",
@@ -605,7 +633,7 @@ BLURB_INDEX = {"ja": 4, "en": 5, "zh": 6}
 
 
 def render_readme(entries: list[dict], generated: str, now: datetime,
-                   lang: str, translations: dict) -> str:
+                   lang: str, translations: dict, new_arrivals: dict) -> str:
     ui = UI[lang]
     li, bi = LABEL_INDEX[lang], BLURB_INDEX[lang]
     cats = [(c[0], c[li], c[bi]) for c in CATEGORIES]
@@ -637,6 +665,23 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
     add("> [!WARNING]")
     add(ui["warning"])
     add("")
+
+    new_entries = sorted(
+        (e for e in entries if e["full_name"] in new_arrivals),
+        key=lambda e: -e["stars"],
+    )
+    new_entries.sort(key=lambda e: new_arrivals[e["full_name"]], reverse=True)
+    if new_entries:
+        add(ui["new_heading"])
+        add("")
+        add(ui["new_blurb"].format(days=NEW_ARRIVAL_DAYS))
+        add("")
+        add(ui["table_header"])
+        add("| --- | --- | --- | --: | --- |")
+        for entry in new_entries:
+            add(row(entry, now, lang, translations, new_arrivals))
+        add("")
+
     add('<a id="purposes"></a>')
     add("")
     add(ui["browse_heading"])
@@ -661,7 +706,7 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
         add(ui["table_header"])
         add("| --- | --- | --- | --: | --- |")
         for entry in items:
-            add(row(entry, now, lang, translations))
+            add(row(entry, now, lang, translations, new_arrivals))
         add("")
         extras = [e for e in secondary[key] if e["category"] != key]
         if extras:
@@ -714,9 +759,10 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
 
 
 RECENT_DAYS = 14
+NEW_ARRIVAL_DAYS = 7
 
 
-def row(entry: dict, now: datetime, lang: str, translations: dict) -> str:
+def row(entry: dict, now: datetime, lang: str, translations: dict, new_arrivals: dict) -> str:
     tags = " ".join(f"`{t}`" for t in entry["tags"][:5]) or "—"
     desc = one_line(localized_description(entry, lang, translations), lang)
     if entry["note"]:
@@ -724,8 +770,11 @@ def row(entry: dict, now: datetime, lang: str, translations: dict) -> str:
     pushed_at = datetime.fromisoformat(entry["pushed_at"].replace("Z", "+00:00"))
     pushed = pushed_at.strftime("%Y-%m-%d")
     if (now - pushed_at).days <= RECENT_DAYS:
-        pushed = f"🆕 {pushed}"
-    return (f"| [**{entry['name']}**]({entry['url']})<br><sub>{entry['owner']}</sub>"
+        pushed = f"🔄 {pushed}"
+    name = entry["name"]
+    if entry["full_name"] in new_arrivals:
+        name = f"🆕 {name}"
+    return (f"| [**{name}**]({entry['url']})<br><sub>{entry['owner']}</sub>"
             f" | {desc} | {tags} | {entry['stars']} | {pushed} |")
 
 
