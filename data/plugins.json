@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03 00:04 UTC",
+  "generated_at": "2026-08-03 00:05 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1487,7 +1487,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-02T23:58:10Z",
+      "pushed_at": "2026-08-03T00:05:15Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -5567,7 +5567,7 @@
       "also": [
         "agents"
       ],
-      "pushed_at": "2026-08-02T05:30:01Z",
+      "pushed_at": "2026-08-03T00:05:05Z",
       "install": "herdr plugin install steig/worktender"
     },
     {
