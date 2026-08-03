@@ -2343,5 +2343,20 @@
     "en": "Generate concise Herdr pane titles and synchronize native Codex thread names.",
     "ja": "簡潔なHerdrペインタイトルを生成し、ネイティブのCodexスレッド名と同期する",
     "zh": "生成简洁的 Herdr 窗格标题，并与原生 Codex 会话名称保持同步"
+  },
+  "bredebjorhovd/herdr-board": {
+    "en": "Where coding agents queue up and run their own work — GitHub issues in, autonomous agents in herdr panes, PR reviews delivered back to the agent that wrote them.",
+    "ja": "コーディングエージェントが列に並び、自分の仕事を自律的にこなす場所——GitHub issueを入力に、herdrのペインで自律エージェントが動き、書いた本人にPRレビューが返ってくる",
+    "zh": "编程 Agent 排队并自主完成工作的地方——输入 GitHub issue，自主 Agent 在 herdr 窗格中运行，PR 评审会返回给编写它的那个 Agent"
+  },
+  "mdetweil/herdr-lazytask": {
+    "en": "Lazytask in a herdr split pane (open/focus/toggle) plus Taskwarrior quick actions",
+    "ja": "herdrのスプリットペインでLazytaskを使う（開く/フォーカス/トグル）ほか、Taskwarriorのクイックアクションも提供",
+    "zh": "在 herdr 分屏窗格中使用 Lazytask（打开/聚焦/切换），并提供 Taskwarrior 快捷操作"
+  },
+  "mikedclarke/herdr-workspaces": {
+    "en": "Directories as workspaces for herdr: register the places you work, fuzzy-pick one, get a named workspace there",
+    "ja": "ディレクトリをherdrのワークスペースとして扱う——よく使う場所を登録し、ファジー検索で選ぶと、そこに名前付きワークスペースが作られる",
+    "zh": "将目录作为 herdr 的工作区：注册常用工作目录，模糊选择其一，即可在那里获得一个具名工作区"
   }
 }
