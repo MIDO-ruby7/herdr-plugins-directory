@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02 23:58 UTC",
+  "generated_at": "2026-08-03 00:04 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1487,7 +1487,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-02T23:57:36Z",
+      "pushed_at": "2026-08-02T23:58:10Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -9024,7 +9024,7 @@
       "also": [
         "text"
       ],
-      "pushed_at": "2026-08-02T14:08:12Z",
+      "pushed_at": "2026-08-03T00:03:24Z",
       "install": "herdr plugin install zerodice0/herdr-plugin-worktree-bootstrap"
     },
     {

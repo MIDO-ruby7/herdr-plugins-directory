@@ -529,8 +529,7 @@ UI = {
                     "プラグインは自分のマシンでそのまま動くコードなので、"
                     "入れる前にマニフェストと実行されるコマンドを確認してください。",
         "new_heading": "## 🆕 最近追加されたプラグイン",
-        "new_blurb": "直近 {days} 日以内にこの一覧に加わったプラグインです。"
-                      "プラグイン名の🆕はこの一覧への新規追加、日付欄の🔄は直近のコミットpushを表します。",
+        "new_blurb": "直近 {days} 日以内にこの一覧に加わったプラグインです。",
         "browse_heading": "## 目的から探す",
         "table_header": "| プラグイン | できること | タグ | ★ | 最終更新 |",
         "also_relevant": "この目的にも関係するもの",
@@ -567,8 +566,7 @@ UI = {
                     "Plugins are code that runs directly on your machine, so check the manifest "
                     "and the commands it runs before installing.",
         "new_heading": "## 🆕 Recently added",
-        "new_blurb": "Plugins that joined this list in the last {days} days. "
-                      "🆕 on the name means newly added to this list; 🔄 next to the date means a recent commit push.",
+        "new_blurb": "Plugins that joined this list in the last {days} days.",
         "browse_heading": "## Browse by purpose",
         "table_header": "| Plugin | What it does | Tags | ★ | Last updated |",
         "also_relevant": "Also relevant to this purpose",
@@ -603,8 +601,7 @@ UI = {
         "warning": "> 这是自动采集的索引，不是经过审核的目录。"
                     "插件是直接在你的电脑上运行的代码，安装前请检查其 manifest 和会执行的命令。",
         "new_heading": "## 🆕 最近新增",
-        "new_blurb": "最近 {days} 天内加入本列表的插件。"
-                      "名称旁的 🆕 表示新加入本列表；日期旁的 🔄 表示最近有提交推送。",
+        "new_blurb": "最近 {days} 天内加入本列表的插件。",
         "browse_heading": "## 按目的浏览",
         "table_header": "| 插件 | 能做什么 | 标签 | ★ | 最后更新 |",
         "also_relevant": "与此目的也相关",
@@ -679,7 +676,7 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
         add(ui["table_header"])
         add("| --- | --- | --- | --: | --- |")
         for entry in new_entries:
-            add(row(entry, now, lang, translations, new_arrivals))
+            add(row(entry, now, lang, translations, new_arrivals, show_recent_badge=False))
         add("")
 
     add('<a id="purposes"></a>')
@@ -762,14 +759,18 @@ RECENT_DAYS = 14
 NEW_ARRIVAL_DAYS = 7
 
 
-def row(entry: dict, now: datetime, lang: str, translations: dict, new_arrivals: dict) -> str:
+def row(entry: dict, now: datetime, lang: str, translations: dict, new_arrivals: dict,
+        show_recent_badge: bool = True) -> str:
     tags = " ".join(f"`{t}`" for t in entry["tags"][:5]) or "—"
     desc = one_line(localized_description(entry, lang, translations), lang)
     if entry["note"]:
         desc += f"<br>📝 {one_line(entry['note'], lang, 90)}"
     pushed_at = datetime.fromisoformat(entry["pushed_at"].replace("Z", "+00:00"))
     pushed = pushed_at.strftime("%Y-%m-%d")
-    if (now - pushed_at).days <= RECENT_DAYS:
+    # Newly added entries are trivially recently-pushed too; showing 🔄 there
+    # next to the 🆕 name badge is redundant and reads as if the two badges
+    # disagree, so the New-arrivals table opts out via show_recent_badge.
+    if show_recent_badge and (now - pushed_at).days <= RECENT_DAYS:
         pushed = f"🔄 {pushed}"
     name = entry["name"]
     if entry["full_name"] in new_arrivals:
