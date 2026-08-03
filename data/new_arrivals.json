@@ -2,10 +2,13 @@
   "JLighter/herdr-spawn": "2026-08-03",
   "bredebjorhovd/herdr-board": "2026-08-02",
   "dnf0/herdr-llm-summary-header": "2026-08-03",
+  "jattento/herdr-multirepo": "2026-08-03",
   "kay-ws/herdr-island": "2026-08-03",
   "kenchan/herdr-ghq-open-agent": "2026-08-03",
   "mdetweil/herdr-lazytask": "2026-08-02",
   "mikedclarke/herdr-workspaces": "2026-08-02",
+  "mr04vv/herdr-pane-navigator": "2026-08-03",
   "ralphilius/herdr-pr-tab-renamer": "2026-08-03",
-  "willian/herdr-snacks": "2026-08-03"
+  "willian/herdr-snacks": "2026-08-03",
+  "zetlen/herdr-hud": "2026-08-03"
 }
