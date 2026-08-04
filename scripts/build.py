@@ -528,7 +528,7 @@ UI = {
         "warning": "> ここは自動収集の索引で、審査済みカタログではありません。"
                     "プラグインは自分のマシンでそのまま動くコードなので、"
                     "入れる前にマニフェストと実行されるコマンドを確認してください。",
-        "new_heading": "## 🆕 最近追加されたプラグイン",
+        "new_label": "🆕 最近追加されたプラグイン",
         "new_blurb": "直近 {days} 日以内にこの一覧に加わったプラグインです。",
         "browse_heading": "## 目的から探す",
         "table_header": "| プラグイン | できること | タグ | ★ | 最終更新 |",
@@ -565,7 +565,7 @@ UI = {
         "warning": "> This is an auto-collected index, not a vetted catalog. "
                     "Plugins are code that runs directly on your machine, so check the manifest "
                     "and the commands it runs before installing.",
-        "new_heading": "## 🆕 Recently added",
+        "new_label": "🆕 Recently added",
         "new_blurb": "Plugins that joined this list in the last {days} days.",
         "browse_heading": "## Browse by purpose",
         "table_header": "| Plugin | What it does | Tags | ★ | Last updated |",
@@ -600,7 +600,7 @@ UI = {
                          " —— [官方文档](https://herdr.dev/docs/plugins/)",
         "warning": "> 这是自动采集的索引，不是经过审核的目录。"
                     "插件是直接在你的电脑上运行的代码，安装前请检查其 manifest 和会执行的命令。",
-        "new_heading": "## 🆕 最近新增",
+        "new_label": "🆕 最近新增",
         "new_blurb": "最近 {days} 天内加入本列表的插件。",
         "browse_heading": "## 按目的浏览",
         "table_header": "| 插件 | 能做什么 | 标签 | ★ | 最后更新 |",
@@ -633,12 +633,20 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
                    lang: str, translations: dict, new_arrivals: dict) -> str:
     ui = UI[lang]
     li, bi = LABEL_INDEX[lang], BLURB_INDEX[lang]
-    cats = [(c[0], c[li], c[bi]) for c in CATEGORIES]
+    new_entries = sorted(
+        (e for e in entries if e["full_name"] in new_arrivals),
+        key=lambda e: -e["stars"],
+    )
+    new_entries.sort(key=lambda e: new_arrivals[e["full_name"]], reverse=True)
+
+    cats = [("new", ui["new_label"], ui["new_blurb"].format(days=NEW_ARRIVAL_DAYS))]
+    cats += [(c[0], c[li], c[bi]) for c in CATEGORIES]
     cats.append((OTHER[0], OTHER[li], OTHER[bi]))
 
     buckets: dict[str, list[dict]] = {k: [] for k, *_ in cats}
     for entry in entries:
         buckets[entry["category"]].append(entry)
+    buckets["new"] = new_entries
     secondary: dict[str, list[dict]] = {k: [] for k, *_ in cats}
     for entry in entries:
         for key in entry["also"]:
@@ -662,23 +670,6 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
     add("> [!WARNING]")
     add(ui["warning"])
     add("")
-
-    new_entries = sorted(
-        (e for e in entries if e["full_name"] in new_arrivals),
-        key=lambda e: -e["stars"],
-    )
-    new_entries.sort(key=lambda e: new_arrivals[e["full_name"]], reverse=True)
-    if new_entries:
-        add(ui["new_heading"])
-        add("")
-        add(ui["new_blurb"].format(days=NEW_ARRIVAL_DAYS))
-        add("")
-        add(ui["table_header"])
-        add("| --- | --- | --- | --: | --- |")
-        for entry in new_entries:
-            add(row(entry, now, lang, translations, new_arrivals, show_recent_badge=False))
-        add("")
-
     add('<a id="purposes"></a>')
     add("")
     add(ui["browse_heading"])
@@ -703,7 +694,7 @@ def render_readme(entries: list[dict], generated: str, now: datetime,
         add(ui["table_header"])
         add("| --- | --- | --- | --: | --- |")
         for entry in items:
-            add(row(entry, now, lang, translations, new_arrivals))
+            add(row(entry, now, lang, translations, new_arrivals, show_recent_badge=key != "new"))
         add("")
         extras = [e for e in secondary[key] if e["category"] != key]
         if extras:
