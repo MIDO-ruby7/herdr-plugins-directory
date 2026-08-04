@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 03:36 UTC",
+  "generated_at": "2026-08-04 03:46 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1560,7 +1560,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-04T01:41:02Z",
+      "pushed_at": "2026-08-04T03:45:10Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2350,7 +2350,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-08-04T03:01:24Z",
+      "pushed_at": "2026-08-04T03:39:08Z",
       "install": "herdr plugin install LoneExile/merino"
     },
     {
@@ -7438,7 +7438,7 @@
       "tags": [
         "shell"
       ],
-      "category": "other",
+      "category": "files",
       "also": [],
       "pushed_at": "2026-08-04T02:25:11Z",
       "install": "herdr plugin install linuxing3/herdr-nnn"
@@ -8792,7 +8792,7 @@
         "terminal-ui",
         "python"
       ],
-      "category": "files",
+      "category": "monitor",
       "also": [],
       "pushed_at": "2026-08-04T03:16:29Z",
       "install": "herdr plugin install szrenwei/herdr-space-tab-metadata"
