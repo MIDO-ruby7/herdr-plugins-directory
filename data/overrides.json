@@ -42,6 +42,12 @@
     "category": "meta",
     "note": "公式のサンプル集。コピー元として使う想定で、メンテされた公式プラグインではない"
   },
+  "willian/herdr-snacks": {
+    "category": "meta"
+  },
+  "zetlen/herdr-hud": {
+    "category": "monitor"
+  },
   "owner/repo-example": {
     "category": "other",
     "add_tags": [
