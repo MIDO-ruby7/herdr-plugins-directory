@@ -42,6 +42,12 @@
     "category": "meta",
     "note": "公式のサンプル集。コピー元として使う想定で、メンテされた公式プラグインではない"
   },
+  "linuxing3/herdr-nnn": {
+    "category": "files"
+  },
+  "szrenwei/herdr-space-tab-metadata": {
+    "category": "monitor"
+  },
   "willian/herdr-snacks": {
     "category": "meta"
   },

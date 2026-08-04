@@ -2408,5 +2408,15 @@
     "en": "Live Space and Agent indexes for Herdr, with shortcuts for jumping to the last tab, Space, or Agent.",
     "ja": "HerdrのSpaceとAgentをライブに一覧表示——直前のタブ・Space・Agentへジャンプするショートカット付き",
     "zh": "Herdr 的 Space 与 Agent 实时索引，并提供跳转到上一个标签页、Space 或 Agent 的快捷键"
+  },
+  "linuxing3/herdr-nnn": {
+    "en": "open nnn in herder",
+    "ja": "herdr内でnnnを開く",
+    "zh": "在 herdr 中打开 nnn"
+  },
+  "szrenwei/herdr-space-tab-metadata": {
+    "en": "Show each Herdr Space's active tab in the sidebar",
+    "ja": "各Herdr Spaceのアクティブなタブをサイドバーに表示する",
+    "zh": "在侧边栏显示每个 Herdr Space 当前活动的标签页"
   }
 }
