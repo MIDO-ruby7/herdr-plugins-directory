@@ -1,6 +1,8 @@
 {
   "JLighter/herdr-spawn": "2026-08-03",
   "RenKoya1/herdr-approve-all": "2026-08-04",
+  "Royal-lobster/herdr-spinup": "2026-08-04",
+  "abtris/herdr-plugin-jira-pr": "2026-08-04",
   "bredebjorhovd/herdr-board": "2026-08-02",
   "crafts69guy/herdr-switchboard": "2026-08-04",
   "dnf0/herdr-llm-summary-header": "2026-08-03",
@@ -12,10 +14,14 @@
   "mdetweil/herdr-lazytask": "2026-08-02",
   "mikedclarke/herdr-workspaces": "2026-08-02",
   "mr04vv/herdr-pane-navigator": "2026-08-03",
+  "nytafar/herdr-cache-ttl": "2026-08-04",
   "osuki-dev/muqun-gateway": "2026-08-04",
   "ralphilius/herdr-pr-tab-renamer": "2026-08-03",
   "szrenwei/herdr-agent-metrics": "2026-08-04",
   "szrenwei/herdr-space-tab-metadata": "2026-08-04",
   "szrenwei/herdr-traex": "2026-08-04",
+  "wjarka/herdr-ghostty-tab-title": "2026-08-04",
+  "yuuta1219/claude-usage": "2026-08-04",
+  "yuuta1219/herdr-gekiatsu-plugin": "2026-08-04",
   "zetlen/herdr-hud": "2026-08-03"
 }
