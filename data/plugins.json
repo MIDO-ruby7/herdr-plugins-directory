@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04 03:46 UTC",
+  "generated_at": "2026-08-04 03:47 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1560,7 +1560,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-04T03:45:10Z",
+      "pushed_at": "2026-08-04T03:47:07Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2158,10 +2158,10 @@
       "install": "herdr plugin install bcihanc/herdr-claude-session-title"
     },
     {
-      "full_name": "crafts69guy/herdr-ghq",
-      "name": "herdr-ghq",
+      "full_name": "crafts69guy/herdr-switchboard",
+      "name": "herdr-switchboard",
       "owner": "crafts69guy",
-      "url": "https://github.com/crafts69guy/herdr-ghq",
+      "url": "https://github.com/crafts69guy/herdr-switchboard",
       "description": "A herdr plugin: fuzzy-switch across running agents, open workspaces, and ghq repositories in one Rust TUI — and open a repo in a new workspace, tab, split, or the current pane.",
       "note": "",
       "stars": 4,
@@ -2177,7 +2177,7 @@
       "category": "finder",
       "also": [],
       "pushed_at": "2026-08-03T06:37:35Z",
-      "install": "herdr plugin install crafts69guy/herdr-ghq"
+      "install": "herdr plugin install crafts69guy/herdr-switchboard"
     },
     {
       "full_name": "EzraCerpac/jj-waltz",
