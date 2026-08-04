@@ -1980,9 +1980,9 @@
     "zh": "在 Hunk 中审查 Agent 编写的更改，并通过 Herdr 回传行内反馈"
   },
   "steig/worktender": {
-    "en": "Drive git worktrees as herdr workspaces: list, adopt, staff and tear down worktrees with their workspace and agent state in one view.",
-    "ja": "git worktreeをherdrのワークスペースとして操作——一覧・取り込み・割り当て・解体を、ワークスペースとエージェントの状態とともに1画面で行える",
-    "zh": "将 git 工作树作为 herdr 工作区来驱动——在一个视图中列出、接入、分配和拆除工作树，并同时查看其工作区与 Agent 状态"
+    "en": "One command from a GitHub issue to a coding agent working on it in its own worktree.",
+    "ja": "GitHubのissueから、専用worktreeで作業するコーディングエージェントまでを1コマンドでつなぐ",
+    "zh": "一条命令，从 GitHub issue 直达在专属工作树中处理它的编程 Agent"
   },
   "StructuPath/herdr-suite-site": {
     "en": "Landing page for the StructuPath Herdr Suite — herdr.structupath.ai",
@@ -2063,11 +2063,6 @@
     "en": "Send Hunk review notes to the correct Herdr agent pane",
     "ja": "Hunkのレビューコメントを、対応するHerdrエージェントペインに送る",
     "zh": "将 Hunk 的评审记录发送到对应的 Herdr Agent 窗格"
-  },
-  "Comparitiko/herdr-automations": {
-    "en": "Schedule coding agents in isolated, reviewable Herdr worktrees",
-    "ja": "独立していてレビュー可能なHerdr worktree上で、コーディングエージェントをスケジュール実行する",
-    "zh": "在隔离且可审查的 Herdr 工作树中调度编程 Agent"
   },
   "CowboyVang/herdr-which-key": {
     "en": "A which-key-style keymap overlay for herdr. Press one key, see every binding under your prefix grouped and labelled, press a second key to run it. Deliberately invoked, not hold-to-reveal. Zero dependencies.",
@@ -2358,5 +2353,60 @@
     "en": "Directories as workspaces for herdr: register the places you work, fuzzy-pick one, get a named workspace there",
     "ja": "ディレクトリをherdrのワークスペースとして扱う——よく使う場所を登録し、ファジー検索で選ぶと、そこに名前付きワークスペースが作られる",
     "zh": "将目录作为 herdr 的工作区：注册常用工作目录，模糊选择其一，即可在那里获得一个具名工作区"
+  },
+  "comparitiko/herdr-automations": {
+    "en": "Schedule coding agents in isolated, reviewable Herdr worktrees",
+    "ja": "独立していてレビュー可能なHerdr worktree上で、コーディングエージェントをスケジュール実行する",
+    "zh": "在隔离且可审查的 Herdr 工作树中调度编程 Agent"
+  },
+  "dnf0/herdr-llm-summary-header": {
+    "en": "Herdr plugin: LLM one-line summary written to the pane title when an agent finishes",
+    "ja": "herdrプラグイン：エージェントが完了すると、LLMによる一行要約をペインのタイトルに書き込む",
+    "zh": "herdr 插件：Agent 完成后，将 LLM 生成的一行摘要写入窗格标题"
+  },
+  "jattento/herdr-multirepo": {
+    "en": "One feature branch across many repositories, in one Herdr workspace",
+    "ja": "複数のリポジトリにまたがる1つのフィーチャーブランチを、1つのHerdrワークスペースで扱う",
+    "zh": "在一个 Herdr 工作区中管理跨多个仓库的同一条功能分支"
+  },
+  "JLighter/herdr-spawn": {
+    "en": "Herdr plugin: launch a coding agent with a prompt — one git worktree per agent",
+    "ja": "herdrプラグイン：プロンプトを渡してコーディングエージェントを起動——エージェントごとに専用のgit worktreeを割り当てる",
+    "zh": "herdr 插件：用提示词启动编程 Agent——每个 Agent 分配一个独立的 git 工作树"
+  },
+  "kay-ws/herdr-island": {
+    "en": "Find the agents that are waiting on you — shows why each herdr agent stopped, and filters the Agents panel down to just those.",
+    "ja": "あなたの対応を待っているエージェントを見つける——各herdrエージェントが止まった理由を表示し、Agentsパネルを該当するものだけに絞り込む",
+    "zh": "找出正在等待你处理的 Agent——显示每个 herdr Agent 停下的原因，并将 Agents 面板筛选到只剩这些"
+  },
+  "kenchan/herdr-ghq-open-agent": {
+    "en": "Herdr plugin: incrementally search ghq-managed repositories with fzf and open one in a workspace/tab, starting claude",
+    "ja": "herdrプラグイン：ghq管理下のリポジトリをfzfでインクリメンタル検索し、選んだものをワークスペース/タブで開いてclaudeを起動する",
+    "zh": "herdr 插件：用 fzf 对 ghq 管理的仓库进行增量搜索，在工作区/标签页中打开所选仓库并启动 claude"
+  },
+  "mr04vv/herdr-pane-navigator": {
+    "en": "Navigate Herdr's workspaces, tabs, and panes as one fuzzy tree — led by what each pane is actually doing.",
+    "ja": "Herdrのワークスペース・タブ・ペインを1つのファジーツリーとして横断移動——各ペインが実際に何をしているかを手がかりにする",
+    "zh": "将 Herdr 的工作区、标签页和窗格作为一棵模糊树进行导航——以每个窗格实际在做什么为线索"
+  },
+  "ralphilius/herdr-pr-tab-renamer": {
+    "en": "Herdr plugin that renames tabs with detected pull request numbers.",
+    "ja": "検出したプルリクエスト番号でタブ名を変更するHerdrプラグイン",
+    "zh": "根据检测到的拉取请求编号重命名标签页的 Herdr 插件"
+  },
+  "willian/herdr-snacks": {
+    "en": "A collection of small, opt-in snacks (plugins) for Herdr.",
+    "ja": "Herdr向けの、必要なものだけ選んで使える小さな「おやつ」（プラグイン）集",
+    "zh": "面向 Herdr 的一组小巧、可按需选用的「零食」（插件）合集"
+  },
+  "zetlen/herdr-hud": {
+    "en": "Herdr plugin: keybound popup of host, network, agent, and session facts — configurable, extensible via custom script",
+    "ja": "herdrプラグイン：キーバインドで開くポップアップに、ホスト・ネットワーク・エージェント・セッションの情報を表示——設定変更やカスタムスクリプトによる拡張が可能",
+    "zh": "herdr 插件：通过快捷键弹出面板，显示主机、网络、Agent 和会话信息——可配置，并可通过自定义脚本扩展"
+  },
+  "inonprince/herdr-counting-sheep": {
+    "en": "Live Space and Agent indexes for Herdr, with shortcuts for jumping to the last tab, Space, or Agent.",
+    "ja": "HerdrのSpaceとAgentをライブに一覧表示——直前のタブ・Space・Agentへジャンプするショートカット付き",
+    "zh": "Herdr 的 Space 与 Agent 实时索引，并提供跳转到上一个标签页、Space 或 Agent 的快捷键"
   }
 }
