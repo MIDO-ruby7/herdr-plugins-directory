@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 00:21 UTC",
+  "generated_at": "2026-08-05 00:22 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1388,7 +1388,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-04T19:56:24Z",
+      "pushed_at": "2026-08-05T00:22:14Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -5379,7 +5379,7 @@
       ],
       "category": "finder",
       "also": [],
-      "pushed_at": "2026-08-04T23:56:03Z",
+      "pushed_at": "2026-08-05T00:22:15Z",
       "install": "herdr plugin install mr04vv/herdr-pane-navigator"
     },
     {
