@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 00:22 UTC",
+  "generated_at": "2026-08-05 03:32 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "url": "https://github.com/openclaw/crabbox",
       "description": "Crabbox: warm a box, sync the diff, run the suite.",
       "note": "",
-      "stars": 1257,
+      "stars": 1259,
       "language": "Go",
       "tags": [
         "agent-skills",
@@ -384,7 +384,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-05T00:02:09Z",
+      "pushed_at": "2026-08-05T03:11:19Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -1245,6 +1245,23 @@
       "install": "herdr plugin install Matovidlo/herdr-pr-tracker"
     },
     {
+      "full_name": "benkraus/herdr-plugin-mobile-relay",
+      "name": "herdr-plugin-mobile-relay",
+      "owner": "benkraus",
+      "url": "https://github.com/benkraus/herdr-plugin-mobile-relay",
+      "description": "",
+      "note": "",
+      "stars": 9,
+      "language": "TypeScript",
+      "tags": [
+        "typescript"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-08-03T23:30:24Z",
+      "install": "herdr plugin install benkraus/herdr-plugin-mobile-relay"
+    },
+    {
       "full_name": "den-tanui/herdr-zoxide",
       "name": "herdr-zoxide",
       "owner": "den-tanui",
@@ -1341,23 +1358,6 @@
       "install": "herdr plugin install plannotator/herdr-plannotator"
     },
     {
-      "full_name": "benkraus/herdr-plugin-mobile-relay",
-      "name": "herdr-plugin-mobile-relay",
-      "owner": "benkraus",
-      "url": "https://github.com/benkraus/herdr-plugin-mobile-relay",
-      "description": "",
-      "note": "",
-      "stars": 8,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "remote",
-      "also": [],
-      "pushed_at": "2026-08-03T23:30:24Z",
-      "install": "herdr plugin install benkraus/herdr-plugin-mobile-relay"
-    },
-    {
       "full_name": "ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay",
       "name": "herdr-pc-ram-and-cpu-usage-overlay",
       "owner": "ezcorp-org",
@@ -1371,7 +1371,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-08-05T00:01:34Z",
+      "pushed_at": "2026-08-05T01:44:02Z",
       "install": "herdr plugin install ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay"
     },
     {
@@ -1388,7 +1388,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-05T00:22:14Z",
+      "pushed_at": "2026-08-05T00:22:50Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -1577,7 +1577,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-08-04T17:52:23Z",
+      "pushed_at": "2026-08-05T02:58:27Z",
       "install": "herdr plugin install luminexord/herdres"
     },
     {
@@ -2059,6 +2059,25 @@
       "install": "herdr plugin install moneycaringcoder/herdr-tether"
     },
     {
+      "full_name": "ryonakae/shepherd",
+      "name": "shepherd",
+      "owner": "ryonakae",
+      "url": "https://github.com/ryonakae/shepherd",
+      "description": "Worker observability daemon and runtime bridges for Herdr-managed coding agents.",
+      "note": "",
+      "stars": 5,
+      "language": "TypeScript",
+      "tags": [
+        "pi-coding-agent",
+        "pi-extension",
+        "typescript"
+      ],
+      "category": "monitor",
+      "also": [],
+      "pushed_at": "2026-07-22T10:39:32Z",
+      "install": "herdr plugin install ryonakae/shepherd"
+    },
+    {
       "full_name": "taxueseek/session-digger",
       "name": "session-digger",
       "owner": "taxueseek",
@@ -2448,6 +2467,23 @@
       "install": "herdr plugin install natori-hrj/herdr-triage"
     },
     {
+      "full_name": "neon-solutions/neon-herdr",
+      "name": "neon-herdr",
+      "owner": "neon-solutions",
+      "url": "https://github.com/neon-solutions/neon-herdr",
+      "description": "The official Neon Herdr Plugin",
+      "note": "",
+      "stars": 4,
+      "language": "TypeScript",
+      "tags": [
+        "typescript"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-08-04T21:47:08Z",
+      "install": "herdr plugin install neon-solutions/neon-herdr"
+    },
+    {
       "full_name": "persiyanov/herdr-fresh-worktree",
       "name": "herdr-fresh-worktree",
       "owner": "persiyanov",
@@ -2503,25 +2539,6 @@
       "also": [],
       "pushed_at": "2026-07-24T12:24:36Z",
       "install": "herdr plugin install ramarivera/herdr-palette"
-    },
-    {
-      "full_name": "ryonakae/shepherd",
-      "name": "shepherd",
-      "owner": "ryonakae",
-      "url": "https://github.com/ryonakae/shepherd",
-      "description": "Worker observability daemon and runtime bridges for Herdr-managed coding agents.",
-      "note": "",
-      "stars": 4,
-      "language": "TypeScript",
-      "tags": [
-        "pi-coding-agent",
-        "pi-extension",
-        "typescript"
-      ],
-      "category": "monitor",
-      "also": [],
-      "pushed_at": "2026-07-22T10:39:32Z",
-      "install": "herdr plugin install ryonakae/shepherd"
     },
     {
       "full_name": "scott306lr/herdr-plugin-hunk-autodiff",
@@ -3055,23 +3072,6 @@
       "also": [],
       "pushed_at": "2026-07-19T01:36:47Z",
       "install": "herdr plugin install natori-hrj/herdr-hail"
-    },
-    {
-      "full_name": "neon-solutions/neon-herdr",
-      "name": "neon-herdr",
-      "owner": "neon-solutions",
-      "url": "https://github.com/neon-solutions/neon-herdr",
-      "description": "The official Neon Herdr Plugin",
-      "note": "",
-      "stars": 3,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-08-04T21:47:08Z",
-      "install": "herdr plugin install neon-solutions/neon-herdr"
     },
     {
       "full_name": "osolmaz/herdr-branch-cleanup",
@@ -5379,7 +5379,7 @@
       ],
       "category": "finder",
       "also": [],
-      "pushed_at": "2026-08-05T00:22:15Z",
+      "pushed_at": "2026-08-05T00:37:30Z",
       "install": "herdr plugin install mr04vv/herdr-pane-navigator"
     },
     {
@@ -5470,7 +5470,7 @@
       ],
       "category": "layout",
       "also": [],
-      "pushed_at": "2026-08-04T11:42:12Z",
+      "pushed_at": "2026-08-05T01:41:29Z",
       "install": "herdr plugin install osuki-dev/muqun-gateway"
     },
     {
@@ -5506,7 +5506,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-04T17:27:34Z",
+      "pushed_at": "2026-08-05T02:58:27Z",
       "install": "herdr plugin install plotarmordev/tendwire"
     },
     {
@@ -6197,6 +6197,25 @@
       "also": [],
       "pushed_at": "2026-07-15T13:51:25Z",
       "install": "herdr plugin install Allianaab2m/herdr-hunk-gh-diff"
+    },
+    {
+      "full_name": "allmight-ai/herdr-pet",
+      "name": "herdr-pet",
+      "owner": "allmight-ai",
+      "url": "https://github.com/allmight-ai/herdr-pet",
+      "description": "Companion V-Pet for Herdr — mirrors your coding agent",
+      "note": "",
+      "stars": 0,
+      "language": "Rust",
+      "tags": [
+        "companion",
+        "rust",
+        "v-pet"
+      ],
+      "category": "session",
+      "also": [],
+      "pushed_at": "2026-08-05T02:15:57Z",
+      "install": "herdr plugin install allmight-ai/herdr-pet"
     },
     {
       "full_name": "aneym/herdr-voice",
@@ -8685,6 +8704,26 @@
       ],
       "pushed_at": "2026-08-04T00:22:27Z",
       "install": "herdr plugin install shadowfax92/herdr-comments"
+    },
+    {
+      "full_name": "shadowfax92/herdr-ferry",
+      "name": "herdr-ferry",
+      "owner": "shadowfax92",
+      "url": "https://github.com/shadowfax92/herdr-ferry",
+      "description": "A native Rust popup for moving live Herdr panes and tabs between workspaces.",
+      "note": "",
+      "stars": 0,
+      "language": "Rust",
+      "tags": [
+        "productivity",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-08-05T02:58:18Z",
+      "install": "herdr plugin install shadowfax92/herdr-ferry"
     },
     {
       "full_name": "shadowfax92/herdr-scratch",
