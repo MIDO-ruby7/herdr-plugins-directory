@@ -45,6 +45,24 @@
   "linuxing3/herdr-nnn": {
     "category": "files"
   },
+  "nytafar/herdr-cache-ttl": {
+    "category": "monitor"
+  },
+  "RenKoya1/herdr-approve-all": {
+    "category": "agents"
+  },
+  "Royal-lobster/herdr-spinup": {
+    "category": "layout"
+  },
+  "szrenwei/herdr-traex": {
+    "category": "agents"
+  },
+  "T0mSIlver/herdr-title-wrap": {
+    "category": "naming"
+  },
+  "yuuta1219/claude-usage": {
+    "category": "cost"
+  },
   "szrenwei/herdr-space-tab-metadata": {
     "category": "monitor"
   },

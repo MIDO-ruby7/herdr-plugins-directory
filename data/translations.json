@@ -2418,5 +2418,70 @@
     "en": "Show each Herdr Space's active tab in the sidebar",
     "ja": "各Herdr Spaceのアクティブなタブをサイドバーに表示する",
     "zh": "在侧边栏显示每个 Herdr Space 当前活动的标签页"
+  },
+  "osuki-dev/muqun-gateway": {
+    "en": "Herdr Gateway exposes a small HTTP API for reading Herdr workspaces, tabs, panes, agents, pane output, and sending pane input. It talks to the local Herdr socket API and is intended to be reached from trusted devices over a private network such as Tailscale.",
+    "ja": "Herdr Gatewayは、Herdrのワークスペース・タブ・ペイン・エージェント・ペイン出力の読み取りとペインへの入力送信を行う小さなHTTP APIを提供する。ローカルのHerdrソケットAPIと通信し、Tailscaleなどのプライベートネットワーク経由で信頼できるデバイスからアクセスされることを想定している",
+    "zh": "Herdr Gateway 提供一个小型 HTTP API，用于读取 Herdr 的工作区、标签页、窗格、Agent、窗格输出，并可向窗格发送输入。它与本地 Herdr socket API 通信，设计上供 Tailscale 等私有网络中的可信设备访问"
+  },
+  "crafts69guy/herdr-switchboard": {
+    "en": "A herdr plugin: fuzzy-switch across running agents, open workspaces, and ghq repositories in one Rust TUI — and open a repo in a new workspace, tab, split, or the current pane.",
+    "ja": "herdrプラグイン：稼働中のエージェント・開いているワークスペース・ghq管理下のリポジトリを、Rust製の1つのTUIでファジー切り替え——選んだリポジトリを新規ワークスペース・タブ・スプリット・現在のペインのいずれかで開ける",
+    "zh": "herdr 插件：在一个 Rust 编写的 TUI 中模糊切换运行中的 Agent、已打开的工作区和 ghq 管理的仓库——并可将仓库在新工作区、标签页、分屏或当前窗格中打开"
+  },
+  "neon-solutions/neon-herdr": {
+    "en": "The official Neon Herdr Plugin",
+    "ja": "Neon公式のHerdrプラグイン",
+    "zh": "Neon 官方的 Herdr 插件"
+  },
+  "wjarka/herdr-ghostty-tab-title": {
+    "en": "herdr plugin: color-coded agent status counts (blocked / done / working / idle) in the Ghostty tab title",
+    "ja": "herdrプラグイン：Ghosttyのタブタイトルに、エージェントの状態別件数（ブロック中/完了/作業中/アイドル）を色分けして表示する",
+    "zh": "herdr 插件：在 Ghostty 标签标题中按颜色显示 Agent 各状态（阻塞/完成/工作中/空闲）的数量"
+  },
+  "abtris/herdr-plugin-jira-pr": {
+    "en": "Herdr plugin: show the Jira issue behind the current branch's PR, and warn when they disagree",
+    "ja": "herdrプラグイン：現在のブランチのPRに紐づくJira issueを表示し、内容が食い違っていれば警告する",
+    "zh": "herdr 插件：显示当前分支 PR 背后关联的 Jira issue，并在两者不一致时发出警告"
+  },
+  "nytafar/herdr-cache-ttl": {
+    "en": "Herdr plugin: live prompt-cache TTL countdown per agent pane",
+    "ja": "herdrプラグイン：エージェントのペインごとに、プロンプトキャッシュのTTLをリアルタイムでカウントダウン表示する",
+    "zh": "herdr 插件：按 Agent 窗格实时倒计时显示 prompt 缓存的 TTL"
+  },
+  "RenKoya1/herdr-approve-all": {
+    "en": "herdr plugin: approve every blocked agent at once (one keystroke, all pending permission prompts)",
+    "ja": "herdrプラグイン：ブロックされている全エージェントを一括承認（1キーで、保留中の許可プロンプトすべてに応答）",
+    "zh": "herdr 插件：一键批准所有被阻塞的 Agent（一次按键处理所有待处理的权限提示）"
+  },
+  "Royal-lobster/herdr-spinup": {
+    "en": "Start screen for every new herdr tab: pick a tool and it runs in that tab. Tools defined in JSON.",
+    "ja": "herdrの新規タブごとに表示されるスタート画面——ツールを選ぶとそのタブで実行される。ツールはJSONで定義",
+    "zh": "每个新建 herdr 标签页的启动界面——选择一个工具，即会在该标签页中运行。工具通过 JSON 定义"
+  },
+  "szrenwei/herdr-agent-metrics": {
+    "en": "Lightweight Herdr context and session usage metrics for Claude Code, Codex, and TraeX.",
+    "ja": "Claude Code・Codex・TraeX向けの、軽量なHerdrコンテキスト・セッション使用量メトリクス",
+    "zh": "面向 Claude Code、Codex 和 TraeX 的轻量级 Herdr 上下文与会话用量指标"
+  },
+  "szrenwei/herdr-traex": {
+    "en": "Herdr Marketplace integration for TraeX agent lifecycle and metadata",
+    "ja": "TraeXエージェントのライフサイクルとメタデータをHerdr Marketplaceと連携させる",
+    "zh": "将 TraeX Agent 的生命周期与元数据接入 Herdr Marketplace"
+  },
+  "T0mSIlver/herdr-title-wrap": {
+    "en": "Herdr plugin: wrap Claude Code session titles across multiple sidebar rows, auto-fitting the sidebar width",
+    "ja": "herdrプラグイン：Claude Codeのセッションタイトルをサイドバーの複数行に折り返し、サイドバー幅に自動フィットさせる",
+    "zh": "herdr 插件：将 Claude Code 会话标题在侧边栏中换行显示为多行，并自动适应侧边栏宽度"
+  },
+  "yuuta1219/claude-usage": {
+    "en": "herdr plugin: Claude Code usage (session % / week %) pinned to the bottom of the sidebar",
+    "ja": "herdrプラグイン：Claude Codeの使用率（セッション%/週%）をサイドバー下部に常時表示する",
+    "zh": "herdr 插件：将 Claude Code 使用率（会话%/周%）固定显示在侧边栏底部"
+  },
+  "yuuta1219/herdr-gekiatsu-plugin": {
+    "en": "herdr plugin: Claude Code usage counter, but it's a pachislot machine. 1/99 jackpot, daily reset at 10:00 JST",
+    "ja": "herdrプラグイン：Claude Codeの使用量カウンターを、パチスロ風にしたもの。大当たり確率1/99、毎日10:00 JSTにリセット",
+    "zh": "herdr 插件：把 Claude Code 的用量计数器做成了老虎机——1/99 中大奖概率，每天 10:00 JST 重置"
   }
 }
