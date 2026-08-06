@@ -1,4 +1,5 @@
 {
+  "IgorGanapolsky/ThumbGate": "2026-08-06",
   "JLighter/herdr-spawn": "2026-08-03",
   "RenKoya1/herdr-approve-all": "2026-08-04",
   "Royal-lobster/herdr-spinup": "2026-08-04",
@@ -7,6 +8,7 @@
   "a-curious-coder/herdr-iris": "2026-08-06",
   "abtris/herdr-plugin-jira-pr": "2026-08-04",
   "allmight-ai/herdr-pet": "2026-08-05",
+  "atomsbaza/herdr-ios-build-status-plugin": "2026-08-06",
   "bayoudhi/herdr-shell-progress": "2026-08-05",
   "bredebjorhovd/herdr-board": "2026-08-02",
   "crafts69guy/herdr-switchboard": "2026-08-04",
@@ -34,6 +36,7 @@
   "neon-solutions/neon-herdr": "2026-08-05",
   "nicosuave/memex": "2026-08-06",
   "nnexai/herdr-action-launcher": "2026-08-05",
+  "nytafar/herdr-cache-ttl": "2026-08-06",
   "osuki-dev/muqun-gateway": "2026-08-04",
   "ralphilius/herdr-pr-tab-renamer": "2026-08-03",
   "scott-the-programmer/vscode-devcontainers-herdr": "2026-08-06",

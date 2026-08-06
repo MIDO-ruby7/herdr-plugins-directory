@@ -2485,9 +2485,9 @@
     "zh": "herdr 插件：把 Claude Code 的用量计数器做成了老虎机——1/99 中大奖概率，每天 10:00 JST 重置"
   },
   "nicosuave/memex": {
-    "en": "Fast transcript search for humans & agents. Supports Claude Code, Codex CLI & OpenCode",
-    "ja": "人間・エージェント向けの高速トランスクリプト検索。Claude Code・Codex CLI・OpenCodeに対応",
-    "zh": "面向人类和 Agent 的快速会话记录搜索。支持 Claude Code、Codex CLI 和 OpenCode"
+    "en": "Fast transcript search for humans & agents for Claude Code, Codex, Pi, OpenCode, Github Copilot & Cursor",
+    "ja": "人間・エージェント向けの高速トランスクリプト検索。Claude Code・Codex・Pi・OpenCode・GitHub Copilot・Cursorに対応",
+    "zh": "面向人类和 Agent 的快速会话记录搜索，支持 Claude Code、Codex、Pi、OpenCode、GitHub Copilot 和 Cursor"
   },
   "inferst/herdr-review.nvim": {
     "en": "Code review UI for Neovim with Git and herdr integration",
@@ -2525,9 +2525,9 @@
     "zh": "herdr 插件：不仅是编程 Agent，耗时较长的 shell 命令的进度也会实时显示在侧边栏"
   },
   "dgnsrekt/herdr-yoke": {
-    "en": "Yoke two tabs side by side. Chrome's split view, for herdr.",
-    "ja": "2つのタブを並べて表示する——herdr版のChromeスプリットビュー",
-    "zh": "将两个标签页并排显示——herdr 版的 Chrome 分屏视图"
+    "en": "get yoked — two tabs side by side, one key. Chrome's split view for herdr.",
+    "ja": "get yoked——1キーで2つのタブを並べて表示。herdr版のChromeスプリットビュー",
+    "zh": "get yoked——一键将两个标签页并排显示，herdr 版的 Chrome 分屏视图"
   },
   "dio16/herdr-auto-update": {
     "en": "herdr plugin: check installed plugins for newer upstream commits and reinstall them at startup",
@@ -2573,5 +2573,50 @@
     "en": "Evenly size panes in the current Herdr tab (tmux select-layout -E)",
     "ja": "現在のHerdrタブ内のペインを均等な大きさに揃える（tmuxのselect-layout -E相当）",
     "zh": "将当前 Herdr 标签页中的窗格调整为均匀大小（相当于 tmux 的 select-layout -E）"
+  },
+  "IgorGanapolsky/ThumbGate": {
+    "en": "ThumbGate Pre-Action Checks self-improve from ranked lessons and repeated failures, hard-block detected secret leaks, and block matches in strict mode.",
+    "ja": "ThumbGateの事前チェックは、ランク付けされた学びと繰り返しの失敗から自己改善し、検出したシークレット漏洩をハードブロックし、strictモードではマッチしたものをブロックする",
+    "zh": "ThumbGate 的操作前检查会根据排名过的经验教训和反复出现的失败自我改进，对检测到的密钥泄露进行硬性拦截，并在严格模式下拦截匹配项"
+  },
+  "eliasstravik/herdr-call": {
+    "en": "Voice control for Herdr",
+    "ja": "Herdr向けの音声操作",
+    "zh": "面向 Herdr 的语音控制"
+  },
+  "hkdom/herdr-telegram-gate": {
+    "en": "Telegram approval inbox + risk-tiered auto-approval for your herdr AI agent fleet — blocked agents surface as Telegram cards with Approve/Deny buttons (zero-dependency Node.js)",
+    "ja": "herdrのAIエージェント群向けの、Telegram承認インボックス＋リスク階層別の自動承認——ブロックされたエージェントは承認/拒否ボタン付きのTelegramカードとして表示される（依存ライブラリなしのNode.js）",
+    "zh": "面向 herdr AI Agent 群体的 Telegram 审批收件箱 + 按风险分级的自动批准——被阻塞的 Agent 会以带批准/拒绝按钮的 Telegram 卡片形式呈现（零依赖的 Node.js）"
+  },
+  "napalmpapalam/herdr-quotr": {
+    "en": "Quote your agent's own answer back at it, from a herdr popup.",
+    "ja": "herdrのポップアップから、エージェント自身の回答を引用してそのエージェントに投げ返す",
+    "zh": "通过 herdr 弹窗，把 Agent 自己的回答引用后再丢回给它"
+  },
+  "atomsbaza/herdr-ios-build-status-plugin": {
+    "en": "On-demand iOS build+test status pane for Herdr, with failure screenshots",
+    "ja": "オンデマンドで確認できる、HerdrのiOSビルド＋テスト状況ペイン。失敗時のスクリーンショット付き",
+    "zh": "按需查看的 Herdr iOS 构建+测试状态窗格，附带失败时的截图"
+  },
+  "jeffory/herdr-walkietalkie": {
+    "en": "Herdr plugin: token-efficient cross-agent delegation (wt) — orchestrator agents spawn Claude/OpenCode/Antigravity workers in tabs or worktrees",
+    "ja": "herdrプラグイン：トークン効率の良いエージェント間委任（wt）——オーケストレーター役のエージェントが、Claude/OpenCode/Antigravityのワーカーをタブやworktreeに立ち上げる",
+    "zh": "herdr 插件：token 高效的跨 Agent 委派（wt）——编排 Agent 在标签页或工作树中派生出 Claude/OpenCode/Antigravity 的 worker"
+  },
+  "marius-se/herdr-brainrot": {
+    "en": "DOOM in a Herdr pane while your agents cook — brainrot plugin with pluggable apps",
+    "ja": "エージェントが作業している間、Herdrのペインの中でDOOMをプレイできる「brainrot」プラグイン。差し替え可能なアプリに対応",
+    "zh": "在 Agent 工作时，于 Herdr 窗格中玩 DOOM 的「brainrot」插件，支持可插拔的应用"
+  },
+  "neefrehman/herdr-caffeinate": {
+    "en": "Keeps macOS awake (even with the lid closed) while any herdr agent pane is working",
+    "ja": "herdrのエージェントペインがどれか1つでも作業中の間、macOSをスリープさせない（ノートを閉じていても）",
+    "zh": "只要有任意一个 herdr Agent 窗格在工作，就让 macOS 保持唤醒（即使合上笔记本盖也一样）"
+  },
+  "wraithyy/herdr-waypoint": {
+    "en": "Save folders with a name, pick one from a fuzzy list, open it as a new herdr workspace.",
+    "ja": "フォルダに名前を付けて保存し、ファジー検索の一覧から選んで新しいherdrワークスペースとして開く",
+    "zh": "为文件夹命名并保存，从模糊列表中选一个，作为新的 herdr 工作区打开"
   }
 }
