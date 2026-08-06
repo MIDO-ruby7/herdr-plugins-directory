@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 03:53 UTC",
+  "generated_at": "2026-08-06 03:54 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -715,6 +715,29 @@
       "install": "herdr plugin install JanTvrdik/herdr-command-palette"
     },
     {
+      "full_name": "fullerzz/herdr-plugin-sesh",
+      "name": "herdr-plugin-sesh",
+      "owner": "fullerzz",
+      "url": "https://github.com/fullerzz/herdr-plugin-sesh",
+      "description": "Sesh-style workspace picker TUI for Herdr. Integrates with zoxide to create workspaces from commonly used directories.",
+      "note": "",
+      "stars": 22,
+      "language": "Go",
+      "tags": [
+        "bubbletea",
+        "sesh",
+        "tui",
+        "zoxide",
+        "go"
+      ],
+      "category": "finder",
+      "also": [
+        "layout"
+      ],
+      "pushed_at": "2026-08-06T03:48:12Z",
+      "install": "herdr plugin install fullerzz/herdr-plugin-sesh"
+    },
+    {
       "full_name": "alexarthurs/herdr-sidebar",
       "name": "herdr-sidebar",
       "owner": "alexarthurs",
@@ -735,29 +758,6 @@
       "also": [],
       "pushed_at": "2026-07-25T14:42:55Z",
       "install": "herdr plugin install alexarthurs/herdr-sidebar"
-    },
-    {
-      "full_name": "fullerzz/herdr-plugin-sesh",
-      "name": "herdr-plugin-sesh",
-      "owner": "fullerzz",
-      "url": "https://github.com/fullerzz/herdr-plugin-sesh",
-      "description": "Sesh-style workspace picker TUI for Herdr. Integrates with zoxide to create workspaces from commonly used directories.",
-      "note": "",
-      "stars": 21,
-      "language": "Go",
-      "tags": [
-        "bubbletea",
-        "sesh",
-        "tui",
-        "zoxide",
-        "go"
-      ],
-      "category": "finder",
-      "also": [
-        "layout"
-      ],
-      "pushed_at": "2026-08-06T03:48:12Z",
-      "install": "herdr plugin install fullerzz/herdr-plugin-sesh"
     },
     {
       "full_name": "madarco/agentbox-herdr-plugin",
@@ -1411,7 +1411,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-06T03:36:23Z",
+      "pushed_at": "2026-08-06T03:54:01Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
