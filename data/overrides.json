@@ -48,6 +48,15 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "hkdom/herdr-telegram-gate": {
+    "category": "remote"
+  },
+  "atomsbaza/herdr-ios-build-status-plugin": {
+    "category": "monitor"
+  },
+  "marius-se/herdr-brainrot": {
+    "category": "other"
+  },
   "allmight-ai/herdr-pet": {
     "category": "naming"
   },
