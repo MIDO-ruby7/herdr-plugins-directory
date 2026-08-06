@@ -2483,5 +2483,95 @@
     "en": "herdr plugin: Claude Code usage counter, but it's a pachislot machine. 1/99 jackpot, daily reset at 10:00 JST",
     "ja": "herdrプラグイン：Claude Codeの使用量カウンターを、パチスロ風にしたもの。大当たり確率1/99、毎日10:00 JSTにリセット",
     "zh": "herdr 插件：把 Claude Code 的用量计数器做成了老虎机——1/99 中大奖概率，每天 10:00 JST 重置"
+  },
+  "nicosuave/memex": {
+    "en": "Fast transcript search for humans & agents. Supports Claude Code, Codex CLI & OpenCode",
+    "ja": "人間・エージェント向けの高速トランスクリプト検索。Claude Code・Codex CLI・OpenCodeに対応",
+    "zh": "面向人类和 Agent 的快速会话记录搜索。支持 Claude Code、Codex CLI 和 OpenCode"
+  },
+  "inferst/herdr-review.nvim": {
+    "en": "Code review UI for Neovim with Git and herdr integration",
+    "ja": "GitとherdrをNeovimに統合したコードレビュー用UI",
+    "zh": "集成 Git 和 herdr 的 Neovim 代码审查 UI"
+  },
+  "enekos/herdr-quick-actions": {
+    "en": "fzf picker for herdr's native tab/pane/workspace actions, ranked by usage — stop memorizing keybindings",
+    "ja": "herdr標準のタブ/ペイン/ワークスペース操作を、使用頻度順でfzfから選べる——キーバインドを覚える必要がなくなる",
+    "zh": "以 fzf 选择器调用 herdr 原生的标签页/窗格/工作区操作，按使用频率排序——不必再死记快捷键"
+  },
+  "allmight-ai/herdr-pet": {
+    "en": "Companion V-Pet for Herdr — mirrors your coding agent",
+    "ja": "Herdr向けのコンパニオンV-Pet——あなたのコーディングエージェントの様子を映し出す",
+    "zh": "Herdr 的伴侣电子宠物——映射你的编程 Agent 的状态"
+  },
+  "Tyru5/herdr-agent-state": {
+    "en": "Realtime agent status pane for herdr; what each agent in the workspace is working on (in a more human-readable format)",
+    "ja": "herdr向けのリアルタイムエージェント状態ペイン——ワークスペース内の各エージェントが何をしているかを、より人間に読みやすい形式で表示する",
+    "zh": "herdr 的实时 Agent 状态窗格——以更易读的形式显示工作区中每个 Agent 正在做什么"
+  },
+  "vercel-labs/herdr-vercel-sandbox-plugin": {
+    "en": "Run terminal-based coding agents in isolated Vercel Sandboxes from Herdr.",
+    "ja": "Herdrから、ターミナルベースのコーディングエージェントを隔離されたVercel Sandbox上で実行する",
+    "zh": "从 Herdr 在隔离的 Vercel Sandbox 中运行基于终端的编程 Agent"
+  },
+  "a-curious-coder/herdr-iris": {
+    "en": "Iris — a herdr plugin: fuzzy cheatsheet of AI agent skills, scoped to the pane's detected agent",
+    "ja": "Iris——herdrプラグイン：ペインで検出したエージェントに絞り込んだ、AIエージェントスキルのファジー検索チートシート",
+    "zh": "Iris——herdr 插件：针对窗格中检测到的 Agent，提供 AI Agent 技能的模糊搜索速查表"
+  },
+  "bayoudhi/herdr-shell-progress": {
+    "en": "Herdr plugin: live sidebar progress for slow shell commands, not just coding agents",
+    "ja": "herdrプラグイン：コーディングエージェントに限らず、時間のかかるシェルコマンドの進行状況もサイドバーにリアルタイム表示する",
+    "zh": "herdr 插件：不仅是编程 Agent，耗时较长的 shell 命令的进度也会实时显示在侧边栏"
+  },
+  "dgnsrekt/herdr-yoke": {
+    "en": "Yoke two tabs side by side. Chrome's split view, for herdr.",
+    "ja": "2つのタブを並べて表示する——herdr版のChromeスプリットビュー",
+    "zh": "将两个标签页并排显示——herdr 版的 Chrome 分屏视图"
+  },
+  "dio16/herdr-auto-update": {
+    "en": "herdr plugin: check installed plugins for newer upstream commits and reinstall them at startup",
+    "ja": "herdrプラグイン：インストール済みプラグインに新しいアップストリームのコミットがあるか起動時に確認し、あれば再インストールする",
+    "zh": "herdr 插件：启动时检查已安装插件是否有更新的上游提交，如有则自动重新安装"
+  },
+  "gabrielbarretoo/herdr-medieval": {
+    "en": "A Herdr plugin that shows your workspaces and agents as a hexagonal medieval continent in 3D: each workspace is a fenced camp, each pane an adventurer that trains, rests by the campfire or stands guard in the tower depending on the agent's status. three.js embedded, no network and no dependencies.",
+    "ja": "ワークスペースとエージェントを、六角形マスの中世風大陸として3D表示するHerdrプラグイン——各ワークスペースは柵に囲まれた野営地、各ペインは冒険者として、エージェントの状態に応じて訓練したり、キャンプファイアで休んだり、塔で見張りをする。three.js組み込みで、通信・依存関係なし",
+    "zh": "将工作区和 Agent 以六边形中世纪大陆的形式进行 3D 展示的 Herdr 插件——每个工作区是一座围栏营地，每个窗格是一名冒险者，会根据 Agent 状态训练、在营火旁休息或在塔楼站岗。内嵌 three.js，无需联网、无依赖"
+  },
+  "hexsprite/herdr-beads": {
+    "en": "Ctrl-click a beads issue ID in Herdr to open its details in a split pane",
+    "ja": "HerdrでbeadsのissueIDをCtrl+クリックすると、詳細をスプリットペインで開く",
+    "zh": "在 Herdr 中 Ctrl+点击 beads 的 issue ID，即可在分屏窗格中打开其详情"
+  },
+  "nnexai/herdr-action-launcher": {
+    "en": "",
+    "ja": "",
+    "zh": ""
+  },
+  "pottekkat/herdr-limit-watch": {
+    "en": "Resume herdr agents automatically once a Claude usage limit resets",
+    "ja": "Claudeの利用上限がリセットされたら、herdrのエージェントを自動的に再開する",
+    "zh": "Claude 用量上限重置后，自动恢复 herdr 中的 Agent"
+  },
+  "scott-the-programmer/vscode-devcontainers-herdr": {
+    "en": "Herdr relay for agents running inside a dev container",
+    "ja": "devコンテナ内で動くエージェント向けのHerdrリレー",
+    "zh": "面向运行在 dev container 内的 Agent 的 Herdr 中继"
+  },
+  "sfroment/herdr-git-detail": {
+    "en": "herdr plugin: rich git status (modified/staged/untracked/ahead/behind/stash) as a $git_detail sidebar token",
+    "ja": "herdrプラグイン：詳細なgit状態（変更/ステージ/未追跡/進んでいる・遅れているコミット数/stash）を$git_detailというサイドバートークンとして表示する",
+    "zh": "herdr 插件：以 $git_detail 侧边栏 token 的形式显示详细的 git 状态（已修改/已暂存/未跟踪/领先落后提交数/stash）"
+  },
+  "shadowfax92/herdr-ferry": {
+    "en": "A native Rust popup for moving live Herdr panes and tabs between workspaces.",
+    "ja": "稼働中のHerdrのペインやタブをワークスペース間で移動させる、Rustネイティブのポップアップ",
+    "zh": "用于在工作区之间移动运行中的 Herdr 窗格和标签页的 Rust 原生弹窗"
+  },
+  "willfish/herdr-balance-panes": {
+    "en": "Evenly size panes in the current Herdr tab (tmux select-layout -E)",
+    "ja": "現在のHerdrタブ内のペインを均等な大きさに揃える（tmuxのselect-layout -E相当）",
+    "zh": "将当前 Herdr 标签页中的窗格调整为均匀大小（相当于 tmux 的 select-layout -E）"
   }
 }

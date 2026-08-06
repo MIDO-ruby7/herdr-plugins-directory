@@ -48,6 +48,24 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "allmight-ai/herdr-pet": {
+    "category": "naming"
+  },
+  "Tyru5/herdr-agent-state": {
+    "category": "monitor"
+  },
+  "bayoudhi/herdr-shell-progress": {
+    "category": "monitor"
+  },
+  "dgnsrekt/herdr-yoke": {
+    "category": "layout"
+  },
+  "sfroment/herdr-git-detail": {
+    "category": "files"
+  },
+  "willfish/herdr-balance-panes": {
+    "category": "navigate"
+  },
   "RenKoya1/herdr-approve-all": {
     "category": "agents"
   },

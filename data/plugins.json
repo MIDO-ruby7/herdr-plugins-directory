@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 03:36 UTC",
+  "generated_at": "2026-08-06 03:53 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -756,7 +756,7 @@
       "also": [
         "layout"
       ],
-      "pushed_at": "2026-08-06T02:16:24Z",
+      "pushed_at": "2026-08-06T03:48:12Z",
       "install": "herdr plugin install fullerzz/herdr-plugin-sesh"
     },
     {
@@ -857,6 +857,26 @@
       "install": "herdr plugin install nelsonPires5/herdr-board"
     },
     {
+      "full_name": "caioniehues/herdmates",
+      "name": "herdmates",
+      "owner": "caioniehues",
+      "url": "https://github.com/caioniehues/herdmates",
+      "description": "Claude Code agent teams, native in herdr — teammux shim, mission-control board, focus pane",
+      "note": "",
+      "stars": 16,
+      "language": "Rust",
+      "tags": [
+        "agent-teams",
+        "claude-code",
+        "rust",
+        "tui"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-07-17T22:01:04Z",
+      "install": "herdr plugin install caioniehues/herdmates"
+    },
+    {
       "full_name": "ragamo/herdr-flock",
       "name": "herdr-flock",
       "owner": "ragamo",
@@ -946,26 +966,6 @@
       "also": [],
       "pushed_at": "2026-07-16T21:38:03Z",
       "install": "herdr plugin install wyattjoh/herdr-plugin-gh-pr"
-    },
-    {
-      "full_name": "caioniehues/herdmates",
-      "name": "herdmates",
-      "owner": "caioniehues",
-      "url": "https://github.com/caioniehues/herdmates",
-      "description": "Claude Code agent teams, native in herdr — teammux shim, mission-control board, focus pane",
-      "note": "",
-      "stars": 14,
-      "language": "Rust",
-      "tags": [
-        "agent-teams",
-        "claude-code",
-        "rust",
-        "tui"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-07-17T22:01:04Z",
-      "install": "herdr plugin install caioniehues/herdmates"
     },
     {
       "full_name": "Davidcreador/herdr-token-dashboard",
@@ -1411,7 +1411,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-05T19:54:41Z",
+      "pushed_at": "2026-08-06T03:36:23Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -4572,7 +4572,7 @@
         "rust",
         "v-pet"
       ],
-      "category": "session",
+      "category": "naming",
       "also": [],
       "pushed_at": "2026-08-05T14:38:00Z",
       "install": "herdr plugin install allmight-ai/herdr-pet"
@@ -6084,7 +6084,7 @@
         "rust",
         "terminal"
       ],
-      "category": "layout",
+      "category": "monitor",
       "also": [],
       "pushed_at": "2026-08-05T20:17:00Z",
       "install": "herdr plugin install Tyru5/herdr-agent-state"
@@ -6484,7 +6484,7 @@
       "tags": [
         "rust"
       ],
-      "category": "files",
+      "category": "monitor",
       "also": [],
       "pushed_at": "2026-08-05T20:39:44Z",
       "install": "herdr plugin install bayoudhi/herdr-shell-progress"
@@ -6804,9 +6804,9 @@
         "terminal",
         "shell"
       ],
-      "category": "other",
+      "category": "layout",
       "also": [],
-      "pushed_at": "2026-08-06T02:58:44Z",
+      "pushed_at": "2026-08-06T03:42:00Z",
       "install": "herdr plugin install dgnsrekt/herdr-yoke"
     },
     {
@@ -7116,7 +7116,7 @@
       ],
       "category": "forge",
       "also": [],
-      "pushed_at": "2026-08-06T03:34:29Z",
+      "pushed_at": "2026-08-06T03:39:32Z",
       "install": "herdr plugin install hexsprite/herdr-beads"
     },
     {
@@ -8613,7 +8613,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-06T03:35:29Z",
+      "pushed_at": "2026-08-06T03:48:02Z",
       "install": "herdr plugin install pottekkat/herdr-limit-watch"
     },
     {
@@ -8956,10 +8956,8 @@
         "starship",
         "terminal"
       ],
-      "category": "cost",
-      "also": [
-        "files"
-      ],
+      "category": "files",
+      "also": [],
       "pushed_at": "2026-08-05T12:36:11Z",
       "install": "herdr plugin install sfroment/herdr-git-detail"
     },
@@ -9559,7 +9557,7 @@
         "terminal",
         "tmux"
       ],
-      "category": "layout",
+      "category": "navigate",
       "also": [],
       "pushed_at": "2026-08-05T18:54:46Z",
       "install": "herdr plugin install willfish/herdr-balance-panes"
