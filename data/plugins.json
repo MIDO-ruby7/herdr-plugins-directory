@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 22:59 UTC",
+  "generated_at": "2026-08-06 23:13 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -701,7 +701,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-08-06T22:27:02Z",
+      "pushed_at": "2026-08-06T23:11:00Z",
       "install": "herdr plugin install IgorGanapolsky/ThumbGate"
     },
     {
@@ -1452,7 +1452,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-06T14:34:52Z",
+      "pushed_at": "2026-08-06T23:00:04Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
