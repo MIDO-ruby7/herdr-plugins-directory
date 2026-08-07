@@ -1,7 +1,6 @@
 {
   "Efeguclu1/herdr-town": "2026-08-07",
   "Gareth-Rouse/herdr-plugin-session-pruner": "2026-08-07",
-  "IgorGanapolsky/ThumbGate": "2026-08-06",
   "JLighter/herdr-spawn": "2026-08-03",
   "RenKoya1/herdr-approve-all": "2026-08-04",
   "RizRiyz/pixtui": "2026-08-07",
@@ -14,6 +13,7 @@
   "atomsbaza/herdr-ios-build-status-plugin": "2026-08-06",
   "bayoudhi/herdr-shell-progress": "2026-08-05",
   "bredebjorhovd/herdr-board": "2026-08-02",
+  "cdowell09/herdr-pr-board": "2026-08-07",
   "crafts69guy/herdr-switchboard": "2026-08-04",
   "dgnsrekt/herdr-yoke": "2026-08-05",
   "dio16/herdr-auto-update": "2026-08-05",
@@ -32,6 +32,7 @@
   "kay-ws/herdr-island": "2026-08-03",
   "kenchan/herdr-ghq-open-agent": "2026-08-03",
   "linuxing3/herdr-nnn": "2026-08-04",
+  "lmilojevicc/herdr-last": "2026-08-07",
   "malone-c/herdr-pane-balancer": "2026-08-07",
   "marius-se/herdr-brainrot": "2026-08-06",
   "mdetweil/herdr-lazytask": "2026-08-02",
