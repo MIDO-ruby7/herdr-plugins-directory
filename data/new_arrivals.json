@@ -1,4 +1,5 @@
 {
+  "Gareth-Rouse/herdr-plugin-session-pruner": "2026-08-07",
   "IgorGanapolsky/ThumbGate": "2026-08-06",
   "JLighter/herdr-spawn": "2026-08-03",
   "RenKoya1/herdr-approve-all": "2026-08-04",
@@ -17,6 +18,8 @@
   "dnf0/herdr-llm-summary-header": "2026-08-03",
   "eliasstravik/herdr-call": "2026-08-06",
   "enekos/herdr-quick-actions": "2026-08-05",
+  "fabiogaliano/herdr-command-palette": "2026-08-07",
+  "flupke/herdr-progressive-reviewer": "2026-08-07",
   "gabrielbarretoo/herdr-medieval": "2026-08-06",
   "hexsprite/herdr-beads": "2026-08-06",
   "hkdom/herdr-telegram-gate": "2026-08-06",
@@ -27,6 +30,7 @@
   "kay-ws/herdr-island": "2026-08-03",
   "kenchan/herdr-ghq-open-agent": "2026-08-03",
   "linuxing3/herdr-nnn": "2026-08-04",
+  "malone-c/herdr-pane-balancer": "2026-08-07",
   "marius-se/herdr-brainrot": "2026-08-06",
   "mdetweil/herdr-lazytask": "2026-08-02",
   "mikedclarke/herdr-workspaces": "2026-08-02",
