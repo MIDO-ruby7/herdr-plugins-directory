@@ -4,7 +4,7 @@
 
 **「◯◯したい」から herdr のプラグインを探すためのリンク集です。**
 
-- 収録 **514** 件 / 最終更新 **2026-08-06 23:13 UTC**（6 時間ごとに自動更新）
+- 収録 **514** 件 / 最終更新 **2026-08-07 00:15 UTC**（6 時間ごとに自動更新）
 - データ元: GitHub topic [`herdr-plugin`](https://github.com/topics/herdr-plugin) — 公式マーケットプレイス [herdr.dev/plugins](https://herdr.dev/plugins/) と同じ母集団
 - 分類はリポジトリの説明文とトピックからの自動推定です。おかしなものは [`data/overrides.json`](data/overrides.json) の PR で直せます
 - インストール: `herdr plugin install owner/repo` — [公式ドキュメント](https://herdr.dev/docs/plugins/)
@@ -139,7 +139,7 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 外出先からherdrを管理できるPWA。Tailnet経由でアクセス可能、プッシュ通知やクイックアクションなど | `typescript` | 265 | 🔄 2026-08-06 |
+| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 外出先からherdrを管理できるPWA。Tailnet経由でアクセス可能、プッシュ通知やクイックアクションなど | `typescript` | 266 | 🔄 2026-08-06 |
 | [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | メニューバー・スマホ・Telegramからherdrのエージェントを監視・操作。ローカル設定不要、リモート接続用の無料トンネル付きでTailscaleも不要 | `macos` `mobile` `python` | 191 | 🔄 2026-07-31 |
 | [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | スマホからHerdrのエージェントを遠隔で承認・監視できる、Android/iOS向けのモバイルWebアプリ。プッシュ通知・QRコードでの設定・複数PCへの中継に対応 | `android` `approvals` `cloudflare` `ios` `mobile` | 28 | 🔄 2026-08-04 |
 | [**herdr-plugin-mobile-relay**](https://github.com/benkraus/herdr-plugin-mobile-relay)<br><sub>benkraus</sub> | _(説明なし)_ | `typescript` | 9 | 🔄 2026-08-03 |
@@ -299,7 +299,7 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：サンドボックスを温め、差分を同期し、テストスイートを実行する | `agent-skills` `remote-test-runner` `go` | 1265 | 🔄 2026-08-06 |
+| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：サンドボックスを温め、差分を同期し、テストスイートを実行する | `agent-skills` `remote-test-runner` `go` | 1266 | 🔄 2026-08-06 |
 | [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | herdr向けのコードレビュー＋ファイルビューアのサイドバー。エージェントの差分にコメントして差し戻せる。PRとそのチェック・コメントの読み取り専用表示も付属 | `code-review` `rust` `tui` | 346 | 🔄 2026-08-01 |
 | [**herdr-pickr**](https://github.com/tomasvarga/herdr-pickr)<br><sub>tomasvarga</sub> | herdr向けのPRレビュールーター——GitHubのPRやGitLabのMRリンクをCtrl+クリックしてレビュアー（tuicr・hunk・diff・ブラウザ・または独自ツール）を選択、AIによる一次レビューもオプションで利用可能 | `cli` `code-review` `pull-request` `tui` `shell` | 12 | 2026-07-13 |
 | [**herdr-plugin-hunk**](https://github.com/edmundmiller/herdr-plugin-hunk)<br><sub>edmundmiller</sub> | Hunkの差分をスプリットペインやタブで開くHerdrプラグイン | `python` | 11 | 2026-06-23 |
@@ -906,7 +906,7 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr向けの拡張機能。正式なプラグインとして構築されたツール集（プロジェクト管理とクイックアクション）でherdrをより良くする | `go` | 207 | 🔄 2026-07-23 |
+| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr向けの拡張機能。正式なプラグインとして構築されたツール集（プロジェクト管理とクイックアクション）でherdrをより良くする | `go` | 208 | 🔄 2026-07-23 |
 | [**herdr-lazy**](https://github.com/natori-hrj/herdr-lazy)<br><sub>natori-hrj</sub> | herdr向けの宣言的なプラグインマネージャー兼キュレーション済みディストリビューション——1つのリスト、実体のあるロックファイル、管理用ペイン | `cli` `lockfile` `plugin-manager` `rust` `terminal` | 12 | 🔄 2026-07-31 |
 | [**herdr-plugin-manager**](https://github.com/speardragon/herdr-plugin-manager)<br><sub>speardragon</sub> | ポップアップからherdrのプラグインを管理——インストール・更新・有効/無効化・アンインストール、herdr-pluginマーケットプレイスの閲覧も可能。推奨キー：prefix+p | `plugin-manager` `tui` `shell` | 6 | 2026-07-22 |
 | [**house-of-herdr**](https://github.com/alasano/house-of-herdr)<br><sub>alasano</sub> | Herdr向けのプラグイン集——Work Louder Codex Micro上にエージェントのステータスランプと操作パネルを表示するCodex Microを含む | `codex-micro` `work-louder` `typescript` | 2 | 🔄 2026-07-24 |

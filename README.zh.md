@@ -4,7 +4,7 @@
 
 **一个按照「你想做什么」来查找 [herdr](https://herdr.dev/) 插件的链接合集。**
 
-- 收录 **514** 个插件 / 最后更新 **2026-08-06 23:13 UTC**（每 6 小时自动刷新）
+- 收录 **514** 个插件 / 最后更新 **2026-08-07 00:15 UTC**（每 6 小时自动刷新）
 - 数据来源：打了 GitHub 话题标签 [`herdr-plugin`](https://github.com/topics/herdr-plugin) 的仓库——与官方市场 [herdr.dev/plugins](https://herdr.dev/plugins/) 的数据来源相同
 - 分类是根据仓库描述和话题标签自动推断的。如果分类不准确，可以通过 PR 修改 [`data/overrides.json`](data/overrides.json)
 - 安装：`herdr plugin install owner/repo` —— [官方文档](https://herdr.dev/docs/plugins/)
@@ -139,7 +139,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 随时随地管理 herdr 的 PWA 应用。支持 Tailnet 访问、推送通知、快捷操作等 | `typescript` | 265 | 🔄 2026-08-06 |
+| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 随时随地管理 herdr 的 PWA 应用。支持 Tailnet 访问、推送通知、快捷操作等 | `typescript` | 266 | 🔄 2026-08-06 |
 | [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | 从菜单栏、手机或 Telegram 监控并操控你的 herdr Agent。本地零配置，远程连接提供免费内网穿透，无需 Tailscale | `macos` `mobile` `python` | 191 | 🔄 2026-07-31 |
 | [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | 通过手机远程审批和监控 Herdr Agent——面向 Android/iOS 的移动 Web 应用，支持推送通知、二维码配置和多电脑中继 | `android` `approvals` `cloudflare` `ios` `mobile` | 28 | 🔄 2026-08-04 |
 | [**herdr-plugin-mobile-relay**](https://github.com/benkraus/herdr-plugin-mobile-relay)<br><sub>benkraus</sub> | _(暂无描述)_ | `typescript` | 9 | 🔄 2026-08-03 |
@@ -299,7 +299,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：预热沙盒、同步差异、运行测试套件 | `agent-skills` `remote-test-runner` `go` | 1265 | 🔄 2026-08-06 |
+| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：预热沙盒、同步差异、运行测试套件 | `agent-skills` `remote-test-runner` `go` | 1266 | 🔄 2026-08-06 |
 | [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | herdr 的代码审查 + 文件查看器侧边栏——对 Agent 的差异发表评论并打回。同时提供 PR 及其检查、评论的只读视图 | `code-review` `rust` `tui` | 346 | 🔄 2026-08-01 |
 | [**herdr-pickr**](https://github.com/tomasvarga/herdr-pickr)<br><sub>tomasvarga</sub> | herdr 的 PR 审查路由器——按住 Ctrl 点击 GitHub PR / GitLab MR 链接，选择审查工具（tuicr · hunk · diff · 浏览器 · 或自定义工具），可选启用 AI 初审 | `cli` `code-review` `pull-request` `tui` `shell` | 12 | 2026-07-13 |
 | [**herdr-plugin-hunk**](https://github.com/edmundmiller/herdr-plugin-hunk)<br><sub>edmundmiller</sub> | 在分屏窗格或标签页中打开 Hunk 差异对比的 Herdr 插件 | `python` | 11 | 2026-06-23 |
@@ -906,7 +906,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr 的扩展，作为原生插件构建——一组让 herdr 更好用的工具集：项目管理和快捷操作 | `go` | 207 | 🔄 2026-07-23 |
+| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr 的扩展，作为原生插件构建——一组让 herdr 更好用的工具集：项目管理和快捷操作 | `go` | 208 | 🔄 2026-07-23 |
 | [**herdr-lazy**](https://github.com/natori-hrj/herdr-lazy)<br><sub>natori-hrj</sub> | herdr 的声明式插件管理器兼精选发行版——一份清单、真正的锁文件、一个管理窗格 | `cli` `lockfile` `plugin-manager` `rust` `terminal` | 12 | 🔄 2026-07-31 |
 | [**herdr-plugin-manager**](https://github.com/speardragon/herdr-plugin-manager)<br><sub>speardragon</sub> | 在弹窗中管理 herdr 插件——安装、更新、启用/禁用、卸载，并浏览 herdr-plugin 市场。推荐快捷键：prefix+p | `plugin-manager` `tui` `shell` | 6 | 2026-07-22 |
 | [**house-of-herdr**](https://github.com/alasano/house-of-herdr)<br><sub>alasano</sub> | Herdr 插件合集——包含 Codex Micro：在 Work Louder Codex Micro 上显示 Agent 状态灯并提供操作控制 | `codex-micro` `work-louder` `typescript` | 2 | 🔄 2026-07-24 |
