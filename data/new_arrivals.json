@@ -1,5 +1,6 @@
 {
   "Angel-O/herdr-agent-resume": "2026-08-08",
+  "Angel-O/herdr-labels": "2026-08-09",
   "ArteenHD/herdr-cache-timer": "2026-08-08",
   "DnzzL/herdr-automations": "2026-08-08",
   "Efeguclu1/herdr-town": "2026-08-07",
@@ -19,6 +20,7 @@
   "bayoudhi/herdr-shell-progress": "2026-08-05",
   "blockshiftnetwork/herdr-telegram-attention": "2026-08-09",
   "bredebjorhovd/herdr-board": "2026-08-02",
+  "bsorescu/herdr-mobile": "2026-08-09",
   "btorresgil/herdr-hermes-session-title": "2026-08-08",
   "cdowell09/herdr-pr-board": "2026-08-07",
   "crafts69guy/herdr-switchboard": "2026-08-04",
@@ -49,6 +51,7 @@
   "mdetweil/herdr-lazytask": "2026-08-02",
   "mikedclarke/herdr-workspaces": "2026-08-02",
   "mikhail-angelov/herdr-review-loop": "2026-08-09",
+  "miko-misa/herdr-portfwd": "2026-08-09",
   "mr04vv/herdr-pane-navigator": "2026-08-03",
   "napalmpapalam/herdr-quotr": "2026-08-06",
   "narumiruna/herdr-plugins": "2026-08-08",
