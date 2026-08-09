@@ -30,6 +30,7 @@
   "fabiogaliano/herdr-command-palette": "2026-08-07",
   "flupke/herdr-progressive-reviewer": "2026-08-07",
   "gabrielbarretoo/herdr-medieval": "2026-08-06",
+  "getbeb/herdr-beb": "2026-08-09",
   "hexsprite/herdr-beads": "2026-08-06",
   "hkdom/herdr-telegram-gate": "2026-08-06",
   "htlin222/herdr-gamepad": "2026-08-08",
@@ -57,8 +58,11 @@
   "opsydyn/herdr-questmancer": "2026-08-08",
   "osuki-dev/muqun-gateway": "2026-08-04",
   "playsthisgame/herdr-api-client": "2026-08-08",
+  "potatoQi/herdr-focused-codex-fork": "2026-08-09",
   "ralphilius/herdr-pr-tab-renamer": "2026-08-03",
   "rstacruz/herdr-workspace-description": "2026-08-08",
+  "ryanlewis/herdr-tab-renamer": "2026-08-09",
+  "ryanlewis/herdr-workspace-renamer": "2026-08-09",
   "scott-the-programmer/vscode-devcontainers-herdr": "2026-08-06",
   "sfroment/herdr-git-detail": "2026-08-05",
   "shadowfax92/herdr-ferry": "2026-08-05",
@@ -72,5 +76,6 @@
   "wraithyy/herdr-waypoint": "2026-08-06",
   "yuuta1219/claude-usage": "2026-08-04",
   "yuuta1219/herdr-gekiatsu-plugin": "2026-08-04",
-  "zetlen/herdr-hud": "2026-08-03"
+  "zetlen/herdr-hud": "2026-08-03",
+  "zhenyufu/herdr-cadence": "2026-08-09"
 }
