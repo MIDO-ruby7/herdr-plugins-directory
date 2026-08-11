@@ -77,6 +77,7 @@
   "osuki-dev/muqun-gateway": "2026-08-04",
   "playsthisgame/herdr-api-client": "2026-08-08",
   "potatoQi/herdr-focused-codex-fork": "2026-08-09",
+  "princejoogie/herdr-repo-picker": "2026-08-11",
   "rstacruz/herdr-workspace-description": "2026-08-08",
   "ryanlewis/herdr-tab-renamer": "2026-08-09",
   "ryanlewis/herdr-workspace-renamer": "2026-08-09",
@@ -101,5 +102,6 @@
   "yuuta1219/claude-usage": "2026-08-04",
   "yuuta1219/herdr-gekiatsu-plugin": "2026-08-04",
   "zap0xfce2/herdr-pane-restart": "2026-08-10",
+  "zenbu-labs/terminal-browser": "2026-08-11",
   "zhenyufu/herdr-cadence": "2026-08-09"
 }
