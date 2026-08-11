@@ -48,6 +48,30 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "ArteenHD/herdr-cache-timer": {
+    "category": "monitor"
+  },
+  "btorresgil/herdr-hermes-session-title": {
+    "category": "naming"
+  },
+  "lmilojevicc/herdr-last": {
+    "category": "navigate"
+  },
+  "amiramay/herdr-layout-cycle": {
+    "category": "navigate"
+  },
+  "RizRiyz/pixtui": {
+    "category": "other"
+  },
+  "cpcloud/herdr-agentsview": {
+    "category": "monitor"
+  },
+  "shrivatsas/herdr-model-capacity": {
+    "category": "cost"
+  },
+  "zap0xfce2/herdr-pane-restart": {
+    "category": "automation"
+  },
   "hkdom/herdr-telegram-gate": {
     "category": "remote"
   },
