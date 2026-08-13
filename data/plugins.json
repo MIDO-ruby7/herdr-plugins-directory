@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13 19:20 UTC",
+  "generated_at": "2026-08-13 21:30 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "url": "https://github.com/openclaw/crabbox",
       "description": "Crabbox: warm a box, sync the diff, run the suite.",
       "note": "",
-      "stars": 1299,
+      "stars": 1300,
       "language": "Go",
       "tags": [
         "agent-skills",
@@ -182,7 +182,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-08-13T13:18:24Z",
+      "pushed_at": "2026-08-13T21:20:55Z",
       "install": "herdr plugin install openclaw/crabbox"
     },
     {
@@ -192,7 +192,7 @@
       "url": "https://github.com/zenbu-labs/terminal-browser",
       "description": "A browser that runs directly inside your existing terminal",
       "note": "",
-      "stars": 977,
+      "stars": 978,
       "language": "Rust",
       "tags": [
         "browser",
@@ -206,7 +206,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-11T17:32:21Z",
+      "pushed_at": "2026-08-13T21:12:06Z",
       "install": "herdr plugin install zenbu-labs/terminal-browser"
     },
     {
@@ -260,7 +260,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 383,
+      "stars": 384,
       "language": "TypeScript",
       "tags": [
         "agent-orchestration",
@@ -286,7 +286,7 @@
       "url": "https://github.com/madarco/agentbox",
       "description": "Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud",
       "note": "",
-      "stars": 350,
+      "stars": 351,
       "language": "TypeScript",
       "tags": [
         "claude",
@@ -310,7 +310,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 299,
+      "stars": 300,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -991,7 +991,7 @@
       "tags": [
         "javascript"
       ],
-      "category": "automation",
+      "category": "remote",
       "also": [],
       "pushed_at": "2026-08-12T11:54:40Z",
       "install": "herdr plugin install Unayung/herdr-watch"
@@ -1748,7 +1748,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-13T13:47:16Z",
+      "pushed_at": "2026-08-13T19:20:27Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -2003,6 +2003,23 @@
       "install": "herdr plugin install joelhooks/herdr-pings"
     },
     {
+      "full_name": "neon-solutions/neon-herdr",
+      "name": "neon-herdr",
+      "owner": "neon-solutions",
+      "url": "https://github.com/neon-solutions/neon-herdr",
+      "description": "The official Neon Herdr Plugin",
+      "note": "",
+      "stars": 7,
+      "language": "TypeScript",
+      "tags": [
+        "typescript"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-08-06T19:10:33Z",
+      "install": "herdr plugin install neon-solutions/neon-herdr"
+    },
+    {
       "full_name": "sohanemon/herdr-helpr",
       "name": "herdr-helpr",
       "owner": "sohanemon",
@@ -2204,23 +2221,6 @@
       "install": "herdr plugin install moneycaringcoder/herdr-tether"
     },
     {
-      "full_name": "neon-solutions/neon-herdr",
-      "name": "neon-herdr",
-      "owner": "neon-solutions",
-      "url": "https://github.com/neon-solutions/neon-herdr",
-      "description": "The official Neon Herdr Plugin",
-      "note": "",
-      "stars": 6,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-08-06T19:10:33Z",
-      "install": "herdr plugin install neon-solutions/neon-herdr"
-    },
-    {
       "full_name": "Phoobobo/herdr-workboard",
       "name": "herdr-workboard",
       "owner": "Phoobobo",
@@ -2361,7 +2361,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-12T21:03:31Z",
+      "pushed_at": "2026-08-13T21:04:31Z",
       "install": "herdr plugin install bon5co/bermuda"
     },
     {
@@ -2729,7 +2729,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-08-12T16:16:18Z",
+      "pushed_at": "2026-08-13T19:53:18Z",
       "install": "herdr plugin install jasonrr/herdr-tally"
     },
     {
@@ -3022,7 +3022,7 @@
       "also": [
         "agents"
       ],
-      "pushed_at": "2026-08-13T18:04:53Z",
+      "pushed_at": "2026-08-13T21:23:00Z",
       "install": "herdr plugin install walcew/herdr-assist"
     },
     {
@@ -3095,7 +3095,7 @@
       ],
       "category": "meta",
       "also": [],
-      "pushed_at": "2026-07-24T23:20:14Z",
+      "pushed_at": "2026-08-13T19:40:39Z",
       "install": "herdr plugin install alasano/house-of-herdr"
     },
     {
@@ -3792,7 +3792,7 @@
       ],
       "category": "forge",
       "also": [],
-      "pushed_at": "2026-08-13T18:36:26Z",
+      "pushed_at": "2026-08-13T21:16:05Z",
       "install": "herdr plugin install talent-factory/herdr-linear"
     },
     {
@@ -4337,7 +4337,7 @@
       "also": [
         "automation"
       ],
-      "pushed_at": "2026-08-13T12:44:34Z",
+      "pushed_at": "2026-08-13T19:33:56Z",
       "install": "herdr plugin install Epsomsaltskerosinelamp950/herdr-browser"
     },
     {
@@ -8242,7 +8242,7 @@
       ],
       "category": "worktree",
       "also": [],
-      "pushed_at": "2026-08-13T19:16:04Z",
+      "pushed_at": "2026-08-13T20:46:09Z",
       "install": "herdr plugin install bfreed/herdr-corral"
     },
     {
@@ -8410,7 +8410,7 @@
       "tags": [
         "shell"
       ],
-      "category": "remote",
+      "category": "agents",
       "also": [],
       "pushed_at": "2026-08-13T06:26:35Z",
       "install": "herdr plugin install cdpath/herdr-warp"
@@ -9512,7 +9512,7 @@
         "terminal",
         "javascript"
       ],
-      "category": "files",
+      "category": "agents",
       "also": [],
       "pushed_at": "2026-08-13T12:23:41Z",
       "install": "herdr plugin install kazimshah39/herdr-suffix-agent-filter"
@@ -10447,7 +10447,7 @@
         "tmux-resurrect",
         "shell"
       ],
-      "category": "layout",
+      "category": "session",
       "also": [],
       "pushed_at": "2026-08-13T10:34:00Z",
       "install": "herdr plugin install noviadi/herdr-layout"
@@ -10811,7 +10811,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-13T18:57:35Z",
+      "pushed_at": "2026-08-13T21:06:14Z",
       "install": "herdr plugin install ram4-dev/herdr-automations"
     },
     {
@@ -10831,7 +10831,7 @@
       "also": [
         "navigate"
       ],
-      "pushed_at": "2026-08-12T23:36:28Z",
+      "pushed_at": "2026-08-13T21:24:47Z",
       "install": "herdr plugin install ram4-dev/herdr-notify-center"
     },
     {
@@ -11026,7 +11026,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-08-06T01:39:10Z",
+      "pushed_at": "2026-08-13T21:04:07Z",
       "install": "herdr plugin install scott-the-programmer/vscode-devcontainers-herdr"
     },
     {
@@ -11467,11 +11467,8 @@
       "tags": [
         "python"
       ],
-      "category": "cost",
-      "also": [
-        "files",
-        "naming"
-      ],
+      "category": "naming",
+      "also": [],
       "pushed_at": "2026-08-12T17:10:17Z",
       "install": "herdr plugin install themuuln/herdr-ghostty-theme-sync"
     },
@@ -11491,6 +11488,26 @@
       "also": [],
       "pushed_at": "2026-08-13T13:31:00Z",
       "install": "herdr plugin install third774/herdr-sidepulse"
+    },
+    {
+      "full_name": "tmn73/herdr-claude-tab-title",
+      "name": "herdr-claude-tab-title",
+      "owner": "tmn73",
+      "url": "https://github.com/tmn73/herdr-claude-tab-title",
+      "description": "Mirrors each Claude Code session title onto its Herdr tab",
+      "note": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "tags": [
+        "claude-code",
+        "tabs",
+        "terminal",
+        "typescript"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-08-13T21:18:34Z",
+      "install": "herdr plugin install tmn73/herdr-claude-tab-title"
     },
     {
       "full_name": "tomaszhanc/herdr-plugins",
@@ -11809,7 +11826,7 @@
       "tags": [
         "rust"
       ],
-      "category": "navigate",
+      "category": "naming",
       "also": [],
       "pushed_at": "2026-08-12T12:40:35Z",
       "install": "herdr plugin install yersonargotev/tabby"

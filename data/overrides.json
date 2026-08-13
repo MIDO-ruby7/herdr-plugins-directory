@@ -48,6 +48,24 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "Unayung/herdr-watch": {
+    "category": "remote"
+  },
+  "cdpath/herdr-warp": {
+    "category": "agents"
+  },
+  "kazimshah39/herdr-suffix-agent-filter": {
+    "category": "agents"
+  },
+  "noviadi/herdr-layout": {
+    "category": "session"
+  },
+  "themuuln/herdr-ghostty-theme-sync": {
+    "category": "naming"
+  },
+  "yersonargotev/tabby": {
+    "category": "naming"
+  },
   "ArteenHD/herdr-cache-timer": {
     "category": "monitor"
   },
