@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13 21:30 UTC",
+  "generated_at": "2026-08-13 21:31 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1748,7 +1748,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-13T19:20:27Z",
+      "pushed_at": "2026-08-13T21:31:18Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
