@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16 01:57 UTC",
+  "generated_at": "2026-08-16 06:58 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
       "description": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
       "note": "",
-      "stars": 8110,
+      "stars": 8122,
       "language": "TypeScript",
       "tags": [
         "agentic-ai",
@@ -196,7 +196,7 @@
       "url": "https://github.com/openclaw/crabbox",
       "description": "Crabbox: warm a box, sync the diff, run the suite.",
       "note": "",
-      "stars": 1307,
+      "stars": 1308,
       "language": "Go",
       "tags": [
         "agent-skills",
@@ -205,7 +205,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-08-15T16:02:52Z",
+      "pushed_at": "2026-08-16T04:30:38Z",
       "install": "herdr plugin install openclaw/crabbox"
     },
     {
@@ -215,7 +215,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
       "note": "",
-      "stars": 427,
+      "stars": 429,
       "language": "Rust",
       "tags": [
         "code-review",
@@ -236,7 +236,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 414,
+      "stars": 416,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -259,7 +259,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 412,
+      "stars": 415,
       "language": "TypeScript",
       "tags": [
         "agent-orchestration",
@@ -285,7 +285,7 @@
       "url": "https://github.com/madarco/agentbox",
       "description": "Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud",
       "note": "",
-      "stars": 351,
+      "stars": 352,
       "language": "TypeScript",
       "tags": [
         "claude",
@@ -309,7 +309,7 @@
       "url": "https://github.com/ogulcancelik/herdr-browser",
       "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
       "note": "",
-      "stars": 309,
+      "stars": 310,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -332,7 +332,7 @@
       "url": "https://github.com/dcolinmorgan/herdr-remote",
       "description": "Monitor and drive your herdr agents from menu bar, phone, or Telegram. Zero config locally. Free tunnel for remote. No Tailscale needed.",
       "note": "",
-      "stars": 246,
+      "stars": 249,
       "language": "Python",
       "tags": [
         "macos",
@@ -502,7 +502,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-16T01:23:47Z",
+      "pushed_at": "2026-08-16T04:41:46Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -568,7 +568,7 @@
       "url": "https://github.com/jhochenbaum/herdr-hunk-diff",
       "description": "Review agent-authored changes in hunk from herdr and send inline comments back to the responsible agent.",
       "note": "",
-      "stars": 61,
+      "stars": 63,
       "language": "TypeScript",
       "tags": [
         "code-review",
@@ -611,7 +611,7 @@
       "url": "https://github.com/0cv/herdr-mobile-relay",
       "description": "Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer relays.",
       "note": "",
-      "stars": 49,
+      "stars": 50,
       "language": "Go",
       "tags": [
         "android",
@@ -873,7 +873,7 @@
       "also": [
         "layout"
       ],
-      "pushed_at": "2026-08-15T20:47:39Z",
+      "pushed_at": "2026-08-16T01:59:43Z",
       "install": "herdr plugin install fullerzz/herdr-plugin-sesh"
     },
     {
@@ -958,7 +958,7 @@
       ],
       "category": "cost",
       "also": [],
-      "pushed_at": "2026-08-15T01:48:32Z",
+      "pushed_at": "2026-08-16T06:54:42Z",
       "install": "herdr plugin install senna-lang/herdr-agent-usage"
     },
     {
@@ -1434,7 +1434,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-15T16:16:34Z",
+      "pushed_at": "2026-08-16T06:05:05Z",
       "install": "herdr plugin install 0xGosu/herdr-auto-pilot"
     },
     {
@@ -1535,6 +1535,29 @@
       "also": [],
       "pushed_at": "2026-08-12T00:16:42Z",
       "install": "herdr plugin install ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay"
+    },
+    {
+      "full_name": "aemrebarut/herdr-dagr",
+      "name": "herdr-dagr",
+      "owner": "aemrebarut",
+      "url": "https://github.com/aemrebarut/herdr-dagr",
+      "description": "Your agent swarm as a live DAG: an orchestration graph with attempts, review gates, and evidence, in a herdr split pane.",
+      "note": "",
+      "stars": 10,
+      "language": "Rust",
+      "tags": [
+        "agents",
+        "dag",
+        "multi-agent",
+        "orchestration",
+        "rust",
+        "swarm",
+        "tui"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-08-15T22:53:51Z",
+      "install": "herdr plugin install aemrebarut/herdr-dagr"
     },
     {
       "full_name": "alexarthurs/herdr-notes",
@@ -1823,7 +1846,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-15T18:47:21Z",
+      "pushed_at": "2026-08-16T01:57:32Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -1925,29 +1948,6 @@
       "also": [],
       "pushed_at": "2026-08-09T14:26:23Z",
       "install": "herdr plugin install vercel-labs/herdr-vercel-sandbox-plugin"
-    },
-    {
-      "full_name": "aemrebarut/herdr-dagr",
-      "name": "herdr-dagr",
-      "owner": "aemrebarut",
-      "url": "https://github.com/aemrebarut/herdr-dagr",
-      "description": "Your agent swarm as a live DAG: an orchestration graph with attempts, review gates, and evidence, in a herdr split pane.",
-      "note": "",
-      "stars": 8,
-      "language": "Rust",
-      "tags": [
-        "agents",
-        "dag",
-        "multi-agent",
-        "orchestration",
-        "rust",
-        "swarm",
-        "tui"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-08-15T22:53:51Z",
-      "install": "herdr plugin install aemrebarut/herdr-dagr"
     },
     {
       "full_name": "luminexord/herdres",
@@ -2465,7 +2465,7 @@
       "name": "bermuda",
       "owner": "bon5co",
       "url": "https://github.com/bon5co/bermuda",
-      "description": "An agent harness: schedules work and runs each job as an interactive herdr agent",
+      "description": "Orchestration under Claude Code on herdr: flows an agent cannot skip, jobs on a clock, threads with claims, and a forum agents search later",
       "note": "",
       "stars": 5,
       "language": "Go",
@@ -2475,9 +2475,9 @@
         "tui",
         "go"
       ],
-      "category": "automation",
+      "category": "agents",
       "also": [],
-      "pushed_at": "2026-08-15T21:03:36Z",
+      "pushed_at": "2026-08-16T06:12:36Z",
       "install": "herdr plugin install bon5co/bermuda"
     },
     {
@@ -3258,6 +3258,27 @@
       "install": "herdr plugin install azizuysal/herdr-workbench"
     },
     {
+      "full_name": "bsorescu/herdr-mobile",
+      "name": "herdr-mobile",
+      "owner": "bsorescu",
+      "url": "https://github.com/bsorescu/herdr-mobile",
+      "description": "Phone-friendly TUI for controlling Herdr coding agents over SSH",
+      "note": "",
+      "stars": 3,
+      "language": "Python",
+      "tags": [
+        "mobile",
+        "ssh",
+        "textual",
+        "tui",
+        "python"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-08-11T17:21:05Z",
+      "install": "herdr plugin install bsorescu/herdr-mobile"
+    },
+    {
       "full_name": "calebcauthon/herdr-theos-settler",
       "name": "herdr-theos-settler",
       "owner": "calebcauthon",
@@ -3720,7 +3741,7 @@
       ],
       "category": "finder",
       "also": [],
-      "pushed_at": "2026-08-05T00:37:30Z",
+      "pushed_at": "2026-08-16T06:53:18Z",
       "install": "herdr plugin install mr04vv/herdr-pane-navigator"
     },
     {
@@ -4234,27 +4255,6 @@
       "also": [],
       "pushed_at": "2026-07-20T08:00:52Z",
       "install": "herdr plugin install bojackduy/nvim-herdr-navigation"
-    },
-    {
-      "full_name": "bsorescu/herdr-mobile",
-      "name": "herdr-mobile",
-      "owner": "bsorescu",
-      "url": "https://github.com/bsorescu/herdr-mobile",
-      "description": "Phone-friendly TUI for controlling Herdr coding agents over SSH",
-      "note": "",
-      "stars": 2,
-      "language": "Python",
-      "tags": [
-        "mobile",
-        "ssh",
-        "textual",
-        "tui",
-        "python"
-      ],
-      "category": "remote",
-      "also": [],
-      "pushed_at": "2026-08-11T17:21:05Z",
-      "install": "herdr plugin install bsorescu/herdr-mobile"
     },
     {
       "full_name": "calebcauthon/herdr-agent-copy-paste-fork",
@@ -5328,7 +5328,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-08-04T06:13:53Z",
+      "pushed_at": "2026-08-16T04:08:52Z",
       "install": "herdr plugin install RenKoya1/herdr-approve-all"
     },
     {
@@ -6438,7 +6438,7 @@
       ],
       "category": "automation",
       "also": [],
-      "pushed_at": "2026-08-16T01:55:19Z",
+      "pushed_at": "2026-08-16T06:25:46Z",
       "install": "herdr plugin install dio16/herdr-auto-update"
     },
     {
@@ -6985,7 +6985,7 @@
       "also": [
         "cost"
       ],
-      "pushed_at": "2026-08-16T01:33:05Z",
+      "pushed_at": "2026-08-16T05:09:58Z",
       "install": "herdr plugin install levi-qiao/herdr-agent-quota"
     },
     {
@@ -7781,7 +7781,7 @@
       ],
       "category": "forge",
       "also": [],
-      "pushed_at": "2026-08-03T04:49:46Z",
+      "pushed_at": "2026-08-16T02:29:01Z",
       "install": "herdr plugin install steig/worktender"
     },
     {
@@ -8416,7 +8416,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-08-15T20:13:34Z",
+      "pushed_at": "2026-08-16T05:04:15Z",
       "install": "herdr plugin install AlexanderMakarov/herdr-preview"
     },
     {
@@ -10516,7 +10516,7 @@
       "also": [
         "automation"
       ],
-      "pushed_at": "2026-08-11T12:54:59Z",
+      "pushed_at": "2026-08-16T03:47:01Z",
       "install": "herdr plugin install m1sk9/herdr-worktree-hooks-plugin"
     },
     {
@@ -12079,7 +12079,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-08-15T14:33:59Z",
+      "pushed_at": "2026-08-16T06:47:52Z",
       "install": "herdr plugin install terry-li-hm/herdr-group-chat"
     },
     {
