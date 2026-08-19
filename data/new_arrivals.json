@@ -10,6 +10,7 @@
   "Only-Moon/herdr-yazi-windows": "2026-08-12",
   "Slimydog21/herdr-nixos-vm": "2026-08-18",
   "TheThoughtagen/attic": "2026-08-14",
+  "Tomyail/herdr-connect": "2026-08-19",
   "Unayung/herdr-watch": "2026-08-12",
   "Unique-Divine/dotfiles": "2026-08-15",
   "VoidAxon/herdr-lens": "2026-08-17",
@@ -63,6 +64,7 @@
   "kiitosu/herdr-jira-board": "2026-08-14",
   "klukacin/herdr-hub-worktrees": "2026-08-12",
   "kokatsu/herdr-tab-numbers": "2026-08-18",
+  "kvkenyon/herdr-quota": "2026-08-19",
   "levi-qiao/herdr-agent-quota": "2026-08-15",
   "loofare/herdr-portal": "2026-08-18",
   "lurepos/herdr-vscode-tasks": "2026-08-12",
@@ -110,6 +112,7 @@
   "uwuclxdy/clauth": "2026-08-18",
   "waynewu411/herdr-event-log": "2026-08-15",
   "wazum/herdr-polyglot": "2026-08-18",
+  "wenPKtalk/herdr-translate": "2026-08-19",
   "winoooops/herdr-agent-watcher": "2026-08-15",
   "yersonargotev/tabby": "2026-08-12",
   "zackshen/herdr-telescope": "2026-08-18"
