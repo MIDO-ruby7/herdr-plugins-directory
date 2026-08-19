@@ -4,6 +4,7 @@
   "AltanS/herdr-pouch": "2026-08-17",
   "Brutheron/Renderd": "2026-08-15",
   "CristianPeralta/herdr-api-credit-bar": "2026-08-17",
+  "JefeLabs/herdr-web-broker": "2026-08-19",
   "JonasBaeumer/herdr-file-annotator": "2026-08-15",
   "Northern-Lighthouse/herdr-fleet": "2026-08-14",
   "OliverGilan/herdr-jj": "2026-08-12",
@@ -84,10 +85,12 @@
   "nimrc/herdr-git-pull": "2026-08-13",
   "nkwork9999/ayatsumugi": "2026-08-15",
   "noviadi/herdr-layout": "2026-08-13",
+  "oppenheimor/herdr-prompts": "2026-08-19",
   "osolmaz/pi-workflows": "2026-08-18",
   "pjs-0457/herdr-yazi-explorer": "2026-08-13",
   "qapquiz/herdr-sidekick": "2026-08-15",
   "qintmb/herdr-icon-agent-ui": "2026-08-18",
+  "qintmb/herdr-theme-picker": "2026-08-19",
   "ram4-dev/herdr-automations": "2026-08-13",
   "ram4-dev/herdr-notify-center": "2026-08-13",
   "revanp/herdr-discord-presence": "2026-08-14",
@@ -114,6 +117,7 @@
   "wazum/herdr-polyglot": "2026-08-18",
   "wenPKtalk/herdr-translate": "2026-08-19",
   "winoooops/herdr-agent-watcher": "2026-08-15",
+  "y4m3/herdr-zen": "2026-08-19",
   "yersonargotev/tabby": "2026-08-12",
   "zackshen/herdr-telescope": "2026-08-18"
 }
