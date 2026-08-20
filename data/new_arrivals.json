@@ -1,5 +1,6 @@
 {
   "A1exthegreat/herdr-agent-notify": "2026-08-15",
+  "AZenking/herdr-nodejs-center": "2026-08-20",
   "AgentTeamsRun/herdr": "2026-08-20",
   "AlexSamarsky/herdr-simple-prompts": "2026-08-17",
   "AltanS/herdr-pouch": "2026-08-17",
@@ -49,6 +50,7 @@
   "gdli6177/herdr-agent-team": "2026-08-16",
   "gejiliang/herdr-openclaw": "2026-08-13",
   "goofansu/herdr-hunk": "2026-08-13",
+  "goofansu/herdr-notebook": "2026-08-20",
   "haisi/herdr-plugin-command-palette": "2026-08-17",
   "hamidi-dev/herdr-opentab": "2026-08-17",
   "hasuwini77/herdr-follow-cwd": "2026-08-13",
@@ -66,6 +68,7 @@
   "kokatsu/herdr-tab-numbers": "2026-08-18",
   "kvkenyon/herdr-quota": "2026-08-19",
   "levi-qiao/herdr-agent-quota": "2026-08-15",
+  "lntvan166/paddock": "2026-08-20",
   "loofare/herdr-portal": "2026-08-18",
   "m1sk9/strays": "2026-08-13",
   "malone-c/herdr-agent-smart-rename": "2026-08-14",
@@ -115,6 +118,9 @@
   "wazum/herdr-polyglot": "2026-08-18",
   "wenPKtalk/herdr-translate": "2026-08-19",
   "winoooops/herdr-agent-watcher": "2026-08-15",
+  "wynemo/herdr-agent-topic": "2026-08-20",
   "y4m3/herdr-zen": "2026-08-19",
-  "zackshen/herdr-telescope": "2026-08-18"
+  "zackshen/herdr-telescope": "2026-08-18",
+  "zenbu-labs/terminal-browser": "2026-08-20",
+  "zenbu-labs/terminal-code": "2026-08-20"
 }
