@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21 00:09 UTC",
+  "generated_at": "2026-08-21 00:10 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -196,7 +196,7 @@
       "url": "https://github.com/zenbu-labs/terminal-browser",
       "description": "A browser that runs directly inside your existing terminal",
       "note": "",
-      "stars": 1697,
+      "stars": 1698,
       "language": "Rust",
       "tags": [
         "browser",
@@ -2050,7 +2050,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-08-20T18:59:18Z",
+      "pushed_at": "2026-08-21T00:10:16Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
