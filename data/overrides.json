@@ -48,6 +48,66 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "hamidi-dev/herdr-opentab": {
+    "category": "cost"
+  },
+  "crierr/herdr-tmux-layout": {
+    "category": "navigate"
+  },
+  "CristianPeralta/herdr-api-credit-bar": {
+    "category": "cost"
+  },
+  "qintmb/herdr-theme-picker": {
+    "category": "naming"
+  },
+  "qintmb/herdr-icon-agent-ui": {
+    "category": "naming"
+  },
+  "xlinx/herdr-auto-yes-sir": {
+    "category": "agents"
+  },
+  "alastairsounds/herdr-plugins": {
+    "category": "meta"
+  },
+  "AZenking/herdr-nodejs-center": {
+    "category": "monitor"
+  },
+  "moneycaringcoder/herdr-agent-icons": {
+    "category": "naming"
+  },
+  "moneycaringcoder/herdr-pulse": {
+    "category": "monitor"
+  },
+  "oppenheimor/herdr-prompts": {
+    "category": "agents"
+  },
+  "qapquiz/herdr-sidekick": {
+    "category": "agents"
+  },
+  "shanefully-done/herdr-pane-equalizer": {
+    "category": "navigate"
+  },
+  "smanickam01/herdr-atuin-plugin": {
+    "category": "finder"
+  },
+  "sushidesu/herdr-tabpick": {
+    "category": "navigate"
+  },
+  "wenPKtalk/herdr-translate": {
+    "category": "text"
+  },
+  "jwkicklighter/herdr-prompt-library": {
+    "category": "agents"
+  },
+  "Brutheron/Renderd": {
+    "category": "files"
+  },
+  "candypoets/buzzr": {
+    "category": "notify"
+  },
+  "chantlong/herdr-habitat": {
+    "category": "naming"
+  },
   "Unayung/herdr-watch": {
     "category": "remote"
   },
