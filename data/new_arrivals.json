@@ -42,6 +42,7 @@
   "coryshaw1/herdr-cliamp": "2026-08-19",
   "crierr/herdr-tmux-layout": "2026-08-14",
   "damianpoole/herdr-opencode-sessions": "2026-08-14",
+  "devops-fj/herdr-handoff": "2026-08-21",
   "dleen/herdr-agents": "2026-08-14",
   "donghaolicd/herdr-teams-notify": "2026-08-15",
   "e2b-dev/herdr-e2b-sandbox": "2026-08-18",
@@ -55,6 +56,7 @@
   "haisi/herdr-plugin-command-palette": "2026-08-17",
   "hamidi-dev/herdr-opentab": "2026-08-17",
   "hota911/herdr-command-palette": "2026-08-16",
+  "husniadil/herdr-dispatch": "2026-08-21",
   "husniadil/herdr-swipe": "2026-08-18",
   "husniadil/herdr-tasks": "2026-08-21",
   "iiii1224/herdr-statusline": "2026-08-14",
@@ -122,6 +124,7 @@
   "y4m3/herdr-zen": "2026-08-19",
   "ythx-101/herdr-social-glass": "2026-08-20",
   "zackshen/herdr-telescope": "2026-08-18",
+  "zackshen/herdr-workspace": "2026-08-21",
   "zenbu-labs/terminal-browser": "2026-08-20",
   "zenbu-labs/terminal-code": "2026-08-20"
 }
