@@ -2625,9 +2625,9 @@
     "zh": "通过一个模糊导航器跳转到任意 Herdr 工作区、Agent、项目、会话、远程连接、目录或操作"
   },
   "zenbu-labs/terminal-browser": {
-    "en": "A browser that runs directly inside your existing terminal",
-    "ja": "既存のターミナルの中でそのまま動くブラウザ",
-    "zh": "直接在你现有终端中运行的浏览器"
+    "en": "A browser inside your terminal",
+    "ja": "ターミナルの中のブラウザ",
+    "zh": "终端里的浏览器"
   },
   "vekexasia/pi-extensible-workflows": {
     "en": "Deterministic multi-agent workflow orchestration for Pi",
@@ -3080,9 +3080,9 @@
     "zh": "beb × herdr：将跨机器邮件直接注入到任意 herdr 管理的 Agent 终端中"
   },
   "goofansu/herdr-hunk": {
-    "en": "Opens a Hunk pane for uncommitted changes, the last commit, or everything this branch changed, and closes it when you quit Hunk",
-    "ja": "未コミットの変更・直前のコミット・このブランチでの全変更のいずれかを対象にHunkペインを開き、Hunkを終了すると閉じる",
-    "zh": "为未提交的更改、上一次提交，或本分支的全部改动打开 Hunk 窗格，退出 Hunk 时自动关闭"
+    "en": "Provides quick Herdr review actions that open a temporary Hunk overlay. Quitting Hunk closes the overlay and restores your workspace.",
+    "ja": "一時的なHunkオーバーレイを開く、素早いHerdrレビューアクションを提供する。Hunkを終了するとオーバーレイが閉じ、ワークスペースが元に戻る",
+    "zh": "提供快速的 Herdr 评审操作，打开一个临时的 Hunk 浮层。退出 Hunk 会关闭浮层并恢复你的工作区"
   },
   "hasuwini77/herdr-follow-cwd": {
     "en": "Herdr plugin: workspace labels follow the directory their panes actually live in",
@@ -3205,7 +3205,7 @@
     "zh": "将 Agent 集群实时呈现为 DAG——在 herdr 分屏窗格中展示包含尝试记录、评审关卡和证据的编排图"
   },
   "JonasBaeumer/herdr-file-annotator": {
-    "en": "A plugin for herder to maximize agentic development without losing touch with the actual codebase",
+    "en": "A plugin for herdr to maximize agentic development without losing touch with the actual codebase",
     "ja": "実際のコードベースとの接点を失わずに、エージェントによる開発を最大限活用するためのherdrプラグイン",
     "zh": "在不脱离实际代码库的前提下，最大化 Agent 化开发效率的 herdr 插件"
   },
@@ -3545,7 +3545,7 @@
     "zh": "面向运行在 Herdr 中的编程 Agent 的持久化、有序的提示词队列"
   },
   "goofansu/herdr-notebook": {
-    "en": "One permanent Markdown notebook per workspace, opened in your editor over the active pane",
+    "en": "One permanent Markdown notebook per workspace, opened in your editor over the active pane.",
     "ja": "ワークスペースごとに1つの永続的なMarkdownノートブックを、アクティブなペインの上でエディタから開く",
     "zh": "每个工作区一个永久的 Markdown 笔记本，在活动窗格上方用你的编辑器打开"
   },
@@ -3565,9 +3565,9 @@
     "zh": "herdr 插件：在窗格中监视并查看当前 PR 的 CI，并在侧边栏行中显示 CI/合并状态。使用 Go + Bubble Tea 编写"
   },
   "JefeLabs/herdr-web-broker": {
-    "en": "REST/WS gateway and parent-child federation for herdr instances",
-    "ja": "herdrインスタンス向けの、REST/WSゲートウェイと親子間フェデレーション",
-    "zh": "面向 herdr 实例的 REST/WS 网关与父子实例联邦"
+    "en": "Self-hosted REST/WS API for herdr: spawn and steer coding agents from anywhere — tokens, multi-user session ownership, git verbs, event streaming, parent↔child federation. TypeScript SDK + React packages.",
+    "ja": "herdr向けの自己ホスト型REST/WS API——どこからでもコーディングエージェントを起動・操作できる。トークン、マルチユーザーのセッション所有権、gitコマンド、イベントストリーミング、親子間フェデレーションに対応。TypeScript SDK＋Reactパッケージ付き",
+    "zh": "面向 herdr 的自托管 REST/WS API——可从任何地方启动并操控编程 Agent。支持 token、多用户会话所有权、git 操作、事件流以及父子实例联邦。附带 TypeScript SDK 和 React 包"
   },
   "kevinWangSheng/herdr-kit": {
     "en": "Declarative layouts, an event watcher, plugins and a socket client for Herdr — the parts the herdr CLI does not expose",
@@ -3753,5 +3753,265 @@
     "en": "fzf command telescope for herdr: native actions, plugin actions, file finder (@), and live ripgrep search (/)",
     "ja": "herdr向けのfzfコマンドテレスコープ——ネイティブアクション、プラグインアクション、ファイル検索（@）、ライブripgrep検索（/）に対応",
     "zh": "面向 herdr 的 fzf 命令 telescope——支持原生操作、插件操作、文件查找（@）和实时 ripgrep 搜索（/）"
+  },
+  "choplin/herdr-plugins": {
+    "en": "Focused plugins for Herdr terminal workflows.",
+    "ja": "Herdrのターミナルワークフローに特化したプラグイン集",
+    "zh": "专注于 Herdr 终端工作流的插件合集"
+  },
+  "Poor-Plebs/herdr-remote-panes": {
+    "en": "Work on other machines from one Herdr: pick a machine from a menu, get a terminal on it. Optional experimental two-way mirroring.",
+    "ja": "1つのHerdrから他のマシンで作業する——メニューからマシンを選ぶと、そのマシンのターミナルが得られる。実験的な双方向ミラーリングもオプションで利用可能",
+    "zh": "从一个 Herdr 操作其他机器——从菜单中选择一台机器，即可获得该机器上的终端。还可选启用实验性的双向镜像"
+  },
+  "vishnutskumar/herdr-memex-analytics": {
+    "en": "Herdr plugin: session efficiency analytics and realtime agent guidance, powered by memex history",
+    "ja": "herdrプラグイン：memexの履歴を活用した、セッション効率の分析とリアルタイムなエージェントガイダンス",
+    "zh": "herdr 插件：基于 memex 历史记录，提供会话效率分析和实时 Agent 指导"
+  },
+  "Zamua/openloc.nvim": {
+    "en": "Open file references in the Neovim that already belongs to the workspace",
+    "ja": "すでにワークスペースに属しているNeovimでファイル参照を開く",
+    "zh": "在已属于该工作区的 Neovim 中打开文件引用"
+  },
+  "agentience/herdr-plugin-ide-jump": {
+    "en": "Get back to your IDE: raise the editor window for the focused pane's project, or pick one from a filterable popup. A Herdr plugin.",
+    "ja": "IDEにすぐ戻れる——フォーカス中のペインのプロジェクトのエディタウィンドウを前面に出す、または絞り込み可能なポップアップから選ぶ。Herdrプラグイン",
+    "zh": "快速回到你的 IDE——将聚焦窗格所属项目的编辑器窗口置顶，或从可筛选的弹窗中选择一个。一个 Herdr 插件"
+  },
+  "KadenThomp36/herdr-plugin-switcher": {
+    "en": "Hold Ctrl, tap Tab to cycle herdr panes MRU-style. Arc/Zen-style pane switcher for herdr on macOS.",
+    "ja": "Ctrlを押しながらTabで、最近使った順にherdrのペインを切り替える。macOS版herdr向けの、Arc/Zen風ペインスイッチャー",
+    "zh": "按住 Ctrl，点按 Tab 即可按最近使用顺序循环切换 herdr 窗格。面向 macOS 版 herdr 的 Arc/Zen 风格窗格切换器"
+  },
+  "KoalaVim/herdr-nvim-aware": {
+    "en": "Nvim-aware keybindings for herdr: navigation, splits, close, zoom",
+    "ja": "herdr向けのNvim対応キーバインド——移動・分割・クローズ・ズームに対応",
+    "zh": "面向 herdr 的 Nvim 感知快捷键——支持导航、分屏、关闭、缩放"
+  },
+  "macintacos/herdr-scratch": {
+    "en": "A scratch shell for herdr, in a popup you toggle with one chord — backed by tmux, so it comes back exactly as you left it",
+    "ja": "herdr向けのスクラッチシェル——1つのコード（キーの組み合わせ）で開閉するポップアップ。裏側はtmuxなので、離れたときのまま正確に復元される",
+    "zh": "面向 herdr 的速记 shell——通过一个组合键开关的弹窗。底层基于 tmux，因此再次打开时会与离开时一模一样"
+  },
+  "rcosteira79/herdr-readpending": {
+    "en": "Mark agents you haven't finished reading. Numbered badge ($read) + a reorderable list pane. Auto-clears when you focus the agent.",
+    "ja": "まだ読み終えていないエージェントにマークを付ける。番号付きバッジ（$read）＋並べ替え可能なリストペインを提供。そのエージェントにフォーカスすると自動でクリアされる",
+    "zh": "标记你还没看完的 Agent。提供带编号的徽章（$read）+ 可重新排序的列表窗格。聚焦该 Agent 时会自动清除标记"
+  },
+  "ronly2460/herdr-pane-mover": {
+    "en": "Move Herdr panes between workspaces with an interactive arrow-key picker",
+    "ja": "矢印キーで操作するインタラクティブなピッカーで、Herdrのペインをワークスペース間で移動する",
+    "zh": "通过交互式方向键选择器，在工作区之间移动 Herdr 窗格"
+  },
+  "shibayu36/herdr-equalize-panes": {
+    "en": "herdr plugin that automatically equalizes pane sizes on split and close (tmux select-layout -E, but automatic)",
+    "ja": "分割やクローズのたびにペインサイズを自動的に均等化するherdrプラグイン（tmuxのselect-layout -Eを自動で行うイメージ）",
+    "zh": "在分屏和关闭时自动均分窗格大小的 herdr 插件（相当于自动执行 tmux 的 select-layout -E）"
+  },
+  "xheisenbugx/herdr-sesh": {
+    "en": "A smart herdr workspace manager inspired by sesh",
+    "ja": "seshに着想を得た、賢いherdrワークスペースマネージャー",
+    "zh": "受 sesh 启发的智能 herdr 工作区管理器"
+  },
+  "zackshen/herdr-workspace": {
+    "en": "Herdr plugin: create a workspace and apply a layout profile from a centered popup",
+    "ja": "herdrプラグイン：中央に表示されるポップアップから、ワークスペースを作成しレイアウトプロファイルを適用する",
+    "zh": "herdr 插件：从居中弹窗创建工作区并应用布局配置"
+  },
+  "0xthc/herdr-plugin-pr-board": {
+    "en": "GitHub PRs for the current repo inside herdr: browse them in a pane, check one out as a worktree workspace, and safely collect merged ones.",
+    "ja": "現在のリポジトリのGitHub PRをherdr内で扱う——ペインで一覧・閲覧し、選んだものをworktreeワークスペースとしてチェックアウトし、マージ済みのものを安全に回収する",
+    "zh": "在 herdr 中处理当前仓库的 GitHub PR——在窗格中浏览，将选中的 PR 检出为工作树工作区，并安全地回收已合并的 PR"
+  },
+  "0xthc/herdr-plugin-worktree-bootstrap": {
+    "en": "Seed new herdr worktrees with .env files and node_modules the moment they open",
+    "ja": "新しいherdr worktreeを開いた瞬間に、.envファイルとnode_modulesを投入する",
+    "zh": "在新的 herdr 工作树打开的瞬间，为其植入 .env 文件和 node_modules"
+  },
+  "abelfubu/herdr-popup": {
+    "en": "Generic Herdr popup pane plugin for ad-hoc shell commands",
+    "ja": "その場限りのシェルコマンド実行のための、汎用的なHerdrポップアップペインプラグイン",
+    "zh": "用于执行临时 shell 命令的通用 Herdr 弹窗窗格插件"
+  },
+  "alex-devdone/herdr-hub": {
+    "en": "Describe a herdr session of remote-attach panes as a portable manifest, and rebuild it on any machine",
+    "ja": "リモートアタッチしたペインで構成されるherdrセッションを、持ち運び可能なマニフェストとして記述し、どのマシンでも再構築できる",
+    "zh": "将由远程连接窗格组成的 herdr 会话描述为可移植的清单文件，并可在任意机器上重建"
+  },
+  "andischerer/herdr-plugin-echo": {
+    "en": "Herdr Plugin that broadcast keystrokes from one pane to multiple marked panes",
+    "ja": "1つのペインから、マークした複数のペインにキー入力をブロードキャストするHerdrプラグイン",
+    "zh": "将一个窗格中的按键广播到多个已标记窗格的 Herdr 插件"
+  },
+  "Anthodev/herdr-context": {
+    "en": "Project context dock for herdr — file tree with git status and LLM conversation history, always at your agent's side",
+    "ja": "herdr向けのプロジェクトコンテキストドック——git状態付きのファイルツリーとLLMの会話履歴を、常にエージェントのそばに表示する",
+    "zh": "面向 herdr 的项目上下文面板——带 git 状态的文件树和 LLM 对话历史，始终陪伴在你的 Agent 身旁"
+  },
+  "barnuri/herdr-auto-update": {
+    "en": "Keep herdr always up to date — auto patch/minor/major updates with live handoff",
+    "ja": "herdrを常に最新に保つ——パッチ/マイナー/メジャーの自動更新を、ライブなハンドオフ付きで行う",
+    "zh": "让 herdr 始终保持最新——自动进行 patch/minor/major 更新，并支持无缝交接"
+  },
+  "barnuri/herdr-telegram-notifications": {
+    "en": "herdr plugin: Telegram notifications when an agent goes idle, gets blocked, or finishes",
+    "ja": "herdrプラグイン：エージェントがアイドルになった・ブロックされた・完了したときにTelegram通知を送る",
+    "zh": "herdr 插件：当 Agent 进入空闲、被阻塞或完成时发送 Telegram 通知"
+  },
+  "BASHBOP/otito-herdr-plugin": {
+    "en": "Run Otito context and deterministic merge evidence inside Herdr agent workspaces.",
+    "ja": "Herdrのエージェントワークスペース内で、Otitoのコンテキストと決定論的なマージ証跡を実行する",
+    "zh": "在 Herdr Agent 工作区内运行 Otito 的上下文和确定性合并证据"
+  },
+  "codingfragments/herdr-flash": {
+    "en": "Port of zellij-flash (Zellij plugin) to run as a native Herdr plugin",
+    "ja": "zellij-flash（Zellijのプラグイン）を、ネイティブなHerdrプラグインとして移植したもの",
+    "zh": "将 zellij-flash（Zellij 插件）移植为原生 Herdr 插件"
+  },
+  "codingfragments/herdr-nav": {
+    "en": "herdr Workspaces and pane navigation, modern version of herdr-navigation with better preview support and new workspace template handling",
+    "ja": "herdrのワークスペースとペインナビゲーション。herdr-navigationの現代版で、プレビュー機能の改善と新しいワークスペーステンプレート処理に対応",
+    "zh": "herdr 工作区与窗格导航——herdr-navigation 的现代版，改进了预览支持并新增工作区模板处理"
+  },
+  "codingfragments/herdr-zextract": {
+    "en": "Port of zextract (Zellij plugin) to run as a native Herdr plugin",
+    "ja": "zextract（Zellijのプラグイン）を、ネイティブなHerdrプラグインとして移植したもの",
+    "zh": "将 zextract（Zellij 插件）移植为原生 Herdr 插件"
+  },
+  "devops-fj/herdr-handoff": {
+    "en": "Preview and securely hand off local working context between Herdr coding agents.",
+    "ja": "Herdrのコーディングエージェント間で、ローカルの作業コンテキストをプレビューし安全に引き継ぐ",
+    "zh": "在 Herdr 编程 Agent 之间预览并安全地移交本地工作上下文"
+  },
+  "Efeguclu1/herdr-usage": {
+    "en": "Compact account-usage marks on Herdr agent tabs for Claude, Codex, Cursor, OpenCode, and Pi",
+    "ja": "Claude・Codex・Cursor・OpenCode・Pi向けの、Herdrエージェントタブ上のコンパクトなアカウント使用量表示",
+    "zh": "在 Herdr Agent 标签页上以紧凑标记显示 Claude、Codex、Cursor、OpenCode 和 Pi 的账号用量"
+  },
+  "eliasstravik/herdr-chat": {
+    "en": "A live structured chat view for agents running inside Herdr.",
+    "ja": "Herdr内で動くエージェント向けの、構造化されたライブチャットビュー",
+    "zh": "为运行在 Herdr 中的 Agent 提供结构化的实时聊天视图"
+  },
+  "gbaeke/hrdr-azure-plugin": {
+    "en": "Herdr plugin: browse Azure resource groups and resources; click a resource to open it in the Azure portal",
+    "ja": "herdrプラグイン：Azureのリソースグループとリソースを閲覧し、クリックするとAzureポータルで開く",
+    "zh": "herdr 插件：浏览 Azure 资源组和资源，点击资源即可在 Azure 门户中打开"
+  },
+  "gridness/herdr-random-sounds": {
+    "en": "play random notification sounds per agent status in herdr on macOS",
+    "ja": "macOS版herdrで、エージェントの状態ごとにランダムな通知音を再生する",
+    "zh": "在 macOS 版 herdr 中，根据 Agent 状态播放随机通知音"
+  },
+  "H3xept/git-shepherd": {
+    "en": "Draft/open/merged/closed pull request state as an icon next to every Herdr Space",
+    "ja": "各Herdr Spaceの隣に、プルリクエストの状態（下書き/オープン/マージ済み/クローズ）をアイコンで表示する",
+    "zh": "在每个 Herdr Space 旁以图标显示拉取请求状态（草稿/打开/已合并/已关闭）"
+  },
+  "hassox/herdr-kanban": {
+    "en": "Workspace panes as a kanban board.",
+    "ja": "ワークスペースのペインをカンバンボードとして表示する",
+    "zh": "将工作区窗格呈现为看板"
+  },
+  "hidekingerz/herdr-plugin-mado": {
+    "en": "herdr plugins that open agent-written markdown in mado, a TUI viewer, beside the agent writing it",
+    "ja": "エージェントが書いたMarkdownを、それを書いているエージェントの隣でTUIビューアmadoを使って開くherdrプラグイン",
+    "zh": "在编写该 Markdown 的 Agent 旁边，用 TUI 查看器 mado 打开 Agent 所写 Markdown 的 herdr 插件"
+  },
+  "husniadil/herdr-dispatch": {
+    "en": "Dispatcher for the herdr-tasks board - a worker agent pane per ready task, the goal delivered, the worker tracked, and a stop at review, in one Go binary.",
+    "ja": "herdr-tasksボード用のディスパッチャー——準備完了したタスクごとにワーカーエージェントのペインを立て、目標を伝え、ワーカーを追跡し、レビューで一旦止める。すべて1つのGoバイナリで実現",
+    "zh": "面向 herdr-tasks 看板的调度器——为每个已就绪的任务启动一个 worker Agent 窗格，传递目标、追踪 worker，并在评审处暂停。全部由一个 Go 二进制程序实现"
+  },
+  "husniadil/herdr-mail": {
+    "en": "Async mail between coding agents on Herdr - a store-authoritative mailbox, a one-line pane marker as the hint, and ask/reply with a tracked obligation, in one Go binary.",
+    "ja": "Herdr上のコーディングエージェント同士の非同期メール——ストアを正とするメールボックス、ヒントとなる1行のペインマーカー、追跡可能な依頼付きのask/replyを、1つのGoバイナリで実現",
+    "zh": "Herdr 上编程 Agent 之间的异步邮件——以存储为准的邮箱、作为提示的单行窗格标记，以及带追踪义务的 ask/reply，全部由一个 Go 二进制程序实现"
+  },
+  "husniadil/herdr-tasks": {
+    "en": "Task backlog and notes board for coding agents on Herdr - claims with leases, evidence-backed review, and a human decision gate, in one Go binary.",
+    "ja": "Herdr上のコーディングエージェント向けのタスクバックログ＋メモボード——リース付きのclaim、証跡に基づくレビュー、人間による決定ゲートを、1つのGoバイナリで実現",
+    "zh": "面向 Herdr 编程 Agent 的任务待办和笔记看板——带租约的 claim、有证据支撑的评审，以及人工决策关卡，全部由一个 Go 二进制程序实现"
+  },
+  "jackfrancisdalton/herdr-chromatic-spaces": {
+    "en": "Give every Herdr Space its own colour and emoji: coloured sidebar dots, grouped agents, and optional chrome tint on space switch.",
+    "ja": "各Herdr Spaceに独自の色と絵文字を付ける——サイドバーの色付きドット、エージェントのグループ化、Space切り替え時の任意のクローム着色に対応",
+    "zh": "为每个 Herdr Space 赋予专属颜色和表情符号——彩色侧边栏圆点、Agent 分组，以及切换 Space 时可选的界面着色"
+  },
+  "jackfrancisdalton/herdr-turbo-palette": {
+    "en": "Fuzzy-find any Herdr space, tab, agent or pane and jump straight to it.",
+    "ja": "任意のHerdrのspace・タブ・エージェント・ペインをファジー検索し、そのまま直接ジャンプする",
+    "zh": "模糊查找任意 Herdr space、标签页、Agent 或窗格，并直接跳转过去"
+  },
+  "jordanhawkes/herdr-metrics": {
+    "en": "Context, session-token and account-limit metrics for Claude Code, Codex and TraeX in the Herdr sidebar. Maintained continuation of szrenwei/herdr-agent-metrics.",
+    "ja": "Claude Code・Codex・TraeX向けの、コンテキスト・セッショントークン・アカウント上限のメトリクスをHerdrのサイドバーに表示する。szrenwei/herdr-agent-metricsのメンテナンスを引き継いだもの",
+    "zh": "在 Herdr 侧边栏中显示 Claude Code、Codex 和 TraeX 的上下文、会话 token 和账号限额指标。是 szrenwei/herdr-agent-metrics 的维护延续"
+  },
+  "k-narusawa/herdr-last-tab": {
+    "en": "",
+    "ja": "",
+    "zh": ""
+  },
+  "mattbidinger/herdr-pocket": {
+    "en": "Zero-dependency phone-first web controller for live coding-agent sessions in the Herdr terminal multiplexer.",
+    "ja": "Herdrのターミナルマルチプレクサ上で動くコーディングエージェントセッションを操作する、依存関係ゼロのスマホ向けWebコントローラー",
+    "zh": "面向 Herdr 终端复用器中运行的编程 Agent 会话的零依赖手机端网页控制器"
+  },
+  "mcuste/herdr-workspacer": {
+    "en": "A fuzzy Herdr workspace manager that uses zoxide to find projects, then creates or switches workspaces in one picker.",
+    "ja": "zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー",
+    "zh": "使用 zoxide 查找项目，并可在一个选择器中创建或切换工作区的模糊搜索 Herdr 工作区管理器"
+  },
+  "neospark-sol/agentflock": {
+    "en": "AI-coordinated builder and reviewer groups with durable milestone control",
+    "ja": "AIが調整するビルダー役とレビュアー役のグループを、永続的なマイルストーン管理とともに提供する",
+    "zh": "由 AI 协调的构建者与评审者小组，配有持久化的里程碑管理"
+  },
+  "nytafar/herdr-spawn": {
+    "en": "One MCP tool that hands a prompt from a chat to a real Claude Code session on one of your hosts, with Remote Control on.",
+    "ja": "1つのMCPツールで、チャットからのプロンプトを、リモートコントロールを有効にした手元のホスト上の実際のClaude Codeセッションに渡す",
+    "zh": "一个 MCP 工具，将聊天中的提示词交给你某台主机上开启了 Remote Control 的真实 Claude Code 会话"
+  },
+  "Razz21/herdr-devserver-status": {
+    "en": "Herdr plugin that detects dev servers in panes via pluggable specs and reports lifecycle status.",
+    "ja": "プラグイン可能な仕様に基づいてペイン内のdevサーバーを検出し、ライフサイクルの状態を報告するHerdrプラグイン",
+    "zh": "通过可插拔规范检测窗格中开发服务器，并报告其生命周期状态的 Herdr 插件"
+  },
+  "rcosteira79/herdr-account-switch": {
+    "en": "Hot-swap Claude Code / Codex logins without re-authenticating. Overlay picker, cycle-to-next keybinding, and a per-pane account badge ($acct).",
+    "ja": "再認証なしでClaude Code / Codexのログインをホットスワップする。オーバーレイピッカー、次へ切り替えるキーバインド、ペインごとのアカウントバッジ（$acct）を提供",
+    "zh": "无需重新认证即可热切换 Claude Code / Codex 登录。提供浮层选择器、切换到下一个的快捷键，以及按窗格显示的账号徽章（$acct）"
+  },
+  "rcosteira79/herdr-autocontinue": {
+    "en": "Watches agents for usage-limit walls, badges the countdown to the reset ($wall), and re-prompts the agents you armed once the window reopens.",
+    "ja": "エージェントの利用上限到達を監視し、リセットまでのカウントダウンをバッジ表示（$wall）し、時間枠が再び開いたらセットしておいたエージェントに再度プロンプトを送る",
+    "zh": "监控 Agent 是否触及用量上限，以徽章形式显示重置倒计时（$wall），并在时间窗口重新开放后，向你预先设置的 Agent 重新发送提示词"
+  },
+  "rcosteira79/herdr-idle-shell-badge": {
+    "en": "Badges idle agents that still have background shells running",
+    "ja": "バックグラウンドでシェルが動き続けている、アイドル状態のエージェントにバッジを表示する",
+    "zh": "为仍有后台 shell 在运行的空闲 Agent 显示徽章"
+  },
+  "sd2k/herdr-thumbs": {
+    "en": "tmux-thumbs for Herdr: hint-pick anything on screen, copy it, paste it, or open it",
+    "ja": "Herdr版tmux-thumbs——画面上の何でもヒント選択でき、コピー・貼り付け・オープンができる",
+    "zh": "Herdr 版的 tmux-thumbs——通过提示选取屏幕上的任意内容，进行复制、粘贴或打开"
+  },
+  "terry-li-hm/herdr-model-lanes": {
+    "en": "Herdr plugin: Codex, Claude Max and Grok quota in the workspace row, plus quota-aware model-class lanes (ag) for new agents",
+    "ja": "herdrプラグイン：Codex・Claude Max・Grokのクォータをワークスペース行に表示し、新規エージェント向けにクォータを考慮したモデルクラスのレーン（ag）も提供する",
+    "zh": "herdr 插件：在工作区行中显示 Codex、Claude Max 和 Grok 的配额，并为新 Agent 提供感知配额的模型档位车道（ag）"
+  },
+  "woshahua/herdr-github-pr": {
+    "en": "Herdr plugin that syncs GitHub PR status, checks, reviews, and comments",
+    "ja": "GitHubのPRの状態・チェック・レビュー・コメントを同期するHerdrプラグイン",
+    "zh": "同步 GitHub PR 状态、检查、评审和评论的 Herdr 插件"
+  },
+  "ZingerLittleBee/herdr-agent-pins": {
+    "en": "Persistently pin Herdr agent sessions to the top of the Agents sidebar.",
+    "ja": "Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする",
+    "zh": "将 Herdr Agent 会话持久固定在 Agents 侧边栏顶部"
   }
 }

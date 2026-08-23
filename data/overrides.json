@@ -48,6 +48,42 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "choplin/herdr-plugins": {
+    "category": "meta"
+  },
+  "vishnutskumar/herdr-memex-analytics": {
+    "category": "monitor"
+  },
+  "rcosteira79/herdr-readpending": {
+    "category": "monitor"
+  },
+  "ronly2460/herdr-pane-mover": {
+    "category": "navigate"
+  },
+  "shibayu36/herdr-equalize-panes": {
+    "category": "navigate"
+  },
+  "barnuri/herdr-auto-update": {
+    "category": "automation"
+  },
+  "codingfragments/herdr-flash": {
+    "category": "text"
+  },
+  "codingfragments/herdr-nav": {
+    "category": "navigate"
+  },
+  "codingfragments/herdr-zextract": {
+    "category": "text"
+  },
+  "hidekingerz/herdr-plugin-mado": {
+    "category": "files"
+  },
+  "jackfrancisdalton/herdr-chromatic-spaces": {
+    "category": "naming"
+  },
+  "jordanhawkes/herdr-metrics": {
+    "category": "monitor"
+  },
   "hamidi-dev/herdr-opentab": {
     "category": "cost"
   },
