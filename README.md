@@ -4,7 +4,7 @@
 
 **「◯◯したい」から herdr のプラグインを探すためのリンク集です。**
 
-- 収録 **808** 件 / 最終更新 **2026-08-24 18:59 UTC**（6 時間ごとに自動更新）
+- 収録 **815** 件 / 最終更新 **2026-08-25 01:52 UTC**（6 時間ごとに自動更新）
 - データ元: GitHub topic [`herdr-plugin`](https://github.com/topics/herdr-plugin) — 公式マーケットプレイス [herdr.dev/plugins](https://herdr.dev/plugins/) と同じ母集団
 - 分類はリポジトリの説明文とトピックからの自動推定です。おかしなものは [`data/overrides.json`](data/overrides.json) の PR で直せます
 - インストール: `herdr plugin install owner/repo` — [公式ドキュメント](https://herdr.dev/docs/plugins/)
@@ -16,23 +16,23 @@
 
 ## 目的から探す
 
-- [**🆕 最近追加されたプラグイン**](#cat-new) (147) — 直近 7 日以内にこの一覧に加わったプラグインです。
-- [**通知・アラート**](#cat-notify) (30) — エージェントが完了した / 入力待ちで止まったのを、席を外していても知りたい
+- [**🆕 最近追加されたプラグイン**](#cat-new) (145) — 直近 7 日以内にこの一覧に加わったプラグインです。
+- [**通知・アラート**](#cat-notify) (31) — エージェントが完了した / 入力待ちで止まったのを、席を外していても知りたい
 - [**スマホ・リモート操作**](#cat-remote) (36) — 外出先やスマホからエージェントを監視して、承認だけ返したい
-- [**エージェント統括・並列実行**](#cat-agents) (117) — 複数の AI エージェントをまとめて起動・分担・管理したい
+- [**エージェント統括・並列実行**](#cat-agents) (119) — 複数の AI エージェントをまとめて起動・分担・管理したい
 - [**git worktree・ブランチ運用**](#cat-worktree) (43) — 作業ごとに worktree を切って、片付けまで自動でやりたい
 - [**コードレビュー・差分確認**](#cat-review) (36) — エージェントが書いた差分を読んで、コメントを返したい
 - [**GitHub / issue トラッカー連携**](#cat-forge) (30) — issue や PR を起点に作業を始めたい / PR の状態を追いたい
 - [**ワークスペース・レイアウト構築**](#cat-layout) (33) — プロジェクトを開いたら、タブ・ペイン・起動コマンドまで一発で整えたい
-- [**ペイン移動・キー操作**](#cat-navigate) (94) — ペインやワークスペース間の移動・リサイズを、エディタと同じキーで済ませたい
+- [**ペイン移動・キー操作**](#cat-navigate) (95) — ペインやワークスペース間の移動・リサイズを、エディタと同じキーで済ませたい
 - [**ファイル閲覧・エディタ連携**](#cat-files) (52) — ペインの中でファイルツリーを開いたり、エディタ側と状態を揃えたい
 - [**トークン・コスト管理**](#cat-cost) (19) — エージェントがいくら使っているかを見たい / 使用量を削りたい
-- [**監視・ダッシュボード**](#cat-monitor) (51) — エージェントやマシンの状態を一覧で眺めたい
+- [**監視・ダッシュボード**](#cat-monitor) (52) — エージェントやマシンの状態を一覧で眺めたい
 - [**検索・ファジーファインダー**](#cat-finder) (76) — コマンドやプロジェクトを、名前をうろ覚えのまま呼び出したい
 - [**自動化・フック・定期実行**](#cat-automation) (39) — worktree 作成時やタイミングを決めて、決まった手順を自動で走らせたい
 - [**セッション保存・復元**](#cat-session) (30) — 作業を閉じても、あとで同じ状態から再開したい
 - [**タイトル・命名・見た目**](#cat-naming) (48) — タブ名やターミナルタイトルを自動で分かりやすくしたい / 見た目を変えたい
-- [**テキスト・URL 抽出**](#cat-text) (17) — 画面に出ている文字列やパス・URL を、マウスなしで拾いたい
+- [**テキスト・URL 抽出**](#cat-text) (19) — 画面に出ている文字列やパス・URL を、マウスなしで拾いたい
 - [**プラグイン管理・開発**](#cat-meta) (9) — プラグイン自体を管理したい / 自分で作りたい
 - [**その他・ユーティリティ**](#cat-other) (48) — 上のどれにも当てはまらない便利もの
 
@@ -44,15 +44,24 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**🆕 herdr-scuttlebutt**](https://github.com/andybarilla/herdr-scuttlebutt)<br><sub>andybarilla</sub> | A herdr plugin that gives the agents in a herdr session a shared chat room | `rust` | 2 | 2026-08-24 |
-| [**🆕 easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | Git diff review for AI-assisted coding. Terminal TUI and Tauri desktop app. | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 2 | 2026-08-24 |
-| [**🆕 herdr-openlogi**](https://github.com/giacolees/herdr-openlogi)<br><sub>giacolees</sub> | Logitech mouse → herdr via OpenLogi binding overlay | `ghostty` `logitech-mouse` `macos` `openlogi` `shell` | 1 | 2026-08-24 |
-| [**🆕 herdr-sched**](https://github.com/husniadil/herdr-sched)<br><sub>husniadil</sub> | Schedules and triggers for coding agents on Herdr - cron jobs and webhook/file-watcher triggers firing actions into the sibling plugins, each act signed by its… | `ai-agents` `cron` `mcp-server` `scheduler` `webhooks` | 1 | 2026-08-24 |
+| [**🆕 herdr-cache-alert**](https://github.com/AltanS/herdr-cache-alert)<br><sub>AltanS</sub> | Herdr plugin: prompt-cache countdown on every agent pane, with every cache rule sourced and dated | `ai-agents` `ai-coding` `ai-tools` `claude-code` `multiplexing` | 1 | 2026-08-24 |
+| [**🆕 corral**](https://github.com/jirathip-dev/corral)<br><sub>jirathip-dev</sub> | See every agent. Steer the fleet. | `agent-orchestration` `ai-agents` `coding-agents` `control-plane` `devtools` | 1 | 2026-08-25 |
+| [**🆕 herdr_plugin**](https://github.com/Andreslvc/herdr_plugin)<br><sub>Andreslvc</sub> | Herdr plugin: open pane folder in VS Code, copy path, and open a folder as a space. | `python` | 0 | 2026-08-24 |
+| [**🆕 herdr-process-guard**](https://github.com/Efeguclu1/herdr-process-guard)<br><sub>Efeguclu1</sub> | Explain and safely stop dev servers left running by coding agents. | `claude-code` `codex` `coding-agents` `cursor` `macos` | 0 | 2026-08-24 |
+| [**🆕 herdr-reshape**](https://github.com/macintacos/herdr-reshape)<br><sub>macintacos</sub> | A herdr plugin that moves the focused pane around its tab and squares the tab up into an even grid | `go` | 0 | 2026-08-25 |
+| [**🆕 herdr-helm**](https://github.com/OfirPatish/herdr-helm)<br><sub>OfirPatish</sub> | Herdr plugin: live fleet dashboard and task dispatch console | `javascript` | 0 | 2026-08-24 |
+| [**🆕 herdr-scratchpad**](https://github.com/vjeantet/herdr-scratchpad)<br><sub>vjeantet</sub> | Persistent clipboard pane for herdr - one plain-text buffer per tab, one key to copy it, one key to drop it into an agent's input box | `clipboard` `ratatui` `rust` `scratchpad` `terminal` | 0 | 2026-08-25 |
+| [**🆕 herdr-scuttlebutt**](https://github.com/andybarilla/herdr-scuttlebutt)<br><sub>andybarilla</sub> | A herdr plugin that gives the agents in a herdr session a shared chat room | `rust` | 3 | 2026-08-24 |
+| [**🆕 easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | Git diff review for AI-assisted coding. Terminal TUI and Tauri desktop app. | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 3 | 2026-08-24 |
+| [**🆕 herdr-openlogi**](https://github.com/giacolees/herdr-openlogi)<br><sub>giacolees</sub> | Logitech mouse → herdr via OpenLogi binding overlay | `ghostty` `logitech-mouse` `macos` `openlogi` `shell` | 2 | 2026-08-24 |
+| [**🆕 herdr-sched**](https://github.com/husniadil/herdr-sched)<br><sub>husniadil</sub> | Schedules and triggers for coding agents on Herdr - cron jobs and webhook/file-watcher triggers firing actions into the sibling plugins, each act signed by its… | `ai-agents` `cron` `mcp-server` `scheduler` `webhooks` | 2 | 2026-08-25 |
+| [**🆕 herdr-topbar**](https://github.com/bigbug16/herdr-topbar)<br><sub>bigbug16</sub> | macOS menu bar icon for herdr — jump back to your session, open a project, and see which agent is waiting for input. | `macos` `menubar` `swift` | 1 | 2026-08-24 |
+| [**🆕 pier**](https://github.com/July24/pier)<br><sub>July24</sub> | Pi is the coding-agent carrier; Herdr is a terminal workspace manager. pier adds the two capabilities pi deliberately leaves out — a todo list loop and interac… | `pi-coding-agent` `typescript` | 1 | 2026-08-24 |
 | [**🆕 herdr-turn-coordinator**](https://github.com/KarthusLorin/herdr-turn-coordinator)<br><sub>KarthusLorin</sub> | Preserve interactive Herdr agent TUIs without model-driven status polling | `ai-agents` `python` | 1 | 2026-08-24 |
 | [**🆕 herdr-normal-mode**](https://github.com/maedana/herdr-normal-mode)<br><sub>maedana</sub> | Vim-style normal mode for the herdr sidebar: j/k rows, h/l tabs, 0-9 panes | `rust` `tui` | 1 | 2026-08-24 |
 | [**🆕 herdr-last-used**](https://github.com/MorganCollins/herdr-last-used)<br><sub>MorganCollins</sub> | Show when each herdr agent was last active, colour-coded by age, and filter the Agent sidebar by activity. | `terminal` `shell` | 1 | 2026-08-24 |
+| [**🆕 herdr-worktree-nav**](https://github.com/ShoMasegi/herdr-worktree-nav)<br><sub>ShoMasegi</sub> | _(説明なし)_ | `terminal` `rust` | 1 | 2026-08-23 |
 | [**🆕 herdr-jira-worktree**](https://github.com/spiritsack/herdr-jira-worktree)<br><sub>spiritsack</sub> | herdr plugin: prompt for a Jira ticket, open/reuse a matching git worktree, and prefill it into a fresh Claude Code session | `shell` | 1 | 2026-08-24 |
-| [**🆕 herdr-topbar**](https://github.com/bigbug16/herdr-topbar)<br><sub>bigbug16</sub> | macOS menu bar icon for herdr — jump back to your session, open a project, and see which agent is waiting for input. | `macos` `menubar` `swift` | 0 | 2026-08-24 |
 | [**🆕 herdr-worktree-picker**](https://github.com/BjoernSchotte/herdr-worktree-picker)<br><sub>BjoernSchotte</sub> | Fuzzy Git worktree picker for Herdr — type the branch name instead of worktree-rapid-river-6486. Opens as a grouped workspace or as a split pane. | `bash` `cli` `developer-tools` `fzf` `git-worktree` | 0 | 2026-08-24 |
 | [**🆕 herdr-agent-update-time**](https://github.com/choplin/herdr-agent-update-time)<br><sub>choplin</sub> | Show when each Herdr agent's semantic state was last observed changing. | `go` | 0 | 2026-08-24 |
 | [**🆕 herdr-next-agent**](https://github.com/choplin/herdr-next-agent)<br><sub>choplin</sub> | Move between Herdr agents in configured semantic states. | `go` | 0 | 2026-08-24 |
@@ -62,13 +71,12 @@
 | [**🆕 herdr-tab-title-from-terminal**](https://github.com/christiangroth/herdr-tab-title-from-terminal)<br><sub>christiangroth</sub> | Name every Herdr tab after the terminal title of the agent inside it. One /rename in Claude Code names your session and the tab. Manually named tabs are left a… | `python` | 0 | 2026-08-24 |
 | [**🆕 herdr-plugin-commandsets**](https://github.com/Dante926/herdr-plugin-commandsets)<br><sub>Dante926</sub> | Herdr Command Sets — Agent 指令集统一仓库，prefix+o 分屏 TUI | `javascript` | 0 | 2026-08-24 |
 | [**🆕 herdr-pr-tracker**](https://github.com/jakekroon/herdr-pr-tracker)<br><sub>jakekroon</sub> | Every open pull request you have authored, docked and colour-coded by what needs you. A Herdr plugin. | `bun` `code-review` `developer-tools` `github` `pull-requests` | 0 | 2026-08-24 |
-| [**🆕 pier**](https://github.com/July24/pier)<br><sub>July24</sub> | Pi is the coding-agent carrier; Herdr is a terminal workspace manager. pier adds the two capabilities pi deliberately leaves out — a todo list loop and interac… | `pi-coding-agent` `typescript` | 0 | 2026-08-24 |
-| [**🆕 herdr-worktree-nav**](https://github.com/ShoMasegi/herdr-worktree-nav)<br><sub>ShoMasegi</sub> | _(説明なし)_ | `terminal` `rust` | 0 | 2026-08-23 |
-| [**🆕 taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | Task board linked to herdr agent sessions, PRs, and Jira tickets | `claude-code` `kanban` `task-management` `tui` `go` | 0 | 2026-08-24 |
+| [**🆕 taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | Task board linked to herdr agent sessions, PRs, and Jira tickets | `claude-code` `kanban` `task-management` `tui` `go` | 0 | 2026-08-25 |
 | [**🆕 herdr-golden-ratio**](https://github.com/vigneshwerv/herdr-golden-ratio)<br><sub>vigneshwerv</sub> | Resize the focused Herdr pane to the golden ratio (~61.8%) | `go` `terminal` | 0 | 2026-08-24 |
 | [**🆕 herdr-copy-pane-id**](https://github.com/wine-fall/herdr-copy-pane-id)<br><sub>wine-fall</sub> | Herdr plugin: copy the focused pane's id to the clipboard, or show every pane's id on its border | `cli` `terminal` `python` | 0 | 2026-08-24 |
 | [**🆕 herdr-readpending**](https://github.com/rcosteira79/herdr-readpending)<br><sub>rcosteira79</sub> | まだ読み終えていないエージェントにマークを付ける。番号付きバッジ（$read）＋並べ替え可能なリストペインを提供。そのエージェントにフォーカスすると自動でクリアされる | `python` | 1 | 2026-08-24 |
 | [**🆕 herdr-pane-mover**](https://github.com/ronly2460/herdr-pane-mover)<br><sub>ronly2460</sub> | 矢印キーで操作するインタラクティブなピッカーで、Herdrのペインをワークスペース間で移動する | `terminal` `workspace` `shell` | 1 | 2026-08-23 |
+| [**🆕 herdr-agent-pins**](https://github.com/ZingerLittleBee/herdr-agent-pins)<br><sub>ZingerLittleBee</sub> | Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする | `terminal` `javascript` | 1 | 2026-08-24 |
 | [**🆕 herdr-hub**](https://github.com/alex-devdone/herdr-hub)<br><sub>alex-devdone</sub> | リモートアタッチしたペインで構成されるherdrセッションを、持ち運び可能なマニフェストとして記述し、どのマシンでも再構築できる | `python` | 0 | 2026-08-23 |
 | [**🆕 herdr-plugin-echo**](https://github.com/andischerer/herdr-plugin-echo)<br><sub>andischerer</sub> | 1つのペインから、マークした複数のペインにキー入力をブロードキャストするHerdrプラグイン | `typescript` | 0 | 2026-08-23 |
 | [**🆕 herdr-telegram-notifications**](https://github.com/barnuri/herdr-telegram-notifications)<br><sub>barnuri</sub> | herdrプラグイン：エージェントがアイドルになった・ブロックされた・完了したときにTelegram通知を送る | `telegram` `javascript` | 0 | 2026-08-24 |
@@ -80,14 +88,14 @@
 | [**🆕 herdr-account-switch**](https://github.com/rcosteira79/herdr-account-switch)<br><sub>rcosteira79</sub> | 再認証なしでClaude Code / Codexのログインをホットスワップする。オーバーレイピッカー、次へ切り替えるキーバインド、ペインごとのアカウントバッジ（$acct）を提供 | `python` | 0 | 2026-08-24 |
 | [**🆕 herdr-autocontinue**](https://github.com/rcosteira79/herdr-autocontinue)<br><sub>rcosteira79</sub> | エージェントの利用上限到達を監視し、リセットまでのカウントダウンをバッジ表示（$wall）し、時間枠が再び開いたらセットしておいたエージェントに再度プロンプトを送る | `python` | 0 | 2026-08-24 |
 | [**🆕 herdr-idle-shell-badge**](https://github.com/rcosteira79/herdr-idle-shell-badge)<br><sub>rcosteira79</sub> | バックグラウンドでシェルが動き続けている、アイドル状態のエージェントにバッジを表示する | `python` | 0 | 2026-08-24 |
-| [**🆕 herdr-agent-pins**](https://github.com/ZingerLittleBee/herdr-agent-pins)<br><sub>ZingerLittleBee</sub> | Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする | `terminal` `javascript` | 0 | 2026-08-24 |
-| [**🆕 herdr-remote-panes**](https://github.com/Poor-Plebs/herdr-remote-panes)<br><sub>Poor-Plebs</sub> | 1つのHerdrから他のマシンで作業する——メニューからマシンを選ぶと、そのマシンのターミナルが得られる。実験的な双方向ミラーリングもオプションで利用可能 | `golang` `ssh` `terminal` `go` | 2 | 2026-08-24 |
+| [**🆕 herdr-remote-panes**](https://github.com/Poor-Plebs/herdr-remote-panes)<br><sub>Poor-Plebs</sub> | 1つのHerdrから他のマシンで作業する——メニューからマシンを選ぶと、そのマシンのターミナルが得られる。実験的な双方向ミラーリングもオプションで利用可能 | `golang` `ssh` `terminal` `go` | 3 | 2026-08-25 |
+| [**🆕 herdr-devserver-status**](https://github.com/Razz21/herdr-devserver-status)<br><sub>Razz21</sub> | プラグイン可能な仕様に基づいてペイン内のdevサーバーを検出し、ライフサイクルの状態を報告するHerdrプラグイン | `astro` `cli` `deamon` `dev-server` `extensible` | 2 | 2026-08-22 |
 | [**🆕 herdr-plugin-ide-jump**](https://github.com/agentience/herdr-plugin-ide-jump)<br><sub>agentience</sub> | IDEにすぐ戻れる——フォーカス中のペインのプロジェクトのエディタウィンドウを前面に出す、または絞り込み可能なポップアップから選ぶ。Herdrプラグイン | `python` | 1 | 2026-08-24 |
-| [**🆕 herdr-devserver-status**](https://github.com/Razz21/herdr-devserver-status)<br><sub>Razz21</sub> | プラグイン可能な仕様に基づいてペイン内のdevサーバーを検出し、ライフサイクルの状態を報告するHerdrプラグイン | `astro` `cli` `deamon` `dev-server` `extensible` | 1 | 2026-08-22 |
+| [**🆕 herdr-workspacer**](https://github.com/mcuste/herdr-workspacer)<br><sub>mcuste</sub> | zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー | `rust` `tui` `zoxide` | 1 | 2026-08-22 |
 | [**🆕 herdr-equalize-panes**](https://github.com/shibayu36/herdr-equalize-panes)<br><sub>shibayu36</sub> | 分割やクローズのたびにペインサイズを自動的に均等化するherdrプラグイン（tmuxのselect-layout -Eを自動で行うイメージ） | `terminal` `perl` | 1 | 2026-08-22 |
 | [**🆕 herdr-plugin-pr-board**](https://github.com/0xthc/herdr-plugin-pr-board)<br><sub>0xthc</sub> | 現在のリポジトリのGitHub PRをherdr内で扱う——ペインで一覧・閲覧し、選んだものをworktreeワークスペースとしてチェックアウトし、マージ済みのものを安全に回収する | `shell` | 0 | 2026-08-20 |
 | [**🆕 herdr-plugin-worktree-bootstrap**](https://github.com/0xthc/herdr-plugin-worktree-bootstrap)<br><sub>0xthc</sub> | 新しいherdr worktreeを開いた瞬間に、.envファイルとnode_modulesを投入する | `shell` | 0 | 2026-08-22 |
-| [**🆕 herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | herdr向けのプロジェクトコンテキストドック——git状態付きのファイルツリーとLLMの会話履歴を、常にエージェントのそばに表示する | `git` `jj` `ratatui` `rust` `sidebar` | 0 | 2026-08-22 |
+| [**🆕 herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | herdr向けのプロジェクトコンテキストドック——git状態付きのファイルツリーとLLMの会話履歴を、常にエージェントのそばに表示する | `git` `jj` `ratatui` `rust` `sidebar` | 0 | 2026-08-24 |
 | [**🆕 herdr-plugin-orbstack**](https://github.com/AsgardMuninn/herdr-plugin-orbstack)<br><sub>AsgardMuninn</sub> | OrbStackのLinuxマシンをherdrのワークスペースとして開く（直接シェル接続、SSHフォールバック、自動同期） | `python` | 0 | 2026-08-11 |
 | [**🆕 herdr-sidebar-numbers**](https://github.com/cedrus-8864/herdr-sidebar-numbers)<br><sub>cedrus-8864</sub> | サイドバーにワークスペースとエージェントの位置番号を表示し、1〜9のショートカットキーと対応させるherdrプラグイン | `ai-agents` `bun` `sidebar` `terminal` `javascript` | 0 | 2026-08-04 |
 | [**🆕 herdr-flash**](https://github.com/codingfragments/herdr-flash)<br><sub>codingfragments</sub> | zellij-flash（Zellijのプラグイン）を、ネイティブなHerdrプラグインとして移植したもの | `rust` | 0 | 2026-08-22 |
@@ -101,15 +109,16 @@
 | [**🆕 herdr-turbo-palette**](https://github.com/jackfrancisdalton/herdr-turbo-palette)<br><sub>jackfrancisdalton</sub> | 任意のHerdrのspace・タブ・エージェント・ペインをファジー検索し、そのまま直接ジャンプする | `python` | 0 | 2026-08-22 |
 | [**🆕 herdr-nav**](https://github.com/jmarcelomb/herdr-nav)<br><sub>jmarcelomb</sub> | herdr向けのペイン・タブ・ワークスペース間ナビゲーションプラグイン | `rust` | 0 | 2026-07-30 |
 | [**🆕 herdr-metrics**](https://github.com/jordanhawkes/herdr-metrics)<br><sub>jordanhawkes</sub> | Claude Code・Codex・TraeX向けの、コンテキスト・セッショントークン・アカウント上限のメトリクスをHerdrのサイドバーに表示する。szrenwei/herdr-agent-metricsのメンテナンスを引き継いだもの | `claude-code` `openai-codex` `traex` `tui` `python` | 0 | 2026-08-22 |
-| [**🆕 herdr-workspacer**](https://github.com/mcuste/herdr-workspacer)<br><sub>mcuste</sub> | zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー | `rust` `tui` `zoxide` | 0 | 2026-08-22 |
 | [**🆕 tab-process-name**](https://github.com/riq0h/tab-process-name)<br><sub>riq0h</sub> | 各タブにフォアグラウンドで動いているプロセス名をラベル表示するherdrプラグイン——tmuxのautomatic-rename相当の機能をherdr向けに | `javascript` | 0 | 2026-07-19 |
 | [**🆕 herdr-model-lanes**](https://github.com/terry-li-hm/herdr-model-lanes)<br><sub>terry-li-hm</sub> | herdrプラグイン：Codex・Claude Max・Grokのクォータをワークスペース行に表示し、新規エージェント向けにクォータを考慮したモデルクラスのレーン（ag）も提供する | `claude` `codex` `grok` `model-routing` `quota` | 0 | 2026-08-24 |
 | [**🆕 herdr-padio**](https://github.com/vgreg/herdr-padio)<br><sub>vgreg</sub> | herdrでフォーカスされているペインのアプリに応じて、PadIOコントローラーのモードを自動切り替えする | `game-controller` `macos` `padio` `python` | 0 | 2026-08-02 |
 | [**🆕 herdr-auto-session-title**](https://github.com/zhangzujian/herdr-auto-session-title)<br><sub>zhangzujian</sub> | 簡潔なHerdrペインタイトルを生成し、ネイティブのCodexスレッド名と同期する | `javascript` | 0 | 2026-07-30 |
-| [**🆕 herdr-canvas**](https://github.com/aorumbayev/herdr-canvas)<br><sub>aorumbayev</sub> | herdrのエージェント向けの、マウスで操作できるASCII図キャンバス——TUI上で描き、構造化されたJSONを共有し、AIに編集させることもできる | `agentic-ai` `agents` `ai-agents` `ascii-art` `bubbletea` | 5 | 2026-08-23 |
+| [**🆕 herdr-canvas**](https://github.com/aorumbayev/herdr-canvas)<br><sub>aorumbayev</sub> | herdrのエージェント向けの、マウスで操作できるASCII図キャンバス——TUI上で描き、構造化されたJSONを共有し、AIに編集させることもできる | `agentic-ai` `agents` `ai-agents` `ascii-art` `bubbletea` | 5 | 2026-08-24 |
 | [**🆕 openloc.nvim**](https://github.com/Zamua/openloc.nvim)<br><sub>Zamua</sub> | すでにワークスペースに属しているNeovimでファイル参照を開く | `lua` | 3 | 2026-08-21 |
 | [**🆕 herdr-x**](https://github.com/playsthisgame/herdr-x)<br><sub>playsthisgame</sub> | herdr内のターミナルスプリットでx.comを閲覧し、$EDITORで投稿を下書きして自分宛に送信できる | `cli` `terminal` `terminal-browser` `twitter` `shell` | 2 | 2026-08-20 |
 | [**🆕 herdr-memex-analytics**](https://github.com/vishnutskumar/herdr-memex-analytics)<br><sub>vishnutskumar</sub> | herdrプラグイン：memexの履歴を活用した、セッション効率の分析とリアルタイムなエージェントガイダンス | `rust` | 2 | 2026-08-22 |
+| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | herdr-tasksボード用のディスパッチャー——準備完了したタスクごとにワーカーエージェントのペインを立て、目標を伝え、ワーカーを追跡し、レビューで一旦止める。すべて1つのGoバイナリで実現 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 2026-08-25 |
+| [**🆕 herdr-tasks**](https://github.com/husniadil/herdr-tasks)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント向けのタスクバックログ＋メモボード——リース付きのclaim、証跡に基づくレビュー、人間による決定ゲートを、1つのGoバイナリで実現 | `ai-agents` `mcp-server` `notes` `sqlite` `task-management` | 1 | 2026-08-25 |
 | [**🆕 herdr-plugin-switcher**](https://github.com/KadenThomp36/herdr-plugin-switcher)<br><sub>KadenThomp36</sub> | Ctrlを押しながらTabで、最近使った順にherdrのペインを切り替える。macOS版herdr向けの、Arc/Zen風ペインスイッチャー | `swift` | 1 | 2026-08-21 |
 | [**🆕 herdr-nvim-aware**](https://github.com/KoalaVim/herdr-nvim-aware)<br><sub>KoalaVim</sub> | herdr向けのNvim対応キーバインド——移動・分割・クローズ・ズームに対応 | `rust` | 1 | 2026-08-20 |
 | [**🆕 herdr-scratch**](https://github.com/macintacos/herdr-scratch)<br><sub>macintacos</sub> | herdr向けのスクラッチシェル——1つのコード（キーの組み合わせ）で開閉するポップアップ。裏側はtmuxなので、離れたときのまま正確に復元される | `go` | 1 | 2026-08-24 |
@@ -120,19 +129,18 @@
 | [**🆕 otito-herdr-plugin**](https://github.com/BASHBOP/otito-herdr-plugin)<br><sub>BASHBOP</sub> | Herdrのエージェントワークスペース内で、Otitoのコンテキストと決定論的なマージ証跡を実行する | `ai-agents` `developer-tools` `merge-safety` `otito` `javascript` | 0 | 2026-08-21 |
 | [**🆕 herdr-handoff**](https://github.com/devops-fj/herdr-handoff)<br><sub>devops-fj</sub> | Herdrのコーディングエージェント間で、ローカルの作業コンテキストをプレビューし安全に引き継ぐ | `ai-agents` `coding-agents` `go` | 0 | 2026-08-21 |
 | [**🆕 git-shepherd**](https://github.com/H3xept/git-shepherd)<br><sub>H3xept</sub> | 各Herdr Spaceの隣に、プルリクエストの状態（下書き/オープン/マージ済み/クローズ）をアイコンで表示する | `developer-tools` `github-cli` `tui` `javascript` | 0 | 2026-08-21 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | herdr-tasksボード用のディスパッチャー——準備完了したタスクごとにワーカーエージェントのペインを立て、目標を伝え、ワーカーを追跡し、レビューで一旦止める。すべて1つのGoバイナリで実現 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 0 | 2026-08-24 |
-| [**🆕 herdr-mail**](https://github.com/husniadil/herdr-mail)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント同士の非同期メール——ストアを正とするメールボックス、ヒントとなる1行のペインマーカー、追跡可能な依頼付きのask/replyを、1つのGoバイナリで実現 | `ai-agents` `mail` `mcp-server` `sqlite` `go` | 0 | 2026-08-24 |
-| [**🆕 herdr-tasks**](https://github.com/husniadil/herdr-tasks)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント向けのタスクバックログ＋メモボード——リース付きのclaim、証跡に基づくレビュー、人間による決定ゲートを、1つのGoバイナリで実現 | `ai-agents` `mcp-server` `notes` `sqlite` `task-management` | 0 | 2026-08-24 |
+| [**🆕 herdr-mail**](https://github.com/husniadil/herdr-mail)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント同士の非同期メール——ストアを正とするメールボックス、ヒントとなる1行のペインマーカー、追跡可能な依頼付きのask/replyを、1つのGoバイナリで実現 | `ai-agents` `mail` `mcp-server` `sqlite` `go` | 0 | 2026-08-25 |
 | [**🆕 agentflock**](https://github.com/neospark-sol/agentflock)<br><sub>neospark-sol</sub> | AIが調整するビルダー役とレビュアー役のグループを、永続的なマイルストーン管理とともに提供する | `ai-agents` `pair-programming` `typescript` | 0 | 2026-08-21 |
 | [**🆕 herdr-spawn**](https://github.com/nytafar/herdr-spawn)<br><sub>nytafar</sub> | 1つのMCPツールで、チャットからのプロンプトを、リモートコントロールを有効にした手元のホスト上の実際のClaude Codeセッションに渡す | `python` | 0 | 2026-08-21 |
 | [**🆕 herdr-thumbs**](https://github.com/sd2k/herdr-thumbs)<br><sub>sd2k</sub> | Herdr版tmux-thumbs——画面上の何でもヒント選択でき、コピー・貼り付け・オープンができる | `tmux-thumbs` `shell` | 0 | 2026-08-21 |
 | [**🆕 herdr-github-pr**](https://github.com/woshahua/herdr-github-pr)<br><sub>woshahua</sub> | GitHubのPRの状態・チェック・レビュー・コメントを同期するHerdrプラグイン | `github` `javascript` | 0 | 2026-08-21 |
-| [**🆕 terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | ターミナルの中のブラウザ | `browser` `claude-code` `claude-skills` `cli` `codex` | 2124 | 2026-08-21 |
-| [**🆕 terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | ターミナルの中で動くVS Code | `cli` `terminal` `vscode` `typescript` | 1542 | 2026-08-22 |
+| [**🆕 terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | ターミナルの中のブラウザ | `browser` `claude-code` `claude-skills` `cli` `codex` | 2149 | 2026-08-25 |
+| [**🆕 terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | ターミナルの中で動くVS Code | `cli` `terminal` `vscode` `typescript` | 1556 | 2026-08-24 |
+| [**🆕 paddock**](https://github.com/lntvan166/paddock)<br><sub>lntvan166</sub> | スマホからコーディングエージェントを見て、返答する。herdr向けのローカルなモバイルファーストダッシュボード——unixソケットを読み取り、対応が必要な順に並べた1画面を提供する | `bun` `coding-agents` `dashboard` `developer-tools` `herdr-dashboard` | 7 | 2026-08-24 |
 | [**🆕 herdr-social-glass**](https://github.com/ythx-101/herdr-social-glass)<br><sub>ythx-101</sub> | macOS版Herdr向けの、スクリーンショット映えするSocial Glassテーマ＆ワークフロープラグイン | `macos` `multi-agent` `terminal-theme` `shell` | 7 | 2026-08-21 |
-| [**🆕 paddock**](https://github.com/lntvan166/paddock)<br><sub>lntvan166</sub> | スマホからコーディングエージェントを見て、返答する。herdr向けのローカルなモバイルファーストダッシュボード——unixソケットを読み取り、対応が必要な順に並べた1画面を提供する | `bun` `coding-agents` `dashboard` `developer-tools` `herdr-dashboard` | 6 | 2026-08-24 |
 | [**🆕 herdr-web**](https://github.com/barnuri/herdr-web)<br><sub>barnuri</sub> | herdr向けのモバイルファーストなWeb UIプラグイン——通知付きで、スマホからコーディングエージェントを操作できる | `pwa` `javascript` | 4 | 2026-08-24 |
 | [**🆕 herdr-tilt**](https://github.com/the-inconvenience-store/herdr-tilt)<br><sub>the-inconvenience-store</sub> | Herdr向けの、キーボード操作対応Tiltダッシュボード | `k8s` `kubernetes` `tilt` `rust` | 2 | 2026-08-24 |
+| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(説明なし)_ | `rust` | 1 | 2026-08-24 |
 | [**🆕 herdr-gh-checks**](https://github.com/itisbryan/herdr-gh-checks)<br><sub>itisbryan</sub> | herdrプラグイン：現在のPRのCIをペインで監視・確認し、CI/マージ状態をサイドバーの行に表示する。Go + Bubble Tea製 | `bubbletea` `ci` `github-actions` `tui` `go` | 1 | 2026-08-21 |
 | [**🆕 herdr-pane-orientation-switcher**](https://github.com/sf1tzp/herdr-pane-orientation-switcher)<br><sub>sf1tzp</sub> | Herdrのスプリットペイン向けの、ワークフロー人間工学 | `shell` | 1 | 2026-07-25 |
 | [**🆕 herdr-auto-yes-sir**](https://github.com/xlinx/herdr-auto-yes-sir)<br><sub>xlinx</sub> | herdr-auto-yes-sir——エージェントが承認を求めてきたときに、ブロックされずに実行を続けられるようにする。codexのような挙動 | `javascript` | 1 | 2026-08-20 |
@@ -140,7 +148,6 @@
 | [**🆕 herdr-nodejs-center**](https://github.com/AZenking/herdr-nodejs-center)<br><sub>AZenking</sub> | ローカルのNode.js・Bun・Denoサービスを監視し、フォーカスできるHerdrのポップアップ | `developer-tools` `nodejs` `javascript` | 0 | 2026-08-20 |
 | [**🆕 herdr-project-manager**](https://github.com/barnuri/herdr-project-manager)<br><sub>barnuri</sub> | herdr向けのプロジェクトマネージャープラグイン——globまたは手動でのプロジェクト検出、ファジーピッカー、タブまたはワークスペースとしてオープン | `javascript` | 0 | 2026-08-24 |
 | [**🆕 herdr-smart-rename**](https://github.com/edouard-andrei/herdr-smart-rename)<br><sub>edouard-andrei</sub> | herdrプラグイン：エージェントのトランスクリプトから、AIがタブとペインの名前を付ける——キー1つで、OpenAI互換の任意のモデルを使用可能 | `javascript` | 0 | 2026-08-20 |
-| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(説明なし)_ | `rust` | 0 | 2026-08-24 |
 | [**🆕 herdr-cursor**](https://github.com/gabriel-laet/herdr-cursor)<br><sub>gabriel-laet</sub> | Cursorのクラウドエージェントを、herdrの正式なペインとして扱う | `typescript` | 0 | 2026-08-21 |
 | [**🆕 herdr-notebook**](https://github.com/goofansu/herdr-notebook)<br><sub>goofansu</sub> | ワークスペースごとに1つの永続的なMarkdownノートブックを、アクティブなペインの上でエディタから開く | `python` | 0 | 2026-08-20 |
 | [**🆕 mo-herdr**](https://github.com/momentohq/mo-herdr)<br><sub>momentohq</sub> | herdrのペイン内でmoを実行——herdr再起動後のセッション復元、起動アクション、SIGKILLによるクリーンアップに対応 | `shell` | 0 | 2026-08-20 |
@@ -163,12 +170,12 @@
 | [**🆕 herdr-pane-equalizer**](https://github.com/shanefully-done/herdr-pane-equalizer)<br><sub>shanefully-done</sub> | herdrのペインを均等なサイズにリサイズする。自動でも手動でも実行可能 | `javascript` | 0 | 2026-08-20 |
 | [**🆕 herdr-fleece**](https://github.com/sjh9714/herdr-fleece)<br><sub>sjh9714</sub> | 自分の群れにいくら取られているかを把握する。全herdrペインのトークン数・費用・消費速度を1画面でリアルタイム表示する | `ai-agents` `burn-rate` `ccusage` `claude-code` `cli` | 0 | 2026-08-19 |
 | [**🆕 herdr-translate**](https://github.com/wenPKtalk/herdr-translate)<br><sub>wenPKtalk</sub> | herdrプラグイン：ペイン内で選択したテキストをtranslate-shellで翻訳し、フローティングポップアップで表示する（macOS・Linux対応） | `translate` `shell` | 0 | 2026-08-19 |
-| [**🆕 pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | piコーディングエージェント向けの、ワークフローエンジン・JSON制御フローツール・ライブターミナルビューア | `typescript` | 131 | 2026-08-24 |
-| [**🆕 clauth**](https://github.com/uwuclxdy/clauth)<br><sub>uwuclxdy</sub> | Claude Codeのマルチアカウント管理・使用量モニター（CLI・TUI・MCPタスク委任に対応） | `account-manager` `account-switcher` `anthropic` `claude` `claude-code` | 69 | 2026-08-24 |
-| [**🆕 herdkit**](https://github.com/briankeegan1/herdkit)<br><sub>briankeegan1</sub> | herdrベースのエージェントワークフローに、統制と並列実行を提供する——コーディネーターがバックログを隔離されたworktreeビルダー（Claude Code・Codex・Grok）に流し込み、ウォッチャーはヘルスチェックと敵対的レビューが通った変更だけをランドする | `shell` | 8 | 2026-08-24 |
+| [**🆕 pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | piコーディングエージェント向けの、ワークフローエンジン・JSON制御フローツール・ライブターミナルビューア | `typescript` | 134 | 2026-08-24 |
+| [**🆕 clauth**](https://github.com/uwuclxdy/clauth)<br><sub>uwuclxdy</sub> | Claude Codeのマルチアカウント管理・使用量モニター（CLI・TUI・MCPタスク委任に対応） | `account-manager` `account-switcher` `anthropic` `claude` `claude-code` | 70 | 2026-08-24 |
+| [**🆕 herdkit**](https://github.com/briankeegan1/herdkit)<br><sub>briankeegan1</sub> | herdrベースのエージェントワークフローに、統制と並列実行を提供する——コーディネーターがバックログを隔離されたworktreeビルダー（Claude Code・Codex・Grok）に流し込み、ウォッチャーはヘルスチェックと敵対的レビューが通った変更だけをランドする | `shell` | 8 | 2026-08-25 |
 | [**🆕 herdr-trail**](https://github.com/catoncat/herdr-trail)<br><sub>catoncat</sub> | herdr全体で共有するメモ——エージェントがフォローアップを書き留め、人間は1つのグローバルリストで管理し、各エントリから元の会話に直接ジャンプできる | `javascript` | 8 | 2026-08-18 |
+| [**🆕 herdr-swipe**](https://github.com/husniadil/herdr-swipe)<br><sub>husniadil</sub> | Herdr向けのトラックパッドジェスチャー——ペイン・タブ・スペース間の移動と、対応待ちのエージェントへのジャンプができる | `cgeventtap` `gestures` `macos` `python` `terminal` | 5 | 2026-08-20 |
 | [**🆕 herdr-e2b-sandbox**](https://github.com/e2b-dev/herdr-e2b-sandbox)<br><sub>e2b-dev</sub> | git worktreeをE2B Sandboxにミラーするherdrプラグイン——単一のboxでも、エージェントごとにブランチを割り当てたフリートでも対応。TUIダッシュボード付き | `cli` `cloud-dev` `e2b` `git-worktree` `sandbox` | 4 | 2026-08-19 |
-| [**🆕 herdr-swipe**](https://github.com/husniadil/herdr-swipe)<br><sub>husniadil</sub> | Herdr向けのトラックパッドジェスチャー——ペイン・タブ・スペース間の移動と、対応待ちのエージェントへのジャンプができる | `cgeventtap` `gestures` `macos` `python` `terminal` | 4 | 2026-08-20 |
 | [**🆕 herdr-icon-agent-ui**](https://github.com/qintmb/herdr-icon-agent-ui)<br><sub>qintmb</sub> | Herdrのサイドバーに、縦位置を揃えたモノクロのAgentアイコンを描画する。ターミナルのキャップハイトに合わせて不均一にスケーリングされたカスタムフォントで描画され、小さな四角として表示される代わりにエージェント名・タブ・ワークスペースラベルにきれいに揃う | `python` | 3 | 2026-08-20 |
 | [**🆕 herdr-prevtab**](https://github.com/joo-was-already-taken/herdr-prevtab)<br><sub>joo-was-already-taken</sub> | 直前にフォーカスしていたタブに切り替えるHerdrプラグイン | `rust` | 2 | 2026-08-23 |
 | [**🆕 herdr-portal**](https://github.com/loofare/herdr-portal)<br><sub>loofare</sub> | herdr向けのミッションコントロールダッシュボード——全ワークスペース/タブ/ペインのエージェントを、ライブTUIカンバン（キーボード＋マウス対応）とWeb大画面表示に集約する。構造化された進捗表示、Ctrl+B Aで起動、クリックでジャンプ、ブラウザからエージェントに返信可能 | `agent-dashboard` `agent-monitor` `ai-agents` `claude-code` `codex` | 2 | 2026-08-20 |
@@ -182,15 +189,6 @@
 | [**🆕 herdr-pane-id**](https://github.com/imtim/herdr-pane-id)<br><sub>imtim</sub> | herdrプラグイン：ペインにIDとエージェント名、さらにタブ・ワークスペースのIDラベルを付ける——あなたとエージェントの両方が、IDで任意のペインやエージェントを指定できるようになる。herdrのagentスキルと組み合わせると最も効果を発揮する | `ai-agents` `coding-agents` `developer-tools` `terminal-multiplexer` `tui` | 0 | 2026-08-24 |
 | [**🆕 herdr-tab-numbers**](https://github.com/kokatsu/herdr-tab-numbers)<br><sub>kokatsu</sub> | 各タブの名前の先頭に、switch_tabの位置番号を付ける | `shell` | 0 | 2026-08-18 |
 | [**🆕 herdr-diff-review.nvim**](https://github.com/rytkmt/herdr-diff-review.nvim)<br><sub>rytkmt</sub> | AIエージェントによるファイル変更を、適用前にNeovimのdiffモードでレビューする——Claude CodeやKiro CLIからの編集を、1つのコマンドで承認/拒否できる | `kiro-cli` `neovim` `neovim-plugin` `neovim-plugins` `nvim` | 0 | 2026-08-18 |
-| [**🆕 herdr-opentab**](https://github.com/hamidi-dev/herdr-opentab)<br><sub>hamidi-dev</sub> | OpenTabによる、エージェントごとのAI利用料をHerdrのサイドバーにリアルタイム表示する | `ai-agents` `opentab` `terminal` `python` | 3 | 2026-08-18 |
-| [**🆕 herdr-api-credit-bar**](https://github.com/CristianPeralta/herdr-api-credit-bar)<br><sub>CristianPeralta</sub> | herdrプラグイン：従量課金制APIプロバイダーの残クレジットを表示する。まずはAlibaba Cloud Model Studioに対応 | `shell` | 2 | 2026-08-18 |
-| [**🆕 herdr-pouch**](https://github.com/AltanS/herdr-pouch)<br><sub>AltanS</sub> | herdrプラグイン：エージェント向けのプロンプトを事前に貯めておき、準備ができたら挿入する | `typescript` | 1 | 2026-08-20 |
-| [**🆕 herdr-simple-prompts**](https://github.com/AlexSamarsky/herdr-simple-prompts)<br><sub>AlexSamarsky</sub> | CodexやClaudeとのやり取りから、自分のプロンプトと最終回答だけを表示する。入力用のコンポーザー付き | `rust` | 0 | 2026-08-23 |
-| [**🆕 herdr-slack**](https://github.com/egemenyildiz/herdr-slack)<br><sub>egemenyildiz</sub> | Slackからローカルのherdrエージェントを操作する——スマホから閲覧・プロンプト送信・起動ができる。トンネル不要 | `slack` `typescript` | 0 | 2026-08-20 |
-| [**🆕 herdr-plugin-command-palette**](https://github.com/haisi/herdr-plugin-command-palette)<br><sub>haisi</sub> | fzfを使った、herdr向けのファジー検索対応コマンドパレット | `fzf` `python` | 0 | 2026-08-17 |
-| [**🆕 agentic-box**](https://github.com/nicoRomeroCuruchet/agentic-box)<br><sub>nicoRomeroCuruchet</sub> | Claude Codeがローカルモデルのエージェントを操作する、隔離されたbox | `agent-orchestration` `agentic` `agentic-workflow` `docker` `ornith-1-0-35b` | 0 | 2026-08-17 |
-| [**🆕 herdr-atuin-plugin**](https://github.com/smanickam01/herdr-atuin-plugin)<br><sub>smanickam01</sub> | herdrのポップアップでAtuinのシェル履歴を検索——prefix+aを押し、Enterで実行、Tabで編集できる。インストール時に自動でキーバインドされる | `atuin` `macos` `shell-history` `terminal` `zsh` | 0 | 2026-08-17 |
-| [**🆕 herdr-lens**](https://github.com/VoidAxon/herdr-lens)<br><sub>VoidAxon</sub> | Herdrのペインでテキストを選択し、キーを押すと自分の言語で読める。翻訳・辞書引き・識別子の検索・要約に対応——標準ライブラリのみ、設定不要 | `ai` `cli` `terminal` `translation` `python` | 0 | 2026-08-21 |
 
 [⬆ 目的一覧に戻る](#purposes)
 
@@ -208,7 +206,7 @@
 | [**herdr-ntfy**](https://github.com/horn553/herdr-ntfy)<br><sub>horn553</sub> | 依存関係最小限（jq・curl・sh）——Herdrのエージェントが完了またはブロックされたときにntfy通知を送る | `shell` | 6 | 2026-08-01 |
 | [**herdr-hail**](https://github.com/natori-hrj/herdr-hail)<br><sub>natori-hrj</sub> | herdr向けのSlack/Discord双方向ブリッジ——エージェントがブロックされたら通知が来て、返信/タップでブロックを解除できる。トンネル不要 | `discord` `slack` `typescript` | 6 | 2026-07-19 |
 | [**herdr-ntfy-notify**](https://github.com/zom-2018/herdr-ntfy-notify)<br><sub>zom-2018</sub> | Herdrのターミナルエージェント向けの、リアルタイムなntfyプッシュ通知 | `agent` `ntfy` `push-notifications` `tui` `javascript` | 6 | 2026-06-23 |
-| [**herdr-telegram-plugin**](https://github.com/mvallebr/herdr-telegram-plugin)<br><sub>mvallebr</sub> | herdr向けのTelegramボットコンパニオン——Telegramのフォーラムトピック経由で任意のエージェントを遠隔操作。処理経路にLLMは介在しない | `typescript` | 4 | 2026-08-04 |
+| [**herdr-telegram-plugin**](https://github.com/mvallebr/herdr-telegram-plugin)<br><sub>mvallebr</sub> | herdr向けのTelegramボットコンパニオン——Telegramのフォーラムトピック経由で任意のエージェントを遠隔操作。処理経路にLLMは介在しない | `typescript` | 4 | 🔄 2026-08-24 |
 | [**herdr-notify-windows**](https://github.com/aclima01/herdr-notify-windows)<br><sub>aclima01</sub> | herdrのエージェント向けのWindows 11トースト通知（ターン完了/入力待ち） | `powershell` | 3 | 2026-07-23 |
 | [**herdr-telegram-bridge**](https://github.com/cokekitten/herdr-telegram-bridge)<br><sub>cokekitten</sub> | herdrのエージェントが完了またはブロックされたらTelegramにプッシュ通知が来る——返信すればテキストやファイルをそのままエージェントに送り返せる。サーバー・トンネル・アプリ不要 | `ai-agents` `chatops` `claude-code` `developer-tools` `notifications` | 3 | 2026-08-06 |
 | [**herdr-announcer**](https://github.com/nhclink16/herdr-announcer)<br><sub>nhclink16</sub> | Herdrプラグイン：エージェントが完了または入力待ちになったら、LLMによる一文要約を音声で読み上げる——ローカルTTS、ElevenLabs、任意のカスタムコマンドに対応 | `tts` `python` | 3 | 🔄 2026-08-20 |
@@ -216,6 +214,7 @@
 | [**herdr-telegram-attention**](https://github.com/blockshiftnetwork/herdr-telegram-attention)<br><sub>blockshiftnetwork</sub> | Herdrのエージェントが対応を必要としているときに、多言語対応のTelegramアラートを送る | `python` | 2 | 🔄 2026-08-10 |
 | [**herdr-guard**](https://github.com/StructuPath/herdr-guard)<br><sub>StructuPath</sub> | Herdr向けのエージェント横断コマンドポリシー：危険なシェルコマンドを監査・警告・中断する | `ai-agents` `command-policy` `security` `terminal` `javascript` | 2 | 🔄 2026-08-23 |
 | [**herdr-agent-notify**](https://github.com/A1exthegreat/herdr-agent-notify)<br><sub>A1exthegreat</sub> | herdrプラグイン：エージェントが作業を終えた、確認が必要になった、またはアイドルになったときにデスクトップ通知を送る | `javascript` | 1 | 🔄 2026-08-15 |
+| [**🆕 herdr-cache-alert**](https://github.com/AltanS/herdr-cache-alert)<br><sub>AltanS</sub> | Herdr plugin: prompt-cache countdown on every agent pane, with every cache rule sourced and dated | `ai-agents` `ai-coding` `ai-tools` `claude-code` `multiplexing` | 1 | 🔄 2026-08-24 |
 | [**herdr-prayer-times**](https://github.com/bayoudhi/herdr-prayer-times)<br><sub>bayoudhi</sub> | 次の礼拝時刻とカウントダウンをHerdrのサイドバーに表示——タイムテーブルのポップアップと通知付き | `rust` | 1 | 🔄 2026-08-13 |
 | [**buzzr**](https://github.com/candypoets/buzzr)<br><sub>candypoets</sub> | 稼働中のHerdrのspaceとエージェントを、Nostrアイデンティティとメンションルーティング付きでBuzzチャンネルにミラーする | `agents` `buzz` `nostr` `rust` | 1 | 🔄 2026-08-14 |
 | [**session-sounds**](https://github.com/ChrisPachulski/session-sounds)<br><sub>ChrisPachulski</sub> | macOSとLinux向けに、Herdrのエージェントごとに異なる完了音・注意喚起音を鳴らす | `coding-agents` `notifications` `rust` | 1 | 2026-07-19 |
@@ -249,13 +248,13 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 外出先からherdrを管理できるPWA。Tailnet経由でアクセス可能、プッシュ通知やクイックアクションなど | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 506 | 🔄 2026-08-24 |
+| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 外出先からherdrを管理できるPWA。Tailnet経由でアクセス可能、プッシュ通知やクイックアクションなど | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 510 | 🔄 2026-08-24 |
 | [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | メニューバー・スマホ・Telegramからherdrのエージェントを監視・操作。ローカル設定不要、リモート接続用の無料トンネル付きでTailscaleも不要 | `macos` `mobile` `python` | 281 | 🔄 2026-08-17 |
-| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | スマホからHerdrのエージェントを遠隔で承認・監視できる、Android/iOS向けのモバイルWebアプリ。プッシュ通知・QRコードでの設定・複数PCへの中継に対応 | `android` `approvals` `cloudflare` `ios` `mobile` | 124 | 🔄 2026-08-24 |
+| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | スマホからHerdrのエージェントを遠隔で承認・監視できる、Android/iOS向けのモバイルWebアプリ。プッシュ通知・QRコードでの設定・複数PCへの中継に対応 | `android` `approvals` `cloudflare` `ios` `mobile` | 126 | 🔄 2026-08-24 |
 | [**herdr-watch**](https://github.com/Unayung/herdr-watch)<br><sub>Unayung</sub> | herdrのエージェント状態をApple Watchで確認できる | `javascript` | 24 | 🔄 2026-08-14 |
 | [**herdr-plugin-mobile-relay**](https://github.com/benkraus/herdr-plugin-mobile-relay)<br><sub>benkraus</sub> | _(説明なし)_ | `typescript` | 10 | 🔄 2026-08-12 |
 | [**herdr-push**](https://github.com/dcolinmorgan/herdr-push)<br><sub>dcolinmorgan</sub> | herdrプラグイン：依存なしでイベントをherdr-remoteにpushし、モバイルからの監視とワンタップ承認を可能にする | `shell` | 9 | 2026-07-09 |
-| [**🆕 paddock**](https://github.com/lntvan166/paddock)<br><sub>lntvan166</sub> | スマホからコーディングエージェントを見て、返答する。herdr向けのローカルなモバイルファーストダッシュボード——unixソケットを読み取り、対応が必要な順に並べた1画面を提供する | `bun` `coding-agents` `dashboard` `developer-tools` `herdr-dashboard` | 6 | 🔄 2026-08-24 |
+| [**🆕 paddock**](https://github.com/lntvan166/paddock)<br><sub>lntvan166</sub> | スマホからコーディングエージェントを見て、返答する。herdr向けのローカルなモバイルファーストダッシュボード——unixソケットを読み取り、対応が必要な順に並べた1画面を提供する | `bun` `coding-agents` `dashboard` `developer-tools` `herdr-dashboard` | 7 | 🔄 2026-08-24 |
 | [**merino**](https://github.com/LoneExile/merino)<br><sub>LoneExile</sub> | Merino🐑——Herdrエージェント向けのリモートトンネルダッシュボード | `go` `macos` `menubar` `react` `wails` | 6 | 🔄 2026-08-23 |
 | [**herdr-tether**](https://github.com/moneycaringcoder/herdr-tether)<br><sub>moneycaringcoder</sub> | Herdrのビューを閉じた後も、ローカル・リモートのターミナル処理を実行し続けさせる | `remote-development` `rust` `ssh` `terminal` `tmux` | 6 | 🔄 2026-08-22 |
 | [**🆕 herdr-connect**](https://github.com/Tomyail/herdr-connect)<br><sub>Tomyail</sub> | Herdrのインストール先をLAN内で発見・接続するための、オープンソースのコンパニオンアプリ | `agent` `mobile-app` `react-native` `typescript` | 6 | 🔄 2026-08-24 |
@@ -267,18 +266,18 @@
 | [**herdr-web**](https://github.com/eyalev/herdr-web)<br><sub>eyalev</sub> | herdrのエージェントマルチプレクサ向けの、モバイルファーストなWeb UI——スマホからコーディングエージェントを操作できる | `claude-code` `mobile` `pwa` `terminal` `javascript` | 3 | 2026-07-29 |
 | [**herdr-aws-ssm**](https://github.com/maayanyosef/herdr-aws-ssm)<br><sub>maayanyosef</sub> | EC2インスタンスを選択し、herdrの--remoteセッションでAWS SSM経由接続する——踏み台サーバーやパブリックIPは不要 | `aws-ssm` `terminal` `shell` | 3 | 2026-07-01 |
 | [**herdr-farm**](https://github.com/mejiasd3v/herdr-farm)<br><sub>mejiasd3v</sub> | Herdrプラグイン：ワークスペースとエージェントを家畜として可視化する3D農場（three.js製Webアプリ） | `threejs` `javascript` | 3 | 2026-07-28 |
+| [**🆕 herdr-remote-panes**](https://github.com/Poor-Plebs/herdr-remote-panes)<br><sub>Poor-Plebs</sub> | 1つのHerdrから他のマシンで作業する——メニューからマシンを選ぶと、そのマシンのターミナルが得られる。実験的な双方向ミラーリングもオプションで利用可能 | `golang` `ssh` `terminal` `go` | 3 | 🔄 2026-08-25 |
 | [**herdr-devup**](https://github.com/alon-z/herdr-devup)<br><sub>alon-z</sub> | Herdrプラグイン：.herdr/dev.tomlからプロジェクトごとの開発用レイアウトを構築し、トンネルURLを環境変数に同期する | `typescript` | 2 | 2026-06-22 |
 | [**herdr-telegram-gate**](https://github.com/hkdom/herdr-telegram-gate)<br><sub>hkdom</sub> | herdrのAIエージェント群向けの、Telegram承認インボックス＋リスク階層別の自動承認——ブロックされたエージェントは承認/拒否ボタン付きのTelegramカードとして表示される（依存ライブラリなしのNode.js） | `approval-gate` `telegram` `javascript` | 2 | 2026-08-06 |
 | [**herdr-remotedownloder**](https://github.com/kosuketut/herdr-remotedownloder)<br><sub>kosuketut</sub> | リモートのHerdrペインから、接続元のMacへファイルをダウンロードする | `rust` | 2 | 🔄 2026-08-24 |
 | [**herdr-phone**](https://github.com/matheus3301/herdr-phone)<br><sub>matheus3301</sub> | Cloudflare TunnelとAccessを使った、Herdr向けのモバイルリモートコンソール | `cloudflare-tunnel` `coding-agents` `developer-tools` `golang` `mobile` | 2 | 🔄 2026-08-14 |
 | [**herdr-portfwd**](https://github.com/miko-misa/herdr-portfwd)<br><sub>miko-misa</sub> | リモートマシン上のコーディングエージェント向けの自動SSHポートフォワーディング——エージェントが出力したlocalhost URLをCtrl+クリックすると、同じポートで手元のマシンにページが開く。Herdrプラグイン | `ai-agents` `claude-code` `cli` `coding-agents` `developer-tools` | 2 | 🔄 2026-08-11 |
-| [**🆕 herdr-remote-panes**](https://github.com/Poor-Plebs/herdr-remote-panes)<br><sub>Poor-Plebs</sub> | 1つのHerdrから他のマシンで作業する——メニューからマシンを選ぶと、そのマシンのターミナルが得られる。実験的な双方向ミラーリングもオプションで利用可能 | `golang` `ssh` `terminal` `go` | 2 | 🔄 2026-08-24 |
+| [**🆕 herdr-topbar**](https://github.com/bigbug16/herdr-topbar)<br><sub>bigbug16</sub> | macOS menu bar icon for herdr — jump back to your session, open a project, and see which agent is waiting for input. | `macos` `menubar` `swift` | 1 | 🔄 2026-08-24 |
 | [**🆕 herdrchat**](https://github.com/cobanov/herdrchat)<br><sub>cobanov</sub> | HerdrChat——スマホ（iOS＋Android）からherdrのコーディングエージェントを操作する | `herdr-client` `herdr-integration` `herdr-mobile` `typescript` | 1 | 🔄 2026-08-21 |
 | [**herdr-web-tui**](https://github.com/tigorlazuardi/herdr-web-tui)<br><sub>tigorlazuardi</sub> | デーモン主体のHerdr向けブラウザ/PWAフロントエンド——オプションのプラグインランチャー付き | `go` | 1 | 🔄 2026-08-18 |
 | [**🆕 herdr-hub**](https://github.com/alex-devdone/herdr-hub)<br><sub>alex-devdone</sub> | リモートアタッチしたペインで構成されるherdrセッションを、持ち運び可能なマニフェストとして記述し、どのマシンでも再構築できる | `python` | 0 | 🔄 2026-08-23 |
-| [**🆕 herdr-topbar**](https://github.com/bigbug16/herdr-topbar)<br><sub>bigbug16</sub> | macOS menu bar icon for herdr — jump back to your session, open a project, and see which agent is waiting for input. | `macos` `menubar` `swift` | 0 | 🔄 2026-08-24 |
 | [**setnet**](https://github.com/chano-gpt/setnet)<br><sub>chano-gpt</sub> | スマホから複数harnessのコーディングエージェントを統率する——Herdrプラグイン | `typescript` | 0 | 🔄 2026-08-15 |
-| [**🆕 herdr-slack**](https://github.com/egemenyildiz/herdr-slack)<br><sub>egemenyildiz</sub> | Slackからローカルのherdrエージェントを操作する——スマホから閲覧・プロンプト送信・起動ができる。トンネル不要 | `slack` `typescript` | 0 | 🔄 2026-08-20 |
+| [**herdr-slack**](https://github.com/egemenyildiz/herdr-slack)<br><sub>egemenyildiz</sub> | Slackからローカルのherdrエージェントを操作する——スマホから閲覧・プロンプト送信・起動ができる。トンネル不要 | `slack` `typescript` | 0 | 🔄 2026-08-20 |
 | [**herdr-approval-gate**](https://github.com/Javamomma/herdr-approval-gate)<br><sub>Javamomma</sub> | herdr内のエージェントの操作に対する、人間による承認ゲート——専用ペインでタスクを実行し、その記録を判定チェックし、人間が「APPROVE <イニシャル>」と入力するまでブロックする | `shell` | 0 | 2026-07-15 |
 | [**herdr-wechat-plugin**](https://github.com/LuYanFCP/herdr-wechat-plugin)<br><sub>LuYanFCP</sub> | WeChatによる遠隔操作を可能にするHerdrプラグイン | `rust` | 0 | 2026-07-17 |
 | [**herdr-agents-bridge**](https://github.com/maedana/herdr-agents-bridge)<br><sub>maedana</sub> | ローカルのモバイル向けWeb UI経由で、スマホからコーディングエージェントを監視・操作する——QRコードをスキャンして接続 | `rust` | 0 | 2026-07-22 |
@@ -302,14 +301,14 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | 軽量でチューニング済みのOpencodeマルチエージェントスイート・どんなモデルでも組み合わせ可能・タスクを自動委任 | `agentic-ai` `antigravity` `cerebras` `oh-my-opencode` `opencode` | 8378 | 🔄 2026-08-24 |
+| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | 軽量でチューニング済みのOpencodeマルチエージェントスイート・どんなモデルでも組み合わせ可能・タスクを自動委任 | `agentic-ai` `antigravity` `cerebras` `oh-my-opencode` `opencode` | 8384 | 🔄 2026-08-25 |
 | [**agentbox**](https://github.com/madarco/agentbox)<br><sub>madarco</sub> | コマンド一発で、サンドボックス化された複数のVM上にエージェントを並列実行（PCでもクラウドでも） | `claude` `claude-code` `cli` `cmux` `codex` | 374 | 🔄 2026-08-24 |
 | [**pi-extensible-workflows**](https://github.com/vekexasia/pi-extensible-workflows)<br><sub>vekexasia</sub> | Pi向けの、決定論的なマルチエージェントワークフローオーケストレーション | `pi` `workflow` `workflows` `typescript` | 192 | 🔄 2026-08-24 |
-| [**🆕 pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | piコーディングエージェント向けの、ワークフローエンジン・JSON制御フローツール・ライブターミナルビューア | `typescript` | 131 | 🔄 2026-08-24 |
-| [**herdr-board**](https://github.com/nelsonPires5/herdr-board)<br><sub>nelsonPires5</sub> | herdr向けのカンバンボード——カードはそのままプロンプトになり、見えているペイン上のAIエージェントに割り振られる | `board` `kanban` `kanban-board` `tui` `rust` | 60 | 🔄 2026-08-23 |
-| [**herdr-dagr**](https://github.com/aemrebarut/herdr-dagr)<br><sub>aemrebarut</sub> | エージェント群をライブなDAGとして表示——試行・レビューゲート・エビデンスを備えたオーケストレーショングラフを、herdrのスプリットペインに表示する | `agents` `dag` `multi-agent` `orchestration` `rust` | 36 | 🔄 2026-08-23 |
+| [**🆕 pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | piコーディングエージェント向けの、ワークフローエンジン・JSON制御フローツール・ライブターミナルビューア | `typescript` | 134 | 🔄 2026-08-24 |
+| [**herdr-board**](https://github.com/nelsonPires5/herdr-board)<br><sub>nelsonPires5</sub> | herdr向けのカンバンボード——カードはそのままプロンプトになり、見えているペイン上のAIエージェントに割り振られる | `board` `kanban` `kanban-board` `tui` `rust` | 63 | 🔄 2026-08-23 |
+| [**herdr-dagr**](https://github.com/aemrebarut/herdr-dagr)<br><sub>aemrebarut</sub> | エージェント群をライブなDAGとして表示——試行・レビューゲート・エビデンスを備えたオーケストレーショングラフを、herdrのスプリットペインに表示する | `agents` `dag` `multi-agent` `orchestration` `rust` | 39 | 🔄 2026-08-23 |
 | [**agentbox-herdr-plugin**](https://github.com/madarco/agentbox-herdr-plugin)<br><sub>madarco</sub> | コマンド一発で、サンドボックス化された複数のVM上にエージェントを並列実行（PCでもクラウドでも） | `claude-code` `codex-cli` `opencode` `sandbox` `shell` | 27 | 2026-06-24 |
-| [**herdr-file-annotator**](https://github.com/JonasBaeumer/herdr-file-annotator)<br><sub>JonasBaeumer</sub> | 実際のコードベースとの接点を失わずに、エージェントによる開発を最大限活用するためのherdrプラグイン | `rust` | 21 | 🔄 2026-08-23 |
+| [**herdr-file-annotator**](https://github.com/JonasBaeumer/herdr-file-annotator)<br><sub>JonasBaeumer</sub> | 実際のコードベースとの接点を失わずに、エージェントによる開発を最大限活用するためのherdrプラグイン | `rust` | 23 | 🔄 2026-08-23 |
 | [**herdmates**](https://github.com/caioniehues/herdmates)<br><sub>caioniehues</sub> | herdrネイティブのClaude Codeエージェントチーム——teammuxシム、ミッションコントロールボード、フォーカスペイン | `agent-teams` `claude-code` `rust` `tui` | 20 | 🔄 2026-08-21 |
 | [**pi-herd**](https://github.com/ribbons-digital/pi-herd)<br><sub>ribbons-digital</sub> | Herdrのペインとgit worktreeを使って、Piのセッションを可視化しながらオーケストレーションする | `typescript` | 15 | 2026-07-06 |
 | [**herdr-agent-handoff**](https://github.com/sanirudh17/herdr-agent-handoff)<br><sub>sanirudh17</sub> | 進行中のエージェントセッションを、別のインストール済みコーディングエージェントの新規セッションに引き渡すHerdrプラグイン。セッション全体をプロンプト内にそのまま渡すため、要約や省略された履歴、追加の指示を書く必要がない | `agent-handoff` `claude-code` `codex` `coding-agents` `developer-tools` | 11 | 🔄 2026-08-14 |
@@ -320,18 +319,18 @@
 | [**🆕 herdr-social-glass**](https://github.com/ythx-101/herdr-social-glass)<br><sub>ythx-101</sub> | macOS版Herdr向けの、スクリーンショット映えするSocial Glassテーマ＆ワークフロープラグイン | `macos` `multi-agent` `terminal-theme` `shell` | 7 | 🔄 2026-08-21 |
 | [**herdr-agent-messenger**](https://github.com/aashishd/herdr-agent-messenger)<br><sub>aashishd</sub> | 稼働中のHerdrペイン間で、AIエージェント同士が要点を絞った自己完結型のメッセージをやり取りできるようにする——1つのエージェントが、全コンテキストを共有せずに別のエージェントと作業を調整できる | `python` | 6 | 2026-08-02 |
 | [**herdr-catchup**](https://github.com/wilbeibi/herdr-catchup)<br><sub>wilbeibi</sub> | herdr向けのエージェント間コーディングセッション引き渡し：稼働中のペインから、Claude Code・Codex・Cursor・Cline・OpenCodeのセッションを要約・フォーク・他のエージェントへの引き渡しができる | `ai-agents` `claude-code` `codex` `coding-agents` `context-handoff` | 6 | 2026-07-27 |
+| [**herdr-gamepad**](https://github.com/htlin222/herdr-gamepad)<br><sub>htlin222</sub> | ゲームコントローラーでHerdrを操作する。ソファに座ったままAIエージェントを見回り、ペインを分割し、ワークスペースを切り替えられる——どんなゲームパッドでも60秒で自分好みに割り当て可能 | `ai-agents` `gamepad` `macos` `swift` `terminal-multiplexer` | 5 | 2026-08-08 |
 | [**herdr-triage**](https://github.com/natori-hrj/herdr-triage)<br><sub>natori-hrj</sub> | herdr向けの注意度トリアージ——あなたを最も必要としているエージェントを上位に並べる。長時間ブロックされたエージェントほど上に来る | `ai-agents` `triage` `rust` | 5 | 2026-07-23 |
 | [**herdr-space-scoped-agents**](https://github.com/ShankyJS/herdr-space-scoped-agents)<br><sub>ShankyJS</sub> | エージェントパネルを、フォーカス中のスペースに限定して表示するherdrプラグイン | `coding-agents` `terminal` `go` | 5 | 2026-07-23 |
-| [**herdr-swarm**](https://github.com/StructuPath/herdr-swarm)<br><sub>StructuPath</sub> | 1つのリポジトリで複数のコーディングエージェントを安全に並列実行：エージェントごとのworktree展開、変更のリアルタイム可視化、レビュー優先の成果回収をHerdr向けに提供 | `terminal` `javascript` | 5 | 🔄 2026-08-23 |
+| [**herdr-swarm**](https://github.com/StructuPath/herdr-swarm)<br><sub>StructuPath</sub> | 1つのリポジトリで複数のコーディングエージェントを安全に並列実行：エージェントごとのworktree展開、変更のリアルタイム可視化、レビュー優先の成果回収をHerdr向けに提供 | `terminal` `javascript` | 5 | 🔄 2026-08-24 |
 | [**herdr-insight**](https://github.com/0x5c0f/herdr-insight)<br><sub>0x5c0f</sub> | エージェントの状態タイムラインパネル | `rust` | 4 | 2026-06-23 |
 | [**shepherdr**](https://github.com/afogel/shepherdr)<br><sub>afogel</sub> | 委任したコーディングエージェントを、監視・再開・引き取りができる可視化されたherdrのペインに追い込むherdrプラグイン | `ai-agents` `claude-code` `codex` `cursor` `rust` | 4 | 2026-07-24 |
 | [**herdr-devcontainer**](https://github.com/gambtho/herdr-devcontainer)<br><sub>gambtho</sub> | 公式のDev Containers CLI経由で、リポジトリのDev Container内にシェルやコーディングエージェントを開くHerdrプラグイン | `coding-agents` `containers` `devcontainers` `developer-tools` `development-environment` | 4 | 🔄 2026-08-13 |
 | [**herdr-espresso**](https://github.com/Hanyang-Li/herdr-espresso)<br><sub>Hanyang-Li</sub> | エージェントが動作中はMacBookを、蓋を閉じても眠らせない | `rust` | 4 | 2026-07-25 |
-| [**herdr-gamepad**](https://github.com/htlin222/herdr-gamepad)<br><sub>htlin222</sub> | ゲームコントローラーでHerdrを操作する。ソファに座ったままAIエージェントを見回り、ペインを分割し、ワークスペースを切り替えられる——どんなゲームパッドでも60秒で自分好みに割り当て可能 | `ai-agents` `gamepad` `macos` `swift` `terminal-multiplexer` | 4 | 2026-08-08 |
+| [**🆕 herdr-scuttlebutt**](https://github.com/andybarilla/herdr-scuttlebutt)<br><sub>andybarilla</sub> | A herdr plugin that gives the agents in a herdr session a shared chat room | `rust` | 3 | 🔄 2026-08-24 |
 | [**herdr-theos-settler**](https://github.com/calebcauthon/herdr-theos-settler)<br><sub>calebcauthon</sub> | 完了したHerdrのエージェントタブやワークスペースを、作業中のものより下に沈めて視界から外す。Theoのアイデア | `rust` | 3 | 2026-07-23 |
 | [**herdr-walkietalkie**](https://github.com/jeffory/herdr-walkietalkie)<br><sub>jeffory</sub> | herdrプラグイン：トークン効率の良いエージェント間委任（wt）——オーケストレーター役のエージェントが、Claude/OpenCode/Antigravityのワーカーをタブやworktreeに立ち上げる | `shell` | 3 | 🔄 2026-08-12 |
-| [**herdr-prompt-library**](https://github.com/jwkicklighter/herdr-prompt-library)<br><sub>jwkicklighter</sub> | ローカルまたはグローバルな再利用可能なMarkdownプロンプトを閲覧・管理し、フォーカス中のペインに挿入できるHerdrプラグイン | `go` `golang` `prompting` `snippets` `tui` | 3 | 🔄 2026-08-21 |
-| [**🆕 herdr-scuttlebutt**](https://github.com/andybarilla/herdr-scuttlebutt)<br><sub>andybarilla</sub> | A herdr plugin that gives the agents in a herdr session a shared chat room | `rust` | 2 | 🔄 2026-08-24 |
+| [**herdr-prompt-library**](https://github.com/jwkicklighter/herdr-prompt-library)<br><sub>jwkicklighter</sub> | ローカルまたはグローバルな再利用可能なMarkdownプロンプトを閲覧・管理し、フォーカス中のペインに挿入できるHerdrプラグイン | `go` `golang` `prompting` `snippets` `tui` | 3 | 🔄 2026-08-24 |
 | [**herdr-blaxel-sandbox-plugin**](https://github.com/blaxel-ai/herdr-blaxel-sandbox-plugin)<br><sub>blaxel-ai</sub> | Herdrから、永続化されたBlaxel Sandbox上でコーディングエージェントを実行する | `blaxel` `claude-code` `codex` `coding-agents` `opencode` | 2 | 🔄 2026-08-18 |
 | [**herdr-birdseye**](https://github.com/calebcauthon/herdr-birdseye)<br><sub>calebcauthon</sub> | herdr内のエージェントを鳥瞰図で見る | `rust` | 2 | 2026-07-24 |
 | [**herdr-orchestrate**](https://github.com/darjss/herdr-orchestrate)<br><sub>darjss</sub> | Pi向けのネイティブなオーケストレーション機能を、可視化されたHerdrのワーカーセッションで提供——実行状況ボード、永続的なプロンプト/レポート/状態、独立したgit worktree、明示的なモデルルーティングに対応 | `pi-package` `typescript` | 2 | 2026-07-13 |
@@ -345,7 +344,7 @@
 | [**herdr-agents-history**](https://github.com/speardragon/herdr-agents-history)<br><sub>speardragon</sub> | AIコーディングエージェントが実際に何をしているかを見る——すべてのエージェント（Claude CodeとCodex）のツール呼び出しをリアルタイムに流し続ける、キーボード操作のherdr TUI | `ai-agents` `claude-code` `codex` `tui` `typescript` | 2 | 2026-07-19 |
 | [**herdr-wakeup**](https://github.com/usrivastava92/herdr-wakeup)<br><sub>usrivastava92</sub> | Herdrが管理するエージェントが作業中の間、macOSまたはLinuxをスリープさせないHerdrプラグイン | `power-management` `sleep-prevention` `wakeup` `rust` | 2 | 2026-07-17 |
 | [**herdr-agent-timer**](https://github.com/Yemeni/herdr-agent-timer)<br><sub>Yemeni</sub> | 各エージェントのステータスラベルと経過時間を交互に表示するHerdrプラグイン | `shell` | 2 | 🔄 2026-08-14 |
-| [**🆕 herdr-pouch**](https://github.com/AltanS/herdr-pouch)<br><sub>AltanS</sub> | herdrプラグイン：エージェント向けのプロンプトを事前に貯めておき、準備ができたら挿入する | `typescript` | 1 | 🔄 2026-08-20 |
+| [**herdr-pouch**](https://github.com/AltanS/herdr-pouch)<br><sub>AltanS</sub> | herdrプラグイン：エージェント向けのプロンプトを事前に貯めておき、準備ができたら挿入する | `ai-agents` `ai-coding` `ai-tools` `multiplexing` `typescript` | 1 | 🔄 2026-08-24 |
 | [**herdr-pi-reloader**](https://github.com/anrunt/herdr-pi-reloader)<br><sub>anrunt</sub> | Herdrのオーバーレイ TUIから、アイドル状態のPiエージェントセッションをリロードまたは再起動する | `rust` | 1 | 2026-07-18 |
 | [**herdr-loop**](https://github.com/cyperx84/herdr-loop)<br><sub>cyperx84</sub> | herdr向けの宣言的でイベント駆動なループ＋グラフオーケストレーション——Claude Code・Codex・opencode・piをまとめて動かし、作業が収束するまで実行する | `ai-agents` `golang` `orchestration` `go` | 1 | 🔄 2026-08-12 |
 | [**herdr-pane-topic-sync**](https://github.com/danbuhler/herdr-pane-topic-sync)<br><sub>danbuhler</sub> | herdrプラグイン：ペインとタブの名前を「1」「2」「3」ではなく、各エージェント（Claude Code、Codexなど）のリアルタイムのトピックから自動で付ける | `ai-agents` `claude-code` `terminal` `tmux-alternative` `javascript` | 1 | 2026-08-04 |
@@ -354,6 +353,8 @@
 | [**LunaCrab**](https://github.com/GranamyrBR/LunaCrab)<br><sub>GranamyrBR</sub> | 別プロジェクト用に予約済み | `agents` `developer-tools` `multi-agent` `observability` `rust` | 1 | 🔄 2026-08-10 |
 | [**herdr-amphetamine-macos**](https://github.com/gw31415/herdr-amphetamine-macos)<br><sub>gw31415</sub> | エージェントが作業中の間、Amphetamineの持続時間を延長し続けるherdrプラグイン | `python` | 1 | 2026-07-09 |
 | [**agent-keep-awake**](https://github.com/happyeric77/agent-keep-awake)<br><sub>happyeric77</sub> | Herdrのエージェントが動作中は、macOSのスリープを防止する | `javascript` | 1 | 🔄 2026-08-12 |
+| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | herdr-tasksボード用のディスパッチャー——準備完了したタスクごとにワーカーエージェントのペインを立て、目標を伝え、ワーカーを追跡し、レビューで一旦止める。すべて1つのGoバイナリで実現 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 🔄 2026-08-25 |
+| [**🆕 corral**](https://github.com/jirathip-dev/corral)<br><sub>jirathip-dev</sub> | See every agent. Steer the fleet. | `agent-orchestration` `ai-agents` `coding-agents` `control-plane` `devtools` | 1 | 🔄 2026-08-25 |
 | [**herdr-watcher**](https://github.com/joshka0/herdr-watcher)<br><sub>joshka0</sub> | Herdrエージェント向けの、永続的な処理継続とデタッチされたワーカーコールバック | `rust` | 1 | 2026-08-02 |
 | [**🆕 herdr-turn-coordinator**](https://github.com/KarthusLorin/herdr-turn-coordinator)<br><sub>KarthusLorin</sub> | Preserve interactive Herdr agent TUIs without model-driven status polling | `ai-agents` `python` | 1 | 🔄 2026-08-24 |
 | [**herdr-island**](https://github.com/kay-ws/herdr-island)<br><sub>kay-ws</sub> | あなたの対応を待っているエージェントを見つける——各herdrエージェントが止まった理由を表示し、Agentsパネルを該当するものだけに絞り込む | `shell` | 1 | 2026-08-04 |
@@ -372,8 +373,8 @@
 | [**herdr-rovo-dev**](https://github.com/usrivastava92/herdr-rovo-dev)<br><sub>usrivastava92</sub> | Rovo Dev CLIのセッションを検出し、Herdr上で稼働中のエージェントとして報告するHerdrプラグイン | `ai-agent` `rovo` `rovo-dev` `shell` | 1 | 2026-07-19 |
 | [**🆕 herdr-polyglot**](https://github.com/wazum/herdr-polyglot)<br><sub>wazum</sub> | コーディングエージェントへのプロンプトを自分の言語で書ける——DeepLまたはGoogle Cloud Translateが英語に翻訳し、Claude Code・Codex・その他任意のherdrエージェントペインに届ける | `ai-agents` `bubbletea` `bubbletea-tui` `claude-code` `codex` | 1 | 🔄 2026-08-19 |
 | [**🆕 herdr-auto-yes-sir**](https://github.com/xlinx/herdr-auto-yes-sir)<br><sub>xlinx</sub> | herdr-auto-yes-sir——エージェントが承認を求めてきたときに、ブロックされずに実行を続けられるようにする。codexのような挙動 | `javascript` | 1 | 🔄 2026-08-20 |
-| [**herdr-cadence**](https://github.com/zhenyufu/herdr-cadence)<br><sub>zhenyufu</sub> | 1人のLeadと複数のエージェント群からなる、軽量なエージェントオーケストレーター | `rust` | 1 | 🔄 2026-08-23 |
-| [**🆕 herdr-simple-prompts**](https://github.com/AlexSamarsky/herdr-simple-prompts)<br><sub>AlexSamarsky</sub> | CodexやClaudeとのやり取りから、自分のプロンプトと最終回答だけを表示する。入力用のコンポーザー付き | `rust` | 0 | 🔄 2026-08-23 |
+| [**herdr-cadence**](https://github.com/zhenyufu/herdr-cadence)<br><sub>zhenyufu</sub> | 1人のLeadと複数のエージェント群からなる、軽量なエージェントオーケストレーター | `rust` | 1 | 🔄 2026-08-24 |
+| [**herdr-simple-prompts**](https://github.com/AlexSamarsky/herdr-simple-prompts)<br><sub>AlexSamarsky</sub> | CodexやClaudeとのやり取りから、自分のプロンプトと最終回答だけを表示する。入力用のコンポーザー付き | `rust` | 0 | 🔄 2026-08-23 |
 | [**hird**](https://github.com/aoprisan/hird)<br><sub>aoprisan</sub> | 複数のharnessをまたぐエージェントの作業キューと共有アサーションメモリを、1つのローカルSQLiteデータベースで支える | `ai-agents` `claude-code` `cli` `mcp` `rust` | 0 | 🔄 2026-08-22 |
 | [**🆕 otito-herdr-plugin**](https://github.com/BASHBOP/otito-herdr-plugin)<br><sub>BASHBOP</sub> | Herdrのエージェントワークスペース内で、Otitoのコンテキストと決定論的なマージ証跡を実行する | `ai-agents` `developer-tools` `merge-safety` `otito` `javascript` | 0 | 🔄 2026-08-21 |
 | [**herdr-agent-manager**](https://github.com/bleedingfight/herdr-agent-manager)<br><sub>bleedingfight</sub> | fzfベースのファジー検索で、workspace・tab・pane・agentを扱うツール | `python` | 0 | 🔄 2026-08-24 |
@@ -389,8 +390,7 @@
 | [**🆕 herdr-cursor**](https://github.com/gabriel-laet/herdr-cursor)<br><sub>gabriel-laet</sub> | Cursorのクラウドエージェントを、herdrの正式なペインとして扱う | `typescript` | 0 | 🔄 2026-08-21 |
 | [**herdr-agent-team**](https://github.com/gdli6177/herdr-agent-team)<br><sub>gdli6177</sub> | Markdownでエージェントチームを定義できるHerdrプラグイン | `javascript` | 0 | 🔄 2026-08-16 |
 | [**ezdras-herdr**](https://github.com/GranamyrBR/ezdras-herdr)<br><sub>GranamyrBR</sub> | Herdr向けの、複数エージェントをリアルタイムに可視化する仕組みとペイン操作機能 | `rust` | 0 | 🔄 2026-08-10 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | herdr-tasksボード用のディスパッチャー——準備完了したタスクごとにワーカーエージェントのペインを立て、目標を伝え、ワーカーを追跡し、レビューで一旦止める。すべて1つのGoバイナリで実現 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 0 | 🔄 2026-08-24 |
-| [**🆕 herdr-mail**](https://github.com/husniadil/herdr-mail)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント同士の非同期メール——ストアを正とするメールボックス、ヒントとなる1行のペインマーカー、追跡可能な依頼付きのask/replyを、1つのGoバイナリで実現 | `ai-agents` `mail` `mcp-server` `sqlite` `go` | 0 | 🔄 2026-08-24 |
+| [**🆕 herdr-mail**](https://github.com/husniadil/herdr-mail)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント同士の非同期メール——ストアを正とするメールボックス、ヒントとなる1行のペインマーカー、追跡可能な依頼付きのask/replyを、1つのGoバイナリで実現 | `ai-agents` `mail` `mcp-server` `sqlite` `go` | 0 | 🔄 2026-08-25 |
 | [**herdr-ai-memory**](https://github.com/iagogfe/herdr-ai-memory)<br><sub>iagogfe</sub> | Herdrプラグイン：ai-memoryが管理するワークストリーム経由でコーディングエージェントを起動する——エージェントをまたいだセッションの継続性を実現 | `ai-agents` `ai-memory` `terminal` `javascript` | 0 | 2026-07-24 |
 | [**herdr-annotations**](https://github.com/IgorWarzocha/herdr-annotations)<br><sub>IgorWarzocha</sub> | ターミナルで選択した箇所に注釈を集め、Herdrのエージェントに投入する | `ai-agents` `annotations` `terminal` `javascript` | 0 | 2026-07-18 |
 | [**🆕 herdr-pane-id**](https://github.com/imtim/herdr-pane-id)<br><sub>imtim</sub> | herdrプラグイン：ペインにIDとエージェント名、さらにタブ・ワークスペースのIDラベルを付ける——あなたとエージェントの両方が、IDで任意のペインやエージェントを指定できるようになる。herdrのagentスキルと組み合わせると最も効果を発揮する | `ai-agents` `coding-agents` `developer-tools` `terminal-multiplexer` `tui` | 0 | 🔄 2026-08-24 |
@@ -405,9 +405,10 @@
 | [**herdr-agent-dash**](https://github.com/MartinBspheroid/herdr-agent-dash)<br><sub>MartinBspheroid</sub> | Herdr Agent Board：稼働中のコーディングエージェント、その状態・作業ディレクトリ・Gitコンテキストを一目で確認できる、ローカルでキーボード操作中心のHerdrプラグイン | `typescript` | 0 | 2026-07-21 |
 | [**herdr-agent-profiles**](https://github.com/mikeyobrien/herdr-agent-profiles)<br><sub>mikeyobrien</sub> | Herdr向けの、データ駆動のCLIハーネスとモデルプロファイル | `ai-agents` `terminal` `python` | 0 | 🔄 2026-08-10 |
 | [**herdr-green**](https://github.com/natori-hrj/herdr-green)<br><sub>natori-hrj</sub> | herdr向けのエージェントごとのテスト状態表示——エージェントが完了したらプロジェクトのテストを実行し、成功/失敗を表示する | `ai-agents` `ci` `tests` `rust` | 0 | 2026-07-23 |
-| [**🆕 agentic-box**](https://github.com/nicoRomeroCuruchet/agentic-box)<br><sub>nicoRomeroCuruchet</sub> | Claude Codeがローカルモデルのエージェントを操作する、隔離されたbox | `agent-orchestration` `agentic` `agentic-workflow` `docker` `ornith-1-0-35b` | 0 | 🔄 2026-08-17 |
+| [**agentic-box**](https://github.com/nicoRomeroCuruchet/agentic-box)<br><sub>nicoRomeroCuruchet</sub> | Claude Codeがローカルモデルのエージェントを操作する、隔離されたbox | `agent-orchestration` `agentic` `agentic-workflow` `docker` `ornith-1-0-35b` | 0 | 🔄 2026-08-17 |
 | [**herdr-plugin-aos**](https://github.com/noctaIO/herdr-plugin-aos)<br><sub>noctaIO</sub> | 任意のワークスペースから、Agentic OS対応のClaude Codeエージェントをherdrのペインで起動する。非侵襲的なherdrプラグイン | `shell` | 0 | 2026-07-11 |
 | [**🆕 herdr-spawn**](https://github.com/nytafar/herdr-spawn)<br><sub>nytafar</sub> | 1つのMCPツールで、チャットからのプロンプトを、リモートコントロールを有効にした手元のホスト上の実際のClaude Codeセッションに渡す | `python` | 0 | 🔄 2026-08-21 |
+| [**🆕 herdr-helm**](https://github.com/OfirPatish/herdr-helm)<br><sub>OfirPatish</sub> | Herdr plugin: live fleet dashboard and task dispatch console | `javascript` | 0 | 🔄 2026-08-24 |
 | [**🆕 herdr-prompts**](https://github.com/oppenheimor/herdr-prompts)<br><sub>oppenheimor</sub> | Herdr内の各コーディングエージェントをまたいで、プロンプトテンプレートを保存・検索・穴埋め・再利用できる。友人のbingguanqiに着想を得て制作 | `typescript` | 0 | 🔄 2026-08-19 |
 | [**herdr-sidekick**](https://github.com/qapquiz/herdr-sidekick)<br><sub>qapquiz</sub> | Herdr向けの、開閉切り替え可能なサイドキックAIエージェントペイン——選択したコードを、送信せずにエージェントのコンポーザーに貼り付けられる。qapquiz/herdr-sidekick.nvimと組み合わせて使う | `neovim` `terminal` `shell` | 0 | 🔄 2026-08-15 |
 | [**ocean-herdr**](https://github.com/Risingtides-dev/ocean-herdr)<br><sub>Risingtides-dev</sub> | Herdr向けのOceanエージェント連携 | `coding-agent` `ocean` `rust` | 0 | 2026-07-17 |
@@ -444,7 +445,7 @@
 | [**herdr-worktrunk**](https://github.com/devashish2203/herdr-worktrunk)<br><sub>devashish2203</sub> | git worktree管理のためworktrunkを統合するHerdrプラグイン | `shell` | 104 | 🔄 2026-08-21 |
 | [**herdr-plugin-jj-workspace**](https://github.com/NathanFlurry/herdr-plugin-jj-workspace)<br><sub>NathanFlurry</sub> | Jujutsu (jj) のワークスペースをHerdrのワークスペースとして作成・削除する | `jujutsu` `rust` | 43 | 2026-07-08 |
 | [**herdr-plugin-renamer**](https://github.com/wyattjoh/herdr-plugin-renamer)<br><sub>wyattjoh</sub> | エージェントへの最初のプロンプトから、自動生成されたherdrのworktreeブランチとワークスペースをリネームする（デバイス上のApple FoundationModelsまたはCodexを利用） | `rust` | 10 | 🔄 2026-08-17 |
-| [**🆕 herdkit**](https://github.com/briankeegan1/herdkit)<br><sub>briankeegan1</sub> | herdrベースのエージェントワークフローに、統制と並列実行を提供する——コーディネーターがバックログを隔離されたworktreeビルダー（Claude Code・Codex・Grok）に流し込み、ウォッチャーはヘルスチェックと敵対的レビューが通った変更だけをランドする | `shell` | 8 | 🔄 2026-08-24 |
+| [**🆕 herdkit**](https://github.com/briankeegan1/herdkit)<br><sub>briankeegan1</sub> | herdrベースのエージェントワークフローに、統制と並列実行を提供する——コーディネーターがバックログを隔離されたworktreeビルダー（Claude Code・Codex・Grok）に流し込み、ウォッチャーはヘルスチェックと敵対的レビューが通った変更だけをランドする | `shell` | 8 | 🔄 2026-08-25 |
 | [**jj-waltz**](https://github.com/EzraCerpac/jj-waltz)<br><sub>EzraCerpac</sub> | Worktrunkに触発されたJujutsuワークスペース切り替えツール | `cli` `jj` `jujitsu` `utility` `workspace` | 7 | 🔄 2026-08-21 |
 | [**herdr-plugin-git-worktree-hooks**](https://github.com/freethinkel/herdr-plugin-git-worktree-hooks)<br><sub>freethinkel</sub> | git worktreeの作成/削除時にシェルコマンドを実行する——どのリポジトリの外にも置ける、全プロジェクト共通の1つのYAML設定 | `git-worktree` `javascript` | 6 | 2026-07-06 |
 | [**herdr-worktree-from-pr**](https://github.com/tdi/herdr-worktree-from-pr)<br><sub>tdi</sub> | GitHubのPRからgit worktreeを作成し、herdrのワークスペースとして開く | `javascript` | 6 | 2026-07-20 |
@@ -462,6 +463,7 @@
 | [**herdr-worktreeinclude**](https://github.com/serhii-chernenko/herdr-worktreeinclude)<br><sub>serhii-chernenko</sub> | 新しいworktreeにカスタムパスを許可し、Claude CLIと同様に`.worktreeinclude`ファイルを尊重する | `worktree` `shell` | 2 | 2026-07-23 |
 | [**herdr-corral**](https://github.com/bfreed/herdr-corral)<br><sub>bfreed</sub> | Herdr内でGit worktreeをまとめて管理——envファイル、依存関係、エージェント/シェル/サーバー用のタブ、マージしても安全なクリーンアップに対応。Herdr向けのworkmux代替 | `git-worktree` `workmux` `python` | 1 | 🔄 2026-08-14 |
 | [**herdr-worktree-copy**](https://github.com/crexi/herdr-worktree-copy)<br><sub>crexi</sub> | .worktree-copyマニフェストに基づき、worktreeローカルファイルをコピー・シンボリックリンクするHerdrプラグイン | `git-worktree` `shell` | 1 | 2026-07-28 |
+| [**herdr-deck**](https://github.com/ctbaum/herdr-deck)<br><sub>ctbaum</sub> | herdr-agents.nvimと組み合わせて使うワークスペースランチャー：Neovim・エージェント・シェル・lazygitがあらかじめ用意された「デッキ」で、ClaudeやCodexを開始または再開できる | `claude-code` `codex` `coding-agents` `git-worktree` `neovim` | 1 | 🔄 2026-08-24 |
 | [**trunkr**](https://github.com/disintegrator/trunkr)<br><sub>disintegrator</sub> | Herdr🤝Worktrunk——HerdrとWorktrunkを連携させるプラグイン | `go` | 1 | 🔄 2026-08-12 |
 | [**herdr-allow**](https://github.com/Feasy01/herdr-allow)<br><sub>Feasy01</sub> | herdrプラグイン：.herdr-allowの許可リストを使って、gitignore対象のファイル（.env、シークレット、ローカル設定）を新しいworktreeすべてにコピーする | `shell` | 1 | 2026-07-02 |
 | [**herdr-plugin-gwm**](https://github.com/kbrdn1/herdr-plugin-gwm)<br><sub>kbrdn1</sub> | git worktree管理のためgwmを操作するherdrプラグイン——gwmを唯一の正とし、herdrはそれに追従する | `bash` `cli` `git-worktree` `gwm` `worktree` | 1 | 2026-07-27 |
@@ -469,19 +471,18 @@
 | [**herdr-shear**](https://github.com/moneycaringcoder/herdr-shear)<br><sub>moneycaringcoder</sub> | 安全に削除できるgit worktreeを見つけて削除する。herdr向けのworktree清掃係 | `cleanup` `git-worktree` `rust` `terminal` | 1 | 🔄 2026-08-19 |
 | [**herdr-standup**](https://github.com/moneycaringcoder/herdr-standup)<br><sub>moneycaringcoder</sub> | エージェントが実際に何をしたかのダイジェスト。1つのコマンドで、指定した期間の全Herdrワークスペースについて、コミット・変更量・ブランチ・作業がどこかに着地したかを、読みやすい形でまとめて表示する | `git` `rust` `standup` `terminal` | 1 | 🔄 2026-08-22 |
 | [**herdr-jj**](https://github.com/OliverGilan/herdr-jj)<br><sub>OliverGilan</sub> | HerdrにJujutsuのワークスペースサポートを追加する | `jujutsu` `rust` | 1 | 🔄 2026-08-12 |
+| [**🆕 herdr-worktree-nav**](https://github.com/ShoMasegi/herdr-worktree-nav)<br><sub>ShoMasegi</sub> | _(説明なし)_ | `terminal` `rust` | 1 | 🔄 2026-08-23 |
 | [**🆕 herdr-jira-worktree**](https://github.com/spiritsack/herdr-jira-worktree)<br><sub>spiritsack</sub> | herdr plugin: prompt for a Jira ticket, open/reuse a matching git worktree, and prefill it into a fresh Claude Code session | `shell` | 1 | 🔄 2026-08-24 |
 | [**🆕 herdr-plugin-pr-board**](https://github.com/0xthc/herdr-plugin-pr-board)<br><sub>0xthc</sub> | 現在のリポジトリのGitHub PRをherdr内で扱う——ペインで一覧・閲覧し、選んだものをworktreeワークスペースとしてチェックアウトし、マージ済みのものを安全に回収する | `shell` | 0 | 🔄 2026-08-20 |
 | [**🆕 herdr-plugin-worktree-bootstrap**](https://github.com/0xthc/herdr-plugin-worktree-bootstrap)<br><sub>0xthc</sub> | 新しいherdr worktreeを開いた瞬間に、.envファイルとnode_modulesを投入する | `shell` | 0 | 🔄 2026-08-22 |
 | [**🆕 herdr**](https://github.com/AgentTeamsRun/herdr)<br><sub>AgentTeamsRun</sub> | herdrのworktreeライフサイクルイベントを、AgentTeamsレジストリに報告する | — | 0 | 🔄 2026-08-19 |
 | [**herdr-worktree-provisioner**](https://github.com/arjenblokzijl/herdr-worktree-provisioner)<br><sub>arjenblokzijl</sub> | 新しいworktree専用の可視ペインで、リポジトリごとのセットアップを実行する——組み合わせ可能でガード不要 | `bootstrap` `git-worktree` `worktree` `shell` | 0 | 2026-07-08 |
-| [**herdr-deck**](https://github.com/ctbaum/herdr-deck)<br><sub>ctbaum</sub> | herdr-agents.nvimと組み合わせて使うワークスペースランチャー：Neovim・エージェント・シェル・lazygitがあらかじめ用意された「デッキ」で、ClaudeやCodexを開始または再開できる | `claude-code` `codex` `coding-agents` `git-worktree` `neovim` | 0 | 🔄 2026-08-24 |
 | [**herdr-worktreeinclude**](https://github.com/eightHundreds/herdr-worktreeinclude)<br><sub>eightHundreds</sub> | Herdrプラグイン：.worktreeincludeで指定したgit管理外ファイルを、新しいworktreeにコピーする | `worktree` `rust` | 0 | 2026-07-28 |
 | [**herdr-title**](https://github.com/filoozom/herdr-title)<br><sub>filoozom</sub> | 選択中のworktreeとエージェントの活動状況を、ターミナルのタブタイトルに表示するHerdrプラグイン | `rust` | 0 | 2026-07-24 |
 | [**herdr-hub-worktrees**](https://github.com/klukacin/herdr-hub-worktrees)<br><sub>klukacin</sub> | herdrプラグイン：hubのworktreeを、ネストされた各サブリポジトリのクローンにミラーする | `git-worktree` `monorepo` `terminal-multiplexer` `shell` | 0 | 🔄 2026-08-12 |
 | [**gren-herdr**](https://github.com/langtind/gren-herdr)<br><sub>langtind</sub> | grenを介してgit worktreeを作成・切り替え・削除するherdrプラグイン——grenの作成後セットアップにも対応 | `git-worktree` `gren` `shell` | 0 | 🔄 2026-08-18 |
 | [**herdr-worktree-hooks-plugin**](https://github.com/m1sk9/herdr-worktree-hooks-plugin)<br><sub>m1sk9</sub> | Herdrのworktreeに、カスタマイズ可能なフックを追加するプラグイン | `rust` | 0 | 🔄 2026-08-21 |
 | [**herdr-worktree-include**](https://github.com/scoussens-nthplusio/herdr-worktree-include)<br><sub>scoussens-nthplusio</sub> | リポジトリの.worktreeincludeを使って、.envなどgit管理外のファイルを新しいHerdr worktreeにコピーする——Claude Codeが使うのと同じファイル・同じルール | `dotenv` `git-worktree` `shell` | 0 | 🔄 2026-08-12 |
-| [**🆕 herdr-worktree-nav**](https://github.com/ShoMasegi/herdr-worktree-nav)<br><sub>ShoMasegi</sub> | _(説明なし)_ | `terminal` `rust` | 0 | 🔄 2026-08-23 |
 | [**herdr-worktree**](https://github.com/tjg184/herdr-worktree)<br><sub>tjg184</sub> | worktrunkとネイティブのworktreeの両方に対応するHerdr worktreeプラグイン | `rust` | 0 | 🔄 2026-08-13 |
 | [**herdr-plugin-worktree-bootstrap**](https://github.com/zerodice0/herdr-plugin-worktree-bootstrap)<br><sub>zerodice0</sub> | 新しいHerdrのGit worktreeに、無視されているローカルファイルを安全にコピーし、セットアップコマンドを実行する | `python` | 0 | 2026-08-03 |
 
@@ -506,8 +507,8 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：サンドボックスを温め、差分を同期し、テストスイートを実行する | `agent-skills` `remote-test-runner` `go` | 1331 | 🔄 2026-08-24 |
-| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | herdr向けのコードレビュー＋ファイルビューアのサイドバー。エージェントの差分にコメントして差し戻せる。PRとそのチェック・コメントの読み取り専用表示も付属 | `code-review` `rust` `tui` | 510 | 🔄 2026-08-23 |
+| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：サンドボックスを温め、差分を同期し、テストスイートを実行する | `agent-skills` `remote-test-runner` `go` | 1331 | 🔄 2026-08-25 |
+| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | herdr向けのコードレビュー＋ファイルビューアのサイドバー。エージェントの差分にコメントして差し戻せる。PRとそのチェック・コメントの読み取り専用表示も付属 | `code-review` `rust` `tui` | 511 | 🔄 2026-08-23 |
 | [**herdr-hunk-diff**](https://github.com/jhochenbaum/herdr-hunk-diff)<br><sub>jhochenbaum</sub> | herdrからHunkでエージェントが書いた変更をレビューし、インラインコメントを担当エージェントに送り返す | `code-review` `hunk` `typescript` | 87 | 🔄 2026-08-22 |
 | [**herdr-plannotator**](https://github.com/plannotator/herdr-plannotator)<br><sub>plannotator</sub> | HerdrのBrowserペイン内でPlannotatorのレビューを開くプラグイン | `plannotator` `typescript` | 17 | 2026-07-29 |
 | [**herdr-pickr**](https://github.com/tomasvarga/herdr-pickr)<br><sub>tomasvarga</sub> | herdr向けのPRレビュールーター——GitHubのPRやGitLabのMRリンクをCtrl+クリックしてレビュアー（tuicr・hunk・diff・ブラウザ・または独自ツール）を選択、AIによる一次レビューもオプションで利用可能 | `cli` `code-review` `pull-request` `tui` `shell` | 14 | 2026-07-13 |
@@ -517,15 +518,16 @@
 | [**herdr-extensions**](https://github.com/vonzelle-vzt/herdr-extensions)<br><sub>vonzelle-vzt</sub> | herdr向けの小さなVS Code——LSPによる診断・自動補完・リネーム・定義へジャンプに対応した本格エディタに加え、ソース管理・検索・問題一覧・テスト・デバッガ・アプリのライブプレビュー・実行時エラー捕捉・画像貼り付け・エージェント差分レビューまで搭載。12パネル構成、コマンド1つで冪等かつ元に戻せる導入 | `agent-tools` `autocomplete` `claude-code` `cli` `code-review` | 4 | 2026-08-03 |
 | [**herdr-progressive-reviewer**](https://github.com/flupke/herdr-progressive-reviewer)<br><sub>flupke</sub> | Tidewaveに着想を得た、ターン制の差分レビューア | `rust` | 3 | 2026-08-07 |
 | [**herdr-review.nvim**](https://github.com/inferst/herdr-review.nvim)<br><sub>inferst</sub> | GitとherdrをNeovimに統合したコードレビュー用UI | `lua` | 3 | 2026-08-01 |
+| [**🆕 easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | Git diff review for AI-assisted coding. Terminal TUI and Tauri desktop app. | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 3 | 🔄 2026-08-24 |
 | [**herdr-scribe**](https://github.com/Javamomma/herdr-scribe)<br><sub>Javamomma</sub> | herdrプラグイン：録音せずにライブで会議を文字起こし——マイク入力をRAM上のみのトランスクリプトとライブ分析用ペインに変換。停止時には議事録・任意のポリシーゲート・レビュー可能な自動ドラフトを生成。Linux/WSL2およびmacOS対応 | `macos` `meeting-notes` `privacy` `speech-to-text` `terminal` | 2 | 2026-08-07 |
 | [**herdr-comments**](https://github.com/shadowfax92/herdr-comments)<br><sub>shadowfax92</sub> | コピーしたHerdrのターミナル出力に注釈を付け、ペインごとのコメントを収集してNeovimでレビューできる | `ai-agents` `annotations` `neovim` `rust` `terminal` | 2 | 🔄 2026-08-19 |
-| [**🆕 easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | Git diff review for AI-assisted coding. Terminal TUI and Tauri desktop app. | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 2 | 🔄 2026-08-24 |
 | [**herdr-hunk**](https://github.com/yuucu/herdr-hunk)<br><sub>yuucu</sub> | herdrプラグイン：エージェントのワークスペースでHunkの差分レビューをトグルする | `diff` `hunk` `go` | 2 | 2026-07-20 |
 | [**herdr-strays**](https://github.com/aleslanger/herdr-strays)<br><sub>aleslanger</sub> | 野良git worktreeを取りまとめるターミナルUI——プロジェクトを一覧し、変更ファイルをリアルタイム表示、差分を読み、パネルを離れずにClaudeへプロンプトを送れる | `rust` | 1 | 🔄 2026-08-12 |
 | [**roboherd**](https://github.com/andschneider/roboherd)<br><sub>andschneider</sub> | herdrのワークスペース内で、roborevのレビュー状態とアクションを扱う | `rust` `tui` | 1 | 🔄 2026-08-12 |
 | [**herdr-agent-diff**](https://github.com/baotran01/herdr-agent-diff)<br><sub>baotran01</sub> | エージェントのファイルシステムとGit差分を確認するHerdrプラグイン | `rust` | 1 | 2026-08-03 |
 | [**herdr-stagr**](https://github.com/brianh20/herdr-stagr)<br><sub>brianh20</sub> | herdr向けのソース管理サイドバー——並列差分表示でステージ・アンステージ・破棄ができる | `git` `tui` `rust` | 1 | 2026-08-06 |
 | [**herdr-peer-review**](https://github.com/Elio2000/herdr-peer-review)<br><sub>Elio2000</sub> | herdrのペインで2つ目のコーディングエージェントを開き、差分をレビューさせる——監視可能・自動承認・読み取り専用。レビュー↔修正↔判断の自律ループ用のClaude Codeスキルも同梱 | `agent-skills` `ai-agents` `claude-code` `code-review` `codex` | 1 | 2026-07-16 |
+| [**🆕 herdr-tasks**](https://github.com/husniadil/herdr-tasks)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント向けのタスクバックログ＋メモボード——リース付きのclaim、証跡に基づくレビュー、人間による決定ゲートを、1つのGoバイナリで実現 | `ai-agents` `mcp-server` `notes` `sqlite` `task-management` | 1 | 🔄 2026-08-25 |
 | [**herdr-git-graph**](https://github.com/jorge-huxley/herdr-git-graph)<br><sub>jorge-huxley</sub> | Herdr向けの読み取り専用gitグラフTUIプラグイン——色付きASCIIレーン、ブランチフィルタ、検索、必要に応じた差分表示に対応 | `rust` | 1 | 2026-07-17 |
 | [**herdr-review**](https://github.com/quantk/herdr-review)<br><sub>quantk</sub> | エージェントが書いた変更をHunkでレビューし、インラインのフィードバックをHerdr経由で送り返す | `code-review` `hunk` `javascript` | 1 | 2026-07-28 |
 | [**herdr-hunk-viewer**](https://github.com/tareqmlx/herdr-hunk-viewer)<br><sub>tareqmlx</sub> | _(説明なし)_ | `code-review` `hunk` `rust` | 1 | 🔄 2026-08-21 |
@@ -533,7 +535,6 @@
 | [**herdr-hunk-gh-diff**](https://github.com/Allianaab2m/herdr-hunk-gh-diff)<br><sub>Allianaab2m</sub> | Herdrプラグイン：現在のペインでチェックアウトしているブランチと、そのGitHubプルリクエストのターゲットブランチとの間でHunkの差分を開く | `python` | 0 | 2026-07-15 |
 | [**herdr-hunk**](https://github.com/cevr/herdr-hunk)<br><sub>cevr</sub> | Hunkのレビューコメントを、対応するHerdrエージェントペインに送る | `effect-ts` `hunk` `typescript` | 0 | 2026-07-28 |
 | [**herdr-hunk**](https://github.com/goofansu/herdr-hunk)<br><sub>goofansu</sub> | 一時的なHunkオーバーレイを開く、素早いHerdrレビューアクションを提供する。Hunkを終了するとオーバーレイが閉じ、ワークスペースが元に戻る | `python` | 0 | 🔄 2026-08-22 |
-| [**🆕 herdr-tasks**](https://github.com/husniadil/herdr-tasks)<br><sub>husniadil</sub> | Herdr上のコーディングエージェント向けのタスクバックログ＋メモボード——リース付きのclaim、証跡に基づくレビュー、人間による決定ゲートを、1つのGoバイナリで実現 | `ai-agents` `mcp-server` `notes` `sqlite` `task-management` | 0 | 🔄 2026-08-24 |
 | [**herdr-implement-review**](https://github.com/Idan-Levin/herdr-implement-review)<br><sub>Idan-Levin</sub> | Codexによる実装・セキュリティスキャン・親エージェントによるレビューを行うHerdrワークフロー | `claude-code` `codex` `security-review` `shell` | 0 | 🔄 2026-08-10 |
 | [**herdr-plan-code-review**](https://github.com/inxx/herdr-plan-code-review)<br><sub>inxx</sub> | herdrプラグイン：Opusが計画し、Sonnetがコーディングし、Claude+Codexがレビューする——1つの操作で4つのエージェントペインを開く | `claude-code` `codex` `terminal` `shell` | 0 | 2026-07-06 |
 | [**🆕 herdr-pr-tracker**](https://github.com/jakekroon/herdr-pr-tracker)<br><sub>jakekroon</sub> | Every open pull request you have authored, docked and colour-coded by what needs you. A Herdr plugin. | `bun` `code-review` `developer-tools` `github` `pull-requests` | 0 | 🔄 2026-08-24 |
@@ -635,6 +636,7 @@
 | [**herdr-google-gmail**](https://github.com/Tomatio13/herdr-google-gmail)<br><sub>Tomatio13</sub> | herdr-google-gmailは、ターミナルワークスペースツールherdr向けのGmail連携プラグイン | `shell` | 2 | 2026-07-22 |
 | [**herdr-layout**](https://github.com/3mmdrew/herdr-layout)<br><sub>3mmdrew</sub> | herdr向けのミニマルなワークスペースレイアウト定義——Luaファイルを渡すだけでワークスペースが立ち上がる。依存なし、デーモンなし、YAMLなし | `lua` `terminal` | 1 | 2026-08-04 |
 | [**herdr-medieval**](https://github.com/gabrielbarretoo/herdr-medieval)<br><sub>gabrielbarretoo</sub> | ワークスペースとエージェントを、六角形マスの中世風大陸として3D表示するHerdrプラグイン——各ワークスペースは柵に囲まれた野営地、各ペインは冒険者として、エージェントの状態に応じて訓練したり、キャンプファイアで休んだり、塔で見張りをする。three.js組み込みで、通信・依存関係なし | `3d` `hex-grid` `threejs` `javascript` | 1 | 2026-08-06 |
+| [**🆕 pier**](https://github.com/July24/pier)<br><sub>July24</sub> | Pi is the coding-agent carrier; Herdr is a terminal workspace manager. pier adds the two capabilities pi deliberately leaves out — a todo list loop and interac… | `pi-coding-agent` `typescript` | 1 | 🔄 2026-08-24 |
 | [**herdr-spinup**](https://github.com/Royal-lobster/herdr-spinup)<br><sub>Royal-lobster</sub> | herdrの新規タブごとに表示されるスタート画面——ツールを選ぶとそのタブで実行される。ツールはJSONで定義 | `javascript` | 1 | 2026-08-04 |
 | [**dsh-plugin-herdr**](https://github.com/sunny0826/dsh-plugin-herdr)<br><sub>sunny0826</sub> | DeepSeek Harness（DSH）向けのHerdrコントロールプレーンプラグイン——AIコーディングエージェント向けのターミナルワークスペースマネージャーであるHerdrを、DSHセッションから監視・操作する | `dsh-plugin` `typescript` | 1 | 🔄 2026-08-21 |
 | [**reasonix-herdr**](https://github.com/uuie/reasonix-herdr)<br><sub>uuie</sub> | Herdr内でのライフサイクルのリアルタイム報告とワークスペース制御を行う、ネイティブなReasonixプラグイン | `reasonix` `python` | 1 | 2026-07-10 |
@@ -646,7 +648,6 @@
 | [**herdr-plugin-dotfiles-dev-layout**](https://github.com/edmundmiller/herdr-plugin-dotfiles-dev-layout)<br><sub>edmundmiller</sub> | 自分のdotfilesの開発用ワークスペースレイアウトを開くためのHerdrプラグイン | `python` | 0 | 2026-06-23 |
 | [**🆕 herdr-notebook**](https://github.com/goofansu/herdr-notebook)<br><sub>goofansu</sub> | ワークスペースごとに1つの永続的なMarkdownノートブックを、アクティブなペインの上でエディタから開く | `python` | 0 | 🔄 2026-08-20 |
 | [**herdr-follow-cwd**](https://github.com/hasuwini77/herdr-follow-cwd)<br><sub>hasuwini77</sub> | herdrプラグイン：ワークスペースのラベルが、ペインが実際にいるディレクトリに追従する | `javascript` | 0 | 🔄 2026-08-13 |
-| [**🆕 pier**](https://github.com/July24/pier)<br><sub>July24</sub> | Pi is the coding-agent carrier; Herdr is a terminal workspace manager. pier adds the two capabilities pi deliberately leaves out — a todo list loop and interac… | `pi-coding-agent` `typescript` | 0 | 🔄 2026-08-24 |
 | [**herdr-pane-id-metadata**](https://github.com/limars874/herdr-pane-id-metadata)<br><sub>limars874</sub> | 正規化されたペインIDと、コンパクトなタブ/ペインのサイドバーメタデータのための、最小構成のHerdrプラグイン | `coding-agents` `terminal` `javascript` | 0 | 🔄 2026-08-17 |
 | [**herdr-lastfocus**](https://github.com/pedrobarco/herdr-lastfocus)<br><sub>pedrobarco</sub> | herdr向けの、tmux風の直前フォーカスしていたペイン/タブ/ワークスペースへの切り替え——フォーカスイベント履歴デーモンを介して実現 | `terminal-multiplexer` `tmux` `go` | 0 | 2026-07-25 |
 | [**herdr-workspace-description**](https://github.com/rstacruz/herdr-workspace-description)<br><sub>rstacruz</sub> | _(説明なし)_ | `typescript` | 0 | 2026-08-08 |
@@ -679,22 +680,22 @@
 | --- | --- | --- | --: | --- |
 | [**vim-herdr-navigation**](https://github.com/paulbkim-dev/vim-herdr-navigation)<br><sub>paulbkim-dev</sub> | Ctrl+h/j/k/lでherdrのペインとVim/Neovimのスプリットをシームレスに移動——vim-tmux-navigatorのherdr版 | `neovim` `vim` `shell` | 93 | 🔄 2026-08-23 |
 | [**herdr-splits.nvim**](https://github.com/lmilojevicc/herdr-splits.nvim)<br><sub>lmilojevicc</sub> | HerdrとNeovimのスプリットをスマートに移動・リサイズする | `lua` `neovim` `neovim-plugin` `neovim-plugins` `nvim` | 51 | 🔄 2026-08-17 |
-| [**herdr-automatic-rename**](https://github.com/qu8n/herdr-automatic-rename)<br><sub>qu8n</sub> | スマートなタブ名と、ワークスペース/タブ/エージェント向けの1〜9ジャンプラベルで、herdrをより速く移動できる | `shell` | 41 | 🔄 2026-08-24 |
+| [**herdr-automatic-rename**](https://github.com/qu8n/herdr-automatic-rename)<br><sub>qu8n</sub> | スマートなタブ名と、ワークスペース/タブ/エージェント向けの1〜9ジャンプラベルで、herdrをより速く移動できる | `shell` | 42 | 🔄 2026-08-24 |
 | [**herdr-floax**](https://github.com/Tyru5/herdr-floax)<br><sub>Tyru5</sub> | herdr向けのフローティング作業用シェル——tmux-floax風に開閉できるポップアップで、ワークスペースごとに1つ、セッションは永続化される | `rust` `terminal` `tmux-floax` | 22 | 2026-07-26 |
 | [**herdr-nvim-nav**](https://github.com/aimdevlee/herdr-nvim-nav)<br><sub>aimdevlee</sub> | herdrのペインとNeovimのスプリットをまたいだシームレスなCtrl+h/j/k/l移動——ソケットベースでキー入力ごとのプロセス起動なし | `neovim` `neovim-plugin` `lua` | 17 | 2026-08-02 |
 | [**herdr-last-workspace**](https://github.com/third774/herdr-last-workspace)<br><sub>third774</sub> | 直前にフォーカスしていたワークスペースに切り替えるプラグイン | `rust` | 16 | 2026-06-22 |
 | [**herdr-recent-navigator**](https://github.com/beyondlex/herdr-recent-navigator)<br><sub>beyondlex</sub> | Herdr向けの、最近使ったワークスペース/タブ/ペインの切り替えツール。最近フォーカスしたワークスペース・タブ・ペイン・AIエージェントの一覧をポップアップ表示し、ファジー検索とキーボード操作に対応 | `agent` `mru` `navigator` `pane` `popup` | 10 | 2026-07-28 |
-| [**herdr-logbook**](https://github.com/Resetnak/herdr-logbook)<br><sub>Resetnak</sub> | ターミナルのための作業メモリ——オフラインでMarkdown中心のノート、決定事項、Herdr向けの現在タスクnow.mdを管理 | `adr` `bubbletea` `cli` `go` `markdown` | 9 | 🔄 2026-08-24 |
+| [**herdr-logbook**](https://github.com/Resetnak/herdr-logbook)<br><sub>Resetnak</sub> | ターミナルのための作業メモリ——オフラインでMarkdown中心のノート、決定事項、Herdr向けの現在タスクnow.mdを管理 | `adr` `bubbletea` `cli` `go` `markdown` | 10 | 🔄 2026-08-24 |
 | [**🆕 herdr-trail**](https://github.com/catoncat/herdr-trail)<br><sub>catoncat</sub> | herdr全体で共有するメモ——エージェントがフォローアップを書き留め、人間は1つのグローバルリストで管理し、各エントリから元の会話に直接ジャンプできる | `javascript` | 8 | 🔄 2026-08-18 |
 | [**herdr-paddock**](https://github.com/neyham/herdr-paddock)<br><sub>neyham</sub> | 🐑 herdrのエージェント向けカードウォール型フィード——群れ全体をざっと見渡し、1体にズームインして返信できる。すべて素のSSH経由 | `bubbletea` `go` `ssh` `tui` | 7 | 🔄 2026-08-17 |
 | [**herdr-pane-mover**](https://github.com/osamahbeig/herdr-pane-mover)<br><sub>osamahbeig</sub> | herdr向けのクリック可能なオーバーレイメニュー：タブやワークスペースを横断してペインの移動・再分割・入れ替えができる | `terminal` `tui` `javascript` | 7 | 2026-07-10 |
 | [**herdr-command-center**](https://github.com/speardragon/herdr-command-center)<br><sub>speardragon</sub> | すべてのコマンドを1つのキーバインドで——登録したコマンドを一覧表示するherdrのポップアップ。矢印キーや番号で実行し、コマンド実行前に自動で閉じる | `command-palette` `nodejs` `terminal` `toml` `tui` | 7 | 🔄 2026-08-19 |
 | [**herdr-toggle-popup**](https://github.com/maro114510/herdr-toggle-popup)<br><sub>maro114510</sub> | 1つのキーバインドでオーバーレイのポップアップシェルを開閉できるHerdrターミナル向けプラグイン | `go` | 6 | 🔄 2026-08-12 |
+| [**nvim-herdr-navigation**](https://github.com/bojackduy/nvim-herdr-navigation)<br><sub>bojackduy</sub> | vim-tmux-navigator風のctrl+h/j/k/lで、Neovimのスプリットとherdrのペイン間を移動する | `keyboard-shortcuts` `lazyvim` `lua` `navigation` `neovim` | 5 | 2026-07-20 |
+| [**🆕 herdr-swipe**](https://github.com/husniadil/herdr-swipe)<br><sub>husniadil</sub> | Herdr向けのトラックパッドジェスチャー——ペイン・タブ・スペース間の移動と、対応待ちのエージェントへのジャンプができる | `cgeventtap` `gestures` `macos` `python` `terminal` | 5 | 🔄 2026-08-20 |
 | [**nvim-herdr-navigator**](https://github.com/kaar/nvim-herdr-navigator)<br><sub>kaar</sub> | Neovimのスプリットとherdrのペインをシームレスに移動——1組の`ctrl+h/j/k/l`でvimとherdrのペインの両方を移動できる | `neovim` `neovim-plugin` `lua` | 5 | 2026-07-29 |
 | [**herdr-scratch**](https://github.com/AkashJana18/herdr-scratch)<br><sub>AkashJana18</sub> | Herdr向けの永続化されたスクラッチパッド。フローティングのユーティリティペインへの足がかりとなる | `cli` `rust` `scratchpad` | 4 | 2026-08-07 |
-| [**nvim-herdr-navigation**](https://github.com/bojackduy/nvim-herdr-navigation)<br><sub>bojackduy</sub> | vim-tmux-navigator風のctrl+h/j/k/lで、Neovimのスプリットとherdrのペイン間を移動する | `keyboard-shortcuts` `lazyvim` `lua` `navigation` `neovim` | 4 | 2026-07-20 |
 | [**herdr-omnisearch**](https://github.com/dmnkf/herdr-omnisearch)<br><sub>dmnkf</sub> | Herdrのワークスペース・ペイン・アーカイブ済みエージェントセッションを高速にローカル検索・移動する | `python` | 4 | 🔄 2026-08-22 |
-| [**🆕 herdr-swipe**](https://github.com/husniadil/herdr-swipe)<br><sub>husniadil</sub> | Herdr向けのトラックパッドジェスチャー——ペイン・タブ・スペース間の移動と、対応待ちのエージェントへのジャンプができる | `cgeventtap` `gestures` `macos` `python` `terminal` | 4 | 🔄 2026-08-20 |
 | [**herdr-annotations**](https://github.com/jagzmz/herdr-annotations)<br><sub>jagzmz</sub> | Herdr上で選択したターミナルのテキストに、高速なローカルファーストのポップアップと再利用可能なコレクションで注釈を付ける | `annotations` `cli` `coding-agents` `developer-tools` `local-first` | 4 | 2026-07-16 |
 | [**herdr-harpoon**](https://github.com/KonstantinKai/herdr-harpoon)<br><sub>KonstantinKai</sub> | herdr版Harpoon：ペインにマークを付けてインデックスでジャンプする。Bashのみでビルド不要 | `bash` `harpoon` `tmux-harpoon` `shell` | 4 | 2026-07-29 |
 | [**herdr-last**](https://github.com/lmilojevicc/herdr-last)<br><sub>lmilojevicc</sub> | Herdrで直前にアクティブだったワークスペースまたはタブに切り替え戻す | `go` `linux` `macos` `productivity` `tabs` | 4 | 2026-08-07 |
@@ -711,6 +712,7 @@
 | [**🆕 herdr-prevtab**](https://github.com/joo-was-already-taken/herdr-prevtab)<br><sub>joo-was-already-taken</sub> | 直前にフォーカスしていたタブに切り替えるHerdrプラグイン | `rust` | 2 | 🔄 2026-08-23 |
 | [**herdr-lazytask**](https://github.com/mdetweil/herdr-lazytask)<br><sub>mdetweil</sub> | herdrのスプリットペインでLazytaskを使う（開く/フォーカス/トグル）ほか、Taskwarriorのクイックアクションも提供 | `lazytask` `taskwarrior` `terminal` `rust` | 2 | 2026-08-02 |
 | [**herdr-float**](https://github.com/meerzulee/herdr-float)<br><sub>meerzulee</sub> | Zellij風のALT+Fで開くフローティングペイン | `shell` | 2 | 2026-07-20 |
+| [**herdr-quotr**](https://github.com/napalmpapalam/herdr-quotr)<br><sub>napalmpapalam</sub> | herdrのポップアップから、エージェント自身の回答を引用してそのエージェントに投げ返す | `claude-code` `rust` `tui` | 2 | 🔄 2026-08-11 |
 | [**herdr-confirm-close-pane**](https://github.com/poweroutlet2/herdr-confirm-close-pane)<br><sub>poweroutlet2</sub> | ペインを閉じる前に確認を求めるherdrプラグイン——tmuxのprefix+xのconfirm-beforeのような動作 | `shell` | 2 | 2026-07-06 |
 | [**herdr-ask-inbox**](https://github.com/speardragon/herdr-ask-inbox)<br><sub>speardragon</sub> | すべてのherdrワークスペースからブロックされたClaudeのAskUserQuestionプロンプトを1つのポップアップに集約し、その場で回答できる。間違ったエージェントに回答を送ってしまう心配もない | `claude-code` `javascript` | 2 | 2026-07-25 |
 | [**herdr-unread-jump**](https://github.com/to4iki/herdr-unread-jump)<br><sub>to4iki</sub> | 注意が必要な次のHerdrエージェントペイン（ブロック中、次に完了済み）にジャンプする | `agents` `bash` `shell` | 2 | 2026-07-22 |
@@ -727,7 +729,7 @@
 | [**herdr-plugin-last**](https://github.com/m4salah/herdr-plugin-last)<br><sub>m4salah</sub> | tmux風の直前タブ・直前ワークスペースへの移動をHerdrに追加する | `rust` | 1 | 2026-07-30 |
 | [**🆕 herdr-scratch**](https://github.com/macintacos/herdr-scratch)<br><sub>macintacos</sub> | herdr向けのスクラッチシェル——1つのコード（キーの組み合わせ）で開閉するポップアップ。裏側はtmuxなので、離れたときのまま正確に復元される | `go` | 1 | 🔄 2026-08-24 |
 | [**herdr-next-agent**](https://github.com/martin-ro/herdr-next-agent)<br><sub>martin-ro</sub> | Herdrプラグイン：設定可能な優先度に基づいて、注意が必要な次のエージェントにジャンプする | `python` | 1 | 2026-07-15 |
-| [**herdr-quotr**](https://github.com/napalmpapalam/herdr-quotr)<br><sub>napalmpapalam</sub> | herdrのポップアップから、エージェント自身の回答を引用してそのエージェントに投げ返す | `claude-code` `rust` `tui` | 1 | 🔄 2026-08-11 |
+| [**herdr-deck-navigation**](https://github.com/raghu-nandan-bs/herdr-deck-navigation)<br><sub>raghu-nandan-bs</sub> | herdr標準のフラットなワークスペース/タブ/ペインナビゲーターを、スクロールなしで任意のペインに素早くたどり着ける「デッキ」表示に置き換える | `rust` `terminal` `tui` | 1 | 🔄 2026-08-24 |
 | [**herdr-smartnav**](https://github.com/retroaalto/herdr-smartnav)<br><sub>retroaalto</sub> | 方向を意識したペインナビゲーションを提供するHerdrプラグイン | `go` | 1 | 2026-08-01 |
 | [**🆕 herdr-pane-mover**](https://github.com/ronly2460/herdr-pane-mover)<br><sub>ronly2460</sub> | 矢印キーで操作するインタラクティブなピッカーで、Herdrのペインをワークスペース間で移動する | `terminal` `workspace` `shell` | 1 | 🔄 2026-08-23 |
 | [**herdr-edge-nav**](https://github.com/sebcbi1/herdr-edge-nav)<br><sub>sebcbi1</sub> | ペインの端でタブやワークスペースをまたいで移動・リサイズできる、方向指定型のHerdrプラグイン。Neovimのスプリットもシームレスに認識する | `lua` | 1 | 🔄 2026-08-12 |
@@ -754,13 +756,13 @@
 | [**🆕 herdr-last-tab**](https://github.com/k-narusawa/herdr-last-tab)<br><sub>k-narusawa</sub> | _(説明なし)_ | `shell` | 0 | 🔄 2026-08-22 |
 | [**herdr-hasr**](https://github.com/KazBrekker1/herdr-hasr)<br><sub>KazBrekker1</sub> | Hasr（حصر — 「列挙・完全な集計」の意）——herdr向けのgoto風ポップアップ切り替えツール：エージェント・タブ・スペースの切り替え・リネーム・削除・作成ができ、完了状況もリアルタイムに追跡する | `tui` `go` | 0 | 2026-07-23 |
 | [**herdr-cmd-marks**](https://github.com/leonho/herdr-cmd-marks)<br><sub>leonho</sub> | herdrプラグイン：プロジェクトごとのコマンドブックマークをポップアップ表示。エージェントが作業中でも、別のシェルでブックマーク済みのコマンドを実行できる（グローバル・プロジェクト・スマートセクションに対応） | `shell` | 0 | 2026-07-18 |
+| [**🆕 herdr-reshape**](https://github.com/macintacos/herdr-reshape)<br><sub>macintacos</sub> | A herdr plugin that moves the focused pane around its tab and squares the tab up into an even grid | `go` | 0 | 🔄 2026-08-25 |
 | [**herdr-pane-balancer**](https://github.com/malone-c/herdr-pane-balancer)<br><sub>malone-c</sub> | ペインの開閉に合わせて、herdrのペインを常に均等なサイズに保つ。スプリットするとフォーカス中のペインが半分になるが、このプラグインがタブ全体を再調整する | `python` | 0 | 2026-08-07 |
 | [**herdr-focus-or-tab**](https://github.com/mholtzscher/herdr-focus-or-tab)<br><sub>mholtzscher</sub> | タブの境界をまたいでHerdrのペインを順に切り替える | `terminal-multiplexer` `rust` | 0 | 2026-07-31 |
 | [**herdr-touchbar**](https://github.com/omerturhan/herdr-touchbar)<br><sub>omerturhan</sub> | MacBookのTouch Barに作業中・ブロック中のherdrエージェントを表示——タップすると該当タブに直接移動する | `ai-agents` `macos` `touchbar` `swift` | 0 | 2026-07-30 |
 | [**herdr-plugins**](https://github.com/oullin/herdr-plugins)<br><sub>oullin</sub> | Herdr向けの、それぞれ独立してインストールできる、目的に特化したプラグイン集 | `typescript` | 0 | 2026-08-09 |
 | [**herdr-focused-codex-fork**](https://github.com/potatoQi/herdr-focused-codex-fork)<br><sub>potatoQi</sub> | フォーカス中のHerdrペインのCodexセッションを、右側のペインにフォークする | `shell` | 0 | 2026-08-09 |
 | [**herdr-whichkey**](https://github.com/Qu4tro/herdr-whichkey)<br><sub>Qu4tro</sub> | herdr向けの、blezz/which-key風のアクションメニュー——トリガーキーを押すだけで、あとは1アクション1キー操作。入力もEnterも不要 | `rust` | 0 | 2026-07-22 |
-| [**herdr-deck-navigation**](https://github.com/raghu-nandan-bs/herdr-deck-navigation)<br><sub>raghu-nandan-bs</sub> | herdr標準のフラットなワークスペース/タブ/ペインナビゲーターを、スクロールなしで任意のペインに素早くたどり着ける「デッキ」表示に置き換える | `rust` `terminal` `tui` | 0 | 🔄 2026-08-24 |
 | [**🆕 herdr-account-switch**](https://github.com/rcosteira79/herdr-account-switch)<br><sub>rcosteira79</sub> | 再認証なしでClaude Code / Codexのログインをホットスワップする。オーバーレイピッカー、次へ切り替えるキーバインド、ペインごとのアカウントバッジ（$acct）を提供 | `python` | 0 | 🔄 2026-08-24 |
 | [**🆕 herdr-pane-equalizer**](https://github.com/shanefully-done/herdr-pane-equalizer)<br><sub>shanefully-done</sub> | herdrのペインを均等なサイズにリサイズする。自動でも手動でも実行可能 | `javascript` | 0 | 🔄 2026-08-20 |
 | [**herdr-tabpick**](https://github.com/sushidesu/herdr-tabpick)<br><sub>sushidesu</sub> | 最近使った順にherdrのタブを選べる。ライブなペインプレビュー付き | `shell` | 0 | 🔄 2026-08-15 |
@@ -798,12 +800,12 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**🆕 terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | ターミナルの中で動くVS Code | `cli` `terminal` `vscode` `typescript` | 1542 | 🔄 2026-08-22 |
-| [**herdr-file-viewer**](https://github.com/smarzban/herdr-file-viewer)<br><sub>smarzban</sub> | herdr向けのGit対応・読み取り専用ファイルビューア。マウス操作にも対応したキーボード駆動のTUIで、ツリー+コンテンツペインに差分表示・Markdownレンダリング・シンタックスハイライトを提供 | `file-viewer` `git` `ratatui` `rust` `terminal` | 467 | 🔄 2026-08-15 |
-| [**herdr-mirror**](https://github.com/nikok6/herdr-mirror)<br><sub>nikok6</sub> | ローカルとリモートのセッションを1つのウィンドウに統合。リモートのherdrサーバーをローカルのサイドバーにミラーしてSSH経由で操作 | `rust` | 179 | 🔄 2026-08-23 |
-| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | herdr向けのVS Code風サイドバー：ファイルエクスプローラーとGitのソース管理を1つのペインに統合——シンタックスハイライト付きプレビュー、VS Code風の差分表示、GitLens風の詳細パネル、AIによるコミットメッセージ生成 | `git` `ratatui` `rust` `sidebar` `terminal` | 177 | 🔄 2026-08-22 |
-| [**dotfiles**](https://github.com/edmundmiller/dotfiles)<br><sub>edmundmiller</sub> | 自分のdotfilesを常に最新の状態に保つためのもの | `dotfiles` `emacs` `nix-dotfiles` `nixos` `nixos-configuration` | 80 | 🔄 2026-08-24 |
-| [**herdr-nvim**](https://github.com/ChmaraX/herdr-nvim)<br><sub>ChmaraX</sub> | Neovimをherdrのワークスペースに完全統合する | `lua` `neovim` `nvim` `nvim-plugin` `rust` | 66 | 🔄 2026-08-23 |
+| [**🆕 terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | ターミナルの中で動くVS Code | `cli` `terminal` `vscode` `typescript` | 1556 | 🔄 2026-08-24 |
+| [**herdr-file-viewer**](https://github.com/smarzban/herdr-file-viewer)<br><sub>smarzban</sub> | herdr向けのGit対応・読み取り専用ファイルビューア。マウス操作にも対応したキーボード駆動のTUIで、ツリー+コンテンツペインに差分表示・Markdownレンダリング・シンタックスハイライトを提供 | `file-viewer` `git` `ratatui` `rust` `terminal` | 468 | 🔄 2026-08-15 |
+| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | herdr向けのVS Code風サイドバー：ファイルエクスプローラーとGitのソース管理を1つのペインに統合——シンタックスハイライト付きプレビュー、VS Code風の差分表示、GitLens風の詳細パネル、AIによるコミットメッセージ生成 | `git` `ratatui` `rust` `sidebar` `terminal` | 183 | 🔄 2026-08-22 |
+| [**herdr-mirror**](https://github.com/nikok6/herdr-mirror)<br><sub>nikok6</sub> | ローカルとリモートのセッションを1つのウィンドウに統合。リモートのherdrサーバーをローカルのサイドバーにミラーしてSSH経由で操作 | `rust` | 182 | 🔄 2026-08-23 |
+| [**dotfiles**](https://github.com/edmundmiller/dotfiles)<br><sub>edmundmiller</sub> | 自分のdotfilesを常に最新の状態に保つためのもの | `dotfiles` `emacs` `nix-dotfiles` `nixos` `nixos-configuration` | 80 | 🔄 2026-08-25 |
+| [**herdr-nvim**](https://github.com/ChmaraX/herdr-nvim)<br><sub>ChmaraX</sub> | Neovimをherdrのワークスペースに完全統合する | `lua` `neovim` `nvim` `nvim-plugin` `rust` | 69 | 🔄 2026-08-23 |
 | [**herdr-lazygit**](https://github.com/Crokily/herdr-lazygit)<br><sub>Crokily</sub> | herdrのサイドバーペインでlazygitを実行し、AIによるコミットメッセージ生成にも対応——開くのも、展開するのも、コミットするのも、それぞれ1キーで | `git` `lazygit` `shell` | 24 | 2026-07-17 |
 | [**herdr-yazi**](https://github.com/speardragon/herdr-yazi)<br><sub>speardragon</sub> | herdrのペイン内でYaziを開く | `shell` | 18 | 🔄 2026-08-19 |
 | [**herdr-git-status**](https://github.com/ezcorp-org/herdr-git-status)<br><sub>ezcorp-org</sub> | herdrプラグイン：スペースごとのgitワーキングツリーの状態（ステージ済み/変更/未追跡/競合）をブランチ名の隣にサイドバー表示する | `rust` | 9 | 🔄 2026-08-10 |
@@ -834,7 +836,7 @@
 | [**herdr-numbered-workspaces**](https://github.com/abrose/herdr-numbered-workspaces)<br><sub>abrose</sub> | herdrのサイドバーの各スペースの先頭に番号を付け、インデックス指定のswitch_workspaceショートカットと対応させる | `shell` | 0 | 2026-07-21 |
 | [**herdr-cursor-open**](https://github.com/alex-devdone/herdr-cursor-open)<br><sub>alex-devdone</sub> | フォーカス中のherdrペインをCursorまたはVS Codeで開く——Remote-SSH経由のリモートherdrに接続したペインにも対応 | `cursor` `vscode` `shell` | 0 | 🔄 2026-08-23 |
 | [**herdr-preview**](https://github.com/AlexanderMakarov/herdr-preview)<br><sub>AlexanderMakarov</sub> | herdrプラグイン：表示中のペイン内のファイルパスにアルファベットのヒントを付け、file-viewerまたはlessで開く | `rust` | 0 | 🔄 2026-08-21 |
-| [**🆕 herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | herdr向けのプロジェクトコンテキストドック——git状態付きのファイルツリーとLLMの会話履歴を、常にエージェントのそばに表示する | `git` `jj` `ratatui` `rust` `sidebar` | 0 | 🔄 2026-08-22 |
+| [**🆕 herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | herdr向けのプロジェクトコンテキストドック——git状態付きのファイルツリーとLLMの会話履歴を、常にエージェントのそばに表示する | `git` `jj` `ratatui` `rust` `sidebar` | 0 | 🔄 2026-08-24 |
 | [**herdr-ctx**](https://github.com/aorumbayev/herdr-ctx)<br><sub>aorumbayev</sub> | herdrのサイドバーペイン向けの、Claudeコンテキストウィンドウ表示 | `typescript` | 0 | 2026-07-21 |
 | [**Renderd**](https://github.com/Brutheron/Renderd)<br><sub>Brutheron</sub> | Herdr内で、完了したClaude CodeやCodexの応答をライブに読めるMarkdownリーダー | `go` | 0 | 🔄 2026-08-15 |
 | [**🆕 herdr-sidebar-numbers**](https://github.com/cedrus-8864/herdr-sidebar-numbers)<br><sub>cedrus-8864</sub> | サイドバーにワークスペースとエージェントの位置番号を表示し、1〜9のショートカットキーと対応させるherdrプラグイン | `ai-agents` `bun` `sidebar` `terminal` `javascript` | 0 | 2026-08-04 |
@@ -861,9 +863,9 @@
 - [bayoudhi/herdr-prayer-times](https://github.com/bayoudhi/herdr-prayer-times) — 次の礼拝時刻とカウントダウンをHerdrのサイドバーに表示——タイムテーブルのポップアップと通知付き
 - [brianh20/herdr-stagr](https://github.com/brianh20/herdr-stagr) — herdr向けのソース管理サイドバー——並列差分表示でステージ・アンステージ・破棄ができる
 - [ctbaum/herdr-deck](https://github.com/ctbaum/herdr-deck) — herdr-agents.nvimと組み合わせて使うワークスペースランチャー：Neovim・エージェント・シェル・lazygitがあらかじめ用意された「デッキ」で、ClaudeやCodexを開始または再開できる
+- [ZingerLittleBee/herdr-agent-pins](https://github.com/ZingerLittleBee/herdr-agent-pins) — Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする
 - [Gareth-Rouse/herdr-plugin-session-pruner](https://github.com/Gareth-Rouse/herdr-plugin-session-pruner) — herdrプラグイン：ワークスペースの最終使用日時を記録してSpacesのサイドバーに経過時間を表示し、使われていないワークスペースをセッション復元の対象から外す
 - [limars874/herdr-pane-id-metadata](https://github.com/limars874/herdr-pane-id-metadata) — 正規化されたペインIDと、コンパクトなタブ/ペインのサイドバーメタデータのための、最小構成のHerdrプラグイン
-- [ZingerLittleBee/herdr-agent-pins](https://github.com/ZingerLittleBee/herdr-agent-pins) — Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする
 
 </details>
 
@@ -882,9 +884,9 @@
 | [**herdr-agent-usage**](https://github.com/senna-lang/herdr-agent-usage)<br><sub>senna-lang</sub> | Herdrで動作するエージェントのコンテキスト使用量メーターと、プロバイダーのレート制限を表示する | `ai-agents` `claude-code` `codex` `golang` `rate-limiting` | 21 | 🔄 2026-08-22 |
 | [**herdr-token-dashboard**](https://github.com/Davidcreador/herdr-token-dashboard)<br><sub>Davidcreador</sub> | Herdrのエージェントペイン向けの、トークン消費量をリアルタイムに表示するダッシュボードと通知 | `ai-agents` `bubbletea` `opencode` `pi-agent` `token-dashboard` | 17 | 🔄 2026-08-13 |
 | [**herdr-claude-usage**](https://github.com/alejodelosrios/herdr-claude-usage)<br><sub>alejodelosrios</sub> | 使用量を確認するためだけにClaudeのセッションを開く必要はもうない。Claudeプランの使用状況（セッション％｜週％）を常にHerdrのサイドバーに表示し、そのアカウントの全ワークスペースで共有される。Claude Code自身の認証情報を使い/statusと同じ正確な数値を表示——推定値ではなく、追加ログインも… | `claude` `claude-code` `python` | 3 | 2026-07-21 |
-| [**🆕 herdr-opentab**](https://github.com/hamidi-dev/herdr-opentab)<br><sub>hamidi-dev</sub> | OpenTabによる、エージェントごとのAI利用料をHerdrのサイドバーにリアルタイム表示する | `ai-agents` `opentab` `terminal` `python` | 3 | 🔄 2026-08-18 |
+| [**herdr-opentab**](https://github.com/hamidi-dev/herdr-opentab)<br><sub>hamidi-dev</sub> | OpenTabによる、エージェントごとのAI利用料をHerdrのサイドバーにリアルタイム表示する | `ai-agents` `opentab` `terminal` `python` | 3 | 🔄 2026-08-18 |
 | [**herdr-gekiatsu-plugin**](https://github.com/yuuta1219/herdr-gekiatsu-plugin)<br><sub>yuuta1219</sub> | herdrプラグイン：Claude Codeの使用量カウンターを、パチスロ風にしたもの。大当たり確率1/99、毎日10:00 JSTにリセット | `claude` `claude-code` `python` `tui` | 3 | 🔄 2026-08-17 |
-| [**🆕 herdr-api-credit-bar**](https://github.com/CristianPeralta/herdr-api-credit-bar)<br><sub>CristianPeralta</sub> | herdrプラグイン：従量課金制APIプロバイダーの残クレジットを表示する。まずはAlibaba Cloud Model Studioに対応 | `shell` | 2 | 🔄 2026-08-18 |
+| [**herdr-api-credit-bar**](https://github.com/CristianPeralta/herdr-api-credit-bar)<br><sub>CristianPeralta</sub> | herdrプラグイン：従量課金制APIプロバイダーの残クレジットを表示する。まずはAlibaba Cloud Model Studioに対応 | `shell` | 2 | 🔄 2026-08-18 |
 | [**🆕 herdr-quota**](https://github.com/kvkenyon/herdr-quota)<br><sub>kvkenyon</sub> | Herdr上で、Claude・Codex・Cursor・Kimiのサブスクリプション枠を一目で確認できる | `ai-tools` `claude-code` `cursor` `developer-tools` `kimi` | 2 | 🔄 2026-08-21 |
 | [**herdr-whereami**](https://github.com/maedana/herdr-whereami)<br><sub>maedana</sub> | 今どこにいるかを示すよう、タブを自動でリネームするHerdrプラグイン——gitリポジトリ内なら「リポジトリ名/ブランチ名」のように表示 | `rust` | 2 | 🔄 2026-08-14 |
 | [**scopefuel**](https://github.com/mgh3326/scopefuel)<br><sub>mgh3326</sub> | AIコーディングエージェントのプラン向けの、範囲を意識した残量ゲージ——実際に何（アカウント/モデル/グループ）がブロックされているか、いつ回復するかが分かる | `ai-agents` `antigravity` `claude-code` `cli` `codex` | 1 | 🔄 2026-08-15 |
@@ -913,10 +915,10 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**🆕 clauth**](https://github.com/uwuclxdy/clauth)<br><sub>uwuclxdy</sub> | Claude Codeのマルチアカウント管理・使用量モニター（CLI・TUI・MCPタスク委任に対応） | `account-manager` `account-switcher` `anthropic` `claude` `claude-code` | 69 | 🔄 2026-08-24 |
+| [**🆕 clauth**](https://github.com/uwuclxdy/clauth)<br><sub>uwuclxdy</sub> | Claude Codeのマルチアカウント管理・使用量モニター（CLI・TUI・MCPタスク委任に対応） | `account-manager` `account-switcher` `anthropic` `claude` `claude-code` | 70 | 🔄 2026-08-24 |
 | [**herdr-pc-ram-and-cpu-usage-overlay**](https://github.com/ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay)<br><sub>ezcorp-org</sub> | herdrプラグイン：スペース（ワークスペース）ごとのCPU/RAM使用率を、マシン全体に対する割合としてリアルタイム表示 | `rust` | 13 | 🔄 2026-08-12 |
 | [**herdr-beads**](https://github.com/miiraheart/herdr-beads)<br><sub>miiraheart</sub> | herdr向けのbeads (bd) タスクボード：bdのissueをリスト・テーブル・カンバンで表示し、サイドバーまたはフローティングで表示できる | `bd` `beads` `kanban` `rust` `tui` | 12 | 2026-07-24 |
-| [**herdr-agent-quota**](https://github.com/levi-qiao/herdr-agent-quota)<br><sub>levi-qiao</sub> | Herdr向けの、Claude・Codex・Grok・Agyのクォータをリアルタイム監視——使用量・リセット時刻・タスクのコンテキスト、そして残りクォータと残り時間から動的に算出される時間認識型のクォータ健全性を表示する | `agent-usage` `agy` `ai-agents` `antigravity` `claude-code` | 10 | 🔄 2026-08-23 |
+| [**herdr-agent-quota**](https://github.com/levi-qiao/herdr-agent-quota)<br><sub>levi-qiao</sub> | Herdr向けの、Claude・Codex・Grok・Agyのクォータをリアルタイム監視——使用量・リセット時刻・タスクのコンテキスト、そして残りクォータと残り時間から動的に算出される時間認識型のクォータ健全性を表示する | `agent-usage` `agy` `ai-agents` `antigravity` `claude-code` | 10 | 🔄 2026-08-25 |
 | [**herdr-telemetry**](https://github.com/DIodide/herdr-telemetry)<br><sub>DIodide</sub> | ワークスペースとエージェントのテレメトリを自分で管理するエンドポイントにストリーミングするHerdrプラグイン——Go製の単一バイナリ、プライバシー重視のデフォルト設定 | `golang` `telemetry` `go` | 9 | 2026-07-10 |
 | [**herdres**](https://github.com/luminexord/herdres)<br><sub>luminexord</sub> | Tendwireを利用した、Herdrのコーディングエージェントを監視・メッセージ送信できるTelegramインターフェース | `coding-agents` `telegram` `python` | 9 | 2026-08-09 |
 | [**shepherd**](https://github.com/ryonakae/shepherd)<br><sub>ryonakae</sub> | Herdr管理下のコーディングエージェント向けの、ワーカー監視デーモンとランタイムブリッジ | `pi-coding-agent` `pi-extension` `typescript` | 8 | 2026-07-22 |
@@ -934,6 +936,7 @@
 | [**🆕 herdr-portal**](https://github.com/loofare/herdr-portal)<br><sub>loofare</sub> | herdr向けのミッションコントロールダッシュボード——全ワークスペース/タブ/ペインのエージェントを、ライブTUIカンバン（キーボード＋マウス対応）とWeb大画面表示に集約する。構造化された進捗表示、Ctrl+B Aで起動、クリックでジャンプ、ブラウザからエージェントに返信可能 | `agent-dashboard` `agent-monitor` `ai-agents` `claude-code` `codex` | 2 | 🔄 2026-08-20 |
 | [**herdr-cache-ttl**](https://github.com/nytafar/herdr-cache-ttl)<br><sub>nytafar</sub> | herdrプラグイン：エージェントのペインごとに、プロンプトキャッシュのTTLをリアルタイムでカウントダウン表示する | `rust` | 2 | 2026-08-05 |
 | [**herdr-slurm**](https://github.com/quan-meng/herdr-slurm)<br><sub>quan-meng</sub> | Slurmのアロケーション向けに、Herdrのワークスペースと監視付きエージェントタブを作成する | `hpc` `slurm` `terminal-multiplexer` `python` | 2 | 🔄 2026-08-13 |
+| [**🆕 herdr-devserver-status**](https://github.com/Razz21/herdr-devserver-status)<br><sub>Razz21</sub> | プラグイン可能な仕様に基づいてペイン内のdevサーバーを検出し、ライフサイクルの状態を報告するHerdrプラグイン | `astro` `cli` `deamon` `dev-server` `extensible` | 2 | 🔄 2026-08-22 |
 | [**🆕 herdr-tilt**](https://github.com/the-inconvenience-store/herdr-tilt)<br><sub>the-inconvenience-store</sub> | Herdr向けの、キーボード操作対応Tiltダッシュボード | `k8s` `kubernetes` `tilt` `rust` | 2 | 🔄 2026-08-24 |
 | [**herdr-agent-state**](https://github.com/Tyru5/herdr-agent-state)<br><sub>Tyru5</sub> | herdr向けのリアルタイムエージェント状態ペイン——ワークスペース内の各エージェントが何をしているかを、より人間に読みやすい形式で表示する | `claude-code` `rust` `terminal` | 2 | 2026-08-05 |
 | [**🆕 herdr-memex-analytics**](https://github.com/vishnutskumar/herdr-memex-analytics)<br><sub>vishnutskumar</sub> | herdrプラグイン：memexの履歴を活用した、セッション効率の分析とリアルタイムなエージェントガイダンス | `rust` | 2 | 🔄 2026-08-22 |
@@ -946,15 +949,15 @@
 | [**herdr-compose**](https://github.com/mattyan1053/herdr-compose)<br><sub>mattyan1053</sub> | docker compose向けのHerdrプラグイン | `terminal` `tui` `shell` | 1 | 2026-07-24 |
 | [**herdr-pulse**](https://github.com/moneycaringcoder/herdr-pulse)<br><sub>moneycaringcoder</sub> | herdr向けの、ワークスペースごとのエージェント活動履歴——サイドバーのスパークラインとして表示する | `monitoring` `rust` `sparkline` `terminal` | 1 | 🔄 2026-08-23 |
 | [**herdr-ports**](https://github.com/Numbered-com/herdr-ports)<br><sub>Numbered-com</sub> | herdrで稼働中の開発サーバーを可視化：TCPリスナーが1つ以上動いているすべてのスペースに$portsバッジを表示する | `pids` `ports` `shell` | 1 | 2026-07-23 |
-| [**🆕 herdr-devserver-status**](https://github.com/Razz21/herdr-devserver-status)<br><sub>Razz21</sub> | プラグイン可能な仕様に基づいてペイン内のdevサーバーを検出し、ライフサイクルの状態を報告するHerdrプラグイン | `astro` `cli` `deamon` `dev-server` `extensible` | 1 | 🔄 2026-08-22 |
 | [**🆕 herdr-readpending**](https://github.com/rcosteira79/herdr-readpending)<br><sub>rcosteira79</sub> | まだ読み終えていないエージェントにマークを付ける。番号付きバッジ（$read）＋並べ替え可能なリストペインを提供。そのエージェントにフォーカスすると自動でクリアされる | `python` | 1 | 🔄 2026-08-24 |
 | [**herdr-agent-metrics**](https://github.com/szrenwei/herdr-agent-metrics)<br><sub>szrenwei</sub> | Claude Code・Codex・TraeX向けの、軽量なHerdrコンテキスト・セッション使用量メトリクス | `claude-code` `openai-codex` `traex` `python` | 1 | 2026-08-04 |
 | [**herdr-space-tab-metadata**](https://github.com/szrenwei/herdr-space-tab-metadata)<br><sub>szrenwei</sub> | 各Herdr Spaceのアクティブなタブをサイドバーに表示する | `terminal-ui` `python` | 1 | 2026-08-04 |
 | [**herdr-docker**](https://github.com/abcxff/herdr-docker)<br><sub>abcxff</sub> | herdrでエージェントを追跡するのと同じように、dockerのビルドも追跡する | `docker` `javascript` | 0 | 🔄 2026-08-12 |
 | [**herdr-ios-build-status-plugin**](https://github.com/atomsbaza/herdr-ios-build-status-plugin)<br><sub>atomsbaza</sub> | オンデマンドで確認できる、HerdrのiOSビルド＋テスト状況ペイン。失敗時のスクリーンショット付き | `shell` | 0 | 2026-08-06 |
 | [**🆕 herdr-nodejs-center**](https://github.com/AZenking/herdr-nodejs-center)<br><sub>AZenking</sub> | ローカルのNode.js・Bun・Denoサービスを監視し、フォーカスできるHerdrのポップアップ | `developer-tools` `nodejs` `javascript` | 0 | 🔄 2026-08-20 |
-| [**herdr-jcode-integration**](https://github.com/capt-marbles/herdr-jcode-integration)<br><sub>capt-marbles</sub> | Jcodeのライフサイクル状態とセッションレポーティングのためのHerdrプラグイン | `jcode` `shell` | 0 | 🔄 2026-08-09 |
+| [**herdr-jcode-integration**](https://github.com/capt-marbles/herdr-jcode-integration)<br><sub>capt-marbles</sub> | Jcodeのライフサイクル状態とセッションレポーティングのためのHerdrプラグイン | `jcode` `shell` | 0 | 2026-08-09 |
 | [**herdr-dev-servers**](https://github.com/carellano/herdr-dev-servers)<br><sub>carellano</sub> | Herdrのペインで動作している開発サーバーを検出し、安全に管理する | `developer-tools` `go` `terminal` | 0 | 🔄 2026-08-12 |
+| [**🆕 herdr-process-guard**](https://github.com/Efeguclu1/herdr-process-guard)<br><sub>Efeguclu1</sub> | Explain and safely stop dev servers left running by coding agents. | `claude-code` `codex` `coding-agents` `cursor` `macos` | 0 | 🔄 2026-08-24 |
 | [**herdr-vitals**](https://github.com/ericcparsons/herdr-vitals)<br><sub>ericcparsons</sub> | macOS向けherdrプラグイン——サイドバーにエージェントごとのCPU/RAM使用率とスペースごとの稼働中devサーバーポートを表示し、ポップアップから終了操作もできる | `bun` `developer-tools` `terminal` `typescript` | 0 | 2026-07-29 |
 | [**🆕 herdr-kanban**](https://github.com/hassox/herdr-kanban)<br><sub>hassox</sub> | ワークスペースのペインをカンバンボードとして表示する | `go` | 0 | 🔄 2026-08-21 |
 | [**🆕 herdr-metrics**](https://github.com/jordanhawkes/herdr-metrics)<br><sub>jordanhawkes</sub> | Claude Code・Codex・TraeX向けの、コンテキスト・セッショントークン・アカウント上限のメトリクスをHerdrのサイドバーに表示する。szrenwei/herdr-agent-metricsのメンテナンスを引き継いだもの | `claude-code` `openai-codex` `traex` `tui` `python` | 0 | 🔄 2026-08-22 |
@@ -962,7 +965,7 @@
 | [**🆕 herdr-idle-shell-badge**](https://github.com/rcosteira79/herdr-idle-shell-badge)<br><sub>rcosteira79</sub> | バックグラウンドでシェルが動き続けている、アイドル状態のエージェントにバッジを表示する | `python` | 0 | 🔄 2026-08-24 |
 | [**colloquy**](https://github.com/SoMaCoSF/colloquy)<br><sub>SoMaCoSF</sub> | エージェント群向けの、自己アドレス指定型・一時キャッシュされた因果関係DAG監査ログとテレメトリ | `colloquy` `gyst` `javascript` | 0 | 2026-07-29 |
 | [**conflux-herdr**](https://github.com/tumf/conflux-herdr)<br><sub>tumf</sub> | Conflux TUIを実行し、そのライフサイクル状態を報告するHerdrプラグインペイン | `shell` | 0 | 2026-07-26 |
-| [**🆕 taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | Task board linked to herdr agent sessions, PRs, and Jira tickets | `claude-code` `kanban` `task-management` `tui` `go` | 0 | 🔄 2026-08-24 |
+| [**🆕 taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | Task board linked to herdr agent sessions, PRs, and Jira tickets | `claude-code` `kanban` `task-management` `tui` `go` | 0 | 🔄 2026-08-25 |
 | [**herdr-hud**](https://github.com/zetlen/herdr-hud)<br><sub>zetlen</sub> | herdrプラグイン：キーバインドで開くポップアップに、ホスト・ネットワーク・エージェント・セッションの情報を表示——設定変更やカスタムスクリプトによる拡張が可能 | `bash` `terminal` `shell` | 0 | 2026-08-03 |
 
 <details><summary>この目的にも関係するもの</summary>
@@ -977,6 +980,7 @@
 - [maedana/herdr-agents-preview](https://github.com/maedana/herdr-agents-preview) — Herdr向けのマルチエージェントターミナルプレビューダッシュボード：稼働中のすべてのエージェントを同時に表示し、選択中のエージェントが大部分の幅を占める
 - [Northern-Lighthouse/herdr-fleet](https://github.com/Northern-Lighthouse/herdr-fleet) — Tailscale経由でherdrマシンのフリートを管理——ダッシュボードプラグイン、自動検出、キャパシティを考慮したエージェント割り当て、ディスクレスなワークスペースに対応
 - [GranamyrBR/ezdras-herdr](https://github.com/GranamyrBR/ezdras-herdr) — Herdr向けの、複数エージェントをリアルタイムに可視化する仕組みとペイン操作機能
+- [OfirPatish/herdr-helm](https://github.com/OfirPatish/herdr-helm) — Herdr plugin: live fleet dashboard and task dispatch console
 
 </details>
 
@@ -990,10 +994,10 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-navigator**](https://github.com/thanhdat77/herdr-navigator)<br><sub>thanhdat77</sub> | 1つのファジーナビゲーターから、任意のHerdrのワークスペース・エージェント・プロジェクト・セッション・リモート・ディレクトリ・アクションにジャンプできる | `fuzzy-finder` `rust` `terminal` `workspace-manager` | 106 | 🔄 2026-08-11 |
+| [**herdr-navigator**](https://github.com/thanhdat77/herdr-navigator)<br><sub>thanhdat77</sub> | 1つのファジーナビゲーターから、任意のHerdrのワークスペース・エージェント・プロジェクト・セッション・リモート・ディレクトリ・アクションにジャンプできる | `fuzzy-finder` `rust` `terminal` `workspace-manager` | 107 | 🔄 2026-08-11 |
 | [**termscope**](https://github.com/iurysza/termscope)<br><sub>iurysza</sub> | 分割ペインで、ターミナル画面に表示されているファイルやリンクを開く | `python` `television` `terminal` `tmux` | 48 | 🔄 2026-08-19 |
-| [**herdr-sessionizer**](https://github.com/andrewchng/herdr-sessionizer)<br><sub>andrewchng</sub> | プロジェクトやworktreeをファジー検索で開き、宣言的なTOMLレイアウト（タブ・ペイン分割・起動コマンド・リポジトリごとの上書き設定）からワークスペースを立ち上げる | `bun` `fuzzy-finder` `fzf` `git-worktree` `sessionizer` | 37 | 🔄 2026-08-16 |
-| [**herdr-plugin-sesh**](https://github.com/fullerzz/herdr-plugin-sesh)<br><sub>fullerzz</sub> | Herdr向けのSesh風ワークスペースピッカーTUI。zoxideと連携し、よく使うディレクトリからワークスペースを作成できる | `bubbletea` `sesh` `tui` `zoxide` `go` | 29 | 🔄 2026-08-24 |
+| [**herdr-sessionizer**](https://github.com/andrewchng/herdr-sessionizer)<br><sub>andrewchng</sub> | プロジェクトやworktreeをファジー検索で開き、宣言的なTOMLレイアウト（タブ・ペイン分割・起動コマンド・リポジトリごとの上書き設定）からワークスペースを立ち上げる | `bun` `fuzzy-finder` `fzf` `git-worktree` `sessionizer` | 38 | 🔄 2026-08-16 |
+| [**herdr-plugin-sesh**](https://github.com/fullerzz/herdr-plugin-sesh)<br><sub>fullerzz</sub> | Herdr向けのSesh風ワークスペースピッカーTUI。zoxideと連携し、よく使うディレクトリからワークスペースを作成できる | `bubbletea` `sesh` `tui` `zoxide` `go` | 29 | 🔄 2026-08-25 |
 | [**herdr-command-palette**](https://github.com/JanTvrdik/herdr-command-palette)<br><sub>JanTvrdik</sub> | herdr向けのfzfコマンドパレット——任意のプラグインアクションをファジー検索して実行 | `shell` | 29 | 2026-06-29 |
 | [**herdr-bar**](https://github.com/jeffarese/herdr-bar)<br><sub>jeffarese</sub> | herdr版のCmd+K：任意のタブ・エージェント・リポジトリ・ブランチにファジー検索でジャンプ。Python標準ライブラリのみで動作 | `command-bar` `fuzzy-finder` `python` `terminal` `tui` | 25 | 2026-08-07 |
 | [**herdr-zoxide**](https://github.com/den-tanui/herdr-zoxide)<br><sub>den-tanui</sub> | zoxideのディレクトリからワークスペース・タブ・ペインを作成するHerdrプラグイン | `zoxide` `shell` | 11 | 2026-07-25 |
@@ -1032,6 +1036,7 @@
 | [**herdr-keys**](https://github.com/JacquesvanWyk/herdr-keys)<br><sub>JacquesvanWyk</sub> | herdr向けの、ファジー検索可能なキーバインド一覧（パック・発見機能・個人による上書き設定に対応） | `shell` | 1 | 2026-07-12 |
 | [**herdr-fzf-url**](https://github.com/kaar/herdr-fzf-url)<br><sub>kaar</sub> | herdrペインのスクロールバックからURLをファジー検索して開く——tmux-fzf-urlのherdr移植版 | `shell` | 1 | 2026-07-29 |
 | [**herdr-hint**](https://github.com/maedana/herdr-hint)<br><sub>maedana</sub> | Herdr向けのVimium風ヒントラベル——キーを押すとタブやエージェントにラベルが表示され、ラベルを押すとジャンプする | `rust` | 1 | 🔄 2026-08-11 |
+| [**🆕 herdr-workspacer**](https://github.com/mcuste/herdr-workspacer)<br><sub>mcuste</sub> | zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー | `rust` `tui` `zoxide` | 1 | 🔄 2026-08-22 |
 | [**herdr-pane-picker**](https://github.com/ugurtarlig/herdr-pane-picker)<br><sub>ugurtarlig</sub> | ペイン上に表示される文字ヒントを入力して、Herdrのペインを選択する | `terminal` `wezterm` `python` | 1 | 2026-07-17 |
 | [**herdr-bitwarden**](https://github.com/WillowMist/herdr-bitwarden)<br><sub>WillowMist</sub> | Bitwardenのボルトをファジー検索し、認証情報を貼り付け・コピーする——tmux-bitwardenのherdr移植版 | `bitwarden` `fzf` `terminal` `tmux` `shell` | 1 | 🔄 2026-08-11 |
 | [**herdr-fzf-url**](https://github.com/x0d7x/herdr-fzf-url)<br><sub>x0d7x</sub> | herdrのターミナルペインをスキャンしてURLを検出し、fzfで対話的に選択する | `fzf` `go` `url` | 1 | 2026-06-26 |
@@ -1046,7 +1051,7 @@
 | [**herdr-opencode-sessions**](https://github.com/damianpoole/herdr-opencode-sessions)<br><sub>damianpoole</sub> | 過去のOpenCodeセッションを、タイトル・プロジェクト・パス・日付・トランスクリプトの内容でファジー検索できるHerdrプラグイン——会話プレビュー付きで、現在または新しいワークスペースでセッションを再開・フォークするショートカットも備える | `typescript` | 0 | 🔄 2026-08-14 |
 | [**herdr-agents**](https://github.com/dleen/herdr-agents)<br><sub>dleen</sub> | herdr向けのfzfエージェントピッカー——全エージェントペインを対応優先度の高い順に並べ、セッションプレビューとワンキー起動に対応する | `coding-agents` `fzf` `python` `terminal` | 0 | 🔄 2026-08-20 |
 | [**herdr-command-palette**](https://github.com/fabiogaliano/herdr-command-palette)<br><sub>fabiogaliano</sub> | Herdr向けのファジーコマンドパレット——あらゆるアクションを検索し、ショートカットを確認して実行できる | `command-palette` `fzf` `terminal` `python` | 0 | 🔄 2026-08-10 |
-| [**🆕 herdr-plugin-command-palette**](https://github.com/haisi/herdr-plugin-command-palette)<br><sub>haisi</sub> | fzfを使った、herdr向けのファジー検索対応コマンドパレット | `fzf` `python` | 0 | 🔄 2026-08-17 |
+| [**herdr-plugin-command-palette**](https://github.com/haisi/herdr-plugin-command-palette)<br><sub>haisi</sub> | fzfを使った、herdr向けのファジー検索対応コマンドパレット | `fzf` `python` | 0 | 🔄 2026-08-17 |
 | [**herdr-control-panel**](https://github.com/iskwyuki/herdr-control-panel)<br><sub>iskwyuki</sub> | 1つのキーバインド、1つのパネルでherdrを操作——履歴や任意のパスからワークスペースを開き、独自のアクションも追加できる。純粋なbash + fzf製でビルド不要 | `bash` `fzf` `terminal` `shell` | 0 | 🔄 2026-08-11 |
 | [**🆕 herdr-turbo-palette**](https://github.com/jackfrancisdalton/herdr-turbo-palette)<br><sub>jackfrancisdalton</sub> | 任意のHerdrのspace・タブ・エージェント・ペインをファジー検索し、そのまま直接ジャンプする | `python` | 0 | 🔄 2026-08-22 |
 | [**pj-herdr**](https://github.com/josephschmitt/pj-herdr)<br><sub>josephschmitt</sub> | PJピッカーを使って新しいワークスペースを開くHerdrプラグイン | `shell` | 0 | 2026-07-15 |
@@ -1054,7 +1059,6 @@
 | [**herdr-cull**](https://github.com/krzysztoff1/herdr-cull)<br><sub>krzysztoff1</sub> | herdr内のアイドル状態のエージェントペインを確認して閉じる——fzfによる複数選択、確認なしで閉じることはない | `ai-agents` `claude` `codex` `fzf` `terminal` | 0 | 2026-07-20 |
 | [**herdr-shortcut**](https://github.com/matheus3301/herdr-shortcut)<br><sub>matheus3301</sub> | Herdr向けのショートカットタスクピッカー兼コーディングエージェントランチャー | `bubbletea` `claude-code` `codex` `coding-agents` `developer-tools` | 0 | 2026-07-24 |
 | [**herdr-omarchy-theme-sync**](https://github.com/maxBRT/herdr-omarchy-theme-sync)<br><sub>maxBRT</sub> | HerdrのUIパレットを、現在使用中のOmarchyテーマに同期させる | `linux` `omarchy` `theme` `python` | 0 | 🔄 2026-08-15 |
-| [**🆕 herdr-workspacer**](https://github.com/mcuste/herdr-workspacer)<br><sub>mcuste</sub> | zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー | `rust` `tui` `zoxide` | 0 | 🔄 2026-08-22 |
 | [**herdr-workspaces**](https://github.com/mikedclarke/herdr-workspaces)<br><sub>mikedclarke</sub> | ディレクトリをherdrのワークスペースとして扱う——よく使う場所を登録し、ファジー検索で選ぶと、そこに名前付きワークスペースが作られる | `go` `terminal` `tui` `workspaces` | 0 | 2026-08-02 |
 | [**herdr-smart-workspace**](https://github.com/nicolasvasquez/herdr-smart-workspace)<br><sub>nicolasvasquez</sub> | セッション内でワークスペースをすばやく切り替えたり、zoxideからオーバーレイのfzfピッカーで新規作成したりできるHerdrプラグイン | `python` | 0 | 2026-07-02 |
 | [**herdr-launcher**](https://github.com/nicolegros/herdr-launcher)<br><sub>nicolegros</sub> | ワークスペースの作成や切り替えをすばやく行える、ファジー検索ディレクトリピッカーを提供するherdrプラグイン | `go` | 0 | 2026-07-15 |
@@ -1063,7 +1067,7 @@
 | [**herdr-claude-profile**](https://github.com/quinnjr/herdr-claude-profile)<br><sub>quinnjr</sub> | herdrプラグイン：オーバーレイのパレットからclaude-profileのプロファイルを切り替え・管理する | `typescript` | 0 | 2026-07-20 |
 | [**herdr-plugins**](https://github.com/shelken/herdr-plugins)<br><sub>shelken</sub> | Herdrプラグインのモノレポ（auto-pi：エリアごとにpiを開く＋セッションピッカー） | `python` | 0 | 2026-07-17 |
 | [**herdr-file-picker**](https://github.com/shivammehta25/herdr-file-picker)<br><sub>shivammehta25</sub> | tmux-file-pickerをherdr向けに移植した、いわゆる「vibe coding」製プラグイン | `shell` | 0 | 2026-07-29 |
-| [**🆕 herdr-atuin-plugin**](https://github.com/smanickam01/herdr-atuin-plugin)<br><sub>smanickam01</sub> | herdrのポップアップでAtuinのシェル履歴を検索——prefix+aを押し、Enterで実行、Tabで編集できる。インストール時に自動でキーバインドされる | `atuin` `macos` `shell-history` `terminal` `zsh` | 0 | 🔄 2026-08-17 |
+| [**herdr-atuin-plugin**](https://github.com/smanickam01/herdr-atuin-plugin)<br><sub>smanickam01</sub> | herdrのポップアップでAtuinのシェル履歴を検索——prefix+aを押し、Enterで実行、Tabで編集できる。インストール時に自動でキーバインドされる | `atuin` `macos` `shell-history` `terminal` `zsh` | 0 | 🔄 2026-08-17 |
 | [**herdr-workspacex**](https://github.com/willfish/herdr-workspacex)<br><sub>willfish</sub> | Rustネイティブのファジー検索型Herdrワークスペース切り替えツール——zoxideを利用したワークスペース作成に対応 | `rust` `workspace-manager` `zoxide` | 0 | 2026-07-07 |
 | [**herdr-fzf-url**](https://github.com/willian/herdr-fzf-url)<br><sub>willian</sub> | フォーカス中のペインから`fzf`でURLを選び、開く・コピーする | `fzf` `shell` | 0 | 2026-07-28 |
 
@@ -1090,7 +1094,7 @@
 | [**herdr-auto-title**](https://github.com/sh1ma/herdr-auto-title)<br><sub>sh1ma</sub> | Claude CodeとCodexの会話内容から、herdrのタブタイトルを自動生成する | `claude-code` `codex` `python` | 51 | 🔄 2026-08-13 |
 | [**zed-herdr**](https://github.com/ImArtisann/zed-herdr)<br><sub>ImArtisann</sub> | アクティブなHerdRワークスペースを、既存のZedセッションと自動的に同期する | `typescript` | 25 | 🔄 2026-08-17 |
 | [**herdr-worktree-setup**](https://github.com/tdi/herdr-worktree-setup)<br><sub>tdi</sub> | herdrプラグイン：worktree作成時にプロジェクトごとのセットアップ手順を実行（mainから.envをコピー、mise trust、direnv allow、依存関係のインストールなど） | `javascript` | 22 | 2026-07-20 |
-| [**herdr-auto-pilot**](https://github.com/0xGosu/herdr-auto-pilot)<br><sub>0xGosu</sub> | Herdr APIを介して、稼働中のAIコーディングCLIに代わって自動でプロンプトを送るHerdrプラグイン。あなたの操作から学習するトレーニングモードと、危険/悪意ある操作を防ぐガード機能を搭載。十分に学習させれば「Full-Self Prompting（FSP）」モードで自律動作させられる | `go` | 16 | 🔄 2026-08-23 |
+| [**herdr-auto-pilot**](https://github.com/0xGosu/herdr-auto-pilot)<br><sub>0xGosu</sub> | Herdr APIを介して、稼働中のAIコーディングCLIに代わって自動でプロンプトを送るHerdrプラグイン。あなたの操作から学習するトレーニングモードと、危険/悪意ある操作を防ぐガード機能を搭載。十分に学習させれば「Full-Self Prompting（FSP）」モードで自律動作させられる | `go` | 16 | 🔄 2026-08-25 |
 | [**herdr-workflows**](https://github.com/aorumbayev/herdr-workflows)<br><sub>aorumbayev</sub> | herdrの繰り返し作業を宣言的に自動化する | `agentic-ai` `agentic-workflow` `agents` `ai` `claude` | 16 | 🔄 2026-08-24 |
 | [**herdr-routines**](https://github.com/mrcndz/herdr-routines)<br><sub>mrcndz</sub> | スケジュールされたルーティンを実行するHerdrプラグイン：cronまたは一定間隔でワークスペースにタブを開き、コマンド実行やエージェント起動を行う | `python` | 10 | 2026-07-18 |
 | [**bermuda**](https://github.com/bon5co/bermuda)<br><sub>bon5co</sub> | herdr上のClaude Codeによるオーケストレーション——エージェントが飛ばせないフロー、時刻指定のジョブ、claim付きスレッド、あとでエージェントが検索できるフォーラムを提供する | `agent-orchestration` `agents` `ai-agents` `automation` `claude-code` | 8 | 🔄 2026-08-24 |
@@ -1100,11 +1104,11 @@
 | [**herdr-automations**](https://github.com/DnzzL/herdr-automations)<br><sub>DnzzL</sub> | ターミナル上で動く、コーディングエージェント向けのスケジュールタスク。1回の実行ごとにプロンプト・cron行・新しいgit worktreeを用意——Herdr上で動作。1つのYAMLファイルのみで、ストア不要、ビルド済みバイナリ、自動化ごとにモデルを指定可能、スリープ後のキャッチアップ、ライブボード付き | `ai-agents` `automation` `claude-code` `coding-agents` `cron` | 3 | 🔄 2026-08-21 |
 | [**tendwire**](https://github.com/plotarmordev/tendwire)<br><sub>plotarmordev</sub> | Herdr向けのローカルAPI：コーディングエージェントをアプリ・自動化・任意のローカルシステムに接続する | `agent-api` `local-first` `python` | 3 | 🔄 2026-08-10 |
 | [**herdr-fwd**](https://github.com/go-min/herdr-fwd)<br><sub>go-min</sub> | リモートのHerdrセッション向けに、ループバックポートフォワーディングを自動設定する | `port-forwarding` `ssh` `terminal` `rust` | 2 | 2026-08-05 |
+| [**🆕 herdr-sched**](https://github.com/husniadil/herdr-sched)<br><sub>husniadil</sub> | Schedules and triggers for coding agents on Herdr - cron jobs and webhook/file-watcher triggers firing actions into the sibling plugins, each act signed by its… | `ai-agents` `cron` `mcp-server` `scheduler` `webhooks` | 2 | 🔄 2026-08-25 |
 | [**herdr-js-worktree-bootstrap**](https://github.com/LeonardoTrapani/herdr-js-worktree-bootstrap)<br><sub>LeonardoTrapani</sub> | JavaScript/TypeScript向けにHerdrのworktreeを自動でブートストラップ——ロックファイルを考慮したインストールと、安全な環境ファイルの復元に対応 | `automation` `bun` `developer-tools` `git-worktree` `javascript` | 2 | 2026-07-15 |
 | [**herdr-auto-tab-name**](https://github.com/dev-shimada/herdr-auto-tab-name)<br><sub>dev-shimada</sub> | herdrプラグイン：タブに現在のディレクトリ名を自動で付ける | `javascript` | 1 | 🔄 2026-08-15 |
 | [**herdr-auto-update**](https://github.com/dio16/herdr-auto-update)<br><sub>dio16</sub> | herdrプラグイン：インストール済みプラグインに新しいアップストリームのコミットがあるか起動時に確認し、あれば再インストールする | `rust` | 1 | 🔄 2026-08-16 |
 | [**say-hook**](https://github.com/HikaruEgashira/say-hook)<br><sub>HikaruEgashira</sub> | Claude Codeのフックイベントを、ElevenLabsのText-to-Speechで読み上げるmacOS向けCLI | `typescript` | 1 | 2026-08-01 |
-| [**🆕 herdr-sched**](https://github.com/husniadil/herdr-sched)<br><sub>husniadil</sub> | Schedules and triggers for coding agents on Herdr - cron jobs and webhook/file-watcher triggers firing actions into the sibling plugins, each act signed by its… | `ai-agents` `cron` `mcp-server` `scheduler` `webhooks` | 1 | 🔄 2026-08-24 |
 | [**herdr-shepherd**](https://github.com/mikedclarke/herdr-shepherd)<br><sub>mikedclarke</sub> | herdr向けのスケジュールされたエージェントセッション——ハートビート・cronルーティン・スクリプトを、見えるherdrワークスペースとして起動する | `coding-agents` `cron` `go` `scheduler` `tui` | 1 | 🔄 2026-08-18 |
 | [**herdr-plugin**](https://github.com/ppggff/herdr-plugin)<br><sub>ppggff</sub> | 各Herdrペインに適したmacOSの入力方式（IME）を自動的に記憶・復元する | `ime` `input-method` `macos` `python` | 1 | 2026-07-27 |
 | [**herdr-automations**](https://github.com/ram4-dev/herdr-automations)<br><sub>ram4-dev</sub> | Herdr向けの宣言的なcron・インターバル・イベント自動化 | `automation` `bun` `typescript` | 1 | 🔄 2026-08-13 |
@@ -1150,8 +1154,8 @@
 | --- | --- | --- | --: | --- |
 | [**herdr-resurrect**](https://github.com/ntindle/herdr-resurrect)<br><sub>ntindle</sub> | herdr版tmux-resurrect——ワークスペース・タブ・ペイン・作業ディレクトリ・実行中のプログラムやエージェントをスナップショットし、クラッシュや再起動後に復元する | `crash-recovery` `session-manager` `terminal-multiplexer` `tmux-resurrect` `javascript` | 19 | 🔄 2026-08-24 |
 | [**session-digger**](https://github.com/taxueseek/session-digger)<br><sub>taxueseek</sub> | 複数環境をまたいだセッション履歴の掘り出しとナレッジ管理。ログを分析。Claude/Grok/Kimi Code/Codex/WorkBuddy/Trae CNなど主要な環境に対応 | `claude-code` `conversation-analysis` `jsonl` `knowledge-management` `log-analysis` | 15 | 2026-07-21 |
+| [**herdr-notes**](https://github.com/alexarthurs/herdr-notes)<br><sub>alexarthurs</sub> | herdr向けの永続化されたMarkdownメモペイン——ワークスペースごとに1つのメモ、プレビュー表示＋編集モード、自動保存で再起動後も残る | `markdown` `notes` `ratatui` `rust` `terminal` | 12 | 2026-07-25 |
 | [**herdr-claude-auto-retry**](https://github.com/mo-arvan/herdr-claude-auto-retry)<br><sub>mo-arvan</sub> | AnthropicのレートリミットをやりすごしてClaude Codeを自動的に再開する、herdrネイティブな仕組み——tmuxもシェルラッパーも不要 | `javascript` | 12 | 2026-07-16 |
-| [**herdr-notes**](https://github.com/alexarthurs/herdr-notes)<br><sub>alexarthurs</sub> | herdr向けの永続化されたMarkdownメモペイン——ワークスペースごとに1つのメモ、プレビュー表示＋編集モード、自動保存で再起動後も残る | `markdown` `notes` `ratatui` `rust` `terminal` | 11 | 2026-07-25 |
 | [**herdr-session-parker**](https://github.com/iviaxpow3r/herdr-session-parker)<br><sub>iviaxpow3r</sub> | ペイン/タブを一時保管し、対応するエージェントセッションを後で復元できるHerdrプラグイン | `agent-tools` `python` | 9 | 2026-07-03 |
 | [**herdr-agent-inbox**](https://github.com/douglascorrea/herdr-agent-inbox)<br><sub>douglascorrea</sub> | herdrのコーディングエージェント用インボックス——セッションタイトル、既読/未読管理、実行時間、ワークスペース単位の集計、再開可能なチャット履歴 | `ai-agents` `terminal` `python` | 8 | 2026-07-28 |
 | [**herdr-assist**](https://github.com/walcew/herdr-assist)<br><sub>walcew</sub> | AIコーディングエージェント向けターミナルマルチプレクサHerdrのための、物理デスクパネル——セッションの状態を色で表示し、エージェントが判断を仰ぐために止まるとベルを鳴らす。ESP32-S3 + LVGL、ビルド済みファームウェア付き | `ai-agents` `claude-code` `coding-agents` `embedded` `esp-idf` | 7 | 🔄 2026-08-22 |
@@ -1165,6 +1169,7 @@
 | [**herdr-todos-windows**](https://github.com/aclima01/herdr-todos-windows)<br><sub>aclima01</sub> | herdrエージェントのタスクリスト（TaskCreate/TaskUpdate）をリアルタイムに映し出すパネル。エージェントの計画を追える | `powershell` | 1 | 2026-07-22 |
 | [**herdr-undo-close**](https://github.com/pedroloch/herdr-undo-close)<br><sub>pedroloch</sub> | ブラウザのCmd+Shift+Tのように、herdrで閉じたタブを復元——ラベル、分割比率を含むペイン構成、各ペインの作業ディレクトリ、タブの位置までまとめて復元する | `python` | 1 | 2026-07-30 |
 | [**attic**](https://github.com/TheThoughtagen/attic)<br><sub>TheThoughtagen</sub> | アイドル状態のAIコーディングセッションを自動的に閉じるが、その前に必ずアーカイブするので後で復元できる | `claude-code` `developer-tools` `python` `session-management` `tui` | 1 | 🔄 2026-08-14 |
+| [**🆕 herdr-agent-pins**](https://github.com/ZingerLittleBee/herdr-agent-pins)<br><sub>ZingerLittleBee</sub> | Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする | `terminal` `javascript` | 1 | 🔄 2026-08-24 |
 | [**herdr-codex-resume**](https://github.com/adamwangxx/herdr-codex-resume)<br><sub>adamwangxx</sub> | ネイティブのCodex resumeピッカーを、Herdrのコンテキストを保ったまま新しいスプリットで開く | `codex-cli` `terminal` `shell` | 0 | 🔄 2026-08-21 |
 | [**herdr-agent-resume**](https://github.com/Angel-O/herdr-agent-resume)<br><sub>Angel-O</sub> | AIエージェントのセッションをスムーズに再開できるよう、再開用コマンドを挿入またはコピーするHerdrプラグイン | `rust` | 0 | 🔄 2026-08-15 |
 | [**herdr-suspend-workspace**](https://github.com/asermax/herdr-suspend-workspace)<br><sub>asermax</sub> | herdrのワークスペースをサスペンド——レイアウトとエージェントをスナップショットして閉じ、あとでポップアップから選んで復元できる | `typescript` | 0 | 2026-07-31 |
@@ -1177,7 +1182,6 @@
 | [**herdr-stash**](https://github.com/victor-software-house/herdr-stash)<br><sub>victor-software-house</sub> | Herdrのワークスペースをスタッシュ——エージェントを停止しつつ構成と会話内容は保持し、あとでクリック可能な2カラムポップアップから復元できる | `rust` `terminal` `tui` | 0 | 2026-07-29 |
 | [**herdr-event-log**](https://github.com/waynewu411/herdr-event-log)<br><sub>waynewu411</sub> | herdrプラグイン：pane.agent_status_changed（および今後のイベント種別）を、永続化されカーソルから再開可能なグローバルログに記録する。どの親エージェントからもtailできる | `shell` | 0 | 🔄 2026-08-24 |
 | [**live-sync-panes**](https://github.com/wg1k/live-sync-panes)<br><sub>wg1k</sub> | Herdrプラグイン：タブ内のすべてのペインにコマンドを一斉送信、またはキー入力をリアルタイム同期する | `javascript` | 0 | 🔄 2026-08-11 |
-| [**🆕 herdr-agent-pins**](https://github.com/ZingerLittleBee/herdr-agent-pins)<br><sub>ZingerLittleBee</sub> | Herdrのエージェントセッションを、Agentsサイドバーの最上部に永続的にピン留めする | `terminal` `javascript` | 0 | 🔄 2026-08-24 |
 
 <details><summary>この目的にも関係するもの</summary>
 
@@ -1209,7 +1213,7 @@
 | [**herdr-window-title-sync**](https://github.com/rjyo/herdr-window-title-sync)<br><sub>rjyo</sub> | ワークスペース・タブ・エージェントセッションからターミナルのタイトルを同期する（Moshiと併用可） | `moshi` `terminal-title` `javascript` | 34 | 2026-06-26 |
 | [**herdr-flock**](https://github.com/ragamo/herdr-flock)<br><sub>ragamo</sub> | AIコーディングエージェントを、見下ろし視点の牧場に住むピクセルアートの羊として可視化するherdrプラグイン | `cli` `ratatui` `rust` `tui` | 28 | 2026-07-11 |
 | [**herdr-pet**](https://github.com/allmight-ai/herdr-pet)<br><sub>allmight-ai</sub> | Herdr向けのコンパニオンV-Pet——あなたのコーディングエージェントの様子を映し出す | `companion` `rust` `v-pet` | 5 | 🔄 2026-08-20 |
-| [**🆕 herdr-canvas**](https://github.com/aorumbayev/herdr-canvas)<br><sub>aorumbayev</sub> | herdrのエージェント向けの、マウスで操作できるASCII図キャンバス——TUI上で描き、構造化されたJSONを共有し、AIに編集させることもできる | `agentic-ai` `agents` `ai-agents` `ascii-art` `bubbletea` | 5 | 🔄 2026-08-23 |
+| [**🆕 herdr-canvas**](https://github.com/aorumbayev/herdr-canvas)<br><sub>aorumbayev</sub> | herdrのエージェント向けの、マウスで操作できるASCII図キャンバス——TUI上で描き、構造化されたJSONを共有し、AIに編集させることもできる | `agentic-ai` `agents` `ai-agents` `ascii-art` `bubbletea` | 5 | 🔄 2026-08-24 |
 | [**herdr-claude-session-title**](https://github.com/bcihanc/herdr-claude-session-title)<br><sub>bcihanc</sub> | Herdrプラグイン：Claude Codeのセッションタイトル（/renameまたは自動要約）をherdrのペインのメタデータタイトルに反映する | `shell` | 5 | 2026-07-11 |
 | [**herdr-ghostty-tab-title**](https://github.com/wjarka/herdr-ghostty-tab-title)<br><sub>wjarka</sub> | herdrプラグイン：Ghosttyのタブタイトルに、エージェントの状態別件数（ブロック中/完了/作業中/アイドル）を色分けして表示する | `ai-agents` `ghostty` `terminal` `python` | 5 | 2026-08-04 |
 | [**herdr-in-your-face**](https://github.com/JYasha11/herdr-in-your-face)<br><sub>JYasha11</sub> | AIエージェントをブロックされたまま放置すると、巨大なASCIIアートの顔が叫んでくる。無視するほど段階的にエスカレートする | `javascript` | 4 | 2026-07-10 |
@@ -1226,6 +1230,7 @@
 | [**herdr-powershell-title-sync**](https://github.com/aclima01/herdr-powershell-title-sync)<br><sub>aclima01</sub> | window-title-syncのWindows/PowerShell版：ターミナルのタイトルを、フォーカス中のherdrセッションに同期する | `powershell` | 1 | 2026-07-20 |
 | [**herdr-git-tab-name**](https://github.com/blurname/herdr-git-tab-name)<br><sub>blurname</sub> | フォーカス中のペインのGitブランチ名にタブをリネームするHerdrプラグイン | `shell` | 1 | 2026-07-06 |
 | [**herdr-hermes-session-title**](https://github.com/btorresgil/herdr-hermes-session-title)<br><sub>btorresgil</sub> | Hermes Agentのセッションタイトルを、Herdrのサイドバーに表示する | `python` | 1 | 2026-08-07 |
+| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(説明なし)_ | `rust` | 1 | 🔄 2026-08-24 |
 | [**herdr-tab-title-sync**](https://github.com/lucasleon2107/herdr-tab-title-sync)<br><sub>lucasleon2107</sub> | AIエージェントの会話タイトルにタブ名を同期するherdrプラグイン | `ai-agents` `claude-code` `terminal` `tmux` `shell` | 1 | 2026-08-04 |
 | [**herdr-agent-icons**](https://github.com/moneycaringcoder/herdr-agent-icons)<br><sub>moneycaringcoder</sub> | サイドバーに、Claude・Codex・OpenCode・OMP用の識別しやすいモノクロharnessマークを追加する、最小構成のHerdrプラグイン。Herdrのライフサイクル状態には手を出さない | `icons` `python` `terminal` | 1 | 🔄 2026-08-16 |
 | [**herdr-nerd-font-tab-name-windows**](https://github.com/Only-Moon/herdr-nerd-font-tab-name-windows)<br><sub>Only-Moon</sub> | herdr-nerd-font-tab-nameのWindows移植版：herdrのタブにNerd Fontアイコンを表示し、Windows・macOS・Linuxをクロスプラットフォームでサポート、フォルダに応じたアイコン解決にも対応 | `herdr-windows` `icons` `nerd-fonts` `python` `title` | 1 | 🔄 2026-08-10 |
@@ -1236,7 +1241,6 @@
 | [**herdr-llm-summary-header**](https://github.com/dnf0/herdr-llm-summary-header)<br><sub>dnf0</sub> | herdrプラグイン：エージェントが完了すると、LLMによる一行要約をペインのタイトルに書き込む | `javascript` | 0 | 2026-08-03 |
 | [**🆕 herdr-smart-rename**](https://github.com/edouard-andrei/herdr-smart-rename)<br><sub>edouard-andrei</sub> | herdrプラグイン：エージェントのトランスクリプトから、AIがタブとペインの名前を付ける——キー1つで、OpenAI互換の任意のモデルを使用可能 | `javascript` | 0 | 🔄 2026-08-20 |
 | [**herdr-title-sync**](https://github.com/elKei24/herdr-title-sync)<br><sub>elKei24</sub> | herdrプラグイン：各エージェントのターミナルタイトルを、そのタブのラベルに反映する | `python` | 0 | 🔄 2026-08-11 |
-| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(説明なし)_ | `rust` | 0 | 🔄 2026-08-24 |
 | [**🆕 herdr-tab-session-name-sync**](https://github.com/itayo-m/herdr-tab-session-name-sync)<br><sub>itayo-m</sub> | エージェントのセッション名を、herdrのタブとペインのタイトルに同期する | `developer-tools` `github-copilot` `terminal` `javascript` | 0 | 2026-08-03 |
 | [**🆕 herdr-chromatic-spaces**](https://github.com/jackfrancisdalton/herdr-chromatic-spaces)<br><sub>jackfrancisdalton</sub> | 各Herdr Spaceに独自の色と絵文字を付ける——サイドバーの色付きドット、エージェントのグループ化、Space切り替え時の任意のクローム着色に対応 | `python` | 0 | 🔄 2026-08-22 |
 | [**🆕 herdr-tab-numbers**](https://github.com/kokatsu/herdr-tab-numbers)<br><sub>kokatsu</sub> | 各タブの名前の先頭に、switch_tabの位置番号を付ける | `shell` | 0 | 🔄 2026-08-18 |
@@ -1294,11 +1298,13 @@
 | [**herdr-scrollback-capture**](https://github.com/alexjsp/herdr-scrollback-capture)<br><sub>alexjsp</sub> | フォーカス中のペインのスクロールバックを、HTMLまたはテキストとしてデスクトップに保存するHerdrプラグイン | `shell` | 1 | 2026-06-30 |
 | [**herdr-leap**](https://github.com/RooseveltAdvisors/herdr-leap)<br><sub>RooseveltAdvisors</sub> | Herdrのターミナルマルチプレクサ向けの、EasyMotion/leap風の文字ジャンプ＋選択コピー | `easymotion` `rust` `terminal` `tui` | 1 | 2026-07-24 |
 | [**herdr-copy-hints**](https://github.com/rotemb-wond/herdr-copy-hints)<br><sub>rotemb-wond</sub> | Herdr向けの、tmux-fingers風キーボードコピーヒント：パス・GitのSHA・URLなどに対応 | `clipboard` `developer-tools` `keyboard-navigation` `productivity` `terminal` | 1 | 2026-07-23 |
+| [**🆕 herdr_plugin**](https://github.com/Andreslvc/herdr_plugin)<br><sub>Andreslvc</sub> | Herdr plugin: open pane folder in VS Code, copy path, and open a folder as a space. | `python` | 0 | 🔄 2026-08-24 |
 | [**🆕 herdr-flash**](https://github.com/codingfragments/herdr-flash)<br><sub>codingfragments</sub> | zellij-flash（Zellijのプラグイン）を、ネイティブなHerdrプラグインとして移植したもの | `rust` | 0 | 🔄 2026-08-22 |
 | [**🆕 herdr-zextract**](https://github.com/codingfragments/herdr-zextract)<br><sub>codingfragments</sub> | zextract（Zellijのプラグイン）を、ネイティブなHerdrプラグインとして移植したもの | `rust` | 0 | 🔄 2026-08-18 |
 | [**herdr-vaultr**](https://github.com/connerohnesorge/herdr-vaultr)<br><sub>connerohnesorge</sub> | vaultrの公式herdrプラグイン——キャプチャしたエージェントセッションを、実行元のペインからコピー・表示・フォーク・検索できる | `vaultr` `shell` | 0 | 🔄 2026-08-13 |
 | [**🆕 herdr-thumbs**](https://github.com/sd2k/herdr-thumbs)<br><sub>sd2k</sub> | Herdr版tmux-thumbs——画面上の何でもヒント選択でき、コピー・貼り付け・オープンができる | `tmux-thumbs` `shell` | 0 | 🔄 2026-08-21 |
-| [**🆕 herdr-lens**](https://github.com/VoidAxon/herdr-lens)<br><sub>VoidAxon</sub> | Herdrのペインでテキストを選択し、キーを押すと自分の言語で読める。翻訳・辞書引き・識別子の検索・要約に対応——標準ライブラリのみ、設定不要 | `ai` `cli` `terminal` `translation` `python` | 0 | 🔄 2026-08-21 |
+| [**🆕 herdr-scratchpad**](https://github.com/vjeantet/herdr-scratchpad)<br><sub>vjeantet</sub> | Persistent clipboard pane for herdr - one plain-text buffer per tab, one key to copy it, one key to drop it into an agent's input box | `clipboard` `ratatui` `rust` `scratchpad` `terminal` | 0 | 🔄 2026-08-25 |
+| [**herdr-lens**](https://github.com/VoidAxon/herdr-lens)<br><sub>VoidAxon</sub> | Herdrのペインでテキストを選択し、キーを押すと自分の言語で読める。翻訳・辞書引き・識別子の検索・要約に対応——標準ライブラリのみ、設定不要 | `ai` `cli` `terminal` `translation` `python` | 0 | 🔄 2026-08-21 |
 | [**🆕 herdr-translate**](https://github.com/wenPKtalk/herdr-translate)<br><sub>wenPKtalk</sub> | herdrプラグイン：ペイン内で選択したテキストをtranslate-shellで翻訳し、フローティングポップアップで表示する（macOS・Linux対応） | `translate` `shell` | 0 | 🔄 2026-08-19 |
 | [**🆕 herdr-copy-pane-id**](https://github.com/wine-fall/herdr-copy-pane-id)<br><sub>wine-fall</sub> | Herdr plugin: copy the focused pane's id to the clipboard, or show every pane's id on its border | `cli` `terminal` `python` | 0 | 🔄 2026-08-24 |
 
@@ -1330,14 +1336,14 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr向けの拡張機能。正式なプラグインとして構築されたツール集（プロジェクト管理とクイックアクション）でherdrをより良くする | `go` | 256 | 2026-07-23 |
+| [**herdr-plus**](https://github.com/cloudmanic/herdr-plus)<br><sub>cloudmanic</sub> | herdr向けの拡張機能。正式なプラグインとして構築されたツール集（プロジェクト管理とクイックアクション）でherdrをより良くする | `go` | 258 | 2026-07-23 |
 | [**herdr-lazy**](https://github.com/natori-hrj/herdr-lazy)<br><sub>natori-hrj</sub> | herdr向けの宣言的なプラグインマネージャー兼キュレーション済みディストリビューション——1つのリスト、実体のあるロックファイル、管理用ペイン | `cli` `lockfile` `plugin-manager` `rust` `terminal` | 19 | 🔄 2026-08-24 |
 | [**herdr-plugin-manager**](https://github.com/speardragon/herdr-plugin-manager)<br><sub>speardragon</sub> | ポップアップからherdrのプラグインを管理——インストール・更新・有効/無効化・アンインストール、herdr-pluginマーケットプレイスの閲覧も可能。推奨キー：prefix+p | `plugin-manager` `tui` `shell` | 16 | 🔄 2026-08-19 |
 | [**house-of-herdr**](https://github.com/alasano/house-of-herdr)<br><sub>alasano</sub> | Herdr向けのプラグイン集——Work Louder Codex Micro上にエージェントのステータスランプと操作パネルを表示するCodex Microを含む | `codex-micro` `work-louder` `typescript` | 3 | 🔄 2026-08-13 |
 | [**herdr-plugin-rust**](https://github.com/Newt6611/herdr-plugin-rust)<br><sub>Newt6611</sub> | Herdrのプラグインを構築するためのRustアプリケーションフレームワーク | `rust` | 2 | 2026-07-09 |
 | [**herdr-plugins-labs**](https://github.com/hmu332233/herdr-plugins-labs)<br><sub>hmu332233</sub> | Herdr向けの実験的プラグイン集——ここで育て、成熟したら独立したリポジトリに卒業する | `labs` `javascript` | 1 | 🔄 2026-08-24 |
 | [**herdr-plugin-manager**](https://github.com/a-curious-coder/herdr-plugin-manager)<br><sub>a-curious-coder</sub> | 1つのポップアップペインからherdrプラグインを管理・発見する——インストール/アンインストール/更新、アクションの実行やバインド、公開レジストリの閲覧ができる | `shell` | 0 | 🔄 2026-08-13 |
-| [**herdr-plugins**](https://github.com/alastairsounds/herdr-plugins)<br><sub>alastairsounds</sub> | herdr向けのプラグイン集 | `rust` | 0 | 🔄 2026-08-21 |
+| [**herdr-plugins**](https://github.com/alastairsounds/herdr-plugins)<br><sub>alastairsounds</sub> | herdr向けのプラグイン集 | `rust` | 0 | 🔄 2026-08-25 |
 | [**herdr-plugins**](https://github.com/tyler-jewell/herdr-plugins)<br><sub>tyler-jewell</sub> | Rustのみで書かれたHerdrプラグインのモノレポ（標準ライブラリ優先）。インストールは herdr plugin install tyler-jewell/herdr-plugins/<subdir> で行う | `rust` `go` | 0 | 🔄 2026-08-10 |
 
 <details><summary>この目的にも関係するもの</summary>
@@ -1356,19 +1362,19 @@
 
 | プラグイン | できること | タグ | ★ | 最終更新 |
 | --- | --- | --- | --: | --- |
-| [**🆕 terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | ターミナルの中のブラウザ | `browser` `claude-code` `claude-skills` `cli` `codex` | 2124 | 🔄 2026-08-21 |
+| [**🆕 terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | ターミナルの中のブラウザ | `browser` `claude-code` `claude-skills` `cli` `codex` | 2149 | 🔄 2026-08-25 |
 | [**🆕 herdr-lantern**](https://github.com/aigorahub/herdr-lantern)<br><sub>aigorahub</sub> | Lantern（Elves製）。Herdrプラグイン：群れは野に出ている——Lanternは、誰があなたを必要としていて、何に向けて作業しているのかを照らし出す | `shell` | 10 | 🔄 2026-08-24 |
 | [**herdr-plugins-directory**](https://github.com/MIDO-ruby7/herdr-plugins-directory)<br><sub>MIDO-ruby7</sub> | やりたいことからherdrプラグインを探せるリンク集 | `python` | 10 | 🔄 2026-08-24 |
 | [**neon-herdr**](https://github.com/neon-solutions/neon-herdr)<br><sub>neon-solutions</sub> | Neon公式のHerdrプラグイン | `typescript` | 10 | 2026-08-06 |
 | [**herdr-plugin-cmux**](https://github.com/lachieh/herdr-plugin-cmux)<br><sub>lachieh</sub> | herdrが管理するすべてのエージェントを、cmuxのサイドバーにそれぞれ独立した行としてミラーする——ステータスピルとクリックでジャンプできるタスク行付き | `javascript` | 4 | 2026-07-01 |
 | [**wave-tui**](https://github.com/takemo101/wave-tui)<br><sub>takemo101</sub> | 作業中に流せる、静かなターミナルラジオ | `rust` | 4 | 2026-07-20 |
 | [**herdr-commandcode-plugin**](https://github.com/TheMetalStorm/herdr-commandcode-plugin)<br><sub>TheMetalStorm</sub> | CommandcodeをHerdrに統合する | `cli` `commandcode` `herdr-integration` `shell` | 4 | 2026-07-30 |
+| [**🆕 herdr-openlogi**](https://github.com/giacolees/herdr-openlogi)<br><sub>giacolees</sub> | Logitech mouse → herdr via OpenLogi binding overlay | `ghostty` `logitech-mouse` `macos` `openlogi` `shell` | 2 | 🔄 2026-08-24 |
 | [**herdr-streamdeck**](https://github.com/Pimpmuckl/herdr-streamdeck)<br><sub>Pimpmuckl</sub> | Elgato Stream Deck+によるHerdrの物理コントロール | `typescript` | 2 | 🔄 2026-08-15 |
 | [**herdr-freebuff-plugin**](https://github.com/TheMetalStorm/herdr-freebuff-plugin)<br><sub>TheMetalStorm</sub> | Herdr向けのFreebuffライフサイクル統合プラグイン——ファイルのポーリングとPTY内容のスクレイピングで、アイドル/作業中/ブロック中の状態を報告する | `cli` `freebuff` `herdr-integration` `shell` | 2 | 2026-07-22 |
 | [**herdr-edit-windows**](https://github.com/aclima01/herdr-edit-windows)<br><sub>aclima01</sub> | コーディングエージェントの隣、herdrのペイン内で動くシンプルなテキストエディタ——ファイルツリー、シンタックスハイライト付きエディタ、未コミット差分タブを備える。Windows専用 | `rust` | 1 | 2026-07-25 |
 | [**herdr-stoplight**](https://github.com/BowlOfSoup/herdr-stoplight)<br><sub>BowlOfSoup</sub> | Herdrのリアルタイムな状態から、物理的なArduino製信号灯モジュールを動かす | `go` | 1 | 2026-07-11 |
 | [**herdr-rainfrog**](https://github.com/fraction12/herdr-rainfrog)<br><sub>fraction12</sub> | 管理されたHerdRのペイン内でRainfrogを開く | `shell` | 1 | 🔄 2026-08-15 |
-| [**🆕 herdr-openlogi**](https://github.com/giacolees/herdr-openlogi)<br><sub>giacolees</sub> | Logitech mouse → herdr via OpenLogi binding overlay | `ghostty` `logitech-mouse` `macos` `openlogi` `shell` | 1 | 🔄 2026-08-24 |
 | [**herdr-memory**](https://github.com/jatingargiitk/herdr-memory)<br><sub>jatingargiitk</sub> | コーディングセッションから「生きた脳」を構築するHerdrプラグイン——うまくいったこと、失敗したこと、あなたが下した判断を少しずつ学習していく | `shell` | 1 | 🔄 2026-08-11 |
 | [**hrd**](https://github.com/joshuadavidthomas/hrd)<br><sub>joshuadavidthomas</sub> | サンドボックスの群れと、その上で動くHerdrセッションを管理する | `go` | 1 | 🔄 2026-08-21 |
 | [**herdr-plugins**](https://github.com/narumiruna/herdr-plugins)<br><sub>narumiruna</sub> | _(説明なし)_ | `rust` | 1 | 2026-08-08 |
