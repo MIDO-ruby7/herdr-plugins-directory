@@ -48,6 +48,36 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "maedana/herdr-normal-mode": {
+    "category": "navigate"
+  },
+  "MorganCollins/herdr-last-used": {
+    "category": "monitor"
+  },
+  "Andreslvc/herdr_plugin": {
+    "category": "files"
+  },
+  "choplin/herdr-agent-update-time": {
+    "category": "monitor"
+  },
+  "choplin/herdr-quickselect": {
+    "category": "text"
+  },
+  "choplin/herdr-next-agent": {
+    "category": "navigate"
+  },
+  "choplin/herdr-repository-identity": {
+    "category": "monitor"
+  },
+  "choplin/herdr-split-pane": {
+    "category": "navigate"
+  },
+  "July24/pier": {
+    "category": "agents"
+  },
+  "zackshen/herdr-translate": {
+    "category": "text"
+  },
   "choplin/herdr-plugins": {
     "category": "meta"
   },
