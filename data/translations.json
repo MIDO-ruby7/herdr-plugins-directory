@@ -3960,9 +3960,9 @@
     "zh": "面向 Herdr 终端复用器中运行的编程 Agent 会话的零依赖手机端网页控制器"
   },
   "mcuste/herdr-workspacer": {
-    "en": "A fuzzy Herdr workspace manager that uses zoxide to find projects, then creates or switches workspaces in one picker.",
-    "ja": "zoxideでプロジェクトを見つけ、1つのピッカーでワークスペースの作成・切り替えができる、ファジー検索対応のHerdrワークスペースマネージャー",
-    "zh": "使用 zoxide 查找项目，并可在一个选择器中创建或切换工作区的模糊搜索 Herdr 工作区管理器"
+    "en": "Find projects with zoxide, then switch or create Herdr workspaces",
+    "ja": "zoxideでプロジェクトを見つけ、Herdrのワークスペースを切り替え・作成する",
+    "zh": "使用 zoxide 查找项目，然后切换或创建 Herdr 工作区"
   },
   "neospark-sol/agentflock": {
     "en": "AI-coordinated builder and reviewer groups with durable milestone control",
@@ -4183,5 +4183,165 @@
     "en": "Herdr plugin: translate mouse-selected terminal text in a centered popover",
     "ja": "herdrプラグイン：マウスで選択したターミナルのテキストを、中央のポップオーバーで翻訳する",
     "zh": "herdr 插件：在居中弹出层中翻译鼠标选中的终端文本"
+  },
+  "choplin/herdr-agent-metadata": {
+    "en": "Show when each Herdr agent's semantic state was last observed changing.",
+    "ja": "各Herdrエージェントの意味的な状態が最後に変化したのがいつかを表示する",
+    "zh": "显示每个 Herdr Agent 的语义状态最后一次发生变化的时间"
+  },
+  "ivanarama/PromptPilot": {
+    "en": "Background task queue for Claude Code and other AI CLIs — web UI + Telegram bot",
+    "ja": "Claude Codeやその他のAI CLI向けのバックグラウンドタスクキュー——Web UIとTelegramボット付き",
+    "zh": "面向 Claude Code 及其他 AI CLI 的后台任务队列——配有网页 UI 和 Telegram 机器人"
+  },
+  "kryptamine/herdr-auto-title": {
+    "en": "Tab titles that follow the work in each tab. A Herdr plugin.",
+    "ja": "各タブでの作業内容に追従するタブタイトル。Herdrプラグイン",
+    "zh": "跟随每个标签页中工作内容变化的标签标题。一个 Herdr 插件"
+  },
+  "IsaiasZc/herdr-a2a": {
+    "en": "Reliable agent-to-agent delegation layer for Herdr via A2A",
+    "ja": "A2A経由の、信頼性の高いHerdr向けエージェント間委任レイヤー",
+    "zh": "通过 A2A 为 Herdr 提供的可靠 Agent 间委派层"
+  },
+  "arvmaan/herdr-glance": {
+    "en": "desktop widget to view the status of your agents",
+    "ja": "エージェントの状態を確認できる、デスクトップウィジェット",
+    "zh": "用于查看 Agent 状态的桌面小组件"
+  },
+  "cesarferreira/herdr-palette": {
+    "en": "Popup command palette for Herdr.",
+    "ja": "Herdr向けのポップアップ型コマンドパレット",
+    "zh": "面向 Herdr 的弹窗式命令面板"
+  },
+  "gokay-ai/sheep": {
+    "en": "Undo for AI coding agents. Every agent turn becomes a restorable checkpoint.",
+    "ja": "AIコーディングエージェント向けのUndo。エージェントの各ターンが、復元可能なチェックポイントになる",
+    "zh": "面向 AI 编程 Agent 的撤销功能。Agent 的每一轮操作都会成为一个可恢复的检查点"
+  },
+  "jerryfane/herdr-plan-approve": {
+    "en": "Auto-approve Claude Code plan-mode dialogs in herdr — agents plan, then execute, without a keypress.",
+    "ja": "herdrでClaude Codeのplanモードダイアログを自動承認する——エージェントは計画を立て、キー入力なしでそのまま実行に移れる",
+    "zh": "在 herdr 中自动批准 Claude Code 的计划模式对话框——Agent 制定计划后无需按键即可直接执行"
+  },
+  "LZHcode1986/herdr-link": {
+    "en": "Faster, token-efficient, and zero-reasoning cross-agent interoperability for Herdr sessions. Replaces heavyweight skills with a unified contract for peer discovery,   messaging, and pane lifecycle.",
+    "ja": "Herdrのセッション向けに、より高速でトークン効率が良く推論不要なエージェント間相互運用性を提供する。重量級のskillを、ピア発見・メッセージング・ペインのライフサイクルを扱う統一されたコントラクトで置き換える",
+    "zh": "为 Herdr 会话提供更快、更省 token、无需推理的跨 Agent 互操作性。用一份统一的契约取代笨重的 skill，涵盖对等发现、消息传递和窗格生命周期"
+  },
+  "neospeed83/herdr-standup": {
+    "en": "Evidence-backed daily standups from Git activity and Herdr context.",
+    "ja": "Gitの活動とHerdrのコンテキストから、証跡に基づいたデイリースタンドアップを作成する",
+    "zh": "根据 Git 活动和 Herdr 上下文，生成有据可查的每日站会摘要"
+  },
+  "susomejias/herdr-awake": {
+    "en": "Herdr plugin: keep the machine awake while Herdr agents are busy",
+    "ja": "herdrプラグイン：Herdrのエージェントが作業中の間、マシンをスリープさせない",
+    "zh": "herdr 插件：在 Herdr Agent 忙碌期间保持机器唤醒"
+  },
+  "aneym/unblock": {
+    "en": "One queue for everything your agents need from you. Blockers need an action, grills need a judgement; secrets never enter the model's context.",
+    "ja": "エージェントがあなたに求めるものすべてを1つのキューにまとめる。ブロッカーにはアクションが、grillには判断が必要——シークレットがモデルのコンテキストに入ることはない",
+    "zh": "将 Agent 需要你处理的一切汇总到一个队列中。阻塞项需要你采取行动，grill 需要你做出判断——密钥永远不会进入模型的上下文"
+  },
+  "astwys/herdr-quick-prompt": {
+    "en": "A Herdr plugin to send predefined prompts to an agent pane",
+    "ja": "あらかじめ定義したプロンプトをエージェントのペインに送信するHerdrプラグイン",
+    "zh": "向 Agent 窗格发送预定义提示词的 Herdr 插件"
+  },
+  "barnuri/herdr-command-palette": {
+    "en": "F1-style command palette for herdr — fuzzy-search and run every action from every installed plugin. Zero dependencies.",
+    "ja": "herdr向けのF1風コマンドパレット——インストール済みの全プラグインの全アクションを、ファジー検索して実行できる。依存関係なし",
+    "zh": "面向 herdr 的 F1 风格命令面板——可模糊搜索并运行所有已安装插件的全部操作，零依赖"
+  },
+  "caoool/herdr-sidebar-plugin": {
+    "en": "",
+    "ja": "",
+    "zh": ""
+  },
+  "DeepRuparel/herdr-spotify": {
+    "en": "Spotify for Herdr — Go, zero-setup local controls + gated search/queue/save via PKCE",
+    "ja": "Herdr向けのSpotify連携——Go製、設定不要のローカル操作に加え、PKCE経由で認可された検索・キュー追加・保存に対応",
+    "zh": "面向 Herdr 的 Spotify 集成——Go 编写，提供零配置的本地控制，并通过 PKCE 授权支持搜索/加入队列/保存"
+  },
+  "Dimon94/herdr-context-locator": {
+    "en": "Copy a self-describing locator for a Herdr agent's canonical native session context",
+    "ja": "Herdrエージェントの正規のネイティブセッションコンテキストを指す、自己記述型のロケーターをコピーする",
+    "zh": "复制一个可自我描述的定位符，指向 Herdr Agent 的规范原生会话上下文"
+  },
+  "eduardoborges/herdr-claude-title-hook": {
+    "en": "Claude Code plugin that syncs the session title to the Herdr tab title",
+    "ja": "セッションタイトルをHerdrのタブタイトルに同期するClaude Codeプラグイン",
+    "zh": "将会话标题同步到 Herdr 标签页标题的 Claude Code 插件"
+  },
+  "elkraps/herdr-telegram-notify": {
+    "en": "Customizable Telegram notifications for Herdr agent state changes, with status filters, templates, multi-chat delivery, deduplication, and built-in diagnostics.",
+    "ja": "Herdrエージェントの状態変化に対する、カスタマイズ可能なTelegram通知——ステータスフィルタ、テンプレート、複数チャットへの配信、重複排除、組み込みの診断機能に対応",
+    "zh": "针对 Herdr Agent 状态变化的可自定义 Telegram 通知——支持状态过滤、模板、多聊天投递、去重和内置诊断"
+  },
+  "gurronen/herdr-looper": {
+    "en": "Launch repeatable machine-local Pi jobs in fresh Herdr workspaces and worktrees",
+    "ja": "新しいHerdrのワークスペースとworktreeで、繰り返し実行可能なマシンローカルのPiジョブを起動する",
+    "zh": "在全新的 Herdr 工作区和工作树中启动可重复运行的本机 Pi 任务"
+  },
+  "gustavocaiano/herdr-desktop-switcher": {
+    "en": "Experimental macOS desktop switcher for Herdr",
+    "ja": "Herdr向けの、実験的なmacOSデスクトップ切り替えツール",
+    "zh": "面向 Herdr 的实验性 macOS 桌面切换器"
+  },
+  "kwanwooi25/herdr-plugin-agent-quota": {
+    "en": "Agent quota for Herdr — token & cost dashboard, sidebar quota gauges, and tab bar summary for Claude Code, Codex, and Grok",
+    "ja": "Herdr向けのエージェントクォータ——Claude Code・Codex・Grok向けのトークン＆コストダッシュボード、サイドバーのクォータゲージ、タブバーのサマリーを提供",
+    "zh": "面向 Herdr 的 Agent 配额——为 Claude Code、Codex 和 Grok 提供 token 与费用仪表盘、侧边栏配额仪表和标签栏摘要"
+  },
+  "neospeed83/herdr-replay": {
+    "en": "Record and replay multi-agent Herdr coding sessions as interactive timelines.",
+    "ja": "マルチエージェントのHerdrコーディングセッションを、インタラクティブなタイムラインとして記録・再生する",
+    "zh": "将多 Agent 的 Herdr 编程会话录制并回放为可交互的时间线"
+  },
+  "nikok6/herdr-pet": {
+    "en": "Tiny desk pet on your herdr panes: types, waits, and celebrates with your agent. Works with any Codex pet.",
+    "ja": "herdrのペインにいる小さなデスクペット——エージェントと一緒にタイプし、待ち、お祝いする。任意のCodex petに対応",
+    "zh": "生活在 herdr 窗格中的小小桌面宠物——陪你的 Agent 一起打字、等待和庆祝。兼容任意 Codex pet"
+  },
+  "speardragon/herdr-status-ui-bar": {
+    "en": "AI agent plan-usage gauges (Claude Code / Codex / Grok) in the herdr tab bar",
+    "ja": "herdrのタブバーに、AIエージェントのプラン使用量ゲージ（Claude Code / Codex / Grok）を表示する",
+    "zh": "在 herdr 标签栏中显示 AI Agent 的方案用量仪表（Claude Code / Codex / Grok）"
+  },
+  "TheBrunoPetkovic/herdr-context-display": {
+    "en": "Colour-coded context window usage on every Claude Code agent row in herdr",
+    "ja": "herdr内の各Claude Codeエージェント行に、コンテキストウィンドウの使用量を色分けして表示する",
+    "zh": "在 herdr 中每一行 Claude Code Agent 上以颜色标注上下文窗口用量"
+  },
+  "TinocoAI/scp-explorer": {
+    "en": "MobaXterm-style SCP file explorer herdr plugin (cross-platform macOS/Linux/Windows)",
+    "ja": "MobaXterm風のSCPファイルエクスプローラーherdrプラグイン（macOS/Linux/Windowsクロスプラットフォーム対応）",
+    "zh": "MobaXterm 风格的 SCP 文件浏览器 herdr 插件（跨平台支持 macOS/Linux/Windows）"
+  },
+  "ubuntudroid/herdr-coder-sessions": {
+    "en": "Browse running Coder agent sessions in herdr and open each as its own workspace: agentty on the session, its changes mirrored into a local worktree for review",
+    "ja": "herdrで実行中のCoderエージェントセッションを閲覧し、それぞれを専用のワークスペースとして開く——セッションにagenttyで接続し、その変更をレビュー用にローカルのworktreeへミラーする",
+    "zh": "在 herdr 中浏览正在运行的 Coder Agent 会话，并将每个会话作为独立工作区打开——通过 agentty 连接到该会话，其更改会被镜像到本地工作树中以供评审"
+  },
+  "w784415/herdr-tab-smart-rename-zh": {
+    "en": "为 Herdr 标签页生成简短、自然的中文任务名称",
+    "ja": "Herdrのタブに、簡潔で自然な中国語のタスク名を生成する",
+    "zh": "为 Herdr 标签页生成简短、自然的中文任务名称"
+  },
+  "w784415/pi-agent-usage": {
+    "en": "Pi extension that displays OpenAI Codex quota and reset times, with Herdr plugin support.",
+    "ja": "OpenAI Codexのクォータとリセット時刻を表示するPi拡張機能。Herdrプラグインにも対応",
+    "zh": "显示 OpenAI Codex 配额和重置时间的 Pi 扩展，支持 Herdr 插件"
+  },
+  "yelsed/herdr-pr": {
+    "en": "A Todo of the pull requests waiting on you, in a herdr pane. Reads everything through the gh CLI.",
+    "ja": "対応待ちのプルリクエストを、herdrのペイン内でTodoとして表示する。すべてgh CLI経由で読み取る",
+    "zh": "在 herdr 窗格中以待办事项形式显示等待你处理的拉取请求，全部通过 gh CLI 读取"
+  },
+  "yoyoyeti/multitrunk-herdr-plugin": {
+    "en": "Herdr plugin for multitrunk task workspaces",
+    "ja": "multitrunkのタスクワークスペース向けのHerdrプラグイン",
+    "zh": "面向 multitrunk 任务工作区的 Herdr 插件"
   }
 }
