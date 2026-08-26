@@ -48,6 +48,21 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "arvmaan/herdr-glance": {
+    "category": "monitor"
+  },
+  "jerryfane/herdr-plan-approve": {
+    "category": "agents"
+  },
+  "LZHcode1986/herdr-link": {
+    "category": "agents"
+  },
+  "choplin/herdr-agent-metadata": {
+    "category": "monitor"
+  },
+  "nikok6/herdr-pet": {
+    "category": "naming"
+  },
   "maedana/herdr-normal-mode": {
     "category": "navigate"
   },
