@@ -48,6 +48,48 @@
   "nytafar/herdr-cache-ttl": {
     "category": "monitor"
   },
+  "diegopzz/herdr-updater": {
+    "category": "automation"
+  },
+  "iamgp/herdr-overview": {
+    "category": "monitor"
+  },
+  "ivorpad/herdr-tunnel": {
+    "category": "remote"
+  },
+  "nengqi/herdr-session-sync": {
+    "category": "naming"
+  },
+  "1Morganmore/herdr-activity-age": {
+    "category": "monitor"
+  },
+  "chenyao0910/herdr-jetbrains": {
+    "category": "files"
+  },
+  "herdr-go/herdr-go": {
+    "category": "remote"
+  },
+  "ivorpad/herdr-ports": {
+    "category": "monitor"
+  },
+  "ponko2/herdr-equalize-panes": {
+    "category": "navigate"
+  },
+  "thesimonharms/herdr-cmd-agent-plugin": {
+    "category": "agents"
+  },
+  "tmastalirsch/herdr-claude-safe-compact": {
+    "category": "automation"
+  },
+  "tmastalirsch/herdr-workspace-board": {
+    "category": "monitor"
+  },
+  "hasuwini77/herdr-spinner": {
+    "category": "monitor"
+  },
+  "42lizard/workspace-basename": {
+    "category": "naming"
+  },
   "arvmaan/herdr-glance": {
     "category": "monitor"
   },
