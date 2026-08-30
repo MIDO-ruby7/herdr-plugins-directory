@@ -92,6 +92,7 @@
   "nengqi/herdr-session-sync": "2026-08-28",
   "neospeed83/herdr-replay": "2026-08-26",
   "neospeed83/herdr-standup": "2026-08-26",
+  "neospeed83/herdr-tournament": "2026-08-30",
   "nikok6/herdr-pet": "2026-08-26",
   "orrgal1/herd": "2026-08-30",
   "pedroloch/herdr-undo-close": "2026-08-30",
@@ -135,5 +136,6 @@
   "yojahny55/herdr-space-groups": "2026-08-29",
   "youguanxinqing/herdr-flash": "2026-08-27",
   "yoyoyeti/multitrunk-herdr-plugin": "2026-08-26",
-  "zackshen/herdr-translate": "2026-08-25"
+  "zackshen/herdr-translate": "2026-08-25",
+  "zqkra/cbds": "2026-08-30"
 }
