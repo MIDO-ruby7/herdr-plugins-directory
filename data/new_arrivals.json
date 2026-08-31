@@ -25,6 +25,7 @@
   "TheBrunoPetkovic/herdr-context-display": "2026-08-26",
   "TinocoAI/scp-explorer": "2026-08-26",
   "VilfredSikker/easy-review": "2026-08-24",
+  "abhishek944/herdr-pets": "2026-08-31",
   "andthezhang/herdr-dynamic-workflow": "2026-08-30",
   "andybarilla/herdr-scuttlebutt": "2026-08-24",
   "aneym/unblock": "2026-08-26",
@@ -61,6 +62,7 @@
   "hasuwini77/herdr-spinner": "2026-08-27",
   "hasuwini77/herdr-tab-git": "2026-08-27",
   "herdr-go/herdr-go": "2026-08-27",
+  "huketo/herdr-sheep": "2026-08-31",
   "husniadil/herdr-sched": "2026-08-24",
   "iamgp/herdr-overview": "2026-08-28",
   "ivanarama/PromptPilot": "2026-08-25",
@@ -94,6 +96,7 @@
   "redsquiggle/herdr-browser": "2026-08-26",
   "reobin/herdr-close-other-panes": "2026-08-25",
   "rotemb-wond/herdr-copy-hints": "2026-08-30",
+  "ryus1234/provider-usage": "2026-08-31",
   "sazardev/herdr-code-board": "2026-08-29",
   "speardragon/herdr-status-ui-bar": "2026-08-26",
   "spiritsack/herdr-jira-worktree": "2026-08-24",
@@ -124,5 +127,6 @@
   "youguanxinqing/herdr-flash": "2026-08-27",
   "yoyoyeti/multitrunk-herdr-plugin": "2026-08-26",
   "zackshen/herdr-translate": "2026-08-25",
+  "zlxlabs/herdweb": "2026-08-31",
   "zqkra/cbds": "2026-08-30"
 }
