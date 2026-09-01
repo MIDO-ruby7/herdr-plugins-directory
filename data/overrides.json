@@ -398,5 +398,20 @@
   },
   "tomaszhanc/herdr-plugins": {
     "description": "A personal monorepo of herdr plugins, each living in its own folder with a herdr-plugin.toml manifest and an executable."
+  },
+  "abhishek944/herdr-pets": {
+    "category": "naming"
+  },
+  "ardasevinc/herdr-codex-bridge": {
+    "category": "monitor"
+  },
+  "asermax/herdr-tab-command": {
+    "category": "layout"
+  },
+  "huketo/herdr-sheep": {
+    "category": "naming"
+  },
+  "kewah/herdr-tab-titles": {
+    "category": "naming"
   }
 }
