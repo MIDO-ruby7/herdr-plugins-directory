@@ -3210,9 +3210,9 @@
     "zh": "在不脱离实际代码库的前提下，最大化 Agent 化开发效率的 herdr 插件"
   },
   "levi-qiao/herdr-agent-quota": {
-    "en": "Credential-scoped AI quota and context in Herdr for Claude, Codex, Grok, Agy, OpenCode, and Pi.",
-    "ja": "Herdr向けの、認証情報単位でスコープされたAIクォータとコンテキスト表示——Claude・Codex・Grok・Agy・OpenCode・Piに対応",
-    "zh": "面向 Herdr 的、按凭据划分范围的 AI 配额与上下文——支持 Claude、Codex、Grok、Agy、OpenCode 和 Pi"
+    "en": "Credential-scoped AI quota, context, and cache in Herdr for Claude, Codex, Grok, Agy, OpenCode, Pi, and OMP.",
+    "ja": "Herdr 向けの、認証情報単位でスコープされた AI クォータ・コンテキスト・キャッシュ表示——Claude・Codex・Grok・Agy・OpenCode・Pi・OMP に対応",
+    "zh": "面向 Herdr 的、按凭据划分范围的 AI 配额、上下文与缓存——支持 Claude、Codex、Grok、Agy、OpenCode、Pi 和 OMP"
   },
   "catoncat/herdr-trail": {
     "en": "Herd-wide shared memos for herdr: agents jot follow-ups, humans manage one global list, every entry jumps back to its source conversation",
@@ -4195,9 +4195,9 @@
     "zh": "面向 Claude Code 及其他 AI CLI 的后台任务队列——配有网页 UI 和 Telegram 机器人"
   },
   "kryptamine/herdr-auto-title": {
-    "en": "Tab titles that follow the work in each tab. A Herdr plugin.",
-    "ja": "各タブでの作業内容に追従するタブタイトル。Herdrプラグイン",
-    "zh": "跟随每个标签页中工作内容变化的标签标题。一个 Herdr 插件"
+    "en": "Tab titles that automatically follow the work in each tab. Keep your tabs organized and instantly know what you're working on with Herdr.",
+    "ja": "各タブでの作業内容に自動で追従するタブタイトル。Herdr でタブを整理された状態に保ち、何をしているかが一目でわかります。",
+    "zh": "自动跟随每个标签页中工作内容变化的标签标题。借助 Herdr 让标签页保持整洁，一眼就知道自己在做什么。"
   },
   "IsaiasZc/herdr-a2a": {
     "en": "Reliable agent-to-agent delegation layer for Herdr via A2A",
@@ -4490,9 +4490,9 @@
     "zh": "Herdr 插件：env-sync 会为新的 Git 工作树完成初始化（复制 .env、跟踪远程分支、运行初始化命令），并提供实时状态面板"
   },
   "gwelican/herdr-keybinds": {
-    "en": "Herdr plugin for listing/searchging keybinds",
-    "ja": "キーバインドを一覧表示・検索するHerdrプラグイン",
-    "zh": "用于列出/搜索快捷键绑定的 Herdr 插件"
+    "en": "Herdr plugin for listing/searching all keybinds, including plugins",
+    "ja": "プラグインのものも含め、すべてのキーバインドを一覧表示・検索できる Herdr プラグインです。",
+    "zh": "用于列出/搜索所有快捷键绑定（包括插件的快捷键）的 Herdr 插件。"
   },
   "hasuwini77/herdr-tab-git": {
     "en": "Git branch and status in the Herdr Spaces sidebar that follow the active tab instead of the first one",
@@ -4520,9 +4520,9 @@
     "zh": "herdr 插件：将 terminal_title_stripped 持久化到标签页（顶部只保留 session_title，标签页关闭后依然保留该标题）"
   },
   "jtnovellis/herdr-nvim": {
-    "en": "Neovim, fully integrated into your Herdr workspace: full-height per-tab sidebar, code annotations sent to agents, agent-file picker",
-    "ja": "Herdrのワークスペースに完全統合されたNeovim——タブごとの全高サイドバー、エージェントへ送るコードアノテーション、エージェント用ファイルピッカーを提供",
-    "zh": "完全集成到 Herdr 工作区中的 Neovim——按标签页显示的全高侧边栏、发送给 Agent 的代码注释，以及 Agent 文件选择器"
+    "en": "Neovim inside Herdr: a per-tab full-height sidebar, and a real round trip with your coding agent — ask about the code you're looking at, read the answer without leaving Neovim, and step through the edits it made.",
+    "ja": "Herdr の中で動く Neovim——タブごとの全高サイドバーと、コーディングエージェントとの本物のやり取りを実現します。見ているコードについて質問し、Neovim を離れずに回答を読み、エージェントが加えた編集を1つずつ確認できます。",
+    "zh": "在 Herdr 中运行的 Neovim：按标签页显示的全高侧边栏，以及与编码 Agent 之间真正的往返交流——就正在查看的代码提问、无需离开 Neovim 即可阅读回答，并逐步查看 Agent 所做的修改。"
   },
   "jtnovellis/herdr-worktree-setup": {
     "en": "herdr plugin: make a new git worktree immediately usable — copy .env & dev state, clone dependency caches (APFS/reflink), mise trust, direnv allow, install deps, with a live TUI",
@@ -4618,5 +4618,85 @@
     "en": "Reliable multi-agent orchestration for the Herdr herd. Durable tasks, authoritative worker reports, and a wait that cannot hang.",
     "ja": "Herdrの群れ向けの、信頼性の高いマルチエージェントオーケストレーション。永続化されたタスク、権威あるワーカーレポート、ハングしない待機処理を提供する",
     "zh": "面向 Herdr 群体的可靠多 Agent 编排。提供持久化任务、权威的 worker 报告，以及不会卡死的等待机制"
+  },
+  "zlxlabs/herdweb": {
+    "en": "Monitor and drive your coding agents from your phone",
+    "ja": "スマホからコーディングエージェントを監視・操作できます。",
+    "zh": "在手机上监控并操控你的编码 Agent。"
+  },
+  "abhishek944/herdr-pets": {
+    "en": "A transparent desktop village for live Herdr agents",
+    "ja": "稼働中の Herdr エージェントたちを、デスクトップに浮かぶ透明な村として表示します。",
+    "zh": "以一个透明的桌面村庄，展示正在运行的 Herdr Agent。"
+  },
+  "vjeantet/herdr-mission-control": {
+    "en": "Mission Control for herdr: one key, every pane of the workspace as a live tile grid grouped by tab; pick one to switch to it",
+    "ja": "herdr 用のミッションコントロール。1 キーで、ワークスペースの全ペインをタブごとにまとめたライブタイルグリッドとして表示し、選んで切り替えられます。",
+    "zh": "herdr 的 Mission Control：按一个键，将工作区所有窗格按标签页分组，以实时平铺网格展示，选中即可切换过去。"
+  },
+  "ardasevinc/herdr-codex-bridge": {
+    "en": "Native Herdr pane identity for Codex sessions using a centralized app-server",
+    "ja": "一元化されたアプリサーバーを使い、Codex セッションに Herdr ネイティブのペイン識別情報を割り当てます。",
+    "zh": "通过一个集中式的 app-server，为 Codex 会话赋予原生的 Herdr 窗格身份标识。"
+  },
+  "danieljvdm/herdr-composer": {
+    "en": "Compose tasks, attach context, and launch coding agents in isolated Herdr workspaces",
+    "ja": "タスクを組み立て、コンテキストを添付し、隔離された Herdr ワークスペースでコーディングエージェントを起動できます。",
+    "zh": "编排任务、附加上下文，并在隔离的 Herdr 工作区中启动编码 Agent。"
+  },
+  "teasec4/herdr-mobile-app": {
+    "en": "herdr mobile plugin",
+    "ja": "herdr のモバイルアプリ用プラグインです。",
+    "zh": "herdr 的移动端应用插件。"
+  },
+  "aorumbayev/herdr-hyprland": {
+    "en": "Hyprland-style pane and tab keys for herdr. No Hyprland required — or involved.",
+    "ja": "herdr に Hyprland 風のペイン・タブ操作キーを追加します。Hyprland は不要で、一切関与しません。",
+    "zh": "为 herdr 带来 Hyprland 风格的窗格与标签页快捷键，无需安装 Hyprland，也与之无关。"
+  },
+  "asermax/herdr-tab-command": {
+    "en": "Starts an agent or runs a command in a new tab, based on the name you give the tab",
+    "ja": "新しいタブに付けた名前に応じて、エージェントを起動したりコマンドを実行したりします。",
+    "zh": "根据你给新标签页起的名字，自动启动 Agent 或运行相应命令。"
+  },
+  "huketo/herdr-sheep": {
+    "en": "Watch your Herdr coding agents as a flock of animated ASCII sheep",
+    "ja": "Herdr のコーディングエージェントを、アニメーションする ASCII アートの羊の群れとして眺められます。",
+    "zh": "把 Herdr 的编码 Agent 变成一群会动的 ASCII 羊，供你观赏。"
+  },
+  "kewah/herdr-tab-titles": {
+    "en": "Herdr plugin that names panes and tabs after the first coding-agent prompt.",
+    "ja": "最初のコーディングエージェントへのプロンプトをもとに、ペインとタブに名前を付ける Herdr プラグインです。",
+    "zh": "根据发给编码 Agent 的第一条提示词，为窗格和标签页命名的 Herdr 插件。"
+  },
+  "peria-ai/precc-herdr-plugin": {
+    "en": "PRECC plugin for herdr: cross-agent token-savings telemetry + one-touch PRECC setup",
+    "ja": "herdr 用の PRECC プラグイン。エージェント横断でのトークン節約状況を計測し、PRECC のセットアップをワンタッチで行えます。",
+    "zh": "herdr 的 PRECC 插件：跨 Agent 统计 token 节省情况的遥测，并支持一键完成 PRECC 设置。"
+  },
+  "ryus1234/provider-usage": {
+    "en": "Provider usage and quota bar for Herdr",
+    "ja": "Herdr 用の、プロバイダーの使用量とクォータを表示するバーです。",
+    "zh": "Herdr 的服务商用量与配额显示条。"
+  },
+  "softwarecrafts/herdr-tab-new": {
+    "en": "Resume or start an agent session in the herdr workspace for this project — a herdr plugin, and a CLI for terminals outside herdr",
+    "ja": "このプロジェクトの herdr ワークスペースで、エージェントセッションを再開または開始します。herdr プラグインであると同時に、herdr の外のターミナルからも使える CLI でもあります。",
+    "zh": "在此项目的 herdr 工作区中恢复或启动一个 Agent 会话——既是 herdr 插件，也是可在 herdr 之外的终端使用的 CLI。"
+  },
+  "solidsnakedev/herdr-jump": {
+    "en": "Fuzzy workspace, pane and tab pickers for herdr, plus a last-workspace toggle",
+    "ja": "herdr 用のワークスペース・ペイン・タブのあいまい検索ピッカーに加え、直前のワークスペースへ切り替えるトグルも備えています。",
+    "zh": "为 herdr 提供工作区、窗格与标签页的模糊搜索选择器，外加一个切换到上一个工作区的开关。"
+  },
+  "solidsnakedev/herdr-pane-tools": {
+    "en": "Vim-aware pane navigation, aerospace-style pane moves and tmux-style rotation for herdr",
+    "ja": "herdr 向けに、Vim を意識したペイン移動、aerospace 風のペイン移動、tmux 風のローテーションを提供します。",
+    "zh": "为 herdr 提供感知 Vim 的窗格导航、aerospace 风格的窗格移动，以及 tmux 风格的窗格轮换。"
+  },
+  "WillHeather/herdr-grid": {
+    "en": "Tile a herdr workspace's agent panes into a screen-sized grid, and put them back.",
+    "ja": "herdr ワークスペースのエージェントペインを画面いっぱいのグリッドに敷き詰め、また元に戻せます。",
+    "zh": "将 herdr 工作区里的 Agent 窗格平铺成铺满屏幕的网格，也可以还原回去。"
   }
 }
