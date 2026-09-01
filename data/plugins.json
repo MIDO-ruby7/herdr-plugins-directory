@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 20:39 UTC",
+  "generated_at": "2026-09-01 20:41 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -1864,7 +1864,7 @@
       "also": [
         "review"
       ],
-      "pushed_at": "2026-09-01T20:15:06Z",
+      "pushed_at": "2026-09-01T20:39:42Z",
       "install": "herdr plugin install briankeegan1/herdkit"
     },
     {
@@ -2218,7 +2218,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-09-01T16:40:14Z",
+      "pushed_at": "2026-09-01T20:40:27Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
