@@ -3230,9 +3230,9 @@
     "zh": "🐑 面向 herdr Agent 的卡片墙动态流——一览整个羊群，放大查看单个 Agent 并回复，全部通过普通 SSH 完成"
   },
   "Tomyail/herdr-connect": {
-    "en": "Open-source LAN companion app for discovering and connecting to Herdr installations",
-    "ja": "Herdrのインストール先をLAN内で発見・接続するための、オープンソースのコンパニオンアプリ",
-    "zh": "用于在局域网内发现并连接 Herdr 实例的开源配套应用"
+    "en": "Monitor and control your Herdr AI coding agents from your iPhone with this mobile companion app — read output, send follow-ups, and get notified when jobs finish, privately over LAN or Tailscale. No cloud, no accounts.",
+    "ja": "この iPhone 用モバイルコンパニオンアプリで、Herdr の AI コーディングエージェントを監視・操作できます——出力を読み、追加の指示を送り、ジョブ完了時には通知を受け取れます。LAN や Tailscale 経由でプライベートに動作し、クラウドもアカウントも不要です。",
+    "zh": "通过这款 iPhone 移动伴侣应用监控并操控你的 Herdr AI 编码 Agent——查看输出、发送后续指令，并在任务完成时收到通知。通过局域网或 Tailscale 私密运行，无需云端，也无需账号。"
   },
   "husniadil/herdr-swipe": {
     "en": "Trackpad gestures for Herdr: move between panes, tabs and spaces, and jump to the agent waiting on you",
@@ -4620,9 +4620,9 @@
     "zh": "面向 Herdr 群体的可靠多 Agent 编排。提供持久化任务、权威的 worker 报告，以及不会卡死的等待机制"
   },
   "zlxlabs/herdweb": {
-    "en": "Monitor and drive your coding agents from your phone",
-    "ja": "スマホからコーディングエージェントを監視・操作できます。",
-    "zh": "在手机上监控并操控你的编码 Agent。"
+    "en": "Monitor and drive your coding agents from your phone.Voice Input, Paste Image, webhook notification, multi devices server support..",
+    "ja": "スマホからコーディングエージェントを監視・操作できます。音声入力、画像の貼り付け、Webhook 通知、複数デバイス・サーバー対応。",
+    "zh": "在手机上监控并操控你的编码 Agent。支持语音输入、粘贴图片、Webhook 通知，以及多设备/多服务器。"
   },
   "abhishek944/herdr-pets": {
     "en": "A transparent desktop village for live Herdr agents",
@@ -4650,9 +4650,9 @@
     "zh": "herdr 的移动端应用插件。"
   },
   "aorumbayev/herdr-hyprland": {
-    "en": "Hyprland-style pane and tab keys for herdr. No Hyprland required — or involved.",
-    "ja": "herdr に Hyprland 風のペイン・タブ操作キーを追加します。Hyprland は不要で、一切関与しません。",
-    "zh": "为 herdr 带来 Hyprland 风格的窗格与标签页快捷键，无需安装 Hyprland，也与之无关。"
+    "en": "Hyprland inspired controls for herdr",
+    "ja": "Hyprland に着想を得た、herdr 用の操作方法です。",
+    "zh": "受 Hyprland 启发，为 herdr 带来的操作方式。"
   },
   "asermax/herdr-tab-command": {
     "en": "Starts an agent or runs a command in a new tab, based on the name you give the tab",
@@ -4698,5 +4698,40 @@
     "en": "Tile a herdr workspace's agent panes into a screen-sized grid, and put them back.",
     "ja": "herdr ワークスペースのエージェントペインを画面いっぱいのグリッドに敷き詰め、また元に戻せます。",
     "zh": "将 herdr 工作区里的 Agent 窗格平铺成铺满屏幕的网格，也可以还原回去。"
+  },
+  "cyperx84/herdr-tab-jump": {
+    "en": "Focus herdr tab N by position, from any keybinding — split your number row between tabs and workspaces",
+    "ja": "任意のキーバインドから、位置で指定した herdr のタブ N にフォーカスします——数字キーの列をタブとワークスペースに割り振れます。",
+    "zh": "通过任意快捷键，按位置聚焦到 herdr 的第 N 个标签页——可以把数字键分配给标签页和工作区。"
+  },
+  "anyaachan/herdr-claude-usage": {
+    "en": "Global Claude Code plan usage in Herdr: tab-bar summary + popup dashboard. statusLine-powered, multi-account aware.",
+    "ja": "Herdr でグローバルな Claude Code プランの使用状況を確認できます。タブバーでの要約表示とポップアップダッシュボードを備え、statusLine を利用してマルチアカウントにも対応します。",
+    "zh": "在 Herdr 中查看 Claude Code 套餐的全局用量：标签栏摘要 + 弹出式仪表盘，基于 statusLine 实现，支持多账号。"
+  },
+  "DillonWall/herdr-agent-numbers": {
+    "en": "Number herdr's agents panel to match focus_agent (prefix+1..9).",
+    "ja": "herdr のエージェントパネルに番号を振り、focus_agent（prefix+1〜9）に対応させます。",
+    "zh": "为 herdr 的 Agent 面板编号，与 focus_agent（前缀+1..9）保持一致。"
+  },
+  "huketo/herdr-hitl": {
+    "en": "Block a Herdr coding agent on a human decision, delivered to your phone over Telegram or Discord",
+    "ja": "Herdr のコーディングエージェントを、人の判断待ちで一時停止させ、Telegram や Discord 経由でスマホに通知します。",
+    "zh": "让 Herdr 的编码 Agent 在等待人工决策时暂停，并通过 Telegram 或 Discord 推送到你的手机。"
+  },
+  "jovylle/herdr-pane-mark": {
+    "en": "Herdr plugin — custom $mark under Agents via palette/popup (no fork)",
+    "ja": "Herdr プラグイン——パレット/ポップアップから、Agents 配下にカスタムの $mark を設定できます（フォーク不要）。",
+    "zh": "Herdr 插件——通过命令面板/弹窗，在 Agents 下设置自定义的 $mark（无需 fork）。"
+  },
+  "lancodev/herdr-jump": {
+    "en": "Two-pane fuzzy switcher for herdr workspaces and agents, with vim keys",
+    "ja": "herdr のワークスペースとエージェントを、vim 風キー操作の 2 ペインあいまい検索スイッチャーで切り替えられます。",
+    "zh": "为 herdr 的工作区与 Agent 提供双窗格模糊搜索切换器，支持 vim 按键操作。"
+  },
+  "skellleks/lasso": {
+    "en": "Review pane for herdr: per-agent diffs with syntax highlighting and inline comments sent back to the agent",
+    "ja": "herdr 用のレビューペイン。エージェントごとの差分をシンタックスハイライト付きで表示し、インラインコメントをエージェントへ送り返せます。",
+    "zh": "herdr 的审查窗格：按 Agent 展示带语法高亮的差异，并可将行内评论发回给该 Agent。"
   }
 }
