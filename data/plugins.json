@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01 20:41 UTC",
+  "generated_at": "2026-09-01 21:02 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -259,7 +259,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 589,
+      "stars": 590,
       "language": "TypeScript",
       "tags": [
         "agent-orchestration",
@@ -1864,7 +1864,7 @@
       "also": [
         "review"
       ],
-      "pushed_at": "2026-09-01T20:39:42Z",
+      "pushed_at": "2026-09-01T20:55:00Z",
       "install": "herdr plugin install briankeegan1/herdkit"
     },
     {
@@ -2218,7 +2218,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-09-01T20:40:27Z",
+      "pushed_at": "2026-09-01T20:41:23Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -3597,7 +3597,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-09-01T20:36:00Z",
+      "pushed_at": "2026-09-01T20:55:26Z",
       "install": "herdr plugin install Poor-Plebs/herdr-remote-panes"
     },
     {
@@ -6400,7 +6400,7 @@
       "also": [
         "naming"
       ],
-      "pushed_at": "2026-09-01T16:55:59Z",
+      "pushed_at": "2026-09-01T20:52:03Z",
       "install": "herdr plugin install funsaized/herdr-mise"
     },
     {
