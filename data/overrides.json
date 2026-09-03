@@ -413,5 +413,50 @@
   },
   "kewah/herdr-tab-titles": {
     "category": "naming"
+  },
+  "permgps/herdr-telegram-agents": {
+    "category": "remote"
+  },
+  "chrisg32/tsk": {
+    "category": "monitor",
+    "add_tags": [
+      "todo"
+    ]
+  },
+  "killerz3/herdr-agent-titler": {
+    "category": "naming"
+  },
+  "parker-brown-family/omarchy-herd": {
+    "category": "monitor"
+  },
+  "sagmans/herdr-pickers": {
+    "category": "finder"
+  },
+  "daocoding/herdr-claude-lifecycle": {
+    "category": "monitor"
+  },
+  "enisbu/herdr-kitty-theme-sync": {
+    "category": "naming"
+  },
+  "Haichiu/herdr-pane-id-border": {
+    "category": "naming"
+  },
+  "HalloSouf/subherd": {
+    "category": "monitor"
+  },
+  "jefflau/herdr-webhook": {
+    "category": "notify"
+  },
+  "mike-bronner/herdr-plugin-recent-spaces": {
+    "category": "navigate"
+  },
+  "RickyMarou/herdr-display-workspace": {
+    "category": "naming"
+  },
+  "utahta/herdr-hop": {
+    "category": "finder"
+  },
+  "viko16/herdr-git-dirty": {
+    "category": "files"
   }
 }
