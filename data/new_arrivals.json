@@ -24,6 +24,8 @@
   "aorumbayev/herdr-hyprland": "2026-08-31",
   "ardasevinc/herdr-codex-bridge": "2026-08-31",
   "asermax/herdr-tab-command": "2026-09-01",
+  "btj93/herdr-tabline": "2026-09-04",
+  "btj93/herdr-tokens": "2026-09-04",
   "caner-akca/herdr-plugin-atomic-workflows": "2026-08-29",
   "cantona/herdr-triggers": "2026-09-02",
   "chasereyn/Vincent": "2026-09-03",
@@ -44,6 +46,7 @@
   "fulanto/herdr-oncall": "2026-09-02",
   "gwelican/herdr-keybinds": "2026-08-30",
   "happyeric77/agent-keep-awake": "2026-08-30",
+  "hotnugs/herdr-emoji-time": "2026-09-04",
   "huketo/herdr-cron": "2026-09-02",
   "huketo/herdr-hitl": "2026-09-01",
   "huketo/herdr-sheep": "2026-08-31",
@@ -55,6 +58,7 @@
   "jovylle/herdr-session-title-name": "2026-08-28",
   "jtnovellis/herdr-nvim": "2026-08-28",
   "juezhong/herdr-positional-tabs": "2026-08-30",
+  "jwanga/herdr-plugin-github-status": "2026-09-04",
   "kewah/herdr-tab-titles": "2026-08-31",
   "killerz3/herdr-agent-titler": "2026-09-03",
   "lancodev/herdr-checkpoint": "2026-09-02",
@@ -102,6 +106,8 @@
   "vjeantet/herdr-mission-control": "2026-08-31",
   "wavrin/herdr-ferry": "2026-08-28",
   "yojahny55/herdr-space-groups": "2026-08-29",
+  "yuloop/herdr-plugin-pane-move": "2026-09-04",
+  "yuloop/herdr-plugin-win-terminal": "2026-09-04",
   "zlxlabs/herdweb": "2026-08-31",
   "zqkra/cbds": "2026-08-30"
 }
