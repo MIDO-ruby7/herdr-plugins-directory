@@ -458,5 +458,77 @@
   },
   "viko16/herdr-git-dirty": {
     "category": "files"
+  },
+  "MovieHolic-Plex/herdr-wish": {
+    "category": "worktree"
+  },
+  "hhdebb/herdr-radar": {
+    "category": "monitor"
+  },
+  "dkbo/herdr-model-badge": {
+    "category": "monitor"
+  },
+  "parker-brown-family/omarchy-crook": {
+    "category": "monitor"
+  },
+  "akshat12/herdr-muse": {
+    "category": "monitor"
+  },
+  "alkevintan/deepseek-counter-herdr": {
+    "category": "cost"
+  },
+  "assawalhy/herdr-stay-awake": {
+    "category": "automation"
+  },
+  "Austinsuyoyo/herdr-autoreload": {
+    "category": "automation"
+  },
+  "b12o/herdr-pane-autorename": {
+    "category": "naming"
+  },
+  "bonkey/herdr-link-browser": {
+    "category": "text"
+  },
+  "bshearrer/herdr-project-filter": {
+    "category": "monitor"
+  },
+  "btj93/herdr-tabline": {
+    "category": "naming"
+  },
+  "btj93/herdr-tokens": {
+    "category": "naming"
+  },
+  "Cainiaooo/sessmark": {
+    "category": "session"
+  },
+  "gcgo/herdr-plugin-pane-id-namer": {
+    "category": "naming"
+  },
+  "Ghost-LZW/pane-identity": {
+    "category": "naming"
+  },
+  "jone/herdr-wrangler": {
+    "category": "navigate"
+  },
+  "jpwallace22/herdr-glab-status": {
+    "category": "forge"
+  },
+  "parker-brown-family/herdr-auto-warm-cache": {
+    "category": "cost"
+  },
+  "RickyMarou/herdr-numbered-tabs": {
+    "category": "naming"
+  },
+  "Tatendaz/herdr-launcher": {
+    "category": "other"
+  },
+  "testy-cool/herdr-sidebar-config": {
+    "category": "layout"
+  },
+  "yuloop/herdr-plugin-pane-move": {
+    "category": "navigate"
+  },
+  "yuloop/herdr-plugin-win-terminal": {
+    "category": "automation"
   }
 }
