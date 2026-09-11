@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11 13:47 UTC",
+  "generated_at": "2026-09-11 13:52 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -259,7 +259,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
       "note": "",
-      "stars": 934,
+      "stars": 935,
       "language": "TypeScript",
       "tags": [
         "agent-orchestration",
@@ -832,6 +832,33 @@
       "install": "herdr plugin install paulbkim-dev/vim-herdr-navigation"
     },
     {
+      "full_name": "powerfooI/herdr-studio",
+      "name": "herdr-studio",
+      "owner": "powerfooI",
+      "url": "https://github.com/powerfooI/herdr-studio",
+      "description": "A web client for Herdr with a first-class mobile experience, browser terminals, workspace and worktree management, file and diff viewers, and AI agent session inspection.",
+      "note": "",
+      "stars": 99,
+      "language": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "dogfooding",
+        "git-worktree",
+        "herdr-client",
+        "mobile-friendly",
+        "terminal-emulator",
+        "typescript",
+        "web-terminal"
+      ],
+      "category": "worktree",
+      "also": [
+        "remote",
+        "review"
+      ],
+      "pushed_at": "2026-09-11T12:49:22Z",
+      "install": "herdr plugin install powerfooI/herdr-studio"
+    },
+    {
       "full_name": "levi-qiao/herdr-agent-quota",
       "name": "herdr-agent-quota",
       "owner": "levi-qiao",
@@ -856,33 +883,6 @@
       ],
       "pushed_at": "2026-09-11T05:36:27Z",
       "install": "herdr plugin install levi-qiao/herdr-agent-quota"
-    },
-    {
-      "full_name": "powerfooI/herdr-studio",
-      "name": "herdr-studio",
-      "owner": "powerfooI",
-      "url": "https://github.com/powerfooI/herdr-studio",
-      "description": "A web client for Herdr with a first-class mobile experience, browser terminals, workspace and worktree management, file and diff viewers, and AI agent session inspection.",
-      "note": "",
-      "stars": 98,
-      "language": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "dogfooding",
-        "git-worktree",
-        "herdr-client",
-        "mobile-friendly",
-        "terminal-emulator",
-        "typescript",
-        "web-terminal"
-      ],
-      "category": "worktree",
-      "also": [
-        "remote",
-        "review"
-      ],
-      "pushed_at": "2026-09-11T12:49:22Z",
-      "install": "herdr plugin install powerfooI/herdr-studio"
     },
     {
       "full_name": "osolmaz/ghzinga",
@@ -2490,7 +2490,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-09-11T13:44:20Z",
+      "pushed_at": "2026-09-11T13:52:02Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -3435,7 +3435,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-09-11T12:38:03Z",
+      "pushed_at": "2026-09-11T13:47:47Z",
       "install": "herdr plugin install Poor-Plebs/herdr-remote-panes"
     },
     {
