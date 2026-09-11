@@ -15,9 +15,9 @@
     "zh": "面向 herdr 的只读文件查看器，支持感知 Git 状态。键盘驱动的 TUI（同时支持鼠标）：树形结构 + 内容窗格，支持差异对比、Markdown 渲染和语法高亮"
   },
   "persiyanov/herdr-reviewr": {
-    "en": "A code-review + file-viewer sidebar for herdr — comment on an agent's diff, send it back. Plus a read-only view of the PR, its checks, and comments.",
-    "ja": "herdr向けのコードレビュー＋ファイルビューアのサイドバー。エージェントの差分にコメントして差し戻せる。PRとそのチェック・コメントの読み取り専用表示も付属",
-    "zh": "herdr 的代码审查 + 文件查看器侧边栏——对 Agent 的差异发表评论并打回。同时提供 PR 及其检查、评论的只读视图"
+    "en": "A code review + file viewer sidebar for herdr. Comment on a diff and send back to agent. Inspect diffs, files, and a PR state.",
+    "ja": "herdr 用のコードレビュー＋ファイルビューアのサイドバーです。差分にコメントしてエージェントへ送り返せます。差分・ファイル・PR の状態を確認できます。",
+    "zh": "herdr 的代码审查 + 文件查看器侧边栏。可在差异上添加评论并发回给 Agent，还能查看差异、文件与 PR 状态。"
   },
   "cloudmanic/herdr-plus": {
     "en": "An extension for herdr, built as a first-class herdr plugin — a collection of tools that make it better: Projects and Quick Actions.",
@@ -245,9 +245,9 @@
     "zh": "herdr 插件：追踪每个 Claude Code 会话产生的 GitHub PR，附带 gh 状态和操作"
   },
   "qu8n/herdr-automatic-rename": {
-    "en": "Navigate herdr faster with smart tab names and 1-9 jump labels for workspaces/tabs/agents",
-    "ja": "スマートなタブ名と、ワークスペース/タブ/エージェント向けの1〜9ジャンプラベルで、herdrをより速く移動できる",
-    "zh": "通过智能标签页命名，以及面向工作区/标签页/Agent 的 1-9 跳转标签，更快地在 herdr 中导航"
+    "en": "Smart tab names and numbered labels for a smooth herdr navigation",
+    "ja": "スムーズな herdr のナビゲーションのために、スマートなタブ名と番号付きラベルを提供します。",
+    "zh": "为流畅的 herdr 导航提供智能标签页名称与编号标签。"
   },
   "yankewei/herdr-focus-notify": {
     "en": "Clickable macOS notifications for Herdr agents. Sends a native toast when an agent becomes blocked or done; clicking it brings the terminal forward and focuses the correct Herdr pane.",
@@ -810,9 +810,9 @@
     "zh": "允许为新工作树指定自定义路径，并像 Claude CLI 一样遵循 `.worktreeinclude` 文件"
   },
   "simoncrypta/agentic-dev-setup": {
-    "en": "Shareable Herdr + worktrunk dev layout for agentic coding workflows",
-    "ja": "エージェント型コーディングワークフロー向けの、共有可能なHerdr + worktrunkの開発レイアウト",
-    "zh": "面向 Agent 化编程工作流的、可共享的 Herdr + worktrunk 开发布局"
+    "en": "Herdr-based agentic development environment",
+    "ja": "Herdr をベースにした、エージェント駆動の開発環境です。",
+    "zh": "基于 Herdr 的 Agent 化开发环境。"
   },
   "StructuPath/herdr-guard": {
     "en": "Cross-agent command policy for Herdr: audit, alert, and interrupt dangerous shell commands",
@@ -3210,9 +3210,9 @@
     "zh": "在不脱离实际代码库的前提下，最大化 Agent 化开发效率的 herdr 插件"
   },
   "levi-qiao/herdr-agent-quota": {
-    "en": "Credential-scoped AI quota, context, and cache in Herdr for Claude, Codex, Grok, Agy, OpenCode, Pi, and OMP.",
-    "ja": "Herdr 向けの、認証情報単位でスコープされた AI クォータ・コンテキスト・キャッシュ表示——Claude・Codex・Grok・Agy・OpenCode・Pi・OMP に対応",
-    "zh": "面向 Herdr 的、按凭据划分范围的 AI 配额、上下文与缓存——支持 Claude、Codex、Grok、Agy、OpenCode、Pi 和 OMP"
+    "en": "Credential-scoped AI quota, context, and cache in Herdr for Claude, Codex, Grok, Agy, OpenCode, Pi, omp, and Devin.",
+    "ja": "Herdr 向けの、認証情報単位でスコープされた AI クォータ・コンテキスト・キャッシュ表示——Claude・Codex・Grok・Agy・OpenCode・Pi・omp・Devin に対応",
+    "zh": "面向 Herdr 的、按凭据划分范围的 AI 配额、上下文与缓存——支持 Claude、Codex、Grok、Agy、OpenCode、Pi、omp 和 Devin"
   },
   "catoncat/herdr-trail": {
     "en": "Herd-wide shared memos for herdr: agents jot follow-ups, humans manage one global list, every entry jumps back to its source conversation",
@@ -4060,9 +4060,9 @@
     "zh": "将你所创建的所有未关闭拉取请求以停靠面板形式展示，并按你需要处理的紧迫程度进行颜色标注。一个 Herdr 插件"
   },
   "jirathip-dev/corral": {
-    "en": "Read-only fleet monitor for herdr coding agents (iOS + egui)",
-    "ja": "herdr のコーディングエージェント群を読み取り専用で監視できます（iOS・egui 製）。",
-    "zh": "面向 herdr 编码 Agent 群的只读监控工具（基于 iOS 和 egui）。"
+    "en": "Read-only fleet monitor for herdr coding agents",
+    "ja": "herdr のコーディングエージェント群を読み取り専用で監視できます。",
+    "zh": "面向 herdr 编码 Agent 群的只读监控工具。"
   },
   "KarthusLorin/herdr-turn-coordinator": {
     "en": "Preserve interactive Herdr agent TUIs without model-driven status polling",
@@ -4645,9 +4645,9 @@
     "zh": "编排任务、附加上下文，并在隔离的 Herdr 工作区中启动编码 Agent。"
   },
   "teasec4/herdr-mobile-app": {
-    "en": "Control herdr AI agents from your phone",
-    "ja": "スマホから herdr の AI エージェントを操作できます。",
-    "zh": "在手机上操控 herdr 的 AI Agent。"
+    "en": "Native companion app + lightweight Go relay: stream live agent terminal output to your phone, check statuses, and send prompts — over LAN, Tailscale, or Funnel",
+    "ja": "ネイティブのコンパニオンアプリと軽量な Go 製リレーです。エージェントのターミナル出力をスマホへライブ配信し、ステータス確認やプロンプト送信ができます——LAN・Tailscale・Funnel 経由に対応。",
+    "zh": "原生伴侣应用 + 轻量级 Go 中继：将 Agent 终端输出实时推送到手机，可查看状态并发送提示词——支持通过局域网、Tailscale 或 Funnel 连接。"
   },
   "aorumbayev/herdr-hyprland": {
     "en": "Hyprland inspired controls for herdr",
@@ -4903,5 +4903,330 @@
     "en": "A lightweight Herdr plugin that shows uncommitted Git file counts in each Space.",
     "ja": "各 Space の未コミットの Git ファイル数を表示する、軽量な Herdr プラグインです。",
     "zh": "一个轻量级 Herdr 插件，显示每个 Space 中未提交的 Git 文件数量。"
+  },
+  "eugenioenko/ttt": {
+    "en": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+    "ja": "TTT Editor（Terminal Text Tool）——ターミナルで動く、VS Code・Zed・Sublime の本物の代替エディタです。GUI のような使い心地の TUI で、単一バイナリ・ゼロコンフィグで動作します。",
+    "zh": "TTT Editor（Terminal Text Tool）——一款可在终端中运行、真正能替代 VS Code、Zed 和 Sublime 的编辑器。这是一个操作体验如 GUI 般的 TUI，单一二进制文件，零配置。"
+  },
+  "arronKler/pairfob": {
+    "en": "The phone surface for Herdr. Codex, Claude, and Grok keep running on your computer; the phone opens those same live sessions. Pair once. The computer dials out — no inbound ports, no Tailscale.",
+    "ja": "Herdr のスマホ用インターフェースです。Codex・Claude・Grok はそのままパソコン上で動き続け、スマホからは同じ稼働中のセッションを開けます。ペアリングは一度だけ——パソコン側から発信する仕組みなので、受信ポートの開放も Tailscale も不要です。",
+    "zh": "Herdr 的手机端界面。Codex、Claude、Grok 依然在你的电脑上运行；手机端打开的是同一批实时会话。只需配对一次——由电脑主动外拨连接，无需开放入站端口，也不需要 Tailscale。"
+  },
+  "testy-cool/herdr-sidebar-config": {
+    "en": "Workspace → tab → agent sidebar preset for Herdr, with compact single-tab groups, readable task labels, and provider icons.",
+    "ja": "Herdr 用の、ワークスペース → タブ → エージェントというサイドバー構成のプリセットです。1 タブだけのグループをコンパクトにまとめ、読みやすいタスクラベルとプロバイダーアイコンを表示します。",
+    "zh": "面向 Herdr 的工作区 → 标签页 → Agent 侧边栏预设，将单标签分组显示得更紧凑，配有易读的任务标签和服务商图标。"
+  },
+  "MovieHolic-Plex/herdr-wish": {
+    "en": "Herdr plugin. Make a wish and omo commits a PR. omo-10 opens 10 worktrees.",
+    "ja": "Herdr プラグイン。願いごとを伝えると omo が PR をコミットします。omo-10 と唱えれば、worktree を 10 個開きます。",
+    "zh": "Herdr 插件。许下一个愿望，omo 就会提交一个 PR。执行 omo-10 会打开 10 个 worktree。"
+  },
+  "hhdebb/herdr-radar": {
+    "en": "Readable Herdr sidebar: which agent is working, waiting on you, or abandoned — with groups, worktree trees and activity order, herdr plugins",
+    "ja": "見やすい Herdr サイドバー。どのエージェントが作業中か、あなたの入力を待っているか、放置されているかを、グループ・worktree ツリー・アクティビティ順で表示する herdr プラグインです。",
+    "zh": "清晰易读的 Herdr 侧边栏：显示哪些 Agent 正在工作、等待你的操作，或已被搁置——按分组、worktree 树和活跃度排序展示，一个 herdr 插件。"
+  },
+  "maxguzenski/herdr-pr-watch": {
+    "en": "Herdr plugin: GitHub PR status of each workspace and agent pane in the sidebar",
+    "ja": "Herdr プラグイン：各ワークスペースとエージェントペインの GitHub PR ステータスをサイドバーに表示します。",
+    "zh": "Herdr 插件：在侧边栏显示每个工作区和 Agent 窗格对应的 GitHub PR 状态。"
+  },
+  "TinyWhite1997/herdr-flash-picker": {
+    "en": "Fast pane picker for Herdr with aligned one- or two-letter jump labels",
+    "ja": "1〜2 文字の整列したジャンプラベルで、すばやくペインを選べる Herdr 用ピッカーです。",
+    "zh": "为 Herdr 提供的快速窗格选择器，采用对齐的一到两字母跳转标签。"
+  },
+  "wazum/herdr-grazr": {
+    "en": "A simple and reliable auto account switcher for Claude Code: rotates to a fresh account before the 5-hour or weekly rate limit hits, so no pane ever stops at the usage quota. A Herdr plugin.",
+    "ja": "シンプルで信頼できる Claude Code 用のアカウント自動切り替えツールです。5 時間または週次のレート制限に達する前に別アカウントへローテーションし、使用量上限でペインが止まることをなくします。Herdr プラグインです。",
+    "zh": "一个简单可靠的 Claude Code 账号自动切换工具：在触及 5 小时或每周速率限制之前，自动轮换到新账号，让窗格永远不会因用量配额而停摆。是一个 Herdr 插件。"
+  },
+  "ArtMoreno/quota-deck": {
+    "en": "quota-deck: credential-scoped AI quota and context for Herdr on Windows, macOS, and Linux",
+    "ja": "quota-deck：Windows・macOS・Linux 上の Herdr で、認証情報単位の AI クォータとコンテキストを表示します。",
+    "zh": "quota-deck：在 Windows、macOS 和 Linux 上的 Herdr 中，显示按凭据划分范围的 AI 配额与上下文。"
+  },
+  "dibin666/herdr-remote": {
+    "en": "Remote browser access to your Herdr terminal workspaces",
+    "ja": "ブラウザから Herdr のターミナルワークスペースへリモートアクセスできます。",
+    "zh": "通过浏览器远程访问你的 Herdr 终端工作区。"
+  },
+  "dkbo/herdr-model-badge": {
+    "en": "herdr plugin: show each agent's model and reasoning effort in the agents sidebar",
+    "ja": "herdr プラグイン：エージェントサイドバーに、各エージェントのモデルと推論エフォートを表示します。",
+    "zh": "herdr 插件：在 Agent 侧边栏中显示每个 Agent 使用的模型及推理强度。"
+  },
+  "hotnugs/herdr-emoji-time": {
+    "en": "Emoji for your Herdr spaces, agents and tabs. Inject some fun into your terminal",
+    "ja": "Herdr のスペース・エージェント・タブに絵文字を付けられます。ターミナルにちょっとした遊び心を。",
+    "zh": "为你的 Herdr 空间、Agent 和标签页添加表情符号，给终端增添一点乐趣。"
+  },
+  "martebytes/herdr-mobile": {
+    "en": "Mobile-first web UI for Herdr: see your agents, attach to panes, chat with Claude Code and Codex from your phone",
+    "ja": "Herdr 用のモバイルファースト Web UI。スマホからエージェントを確認し、ペインにアタッチして、Claude Code や Codex とチャットできます。",
+    "zh": "面向 Herdr 的移动优先 Web UI：在手机上查看你的 Agent、连接窗格，并与 Claude Code、Codex 聊天。"
+  },
+  "naturalmoods/herdr-telegram-notify": {
+    "en": "Herdr plugin: Telegram notification when an agent finishes or gets blocked — session title, project, duration, token use and its last message — and your reply in the chat goes back to that agent.",
+    "ja": "Herdr プラグイン：エージェントが完了またはブロックされたときに Telegram へ通知します——セッションタイトル、プロジェクト、所要時間、トークン使用量、最後のメッセージを含みます。チャットで返信すれば、その内容はそのエージェントへ送り返されます。",
+    "zh": "Herdr 插件：当 Agent 完成或被阻塞时通过 Telegram 通知——包含会话标题、项目、耗时、token 用量及其最后一条消息。你在聊天中的回复也会发回给该 Agent。"
+  },
+  "parker-brown-family/omarchy-crook": {
+    "en": "Crook — which coding agent needs you, on the Omarchy bar. One icon that goes urgent the moment something is waiting on you, and a tray that says who.",
+    "ja": "Crook——どのコーディングエージェントがあなたを必要としているかを Omarchy バーに表示します。何かがあなたを待った瞬間にアイコンが緊急表示に変わり、トレイにはどのエージェントかが表示されます。",
+    "zh": "Crook——在 Omarchy 状态栏上显示哪个编码 Agent 正在等你。一旦有事情等待你处理，图标就会立刻变为紧急状态，托盘中会显示是哪一个。"
+  },
+  "spad-0x/herdr-mobile-pro": {
+    "en": "A high-performance, mobile-first PWA dashboard with a Cyber-Dark design for orchestrating Herdr and autonomous AI agents directly from your smartphone. Features secure HTTPS, speech-to-text dictation, vision uploads, and real-time semantic parsing of terminal outputs into a chat-centric interface.",
+    "ja": "Cyber-Dark デザインの、高性能でモバイルファーストな PWA ダッシュボード。スマホから直接 Herdr と自律型 AI エージェントをオーケストレーションできます。セキュアな HTTPS、音声入力、画像アップロード、ターミナル出力をチャット中心のインターフェースへリアルタイムに意味解析する機能を備えます。",
+    "zh": "一款高性能、移动优先的 PWA 仪表盘，采用 Cyber-Dark 设计风格，可直接从智能手机编排 Herdr 与自主 AI Agent。具备安全 HTTPS、语音听写输入、图片上传，以及将终端输出实时语义解析为聊天式界面的能力。"
+  },
+  "TawfiqAbubaker/scoopr": {
+    "en": "Herdr plugin for copying anything to the terminal without using the mouse, inspired by extrakto for tmux.",
+    "ja": "マウスを使わずに何でもターミナルへコピーできる Herdr プラグインです。tmux の extrakto に着想を得ています。",
+    "zh": "无需使用鼠标即可将任意内容复制到终端的 Herdr 插件，灵感来自 tmux 的 extrakto。"
+  },
+  "tupton/herdr-worktree-include": {
+    "en": "Symlink or copy untracked files to git worktrees created by herdr.",
+    "ja": "herdr が作成した git worktree に、未追跡のファイルをシンボリックリンクまたはコピーします。",
+    "zh": "将未跟踪的文件以符号链接或复制的方式引入 herdr 创建的 git worktree。"
+  },
+  "8liang/herdr-gotify": {
+    "en": "",
+    "ja": "",
+    "zh": ""
+  },
+  "akshat12/herdr-muse": {
+    "en": "Herdr integration for Muse Code: idle/working/blocked pane state via lifecycle hooks (no Herdr fork needed)",
+    "ja": "Muse Code 用の Herdr 連携。ライフサイクルフックを通じて、ペインの idle・working・blocked 状態を取得します（Herdr のフォークは不要）。",
+    "zh": "面向 Muse Code 的 Herdr 集成：通过生命周期 hook 获取窗格的 idle/working/blocked 状态（无需 fork Herdr）。"
+  },
+  "Aktrov/herdr-tts": {
+    "en": "Herdr plugin that speaks the selected terminal text aloud in a natural neural voice (Piper) — right-click or a shortcut, with a stop key.",
+    "ja": "選択したターミナルのテキストを、自然なニューラル音声（Piper）で読み上げる Herdr プラグインです。右クリックまたはショートカットで実行でき、停止用のキーもあります。",
+    "zh": "一个 Herdr 插件，可用自然的神经网络语音（Piper）朗读选中的终端文本——右键点击或使用快捷键触发，并配有停止键。"
+  },
+  "alkevintan/deepseek-counter-herdr": {
+    "en": "DeepSeek API credit in the herdr statusline — top-up spent, balance left, and today's pace toward a level month.",
+    "ja": "herdr のステータスラインに DeepSeek API のクレジットを表示します——チャージ済み額、残高、そして今月のペースが平常運転かどうかを確認できます。",
+    "zh": "在 herdr 状态栏中显示 DeepSeek API 的额度信息——已充值金额、剩余余额，以及今日消耗速度是否符合平稳月度节奏。"
+  },
+  "assawalhy/herdr-stay-awake": {
+    "en": "Keeps the machine from sleeping while any herdr agent pane is working (Linux, macOS, Windows, and WSL)",
+    "ja": "herdr のエージェントペインがどれか作業中の間、マシンがスリープしないようにします（Linux・macOS・Windows・WSL 対応）。",
+    "zh": "只要有任意 herdr Agent 窗格在工作，就阻止机器进入睡眠（支持 Linux、macOS、Windows 和 WSL）。"
+  },
+  "Austinsuyoyo/herdr-autoreload": {
+    "en": "Reload herdr's config.toml the moment you save it, and toast the diagnostics when an edit is rejected",
+    "ja": "herdr の config.toml を保存した瞬間にリロードし、編集内容が拒否された場合には診断結果をトースト表示します。",
+    "zh": "在保存的瞬间自动重新加载 herdr 的 config.toml，若修改被拒绝，会以 toast 提示诊断信息。"
+  },
+  "b12o/herdr-pane-autorename": {
+    "en": "Herdr plugin that autorenames panes with the name of the current running process.",
+    "ja": "現在実行中のプロセス名で、ペインを自動的にリネームする Herdr プラグインです。",
+    "zh": "根据当前运行的进程名称，自动重命名窗格的 Herdr 插件。"
+  },
+  "bonkey/herdr-dup-tab": {
+    "en": "Herdr plugin: duplicate the focused pane's running command into a new tab",
+    "ja": "Herdr プラグイン：フォーカス中のペインで実行しているコマンドを、新しいタブに複製します。",
+    "zh": "Herdr 插件：将当前聚焦窗格正在运行的命令复制到新标签页中。"
+  },
+  "bonkey/herdr-link-browser": {
+    "en": "Herdr plugin: Ctrl-click an http(s) URL to open it in terminal-browser as a split beside the pane",
+    "ja": "Herdr プラグイン：http(s) の URL を Ctrl クリックすると、ペインの隣にスプリットした terminal-browser で開きます。",
+    "zh": "Herdr 插件：按住 Ctrl 点击 http(s) 链接，即可在窗格旁以分屏方式用 terminal-browser 打开。"
+  },
+  "bonkey/herdr-stack-icon": {
+    "en": "Herdr plugin: a technology icon (🍏 🤖 🦀 🐹 🟩 🐍) next to every workspace, detected from the repository's files",
+    "ja": "Herdr プラグイン：リポジトリのファイルから検出した技術スタックのアイコン（🍏 🤖 🦀 🐹 🟩 🐍）を、各ワークスペースの横に表示します。",
+    "zh": "Herdr 插件：根据仓库文件自动检测技术栈，在每个工作区旁显示对应的技术图标（🍏 🤖 🦀 🐹 🟩 🐍）。"
+  },
+  "bonkey/herdr-wt-purpose": {
+    "en": "Herdr plugin: worktree from a purpose or ticket URL, branch named by Apple's on-device model, scaffolded in the background",
+    "ja": "Herdr プラグイン：目的やチケットの URL から worktree を作成し、Apple のオンデバイスモデルがブランチ名を付け、バックグラウンドで足場を組み立てます。",
+    "zh": "Herdr 插件：根据目的说明或工单 URL 创建 worktree，由 Apple 的设备端模型命名分支，并在后台完成脚手架搭建。"
+  },
+  "bshearrer/herdr-project-filter": {
+    "en": "Scope herdr's Agents sidebar to one git repository at a time.",
+    "ja": "herdr の Agents サイドバーを、一度に 1 つの git リポジトリだけに絞り込めます。",
+    "zh": "将 herdr 的 Agents 侧边栏一次限定显示为单个 git 仓库。"
+  },
+  "btj93/herdr-tabline": {
+    "en": "Render Herdr tab labels with safe templates and project-aware profiles.",
+    "ja": "安全なテンプレートとプロジェクトを認識するプロファイルで、Herdr のタブラベルを描画します。",
+    "zh": "使用安全的模板和感知项目的配置文件来渲染 Herdr 的标签页标题。"
+  },
+  "btj93/herdr-tokens": {
+    "en": "Publishes workspace metadata tokens derived from agent status, so sidebar colours can vary by state.",
+    "ja": "エージェントの状態から導出したワークスペースのメタデータトークンを公開し、サイドバーの色を状態に応じて変えられるようにします。",
+    "zh": "根据 Agent 状态生成工作区元数据 token，让侧边栏颜色可以随状态变化。"
+  },
+  "Cainiaooo/sessmark": {
+    "en": "Local session tags and notes for coding agents, with an optional HerdR plugin",
+    "ja": "コーディングエージェント向けのローカルなセッションタグとメモです。HerdR プラグインとしても使えます。",
+    "zh": "为编码 Agent 提供本地会话标签与备注，也可作为 HerdR 插件使用。"
+  },
+  "corygforsythe/herdr-flight-radar": {
+    "en": "Herdr plugin: real-time ADS-B flight radar TUI backed by dump1090",
+    "ja": "Herdr プラグイン：dump1090 を利用したリアルタイム ADS-B フライトレーダー TUI です。",
+    "zh": "Herdr 插件：基于 dump1090 的实时 ADS-B 飞行雷达 TUI。"
+  },
+  "DongHyunnn/ai-share-usage-herdr": {
+    "en": "herdr plugin for AI Share Usage: shared Codex quota tracking in the herdr terminal",
+    "ja": "AI Share Usage 用の herdr プラグイン。herdr のターミナルで、共有 Codex クォータを追跡できます。",
+    "zh": "AI Share Usage 的 herdr 插件：在 herdr 终端中追踪共享的 Codex 配额。"
+  },
+  "Eslsamu/herdr-tasks": {
+    "en": "Agent-owned local task queues for Herdr, with a live read-only browser view.",
+    "ja": "Herdr 向けの、エージェントが所有するローカルタスクキューです。読み取り専用のライブブラウザビューも備えます。",
+    "zh": "为 Herdr 提供由 Agent 拥有的本地任务队列，并配有实时的只读浏览器视图。"
+  },
+  "ferretorres/herdr-plugin-space-colors": {
+    "en": "Peacock-style per-workspace colours for Herdr: the theme follows the focused workspace",
+    "ja": "Herdr 用の Peacock 風ワークスペース別カラー。テーマがフォーカス中のワークスペースに追従します。",
+    "zh": "为 Herdr 提供 Peacock 风格的按工作区着色：主题会跟随当前聚焦的工作区变化。"
+  },
+  "gcgo/herdr-plugin-pane-id-namer": {
+    "en": "Automatically generate an agent name and display it in the terminal.",
+    "ja": "エージェント名を自動生成し、ターミナルに表示します。",
+    "zh": "自动生成 Agent 名称并显示在终端中。"
+  },
+  "Ghost-LZW/pane-identity": {
+    "en": "Display pane IDs, hostnames, and labels in Herdr without modifying your agents.",
+    "ja": "エージェントを一切変更することなく、Herdr にペイン ID・ホスト名・ラベルを表示します。",
+    "zh": "无需修改你的 Agent，即可在 Herdr 中显示窗格 ID、主机名和标签。"
+  },
+  "hilmimuktitama/herdr-jira-peek": {
+    "en": "Read-only Jira Cloud previews from your current Herdr pane",
+    "ja": "現在の Herdr ペインから、Jira Cloud を読み取り専用でプレビューできます。",
+    "zh": "在当前 Herdr 窗格中，以只读方式预览 Jira Cloud 内容。"
+  },
+  "itsmistermoon/bindr": {
+    "en": "Herdr plugin for switching between named keybinding profiles and viewing/editing keybinds in a popup.",
+    "ja": "名前付きのキーバインドプロファイルを切り替えたり、ポップアップでキーバインドを閲覧・編集できる Herdr プラグインです。",
+    "zh": "用于在具名快捷键配置之间切换，并可在弹窗中查看/编辑快捷键的 Herdr 插件。"
+  },
+  "iYassr/shahi": {
+    "en": "Read agent conversations, answer permission prompts, and manage herdr sessions from your phone or browser.",
+    "ja": "スマホやブラウザから、エージェントとの会話を読んだり、権限確認への回答や herdr セッションの管理ができます。",
+    "zh": "在手机或浏览器上查看 Agent 对话、回应权限确认提示，并管理 herdr 会话。"
+  },
+  "jone/herdr-wrangler": {
+    "en": "tmux-style pane layouts and rotation for herdr",
+    "ja": "herdr 向けに、tmux 風のペインレイアウトとローテーションを提供します。",
+    "zh": "为 herdr 提供 tmux 风格的窗格布局与轮换。"
+  },
+  "jpwallace22/herdr-glab-status": {
+    "en": "A [Herdr](https://herdr.dev) plugin that shows each workspace's GitLab merge request status in the spaces sidebar, as a $mr token on the workspace row:",
+    "ja": "各ワークスペースの GitLab マージリクエストの状態を、スペースのサイドバーに $mr トークンとしてワークスペース行に表示する [Herdr](https://herdr.dev) プラグインです。",
+    "zh": "一个 [Herdr](https://herdr.dev) 插件，会在空间侧边栏的工作区行中以 $mr token 的形式显示每个工作区对应的 GitLab 合并请求状态。"
+  },
+  "jwanga/herdr-plugin-github-status": {
+    "en": "herdr plugin: a real-time GitHub project status pane (milestones, issues, PRs, Actions) docked on the right at sidebar width",
+    "ja": "herdr プラグイン：マイルストーン・issue・PR・Actions といったリアルタイムの GitHub プロジェクトステータスを、サイドバー幅で右側にドッキング表示します。",
+    "zh": "herdr 插件：以侧边栏宽度停靠在右侧，实时展示 GitHub 项目状态（里程碑、issue、PR、Actions）。"
+  },
+  "kedwards/herdr-awst": {
+    "en": "AWST integration with herdr",
+    "ja": "herdr と AWST の連携機能です。",
+    "zh": "herdr 与 AWST 的集成功能。"
+  },
+  "KeithMoc/herdr-tokenlens": {
+    "en": "Live carrying-cost and compact-breakeven meter for AI coding agents, as a herdr pane",
+    "ja": "AI コーディングエージェントの継続コストと、コンパクト化による損益分岐点をリアルタイムに表示する herdr ペインです。",
+    "zh": "以 herdr 窗格形式，实时显示 AI 编码 Agent 的持续成本，以及压缩上下文的收支平衡点。"
+  },
+  "kuwa72/herdr-focus-attention": {
+    "en": "Herdr plugin: cycle through agents needing attention",
+    "ja": "Herdr プラグイン：対応が必要なエージェントを順に切り替えて表示します。",
+    "zh": "Herdr 插件：依次切换浏览需要关注的 Agent。"
+  },
+  "leonardoacosta/herdr-jcode": {
+    "en": "Standalone Herdr plugin that reports Jcode working/idle lifecycle state plus session identity. Independent implementation; no fork dependency.",
+    "ja": "Jcode の working/idle というライフサイクル状態とセッション識別情報を報告する、独立した Herdr プラグインです。独自実装のため、フォークへの依存はありません。",
+    "zh": "一个独立的 Herdr 插件，报告 Jcode 的 working/idle 生命周期状态及会话身份信息。为独立实现，不依赖 fork。"
+  },
+  "michmos/herdr-pomodoro": {
+    "en": "Pomodoro inside herdr's status bar",
+    "ja": "herdr のステータスバーで使えるポモドーロタイマーです。",
+    "zh": "在 herdr 状态栏中使用的番茄钟。"
+  },
+  "muscaiu/resume-globally": {
+    "en": "Herdr plugin: browse and resume recent sessions across Claude Code, Cursor, and OpenCode",
+    "ja": "Herdr プラグイン：Claude Code・Cursor・OpenCode を横断して、最近のセッションを閲覧・再開できます。",
+    "zh": "Herdr 插件：跨 Claude Code、Cursor 和 OpenCode 浏览并恢复最近的会话。"
+  },
+  "openalon-org/herdr-bar": {
+    "en": "macOS menu bar for Herdr. Live agent counts. One click to the pane that needs you.",
+    "ja": "Herdr 用の macOS メニューバーアプリ。エージェントの件数をリアルタイムに表示し、ワンクリックであなたを必要としているペインへ移動できます。",
+    "zh": "Herdr 的 macOS 菜单栏应用：实时显示 Agent 数量，一键跳转到需要你处理的窗格。"
+  },
+  "parker-brown-family/herdr-auto-warm-cache": {
+    "en": "A herdr plugin that keeps an idle agent's prompt cache warm before the one-hour TTL expires — 20x cheaper than letting it lapse. Asks before it types, and never types into a pane that is waiting on you.",
+    "ja": "アイドル状態のエージェントのプロンプトキャッシュを、1 時間の TTL が切れる前に温め続ける herdr プラグインです——失効させるより 20 倍安く済みます。入力の前には確認を挟み、あなたの操作待ちのペインには決して入力しません。",
+    "zh": "一个 herdr 插件，会在一小时 TTL 到期前持续保温闲置 Agent 的 prompt 缓存——比让它失效便宜 20 倍。输入前会先询问，且绝不会在等待你操作的窗格中输入内容。"
+  },
+  "peterwiebe/herdr-plugin-agent-attention": {
+    "en": "Herdr plugin to jump to the most recent blocked or finished agent",
+    "ja": "最近ブロックされた、または完了したエージェントへジャンプする Herdr プラグインです。",
+    "zh": "跳转到最近被阻塞或已完成的 Agent 的 Herdr 插件。"
+  },
+  "RickyMarou/herdr-numbered-tabs": {
+    "en": "Herdr plugin: prefix every tab label with its current displayed position/shortcut number",
+    "ja": "Herdr プラグイン：すべてのタブラベルの先頭に、現在の表示位置・ショートカット番号を付けます。",
+    "zh": "Herdr 插件：在每个标签页标题前加上其当前显示位置/快捷键编号。"
+  },
+  "Rockheung/herdr-kaku-bell": {
+    "en": "에이전트가 손을 기다릴 때 kaku 탭에 점을 켠다 — herdr plugin",
+    "ja": "エージェントが手（入力）を待っているとき、kaku タブにドットを点灯させます——herdr プラグイン。",
+    "zh": "当 Agent 在等待人工操作时，在 kaku 标签页上点亮一个提示点——herdr 插件。"
+  },
+  "Roshvan/herdr-plugin-shortcut-shepherd": {
+    "en": "Shortcut insights and gentle coaching for Herdr.",
+    "ja": "Herdr 向けに、ショートカットの利用状況を可視化し、やさしくコーチングします。",
+    "zh": "为 Herdr 提供快捷键使用情况分析，并以温和的方式给出改进建议。"
+  },
+  "rrg/herdr-park-agents": {
+    "en": "Park a coding-agent pane in herdr: stop the process, close the pane, and resume the session later from a workspace panel.",
+    "ja": "herdr でコーディングエージェントのペインを「駐車」できます。プロセスを停止してペインを閉じ、あとでワークスペースパネルからセッションを再開できます。",
+    "zh": "在 herdr 中「停放」编码 Agent 窗格：停止进程、关闭窗格，之后可从工作区面板恢复该会话。"
+  },
+  "Tatendaz/herdr-launcher": {
+    "en": "Unofficial macOS Dock launcher for the herdr TUI: click the ram, get herdr in your terminal",
+    "ja": "herdr TUI 用の非公式 macOS Dock ランチャーです。ラム（Herdr のマスコット）をクリックすれば、ターミナルで herdr が起動します。",
+    "zh": "面向 herdr TUI 的非官方 macOS Dock 启动器：点击那只公羊图标，即可在终端中启动 herdr。"
+  },
+  "thewtex/herdr-mem-cpu-load": {
+    "en": "CPU, memory, and load average monitor for herdr.",
+    "ja": "herdr 用の CPU・メモリ・ロードアベレージモニターです。",
+    "zh": "面向 herdr 的 CPU、内存与负载均值监控工具。"
+  },
+  "victor-software-house/herdr-restore-notice": {
+    "en": "Compact Herdr restore notices with click-to-resume agent sessions",
+    "ja": "コンパクトな Herdr の復元通知から、クリック一つでエージェントセッションを再開できます。",
+    "zh": "紧凑的 Herdr 恢复提示，点击即可恢复 Agent 会话。"
+  },
+  "youguanxinqing/herdr-hop": {
+    "en": "Jump to any visible Herdr pane by pressing a labeled key",
+    "ja": "ラベル付きのキーを押すだけで、画面に見えている任意の Herdr ペインへジャンプできます。",
+    "zh": "按下带标签的按键，即可跳转到任意可见的 Herdr 窗格。"
+  },
+  "yuloop/herdr-plugin-pane-move": {
+    "en": "Herdr插件:快捷键搬窗格",
+    "ja": "Herdr プラグイン：ショートカットキーでペインを移動します。",
+    "zh": "Herdr 插件：通过快捷键移动窗格。"
+  },
+  "yuloop/herdr-plugin-win-terminal": {
+    "en": "Herdr插件:一键安装Windows Terminal配置",
+    "ja": "Herdr プラグイン：Windows Terminal の設定をワンクリックでインストールします。",
+    "zh": "Herdr 插件：一键安装 Windows Terminal 配置。"
+  },
+  "zlj-zz/herdr-harbor": {
+    "en": "",
+    "ja": "",
+    "zh": ""
   }
 }
