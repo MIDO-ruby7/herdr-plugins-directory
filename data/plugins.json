@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 23:29 UTC",
+  "generated_at": "2026-09-28 23:32 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -2984,7 +2984,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-09-28T23:16:19Z",
+      "pushed_at": "2026-09-28T23:31:17Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -5792,7 +5792,7 @@
       "also": [
         "naming"
       ],
-      "pushed_at": "2026-09-28T23:23:20Z",
+      "pushed_at": "2026-09-28T23:29:24Z",
       "install": "herdr plugin install funsaized/herdr-mise"
     },
     {
@@ -17080,23 +17080,6 @@
       "install": "herdr plugin install 0xthc/herdr-plugin-pr-board"
     },
     {
-      "full_name": "0xthc/herdr-plugin-worktree-bootstrap",
-      "name": "herdr-plugin-worktree-bootstrap",
-      "owner": "0xthc",
-      "url": "https://github.com/0xthc/herdr-plugin-worktree-bootstrap",
-      "description": "Seed new herdr worktrees with .env files and node_modules the moment they open",
-      "note": "",
-      "stars": 0,
-      "language": "Shell",
-      "tags": [
-        "shell"
-      ],
-      "category": "worktree",
-      "also": [],
-      "pushed_at": "2026-08-22T00:44:01Z",
-      "install": "herdr plugin install 0xthc/herdr-plugin-worktree-bootstrap"
-    },
-    {
       "full_name": "8liang/herdr-ai-notify",
       "name": "herdr-ai-notify",
       "owner": "8liang",
@@ -17361,6 +17344,23 @@
       "install": "herdr plugin install bkarpinos/herdr-locksmith"
     },
     {
+      "full_name": "bleedingfight/herdr-agent-manager",
+      "name": "herdr-agent-manager",
+      "owner": "bleedingfight",
+      "url": "https://github.com/bleedingfight/herdr-agent-manager",
+      "description": "一个基于fzf的模糊搜索workspace、tab、pane、agent工具",
+      "note": "",
+      "stars": 0,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-09-04T06:27:01Z",
+      "install": "herdr plugin install bleedingfight/herdr-agent-manager"
+    },
+    {
       "full_name": "bonanyan/herdr-cwd",
       "name": "herdr-cwd",
       "owner": "bonanyan",
@@ -17378,6 +17378,23 @@
       "also": [],
       "pushed_at": "2026-09-20T14:19:27Z",
       "install": "herdr plugin install bonanyan/herdr-cwd"
+    },
+    {
+      "full_name": "bonkey/herdr-dup-tab",
+      "name": "herdr-dup-tab",
+      "owner": "bonkey",
+      "url": "https://github.com/bonkey/herdr-dup-tab",
+      "description": "Herdr plugin: duplicate the focused pane's running command into a new tab",
+      "note": "",
+      "stars": 0,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-09-06T06:17:22Z",
+      "install": "herdr plugin install bonkey/herdr-dup-tab"
     },
     {
       "full_name": "bonkey/herdr-stack-icon",
@@ -18009,6 +18026,25 @@
       "install": "herdr plugin install huketo/herdr-hitl"
     },
     {
+      "full_name": "huketo/herdr-sheep",
+      "name": "herdr-sheep",
+      "owner": "huketo",
+      "url": "https://github.com/huketo/herdr-sheep",
+      "description": "Watch your Herdr coding agents as a flock of animated ASCII sheep",
+      "note": "",
+      "stars": 0,
+      "language": "Rust",
+      "tags": [
+        "ascii-art",
+        "rust",
+        "tui"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-09-04T21:12:15Z",
+      "install": "herdr plugin install huketo/herdr-sheep"
+    },
+    {
       "full_name": "husniadil/herdr-mail",
       "name": "herdr-mail",
       "owner": "husniadil",
@@ -18187,23 +18223,6 @@
       "install": "herdr plugin install juninaba/herdr-pr-preview"
     },
     {
-      "full_name": "juninaba/herdr-slack-notify",
-      "name": "herdr-slack-notify",
-      "owner": "juninaba",
-      "url": "https://github.com/juninaba/herdr-slack-notify",
-      "description": "Send Slack notifications when Herdr agents finish or get blocked.",
-      "note": "",
-      "stars": 0,
-      "language": "JavaScript",
-      "tags": [
-        "javascript"
-      ],
-      "category": "notify",
-      "also": [],
-      "pushed_at": "2026-07-07T08:24:27Z",
-      "install": "herdr plugin install juninaba/herdr-slack-notify"
-    },
-    {
       "full_name": "jwanga/herdr-plugin-github-status",
       "name": "herdr-plugin-github-status",
       "owner": "jwanga",
@@ -18279,6 +18298,23 @@
       ],
       "pushed_at": "2026-07-23T09:44:25Z",
       "install": "herdr plugin install KazBrekker1/herdr-hasr"
+    },
+    {
+      "full_name": "kedwards/herdr-awst",
+      "name": "herdr-awst",
+      "owner": "kedwards",
+      "url": "https://github.com/kedwards/herdr-awst",
+      "description": "AWST integration with herdr",
+      "note": "",
+      "stars": 0,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-09-06T17:32:49Z",
+      "install": "herdr plugin install kedwards/herdr-awst"
     },
     {
       "full_name": "KeithMoc/herdr-tokenlens",
@@ -18459,23 +18495,6 @@
       "also": [],
       "pushed_at": "2026-09-08T19:17:46Z",
       "install": "herdr plugin install marcelpanse/herdr-osx-menubar"
-    },
-    {
-      "full_name": "MartinBspheroid/herdr-agent-dash",
-      "name": "herdr-agent-dash",
-      "owner": "MartinBspheroid",
-      "url": "https://github.com/MartinBspheroid/herdr-agent-dash",
-      "description": "Herdr Agent Board: a local, keyboard-first plugin for scanning active coding agents, their state, working directory, and Git context at a glance.",
-      "note": "",
-      "stars": 0,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-07-21T15:10:28Z",
-      "install": "herdr plugin install MartinBspheroid/herdr-agent-dash"
     },
     {
       "full_name": "mayaton/herdr-repo-picker",
@@ -18950,23 +18969,6 @@
       "install": "herdr plugin install rcosteira79/herdr-idle-shell-badge"
     },
     {
-      "full_name": "riq0h/tab-blank-number",
-      "name": "tab-blank-number",
-      "owner": "riq0h",
-      "url": "https://github.com/riq0h/tab-blank-number",
-      "description": "herdr plugin that clears herdr's default numeric tab labels (1, 2, 3…) to blank.",
-      "note": "",
-      "stars": 0,
-      "language": "JavaScript",
-      "tags": [
-        "javascript"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-07-19T16:24:05Z",
-      "install": "herdr plugin install riq0h/tab-blank-number"
-    },
-    {
       "full_name": "Rockheung/herdr-kaku-bell",
       "name": "herdr-kaku-bell",
       "owner": "Rockheung",
@@ -19217,6 +19219,30 @@
       "install": "herdr plugin install Taanviir/herdr-quick-prompt"
     },
     {
+      "full_name": "Tatendaz/herdr-launcher",
+      "name": "herdr-launcher",
+      "owner": "Tatendaz",
+      "url": "https://github.com/Tatendaz/herdr-launcher",
+      "description": "Unofficial macOS Dock launcher for the herdr TUI: click the ram, get herdr in your terminal",
+      "note": "",
+      "stars": 0,
+      "language": "Shell",
+      "tags": [
+        "applescript",
+        "developer-tools",
+        "dock",
+        "launcher",
+        "macos",
+        "macos-app",
+        "shell-script",
+        "terminal"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-09-24T21:19:23Z",
+      "install": "herdr plugin install Tatendaz/herdr-launcher"
+    },
+    {
       "full_name": "terry-li-hm/herdr-group-chat",
       "name": "herdr-group-chat",
       "owner": "terry-li-hm",
@@ -19369,26 +19395,6 @@
       ],
       "pushed_at": "2026-07-28T19:37:13Z",
       "install": "herdr plugin install willian/herdr-fzf-url"
-    },
-    {
-      "full_name": "y-hirakaw/herdr-cc-mac-notify",
-      "name": "herdr-cc-mac-notify",
-      "owner": "y-hirakaw",
-      "url": "https://github.com/y-hirakaw/herdr-cc-mac-notify",
-      "description": "macOS notifications for Claude Code — shows the agent's real last message, not just \"done\"",
-      "note": "",
-      "stars": 0,
-      "language": "Python",
-      "tags": [
-        "claude-code",
-        "macos",
-        "notifications",
-        "python"
-      ],
-      "category": "notify",
-      "also": [],
-      "pushed_at": "2026-07-17T12:04:03Z",
-      "install": "herdr plugin install y-hirakaw/herdr-cc-mac-notify"
     },
     {
       "full_name": "yang3kc/herdr-tab-notes",
