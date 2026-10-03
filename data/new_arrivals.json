@@ -3,7 +3,6 @@
   "4242labs/herdr-radar-plus": "2026-09-28",
   "Clementtang/herdr-shelf": "2026-09-30",
   "ClockworkNet/herdr-claude-tmux-swarm": "2026-09-30",
-  "DailybotHQ/herdr-machine-groups": "2026-09-30",
   "Deetss/herdr-review-panel": "2026-09-26",
   "ExLuna-rs/herdr-auto-layout": "2026-09-30",
   "ExLuna-rs/herdr-git-tree": "2026-09-30",
@@ -93,6 +92,7 @@
   "mohaphez/herdr-flow": "2026-10-01",
   "naturalmoods/herdr-burnlog": "2026-10-01",
   "nkwork9999/ayatsumugi": "2026-10-02",
+  "peteretelej/herdr-plugins": "2026-10-03",
   "pivoshenko/musicforprogramming": "2026-09-27",
   "ralphilius/herdr-discord": "2026-09-26",
   "rarce/herdr-crew": "2026-09-29",
@@ -118,5 +118,6 @@
   "yavuzhansarmaz/herdr-vps-local": "2026-09-28",
   "yersonargotev/tabby": "2026-09-26",
   "youssef-tharwat/agent-mail": "2026-09-28",
-  "yuritada/numberer-manager": "2026-10-02"
+  "yuritada/numberer-manager": "2026-10-02",
+  "zekierman/herdr-council": "2026-10-03"
 }
