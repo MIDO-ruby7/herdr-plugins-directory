@@ -36,11 +36,12 @@
   "ecklf/herdr-plugin-gh": "2026-10-15",
   "eisenhauer-dev/herdr-crossroads": "2026-10-16",
   "ericbust/namedrop": "2026-10-11",
-  "est7/herdr-amq-adapter": "2026-10-17",
   "fabandrade88/tamagoxtix": "2026-10-17",
   "fedeya/herdr-sesh": "2026-10-13",
   "giorgiostokje/herdr-arcade": "2026-10-13",
   "guannanjiayou/herdr-agent-usage": "2026-10-14",
+  "guiand888/herdr-mistral-vibe": "2026-10-18",
+  "hmu332233/herdr-pets": "2026-10-18",
   "ichadhr/herdr-zcode": "2026-10-13",
   "jeffhuen/herdr-project-sidebar": "2026-10-17",
   "jtnovellis/herdr-worktree-setup": "2026-10-15",
@@ -79,7 +80,6 @@
   "vika2603/herdr-client": "2026-10-16",
   "viswassaripalli/agxchat": "2026-10-15",
   "winoooops/herdr-agent-title-sync": "2026-10-17",
-  "wrn14897/herdr-plugins": "2026-10-17",
   "yojahny55/herdr-space-groups": "2026-10-15",
   "zenodea/fence": "2026-10-13"
 }
