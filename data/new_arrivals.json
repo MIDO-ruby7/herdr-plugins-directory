@@ -1,7 +1,6 @@
 {
   "0xMMA/herdr-claude-autoupdate": "2026-10-21",
   "81zi/reficus": "2026-10-21",
-  "Algorant/herdr-agent-tree": "2026-10-22",
   "CodeForBreakfast/beady-eye": "2026-10-19",
   "DecampsRenan/herdr-plugin-env-sync": "2026-10-22",
   "GODVvVZzz/herdr-agent-chat": "2026-10-22",
@@ -53,6 +52,7 @@
   "jsabo/herdr-beams": "2026-10-20",
   "kccarlos/herdr-sheepdog": "2026-10-17",
   "khatriafaz/herdr-plugin-agent-repo": "2026-10-21",
+  "kkjdaniel/herdr-gh-runs": "2026-10-22",
   "klinter007/herdr-macos-plugins": "2026-10-19",
   "lukeda/herdr-panel": "2026-10-17",
   "matdac12/herdr-prompt-deck": "2026-10-22",
