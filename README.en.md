@@ -4,7 +4,7 @@
 
 **A link collection for finding [herdr](https://herdr.dev/) plugins by what you want to get done.**
 
-- **993** plugins indexed / last updated **2026-10-25 11:27 UTC** (auto-refreshed every 6 hours)
+- **993** plugins indexed / last updated **2026-10-25 16:17 UTC** (auto-refreshed every 6 hours)
 - Source: GitHub repositories tagged [`herdr-plugin`](https://github.com/topics/herdr-plugin) — the same population as the official [herdr.dev/plugins](https://herdr.dev/plugins/) marketplace
 - Categories are auto-inferred from each repo's description and topics. If one looks wrong, fix it with a PR to [`data/overrides.json`](data/overrides.json)
 - Install: `herdr plugin install owner/repo` — [official docs](https://herdr.dev/docs/plugins/)
@@ -16,25 +16,25 @@
 
 ## Browse by purpose
 
-- [**🆕 Recently added**](#cat-new) (65) — Plugins that joined this list in the last 7 days.
-- [**Notifications & Alerts**](#cat-notify) (36) — I want to know when an agent finishes or gets stuck waiting for input, even when I'm away from my desk
-- [**Mobile & Remote Control**](#cat-remote) (57) — I want to monitor agents from my phone or while away, and just send back approvals
-- [**Agent Orchestration**](#cat-agents) (172) — I want to launch, split up, and manage multiple AI agents together
-- [**Git Worktrees & Branches**](#cat-worktree) (50) — I want to spin up a worktree for each piece of work, and have the cleanup handled automatically too
+- [**🆕 Recently added**](#cat-new) (75) — Plugins that joined this list in the last 7 days.
+- [**Notifications & Alerts**](#cat-notify) (38) — I want to know when an agent finishes or gets stuck waiting for input, even when I'm away from my desk
+- [**Mobile & Remote Control**](#cat-remote) (58) — I want to monitor agents from my phone or while away, and just send back approvals
+- [**Agent Orchestration**](#cat-agents) (173) — I want to launch, split up, and manage multiple AI agents together
+- [**Git Worktrees & Branches**](#cat-worktree) (49) — I want to spin up a worktree for each piece of work, and have the cleanup handled automatically too
 - [**Code Review & Diffs**](#cat-review) (44) — I want to read the diff an agent wrote and send comments back on it
 - [**GitHub & Issue Trackers**](#cat-forge) (48) — I want to kick off work from an issue or PR, and track PR status
 - [**Workspaces & Layouts**](#cat-layout) (33) — When I open a project, I want tabs, panes, and startup commands all set up in one shot
-- [**Pane Navigation & Keys**](#cat-navigate) (111) — I want to move and resize between panes and workspaces using the same keys as my editor
-- [**File Viewers & Editors**](#cat-files) (70) — I want to open a file tree inside a pane, or keep it in sync with my editor
+- [**Pane Navigation & Keys**](#cat-navigate) (113) — I want to move and resize between panes and workspaces using the same keys as my editor
+- [**File Viewers & Editors**](#cat-files) (67) — I want to open a file tree inside a pane, or keep it in sync with my editor
 - [**Tokens & Cost**](#cat-cost) (24) — I want to see how much an agent is spending, and cut down on usage
-- [**Monitoring & Dashboards**](#cat-monitor) (72) — I want an at-a-glance overview of agent and machine status
-- [**Fuzzy Finders & Palettes**](#cat-finder) (77) — I want to invoke commands or projects even when I only half-remember their names
-- [**Automation, Hooks & Schedules**](#cat-automation) (46) — I want a fixed set of steps to run automatically on worktree creation or at a chosen time
+- [**Monitoring & Dashboards**](#cat-monitor) (75) — I want an at-a-glance overview of agent and machine status
+- [**Fuzzy Finders & Palettes**](#cat-finder) (78) — I want to invoke commands or projects even when I only half-remember their names
+- [**Automation, Hooks & Schedules**](#cat-automation) (44) — I want a fixed set of steps to run automatically on worktree creation or at a chosen time
 - [**Session State & Restore**](#cat-session) (26) — I want to close my work and later resume from exactly the same state
-- [**Titles, Naming & Looks**](#cat-naming) (48) — I want tab names and terminal titles to be automatically clear, or want to change how things look
-- [**Text & URL Grabbing**](#cat-text) (19) — I want to grab strings, paths, or URLs shown on screen without touching the mouse
+- [**Titles, Naming & Looks**](#cat-naming) (47) — I want tab names and terminal titles to be automatically clear, or want to change how things look
+- [**Text & URL Grabbing**](#cat-text) (18) — I want to grab strings, paths, or URLs shown on screen without touching the mouse
 - [**Plugin Management & Authoring**](#cat-meta) (7) — I want to manage plugins themselves, or build my own
-- [**Other & Utilities**](#cat-other) (53) — Handy things that don't fit any of the categories above
+- [**Other & Utilities**](#cat-other) (51) — Handy things that don't fit any of the categories above
 
 <a id="cat-new"></a>
 
@@ -44,7 +44,25 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
+| [**🆕 herdr-muse**](https://github.com/akshat12/herdr-muse)<br><sub>akshat12</sub> | Herdr integration for Muse Code: idle/working/blocked pane state via lifecycle hooks (no Herdr fork needed) | `ai-agents` `cli` `coding-agents` `muse-code` `terminal` | 1 | 2026-09-12 |
+| [**🆕 herdrbell**](https://github.com/bonanyan/herdrbell)<br><sub>bonanyan</sub> | Shepherd Your Agents -- Bell for Herdr APP | `swift` | 1 | 2026-09-16 |
+| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(no description)_ | `rust` | 1 | 2026-08-24 |
+| [**🆕 herdr-remark**](https://github.com/huluhuluu/herdr-remark)<br><sub>huluhuluu</sub> | Two shortcuts for agent read/unread status and short remarks. | `javascript` | 1 | 2026-10-23 |
+| [**🆕 herdr-zcode**](https://github.com/ichadhr/herdr-zcode)<br><sub>ichadhr</sub> | Herdr plugin that adds ZCode agent support — live pane state (working/blocked/idle) in the sidebar and session restore. | `ai-agent` `herdr-integration` `terminal` `zcode` `javascript` | 1 | 2026-10-11 |
 | [**🆕 herdr-plugin-layerfs**](https://github.com/jiangkoumo/herdr-plugin-layerfs)<br><sub>jiangkoumo</sub> | Copy-on-write LayerFS branches as Herdr workspaces, grouped under the repo like worktrees and restored after restart. | `ai-agents` `copy-on-write` `git-worktree` `layerfs` `javascript` | 1 | 2026-10-25 |
+| [**🆕 herdr-lane**](https://github.com/luizbafilho/herdr-lane)<br><sub>luizbafilho</sub> | herdr plugin for lukeed/lane: copy-on-write worktrees as linked herdr workspaces | `rust` | 1 | 2026-10-19 |
+| [**🆕 herdr-agents-preview**](https://github.com/maedana/herdr-agents-preview)<br><sub>maedana</sub> | Multi-agent terminal preview dashboard for Herdr: all running agents shown at once, with the selected agent taking most of the width. | `rust` | 1 | 2026-08-14 |
+| [**🆕 herdr-hint**](https://github.com/maedana/herdr-hint)<br><sub>maedana</sub> | Vimium-style hint labels for Herdr — press a key to see labels on tabs and agents, then press a label to jump. | `rust` | 1 | 2026-08-11 |
+| [**🆕 herdr-standup**](https://github.com/natori-hrj/herdr-standup)<br><sub>natori-hrj</sub> | Agent standup for herdr — a per-agent digest of commits and uncommitted work across your agents' repos. | `ai-agents` `git` `standup` `rust` | 1 | 2026-07-23 |
+| [**🆕 herdview**](https://github.com/Orchard-Robotics/herdview)<br><sub>Orchard-Robotics</sub> | View your herd from the web | `html` | 1 | 2026-09-24 |
+| [**🆕 herdr-which-key**](https://github.com/pradyb/herdr-which-key)<br><sub>pradyb</sub> | Neovim-style which-key popup for herdr: press a leader, see the next keys, run herdr actions | `python` | 1 | 2026-10-20 |
+| [**🆕 herdr-plugin-call-me**](https://github.com/radres/herdr-plugin-call-me)<br><sub>radres</sub> | Ring your real phone when a herdr agent is blocked, answer by voice, and your answer becomes the keypress the agent was waiting for. | `ai-agents` `claude-code` `codex` `developer-tools` `notifications` | 1 | 2026-10-03 |
+| [**🆕 herdr-discord**](https://github.com/ralphilius/herdr-discord)<br><sub>ralphilius</sub> | Herdr plugin: Discord as a UI layer — channels are workspaces, threads spawn agents | `discord` `javascript` | 1 | 2026-09-26 |
+| [**🆕 maeklog**](https://github.com/reganpark/maeklog)<br><sub>reganpark</sub> | Tab-scoped memory for Codex in Herdr — decisions, progress, and evidence. | `codex` `codex-cli` `developer-tools` `rust` `tui` | 1 | 2026-10-16 |
+| [**🆕 herdr-plugins**](https://github.com/shelken/herdr-plugins)<br><sub>shelken</sub> | Herdr plugins monorepo (auto-pi: open pi by area + session picker) | `python` | 1 | 2026-07-17 |
+| [**🆕 herdr-space-tab-metadata**](https://github.com/szrenwei/herdr-space-tab-metadata)<br><sub>szrenwei</sub> | Show each Herdr Space's active tab in the sidebar | `terminal-ui` `python` | 1 | 2026-08-04 |
+| [**🆕 herdr-clock**](https://github.com/Tyru5/herdr-clock)<br><sub>Tyru5</sub> | tmux clock-mode for herdr — a big block-glyph clock popup showing the local time; any key dismisses | `rust` `terminal` `tmux` | 1 | 2026-09-15 |
+| [**🆕 herdr-fzf-url**](https://github.com/x0d7x/herdr-fzf-url)<br><sub>x0d7x</sub> | Scan herdr terminal panes for URLs and interactively pick one with fzf | `fzf` `go` `url` | 1 | 2026-06-26 |
 | [**🆕 instinct-herdr-tunnel**](https://github.com/romiluz13/instinct-herdr-tunnel)<br><sub>romiluz13</sub> | Let an AI assistant such as Instinct watch and steer your Herdr coding agents: a loopback portal with a 26-action allowlist, a bearer token and an audit log, p… | `ai-agents` `cloudflare-tunnel` `coding-agents` `nodejs` `javascript` | 2 | 2026-10-25 |
 | [**🆕 herdr-agent-tree**](https://github.com/Algorant/herdr-agent-tree)<br><sub>Algorant</sub> | Show Pi Subagents and Workers beneath their delegating agent in Herdr's native Agents sidebar | `shell` | 1 | 2026-10-20 |
 | [**🆕 herdr-picker**](https://github.com/bkarpinos/herdr-picker)<br><sub>bkarpinos</sub> | A fast popup picker for searching and previewing workspaces, agents, and tabs in herdr. | `go` | 1 | 2026-07-25 |
@@ -67,11 +85,10 @@
 | [**🆕 diffui**](https://github.com/dgsienko/diffui)<br><sub>dgsienko</sub> | Locally hosted web tool and terminal ui for reviewing live diffs and improving your agentic coding and review flow. | `agentic-coding` `ai-agents` `ai-tools` `claude-code` `cli` | 2 | 2026-10-23 |
 | [**🆕 herdr-sbx**](https://github.com/lanwen/herdr-sbx)<br><sub>lanwen</sub> | Herdr Plugin to enable Docker Sandboxes as SSH connected machines. Full agent visibility, plugin sync | `docker` `sandboxes` `go` | 2 | 2026-10-23 |
 | [**🆕 account-capacity-dock**](https://github.com/Mako-L/account-capacity-dock)<br><sub>Mako-L</sub> | Quota rings for every Claude, Codex and Cursor account: a desktop dock, a terminal app and a Herdr widget. | `claude` `cliproxyapi` `codex` `cursor` `python` | 2 | 2026-10-22 |
-| [**🆕 herdr-cheatsheet**](https://github.com/ChristianDeckert/herdr-cheatsheet)<br><sub>ChristianDeckert</sub> | Clickable herdr side panel: just recipes, herdr and terminal keybindings | `cheatsheet` `just` `zsh` `shell` | 1 | 2026-10-24 |
+| [**🆕 herdr-cheatsheet**](https://github.com/ChristianDeckert/herdr-cheatsheet)<br><sub>ChristianDeckert</sub> | Clickable herdr side panel: just recipes, herdr and terminal keybindings | `cheatsheet` `just` `zsh` `shell` | 1 | 2026-10-25 |
 | [**🆕 herdr-web**](https://github.com/harshagowda/herdr-web)<br><sub>harshagowda</sub> | A real browser tab for herdr on macOS, drivable over CDP | `cmux` `herder-webui` `javascript` | 1 | 2026-10-19 |
-| [**🆕 fangyang-le**](https://github.com/RZfive/fangyang-le)<br><sub>RZfive</sub> | herdr skill: fan one task out to N parallel coding agents — Claude Code, OpenCode, Codex, Gemini & 20+. Same-kind spawn, workspace-locked, keep-fold-for-review… | `agent-orchestration` `agent-skill` `ai-workflow` `claude-code` `codex-cli` | 1 | 2026-10-24 |
 | [**🆕 herdeck**](https://github.com/thefahien/herdeck)<br><sub>thefahien</sub> | Turn commands, processes, health checks, JSON APIs and Prometheus queries into live tabs in a herdr pane | `curses` `monitoring` `prometheus` `python` `terminal-dashboard` | 1 | 2026-10-23 |
-| [**🆕 ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote… | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1463 | 2026-10-25 |
+| [**🆕 ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote… | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1474 | 2026-10-25 |
 | [**🆕 herdr-island**](https://github.com/speardragon/herdr-island)<br><sub>speardragon</sub> | Your herdr agents live in the MacBook notch: approve, answer and watch them from a Dynamic Island-style panel | `ai-agents` `claude-code` `macos` `notch` `swiftui` | 4 | 2026-10-25 |
 | [**🆕 herdr-async-message-relay**](https://github.com/avery20024/herdr-async-message-relay)<br><sub>avery20024</sub> | Durable async messaging for Herdr agents with stable role routing and batched delivery. | `go` | 1 | 2026-10-25 |
 | [**🆕 herdr-ntfy-notify**](https://github.com/jjuraszek/herdr-ntfy-notify)<br><sub>jjuraszek</sub> | Herdr plugin: ntfy push notification to your phone when an agent goes blocked or done | `ntfy` `javascript` | 1 | 2026-09-13 |
@@ -84,13 +101,8 @@
 | [**🆕 levi**](https://github.com/rsdlt/levi)<br><sub>rsdlt</sub> | The fastest blade for your git history. Fuzzy search for you, plain text for your agents. | `claude-code` `cli` `coding-agents` `diff` `fzf` | 8 | 2026-10-22 |
 | [**🆕 herdr-vitals**](https://github.com/mrolafsson/herdr-vitals)<br><sub>mrolafsson</sub> | How your machines are doing, at a glance, before they slow your agents down. A herdr plugin: CPU, load, memory, disks (and when they'll be full) and network fo… | `anthropic` `bubbletea` `claude-code` `codex` `coding-agents` | 2 | 2026-10-20 |
 | [**🆕 herdr-agent-icons**](https://github.com/adihex/herdr-agent-icons)<br><sub>adihex</sub> | Herdr plugin: real per-agent logo icons in the sidebar via a generated PUA font | `python` | 1 | 2026-09-18 |
-| [**🆕 herdr-unread**](https://github.com/arthurnw/herdr-unread)<br><sub>arthurnw</sub> | Mark Herdr agent sessions unread until revisited or resumed | `python` | 1 | 2026-09-14 |
 | [**🆕 archify-herdr-plugin**](https://github.com/bozoinc/archify-herdr-plugin)<br><sub>bozoinc</sub> | Herdr plugin derived from archify DESIGN.md (verified-source). M6 adapter directive-derived. | `html` | 1 | 2026-10-19 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | Dispatcher for the herdr-tasks board - a worker agent pane per ready task, the goal delivered, the worker tracked, and a stop at review, in one Go binary. | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 2026-08-31 |
-| [**🆕 herdr-chromatic-spaces**](https://github.com/jackfrancisdalton/herdr-chromatic-spaces)<br><sub>jackfrancisdalton</sub> | Give every Herdr Space its own colour and emoji: coloured sidebar dots, grouped agents, and optional chrome tint on space switch. | `python` | 1 | 2026-08-22 |
 | [**🆕 recess**](https://github.com/tatsuro-ueda/recess)<br><sub>tatsuro-ueda</sub> | A herdr plugin. AI works, you take recess. Your video plays by itself while the agents work, and pauses to bring you back to the terminal when herdr calls. | `ai-agents` `applescript` `launchd` `macos` `netflix` | 1 | 2026-10-23 |
-| [**🆕 herdr-plugin-agent-spinner**](https://github.com/varvand/herdr-plugin-agent-spinner)<br><sub>varvand</sub> | One-cell spinner on working rows in the Herdr Agents sidebar | `python` | 1 | 2026-10-08 |
-| [**🆕 herdr-hop**](https://github.com/youguanxinqing/herdr-hop)<br><sub>youguanxinqing</sub> | Jump to any visible Herdr pane by pressing a labeled key | `rust` | 1 | 2026-10-10 |
 | [**🆕 corgi**](https://github.com/zyrre/corgi)<br><sub>zyrre</sub> | A compact dashboard for Herdr coding agents, with supervisor coordination and an Omarchy bar widget. | `claude-code` `codex` `tui` `rust` | 1 | 2026-10-22 |
 | [**🆕 beady-eye**](https://github.com/CodeForBreakfast/beady-eye)<br><sub>CodeForBreakfast</sub> | Draws the work in your beads trackers as trees, with what each agent is doing beside the bead it works. It also watches beads for whatever waits on them, and s… | `agents` `beads` `claude-code` `claude-code-plugin` `github` | 23 | 2026-10-25 |
 | [**🆕 herdr-macos-plugins**](https://github.com/klinter007/herdr-macos-plugins)<br><sub>klinter007</sub> | Files and Links, Stay Awake, and System Monitor plugins for standard Herdr on macOS | `python` | 3 | 2026-10-12 |
@@ -101,14 +113,12 @@
 | [**🆕 shelley-herdr**](https://github.com/webframp/shelley-herdr)<br><sub>webframp</sub> | Run exe.dev Shelley conversations as native herdr agents | `go` | 2 | 2026-10-10 |
 | [**🆕 herdr-sim**](https://github.com/baleen37/herdr-sim)<br><sub>baleen37</sub> | Herdr plugin: show the PRs each Claude Code / Codex pane touched as sidebar icons | `claude-code` `codex` `rust` | 1 | 2026-10-23 |
 | [**🆕 herdr-ids**](https://github.com/devicki/herdr-ids)<br><sub>devicki</sub> | Herdr plugin: show pane, tab and workspace ids in the sidebar, and pick a space, tab or pane to type its id into your agent | `shell` | 1 | 2026-10-16 |
-| [**🆕 ws.numbered.herdr**](https://github.com/dhananjaylatkar/ws.numbered.herdr)<br><sub>dhananjaylatkar</sub> | Automatically Number The Workspaces in Herdr | `python` | 1 | 2026-10-09 |
 | [**🆕 herdr-derby**](https://github.com/xzedx/herdr-derby)<br><sub>xzedx</sub> | Send one prompt to every coding agent in the current Herdr tab and watch them race: a popup to type in, live timers and finishing ranks on the pane borders. | `coding-agents` `rust` | 1 | 2026-10-23 |
 | [**🆕 terminal-markdown-renderer**](https://github.com/slara/terminal-markdown-renderer)<br><sub>slara</sub> | tmdview: view Markdown rendered as HTML in a browser inside your terminal. A personal tool, written with AI. | `cli` `markdown` `rust` `terminal` | 8 | 2026-10-18 |
 | [**🆕 herdr-pets**](https://github.com/hmu332233/herdr-pets)<br><sub>hmu332233</sub> | macOS desktop pets for Herdr agents that come find you when an agent is blocked. | `desktop-pet` `swift` | 4 | 2026-10-25 |
 | [**🆕 lerdr-rust-kotlin**](https://github.com/IGUNUBLUE/lerdr-rust-kotlin)<br><sub>IGUNUBLUE</sub> | Rust relay + Kotlin/Jetpack Compose Android app for Herdr: end-to-end encrypted agent sessions over Tailscale. AI-generated reimplementation (built with Cognit… | `ai-generated` `android` `e2ee` `jetpack-compose` `kotlin` | 3 | 2026-10-21 |
 | [**🆕 herdr-mcp**](https://github.com/eugeneb50/herdr-mcp)<br><sub>eugeneb50</sub> | herdr plugin and MCP server: drive herdr panes and agents from AI clients, with recipes, triggers, schedules, a dashboard and a web playground | `mcp` `rust` | 2 | 2026-10-25 |
 | [**🆕 herdr-mistral-vibe**](https://github.com/guiand888/herdr-mistral-vibe)<br><sub>guiand888</sub> | Herdr plugin that starts Mistral Vibe sessions in Herdr panes | `shell` | 1 | 2026-10-12 |
-| [**🆕 herdr-vimnav**](https://github.com/MykolaSuprun/herdr-vimnav)<br><sub>MykolaSuprun</sub> | Master-detail switcher for herdr — live pane previews, MRU priority sort, sidebar jump codes | `go` | 1 | 2026-10-25 |
 
 [⬆ Back to purposes](#purposes)
 
@@ -120,7 +130,7 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**Heeler**](https://github.com/ZingerLittleBee/Heeler)<br><sub>ZingerLittleBee</sub> | Native iOS agent console for herdr — watch and drive the coding agents on your machines over SSH, with a real libghostty terminal, QR pairing, and push notific… | `ai-agents` `apns` `coding-agents` `ios` `libghostty` | 655 | 🔄 2026-10-25 |
+| [**Heeler**](https://github.com/ZingerLittleBee/Heeler)<br><sub>ZingerLittleBee</sub> | Native iOS agent console for herdr — watch and drive the coding agents on your machines over SSH, with a real libghostty terminal, QR pairing, and push notific… | `ai-agents` `apns` `coding-agents` `ios` `libghostty` | 656 | 🔄 2026-10-25 |
 | [**herdr-ohmyzsh**](https://github.com/robbyrussell/herdr-ohmyzsh)<br><sub>robbyrussell</sub> | Oh My Zsh plugin for Herdr: slow commands in the sidebar, done notifications, shell helpers, and one key to reload Oh My Zsh in every idle pane | `oh-my-zsh` `zsh` `shell` | 86 | 2026-09-09 |
 | [**herdr-focus-notify**](https://github.com/yankewei/herdr-focus-notify)<br><sub>yankewei</sub> | Clickable macOS notifications for Herdr agents. Sends a native toast when an agent becomes blocked or done; clicking it brings the terminal forward and focuses… | `alerter` `macos` `notifications` `productivity` `rust` | 31 | 🔄 2026-10-16 |
 | [**herdr-terminal-notifier**](https://github.com/dot/herdr-terminal-notifier)<br><sub>dot</sub> | Customizable macOS notifications for herdr agent state changes via terminal-notifier | `macos` `terminal-notifier` `shell` | 11 | 2026-09-07 |
@@ -146,6 +156,7 @@
 | [**herdr-guard**](https://github.com/StructuPath/herdr-guard)<br><sub>StructuPath</sub> | Cross-agent command policy for Herdr: audit, alert, and interrupt dangerous shell commands | `ai-agents` `command-policy` `security` `terminal` `javascript` | 2 | 2026-09-14 |
 | [**herdr-webhook-notify**](https://github.com/zgxme/herdr-webhook-notify)<br><sub>zgxme</sub> | Herdr plugin that forwards agent notifications to Slack, Discord, Teams, Google Chat, Feishu, Lark, DingTalk, WeCom, Telegram, ntfy or any HTTP webhook | `dingtalk` `discord` `feishu` `lark` `notifications` | 2 | 2026-09-21 |
 | [**herdr-prayer-times**](https://github.com/bayoudhi/herdr-prayer-times)<br><sub>bayoudhi</sub> | Next Islamic prayer and countdown in the Herdr sidebar, with a timetable popup and notifications | `rust` | 1 | 2026-08-13 |
+| [**🆕 herdrbell**](https://github.com/bonanyan/herdrbell)<br><sub>bonanyan</sub> | Shepherd Your Agents -- Bell for Herdr APP | `swift` | 1 | 2026-09-16 |
 | [**herdr-oncall**](https://github.com/fulanto/herdr-oncall)<br><sub>fulanto</sub> | Answer your coding agent's permission prompts from a floating macOS panel or Telegram — a Herdr plugin for Claude Code and Codex. | `ai-agents` `claude-code` `cli` `codex` `coding-agent` | 1 | 🔄 2026-10-21 |
 | [**herdr-random-sounds**](https://github.com/gridness/herdr-random-sounds)<br><sub>gridness</sub> | play random notification sounds per agent status in herdr on macOS | `herdr-integration` `macos` `notification` `notifications` `python` | 1 | 2026-08-23 |
 | [**🆕 herdr-ntfy-notify**](https://github.com/jjuraszek/herdr-ntfy-notify)<br><sub>jjuraszek</sub> | Herdr plugin: ntfy push notification to your phone when an agent goes blocked or done | `ntfy` `javascript` | 1 | 2026-09-13 |
@@ -153,6 +164,7 @@
 | [**🆕 herdr-claude-agents**](https://github.com/kamil-pociot/herdr-claude-agents)<br><sub>kamil-pociot</sub> | Herdr plugin: Claude Code background sessions as Herdr agents — one tab each in its project's space, live state and notifications. | `claude-code` `rust` | 1 | 🔄 2026-10-24 |
 | [**🆕 herdr-gh-runs**](https://github.com/kkjdaniel/herdr-gh-runs)<br><sub>kkjdaniel</sub> | GitHub Actions runs in a herdr pane: follows your repo, live status, step logs and notifications | `gh` `github-actions` `terminal` `tui` `python` | 1 | 🔄 2026-10-22 |
 | [**herdr-bar**](https://github.com/openalon-org/herdr-bar)<br><sub>openalon-org</sub> | macOS menu bar for Herdr. Live agent counts. One click to the pane that needs you. | `herdr-notify` `menu-bar` `menu-bar-app` `notification` `notify` | 1 | 2026-09-18 |
+| [**🆕 herdr-plugin-call-me**](https://github.com/radres/herdr-plugin-call-me)<br><sub>radres</sub> | Ring your real phone when a herdr agent is blocked, answer by voice, and your answer becomes the keypress the agent was waiting for. | `ai-agents` `claude-code` `codex` `developer-tools` `notifications` | 1 | 2026-10-03 |
 | [**herdr-notify-wsl**](https://github.com/saeedrahimi/herdr-notify-wsl)<br><sub>saeedrahimi</sub> | Windows 11 toast notifications for herdr agents running inside WSL. Based on aclima01/herdr-notify-windows. | `powershell` | 1 | 2026-07-23 |
 | [**goat-herdr**](https://github.com/shindakun/goat-herdr)<br><sub>shindakun</sub> | 🐐 Herdr plugin: alerts to Telegram, Slack, ntfy, Pushover/bullet or any webhook when an agent needs you | `ntfy` `rust` `slack` `telegram` `webhook` | 1 | 2026-09-24 |
 | [**🆕 medley**](https://github.com/WebscapeOrg/medley)<br><sub>WebscapeOrg</sub> | Custom sounds for every herdr workspace and status | `audio` `notifications` `python` | 1 | 🔄 2026-10-23 |
@@ -167,10 +179,10 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**🆕 ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote… | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1463 | 🔄 2026-10-25 |
-| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | Herdr mobile client for iPhone and Android. A self-hosted PWA to drive Claude Code, Pi, Codex and OpenCode in Herdr, tmux or zellij from your phone. Push alert… | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 1454 | 🔄 2026-10-25 |
+| [**🆕 ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote… | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1474 | 🔄 2026-10-25 |
+| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | Herdr mobile client for iPhone and Android. A self-hosted PWA to drive Claude Code, Pi, Codex and OpenCode in Herdr, tmux or zellij from your phone. Push alert… | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 1457 | 🔄 2026-10-25 |
 | [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | Monitor and drive your herdr agents from menu bar, phone, or Telegram. Zero config locally. Free tunnel for remote. No Tailscale needed. | `macos` `mobile` `python` | 429 | 🔄 2026-10-23 |
-| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer r… | `android` `approvals` `cloudflare` `ios` `mobile` | 313 | 🔄 2026-10-25 |
+| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer r… | `android` `approvals` `cloudflare` `ios` `mobile` | 316 | 🔄 2026-10-25 |
 | [**pairfob**](https://github.com/arronKler/pairfob)<br><sub>arronKler</sub> | Your Herdr agents on your phone in one QR scan. Browser-first, optional Android beta, no Tailscale or ports, end-to-end encrypted. | `android` `apk` `claude-code` `codex` `herdr-mobile` | 177 | 🔄 2026-10-25 |
 | [**herdr-telegram-agents**](https://github.com/permgps/herdr-telegram-agents)<br><sub>permgps</sub> | Drive your coding agents from Telegram like from the terminal. A topic per agent, live status in the topic icon, two-way chat with inline buttons for choices. | `claude-code` `coding-agents` `go` `telegram` `telegram-bot` | 83 | 🔄 2026-10-24 |
 | [**termote**](https://github.com/lamngockhuong/termote)<br><sub>lamngockhuong</sub> | Self-hosted PWA to control Claude Code, Codex, GitHub Copilot or any terminal from your phone or desktop. Single Go binary streaming tmux/psmux/Herdr sessions… | `ai-coding-agent` `claude-code` `cli` `codex` `github-copilot` | 67 | 🔄 2026-10-25 |
@@ -223,11 +235,13 @@
 | [**herdr-tunnel**](https://github.com/ivorpad/herdr-tunnel)<br><sub>ivorpad</sub> | Herdr plugin: put a local port on the public internet, copy the URL, take it down again | `tui` `python` | 1 | 2026-08-27 |
 | [**tether-browser**](https://github.com/jeffhuen/tether-browser)<br><sub>jeffhuen</sub> | Remote-to-local browser bridge for AI coding agents. Your agent runs on the server; Chrome stays on your workstation, with your passkeys, password manager, and… | `go` | 1 | 2026-10-06 |
 | [**herdr-web**](https://github.com/mttzzz/herdr-web)<br><sub>mttzzz</sub> | herdr in your browser: a 1:1 mirror of the herdr TUI for your phone, tablet or another computer (herdr plugin) | `bun` `mobile` `terminal` `websocket` `xterm` | 1 | 2026-10-07 |
+| [**🆕 herdview**](https://github.com/Orchard-Robotics/herdview)<br><sub>Orchard-Robotics</sub> | View your herd from the web | `html` | 1 | 2026-09-24 |
 | [**herdr-vps-local**](https://github.com/yavuzhansarmaz/herdr-vps-local)<br><sub>yavuzhansarmaz</sub> | Local experience on remote machines: mirror VPS/Pi repos to your laptop via Mutagen | `rust` | 1 | 2026-09-28 |
 
 <details><summary>Also relevant to this purpose</summary>
 
 - [powerfooI/roamgate](https://github.com/powerfooI/roamgate) — A Herdr client for any screen. Control terminals, monitor coding agents, and review files and diffs from desk…
+- [radres/herdr-plugin-call-me](https://github.com/radres/herdr-plugin-call-me) — Ring your real phone when a herdr agent is blocked, answer by voice, and your answer becomes the keypress the…
 
 </details>
 
@@ -241,19 +255,19 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks | `agentic-ai` `oh-my-opencode` `opencode` `orchestration` `typescript` | 9785 | 🔄 2026-10-25 |
+| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks | `agentic-ai` `oh-my-opencode` `opencode` `orchestration` `typescript` | 9789 | 🔄 2026-10-25 |
 | [**herdr-projects**](https://github.com/eliasstravik/herdr-projects)<br><sub>eliasstravik</sub> | Mission control for Herdr: run dozens of coding agents from one board. Each works on its own branch, a second agent reviews it, and you see what needs you. | `rust` | 886 | 🔄 2026-10-23 |
-| [**agentbox**](https://github.com/madarco/agentbox)<br><sub>madarco</sub> | Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud | `claude` `claude-code` `cli` `cmux` `codex` | 559 | 2026-10-07 |
+| [**agentbox**](https://github.com/madarco/agentbox)<br><sub>madarco</sub> | Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud | `claude` `claude-code` `cli` `cmux` `codex` | 558 | 2026-10-07 |
 | [**pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | Workflow engine, JSON control-flow tool, and live terminal viewer for the pi coding agent | `typescript` | 349 | 2026-10-08 |
 | [**pi-extensible-workflows**](https://github.com/vekexasia/pi-extensible-workflows)<br><sub>vekexasia</sub> | Deterministic multi-agent workflow orchestration and codemode scripts for Pi | `codemode` `pi` `workflow` `workflows` `typescript` | 248 | 🔄 2026-10-25 |
 | [**herdr-board**](https://github.com/nelsonPires5/herdr-board)<br><sub>nelsonPires5</sub> | Kanban board for herdr — cards are prompts dispatched to AI agents in visible panes | `board` `kanban` `kanban-board` `tui` `rust` | 183 | 🔄 2026-10-18 |
 | [**herdr-dagr**](https://github.com/aemrebarut/herdr-dagr)<br><sub>aemrebarut</sub> | Your agent swarm as a live DAG: an orchestration graph with attempts, review gates, and evidence, in a herdr split pane. | `agents` `dag` `multi-agent` `orchestration` `rust` | 125 | 2026-08-23 |
 | [**agent-router**](https://github.com/nidhi-singh02/agent-router)<br><sub>nidhi-singh02</sub> | CLI that picks Cursor, Claude Code, Codex, or OpenCode + model/effort for a task, then launches it. Powered by Jev and Herdr | `agents` `ai` `claude-code` `cli` `codex` | 118 | 2026-09-27 |
 | [**herdr-file-annotator**](https://github.com/JonasBaeumer/herdr-file-annotator)<br><sub>JonasBaeumer</sub> | A plugin for herdr to maximize agentic development without losing touch with the actual codebase | `rust` | 63 | 2026-10-07 |
-| [**proqi**](https://github.com/oborchers/proqi)<br><sub>oborchers</sub> | A terminal-native prompt composer for power users running multiple coding agents. | `ai-agents` `cli` `coding-agents` `developer-tools` `local-first` | 43 | 🔄 2026-10-23 |
+| [**proqi**](https://github.com/oborchers/proqi)<br><sub>oborchers</sub> | A terminal-native prompt composer for power users running multiple coding agents. | `ai-agents` `cli` `coding-agents` `developer-tools` `local-first` | 43 | 🔄 2026-10-25 |
 | [**agentbox-herdr-plugin**](https://github.com/madarco/agentbox-herdr-plugin)<br><sub>madarco</sub> | Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud | `claude-code` `codex-cli` `opencode` `sandbox` `shell` | 34 | 2026-06-24 |
 | [**entwurf**](https://github.com/junghan0611/entwurf)<br><sub>junghan0611</sub> | Open visible sibling AI sessions in Herdr or tmux, reopen pi sessions in tmux under the same garden id, and exchange messages across pi, pi-durable, Claude Cod… | `acp` `agent-collaboration` `agent-communication` `agent-to-agent` `ai-agents` | 31 | 🔄 2026-10-24 |
-| [**herdr-browser**](https://github.com/StructuPath/herdr-browser)<br><sub>StructuPath</sub> | Drivable agent-browser pane for Herdr with live streaming, real interaction, adaptive rendering, console/page errors, recording, and localhost routing | `terminal` `javascript` | 29 | 🔄 2026-10-10 |
+| [**herdr-browser**](https://github.com/StructuPath/herdr-browser)<br><sub>StructuPath</sub> | Drivable agent-browser pane for Herdr with live streaming, real interaction, adaptive rendering, console/page errors, recording, and localhost routing | `terminal` `javascript` | 30 | 🔄 2026-10-10 |
 | [**herdr-voice**](https://github.com/brogrammerMW/herdr-voice)<br><sub>brogrammerMW</sub> | Talk to your coding agents in your Herdr panes, and hear them answer with real-time voice using Grok, OpenAI, or Gemini. | `macos` `voice` `swift` | 28 | 2026-09-26 |
 | [**herdr-world**](https://github.com/IvoryHeart/herdr-world)<br><sub>IvoryHeart</sub> | Herdr World — visualize agent work in Office, Tree, Graph, and Spaces; control Herdr agents across local and SSH hosts. | `agent-runtime` `agent-visualization` `coding-agents` `multi-agent` `observability` | 27 | 🔄 2026-10-25 |
 | [**termaxa**](https://github.com/termaxa/termaxa)<br><sub>termaxa</sub> | The agent's prompt shows you the command; Termaxa shows you the consequence. Previews, backups, policy, an audit record. Claude Code, Codex, Cursor, Copilot. A… | `agent-safety` `ai-agents` `claude-code` `cli` `developer-tools` | 27 | 🔄 2026-10-23 |
@@ -262,7 +276,7 @@
 | [**herdr-agent-handoff**](https://github.com/sanirudh17/herdr-agent-handoff)<br><sub>sanirudh17</sub> | Herdr plugin that hands an in-progress agent session to a fresh session of another installed coding agent, carrying the complete session inside the prompt - no… | `agent-handoff` `claude-code` `codex` `coding-agents` `developer-tools` | 22 | 2026-09-30 |
 | [**PromptPilot**](https://github.com/ivanarama/PromptPilot)<br><sub>ivanarama</sub> | Background task queue for Claude Code and other AI CLIs — web UI + Telegram bot | `ai-agents` `claude-code` `telegram-bot` `python` | 20 | 🔄 2026-10-21 |
 | [**herdr-vercel-sandbox-plugin**](https://github.com/vercel-labs/herdr-vercel-sandbox-plugin)<br><sub>vercel-labs</sub> | Run terminal-based coding agents in isolated Vercel Sandboxes from Herdr. | `javascript` | 15 | 2026-08-09 |
-| [**herdr-social-glass**](https://github.com/ythx-101/herdr-social-glass)<br><sub>ythx-101</sub> | Screenshot-friendly Social Glass theme and workflow plugin for Herdr on macOS. | `macos` `multi-agent` `terminal-theme` `shell` | 13 | 2026-08-21 |
+| [**herdr-social-glass**](https://github.com/ythx-101/herdr-social-glass)<br><sub>ythx-101</sub> | Screenshot-friendly Social Glass theme and workflow plugin for Herdr on macOS. | `macos` `multi-agent` `terminal-theme` `shell` | 14 | 2026-08-21 |
 | [**deevs-pi-kit**](https://github.com/DeevsDeevs/deevs-pi-kit)<br><sub>DeevsDeevs</sub> | Perfect pi kit to be 10x Deevs' engineer | `agents` `pi` `pi-agent` `pi-extension` `pi-package` | 11 | 2026-10-08 |
 | [**agys**](https://github.com/quaywin/agys)<br><sub>quaywin</sub> | Effortless multi-profile isolation & real-time quota tracking for Antigravity CLI in Herdr via zero-pollution sandboxing. | `ai-agents` `antigravity` `cli` `context-window` `developer-tools` | 11 | 2026-09-26 |
 | [**vibetty**](https://github.com/second-state/vibetty)<br><sub>second-state</sub> | Share a live AI agent terminal to smart hardware (vibekeys, vibewatch, etc.) over MQTT; can also be used as a Herdr plugin. | `claude-code` `codex` `vibecoding` `rust` | 11 | 🔄 2026-10-15 |
@@ -274,6 +288,7 @@
 | [**herdr-agent-messenger**](https://github.com/aashishd/herdr-agent-messenger)<br><sub>aashishd</sub> | Send focused, self-contained messages between AI agents running in live Herdr panes, so one agent can coordinate work with another without sharing its full con… | `python` | 9 | 2026-10-09 |
 | [**spoolway**](https://github.com/marvingygas/spoolway)<br><sub>marvingygas</sub> | Minimalistic agent state machine for software development: a retro TUI dispatcher that drives agent sessions through defined pipelines | `agent` `cli` `descriptive` `llm` `pipeline` | 9 | 🔄 2026-10-25 |
 | [**herdr-helpr**](https://github.com/sohanemon/herdr-helpr)<br><sub>sohanemon</sub> | Prompt-driven workspace and pane management for herdr. | `ai-agents` `bun` `cli` `developer-tools` `ink` | 9 | 🔄 2026-10-22 |
+| [**herdr-sbx-plugin**](https://github.com/dirien/herdr-sbx-plugin)<br><sub>dirien</sub> | Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent | `coding-agents` `docker-sandboxes` `javascript` | 8 | 2026-09-13 |
 | [**namedrop**](https://github.com/ericbust/namedrop)<br><sub>ericbust</sub> | @mentions for Codex, Claude Code, and your terminal. A Herdr plugin that lets agents in different panes work together. | `agent-collaboration` `ai-agents` `claude-code` `cli` `codex` | 8 | 🔄 2026-10-25 |
 | [**herdr-plugin-odysseus**](https://github.com/jpolec/herdr-plugin-odysseus)<br><sub>jpolec</sub> | Governed multi-agent workflows for Herdr: tasks → agents in Herdr panes → checks, retries, review, policy, approvals, audit, draft PR | `ai-agents` `rust` | 8 | 2026-09-25 |
 | [**herdr-space-scoped-agents**](https://github.com/ShankyJS/herdr-space-scoped-agents)<br><sub>ShankyJS</sub> | herdr plugin that scopes the agent panel to the space you're focused on | `coding-agents` `terminal` `go` | 8 | 2026-07-23 |
@@ -281,7 +296,6 @@
 | [**awp**](https://github.com/agentwireprotocol/awp)<br><sub>agentwireprotocol</sub> | Peer-to-peer messaging for AI coding agents: delegate tasks, share files, track state across Claude Code, Codex, Cursor, OpenCode, Pi and more. | `agent-orchestration` `agents` `protcol` `go` | 7 | 2026-09-29 |
 | [**herdr-orchestrate**](https://github.com/darjss/herdr-orchestrate)<br><sub>darjss</sub> | Pi-native orchestration for visible Herdr worker sessions — a run board, durable prompts/reports/state, isolated git worktrees, and explicit model routing. | `pi-package` `typescript` | 7 | 2026-07-13 |
 | [**AgentRadio**](https://github.com/detailles/AgentRadio)<br><sub>detailles</sub> | Local message bus for AI coding agents running in Herdr panes — join, DM, presence, offline delivery | `agent-orchestration` `multi-agent` `radio` `python` | 7 | 2026-09-27 |
-| [**herdr-sbx-plugin**](https://github.com/dirien/herdr-sbx-plugin)<br><sub>dirien</sub> | Herdr plugin that runs coding agents inside Docker Sandboxes (sbx), one microVM per agent | `coding-agents` `docker-sandboxes` `javascript` | 7 | 2026-09-13 |
 | [**agent-panel**](https://github.com/flowy11/agent-panel)<br><sub>flowy11</sub> | herdr plugin: a side panel for your Claude Code or Codex session, its subagents, messages, refs and to-dos | `claude-code` `codex` `javascript` | 7 | 2026-09-29 |
 | [**pier**](https://github.com/July24/pier)<br><sub>July24</sub> | Pi is the coding-agent carrier; Herdr is a terminal workspace manager. pier adds the two capabilities pi deliberately leaves out — a todo list loop and interac… | `pi-coding-agent` `typescript` | 7 | 🔄 2026-10-23 |
 | [**chatter**](https://github.com/marcvermeeren/chatter)<br><sub>marcvermeeren</sub> | Chatter is an experiment in cross-harness agent collaboration: a shared group chat and context layer for agents working on the same Git repository in Herdr. | `agent-collaboration` `agentic-ai` `agentic-workflow` `ai-agents` `group-chat` | 7 | 2026-08-18 |
@@ -317,7 +331,7 @@
 | [**herdr-snip**](https://github.com/eStudio37/herdr-snip)<br><sub>eStudio37</sub> | Box what one agent printed and hand it to another. A Herdr plugin: freeze a pane, box part of it with two clicks, send it to any agent. | `ai-agents` `claude-code` `codex` `coding-agents` `terminal` | 3 | 🔄 2026-10-23 |
 | [**herdr-cursor**](https://github.com/gabriel-laet/herdr-cursor)<br><sub>gabriel-laet</sub> | Cursor cloud agents as first-class herdr panes | `typescript` | 3 | 2026-09-08 |
 | [**herdr-agent-restart**](https://github.com/hmu332233/herdr-agent-restart)<br><sub>hmu332233</sub> | Restart agents in Herdr with one shortcut when their display breaks, and continue the same conversation. | `agent-restart` `javascript` | 3 | 2026-09-08 |
-| [**brgr**](https://github.com/justn-hyeok/brgr)<br><sub>justn-hyeok</sub> | Run Claude Code, Codex, OpenCode, Cursor and more as parallel coding-agent workers in Herdr panes, orchestrated by your Codex or Claude Code session. | `agent-orchestration` `ai-agents` `ai-coding` `claude-code` `codex` | 3 | 🔄 2026-10-14 |
+| [**brgr**](https://github.com/justn-hyeok/brgr)<br><sub>justn-hyeok</sub> | Run Claude Code, Codex, OpenCode, Cursor and more as parallel coding-agent workers in Herdr panes, orchestrated by your Codex or Claude Code session. | `agent-orchestration` `ai-agents` `ai-coding` `claude-code` `codex` | 3 | 🔄 2026-10-25 |
 | [**herdr-sheepdog**](https://github.com/kccarlos/herdr-sheepdog)<br><sub>kccarlos</sub> | Manage your Herdr agents by voice — hands-free, from anywhere. A voice-first agent harness for Claude Code, Codex and other coding agents, with an iPhone app. | `agent-harness` `agent-orchestration` `ai-agents` `claude-code` `codex` | 3 | 🔄 2026-10-24 |
 | [**kubeflock**](https://github.com/LoriKarikari/kubeflock)<br><sub>LoriKarikari</sub> | [Experimental] Create and connect Kubernetes sandboxes in Herdr | `agent-sandbox` `gvisor` `kubernetes` `sandbox` `go` | 3 | 2026-09-11 |
 | [**herdr-link**](https://github.com/LZHcode1986/herdr-link)<br><sub>LZHcode1986</sub> | Faster, token-efficient, and zero-reasoning cross-agent interoperability for Herdr sessions. Replaces heavyweight skills with a unified contract for peer disco… | `typescript` | 3 | 🔄 2026-10-19 |
@@ -378,9 +392,8 @@
 | [**LunaCrab**](https://github.com/GranamyrBR/LunaCrab)<br><sub>GranamyrBR</sub> | Reserved for a separate project | `agents` `developer-tools` `multi-agent` `observability` `rust` | 1 | 2026-08-10 |
 | [**heraldr**](https://github.com/gwenwindflower/heraldr)<br><sub>gwenwindflower</sub> | 🛡️ Reactive label chrome for Herdr tabs, workspaces, and agents | `rust` | 1 | 2026-10-01 |
 | [**herdr-plugin-done-timer**](https://github.com/hanjm93/herdr-plugin-done-timer)<br><sub>hanjm93</sub> | A prompt-cache countdown for every AI agent on herdr's agents panel, read from each agent's transcript. | `ai-agents` `claude-code` `shell` | 1 | 2026-09-15 |
-| [**agent-keep-awake**](https://github.com/happyeric77/agent-keep-awake)<br><sub>happyeric77</sub> | Prevent macOS sleep while Herdr agents are working | `javascript` | 1 | 🔄 2026-10-25 |
 | [**the-cat-concerto**](https://github.com/Herdanis/the-cat-concerto)<br><sub>Herdanis</sub> | Orchestrator prompt + worker contract for coding agents, driven by herdr | `claude-code` `codex` `coding-agent` `gemini-cli` `opencode` | 1 | 🔄 2026-10-15 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | Dispatcher for the herdr-tasks board - a worker agent pane per ready task, the goal delivered, the worker tracked, and a stop at review, in one Go binary. | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 2026-08-31 |
+| [**🆕 herdr-remark**](https://github.com/huluhuluu/herdr-remark)<br><sub>huluhuluu</sub> | Two shortcuts for agent read/unread status and short remarks. | `javascript` | 1 | 🔄 2026-10-23 |
 | [**herdr-diagrams**](https://github.com/jellespijker/herdr-diagrams)<br><sub>jellespijker</sub> | Mermaid, PlantUML, Structurizr, D2 and Graphviz diagrams from your coding agents, rendered as images in a Herdr pane | `claude-code` `diagrams` `kitty-graphics` `mermaid` `plantuml` | 1 | 2026-10-03 |
 | [**paneMorph**](https://github.com/Jenish-Shobhit/paneMorph)<br><sub>Jenish-Shobhit</sub> | herdr plugin that moves live panes between tabs and spaces: send any pane anywhere, fetch any pane here, undo any move. | `ai-agents` `developer-tools` `pane-management` `ratatui` `rust` | 1 | 🔄 2026-10-18 |
 | [**herdr-plan-approve**](https://github.com/jerryfane/herdr-plan-approve)<br><sub>jerryfane</sub> | Auto-approve Claude Code plan-mode dialogs in herdr — agents plan, then execute, without a keypress. | `claude-code` `shell` | 1 | 2026-08-25 |
@@ -390,13 +403,15 @@
 | [**herdr-panel**](https://github.com/lukeda/herdr-panel)<br><sub>lukeda</sub> | Your herdr agents and their status in your desktop panel (KDE Plasma 6, more desktops coming) | `ai-agents` `kde` `kde-plasma` `plasma` `plasmoid` | 1 | 🔄 2026-10-16 |
 | [**sheprd**](https://github.com/m-mohamed/sheprd)<br><sub>m-mohamed</sub> | Keep Pi, Codex, Claude Code, and OpenCode in one visible, isolated Herdr Flok. | `agent-tools` `claude-code` `cli` `codex` `coding-agents` | 1 | 2026-08-25 |
 | [**herdr-matrix**](https://github.com/madebygrant/herdr-matrix)<br><sub>madebygrant</sub> | Herdr Matrix. Your agents become Smith, Brown and Jones, with Matrix status text and digital rain when idle. | `ai-agents` `matrix` `terminal` `python` | 1 | 🔄 2026-10-13 |
+| [**🆕 herdr-agents-preview**](https://github.com/maedana/herdr-agents-preview)<br><sub>maedana</sub> | Multi-agent terminal preview dashboard for Herdr: all running agents shown at once, with the selected agent taking most of the width. | `rust` | 1 | 2026-08-14 |
+| [**🆕 herdr-standup**](https://github.com/natori-hrj/herdr-standup)<br><sub>natori-hrj</sub> | Agent standup for herdr — a per-agent digest of commits and uncommitted work across your agents' repos. | `ai-agents` `git` `standup` `rust` | 1 | 2026-07-23 |
 | [**herdr-tournament**](https://github.com/neospeed83/herdr-tournament)<br><sub>neospeed83</sub> | Adversarial multi-agent code reviews for Herdr | `rust` | 1 | 2026-08-29 |
 | [**🆕 paneyard**](https://github.com/nicholasjstock/paneyard)<br><sub>nicholasjstock</sub> | Queue coding tasks and run them in parallel as interactive agent sessions you can watch, steer, and resume. | `ruby` | 1 | 🔄 2026-10-22 |
 | [**herdr-caffeinate**](https://github.com/nwarwick/herdr-caffeinate)<br><sub>nwarwick</sub> | Prevent macOS system sleep while Herdr agents are working | `caffeinate` `coding-agents` `macos` `shell` | 1 | 2026-07-29 |
 | [**herdr-spawn**](https://github.com/nytafar/herdr-spawn)<br><sub>nytafar</sub> | One MCP tool that hands a prompt from a chat to a real Claude Code session on one of your hosts, with Remote Control on. | `python` | 1 | 2026-08-21 |
 | [**🆕 herdr-plugins**](https://github.com/paniolo-ai/herdr-plugins)<br><sub>paniolo-ai</sub> | Paniolo plugins for Herdr: live status footers for coding agents and direct Obsidian links. | `claude-code` `codex` `coding-agents` `cursor` `devin` | 1 | 🔄 2026-10-21 |
 | [**herdr-tasks**](https://github.com/pinkpixel-dev/herdr-tasks)<br><sub>pinkpixel-dev</sub> | A Herdr plugin that puts your agent's task list in a split pane beside it, checked off as the agent works. | `ai` `ai-agents` `antigravity` `claude-code` `cli` | 1 | 2026-09-19 |
-| [**🆕 fangyang-le**](https://github.com/RZfive/fangyang-le)<br><sub>RZfive</sub> | herdr skill: fan one task out to N parallel coding agents — Claude Code, OpenCode, Codex, Gemini & 20+. Same-kind spawn, workspace-locked, keep-fold-for-review… | `agent-orchestration` `agent-skill` `ai-workflow` `claude-code` `codex-cli` | 1 | 🔄 2026-10-24 |
+| [**🆕 herdr-discord**](https://github.com/ralphilius/herdr-discord)<br><sub>ralphilius</sub> | Herdr plugin: Discord as a UI layer — channels are workspaces, threads spawn agents | `discord` `javascript` | 1 | 2026-09-26 |
 | [**herdr-imebox**](https://github.com/Sawakee/herdr-imebox)<br><sub>Sawakee</sub> | IME-friendly pop-up text box for typing Japanese/CJK into AI agent panes in herdr | `cjk` `ime` `input-method` `japanese` `ratatui` | 1 | 2026-07-17 |
 | [**herdr-llm-lint**](https://github.com/shindakun/herdr-llm-lint)<br><sub>shindakun</sub> | Lints CLAUDE.md, AGENTS.md, and agent instruction files for stale paths, commands, facts, and drift | `agents-md` `ai-agents` `claude-code` `claude-md` `cli` | 1 | 2026-09-21 |
 | [**herdr-testrun**](https://github.com/shindakun/herdr-testrun)<br><sub>shindakun</sub> | Herdr plugin. Runs a project's tests in a pane, lists the failures, sends them to the agent on one key. | `go` `nodejs` `rust` | 1 | 2026-09-20 |
@@ -488,7 +503,6 @@
 | [**herdr-collide**](https://github.com/mcc0x/herdr-collide)<br><sub>mcc0x</sub> | Warns when agents working in different git worktrees of one repo are about to collide — and whether their edits merely overlap or will actually conflict. | `conflict-detection` `git-worktree` `rust` `terminal` | 1 | 🔄 2026-10-16 |
 | [**herdr-standup**](https://github.com/mcc0x/herdr-standup)<br><sub>mcc0x</sub> | A digest of what your agents actually did. One command, one readable summary of every Herdr workspace over a time window — commits, change volume, branch, and… | `git` `rust` `standup` `terminal` | 1 | 🔄 2026-10-16 |
 | [**herdr-pr-worktree**](https://github.com/poislagarde/herdr-pr-worktree)<br><sub>poislagarde</sub> | Open GitHub pull requests as worktree spaces in Herdr, reusing existing checkouts. | `git-worktree` `python` | 1 | 🔄 2026-10-14 |
-| [**herdr-jira-worktree**](https://github.com/spiritsack/herdr-jira-worktree)<br><sub>spiritsack</sub> | herdr plugin: prompt for a Jira ticket, open/reuse a matching git worktree, and prefill it into a fresh Claude Code session | `shell` | 1 | 2026-08-24 |
 | [**herdr-worktree-include**](https://github.com/tupton/herdr-worktree-include)<br><sub>tupton</sub> | Symlink or copy untracked files to git worktrees created by herdr. | `shell` | 1 | 2026-09-14 |
 
 <details><summary>Also relevant to this purpose</summary>
@@ -519,8 +533,8 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox: warm a box, sync the diff, run the suite. | `agent-skills` `remote-test-runner` `go` | 1497 | 🔄 2026-10-24 |
-| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | Review your agent's diff in a terminal pane and send comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin. | `agentic-coding` `ai-agents` `claude-code` `cli` `code-review` | 940 | 🔄 2026-10-24 |
+| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox: warm a box, sync the diff, run the suite. | `agent-skills` `remote-test-runner` `go` | 1498 | 🔄 2026-10-24 |
+| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | Review your agent's diff in a terminal pane and send comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin. | `agentic-coding` `ai-agents` `claude-code` `cli` `code-review` | 941 | 🔄 2026-10-24 |
 | [**herdr-annotate**](https://github.com/plannotator/herdr-annotate)<br><sub>plannotator</sub> | Annotate terminal text, review documents and agent replies in Herdr, and send the feedback straight back to the agent. | `annotation` `multiplexer` `rust` | 697 | 🔄 2026-10-23 |
 | [**roamgate**](https://github.com/powerfooI/roamgate)<br><sub>powerfooI</sub> | A Herdr client for any screen. Control terminals, monitor coding agents, and review files and diffs from desktop or mobile. | `ai-agents` `bun` `code-review` `developer-tools` `git-worktree` | 320 | 🔄 2026-10-25 |
 | [**herdr-hunk-diff**](https://github.com/jhochenbaum/herdr-hunk-diff)<br><sub>jhochenbaum</sub> | Review agent-authored changes in hunk from herdr and send inline comments back to the responsible agent. | `code-review` `hunk` `typescript` | 147 | 🔄 2026-10-21 |
@@ -528,7 +542,7 @@
 | [**herdr-gitview**](https://github.com/ChmaraX/herdr-gitview)<br><sub>ChmaraX</sub> | Git status/diff panel for herdr - review changes, edit in nvim, stage/commit/discard, all from the terminal | `git` `git-diff` `git-tui` `neovim` `rust` | 21 | 🔄 2026-10-23 |
 | [**herdr-pickr**](https://github.com/tomasvarga/herdr-pickr)<br><sub>tomasvarga</sub> | A PR review router for herdr — Ctrl+click a GitHub PR / GitLab MR link and pick a reviewer (tuicr · hunk · diff · browser · or your own tool), with an optional… | `cli` `code-review` `pull-request` `tui` `shell` | 20 | 2026-07-13 |
 | [**herdr-plugin-hunk**](https://github.com/edmundmiller/herdr-plugin-hunk)<br><sub>edmundmiller</sub> | Herdr plugin for opening Hunk diffs in split panes or tabs | `python` | 15 | 2026-06-23 |
-| [**herdr-extensions**](https://github.com/vonzelle-vzt/herdr-extensions)<br><sub>vonzelle-vzt</sub> | Tiny VS Code for herdr: a real editor with LSP diagnostics, autocomplete, rename and go-to-definition — plus source control, search, problems, tests, a debugge… | `agent-tools` `autocomplete` `claude-code` `cli` `code-review` | 7 | 🔄 2026-10-19 |
+| [**herdr-extensions**](https://github.com/vonzelle-vzt/herdr-extensions)<br><sub>vonzelle-vzt</sub> | Tiny VS Code for herdr: a real editor with LSP diagnostics, autocomplete, rename and go-to-definition — plus source control, search, problems, tests, a debugge… | `agent-tools` `autocomplete` `claude-code` `cli` `code-review` | 7 | 🔄 2026-10-25 |
 | [**herdr-plugin-hunk-autodiff**](https://github.com/scott306lr/herdr-plugin-hunk-autodiff)<br><sub>scott306lr</sub> | Herdr plugin: auto-open a hunk diff split when a coding agent finishes with uncommitted changes | `claude-code` `hunk` `python` | 5 | 2026-07-05 |
 | [**herdr-review**](https://github.com/alexeyco/herdr-review)<br><sub>alexeyco</sub> | Review agent-authored Git diffs in Herdr with revdiff, tuicr, or lumen | `ai-agents` `code-review` `coding-agents` `developer-tools` `git-diff` | 3 | 🔄 2026-10-23 |
 | [**huicr**](https://github.com/claytonjschneider/huicr)<br><sub>claytonjschneider</sub> | Herdr User Interface for Code Review | `python` | 3 | 2026-10-01 |
@@ -607,7 +621,7 @@
 | [**herdr-sniffr**](https://github.com/tomasvarga/herdr-sniffr)<br><sub>tomasvarga</sub> | An AI sniffs your PR for issues before you review — an agentic first-pass that drops draft comments into tuicr. Agent-agnostic (codex/claude/cursor/grok/…). | `ai` `cli` `code-review` `pull-request` `tuicr` | 6 | 2026-07-14 |
 | [**mergr**](https://github.com/jsmenzies/mergr)<br><sub>jsmenzies</sub> | GitHub pull request status for Herdr Space sidebar rows. | `github-pull-requests` `rust` | 5 | 2026-07-30 |
 | [**herdr-git-status**](https://github.com/krystof018/herdr-git-status)<br><sub>krystof018</sub> | Surfaces CI status inside herdr for both GitLab (pipelines + merge requests) and GitHub (Actions + pull requests), auto-detected from the repo's origin. | `bash` `ci-cd` `ci-status` `developer-tools` `github-actions` | 5 | 2026-09-20 |
-| [**herdr-linear**](https://github.com/talent-factory/herdr-linear)<br><sub>talent-factory</sub> | A Linear issues panel for Herdr, with implement-on-Enter. | `rust` | 5 | 🔄 2026-10-10 |
+| [**herdr-linear**](https://github.com/talent-factory/herdr-linear)<br><sub>talent-factory</sub> | A Linear issues panel for Herdr, with implement-on-Enter. | `rust` | 5 | 2026-10-10 |
 | [**herdr-pr-board**](https://github.com/cdowell09/herdr-pr-board)<br><sub>cdowell09</sub> | Configurable cross-repository GitHub pull request dashboard for Herdr | `github` `tui` `go` | 4 | 🔄 2026-10-21 |
 | [**herdr-gh-checks**](https://github.com/itisbryan/herdr-gh-checks)<br><sub>itisbryan</sub> | Herdr plugin: watch & review the current PR's CI in a pane; CI/merge status on sidebar rows. Go + Bubble Tea. | `bubbletea` `ci` `github-actions` `tui` `go` | 4 | 2026-08-25 |
 | [**herdr-linear**](https://github.com/mrolafsson/herdr-linear)<br><sub>mrolafsson</sub> | Linear issues and projects in a herdr popup: status icons, rendered descriptions, status changes, one key to a worktree, and Start hands the issue to your codi… | `bubbletea` `claude-code` `coding-agents` `git-worktree` `go` | 4 | 🔄 2026-10-20 |
@@ -637,7 +651,7 @@
 | [**herdr-agent-prs**](https://github.com/sebassdc/herdr-agent-prs)<br><sub>sebassdc</sub> | A cross-repo PR viewer for coding agents in Herdr. See every pull request an agent opened or pushed to, in any repo, with live CI, review and merge state. | `ratatui` `rust` | 1 | 2026-09-26 |
 | [**herdr-pr-modal**](https://github.com/Tarektouati/herdr-pr-modal)<br><sub>Tarektouati</sub> | Open any pull request in its own worktree, straight from a Herdr | `rust` | 1 | 2026-09-24 |
 | [**herdr-ci-checks**](https://github.com/tdi/herdr-ci-checks)<br><sub>tdi</sub> | herdr plugin: live GitHub/GitLab CI checks for the current branch in a pane on the right | `javascript` | 1 | 2026-09-25 |
-| [**agent-checks**](https://github.com/timmo001/agent-checks)<br><sub>timmo001</sub> | CI and lint status for Herdr workspaces, with an Omarchy panel | `gh-cli` `github-workflows` `typescript` | 1 | 🔄 2026-10-24 |
+| [**agent-checks**](https://github.com/timmo001/agent-checks)<br><sub>timmo001</sub> | CI and lint status for Herdr workspaces, with an Omarchy panel | `gh-cli` `github-workflows` `typescript` | 1 | 🔄 2026-10-25 |
 | [**herdr-github-pr**](https://github.com/woshahua/herdr-github-pr)<br><sub>woshahua</sub> | Herdr plugin that syncs GitHub PR status, checks, reviews, and comments | `github` `javascript` | 1 | 2026-08-21 |
 | [**herdr-pr**](https://github.com/yelsed/herdr-pr)<br><sub>yelsed</sub> | A Todo of the pull requests waiting on you, in a herdr pane. Reads everything through the gh CLI. | `rust` | 1 | 2026-08-29 |
 | [**herdr-draft**](https://github.com/ZviBaratz/herdr-draft)<br><sub>ZviBaratz</sub> | herdr plugin: a new-session creation dialog — Linear issue, worktree, placement, agent kind, clauth account and initial prompt in one submit | `bubbletea` `claude-code` `go` `linear` `tui` | 1 | 🔄 2026-10-14 |
@@ -653,7 +667,6 @@
 - [kkjdaniel/herdr-gh-runs](https://github.com/kkjdaniel/herdr-gh-runs) — GitHub Actions runs in a herdr pane: follows your repo, live status, step logs and notifications
 - [poislagarde/herdr-pr-worktree](https://github.com/poislagarde/herdr-pr-worktree) — Open GitHub pull requests as worktree spaces in Herdr, reusing existing checkouts.
 - [poislagarde/herdr-worktree-cleanup](https://github.com/poislagarde/herdr-worktree-cleanup) — Automatically clean up safe GitHub PR worktrees when their Herdr space closes. Python, no dependencies, MIT.
-- [spiritsack/herdr-jira-worktree](https://github.com/spiritsack/herdr-jira-worktree) — herdr plugin: prompt for a Jira ticket, open/reuse a matching git worktree, and prefill it into a fresh Claud…
 - [ukwhatn/taskherd](https://github.com/ukwhatn/taskherd) — Task board linked to herdr agent sessions, PRs, and Jira tickets
 
 </details>
@@ -679,10 +692,10 @@
 | [**herdr-session-manager**](https://github.com/umutciloglu/herdr-session-manager)<br><sub>umutciloglu</sub> | agent session manager for herdr with cross harness messaging | `rust` | 5 | 🔄 2026-10-21 |
 | [**herdr-workspace-organizer**](https://github.com/cesmunoz/herdr-workspace-organizer)<br><sub>cesmunoz</sub> | Herdr Workspace Organizer | `typescript` | 4 | 🔄 2026-10-16 |
 | [**herdr-clone-layout**](https://github.com/danilolucasmd/herdr-clone-layout)<br><sub>danilolucasmd</sub> | Clone your workspace layout onto every new herdr worktree. No templates, no config, the layout you're in is the template. | `shell` | 4 | 2026-08-27 |
+| [**herdr-fork-from-message**](https://github.com/dmangla3/herdr-fork-from-message)<br><sub>dmangla3</sub> | Fork Codex or Claude Code from an earlier message into a new Herdr tab, pane, or workspace | `claude-code` `codex` `developer-tools` `terminal-multiplexer` `python` | 4 | 2026-08-10 |
 | [**herdr-pane-layouts**](https://github.com/iurysza/herdr-pane-layouts)<br><sub>iurysza</sub> | Seamless tmux-style pane resizing and layouts for Herdr | `pane-layout` `python` `terminal` | 4 | 🔄 2026-10-21 |
 | [**herdr-muster**](https://github.com/marcoskichel/herdr-muster)<br><sub>marcoskichel</sub> | Agent-aware project switcher for herdr | `rust` | 4 | 2026-07-03 |
 | [**dsh-plugin-herdr**](https://github.com/sunny0826/dsh-plugin-herdr)<br><sub>sunny0826</sub> | Herdr control-plane plugin for DeepSeek Harness (DSH): observe and drive Herdr — a terminal workspace manager for AI coding agents — from DSH sessions | `dsh-plugin` `typescript` | 4 | 2026-08-25 |
-| [**herdr-fork-from-message**](https://github.com/dmangla3/herdr-fork-from-message)<br><sub>dmangla3</sub> | Fork Codex or Claude Code from an earlier message into a new Herdr tab, pane, or workspace | `claude-code` `codex` `developer-tools` `terminal-multiplexer` `python` | 3 | 2026-08-10 |
 | [**herdr-layout-tools**](https://github.com/edouard-andrei/herdr-layout-tools)<br><sub>edouard-andrei</sub> | herdr plugin: in-place reshape (main-left + grid) and equalize — same tab id, same pane ids, processes preserved | `javascript` | 3 | 2026-08-06 |
 | [**herdr-auto-layout**](https://github.com/ExLuna-rs/herdr-auto-layout)<br><sub>ExLuna-rs</sub> | Declarative layouts applied to every new workspace — cross-platform herdr plugin | `layout` `rust` `terminal` | 3 | 2026-09-30 |
 | [**herdr-compose**](https://github.com/ropali/herdr-compose)<br><sub>ropali</sub> | herdr-compose is a declarative workspace layout manager for Herdr | `layout-manager` `python` | 3 | 🔄 2026-10-14 |
@@ -810,7 +823,7 @@
 | [**herdr-scratchpad**](https://github.com/brunohq/herdr-scratchpad)<br><sub>brunohq</sub> | Minimal per-tab markdown scratchpad with checkbox todos for herdr | `python` `scratchpad` `tui` | 1 | 2026-09-12 |
 | [**herdr-plugin-tiles**](https://github.com/carsonjones/herdr-plugin-tiles)<br><sub>carsonjones</sub> | simple pane manager for herdr | `python` | 1 | 2026-06-19 |
 | [**lazyherd**](https://github.com/chriopter/lazyherd)<br><sub>chriopter</sub> | Cockpit over all your Git repos, with a jump into lazygit and Herdr workspaces | `git` `lazygit` `tui` `go` | 1 | 2026-10-05 |
-| [**🆕 herdr-cheatsheet**](https://github.com/ChristianDeckert/herdr-cheatsheet)<br><sub>ChristianDeckert</sub> | Clickable herdr side panel: just recipes, herdr and terminal keybindings | `cheatsheet` `just` `zsh` `shell` | 1 | 🔄 2026-10-24 |
+| [**🆕 herdr-cheatsheet**](https://github.com/ChristianDeckert/herdr-cheatsheet)<br><sub>ChristianDeckert</sub> | Clickable herdr side panel: just recipes, herdr and terminal keybindings | `cheatsheet` `just` `zsh` `shell` | 1 | 🔄 2026-10-25 |
 | [**herdr-notes**](https://github.com/cyperx84/herdr-notes)<br><sub>cyperx84</sub> | Focused per-workspace Markdown scratch notes for Herdr, built in Go | `bubbletea` `golang` `markdown` `notes` `go` | 1 | 2026-08-16 |
 | [**herdr-tab-jump**](https://github.com/cyperx84/herdr-tab-jump)<br><sub>cyperx84</sub> | Focus herdr tab N by position, from any keybinding — split your number row between tabs and workspaces | `shell` | 1 | 2026-09-01 |
 | [**herdr-last-tab**](https://github.com/dantehemerson/herdr-last-tab)<br><sub>dantehemerson</sub> | Plugin for swapping to the last tab you had focused | `rust` | 1 | 2026-08-12 |
@@ -826,6 +839,7 @@
 | [**herdr-scratch**](https://github.com/macintacos/herdr-scratch)<br><sub>macintacos</sub> | A scratch shell for herdr, in a popup you toggle with one chord — backed by tmux, so it comes back exactly as you left it | `go` | 1 | 2026-08-28 |
 | [**herdr-touchbar**](https://github.com/omerturhan/herdr-touchbar)<br><sub>omerturhan</sub> | Shows working and blocked herdr agents on the MacBook Touch Bar; tap one to jump straight to its tab. | `ai-agents` `macos` `touchbar` `swift` | 1 | 2026-09-14 |
 | [**herdr-plugins**](https://github.com/oullin/herdr-plugins)<br><sub>oullin</sub> | A collection of focused, independently installable plugins for Herdr. | `typescript` | 1 | 🔄 2026-10-20 |
+| [**🆕 herdr-which-key**](https://github.com/pradyb/herdr-which-key)<br><sub>pradyb</sub> | Neovim-style which-key popup for herdr: press a leader, see the next keys, run herdr actions | `python` | 1 | 🔄 2026-10-20 |
 | [**🆕 herdr-deck-navigation**](https://github.com/raghu-nandan-bs/herdr-deck-navigation)<br><sub>raghu-nandan-bs</sub> | Replaces herdr's flat workspace/tab/pane navigator with a Deck view built to reach any pane fast without scrolling. | `rust` `terminal` `tui` | 1 | 2026-08-24 |
 | [**🆕 herdr-safe-close**](https://github.com/RodrigoEspinosa/herdr-safe-close)<br><sub>RodrigoEspinosa</sub> | Close herdr tabs and panes safely — confirm in a popup when an agent, dev server or editor is still running, or it's the last tab in the space. | `shell` | 1 | 2026-10-02 |
 | [**herdr-tab-flow**](https://github.com/RodrigoEspinosa/herdr-tab-flow)<br><sub>RodrigoEspinosa</sub> | Next/previous tab navigation for herdr that flows across spaces — past the last tab, continue into the next space. | `shell` | 1 | 2026-10-01 |
@@ -836,6 +850,7 @@
 | [**herdr-nav-plus**](https://github.com/shoaibkhanz/herdr-nav-plus)<br><sub>shoaibkhanz</sub> | Ctrl+h/j/k/l navigation that flows past herdr panes into workspaces — vim-aware, wraps at both ends | `javascript` | 1 | 2026-07-18 |
 | [**herdr-worktrees**](https://github.com/SpaceK33z/herdr-worktrees)<br><sub>SpaceK33z</sub> | Switch, create, and remove Git worktrees from a Herdr popup | `rust` | 1 | 2026-09-17 |
 | [**jc-herdr-plugins**](https://github.com/thejiajun/jc-herdr-plugins)<br><sub>thejiajun</sub> | Herdr plugins: Autoname (auto-name workspaces from agent conversations) and Agent Switcher (search and jump between agents) | `python` | 1 | 🔄 2026-10-14 |
+| [**🆕 herdr-clock**](https://github.com/Tyru5/herdr-clock)<br><sub>Tyru5</sub> | tmux clock-mode for herdr — a big block-glyph clock popup showing the local time; any key dismisses | `rust` `terminal` `tmux` | 1 | 2026-09-15 |
 | [**herdr-balance-panes**](https://github.com/willfish/herdr-balance-panes)<br><sub>willfish</sub> | Evenly size panes in the current Herdr tab (tmux select-layout -E) | `rust` `terminal` `tmux` | 1 | 2026-08-05 |
 | [**herdr-mark**](https://github.com/y4le/herdr-mark)<br><sub>y4le</sub> | tmux-style marked pane for herdr: mark a pane, then join it beside or swap it with another | `shell` | 1 | 2026-09-26 |
 
@@ -851,7 +866,6 @@
 - [karanpatel1993/herdr-nav](https://github.com/karanpatel1993/herdr-nav) — File navigation, code search and jdb debugging inside herdr — fzf, ripgrep and a Java debugger wired into you…
 - [bayoudhi/herdr-prayer-times](https://github.com/bayoudhi/herdr-prayer-times) — Next Islamic prayer and countdown in the Herdr sidebar, with a timetable popup and notifications
 - [bearylabs/herdr-better-worktrees](https://github.com/bearylabs/herdr-better-worktrees) — A fast Herdr popup for managing Git worktrees in a predictable embedded-bare layout: create, clone, open, ins…
-- [MykolaSuprun/herdr-vimnav](https://github.com/MykolaSuprun/herdr-vimnav) — Master-detail switcher for herdr — live pane previews, MRU priority sort, sidebar jump codes
 - [xzedx/herdr-derby](https://github.com/xzedx/herdr-derby) — Send one prompt to every coding agent in the current Herdr tab and watch them race: a popup to type in, live…
 
 </details>
@@ -866,11 +880,11 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | VS Code in the terminal | `cli` `terminal` `vscode` `typescript` | 2195 | 🔄 2026-10-19 |
-| [**ttt**](https://github.com/eugenioenko/ttt)<br><sub>eugenioenko</sub> | TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero con… | `cli` `code-editor` `developer-tools` `diff` `editor` | 839 | 🔄 2026-10-24 |
-| [**dotfiles**](https://github.com/babarot/dotfiles)<br><sub>babarot</sub> | A repository that gathered files starting with dot | `dotfiles` `neovim` `nix` | 783 | 🔄 2026-10-24 |
+| [**terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | VS Code in the terminal | `cli` `terminal` `vscode` `typescript` | 2196 | 🔄 2026-10-19 |
+| [**ttt**](https://github.com/eugenioenko/ttt)<br><sub>eugenioenko</sub> | TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero con… | `cli` `code-editor` `developer-tools` `diff` `editor` | 851 | 🔄 2026-10-24 |
+| [**dotfiles**](https://github.com/babarot/dotfiles)<br><sub>babarot</sub> | A repository that gathered files starting with dot | `dotfiles` `neovim` `nix` | 782 | 🔄 2026-10-25 |
 | [**herdr-file-viewer**](https://github.com/smarzban/herdr-file-viewer)<br><sub>smarzban</sub> | A git-aware, read-only file viewer for herdr. Mouse friendly, keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting. | `file-viewer` `git` `ratatui` `rust` `terminal` | 679 | 🔄 2026-10-23 |
-| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | VS Code-style sidebar for the herdr: file explorer + git source control in one pane — syntax-highlighted previews, VS Code-style diffs, GitLens-style drawers,… | `git` `ratatui` `rust` `sidebar` `terminal` | 502 | 🔄 2026-10-24 |
+| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | VS Code-style sidebar for the herdr: file explorer + git source control in one pane — syntax-highlighted previews, VS Code-style diffs, GitLens-style drawers,… | `git` `ratatui` `rust` `sidebar` `terminal` | 504 | 🔄 2026-10-24 |
 | [**token**](https://github.com/ThorstenRhau/token)<br><sub>ThorstenRhau</sub> | Neovim colorscheme with terminal-wide contrib themes | `bat-theme` `delta-theme` `emacs-theme` `fish-theme` `fzf-theme` | 310 | 🔄 2026-10-12 |
 | [**herdr-nvim**](https://github.com/ChmaraX/herdr-nvim)<br><sub>ChmaraX</sub> | Neovim, fully integrated into your herdr workspace | `lua` `neovim` `nvim` `nvim-plugin` `rust` | 306 | 🔄 2026-10-22 |
 | [**herdr-mirror**](https://github.com/nikok6/herdr-mirror)<br><sub>nikok6</sub> | Unify your local and remote sessions in one window: mirror remote herdr servers into your local sidebar and drive them over SSH | `rust` | 259 | 2026-09-06 |
@@ -918,7 +932,6 @@
 | [**herdr-cursor-open**](https://github.com/alex-devdone/herdr-cursor-open)<br><sub>alex-devdone</sub> | Open the focused herdr pane in Cursor or VS Code — including panes attached to a remote herdr, over Remote-SSH | `cursor` `vscode` `shell` | 1 | 2026-09-07 |
 | [**🆕 herdr-agent-tree**](https://github.com/Algorant/herdr-agent-tree)<br><sub>Algorant</sub> | Show Pi Subagents and Workers beneath their delegating agent in Herdr's native Agents sidebar | `shell` | 1 | 🔄 2026-10-20 |
 | [**herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | Project context dock for herdr — file tree with git status and LLM conversation history, always at your agent's side | `git` `jj` `ratatui` `rust` `sidebar` | 1 | 2026-09-30 |
-| [**asgoto**](https://github.com/asumaran/asgoto)<br><sub>asumaran</sub> | Tree-style switcher across herdr repos, worktrees and panes | `go` | 1 | 2026-10-08 |
 | [**🆕 herdr-sim**](https://github.com/baleen37/herdr-sim)<br><sub>baleen37</sub> | Herdr plugin: show the PRs each Claude Code / Codex pane touched as sidebar icons | `claude-code` `codex` `rust` | 1 | 🔄 2026-10-23 |
 | [**herdr-agents-sidebar**](https://github.com/C0R0NELL/herdr-agents-sidebar)<br><sub>C0R0NELL</sub> | Customize Herdr’s native agent sidebar with Grouped and Priority layouts, flexible views, and per-mode colors. | `python` | 1 | 🔄 2026-10-12 |
 | [**herdr-jetbrains**](https://github.com/chenyao0910/herdr-jetbrains)<br><sub>chenyao0910</sub> | Open the active Herdr workspace or worktree in Rider, WebStorm, IntelliJ IDEA, or GoLand. | `developer-tools` `git-worktree` `goland` `intellij-idea` `jetbrains` | 1 | 2026-08-30 |
@@ -931,10 +944,8 @@
 | [**herdr-file-viewer**](https://github.com/jomarmontuya/herdr-file-viewer)<br><sub>jomarmontuya</sub> | Right-side Herdr file tree plugin with file tabs, cwd following, git decorations, and clickable links | `go` | 1 | 2026-07-13 |
 | [**🆕 herdr-vista**](https://github.com/kamil-pociot/herdr-vista)<br><sub>kamil-pociot</sub> | Herdr plugin: one key opens vista, a terminal file viewer and editor, on the git repo you're in. Another key reviews what an agent changed on its branch. | `editor` `file-viewer` `rust` | 1 | 🔄 2026-10-24 |
 | [**herdr-scratchdock**](https://github.com/mvaios/herdr-scratchdock)<br><sub>mvaios</sub> | Dock a coding agent's scratchpad folder beside it in herdr — live tree, text and image previews, opens itself when the agent starts working. | `claude-code` `tui` `python` | 1 | 2026-09-28 |
-| [**🆕 herdr-vimnav**](https://github.com/MykolaSuprun/herdr-vimnav)<br><sub>MykolaSuprun</sub> | Master-detail switcher for herdr — live pane previews, MRU priority sort, sidebar jump codes | `go` | 1 | 🔄 2026-10-25 |
 | [**herdr-gitui**](https://github.com/Shi1xin/herdr-gitui)<br><sub>Shi1xin</sub> | herdr plugin: gitui in a sidebar pane — open/toggle, expand, light/dark themes | `gitui` `python` | 1 | 2026-07-28 |
 | [**herdr-subagent-watch**](https://github.com/silencechung/herdr-subagent-watch)<br><sub>silencechung</sub> | herdr plugin: watch Claude Code sub agents live — popup viewer and sidebar tree | `javascript` | 1 | 🔄 2026-10-23 |
-| [**🆕 herdr-plugin-agent-spinner**](https://github.com/varvand/herdr-plugin-agent-spinner)<br><sub>varvand</sub> | One-cell spinner on working rows in the Herdr Agents sidebar | `python` | 1 | 2026-10-08 |
 | [**herdr-focus**](https://github.com/Zeus-Deus/herdr-focus)<br><sub>Zeus-Deus</sub> | herdr plugin: an attention layer for the agent sidebar - clear titles, Needs you / Working / Done, unread and settle triage, and a watch eye for background PR… | `python` | 1 | 2026-10-09 |
 
 <details><summary>Also relevant to this purpose</summary>
@@ -953,6 +964,7 @@
 - [mcostasilva/herdr-marks](https://github.com/mcostasilva/herdr-marks) — Neovim-style letter marks for Herdr panes and workspaces, with colored sidebar labels and quick navigation
 - [bayoudhi/herdr-prayer-times](https://github.com/bayoudhi/herdr-prayer-times) — Next Islamic prayer and countdown in the Herdr sidebar, with a timetable popup and notifications
 - [ecklf/herdr-plugin-gh](https://github.com/ecklf/herdr-plugin-gh) — GitHub PR and CI status in Herdr's Agents sidebar, with open/create PR and failing-check actions.
+- [ichadhr/herdr-zcode](https://github.com/ichadhr/herdr-zcode) — Herdr plugin that adds ZCode agent support — live pane state (working/blocked/idle) in the sidebar and sessio…
 - [jwanga/herdr-plugin-github-status](https://github.com/jwanga/herdr-plugin-github-status) — herdr plugin: a real-time GitHub project status pane (milestones, issues, PRs, Actions) docked on the right a…
 - [mastnacek/pi-herdr-sidebar](https://github.com/mastnacek/pi-herdr-sidebar) — Native Rust Herdr plugin sidebar for the Pi coding agent: status telemetry, live skills, gates — VSA slices i…
 - [ralphilius/herdr-github-metadata](https://github.com/ralphilius/herdr-github-metadata) — Herdr plugin: GitHub metadata for the sidebar — the PR each agent is working on
@@ -971,7 +983,7 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**memex**](https://github.com/nicosuave/memex)<br><sub>nicosuave</sub> | Search Claude Code, Codex, Pi, OpenCode, Github Copilot & Cursor transcripts. Resume sessions. Track tokens. | `bm25` `claude-code` `codex-cli` `copilot` `hermes-agent` | 281 | 🔄 2026-10-24 |
+| [**memex**](https://github.com/nicosuave/memex)<br><sub>nicosuave</sub> | Search Claude Code, Codex, Pi, OpenCode, Github Copilot & Cursor transcripts. Resume sessions. Track tokens. | `bm25` `claude-code` `codex-cli` `copilot` `hermes-agent` | 282 | 🔄 2026-10-24 |
 | [**herdr-agent-usage**](https://github.com/senna-lang/herdr-agent-usage)<br><sub>senna-lang</sub> | Context meters, quota tracking, and provider rate limits for agents running in Herdr. | `ai-agents` `claude-code` `codex` `golang` `rate-limiting` | 60 | 🔄 2026-10-25 |
 | [**llmtrim-herdr**](https://github.com/fkiene/llmtrim-herdr)<br><sub>fkiene</sub> | 💸 Shrink your token bill in herdr: compresses every agent pane's requests (-31% input / -74% output, measured live) and shows the savings on a per-pane badge | `llm-proxy` `llmtrim` `powershell` | 58 | 2026-07-02 |
 | [**quota**](https://github.com/pinkpixel-dev/quota)<br><sub>pinkpixel-dev</sub> | Desktop app, VSCode extension, CLI, and Herdr plugin for tracking AI usage across GitHub Copilot, Codex, Claude Code, Antigravity, Kiro, Grok, Cursor and OpenC… | `ai-tools` `antigravity` `claude` `codex` `cursor` | 31 | 🔄 2026-10-20 |
@@ -981,7 +993,7 @@
 | [**herdr-claude-usage**](https://github.com/alejodelosrios/herdr-claude-usage)<br><sub>alejodelosrios</sub> | Stop opening a Claude session just to check your quota. Live Claude plan usage — Session % \| Week % — always visible in your Herdr sidebar, shared across ever… | `claude` `claude-code` `python` | 3 | 2026-07-21 |
 | [**agentglass-herdr**](https://github.com/BjoernSchotte/agentglass-herdr)<br><sub>BjoernSchotte</sub> | agentglass inside herdr: popup, open-in-agentglass, agentglass:// links, cost and alert tokens | `agentglass` `coding-agents` `shell` | 3 | 2026-10-07 |
 | [**herdr-opentab**](https://github.com/hamidi-dev/herdr-opentab)<br><sub>hamidi-dev</sub> | Live per-agent AI spend from OpenTab in the Herdr sidebar. | `ai-agents` `opentab` `terminal` `python` | 3 | 2026-10-07 |
-| [**herdr-jarvis**](https://github.com/NexorPL/herdr-jarvis)<br><sub>NexorPL</sub> | Mission control for herdr: animated big-picture core, projects by path, threads, timeline and token usage. | `rust` | 3 | 🔄 2026-10-18 |
+| [**herdr-jarvis**](https://github.com/NexorPL/herdr-jarvis)<br><sub>NexorPL</sub> | Mission control for herdr: animated big-picture core, projects by path, threads, timeline and token usage. | `rust` | 3 | 🔄 2026-10-25 |
 | [**herdr-gekiatsu-plugin**](https://github.com/yuuta1219/herdr-gekiatsu-plugin)<br><sub>yuuta1219</sub> | herdr plugin: Claude Code usage counter, but it's a pachislot machine. 1/99 jackpot, daily reset at 10:00 JST | `claude` `claude-code` `python` `tui` | 3 | 2026-08-17 |
 | [**quota-deck**](https://github.com/ArtMoreno/quota-deck)<br><sub>ArtMoreno</sub> | quota-deck: credential-scoped AI quota and context for Herdr on Windows, macOS, and Linux | `rust` | 2 | 2026-10-03 |
 | [**herdr-account-hub**](https://github.com/C0R0NELL/herdr-account-hub)<br><sub>C0R0NELL</sub> | Manage Codex, Claude accounts in Herdr, track usage, and use resets. Switch Codex accounts without losing chat history or titles. Claude Code support is beta. | `herd-management` `python` | 2 | 🔄 2026-10-23 |
@@ -1022,7 +1034,7 @@
 | [**captains-deck**](https://github.com/deimantasnork/captains-deck)<br><sub>deimantasnork</sub> | Captain's Deck - a read-only Firstmate flow kanban plugin for Herdr | `firstmate` `python` | 69 | 🔄 2026-10-22 |
 | [**herdr-beads**](https://github.com/miiraheart/herdr-beads)<br><sub>miiraheart</sub> | A beads (bd) task board for herdr: List, Table, Kanban over your bd issues, docked as a sidebar or floating. | `bd` `beads` `kanban` `rust` `tui` | 39 | 2026-10-08 |
 | [**herdr-pc-ram-and-cpu-usage-overlay**](https://github.com/ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay)<br><sub>ezcorp-org</sub> | herdr plugin: live CPU/RAM usage per space (workspace), as a share of the whole machine | `rust` | 27 | 2026-09-13 |
-| [**herdr-f1**](https://github.com/hmu332233/herdr-f1)<br><sub>hmu332233</sub> | An F1-style dashboard for your Herdr agents. | `agent-dashboard` `typescript` | 17 | 2026-10-09 |
+| [**herdr-f1**](https://github.com/hmu332233/herdr-f1)<br><sub>hmu332233</sub> | An F1-style dashboard for your Herdr agents. | `agent-dashboard` `typescript` | 18 | 2026-10-09 |
 | [**herdr-shell-progress**](https://github.com/bayoudhi/herdr-shell-progress)<br><sub>bayoudhi</sub> | Herdr plugin: live sidebar progress for slow shell commands, not just coding agents | `rust` | 16 | 2026-09-23 |
 | [**herdr-agent-grid**](https://github.com/jeffarese/herdr-agent-grid)<br><sub>jeffarese</sub> | A fast native Rust command center for Herdr: agents, subagents, status, messages and API cost. | `agent-dashboard` `ai-agents` `claude-code` `codex` `ratatui` | 16 | 🔄 2026-10-16 |
 | [**herdr-telemetry**](https://github.com/DIodide/herdr-telemetry)<br><sub>DIodide</sub> | Herdr plugin that streams workspace & agent telemetry to an endpoint you control — Go, single binary, privacy-first defaults | `golang` `telemetry` `go` | 12 | 2026-07-10 |
@@ -1069,6 +1081,7 @@
 | [**herdr-tilt**](https://github.com/the-inconvenience-store/herdr-tilt)<br><sub>the-inconvenience-store</sub> | A keyboard-driven Tilt dashboard for Herdr | `k8s` `kubernetes` `tilt` `rust` | 2 | 🔄 2026-10-23 |
 | [**herdr-memex-analytics**](https://github.com/vishnutskumar/herdr-memex-analytics)<br><sub>vishnutskumar</sub> | Herdr plugin: session efficiency analytics and realtime agent guidance, powered by memex history | `rust` | 2 | 2026-09-01 |
 | [**herdr-docker**](https://github.com/abcxff/herdr-docker)<br><sub>abcxff</sub> | Keep track of docker builds like you do with agents for herdr. | `docker` `javascript` | 1 | 2026-08-12 |
+| [**🆕 herdr-muse**](https://github.com/akshat12/herdr-muse)<br><sub>akshat12</sub> | Herdr integration for Muse Code: idle/working/blocked pane state via lifecycle hooks (no Herdr fork needed) | `ai-agents` `cli` `coding-agents` `muse-code` `terminal` | 1 | 2026-09-12 |
 | [**herdr-glance**](https://github.com/arvmaan/herdr-glance)<br><sub>arvmaan</sub> | desktop widget to view the status of your agents | `rust` | 1 | 2026-09-08 |
 | [**herdr-tokscale-dashboard**](https://github.com/astkaasa/herdr-tokscale-dashboard)<br><sub>astkaasa</sub> | Open Tokscale as a local Herdr dashboard pane. | `dashboard` `tokscale` `shell` | 1 | 2026-06-26 |
 | [**herdr-nodejs-center**](https://github.com/AZenking/herdr-nodejs-center)<br><sub>AZenking</sub> | A Herdr popup for monitoring and focusing local Node.js, Bun, and Deno services | `developer-tools` `nodejs` `javascript` | 1 | 🔄 2026-10-18 |
@@ -1083,7 +1096,9 @@
 | [**herdr-agent-board**](https://github.com/NoctisHsu/herdr-agent-board)<br><sub>NoctisHsu</sub> | Live task board for coding agents running in Herdr panes | `python` | 1 | 🔄 2026-10-14 |
 | [**mission-control-capcom**](https://github.com/philals/mission-control-capcom)<br><sub>philals</sub> | Mission control for story-driven work: local kanban boards, Claude Code skills and a live terminal board for tasks, draft PRs, CI and manual runs | `claude-code` `kanban` `rust` `tui` | 1 | 🔄 2026-10-23 |
 | [**herdr-readpending**](https://github.com/rcosteira79/herdr-readpending)<br><sub>rcosteira79</sub> | Mark agents you haven't finished reading. Numbered badge ($read) + a reorderable list pane. Auto-clears when you focus the agent. | `python` | 1 | 2026-09-15 |
+| [**🆕 maeklog**](https://github.com/reganpark/maeklog)<br><sub>reganpark</sub> | Tab-scoped memory for Codex in Herdr — decisions, progress, and evidence. | `codex` `codex-cli` `developer-tools` `rust` `tui` | 1 | 🔄 2026-10-16 |
 | [**herdr-agent-metrics**](https://github.com/szrenwei/herdr-agent-metrics)<br><sub>szrenwei</sub> | Lightweight Herdr context and session usage metrics for Claude Code, Codex, and TraeX. | `claude-code` `openai-codex` `traex` `python` | 1 | 2026-08-04 |
+| [**🆕 herdr-space-tab-metadata**](https://github.com/szrenwei/herdr-space-tab-metadata)<br><sub>szrenwei</sub> | Show each Herdr Space's active tab in the sidebar | `terminal-ui` `python` | 1 | 2026-08-04 |
 | [**🆕 herdeck**](https://github.com/thefahien/herdeck)<br><sub>thefahien</sub> | Turn commands, processes, health checks, JSON APIs and Prometheus queries into live tabs in a herdr pane | `curses` `monitoring` `prometheus` `python` `terminal-dashboard` | 1 | 🔄 2026-10-23 |
 | [**taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | Task board linked to herdr agent sessions, PRs, and Jira tickets | `claude-code` `kanban` `task-management` `tui` `go` | 1 | 2026-09-01 |
 | [**herdr-virtualboard**](https://github.com/virtualboard/herdr-virtualboard)<br><sub>virtualboard</sub> | Kanban board for VirtualBoard feature specs inside Herdr: columns are the lifecycle, cards are specs, and dispatching a card starts a role agent in a pane. | `go` | 1 | 🔄 2026-10-16 |
@@ -1108,6 +1123,7 @@
 - [gabrielmarcano/agent-watch](https://github.com/gabrielmarcano/agent-watch) — Approve, answer and prompt your terminal coding agents (Claude Code, OpenCode, Antigravity…) from a Wear OS w…
 - [GranamyrBR/LunaCrab](https://github.com/GranamyrBR/LunaCrab) — Reserved for a separate project
 - [IniZio/nexus](https://github.com/IniZio/nexus) — Herdr plugin for running worktree in Cloud-Hypervisor sandboxes, with mem/cpu/disk hotplug and auto port-forw…
+- [maedana/herdr-agents-preview](https://github.com/maedana/herdr-agents-preview) — Multi-agent terminal preview dashboard for Herdr: all running agents shown at once, with the selected agent t…
 
 </details>
 
@@ -1122,8 +1138,8 @@
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
 | [**herdr-navigator**](https://github.com/thanhdat77/herdr-navigator)<br><sub>thanhdat77</sub> | Jump to any Herdr workspace, agent, project, session, remote, directory, or action from one fuzzy navigator. | `fuzzy-finder` `rust` `terminal` `workspace-manager` | 187 | 2026-09-24 |
-| [**herdr-bar**](https://github.com/jeffarese/herdr-bar)<br><sub>jeffarese</sub> | Cmd+K and auto tab title for herdr: fuzzy-jump to any tab, agent, repo or branch. | `command-bar` `fuzzy-finder` `python` `terminal` `tui` | 144 | 🔄 2026-10-21 |
-| [**termscope**](https://github.com/iurysza/termscope)<br><sub>iurysza</sub> | Open files and links already visible on your terminal screen in a split. | `python` `television` `terminal` `tmux` | 69 | 🔄 2026-10-21 |
+| [**herdr-bar**](https://github.com/jeffarese/herdr-bar)<br><sub>jeffarese</sub> | Cmd+K and auto tab title for herdr: fuzzy-jump to any tab, agent, repo or branch. | `command-bar` `fuzzy-finder` `python` `terminal` `tui` | 145 | 🔄 2026-10-21 |
+| [**termscope**](https://github.com/iurysza/termscope)<br><sub>iurysza</sub> | Open files and links already visible on your terminal screen in a split. | `python` `television` `terminal` `tmux` | 69 | 🔄 2026-10-25 |
 | [**herdr-sessionizer**](https://github.com/andrewchng/herdr-sessionizer)<br><sub>andrewchng</sub> | Fuzzy-open projects and worktrees, then bootstrap workspaces from declarative TOML layouts — tabs, pane splits, commands, and per-repo overrides. | `bun` `fuzzy-finder` `fzf` `git-worktree` `sessionizer` | 52 | 🔄 2026-10-19 |
 | [**herdr-plugin-sesh**](https://github.com/fullerzz/herdr-plugin-sesh)<br><sub>fullerzz</sub> | Sesh-style workspace picker TUI for Herdr. Integrates with zoxide to create workspaces from commonly used directories. | `bubbletea` `sesh` `tui` `zoxide` `go` | 51 | 🔄 2026-10-25 |
 | [**herdr-command-palette**](https://github.com/JanTvrdik/herdr-command-palette)<br><sub>JanTvrdik</sub> | fzf command palette for herdr — fuzzy-pick and run any plugin action | `shell` | 45 | 2026-06-29 |
@@ -1189,13 +1205,14 @@
 | [**herdr-palette**](https://github.com/iancharters/herdr-palette)<br><sub>iancharters</sub> | Fuzzy command palette for Herdr — core commands plus auto-discovered plugin actions, run where you can see them. Fast, keyboard-first, terminal-native. | `go` | 1 | 2026-09-25 |
 | [**herdr-turbo-palette**](https://github.com/jackfrancisdalton/herdr-turbo-palette)<br><sub>jackfrancisdalton</sub> | Fuzzy-find any Herdr space, tab, agent or pane and jump straight to it. | `python` | 1 | 2026-08-22 |
 | [**herdr-keys**](https://github.com/JacquesvanWyk/herdr-keys)<br><sub>JacquesvanWyk</sub> | Fuzzy-searchable keybinding cheatsheet for herdr (packs, discovery, personal overrides) | `shell` | 1 | 2026-07-12 |
-| [**herdr-open-editor**](https://github.com/jimididit/herdr-open-editor)<br><sub>jimididit</sub> | Fuzzy-pick a file with fzf and open it in your configured editor. | `herd` `text-editor` `tui` `shell` | 1 | 2026-09-03 |
 | [**herdr-fzf-url**](https://github.com/kaar/herdr-fzf-url)<br><sub>kaar</sub> | Fuzzy-find and open URLs from your herdr pane scrollback — a port of tmux-fzf-url | `shell` | 1 | 2026-07-29 |
+| [**🆕 herdr-hint**](https://github.com/maedana/herdr-hint)<br><sub>maedana</sub> | Vimium-style hint labels for Herdr — press a key to see labels on tabs and agents, then press a label to jump. | `rust` | 1 | 2026-08-11 |
 | [**herdr-shortcut**](https://github.com/matheus3301/herdr-shortcut)<br><sub>matheus3301</sub> | Shortcut task picker and coding-agent launcher for Herdr | `bubbletea` `claude-code` `codex` `coding-agents` `developer-tools` | 1 | 2026-07-24 |
 | [**herdr-pickers**](https://github.com/sagmans/herdr-pickers)<br><sub>sagmans</sub> | Several custom, pop-up pickers for agents, worktrees, workspaces and projects. | `typescript` | 1 | 🔄 2026-10-24 |
+| [**🆕 herdr-plugins**](https://github.com/shelken/herdr-plugins)<br><sub>shelken</sub> | Herdr plugins monorepo (auto-pi: open pi by area + session picker) | `python` | 1 | 2026-07-17 |
 | [**herdr-atuin-plugin**](https://github.com/smanickam01/herdr-atuin-plugin)<br><sub>smanickam01</sub> | Atuin shell history search in a herdr popup — press prefix+a, Enter to run or Tab to edit. Binds itself on install. | `atuin` `macos` `shell-history` `terminal` `zsh` | 1 | 2026-08-17 |
 | [**herdr-pane-picker**](https://github.com/ugurtarlig/herdr-pane-picker)<br><sub>ugurtarlig</sub> | Pick a Herdr pane by typing its on-pane character hint | `terminal` `wezterm` `python` | 1 | 2026-07-17 |
-| [**🆕 herdr-hop**](https://github.com/youguanxinqing/herdr-hop)<br><sub>youguanxinqing</sub> | Jump to any visible Herdr pane by pressing a labeled key | `rust` | 1 | 2026-10-10 |
+| [**🆕 herdr-fzf-url**](https://github.com/x0d7x/herdr-fzf-url)<br><sub>x0d7x</sub> | Scan herdr terminal panes for URLs and interactively pick one with fzf | `fzf` `go` `url` | 1 | 2026-06-26 |
 | [**herdr-agents-picker**](https://github.com/yxhta/herdr-agents-picker)<br><sub>yxhta</sub> | Herdr plugin: workspace-picker-style fuzzy picker for agent panes, with live pane preview (Rust + ratatui) | `rust` | 1 | 2026-10-03 |
 | [**herdr-telescope**](https://github.com/zackshen/herdr-telescope)<br><sub>zackshen</sub> | fzf command telescope for herdr: native actions, plugin actions, file finder (@), and live ripgrep search (/) | `fzf` `rust` | 1 | 2026-08-20 |
 
@@ -1221,7 +1238,7 @@
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
 | [**herdr-browser**](https://github.com/ogulcancelik/herdr-browser)<br><sub>ogulcancelik</sub> | Render a real Chromium view inside a Herdr pane and drive it over CDP. | `browser` `browser-automation` `cdp` `chromium` `kitty-graphics` | 360 | 2026-08-22 |
-| [**herdr-auto-title**](https://github.com/kryptamine/herdr-auto-title)<br><sub>kryptamine</sub> | Automatically name Herdr tabs and panes from your current work, Git branch, terminal activity, and Claude Code sessions. | `claude-code` `coding-agents` `developer-tools` `terminal` `terminal-multiplexer` | 270 | 🔄 2026-10-24 |
+| [**herdr-auto-title**](https://github.com/kryptamine/herdr-auto-title)<br><sub>kryptamine</sub> | Automatically name Herdr tabs and panes from your current work, Git branch, terminal activity, and Claude Code sessions. | `claude-code` `coding-agents` `developer-tools` `terminal` `terminal-multiplexer` | 271 | 🔄 2026-10-25 |
 | [**herdr-automatic-rename**](https://github.com/qu8n/herdr-automatic-rename)<br><sub>qu8n</sub> | Automatically name herdr tabs after the foreground process (like tmux) or agent session context | `shell` | 220 | 🔄 2026-10-22 |
 | [**herdr-auto-title**](https://github.com/sh1ma/herdr-auto-title)<br><sub>sh1ma</sub> | Automatically generate titles for herdr tabs from Claude Code and Codex conversations. | `claude-code` `codex` `python` | 55 | 2026-09-11 |
 | [**herdr-workflows**](https://github.com/aorumbayev/herdr-workflows)<br><sub>aorumbayev</sub> | Declarative automation for repetitive steps in herdr | `agentic-ai` `agentic-workflow` `agents` `ai` `claude` | 37 | 🔄 2026-10-22 |
@@ -1229,7 +1246,7 @@
 | [**herdr-worktree-setup**](https://github.com/tdi/herdr-worktree-setup)<br><sub>tdi</sub> | herdr plugin: run per-project setup steps when a worktree is created (copy .env from main, mise trust, direnv allow, install deps) | `javascript` | 30 | 2026-09-11 |
 | [**herdr-auto-pilot**](https://github.com/0xGosu/herdr-auto-pilot)<br><sub>0xGosu</sub> | A Herdr plugin that will automatically prompt the running AI Coding CLI on-behalf of you via Herdr API. The plugin has training mode which learn from your acti… | `go` | 28 | 🔄 2026-10-16 |
 | [**herdr-automations**](https://github.com/DnzzL/herdr-automations)<br><sub>DnzzL</sub> | Scheduled tasks for your coding agents, in the terminal. A prompt, a cron line, and a fresh git worktree per run — on Herdr. One YAML file, no store, prebuilt… | `ai-agents` `automation` `claude-code` `coding-agents` `cron` | 19 | 🔄 2026-10-20 |
-| [**bermuda**](https://github.com/bon5co/bermuda)<br><sub>bon5co</sub> | Orchestration under Claude Code on herdr: flows an agent cannot skip, jobs on a clock, threads with claims, and a forum agents search later | `agent-orchestration` `agents` `ai-agents` `automation` `claude-code` | 13 | 🔄 2026-10-21 |
+| [**bermuda**](https://github.com/bon5co/bermuda)<br><sub>bon5co</sub> | Orchestration under Claude Code on herdr: flows an agent cannot skip, jobs on a clock, threads with claims, and a forum agents search later | `agent-orchestration` `agents` `ai-agents` `automation` `claude-code` | 14 | 🔄 2026-10-21 |
 | [**herdr-routines**](https://github.com/mrcndz/herdr-routines)<br><sub>mrcndz</sub> | Herdr plugin that runs scheduled routines: cron or interval schedules that open a tab in a workspace and run a command or launch an agent. | `python` | 12 | 2026-07-18 |
 | [**herdr-updater**](https://github.com/diegopzz/herdr-updater)<br><sub>diegopzz</sub> | Keep Herdr and its plugins current across a whole fleet, safely | `rust` `updater` | 10 | 2026-09-17 |
 | [**herdr-agent-config-manager**](https://github.com/Phoobobo/herdr-agent-config-manager)<br><sub>Phoobobo</sub> | Hybrid CLI + Herdr plugin for detecting and centrally managing agent skills, MCP, plugins, and hooks | `python` | 10 | 2026-09-06 |
@@ -1254,11 +1271,9 @@
 | [**herdr-starkeep**](https://github.com/yuya-take/herdr-starkeep)<br><sub>yuya-take</sub> | Watch your herdr agents work as knights on an orbital training ship — subagents come in as apprentices. | `rust` | 2 | 2026-10-06 |
 | [**🆕 herdr-claude-autoupdate**](https://github.com/0xMMA/herdr-claude-autoupdate)<br><sub>0xMMA</sub> | herdr plugin: restarts idle Claude Code panes onto the newly installed version, in place, same session and flags, drafts kept. | `claude-code` `typescript` | 1 | 🔄 2026-10-11 |
 | [**herdr-stay-awake**](https://github.com/assawalhy/herdr-stay-awake)<br><sub>assawalhy</sub> | Keeps the machine from sleeping while any herdr agent pane is working (Linux, macOS, Windows, and WSL) | `agent-orchestration` `agents` `harness` `linux` `macos` | 1 | 2026-10-07 |
-| [**herdr-auto-pull-main**](https://github.com/bring-shrubbery/herdr-auto-pull-main)<br><sub>bring-shrubbery</sub> | _(no description)_ | `shell` | 1 | 🔄 2026-10-12 |
 | [**herdr-triggers**](https://github.com/cantona/herdr-triggers)<br><sub>cantona</sub> | Resident regex triggers over pane output: automated logins and other regex-driven terminal triggers. | `rust` `terminal` `terminal-based` `terminal-multiplexer` `trigger` | 1 | 2026-09-18 |
 | [**herdr-continue**](https://github.com/codergeek121/herdr-continue)<br><sub>codergeek121</sub> | Tell your agents to start working automatically | `shell` | 1 | 2026-09-30 |
 | [**herdr-auto-tab-name**](https://github.com/dev-shimada/herdr-auto-tab-name)<br><sub>dev-shimada</sub> | herdr plugin: automatically name tabs after their current directory | `javascript` | 1 | 🔄 2026-10-17 |
-| [**🆕 ws.numbered.herdr**](https://github.com/dhananjaylatkar/ws.numbered.herdr)<br><sub>dhananjaylatkar</sub> | Automatically Number The Workspaces in Herdr | `python` | 1 | 2026-10-09 |
 | [**say-hook**](https://github.com/HikaruEgashira/say-hook)<br><sub>HikaruEgashira</sub> | A macOS CLI that reads Claude Code hook events aloud using ElevenLabs text-to-speech. | `typescript` | 1 | 🔄 2026-10-19 |
 | [**herdr-worktree-cleanup**](https://github.com/poislagarde/herdr-worktree-cleanup)<br><sub>poislagarde</sub> | Automatically clean up safe GitHub PR worktrees when their Herdr space closes. Python, no dependencies, MIT. | `git-worktree` `python` | 1 | 2026-09-11 |
 | [**herdr-automations**](https://github.com/ram4-dev/herdr-automations)<br><sub>ram4-dev</sub> | Declarative cron, interval, and event automations for Herdr | `automation` `bun` `typescript` | 1 | 2026-08-13 |
@@ -1307,8 +1322,8 @@
 | [**herdr-thread-to-tab**](https://github.com/toyamarinyon/herdr-thread-to-tab)<br><sub>toyamarinyon</sub> | Keep single-pane Herdr tab labels in sync with Claude Code and Codex thread titles. | `rust` | 2 | 2026-08-06 |
 | [**herdr-todos-windows**](https://github.com/aclima01/herdr-todos-windows)<br><sub>aclima01</sub> | Live panel mirroring a herdr agent's task list (TaskCreate/TaskUpdate) so you can follow its plan | `powershell` | 1 | 2026-07-22 |
 | [**herdr-restart-agents**](https://github.com/aliaksandr-haurylau-godel/herdr-restart-agents)<br><sub>aliaksandr-haurylau-godel</sub> | Herdr plugin: restart coding agents in their panes and resume the same session | `python` | 1 | 2026-10-05 |
-| [**🆕 herdr-unread**](https://github.com/arthurnw/herdr-unread)<br><sub>arthurnw</sub> | Mark Herdr agent sessions unread until revisited or resumed | `python` | 1 | 2026-09-14 |
 | [**herdr-agent-hibernate**](https://github.com/dalogax/herdr-agent-hibernate)<br><sub>dalogax</sub> | Hibernate idle AI agent panes in Herdr: frees their memory, resumes the same session when you come back. Supports OpenCode, Claude Code and Codex. | `ai-agents` `claude-code` `codex` `opencode` `terminal` | 1 | 2026-10-01 |
+| [**🆕 herdr-zcode**](https://github.com/ichadhr/herdr-zcode)<br><sub>ichadhr</sub> | Herdr plugin that adds ZCode agent support — live pane state (working/blocked/idle) in the sidebar and session restore. | `ai-agent` `herdr-integration` `terminal` `zcode` `javascript` | 1 | 🔄 2026-10-11 |
 | [**mo-herdr**](https://github.com/momentohq/mo-herdr)<br><sub>momentohq</sub> | Run mo inside herdr panes: session restore after a herdr restart, a launch action, and SIGKILL cleanup | `python` | 1 | 2026-09-02 |
 | [**herdr-pane-reopen**](https://github.com/rchougule/herdr-pane-reopen)<br><sub>rchougule</sub> | herdr plugin: undo close — reopen the last closed pane, tab or workspace in place and resume its agent | `rust` | 1 | 2026-09-17 |
 | [**attic**](https://github.com/TheThoughtagen/attic)<br><sub>TheThoughtagen</sub> | Auto-closes idle AI coding sessions, but archives each one first so you can restore it. | `claude-code` `developer-tools` `python` `session-management` `tui` | 1 | 2026-08-14 |
@@ -1346,10 +1361,10 @@
 | --- | --- | --- | --: | --- |
 | [**herdr-tab-smart-rename**](https://github.com/iurysza/herdr-tab-smart-rename)<br><sub>iurysza</sub> | Generates context-aware workspace and tab names for Herdr. | `ai` `bun` `terminal` `typescript` | 78 | 🔄 2026-10-22 |
 | [**herdr-flock**](https://github.com/ragamo/herdr-flock)<br><sub>ragamo</sub> | A herdr plugin that visualizes your AI coding agents as pixel-art sheep living on a top-down farm. | `cli` `ratatui` `rust` `tui` | 44 | 2026-08-31 |
-| [**herdr-window-title-sync**](https://github.com/rjyo/herdr-window-title-sync)<br><sub>rjyo</sub> | Syncs terminal titles from workspaces, tabs, and agent sessions (use w/ Moshi) | `moshi` `terminal-title` `javascript` | 37 | 2026-06-26 |
-| [**herdr-pet**](https://github.com/nikok6/herdr-pet)<br><sub>nikok6</sub> | Tiny desk pet on your herdr panes: types, waits, and celebrates with your agent. Works with any Codex pet. | `rust` | 17 | 2026-08-26 |
+| [**herdr-window-title-sync**](https://github.com/rjyo/herdr-window-title-sync)<br><sub>rjyo</sub> | Syncs terminal titles from workspaces, tabs, and agent sessions (use w/ Moshi) | `moshi` `terminal-title` `javascript` | 38 | 2026-06-26 |
+| [**herdr-pet**](https://github.com/nikok6/herdr-pet)<br><sub>nikok6</sub> | Tiny desk pet on your herdr panes: types, waits, and celebrates with your agent. Works with any Codex pet. | `rust` | 18 | 2026-08-26 |
 | [**herdr-theme-picker**](https://github.com/qintmb/herdr-theme-picker)<br><sub>qintmb</sub> | Theme picker for herdr UI based terminalcolors scheme and your customization. | `go` | 17 | 🔄 2026-10-18 |
-| [**herdr-icon-agent-ui**](https://github.com/qintmb/herdr-icon-agent-ui)<br><sub>qintmb</sub> | Renders Agent icon, vertically-aligned monochrome icons in the Herdr sidebar. rendered via a custom font with non-uniform glyph scaling that matches terminal c… | `python` | 15 | 🔄 2026-10-14 |
+| [**herdr-icon-agent-ui**](https://github.com/qintmb/herdr-icon-agent-ui)<br><sub>qintmb</sub> | Renders Agent icon, vertically-aligned monochrome icons in the Herdr sidebar. rendered via a custom font with non-uniform glyph scaling that matches terminal c… | `python` | 16 | 🔄 2026-10-14 |
 | [**herdr-canvas**](https://github.com/aorumbayev/herdr-canvas)<br><sub>aorumbayev</sub> | Mouse-driven ASCII diagram canvas for herdr agents - draw in the TUI, share structured JSON, and let AI edit it. | `agentic-ai` `agents` `ai-agents` `ascii-art` `bubbletea` | 8 | 2026-08-31 |
 | [**herdr-claude-session-title**](https://github.com/bcihanc/herdr-claude-session-title)<br><sub>bcihanc</sub> | Herdr plugin: mirrors the Claude Code session title (/rename or auto summary) into the herdr pane metadata title | `shell` | 8 | 2026-07-11 |
 | [**herdr-pixel-office**](https://github.com/devangchhajed/herdr-pixel-office)<br><sub>devangchhajed</sub> | Watch your AI coding agents work as pixel-art characters in a tiny top-down office — a herdr plugin | `typescript` | 7 | 2026-09-21 |
@@ -1377,10 +1392,9 @@
 | [**herdr-git-tab-name**](https://github.com/blurname/herdr-git-tab-name)<br><sub>blurname</sub> | Herdr plugin that renames tabs to the focused pane's Git branch. | `shell` | 1 | 2026-07-06 |
 | [**herdr-hermes-session-title**](https://github.com/btorresgil/herdr-hermes-session-title)<br><sub>btorresgil</sub> | Show Hermes Agent session titles in the Herdr sidebar. | `python` | 1 | 2026-08-07 |
 | [**herdr-plugin-omp-state**](https://github.com/dk3775/herdr-plugin-omp-state)<br><sub>dk3775</sub> | Report omp agent state to Herdr from its terminal title, for panes the official integration does not cover | `coding-agents` `omp` `python` | 1 | 2026-09-24 |
+| [**🆕 herdr-tab-smart-rename-rs**](https://github.com/EmmetZ/herdr-tab-smart-rename-rs)<br><sub>EmmetZ</sub> | _(no description)_ | `rust` | 1 | 2026-08-24 |
 | [**herdr-plugin-pane-id-namer**](https://github.com/gcgo/herdr-plugin-pane-id-namer)<br><sub>gcgo</sub> | Automatically generate an agent name and display it in the terminal. | `shell` | 1 | 2026-09-05 |
 | [**pane-identity**](https://github.com/Ghost-LZW/pane-identity)<br><sub>Ghost-LZW</sub> | Display pane IDs, hostnames, and labels in Herdr without modifying your agents. | `python` `terminal` | 1 | 2026-09-05 |
-| [**herdr-emoji-time**](https://github.com/hotnugs/herdr-emoji-time)<br><sub>hotnugs</sub> | Emoji for your Herdr spaces, agents and tabs. Inject some fun into your terminal | `emoji` `terminal` `tui` `python` | 1 | 2026-09-12 |
-| [**🆕 herdr-chromatic-spaces**](https://github.com/jackfrancisdalton/herdr-chromatic-spaces)<br><sub>jackfrancisdalton</sub> | Give every Herdr Space its own colour and emoji: coloured sidebar dots, grouped agents, and optional chrome tint on space switch. | `python` | 1 | 2026-08-22 |
 | [**🆕 herdr-fantasy**](https://github.com/KantaKan/herdr-fantasy)<br><sub>KantaKan</sub> | Your coding agents as a fantasy RPG party, living in a herdr pane | `pixel-art` `rust` `tui` | 1 | 🔄 2026-10-21 |
 | [**herdr-tab-title-sync**](https://github.com/lucasleon2107/herdr-tab-title-sync)<br><sub>lucasleon2107</sub> | herdr plugin: rename tabs to the AI agent's conversation title | `ai-agents` `claude-code` `terminal` `tmux` `shell` | 1 | 2026-08-04 |
 | [**herdr-pane-labels**](https://github.com/macd2/herdr-pane-labels)<br><sub>macd2</sub> | Shows each pane's current directory, agent session title, and whether it's local or inside ssh, right in the herdr pane border. | `shell` | 1 | 🔄 2026-10-11 |
@@ -1434,9 +1448,8 @@
 | [**herdr-scrollback-capture**](https://github.com/alexjsp/herdr-scrollback-capture)<br><sub>alexjsp</sub> | Herdr plugin that saves the focused pane's scrollback to your Desktop as HTML or text | `shell` | 1 | 2026-06-30 |
 | [**herdr-fleece**](https://github.com/dmazlum/herdr-fleece)<br><sub>dmazlum</sub> | Frame your agent's last answer in Herdr, then copy, save, or send it. | `typescript` | 1 | 🔄 2026-10-15 |
 | [**herdr-paste-image**](https://github.com/grooni/herdr-paste-image)<br><sub>grooni</sub> | Paste images from clipboard into herdr panes (Codex, Gemini CLI) — F8 + clipboard cleanup tools (F9/F10) | `shell` | 1 | 2026-09-21 |
+| [**🆕 herdr-lane**](https://github.com/luizbafilho/herdr-lane)<br><sub>luizbafilho</sub> | herdr plugin for lukeed/lane: copy-on-write worktrees as linked herdr workspaces | `rust` | 1 | 🔄 2026-10-19 |
 | [**herdr-yank**](https://github.com/pgilad/herdr-yank)<br><sub>pgilad</sub> | Inline keyboard hints for copying visible tokens or opening URLs and files from Herdr panes. | `rust` | 1 | 🔄 2026-10-25 |
-| [**herdr-copy-hints**](https://github.com/rotemb-wond/herdr-copy-hints)<br><sub>rotemb-wond</sub> | tmux-fingers-style keyboard copy hints for Herdr: paths, Git SHAs, URLs, and more | `clipboard` `developer-tools` `keyboard-navigation` `productivity` `terminal` | 1 | 2026-07-23 |
-| [**herdr-copy-pane-id**](https://github.com/wine-fall/herdr-copy-pane-id)<br><sub>wine-fall</sub> | Herdr plugin: copy the focused pane's id to the clipboard, or show every pane's id on its border | `cli` `terminal` `python` | 1 | 2026-08-24 |
 | [**herdr-translate**](https://github.com/zackshen/herdr-translate)<br><sub>zackshen</sub> | Herdr plugin: translate mouse-selected terminal text in a centered popover | `rust` | 1 | 2026-08-25 |
 
 <details><summary>Also relevant to this purpose</summary>
@@ -1489,7 +1502,7 @@
 
 | Plugin | What it does | Tags | ★ | Last updated |
 | --- | --- | --- | --: | --- |
-| [**terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | A real browser inside your terminal | `browser` `claude-code` `claude-code-plugin` `claude-skills` `cli` | 4231 | 🔄 2026-10-21 |
+| [**terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | A real browser inside your terminal | `browser` `claude-code` `claude-code-plugin` `claude-skills` `cli` | 4237 | 🔄 2026-10-21 |
 | [**herdr-lantern**](https://github.com/aigorahub/herdr-lantern)<br><sub>aigorahub</sub> | Lantern, by Elves. A Herdr plugin: the herd is in the field; Lantern illuminates who needs you and what they are working toward. | `python` | 70 | 🔄 2026-10-22 |
 | [**herdr-gui**](https://github.com/undivisible/herdr-gui)<br><sub>undivisible</sub> | a gui surface for herdr + more. built with crepuscular gpui. | `crepuscularity` `gpui` `rust` | 22 | 2026-07-27 |
 | [**herdr-openspec**](https://github.com/FlorisKr/herdr-openspec)<br><sub>FlorisKr</sub> | Openspec plugin for herdr | `python` | 18 | 2026-10-07 |
@@ -1520,7 +1533,6 @@
 | [**herdr-zen**](https://github.com/y4m3/herdr-zen)<br><sub>y4m3</sub> | Zen mode for Herdr with an adjustable centered pane width | `rust` `terminal` `zen-mode` | 2 | 2026-08-19 |
 | [**herdr-edit-windows**](https://github.com/aclima01/herdr-edit-windows)<br><sub>aclima01</sub> | A simple text editor that runs in a herdr pane beside your coding agent — file tree, syntax-highlighted editor, and an uncommitted-diff tab. Windows-only. | `rust` | 1 | 2026-07-25 |
 | [**herdr-tts**](https://github.com/Aktrov/herdr-tts)<br><sub>Aktrov</sub> | Herdr plugin that speaks the selected terminal text aloud in a natural neural voice (Piper) — right-click or a shortcut, with a stop key. | `tts` `python` | 1 | 2026-09-07 |
-| [**herdr-wrapped-tabs**](https://github.com/AlexeyKrotkov/herdr-wrapped-tabs)<br><sub>AlexeyKrotkov</sub> | Always-visible wrapped tabs for Herdr | `python` | 1 | 2026-09-24 |
 | [**herdr-quotabar**](https://github.com/ArnaudRinquin/herdr-quotabar)<br><sub>ArnaudRinquin</sub> | Claude plan quotas (5h / 7d / per-model) as one compact line in the Herdr tab bar. Provider-pluggable. | `claude-code` `python` | 1 | 2026-09-08 |
 | [**herdr-ssh-config-dash**](https://github.com/bearylabs/herdr-ssh-config-dash)<br><sub>bearylabs</sub> | A Herdr plugin for managing machines from literal hosts in ~/.ssh/config. | `typescript` | 1 | 2026-10-02 |
 | [**herdr-stoplight**](https://github.com/BowlOfSoup/herdr-stoplight)<br><sub>BowlOfSoup</sub> | Drive a physical Arduino traffic-light module from the live status of Herdr | `go` | 1 | 2026-07-11 |
@@ -1533,7 +1545,6 @@
 | [**🆕 herdr-web**](https://github.com/harshagowda/herdr-web)<br><sub>harshagowda</sub> | A real browser tab for herdr on macOS, drivable over CDP | `cmux` `herder-webui` `javascript` | 1 | 🔄 2026-10-19 |
 | [**herdr-tiling**](https://github.com/jaeheonji/herdr-tiling)<br><sub>jaeheonji</sub> | Hyprland-style pane movement and tmux-style layouts for Herdr | `rust` | 1 | 🔄 2026-10-17 |
 | [**herdr-services**](https://github.com/lucidstack/herdr-services)<br><sub>lucidstack</sub> | Plugin to track services running inside herdr workspaces | `rust` | 1 | 2026-09-16 |
-| [**herdr-plugins**](https://github.com/narumiruna/herdr-plugins)<br><sub>narumiruna</sub> | _(no description)_ | `rust` | 1 | 2026-08-08 |
 | [**herdr-docs**](https://github.com/natori-hrj/herdr-docs)<br><sub>natori-hrj</sub> | A calm, normalized document reader pane for Herdr | `docs` `rust` | 1 | 2026-09-10 |
 | [**herdr-api-client**](https://github.com/playsthisgame/herdr-api-client)<br><sub>playsthisgame</sub> | HTTP/REST API client in a herdr split pane or tab — browse, run and test requests without leaving the terminal | `http-client` `rest-client` `tui` `shell` | 1 | 2026-08-08 |
 | [**herdr-browser**](https://github.com/redsquiggle/herdr-browser)<br><sub>redsquiggle</sub> | Keep Chromium tab groups aligned with Herdr workspaces | `chromium` `ratatui` `rust` | 1 | 2026-07-28 |
