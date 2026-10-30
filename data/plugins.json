@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 05:47 UTC",
+  "generated_at": "2026-10-30 12:54 UTC",
   "source": "GitHub repositories tagged `herdr-plugin`",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
       "description": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
       "note": "",
-      "stars": 9964,
+      "stars": 10000,
       "language": "TypeScript",
       "tags": [
         "agentic-ai",
@@ -184,7 +184,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-29T23:56:26Z",
+      "pushed_at": "2026-10-30T08:08:39Z",
       "install": "herdr plugin install alvinunreal/oh-my-opencode-slim"
     },
     {
@@ -194,7 +194,7 @@
       "url": "https://github.com/zenbu-labs/terminal-browser",
       "description": "A real browser inside your terminal",
       "note": "",
-      "stars": 4339,
+      "stars": 4346,
       "language": "TypeScript",
       "tags": [
         "browser",
@@ -218,7 +218,7 @@
       "url": "https://github.com/zenbu-labs/terminal-code",
       "description": "VS Code in the terminal",
       "note": "",
-      "stars": 2217,
+      "stars": 2219,
       "language": "TypeScript",
       "tags": [
         "cli",
@@ -228,7 +228,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-19T11:14:33Z",
+      "pushed_at": "2026-10-30T12:40:00Z",
       "install": "herdr plugin install zenbu-labs/terminal-code"
     },
     {
@@ -238,7 +238,7 @@
       "url": "https://github.com/devswha/ovis",
       "description": "Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts",
       "note": "",
-      "stars": 1664,
+      "stars": 1678,
       "language": "TypeScript",
       "tags": [
         "agentic-coding",
@@ -252,27 +252,8 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-30T05:40:48Z",
+      "pushed_at": "2026-10-30T11:41:01Z",
       "install": "herdr plugin install devswha/ovis"
-    },
-    {
-      "full_name": "openclaw/crabbox",
-      "name": "crabbox",
-      "owner": "openclaw",
-      "url": "https://github.com/openclaw/crabbox",
-      "description": "Crabbox: warm a box, sync the diff, run the suite.",
-      "note": "",
-      "stars": 1510,
-      "language": "Go",
-      "tags": [
-        "agent-skills",
-        "remote-test-runner",
-        "go"
-      ],
-      "category": "review",
-      "also": [],
-      "pushed_at": "2026-10-29T06:28:08Z",
-      "install": "herdr plugin install openclaw/crabbox"
     },
     {
       "full_name": "AltanS/collie",
@@ -281,7 +262,7 @@
       "url": "https://github.com/AltanS/collie",
       "description": "Herdr mobile client for iPhone and Android. A self-hosted PWA to drive Claude Code, Pi, Codex and OpenCode in Herdr, tmux or zellij from your phone. Push alerts, no app store.",
       "note": "",
-      "stars": 1508,
+      "stars": 1512,
       "language": "TypeScript",
       "tags": [
         "agent-orchestration",
@@ -299,13 +280,32 @@
       "install": "herdr plugin install AltanS/collie"
     },
     {
+      "full_name": "openclaw/crabbox",
+      "name": "crabbox",
+      "owner": "openclaw",
+      "url": "https://github.com/openclaw/crabbox",
+      "description": "Crabbox: warm a box, sync the diff, run the suite.",
+      "note": "",
+      "stars": 1511,
+      "language": "Go",
+      "tags": [
+        "agent-skills",
+        "remote-test-runner",
+        "go"
+      ],
+      "category": "review",
+      "also": [],
+      "pushed_at": "2026-10-30T12:49:23Z",
+      "install": "herdr plugin install openclaw/crabbox"
+    },
+    {
       "full_name": "furkankly/zoetrope",
       "name": "zoetrope",
       "owner": "furkankly",
       "url": "https://github.com/furkankly/zoetrope",
       "description": "Watch a Claude Code or Codex session as a live flow graph, in your terminal or your browser.",
       "note": "",
-      "stars": 1128,
+      "stars": 1130,
       "language": "Rust",
       "tags": [
         "agent-visualization",
@@ -329,14 +329,14 @@
       "url": "https://github.com/eliasstravik/shepherdr",
       "description": "Run many coding agents across machines from a phone, tablet or desktop. A herdr plugin.",
       "note": "",
-      "stars": 1024,
+      "stars": 1033,
       "language": "TypeScript",
       "tags": [
         "typescript"
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-30T05:45:51Z",
+      "pushed_at": "2026-10-30T12:37:39Z",
       "install": "herdr plugin install eliasstravik/shepherdr"
     },
     {
@@ -346,7 +346,7 @@
       "url": "https://github.com/eugenioenko/ttt",
       "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
       "note": "",
-      "stars": 972,
+      "stars": 981,
       "language": "Go",
       "tags": [
         "cli",
@@ -370,7 +370,7 @@
       "url": "https://github.com/persiyanov/herdr-reviewr",
       "description": "Review your agent's diff in a terminal pane and send comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin.",
       "note": "",
-      "stars": 958,
+      "stars": 959,
       "language": "Rust",
       "tags": [
         "agentic-coding",
@@ -403,7 +403,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-29T05:35:22Z",
+      "pushed_at": "2026-10-30T06:38:20Z",
       "install": "herdr plugin install babarot/dotfiles"
     },
     {
@@ -413,7 +413,7 @@
       "url": "https://github.com/plannotator/herdr-annotate",
       "description": "Annotate terminal text, review documents and agent replies in Herdr, and send the feedback straight back to the agent.",
       "note": "",
-      "stars": 720,
+      "stars": 723,
       "language": "Rust",
       "tags": [
         "annotation",
@@ -432,7 +432,7 @@
       "url": "https://github.com/ZingerLittleBee/Heeler",
       "description": "Native iOS agent console for herdr — watch and drive the coding agents on your machines over SSH, with a real libghostty terminal, QR pairing, and push notifications when an agent needs you",
       "note": "",
-      "stars": 701,
+      "stars": 703,
       "language": "Swift",
       "tags": [
         "ai-agents",
@@ -448,7 +448,7 @@
       "also": [
         "agents"
       ],
-      "pushed_at": "2026-10-29T17:37:31Z",
+      "pushed_at": "2026-10-30T07:40:09Z",
       "install": "herdr plugin install ZingerLittleBee/Heeler"
     },
     {
@@ -458,7 +458,7 @@
       "url": "https://github.com/smarzban/herdr-file-viewer",
       "description": "A git-aware, read-only file viewer for herdr. Mouse friendly,  keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting.",
       "note": "",
-      "stars": 691,
+      "stars": 693,
       "language": "Rust",
       "tags": [
         "file-viewer",
@@ -505,7 +505,7 @@
       "url": "https://github.com/alexarthurs/herdr-sidebar",
       "description": "VS Code-style sidebar for the herdr: file explorer + git source control in one pane — syntax-highlighted previews, VS Code-style diffs, GitLens-style drawers, AI commit messages",
       "note": "",
-      "stars": 522,
+      "stars": 525,
       "language": "Rust",
       "tags": [
         "git",
@@ -536,7 +536,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-23T18:21:42Z",
+      "pushed_at": "2026-10-30T08:16:15Z",
       "install": "herdr plugin install dcolinmorgan/herdr-remote"
     },
     {
@@ -603,7 +603,7 @@
       "url": "https://github.com/0cv/herdr-mobile-relay",
       "description": "Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer relays.",
       "note": "",
-      "stars": 325,
+      "stars": 330,
       "language": "TypeScript",
       "tags": [
         "android",
@@ -617,7 +617,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-30T01:27:32Z",
+      "pushed_at": "2026-10-30T12:06:12Z",
       "install": "herdr plugin install 0cv/herdr-mobile-relay"
     },
     {
@@ -701,7 +701,7 @@
       "url": "https://github.com/nicosuave/memex",
       "description": "Search Claude Code, Codex, Pi, OpenCode, Github Copilot & Cursor transcripts. Resume sessions. Track tokens.",
       "note": "",
-      "stars": 295,
+      "stars": 297,
       "language": "Rust",
       "tags": [
         "bm25",
@@ -742,7 +742,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-10-30T05:19:20Z",
+      "pushed_at": "2026-10-30T08:18:55Z",
       "install": "herdr plugin install uwuclxdy/clauth"
     },
     {
@@ -766,7 +766,7 @@
       "also": [
         "naming"
       ],
-      "pushed_at": "2026-10-29T08:44:10Z",
+      "pushed_at": "2026-10-30T12:53:19Z",
       "install": "herdr plugin install kryptamine/herdr-auto-title"
     },
     {
@@ -814,7 +814,7 @@
       "url": "https://github.com/smarzban/tsk",
       "description": "tsk, a Linear alternative that stays in the terminal: a shared task board for you and your agents. TUI for you, CLI for them.",
       "note": "",
-      "stars": 240,
+      "stars": 241,
       "language": "Rust",
       "tags": [
         "cli",
@@ -877,7 +877,7 @@
       "url": "https://github.com/devashish2203/herdr-worktrunk",
       "description": "Herdr Plugin to integrate worktrunk for git worktree management",
       "note": "",
-      "stars": 191,
+      "stars": 192,
       "language": "PowerShell",
       "tags": [
         "powershell"
@@ -916,7 +916,7 @@
       "url": "https://github.com/nelsonPires5/herdr-board",
       "description": "Kanban board for herdr — cards are prompts dispatched to AI agents in visible panes",
       "note": "",
-      "stars": 185,
+      "stars": 186,
       "language": "Rust",
       "tags": [
         "board",
@@ -953,7 +953,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-30T02:46:48Z",
+      "pushed_at": "2026-10-30T12:16:29Z",
       "install": "herdr plugin install arronKler/pairfob"
     },
     {
@@ -963,7 +963,7 @@
       "url": "https://github.com/jeffarese/herdr-bar",
       "description": "Cmd+K and auto tab title for herdr: fuzzy-jump to any tab, agent, repo or branch.",
       "note": "",
-      "stars": 174,
+      "stars": 179,
       "language": "Rust",
       "tags": [
         "command-bar",
@@ -1004,7 +1004,7 @@
       "url": "https://github.com/yuk1ty/herdr-spreader",
       "description": "Spin up your whole herdr workspace layout — tabs, panes, commands, and all — from a single YAML file.",
       "note": "",
-      "stars": 142,
+      "stars": 143,
       "language": "Rust",
       "tags": [
         "rust"
@@ -1021,7 +1021,7 @@
       "url": "https://github.com/aemrebarut/herdr-dagr",
       "description": "Your agent swarm as a live DAG: an orchestration graph with attempts, review gates, and evidence, in a herdr split pane.",
       "note": "",
-      "stars": 141,
+      "stars": 142,
       "language": "Rust",
       "tags": [
         "agents",
@@ -1181,7 +1181,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-30T01:07:35Z",
+      "pushed_at": "2026-10-30T10:22:07Z",
       "install": "herdr plugin install edmundmiller/dotfiles"
     },
     {
@@ -1240,6 +1240,28 @@
       "install": "herdr plugin install aigorahub/herdr-lantern"
     },
     {
+      "full_name": "iurysza/termscope",
+      "name": "termscope",
+      "owner": "iurysza",
+      "url": "https://github.com/iurysza/termscope",
+      "description": "Open files and links already visible on your terminal screen in a split.",
+      "note": "",
+      "stars": 69,
+      "language": "Python",
+      "tags": [
+        "python",
+        "television",
+        "terminal",
+        "tmux"
+      ],
+      "category": "finder",
+      "also": [
+        "text"
+      ],
+      "pushed_at": "2026-10-25T14:52:55Z",
+      "install": "herdr plugin install iurysza/termscope"
+    },
+    {
       "full_name": "lmilojevicc/herdr-splits.nvim",
       "name": "herdr-splits.nvim",
       "owner": "lmilojevicc",
@@ -1263,28 +1285,6 @@
       "install": "herdr plugin install lmilojevicc/herdr-splits.nvim"
     },
     {
-      "full_name": "iurysza/termscope",
-      "name": "termscope",
-      "owner": "iurysza",
-      "url": "https://github.com/iurysza/termscope",
-      "description": "Open files and links already visible on your terminal screen in a split.",
-      "note": "",
-      "stars": 68,
-      "language": "Python",
-      "tags": [
-        "python",
-        "television",
-        "terminal",
-        "tmux"
-      ],
-      "category": "finder",
-      "also": [
-        "text"
-      ],
-      "pushed_at": "2026-10-25T14:52:55Z",
-      "install": "herdr plugin install iurysza/termscope"
-    },
-    {
       "full_name": "lamngockhuong/termote",
       "name": "termote",
       "owner": "lamngockhuong",
@@ -1305,7 +1305,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-30T05:29:03Z",
+      "pushed_at": "2026-10-30T12:26:17Z",
       "install": "herdr plugin install lamngockhuong/termote"
     },
     {
@@ -1315,7 +1315,7 @@
       "url": "https://github.com/JonasBaeumer/herdr-file-annotator",
       "description": "A plugin for herdr to maximize agentic development without losing touch with the actual codebase",
       "note": "",
-      "stars": 64,
+      "stars": 65,
       "language": "Rust",
       "tags": [
         "rust"
@@ -1515,6 +1515,49 @@
       "install": "herdr plugin install JanTvrdik/herdr-command-palette"
     },
     {
+      "full_name": "Crokily/herdr-lazygit",
+      "name": "herdr-lazygit",
+      "owner": "Crokily",
+      "url": "https://github.com/Crokily/herdr-lazygit",
+      "description": "Run lazygit in a herdr sidebar pane with AI commit messages — one key to open, one to expand, one to commit",
+      "note": "",
+      "stars": 44,
+      "language": "Shell",
+      "tags": [
+        "git",
+        "lazygit",
+        "shell"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-09-14T01:47:51Z",
+      "install": "herdr plugin install Crokily/herdr-lazygit"
+    },
+    {
+      "full_name": "oborchers/proqi",
+      "name": "proqi",
+      "owner": "oborchers",
+      "url": "https://github.com/oborchers/proqi",
+      "description": "A terminal-native prompt composer for power users running multiple coding agents.",
+      "note": "",
+      "stars": 44,
+      "language": "Rust",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "coding-agents",
+        "developer-tools",
+        "local-first",
+        "productivity",
+        "prompt-engineering"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-10-25T23:16:19Z",
+      "install": "herdr plugin install oborchers/proqi"
+    },
+    {
       "full_name": "ragamo/herdr-flock",
       "name": "herdr-flock",
       "owner": "ragamo",
@@ -1535,49 +1578,6 @@
       "install": "herdr plugin install ragamo/herdr-flock"
     },
     {
-      "full_name": "Crokily/herdr-lazygit",
-      "name": "herdr-lazygit",
-      "owner": "Crokily",
-      "url": "https://github.com/Crokily/herdr-lazygit",
-      "description": "Run lazygit in a herdr sidebar pane with AI commit messages — one key to open, one to expand, one to commit",
-      "note": "",
-      "stars": 43,
-      "language": "Shell",
-      "tags": [
-        "git",
-        "lazygit",
-        "shell"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-09-14T01:47:51Z",
-      "install": "herdr plugin install Crokily/herdr-lazygit"
-    },
-    {
-      "full_name": "oborchers/proqi",
-      "name": "proqi",
-      "owner": "oborchers",
-      "url": "https://github.com/oborchers/proqi",
-      "description": "A terminal-native prompt composer for power users running multiple coding agents.",
-      "note": "",
-      "stars": 43,
-      "language": "Rust",
-      "tags": [
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "coding-agents",
-        "developer-tools",
-        "local-first",
-        "productivity",
-        "prompt-engineering"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-10-25T23:16:19Z",
-      "install": "herdr plugin install oborchers/proqi"
-    },
-    {
       "full_name": "cobanov/herdrchat",
       "name": "herdrchat",
       "owner": "cobanov",
@@ -1596,7 +1596,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-27T22:39:00Z",
+      "pushed_at": "2026-10-30T12:06:50Z",
       "install": "herdr plugin install cobanov/herdrchat"
     },
     {
@@ -1606,7 +1606,7 @@
       "url": "https://github.com/miiraheart/herdr-beads",
       "description": "A beads (bd) task board for herdr: List, Table, Kanban over your bd issues, docked as a sidebar or floating.",
       "note": "",
-      "stars": 41,
+      "stars": 42,
       "language": "Rust",
       "tags": [
         "bd",
@@ -1645,6 +1645,30 @@
       "install": "herdr plugin install ntindle/herdr-resurrect"
     },
     {
+      "full_name": "aorumbayev/herdr-workflows",
+      "name": "herdr-workflows",
+      "owner": "aorumbayev",
+      "url": "https://github.com/aorumbayev/herdr-workflows",
+      "description": "Declarative automation for repetitive steps in herdr",
+      "note": "",
+      "stars": 38,
+      "language": "Go",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "ai",
+        "claude",
+        "codex",
+        "multiplexer",
+        "opencde"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-10-28T14:16:58Z",
+      "install": "herdr plugin install aorumbayev/herdr-workflows"
+    },
+    {
       "full_name": "rjyo/herdr-window-title-sync",
       "name": "herdr-window-title-sync",
       "owner": "rjyo",
@@ -1664,37 +1688,13 @@
       "install": "herdr plugin install rjyo/herdr-window-title-sync"
     },
     {
-      "full_name": "aorumbayev/herdr-workflows",
-      "name": "herdr-workflows",
-      "owner": "aorumbayev",
-      "url": "https://github.com/aorumbayev/herdr-workflows",
-      "description": "Declarative automation for repetitive steps in herdr",
-      "note": "",
-      "stars": 37,
-      "language": "Go",
-      "tags": [
-        "agentic-ai",
-        "agentic-workflow",
-        "agents",
-        "ai",
-        "claude",
-        "codex",
-        "multiplexer",
-        "opencde"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-10-28T14:16:58Z",
-      "install": "herdr plugin install aorumbayev/herdr-workflows"
-    },
-    {
       "full_name": "ImArtisann/zed-herdr",
       "name": "zed-herdr",
       "owner": "ImArtisann",
       "url": "https://github.com/ImArtisann/zed-herdr",
       "description": "Automatically keeps your active HerdR workspace in sync with your existing Zed session.",
       "note": "",
-      "stars": 35,
+      "stars": 36,
       "language": "TypeScript",
       "tags": [
         "typescript"
@@ -1703,6 +1703,23 @@
       "also": [],
       "pushed_at": "2026-10-06T04:08:09Z",
       "install": "herdr plugin install ImArtisann/zed-herdr"
+    },
+    {
+      "full_name": "speardragon/herdr-yazi",
+      "name": "herdr-yazi",
+      "owner": "speardragon",
+      "url": "https://github.com/speardragon/herdr-yazi",
+      "description": "Open Yazi in a herdr pane",
+      "note": "",
+      "stars": 35,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-08-19T14:13:28Z",
+      "install": "herdr plugin install speardragon/herdr-yazi"
     },
     {
       "full_name": "eliasstravik/herdr-agent-progress",
@@ -1741,23 +1758,6 @@
       "also": [],
       "pushed_at": "2026-06-24T16:02:52Z",
       "install": "herdr plugin install madarco/agentbox-herdr-plugin"
-    },
-    {
-      "full_name": "speardragon/herdr-yazi",
-      "name": "herdr-yazi",
-      "owner": "speardragon",
-      "url": "https://github.com/speardragon/herdr-yazi",
-      "description": "Open Yazi in a herdr pane",
-      "note": "",
-      "stars": 34,
-      "language": "Shell",
-      "tags": [
-        "shell"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-08-19T14:13:28Z",
-      "install": "herdr plugin install speardragon/herdr-yazi"
     },
     {
       "full_name": "pinkpixel-dev/quota",
@@ -1908,6 +1908,23 @@
       "install": "herdr plugin install Unayung/herdr-watch"
     },
     {
+      "full_name": "FlorisKr/herdr-openspec",
+      "name": "herdr-openspec",
+      "owner": "FlorisKr",
+      "url": "https://github.com/FlorisKr/herdr-openspec",
+      "description": "Openspec plugin for herdr",
+      "note": "",
+      "stars": 30,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-10-07T08:18:59Z",
+      "install": "herdr plugin install FlorisKr/herdr-openspec"
+    },
+    {
       "full_name": "IvoryHeart/herdr-world",
       "name": "herdr-world",
       "owner": "IvoryHeart",
@@ -1927,7 +1944,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-30T05:44:50Z",
+      "pushed_at": "2026-10-30T12:51:08Z",
       "install": "herdr plugin install IvoryHeart/herdr-world"
     },
     {
@@ -2111,23 +2128,6 @@
       "install": "herdr plugin install caioniehues/herdmates"
     },
     {
-      "full_name": "FlorisKr/herdr-openspec",
-      "name": "herdr-openspec",
-      "owner": "FlorisKr",
-      "url": "https://github.com/FlorisKr/herdr-openspec",
-      "description": "Openspec plugin for herdr",
-      "note": "",
-      "stars": 26,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-10-07T08:18:59Z",
-      "install": "herdr plugin install FlorisKr/herdr-openspec"
-    },
-    {
       "full_name": "plannotator/herdr-plannotator",
       "name": "herdr-plannotator",
       "owner": "plannotator",
@@ -2307,6 +2307,30 @@
       "install": "herdr plugin install wyattjoh/herdr-plugin-gh-pr"
     },
     {
+      "full_name": "DnzzL/herdr-automations",
+      "name": "herdr-automations",
+      "owner": "DnzzL",
+      "url": "https://github.com/DnzzL/herdr-automations",
+      "description": "Scheduled tasks for your coding agents, in the terminal. A prompt, a cron line, and a fresh git worktree per run — on Herdr. One YAML file, no store, prebuilt binaries, per-automation model, catch-up after sleep, and a live board.",
+      "note": "",
+      "stars": 22,
+      "language": "Go",
+      "tags": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "coding-agents",
+        "cron",
+        "developer-tools",
+        "golang",
+        "herdr-mod"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-10-30T12:27:51Z",
+      "install": "herdr plugin install DnzzL/herdr-automations"
+    },
+    {
       "full_name": "sanirudh17/herdr-agent-handoff",
       "name": "herdr-agent-handoff",
       "owner": "sanirudh17",
@@ -2354,30 +2378,6 @@
       "install": "herdr plugin install ChmaraX/herdr-gitview"
     },
     {
-      "full_name": "DnzzL/herdr-automations",
-      "name": "herdr-automations",
-      "owner": "DnzzL",
-      "url": "https://github.com/DnzzL/herdr-automations",
-      "description": "Scheduled tasks for your coding agents, in the terminal. A prompt, a cron line, and a fresh git worktree per run — on Herdr. One YAML file, no store, prebuilt binaries, per-automation model, catch-up after sleep, and a live board.",
-      "note": "",
-      "stars": 21,
-      "language": "Go",
-      "tags": [
-        "ai-agents",
-        "automation",
-        "claude-code",
-        "coding-agents",
-        "cron",
-        "developer-tools",
-        "golang",
-        "scheduler"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-10-20T19:15:13Z",
-      "install": "herdr plugin install DnzzL/herdr-automations"
-    },
-    {
       "full_name": "lmilojevicc/seshagy",
       "name": "seshagy",
       "owner": "lmilojevicc",
@@ -2417,8 +2417,30 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-30T01:21:30Z",
+      "pushed_at": "2026-10-30T10:14:51Z",
       "install": "herdr plugin install ivanarama/PromptPilot"
+    },
+    {
+      "full_name": "speardragon/herdr-command-center",
+      "name": "herdr-command-center",
+      "owner": "speardragon",
+      "url": "https://github.com/speardragon/herdr-command-center",
+      "description": "One keybinding for every command — a herdr popup that lists the commands you registered, runs them by arrow key or number, and closes itself before the command fires.",
+      "note": "",
+      "stars": 20,
+      "language": "JavaScript",
+      "tags": [
+        "command-palette",
+        "nodejs",
+        "terminal",
+        "toml",
+        "tui",
+        "javascript"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-10-19T05:24:15Z",
+      "install": "herdr plugin install speardragon/herdr-command-center"
     },
     {
       "full_name": "tomasvarga/herdr-pickr",
@@ -2464,6 +2486,27 @@
       "install": "herdr plugin install Tomyail/herdr-connect"
     },
     {
+      "full_name": "vjeantet/herdr-palette",
+      "name": "herdr-palette",
+      "owner": "vjeantet",
+      "url": "https://github.com/vjeantet/herdr-palette",
+      "description": "Command palette for herdr, à la Sublime Text / VS Code — built-in operations, plugin actions and your own commands behind one key",
+      "note": "",
+      "stars": 20,
+      "language": "Rust",
+      "tags": [
+        "command-palette",
+        "fuzzy-search",
+        "terminal",
+        "tui",
+        "rust"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-10-05T17:02:33Z",
+      "install": "herdr plugin install vjeantet/herdr-palette"
+    },
+    {
       "full_name": "wyattjoh/herdr-plugin-renamer",
       "name": "herdr-plugin-renamer",
       "owner": "wyattjoh",
@@ -2481,28 +2524,6 @@
       ],
       "pushed_at": "2026-10-26T02:45:13Z",
       "install": "herdr plugin install wyattjoh/herdr-plugin-renamer"
-    },
-    {
-      "full_name": "speardragon/herdr-command-center",
-      "name": "herdr-command-center",
-      "owner": "speardragon",
-      "url": "https://github.com/speardragon/herdr-command-center",
-      "description": "One keybinding for every command — a herdr popup that lists the commands you registered, runs them by arrow key or number, and closes itself before the command fires.",
-      "note": "",
-      "stars": 19,
-      "language": "JavaScript",
-      "tags": [
-        "command-palette",
-        "nodejs",
-        "terminal",
-        "toml",
-        "tui",
-        "javascript"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-10-19T05:24:15Z",
-      "install": "herdr plugin install speardragon/herdr-command-center"
     },
     {
       "full_name": "tdi/herdr-worktree-from-linear",
@@ -2539,27 +2560,6 @@
       "also": [],
       "pushed_at": "2026-06-22T17:05:17Z",
       "install": "herdr plugin install third774/herdr-last-workspace"
-    },
-    {
-      "full_name": "vjeantet/herdr-palette",
-      "name": "herdr-palette",
-      "owner": "vjeantet",
-      "url": "https://github.com/vjeantet/herdr-palette",
-      "description": "Command palette for herdr, à la Sublime Text / VS Code — built-in operations, plugin actions and your own commands behind one key",
-      "note": "",
-      "stars": 19,
-      "language": "Rust",
-      "tags": [
-        "command-palette",
-        "fuzzy-search",
-        "terminal",
-        "tui",
-        "rust"
-      ],
-      "category": "finder",
-      "also": [],
-      "pushed_at": "2026-10-05T17:02:33Z",
-      "install": "herdr plugin install vjeantet/herdr-palette"
     },
     {
       "full_name": "hmu332233/herdr-f1",
@@ -2623,6 +2623,24 @@
       "install": "herdr plugin install nikok6/herdr-pet"
     },
     {
+      "full_name": "dwarvesf/herdr-quicklook",
+      "name": "herdr-quicklook",
+      "owner": "dwarvesf",
+      "url": "https://github.com/dwarvesf/herdr-quicklook",
+      "description": "Quick Look for herdr: pop the clipboard's path in an overlay, escalate to the file-viewer with one key",
+      "note": "",
+      "stars": 17,
+      "language": "Shell",
+      "tags": [
+        "terminal",
+        "shell"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-08-26T16:51:15Z",
+      "install": "herdr plugin install dwarvesf/herdr-quicklook"
+    },
+    {
       "full_name": "ogulcancelik/herdr-plugin-github-start",
       "name": "herdr-plugin-github-start",
       "owner": "ogulcancelik",
@@ -2657,6 +2675,27 @@
       "install": "herdr plugin install qintmb/herdr-theme-picker"
     },
     {
+      "full_name": "VedangP57/gitty",
+      "name": "gitty",
+      "owner": "VedangP57",
+      "url": "https://github.com/VedangP57/gitty",
+      "description": "A blazing-fast, GitHub-Desktop-style git TUI for the terminal (Rust + Ratatui)",
+      "note": "",
+      "stars": 17,
+      "language": "Rust",
+      "tags": [
+        "git",
+        "ratatui",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "category": "forge",
+      "also": [],
+      "pushed_at": "2026-10-19T23:15:22Z",
+      "install": "herdr plugin install VedangP57/gitty"
+    },
+    {
       "full_name": "bayoudhi/herdr-shell-progress",
       "name": "herdr-shell-progress",
       "owner": "bayoudhi",
@@ -2672,24 +2711,6 @@
       "also": [],
       "pushed_at": "2026-09-23T15:00:11Z",
       "install": "herdr plugin install bayoudhi/herdr-shell-progress"
-    },
-    {
-      "full_name": "dwarvesf/herdr-quicklook",
-      "name": "herdr-quicklook",
-      "owner": "dwarvesf",
-      "url": "https://github.com/dwarvesf/herdr-quicklook",
-      "description": "Quick Look for herdr: pop the clipboard's path in an overlay, escalate to the file-viewer with one key",
-      "note": "",
-      "stars": 16,
-      "language": "Shell",
-      "tags": [
-        "terminal",
-        "shell"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-08-26T16:51:15Z",
-      "install": "herdr plugin install dwarvesf/herdr-quicklook"
     },
     {
       "full_name": "eliasstravik/herdr-call",
@@ -2727,27 +2748,6 @@
       "also": [],
       "pushed_at": "2026-10-14T01:09:37Z",
       "install": "herdr plugin install qintmb/herdr-icon-agent-ui"
-    },
-    {
-      "full_name": "VedangP57/gitty",
-      "name": "gitty",
-      "owner": "VedangP57",
-      "url": "https://github.com/VedangP57/gitty",
-      "description": "A blazing-fast, GitHub-Desktop-style git TUI for the terminal (Rust + Ratatui)",
-      "note": "",
-      "stars": 16,
-      "language": "Rust",
-      "tags": [
-        "git",
-        "ratatui",
-        "rust",
-        "terminal",
-        "tui"
-      ],
-      "category": "forge",
-      "also": [],
-      "pushed_at": "2026-10-19T23:15:22Z",
-      "install": "herdr plugin install VedangP57/gitty"
     },
     {
       "full_name": "a2u/herdr-jira",
@@ -3173,6 +3173,53 @@
       "install": "herdr plugin install TheMetalStorm/herdr-commandcode-plugin"
     },
     {
+      "full_name": "afloury/wherdr",
+      "name": "wherdr",
+      "owner": "afloury",
+      "url": "https://github.com/afloury/wherdr",
+      "description": "Use Herdr from anywhere — your iPhone, Android phone or any browser. Watch your coding agents, answer them and run your herdr-projects, privately and securely.",
+      "note": "",
+      "stars": 12,
+      "language": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "mobile",
+        "pwa",
+        "tailscale",
+        "typescript"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-10-30T09:17:23Z",
+      "install": "herdr plugin install afloury/wherdr"
+    },
+    {
+      "full_name": "afogel/shepherdr",
+      "name": "shepherdr",
+      "owner": "afogel",
+      "url": "https://github.com/afogel/shepherdr",
+      "description": "Shepherd delegated coding agents into visible, auditable herdr panes you can watch, resume, and take over — a herdr plugin.",
+      "note": "",
+      "stars": 12,
+      "language": "Rust",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "cursor",
+        "rust",
+        "terminal"
+      ],
+      "category": "agents",
+      "also": [
+        "session"
+      ],
+      "pushed_at": "2026-07-24T06:58:19Z",
+      "install": "herdr plugin install afogel/shepherdr"
+    },
+    {
       "full_name": "den-tanui/herdr-zoxide",
       "name": "herdr-zoxide",
       "owner": "den-tanui",
@@ -3295,7 +3342,7 @@
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-10-29T22:45:00Z",
+      "pushed_at": "2026-10-30T05:47:30Z",
       "install": "herdr plugin install MIDO-ruby7/herdr-plugins-directory"
     },
     {
@@ -3356,7 +3403,7 @@
       ],
       "category": "navigate",
       "also": [],
-      "pushed_at": "2026-10-21T20:49:38Z",
+      "pushed_at": "2026-10-30T08:23:11Z",
       "install": "herdr plugin install pivoshenko/musicforprogramming"
     },
     {
@@ -3401,30 +3448,6 @@
       "also": [],
       "pushed_at": "2026-09-28T03:46:49Z",
       "install": "herdr plugin install wilbeibi/herdr-catchup"
-    },
-    {
-      "full_name": "afogel/shepherdr",
-      "name": "shepherdr",
-      "owner": "afogel",
-      "url": "https://github.com/afogel/shepherdr",
-      "description": "Shepherd delegated coding agents into visible, auditable herdr panes you can watch, resume, and take over — a herdr plugin.",
-      "note": "",
-      "stars": 11,
-      "language": "Rust",
-      "tags": [
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "cursor",
-        "rust",
-        "terminal"
-      ],
-      "category": "agents",
-      "also": [
-        "session"
-      ],
-      "pushed_at": "2026-07-24T06:58:19Z",
-      "install": "herdr plugin install afogel/shepherdr"
     },
     {
       "full_name": "benkraus/herdr-plugin-mobile-relay",
@@ -3647,7 +3670,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-15T16:12:41Z",
+      "pushed_at": "2026-10-30T11:42:55Z",
       "install": "herdr plugin install second-state/vibetty"
     },
     {
@@ -3709,7 +3732,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-29T08:51:52Z",
+      "pushed_at": "2026-10-30T12:41:34Z",
       "install": "herdr plugin install v1k45/bigtty"
     },
     {
@@ -3737,29 +3760,6 @@
       ],
       "pushed_at": "2026-10-30T03:57:13Z",
       "install": "herdr plugin install walcew/herdr-assist"
-    },
-    {
-      "full_name": "afloury/wherdr",
-      "name": "wherdr",
-      "owner": "afloury",
-      "url": "https://github.com/afloury/wherdr",
-      "description": "Use Herdr from anywhere — your iPhone, Android phone or any browser. Watch your coding agents, answer them and run your herdr-projects, privately and securely.",
-      "note": "",
-      "stars": 10,
-      "language": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "mobile",
-        "pwa",
-        "tailscale",
-        "typescript"
-      ],
-      "category": "remote",
-      "also": [],
-      "pushed_at": "2026-10-30T04:15:11Z",
-      "install": "herdr plugin install afloury/wherdr"
     },
     {
       "full_name": "dcolinmorgan/herdr-push",
@@ -3836,7 +3836,7 @@
       "also": [
         "review"
       ],
-      "pushed_at": "2026-10-30T05:27:32Z",
+      "pushed_at": "2026-10-30T12:50:02Z",
       "install": "herdr plugin install ericbust/namedrop"
     },
     {
@@ -5024,7 +5024,7 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-29T18:11:02Z",
+      "pushed_at": "2026-10-30T12:45:29Z",
       "install": "herdr plugin install osuki-dev/muqun-gateway"
     },
     {
@@ -5172,7 +5172,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-29T23:23:55Z",
+      "pushed_at": "2026-10-30T11:21:11Z",
       "install": "herdr plugin install vib-z/stampede"
     },
     {
@@ -5695,7 +5695,7 @@
       ],
       "category": "finder",
       "also": [],
-      "pushed_at": "2026-10-26T15:41:32Z",
+      "pushed_at": "2026-10-30T11:25:37Z",
       "install": "herdr plugin install thomasschafer/herdr-kiosk"
     },
     {
@@ -5739,7 +5739,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-29T18:01:57Z",
+      "pushed_at": "2026-10-30T10:06:34Z",
       "install": "herdr plugin install tifandotme/dotfiles"
     },
     {
@@ -7308,7 +7308,7 @@
       ],
       "category": "forge",
       "also": [],
-      "pushed_at": "2026-10-30T01:55:43Z",
+      "pushed_at": "2026-10-30T10:20:08Z",
       "install": "herdr plugin install civitaspo/herdr-linear-agent"
     },
     {
@@ -7852,7 +7852,7 @@
       ],
       "category": "files",
       "also": [],
-      "pushed_at": "2026-10-08T12:50:58Z",
+      "pushed_at": "2026-10-30T08:30:45Z",
       "install": "herdr plugin install lurepos/herdr-commander"
     },
     {
@@ -8805,8 +8805,30 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-24T10:11:15Z",
+      "pushed_at": "2026-10-30T09:03:17Z",
       "install": "herdr plugin install dibin666/herdr-remote"
+    },
+    {
+      "full_name": "DnzzL/herdr-idle",
+      "name": "herdr-idle",
+      "owner": "DnzzL",
+      "url": "https://github.com/DnzzL/herdr-idle",
+      "description": "herdr plugin: idle agent panes give back their RAM. The pane stays; Enter resumes the same conversation.",
+      "note": "",
+      "stars": 3,
+      "language": "Go",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "terminal",
+        "go"
+      ],
+      "category": "session",
+      "also": [
+        "monitor"
+      ],
+      "pushed_at": "2026-10-29T17:09:02Z",
+      "install": "herdr plugin install DnzzL/herdr-idle"
     },
     {
       "full_name": "dzwduan/herdr-convo-index",
@@ -9430,7 +9452,7 @@
       ],
       "category": "agents",
       "also": [],
-      "pushed_at": "2026-10-29T04:45:48Z",
+      "pushed_at": "2026-10-30T12:52:03Z",
       "install": "herdr plugin install justn-hyeok/brgr"
     },
     {
@@ -9509,6 +9531,27 @@
       "also": [],
       "pushed_at": "2026-09-11T13:19:55Z",
       "install": "herdr plugin install LoriKarikari/kubeflock"
+    },
+    {
+      "full_name": "lucasscariot/herdr-inbox",
+      "name": "herdr-inbox",
+      "owner": "lucasscariot",
+      "url": "https://github.com/lucasscariot/herdr-inbox",
+      "description": "Herdr plugin: start agent threads on any project, harness, machine, or worktree, and follow every agent in one live inbox",
+      "note": "",
+      "stars": 3,
+      "language": "Rust",
+      "tags": [
+        "blueprint",
+        "coding-agents",
+        "python",
+        "tui",
+        "rust"
+      ],
+      "category": "worktree",
+      "also": [],
+      "pushed_at": "2026-10-17T20:36:26Z",
+      "install": "herdr plugin install lucasscariot/herdr-inbox"
     },
     {
       "full_name": "LZHcode1986/herdr-link",
@@ -9654,19 +9697,23 @@
       "name": "herdr-telegram-notify",
       "owner": "naturalmoods",
       "url": "https://github.com/naturalmoods/herdr-telegram-notify",
-      "description": "Messages you on Telegram when an agent finishes or needs input, with its last message, changes, duration and cost. Answer from the chat with text, menu buttons, files, photos or voice; stop an agent, read its screen or diff, or start a new one. Notifications mark themselves answered, and a pinned board shows the whole herd.",
+      "description": "Telegram notifications for Herdr TUI and the Herdr app (herdr-core): a message when an agent finishes or needs input, with its last message, changes, duration and cost. Answer from the chat with text, buttons, files, photos or voice; stop an agent, read its screen or diff, or start a new one.",
       "note": "",
       "stars": 3,
       "language": "JavaScript",
       "tags": [
         "claude-code",
+        "codex",
+        "coding-agents",
+        "herdr-app",
+        "herdr-core",
         "notifications",
         "telegram",
         "javascript"
       ],
       "category": "notify",
       "also": [],
-      "pushed_at": "2026-10-29T21:31:18Z",
+      "pushed_at": "2026-10-30T06:32:11Z",
       "install": "herdr plugin install naturalmoods/herdr-telegram-notify"
     },
     {
@@ -10548,7 +10595,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-10-28T13:01:31Z",
+      "pushed_at": "2026-10-30T12:37:27Z",
       "install": "herdr plugin install VilfredSikker/easy-review"
     },
     {
@@ -10588,7 +10635,7 @@
       "also": [
         "session"
       ],
-      "pushed_at": "2026-10-25T22:43:46Z",
+      "pushed_at": "2026-10-30T10:32:07Z",
       "install": "herdr plugin install voodootikigod/adlc-herdr"
     },
     {
@@ -11766,6 +11813,24 @@
       "install": "herdr plugin install furuhashin/herdr-synchronize-panes"
     },
     {
+      "full_name": "fzf/herdr-mattermost",
+      "name": "herdr-mattermost",
+      "owner": "fzf",
+      "url": "https://github.com/fzf/herdr-mattermost",
+      "description": "Herdr plugin: Mattermost as a UI layer. Channels are workspaces, root posts are agents.",
+      "note": "",
+      "stars": 2,
+      "language": "JavaScript",
+      "tags": [
+        "mattermost",
+        "javascript"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-10-29T05:04:59Z",
+      "install": "herdr plugin install fzf/herdr-mattermost"
+    },
+    {
       "full_name": "g00rek/browsr",
       "name": "browsr",
       "owner": "g00rek",
@@ -12630,27 +12695,6 @@
       "also": [],
       "pushed_at": "2026-07-28T02:56:53Z",
       "install": "herdr plugin install lsisoft/herdr-telegram-slack-bridge"
-    },
-    {
-      "full_name": "lucasscariot/herdr-inbox",
-      "name": "herdr-inbox",
-      "owner": "lucasscariot",
-      "url": "https://github.com/lucasscariot/herdr-inbox",
-      "description": "Herdr plugin: start agent threads on any project, harness, machine, or worktree, and follow every agent in one live inbox",
-      "note": "",
-      "stars": 2,
-      "language": "Rust",
-      "tags": [
-        "blueprint",
-        "coding-agents",
-        "python",
-        "tui",
-        "rust"
-      ],
-      "category": "worktree",
-      "also": [],
-      "pushed_at": "2026-10-17T20:36:26Z",
-      "install": "herdr plugin install lucasscariot/herdr-inbox"
     },
     {
       "full_name": "Luisalt20/herdr-reach",
@@ -14302,6 +14346,23 @@
       "install": "herdr plugin install abroller666/herdr-display-panes"
     },
     {
+      "full_name": "abrose/herdr-numbered-workspaces",
+      "name": "herdr-numbered-workspaces",
+      "owner": "abrose",
+      "url": "https://github.com/abrose/herdr-numbered-workspaces",
+      "description": "Puts a number in front of every space in herdr's sidebar, matching the indexed switch_workspace shortcut.",
+      "note": "",
+      "stars": 1,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-07-21T13:52:43Z",
+      "install": "herdr plugin install abrose/herdr-numbered-workspaces"
+    },
+    {
       "full_name": "abrose/herdr-url-picker",
       "name": "herdr-url-picker",
       "owner": "abrose",
@@ -14338,23 +14399,6 @@
       "install": "herdr plugin install abtris/herdr-plugin-jira-pr"
     },
     {
-      "full_name": "aclima01/herdr-edit-windows",
-      "name": "herdr-edit-windows",
-      "owner": "aclima01",
-      "url": "https://github.com/aclima01/herdr-edit-windows",
-      "description": "A simple text editor that runs in a herdr pane beside your coding agent — file tree, syntax-highlighted editor, and an uncommitted-diff tab. Windows-only.",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-07-25T15:02:45Z",
-      "install": "herdr plugin install aclima01/herdr-edit-windows"
-    },
-    {
       "full_name": "aclima01/herdr-todos-windows",
       "name": "herdr-todos-windows",
       "owner": "aclima01",
@@ -14370,23 +14414,6 @@
       "also": [],
       "pushed_at": "2026-07-22T12:44:42Z",
       "install": "herdr plugin install aclima01/herdr-todos-windows"
-    },
-    {
-      "full_name": "adihex/herdr-agent-icons",
-      "name": "herdr-agent-icons",
-      "owner": "adihex",
-      "url": "https://github.com/adihex/herdr-agent-icons",
-      "description": "Herdr plugin: real per-agent logo icons in the sidebar via a generated PUA font",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-09-18T14:48:03Z",
-      "install": "herdr plugin install adihex/herdr-agent-icons"
     },
     {
       "full_name": "adriankarlen/yeet",
@@ -14536,6 +14563,23 @@
       "also": [],
       "pushed_at": "2026-08-23T05:52:18Z",
       "install": "herdr plugin install alex-devdone/herdr-hub"
+    },
+    {
+      "full_name": "AlexeyKrotkov/herdr-wrapped-tabs",
+      "name": "herdr-wrapped-tabs",
+      "owner": "AlexeyKrotkov",
+      "url": "https://github.com/AlexeyKrotkov/herdr-wrapped-tabs",
+      "description": "Always-visible wrapped tabs for Herdr",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-09-24T23:11:40Z",
+      "install": "herdr plugin install AlexeyKrotkov/herdr-wrapped-tabs"
     },
     {
       "full_name": "alexjsp/herdr-scrollback-capture",
@@ -14726,48 +14770,6 @@
       "install": "herdr plugin install Anthodev/herdr-context"
     },
     {
-      "full_name": "antoniocosta/turnr",
-      "name": "turnr",
-      "owner": "antoniocosta",
-      "url": "https://github.com/antoniocosta/turnr",
-      "description": "herdr plugin: a side panel listing an agent's turns (Claude Code, Codex, pi, agy); click one to scroll the pane there",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "claude-code",
-        "terminal",
-        "python"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-10-24T23:49:29Z",
-      "install": "herdr plugin install antoniocosta/turnr"
-    },
-    {
-      "full_name": "aoprisan/hird",
-      "name": "hird",
-      "owner": "aoprisan",
-      "url": "https://github.com/aoprisan/hird",
-      "description": "Cross-harness agent work queue and shared assertion memory, backed by one local SQLite database",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "mcp",
-        "rust",
-        "sqlite",
-        "tui"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-09-29T16:27:46Z",
-      "install": "herdr plugin install aoprisan/hird"
-    },
-    {
       "full_name": "aorumbayev/herdr-hyprland",
       "name": "herdr-hyprland",
       "owner": "aorumbayev",
@@ -14830,6 +14832,23 @@
       "install": "herdr plugin install ArnaudRinquin/herdr-quotabar"
     },
     {
+      "full_name": "arthurnw/herdr-unread",
+      "name": "herdr-unread",
+      "owner": "arthurnw",
+      "url": "https://github.com/arthurnw/herdr-unread",
+      "description": "Mark Herdr agent sessions unread until revisited or resumed",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "session",
+      "also": [],
+      "pushed_at": "2026-09-14T20:13:22Z",
+      "install": "herdr plugin install arthurnw/herdr-unread"
+    },
+    {
       "full_name": "ArtMoreno/shep",
       "name": "shep",
       "owner": "ArtMoreno",
@@ -14864,30 +14883,6 @@
       "also": [],
       "pushed_at": "2026-09-08T21:33:13Z",
       "install": "herdr plugin install arvmaan/herdr-glance"
-    },
-    {
-      "full_name": "assawalhy/herdr-stay-awake",
-      "name": "herdr-stay-awake",
-      "owner": "assawalhy",
-      "url": "https://github.com/assawalhy/herdr-stay-awake",
-      "description": "Keeps the machine from sleeping while any herdr agent pane is working (Linux, macOS, Windows, and WSL)",
-      "note": "",
-      "stars": 1,
-      "language": "JavaScript",
-      "tags": [
-        "agent-orchestration",
-        "agents",
-        "harness",
-        "linux",
-        "macos",
-        "windows",
-        "wsl",
-        "wsl2"
-      ],
-      "category": "automation",
-      "also": [],
-      "pushed_at": "2026-10-07T05:02:34Z",
-      "install": "herdr plugin install assawalhy/herdr-stay-awake"
     },
     {
       "full_name": "astkaasa/herdr-tokscale-dashboard",
@@ -14942,6 +14937,23 @@
       "also": [],
       "pushed_at": "2026-09-20T01:20:42Z",
       "install": "herdr plugin install asumaran/asconfirmclose"
+    },
+    {
+      "full_name": "asumaran/asgoto",
+      "name": "asgoto",
+      "owner": "asumaran",
+      "url": "https://github.com/asumaran/asgoto",
+      "description": "Tree-style switcher across herdr repos, worktrees and panes",
+      "note": "",
+      "stars": 1,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-10-08T22:57:21Z",
+      "install": "herdr plugin install asumaran/asgoto"
     },
     {
       "full_name": "avery20024/herdr-async-message-relay",
@@ -15036,6 +15048,25 @@
       "also": [],
       "pushed_at": "2026-08-03T17:25:55Z",
       "install": "herdr plugin install baotran01/herdr-agent-diff"
+    },
+    {
+      "full_name": "barnuri/herdr-command-palette",
+      "name": "herdr-command-palette",
+      "owner": "barnuri",
+      "url": "https://github.com/barnuri/herdr-command-palette",
+      "description": "F1-style command palette for herdr — fuzzy-search and run every action from every installed plugin. Zero dependencies.",
+      "note": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "tags": [
+        "command-palette",
+        "terminal",
+        "javascript"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-09-01T11:29:19Z",
+      "install": "herdr plugin install barnuri/herdr-command-palette"
     },
     {
       "full_name": "bartholomewtj/sightr",
@@ -15182,23 +15213,6 @@
       "install": "herdr plugin install blurname/herdr-git-tab-name"
     },
     {
-      "full_name": "bonkey/herdr-keep-root",
-      "name": "herdr-keep-root",
-      "owner": "bonkey",
-      "url": "https://github.com/bonkey/herdr-keep-root",
-      "description": "Herdr plugin: keeps a repository's main-checkout workspace open while any of its worktree workspaces is open, so the Spaces panel never flattens a worktree group",
-      "note": "",
-      "stars": 1,
-      "language": "Shell",
-      "tags": [
-        "shell"
-      ],
-      "category": "worktree",
-      "also": [],
-      "pushed_at": "2026-09-08T06:55:21Z",
-      "install": "herdr plugin install bonkey/herdr-keep-root"
-    },
-    {
       "full_name": "BowlOfSoup/herdr-stoplight",
       "name": "herdr-stoplight",
       "owner": "BowlOfSoup",
@@ -15233,6 +15247,23 @@
       "install": "herdr plugin install bozoinc/archify-herdr-plugin"
     },
     {
+      "full_name": "bring-shrubbery/herdr-auto-pull-main",
+      "name": "herdr-auto-pull-main",
+      "owner": "bring-shrubbery",
+      "url": "https://github.com/bring-shrubbery/herdr-auto-pull-main",
+      "description": "",
+      "note": "",
+      "stars": 1,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-10-12T10:03:43Z",
+      "install": "herdr plugin install bring-shrubbery/herdr-auto-pull-main"
+    },
+    {
       "full_name": "brunohq/herdr-scratchpad",
       "name": "herdr-scratchpad",
       "owner": "brunohq",
@@ -15250,23 +15281,6 @@
       "also": [],
       "pushed_at": "2026-09-12T22:41:12Z",
       "install": "herdr plugin install brunohq/herdr-scratchpad"
-    },
-    {
-      "full_name": "btorresgil/herdr-hermes-session-title",
-      "name": "herdr-hermes-session-title",
-      "owner": "btorresgil",
-      "url": "https://github.com/btorresgil/herdr-hermes-session-title",
-      "description": "Show Hermes Agent session titles in the Herdr sidebar.",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-08-07T20:55:28Z",
-      "install": "herdr plugin install btorresgil/herdr-hermes-session-title"
     },
     {
       "full_name": "C0R0NELL/herdr-agents-sidebar",
@@ -15544,6 +15558,25 @@
       "install": "herdr plugin install dalogax/herdr-agent-hibernate"
     },
     {
+      "full_name": "danieljvdm/herdr-composer",
+      "name": "herdr-composer",
+      "owner": "danieljvdm",
+      "url": "https://github.com/danieljvdm/herdr-composer",
+      "description": "Compose tasks, attach context, and launch coding agents in isolated Herdr workspaces",
+      "note": "",
+      "stars": 1,
+      "language": "Rust",
+      "tags": [
+        "coding-agents",
+        "git-worktree",
+        "rust"
+      ],
+      "category": "worktree",
+      "also": [],
+      "pushed_at": "2026-10-21T18:25:26Z",
+      "install": "herdr plugin install danieljvdm/herdr-composer"
+    },
+    {
       "full_name": "dannyking/herdr-sidebar-customizer",
       "name": "herdr-sidebar-customizer",
       "owner": "dannyking",
@@ -15561,23 +15594,6 @@
       "also": [],
       "pushed_at": "2026-10-06T18:16:55Z",
       "install": "herdr plugin install dannyking/herdr-sidebar-customizer"
-    },
-    {
-      "full_name": "dantehemerson/herdr-last-tab",
-      "name": "herdr-last-tab",
-      "owner": "dantehemerson",
-      "url": "https://github.com/dantehemerson/herdr-last-tab",
-      "description": "Plugin for swapping to the last tab you had focused",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-08-12T03:25:49Z",
-      "install": "herdr plugin install dantehemerson/herdr-last-tab"
     },
     {
       "full_name": "DaveBird99/herdr-worktree-upstream",
@@ -15613,25 +15629,6 @@
       "also": [],
       "pushed_at": "2026-08-28T02:53:08Z",
       "install": "herdr plugin install DeepRuparel/herdr-spotify"
-    },
-    {
-      "full_name": "deepshape-ai/herdr-hive",
-      "name": "herdr-hive",
-      "owner": "deepshape-ai",
-      "url": "https://github.com/deepshape-ai/herdr-hive",
-      "description": "Share Herdr sessions with your team. Hive connects devices; Bee publishes selected sessions while agents keep running on their hosts.",
-      "note": "",
-      "stars": 1,
-      "language": "Go",
-      "tags": [
-        "collaboration",
-        "session-sharing",
-        "go"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-10-06T06:39:06Z",
-      "install": "herdr plugin install deepshape-ai/herdr-hive"
     },
     {
       "full_name": "Deetss/herdr-review-panel",
@@ -15707,40 +15704,6 @@
       "install": "herdr plugin install dev-town/harbr"
     },
     {
-      "full_name": "devicki/herdr-ids",
-      "name": "herdr-ids",
-      "owner": "devicki",
-      "url": "https://github.com/devicki/herdr-ids",
-      "description": "Herdr plugin: show pane, tab and workspace ids in the sidebar, and pick a space, tab or pane to type its id into your agent",
-      "note": "",
-      "stars": 1,
-      "language": "Shell",
-      "tags": [
-        "shell"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-10-16T01:05:31Z",
-      "install": "herdr plugin install devicki/herdr-ids"
-    },
-    {
-      "full_name": "devicki/herdr-respawn",
-      "name": "herdr-respawn",
-      "owner": "devicki",
-      "url": "https://github.com/devicki/herdr-respawn",
-      "description": "Herdr plugin: relaunch lazygit, editors and other allowlisted TUIs in their panes after a server restart or reboot",
-      "note": "",
-      "stars": 1,
-      "language": "Shell",
-      "tags": [
-        "shell"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-10-21T07:38:09Z",
-      "install": "herdr plugin install devicki/herdr-respawn"
-    },
-    {
       "full_name": "DevooKim/herdr-cast",
       "name": "herdr-cast",
       "owner": "DevooKim",
@@ -15778,6 +15741,23 @@
       "install": "herdr plugin install devops-fj/herdr-handoff"
     },
     {
+      "full_name": "dhananjaylatkar/ws.numbered.herdr",
+      "name": "ws.numbered.herdr",
+      "owner": "dhananjaylatkar",
+      "url": "https://github.com/dhananjaylatkar/ws.numbered.herdr",
+      "description": "Automatically Number The Workspaces in Herdr",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "automation",
+      "also": [],
+      "pushed_at": "2026-10-09T19:21:13Z",
+      "install": "herdr plugin install dhananjaylatkar/ws.numbered.herdr"
+    },
+    {
       "full_name": "dk3775/herdr-plugin-omp-state",
       "name": "herdr-plugin-omp-state",
       "owner": "dk3775",
@@ -15795,6 +15775,26 @@
       "also": [],
       "pushed_at": "2026-09-24T06:10:23Z",
       "install": "herdr plugin install dk3775/herdr-plugin-omp-state"
+    },
+    {
+      "full_name": "dkbo/herdr-model-badge",
+      "name": "herdr-model-badge",
+      "owner": "dkbo",
+      "url": "https://github.com/dkbo/herdr-model-badge",
+      "description": "herdr plugin: show each agent's model and reasoning effort in the agents sidebar",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "ai-agents",
+        "terminal",
+        "tui",
+        "python"
+      ],
+      "category": "monitor",
+      "also": [],
+      "pushed_at": "2026-09-08T08:30:26Z",
+      "install": "herdr plugin install dkbo/herdr-model-badge"
     },
     {
       "full_name": "dkbo/herdr-scm",
@@ -15873,23 +15873,6 @@
       "also": [],
       "pushed_at": "2026-09-24T05:36:27Z",
       "install": "herdr plugin install dlwr/herdr-zed-follow"
-    },
-    {
-      "full_name": "dmazlum/herdr-fleece",
-      "name": "herdr-fleece",
-      "owner": "dmazlum",
-      "url": "https://github.com/dmazlum/herdr-fleece",
-      "description": "Frame your agent's last answer in Herdr, then copy, save, or send it.",
-      "note": "",
-      "stars": 1,
-      "language": "TypeScript",
-      "tags": [
-        "typescript"
-      ],
-      "category": "text",
-      "also": [],
-      "pushed_at": "2026-10-15T17:38:23Z",
-      "install": "herdr plugin install dmazlum/herdr-fleece"
     },
     {
       "full_name": "DnzzL/herdr-huddle",
@@ -16104,6 +16087,28 @@
       "install": "herdr plugin install enisbu/herdr-swipe-linux"
     },
     {
+      "full_name": "Eslsamu/herdr-tasks",
+      "name": "herdr-tasks",
+      "owner": "Eslsamu",
+      "url": "https://github.com/Eslsamu/herdr-tasks",
+      "description": "Agent-owned local task queues for Herdr, with a live read-only browser view.",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "ai-agents",
+        "codex",
+        "local-first",
+        "python",
+        "sqlite",
+        "task-queue"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-10-26T07:36:39Z",
+      "install": "herdr plugin install Eslsamu/herdr-tasks"
+    },
+    {
       "full_name": "Fadi729/herdr-terminal-scripts",
       "name": "herdr-terminal-scripts",
       "owner": "Fadi729",
@@ -16158,6 +16163,23 @@
       "also": [],
       "pushed_at": "2026-10-01T15:15:13Z",
       "install": "herdr plugin install fedeya/herdr-sesh"
+    },
+    {
+      "full_name": "ferretorres/herdr-plugin-space-colors",
+      "name": "herdr-plugin-space-colors",
+      "owner": "ferretorres",
+      "url": "https://github.com/ferretorres/herdr-plugin-space-colors",
+      "description": "Peacock-style per-workspace colours for Herdr: the theme follows the focused workspace",
+      "note": "",
+      "stars": 1,
+      "language": "Rust",
+      "tags": [
+        "rust"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-09-23T11:49:37Z",
+      "install": "herdr plugin install ferretorres/herdr-plugin-space-colors"
     },
     {
       "full_name": "flowreaction/herdr-state-icons",
@@ -16238,8 +16260,31 @@
       ],
       "category": "remote",
       "also": [],
-      "pushed_at": "2026-10-29T22:11:17Z",
+      "pushed_at": "2026-10-30T10:02:31Z",
       "install": "herdr plugin install frizynn/nenu"
+    },
+    {
+      "full_name": "fujimogn/herdr-lineup",
+      "name": "herdr-lineup",
+      "owner": "fujimogn",
+      "url": "https://github.com/fujimogn/herdr-lineup",
+      "description": "One sidebar row per AI coding agent in Herdr: vendor logo, state, context, weekly quota, and local origin/main commit time.",
+      "note": "",
+      "stars": 1,
+      "language": "Rust",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "grok",
+        "rust",
+        "terminal"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-10-27T20:55:10Z",
+      "install": "herdr plugin install fujimogn/herdr-lineup"
     },
     {
       "full_name": "fulanto/herdr-oncall",
@@ -16362,23 +16407,6 @@
       "install": "herdr plugin install Ghost-LZW/pane-identity"
     },
     {
-      "full_name": "giorgiostokje/herdr-arcade",
-      "name": "herdr-arcade",
-      "owner": "giorgiostokje",
-      "url": "https://github.com/giorgiostokje/herdr-arcade",
-      "description": "Seventeen terminal arcade games in a Herdr popup pane that pause themselves when an agent needs attention",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "navigate",
-      "also": [],
-      "pushed_at": "2026-10-12T10:34:18Z",
-      "install": "herdr plugin install giorgiostokje/herdr-arcade"
-    },
-    {
       "full_name": "gosuwtf/herdr-machine-memory",
       "name": "herdr-machine-memory",
       "owner": "gosuwtf",
@@ -16459,23 +16487,6 @@
       "install": "herdr plugin install grooni/herdr-paste-image"
     },
     {
-      "full_name": "gwenwindflower/heraldr",
-      "name": "heraldr",
-      "owner": "gwenwindflower",
-      "url": "https://github.com/gwenwindflower/heraldr",
-      "description": "🛡️ Reactive label chrome for Herdr tabs, workspaces, and agents",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-10-01T02:19:13Z",
-      "install": "herdr plugin install gwenwindflower/heraldr"
-    },
-    {
       "full_name": "H3xept/herdr-ingest",
       "name": "herdr-ingest",
       "owner": "H3xept",
@@ -16514,6 +16525,23 @@
       "also": [],
       "pushed_at": "2026-09-15T07:26:43Z",
       "install": "herdr plugin install hanjm93/herdr-plugin-done-timer"
+    },
+    {
+      "full_name": "happyeric77/agent-keep-awake",
+      "name": "agent-keep-awake",
+      "owner": "happyeric77",
+      "url": "https://github.com/happyeric77/agent-keep-awake",
+      "description": "Prevent macOS sleep while Herdr agents are working",
+      "note": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "tags": [
+        "javascript"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-10-26T11:21:38Z",
+      "install": "herdr plugin install happyeric77/agent-keep-awake"
     },
     {
       "full_name": "harshagowda/herdr-web",
@@ -16616,25 +16644,24 @@
       "install": "herdr plugin install hlouis/herdr-glab"
     },
     {
-      "full_name": "husniadil/herdr-dispatch",
-      "name": "herdr-dispatch",
-      "owner": "husniadil",
-      "url": "https://github.com/husniadil/herdr-dispatch",
-      "description": "Dispatcher for the herdr-tasks board - a worker agent pane per ready task, the goal delivered, the worker tracked, and a stop at review, in one Go binary.",
+      "full_name": "hotnugs/herdr-emoji-time",
+      "name": "herdr-emoji-time",
+      "owner": "hotnugs",
+      "url": "https://github.com/hotnugs/herdr-emoji-time",
+      "description": "Emoji for your Herdr spaces, agents and tabs. Inject some fun into your terminal",
       "note": "",
       "stars": 1,
-      "language": "Go",
+      "language": "Python",
       "tags": [
-        "agent-orchestration",
-        "ai-agents",
-        "dispatcher",
-        "mcp-server",
-        "go"
+        "emoji",
+        "terminal",
+        "tui",
+        "python"
       ],
-      "category": "agents",
+      "category": "naming",
       "also": [],
-      "pushed_at": "2026-08-31T01:40:00Z",
-      "install": "herdr plugin install husniadil/herdr-dispatch"
+      "pushed_at": "2026-09-12T06:28:25Z",
+      "install": "herdr plugin install hotnugs/herdr-emoji-time"
     },
     {
       "full_name": "iamgp/herdr-overview",
@@ -16763,23 +16790,6 @@
       "install": "herdr plugin install jaaacki/herdr-plugin-minimax-code"
     },
     {
-      "full_name": "jackfrancisdalton/herdr-chromatic-spaces",
-      "name": "herdr-chromatic-spaces",
-      "owner": "jackfrancisdalton",
-      "url": "https://github.com/jackfrancisdalton/herdr-chromatic-spaces",
-      "description": "Give every Herdr Space its own colour and emoji: coloured sidebar dots, grouped agents, and optional chrome tint on space switch.",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-08-22T15:04:57Z",
-      "install": "herdr plugin install jackfrancisdalton/herdr-chromatic-spaces"
-    },
-    {
       "full_name": "JacquesvanWyk/herdr-keys",
       "name": "herdr-keys",
       "owner": "JacquesvanWyk",
@@ -16855,6 +16865,25 @@
       "also": [],
       "pushed_at": "2026-10-23T22:40:04Z",
       "install": "herdr plugin install jeffarese/herdr-stats"
+    },
+    {
+      "full_name": "jeffbking/herdr-agent-prompt",
+      "name": "herdr-agent-prompt",
+      "owner": "jeffbking",
+      "url": "https://github.com/jeffbking/herdr-agent-prompt",
+      "description": "Herdr plugin: view the focused coding agent's original prompt (Claude Code, Codex, Antigravity, Pi) in an overlay on prefix+p",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "claude-code",
+        "codex",
+        "python"
+      ],
+      "category": "agents",
+      "also": [],
+      "pushed_at": "2026-09-08T01:21:55Z",
+      "install": "herdr plugin install jeffbking/herdr-agent-prompt"
     },
     {
       "full_name": "jeffhuen/tether-browser",
@@ -16985,6 +17014,26 @@
       ],
       "pushed_at": "2026-10-26T13:33:13Z",
       "install": "herdr plugin install jiangkoumo/herdr-plugin-layerfs"
+    },
+    {
+      "full_name": "jimididit/herdr-open-editor",
+      "name": "herdr-open-editor",
+      "owner": "jimididit",
+      "url": "https://github.com/jimididit/herdr-open-editor",
+      "description": "Fuzzy-pick a file with fzf and open it in your configured editor.",
+      "note": "",
+      "stars": 1,
+      "language": "Shell",
+      "tags": [
+        "herd",
+        "text-editor",
+        "tui",
+        "shell"
+      ],
+      "category": "finder",
+      "also": [],
+      "pushed_at": "2026-09-03T06:33:52Z",
+      "install": "herdr plugin install jimididit/herdr-open-editor"
     },
     {
       "full_name": "jirathip-dev/corral",
@@ -17247,41 +17296,6 @@
       "install": "herdr plugin install KantaKan/herdr-fantasy"
     },
     {
-      "full_name": "KarthusLorin/herdr-turn-coordinator",
-      "name": "herdr-turn-coordinator",
-      "owner": "KarthusLorin",
-      "url": "https://github.com/KarthusLorin/herdr-turn-coordinator",
-      "description": "Preserve interactive Herdr agent TUIs without model-driven status polling",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "ai-agents",
-        "python"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-09-18T17:13:33Z",
-      "install": "herdr plugin install KarthusLorin/herdr-turn-coordinator"
-    },
-    {
-      "full_name": "khatriafaz/herdr-plugin-agent-repo",
-      "name": "herdr-plugin-agent-repo",
-      "owner": "khatriafaz",
-      "url": "https://github.com/khatriafaz/herdr-plugin-agent-repo",
-      "description": "Herdr plugin that shows agent, repository, and branch names in agent pane headers and the sidebar.",
-      "note": "",
-      "stars": 1,
-      "language": "JavaScript",
-      "tags": [
-        "javascript"
-      ],
-      "category": "files",
-      "also": [],
-      "pushed_at": "2026-07-24T12:16:51Z",
-      "install": "herdr plugin install khatriafaz/herdr-plugin-agent-repo"
-    },
-    {
       "full_name": "kkjdaniel/herdr-gh-runs",
       "name": "herdr-gh-runs",
       "owner": "kkjdaniel",
@@ -17322,6 +17336,26 @@
       "install": "herdr plugin install KoalaVim/herdr-nvim-aware"
     },
     {
+      "full_name": "kriuchkov/herdr-scope",
+      "name": "herdr-scope",
+      "owner": "kriuchkov",
+      "url": "https://github.com/kriuchkov/herdr-scope",
+      "description": "A sidebar for Herdr: which agent is working, which one waits on you, and which is done, grouped by project.",
+      "note": "",
+      "stars": 1,
+      "language": "Go",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "go"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-10-27T08:55:04Z",
+      "install": "herdr plugin install kriuchkov/herdr-scope"
+    },
+    {
       "full_name": "kyrosle/shop-plugin",
       "name": "shop-plugin",
       "owner": "kyrosle",
@@ -17359,7 +17393,7 @@
       ],
       "category": "monitor",
       "also": [],
-      "pushed_at": "2026-10-30T03:44:02Z",
+      "pushed_at": "2026-10-30T12:21:14Z",
       "install": "herdr plugin install larrychannon/herdr-job-board"
     },
     {
@@ -17539,23 +17573,6 @@
       "install": "herdr plugin install madebygrant/herdr-matrix"
     },
     {
-      "full_name": "malone-c/herdr-agent-smart-rename",
-      "name": "herdr-agent-smart-rename",
-      "owner": "malone-c",
-      "url": "https://github.com/malone-c/herdr-agent-smart-rename",
-      "description": "Names each herdr agent session from what it is actually doing",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-08-14T07:40:42Z",
-      "install": "herdr plugin install malone-c/herdr-agent-smart-rename"
-    },
-    {
       "full_name": "mastnacek/pi-herdr-sidebar",
       "name": "pi-herdr-sidebar",
       "owner": "mastnacek",
@@ -17705,6 +17722,23 @@
       "install": "herdr plugin install mikhail-angelov/herdr-revdiff"
     },
     {
+      "full_name": "mikitahimpel/herdr-launcher",
+      "name": "herdr-launcher",
+      "owner": "mikitahimpel",
+      "url": "https://github.com/mikitahimpel/herdr-launcher",
+      "description": "Herdr plugin: a floating launcher menu for your plugin panels",
+      "note": "",
+      "stars": 1,
+      "language": "Rust",
+      "tags": [
+        "rust"
+      ],
+      "category": "navigate",
+      "also": [],
+      "pushed_at": "2026-09-29T21:38:59Z",
+      "install": "herdr plugin install mikitahimpel/herdr-launcher"
+    },
+    {
       "full_name": "minhtran3124/herdr-sidekick",
       "name": "herdr-sidekick",
       "owner": "minhtran3124",
@@ -17718,7 +17752,7 @@
       ],
       "category": "review",
       "also": [],
-      "pushed_at": "2026-10-29T04:46:19Z",
+      "pushed_at": "2026-10-30T11:12:48Z",
       "install": "herdr plugin install minhtran3124/herdr-sidekick"
     },
     {
@@ -17741,22 +17775,40 @@
       "install": "herdr plugin install mvaios/herdr-scratchdock"
     },
     {
-      "full_name": "natori-hrj/herdr-docs",
-      "name": "herdr-docs",
-      "owner": "natori-hrj",
-      "url": "https://github.com/natori-hrj/herdr-docs",
-      "description": "A calm, normalized document reader pane for Herdr",
+      "full_name": "MykolaSuprun/herdr-vimnav",
+      "name": "herdr-vimnav",
+      "owner": "MykolaSuprun",
+      "url": "https://github.com/MykolaSuprun/herdr-vimnav",
+      "description": "Master-detail switcher for herdr — live pane previews, MRU priority sort, sidebar jump codes",
+      "note": "",
+      "stars": 1,
+      "language": "Go",
+      "tags": [
+        "go"
+      ],
+      "category": "files",
+      "also": [
+        "navigate"
+      ],
+      "pushed_at": "2026-10-26T19:14:32Z",
+      "install": "herdr plugin install MykolaSuprun/herdr-vimnav"
+    },
+    {
+      "full_name": "narumiruna/herdr-plugins",
+      "name": "herdr-plugins",
+      "owner": "narumiruna",
+      "url": "https://github.com/narumiruna/herdr-plugins",
+      "description": "",
       "note": "",
       "stars": 1,
       "language": "Rust",
       "tags": [
-        "docs",
         "rust"
       ],
       "category": "other",
       "also": [],
-      "pushed_at": "2026-09-10T05:49:25Z",
-      "install": "herdr plugin install natori-hrj/herdr-docs"
+      "pushed_at": "2026-08-08T17:52:29Z",
+      "install": "herdr plugin install narumiruna/herdr-plugins"
     },
     {
       "full_name": "nengqi/herdr-session-sync",
@@ -17817,43 +17869,6 @@
       ],
       "pushed_at": "2026-08-29T20:48:28Z",
       "install": "herdr plugin install neospeed83/herdr-tournament"
-    },
-    {
-      "full_name": "NoctisHsu/herdr-agent-board",
-      "name": "herdr-agent-board",
-      "owner": "NoctisHsu",
-      "url": "https://github.com/NoctisHsu/herdr-agent-board",
-      "description": "Live task board for coding agents running in Herdr panes",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "monitor",
-      "also": [],
-      "pushed_at": "2026-10-14T10:40:43Z",
-      "install": "herdr plugin install NoctisHsu/herdr-agent-board"
-    },
-    {
-      "full_name": "nwarwick/herdr-caffeinate",
-      "name": "herdr-caffeinate",
-      "owner": "nwarwick",
-      "url": "https://github.com/nwarwick/herdr-caffeinate",
-      "description": "Prevent macOS system sleep while Herdr agents are working",
-      "note": "",
-      "stars": 1,
-      "language": "Shell",
-      "tags": [
-        "caffeinate",
-        "coding-agents",
-        "macos",
-        "shell"
-      ],
-      "category": "agents",
-      "also": [],
-      "pushed_at": "2026-07-29T12:08:24Z",
-      "install": "herdr plugin install nwarwick/herdr-caffeinate"
     },
     {
       "full_name": "nyanyaon/github-issue-herdr-plugin",
@@ -18069,6 +18084,24 @@
       "install": "herdr plugin install philals/mission-control-capcom"
     },
     {
+      "full_name": "pjs-0457/herdr-yazi-explorer",
+      "name": "herdr-yazi-explorer",
+      "owner": "pjs-0457",
+      "url": "https://github.com/pjs-0457/herdr-yazi-explorer",
+      "description": "Open Yazi in a herdr tab/split, labeled 🗂 yazi, in the workspace you triggered it from; auto-restarts on quit.",
+      "note": "",
+      "stars": 1,
+      "language": "Shell",
+      "tags": [
+        "yazi",
+        "shell"
+      ],
+      "category": "files",
+      "also": [],
+      "pushed_at": "2026-08-13T13:38:50Z",
+      "install": "herdr plugin install pjs-0457/herdr-yazi-explorer"
+    },
+    {
       "full_name": "playsthisgame/herdr-api-client",
       "name": "herdr-api-client",
       "owner": "playsthisgame",
@@ -18246,40 +18279,6 @@
       "install": "herdr plugin install ram4-dev/herdr-automations"
     },
     {
-      "full_name": "rchougule/herdr-pane-reopen",
-      "name": "herdr-pane-reopen",
-      "owner": "rchougule",
-      "url": "https://github.com/rchougule/herdr-pane-reopen",
-      "description": "herdr plugin: undo close — reopen the last closed pane, tab or workspace in place and resume its agent",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "session",
-      "also": [],
-      "pushed_at": "2026-09-17T20:13:41Z",
-      "install": "herdr plugin install rchougule/herdr-pane-reopen"
-    },
-    {
-      "full_name": "rcosteira79/herdr-readpending",
-      "name": "herdr-readpending",
-      "owner": "rcosteira79",
-      "url": "https://github.com/rcosteira79/herdr-readpending",
-      "description": "Mark agents you haven't finished reading. Numbered badge ($read) + a reorderable list pane. Auto-clears when you focus the agent.",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "python"
-      ],
-      "category": "monitor",
-      "also": [],
-      "pushed_at": "2026-09-15T20:23:40Z",
-      "install": "herdr plugin install rcosteira79/herdr-readpending"
-    },
-    {
       "full_name": "redsquiggle/herdr-browser",
       "name": "herdr-browser",
       "owner": "redsquiggle",
@@ -18299,6 +18298,23 @@
       "install": "herdr plugin install redsquiggle/herdr-browser"
     },
     {
+      "full_name": "ricardofelixb/herdr-codex-voice",
+      "name": "herdr-codex-voice",
+      "owner": "ricardofelixb",
+      "url": "https://github.com/ricardofelixb/herdr-codex-voice",
+      "description": "Experimental native Codex voice in Herdr remote panes over SSH and Tailscale",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "python"
+      ],
+      "category": "remote",
+      "also": [],
+      "pushed_at": "2026-10-07T02:53:46Z",
+      "install": "herdr plugin install ricardofelixb/herdr-codex-voice"
+    },
+    {
       "full_name": "rigelstpierre/herdr-devin-board",
       "name": "herdr-devin-board",
       "owner": "rigelstpierre",
@@ -18315,6 +18331,23 @@
       "also": [],
       "pushed_at": "2026-10-02T20:33:21Z",
       "install": "herdr plugin install rigelstpierre/herdr-devin-board"
+    },
+    {
+      "full_name": "riq0h/tab-process-name",
+      "name": "tab-process-name",
+      "owner": "riq0h",
+      "url": "https://github.com/riq0h/tab-process-name",
+      "description": "herdr plugin that labels each tab with its foreground process name — tmux's automatic-rename behavior, for herdr.",
+      "note": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "tags": [
+        "javascript"
+      ],
+      "category": "naming",
+      "also": [],
+      "pushed_at": "2026-07-19T13:48:19Z",
+      "install": "herdr plugin install riq0h/tab-process-name"
     },
     {
       "full_name": "rodeyseijkens/codey",
@@ -18372,6 +18405,29 @@
       "install": "herdr plugin install RodrigoEspinosa/herdr-tab-flow"
     },
     {
+      "full_name": "rotemb-wond/herdr-copy-hints",
+      "name": "herdr-copy-hints",
+      "owner": "rotemb-wond",
+      "url": "https://github.com/rotemb-wond/herdr-copy-hints",
+      "description": "tmux-fingers-style keyboard copy hints for Herdr: paths, Git SHAs, URLs, and more",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "clipboard",
+        "developer-tools",
+        "keyboard-navigation",
+        "productivity",
+        "terminal",
+        "tmux-fingers",
+        "python"
+      ],
+      "category": "text",
+      "also": [],
+      "pushed_at": "2026-07-23T14:36:08Z",
+      "install": "herdr plugin install rotemb-wond/herdr-copy-hints"
+    },
+    {
       "full_name": "Royal-lobster/herdr-spinup",
       "name": "herdr-spinup",
       "owner": "Royal-lobster",
@@ -18387,23 +18443,6 @@
       "also": [],
       "pushed_at": "2026-08-04T17:02:09Z",
       "install": "herdr plugin install Royal-lobster/herdr-spinup"
-    },
-    {
-      "full_name": "saeedrahimi/herdr-notify-wsl",
-      "name": "herdr-notify-wsl",
-      "owner": "saeedrahimi",
-      "url": "https://github.com/saeedrahimi/herdr-notify-wsl",
-      "description": "Windows 11 toast notifications for herdr agents running inside WSL. Based on aclima01/herdr-notify-windows.",
-      "note": "",
-      "stars": 1,
-      "language": "PowerShell",
-      "tags": [
-        "powershell"
-      ],
-      "category": "notify",
-      "also": [],
-      "pushed_at": "2026-07-23T16:20:24Z",
-      "install": "herdr plugin install saeedrahimi/herdr-notify-wsl"
     },
     {
       "full_name": "sagmans/herdr-pickers",
@@ -18758,26 +18797,6 @@
       "install": "herdr plugin install sjlee06/herdr-git-graph"
     },
     {
-      "full_name": "skydiver/herdr-pinned-workspaces",
-      "name": "herdr-pinned-workspaces",
-      "owner": "skydiver",
-      "url": "https://github.com/skydiver/herdr-pinned-workspaces",
-      "description": "A Herdr plugin that keeps declared workspaces alive.",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "terminal",
-        "tui",
-        "workspaces",
-        "python"
-      ],
-      "category": "other",
-      "also": [],
-      "pushed_at": "2026-09-21T13:06:09Z",
-      "install": "herdr plugin install skydiver/herdr-pinned-workspaces"
-    },
-    {
       "full_name": "Slimydog21/herdr-nixos-vm",
       "name": "herdr-nixos-vm",
       "owner": "Slimydog21",
@@ -18810,6 +18829,25 @@
       "also": [],
       "pushed_at": "2026-09-17T11:01:09Z",
       "install": "herdr plugin install SpaceK33z/herdr-worktrees"
+    },
+    {
+      "full_name": "spiritsack/herdr-jira-worktree",
+      "name": "herdr-jira-worktree",
+      "owner": "spiritsack",
+      "url": "https://github.com/spiritsack/herdr-jira-worktree",
+      "description": "herdr plugin: prompt for a Jira ticket, open/reuse a matching git worktree, and prefill it into a fresh Claude Code session",
+      "note": "",
+      "stars": 1,
+      "language": "Shell",
+      "tags": [
+        "shell"
+      ],
+      "category": "worktree",
+      "also": [
+        "forge"
+      ],
+      "pushed_at": "2026-08-24T11:58:04Z",
+      "install": "herdr plugin install spiritsack/herdr-jira-worktree"
     },
     {
       "full_name": "StGerman/herdr-claude-memories",
@@ -18848,26 +18886,6 @@
       "install": "herdr plugin install susomejias/herdr-awake"
     },
     {
-      "full_name": "szrenwei/herdr-agent-metrics",
-      "name": "herdr-agent-metrics",
-      "owner": "szrenwei",
-      "url": "https://github.com/szrenwei/herdr-agent-metrics",
-      "description": "Lightweight Herdr context and session usage metrics for Claude Code, Codex, and TraeX.",
-      "note": "",
-      "stars": 1,
-      "language": "Python",
-      "tags": [
-        "claude-code",
-        "openai-codex",
-        "traex",
-        "python"
-      ],
-      "category": "monitor",
-      "also": [],
-      "pushed_at": "2026-08-04T12:54:54Z",
-      "install": "herdr plugin install szrenwei/herdr-agent-metrics"
-    },
-    {
       "full_name": "tamdogood/herdr-orc",
       "name": "herdr-orc",
       "owner": "tamdogood",
@@ -18886,25 +18904,6 @@
       "also": [],
       "pushed_at": "2026-08-11T14:28:46Z",
       "install": "herdr plugin install tamdogood/herdr-orc"
-    },
-    {
-      "full_name": "Tarektouati/herdr-pr-modal",
-      "name": "herdr-pr-modal",
-      "owner": "Tarektouati",
-      "url": "https://github.com/Tarektouati/herdr-pr-modal",
-      "description": "Open any pull request in its own worktree, straight from a Herdr",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "rust"
-      ],
-      "category": "forge",
-      "also": [
-        "worktree"
-      ],
-      "pushed_at": "2026-09-24T20:29:47Z",
-      "install": "herdr plugin install Tarektouati/herdr-pr-modal"
     },
     {
       "full_name": "tatsuro-ueda/recess",
@@ -19055,6 +19054,23 @@
       "install": "herdr plugin install TheThoughtagen/attic"
     },
     {
+      "full_name": "third774/herdr-sidepulse",
+      "name": "herdr-sidepulse",
+      "owner": "third774",
+      "url": "https://github.com/third774/herdr-sidepulse",
+      "description": "",
+      "note": "",
+      "stars": 1,
+      "language": "JavaScript",
+      "tags": [
+        "javascript"
+      ],
+      "category": "other",
+      "also": [],
+      "pushed_at": "2026-08-14T14:37:33Z",
+      "install": "herdr plugin install third774/herdr-sidepulse"
+    },
+    {
       "full_name": "tim80411/herdr-pdf",
       "name": "herdr-pdf",
       "owner": "tim80411",
@@ -19089,7 +19105,7 @@
       ],
       "category": "forge",
       "also": [],
-      "pushed_at": "2026-10-29T22:20:39Z",
+      "pushed_at": "2026-10-30T10:05:40Z",
       "install": "herdr plugin install timmo001/agent-checks"
     },
     {
@@ -19127,26 +19143,6 @@
       "also": [],
       "pushed_at": "2026-08-15T04:55:17Z",
       "install": "herdr plugin install tkuchiki/herdr-plugin-k8s-context"
-    },
-    {
-      "full_name": "tmn73/herdr-claude-tab-title",
-      "name": "herdr-claude-tab-title",
-      "owner": "tmn73",
-      "url": "https://github.com/tmn73/herdr-claude-tab-title",
-      "description": "Mirrors each Claude Code session title, and its agent state, onto its Herdr tab",
-      "note": "",
-      "stars": 1,
-      "language": "TypeScript",
-      "tags": [
-        "claude-code",
-        "tabs",
-        "terminal",
-        "typescript"
-      ],
-      "category": "naming",
-      "also": [],
-      "pushed_at": "2026-09-07T21:02:50Z",
-      "install": "herdr plugin install tmn73/herdr-claude-tab-title"
     },
     {
       "full_name": "tupton/herdr-worktree-include",
@@ -19361,6 +19357,25 @@
       "install": "herdr plugin install willfish/herdr-balance-panes"
     },
     {
+      "full_name": "wine-fall/herdr-copy-pane-id",
+      "name": "herdr-copy-pane-id",
+      "owner": "wine-fall",
+      "url": "https://github.com/wine-fall/herdr-copy-pane-id",
+      "description": "Herdr plugin: copy the focused pane's id to the clipboard, or show every pane's id on its border",
+      "note": "",
+      "stars": 1,
+      "language": "Python",
+      "tags": [
+        "cli",
+        "terminal",
+        "python"
+      ],
+      "category": "text",
+      "also": [],
+      "pushed_at": "2026-10-27T08:20:51Z",
+      "install": "herdr plugin install wine-fall/herdr-copy-pane-id"
+    },
+    {
       "full_name": "winoooops/herdr-hunks",
       "name": "herdr-hunks",
       "owner": "winoooops",
@@ -19415,26 +19430,6 @@
       "also": [],
       "pushed_at": "2026-10-05T10:06:54Z",
       "install": "herdr plugin install wxomi/herdr-session-titles"
-    },
-    {
-      "full_name": "xzedx/herdr-derby",
-      "name": "herdr-derby",
-      "owner": "xzedx",
-      "url": "https://github.com/xzedx/herdr-derby",
-      "description": "Send one prompt to every coding agent in the current Herdr tab and watch them race: a popup to type in, live timers and finishing ranks on the pane borders.",
-      "note": "",
-      "stars": 1,
-      "language": "Rust",
-      "tags": [
-        "coding-agents",
-        "rust"
-      ],
-      "category": "agents",
-      "also": [
-        "navigate"
-      ],
-      "pushed_at": "2026-10-23T16:35:26Z",
-      "install": "herdr plugin install xzedx/herdr-derby"
     },
     {
       "full_name": "y4le/herdr-mark",
@@ -19689,21 +19684,21 @@
       "install": "herdr plugin install zeromountain/herdr-roles"
     },
     {
-      "full_name": "Zeus-Deus/herdr-focus",
-      "name": "herdr-focus",
-      "owner": "Zeus-Deus",
-      "url": "https://github.com/Zeus-Deus/herdr-focus",
-      "description": "herdr plugin: an attention layer for the agent sidebar - clear titles, Needs you / Working / Done, unread and settle triage, and a watch eye for background PR checks",
+      "full_name": "zhangzujian/herdr-auto-session-title",
+      "name": "herdr-auto-session-title",
+      "owner": "zhangzujian",
+      "url": "https://github.com/zhangzujian/herdr-auto-session-title",
+      "description": "Generate concise Herdr pane titles and synchronize native Codex thread names.",
       "note": "",
       "stars": 1,
-      "language": "Python",
+      "language": "JavaScript",
       "tags": [
-        "python"
+        "javascript"
       ],
-      "category": "files",
+      "category": "naming",
       "also": [],
-      "pushed_at": "2026-10-25T16:26:06Z",
-      "install": "herdr plugin install Zeus-Deus/herdr-focus"
+      "pushed_at": "2026-07-30T16:07:58Z",
+      "install": "herdr plugin install zhangzujian/herdr-auto-session-title"
     },
     {
       "full_name": "ZingerLittleBee/herdr-agent-pins",
@@ -19767,7 +19762,7 @@
       "also": [
         "agents"
       ],
-      "pushed_at": "2026-10-29T13:46:57Z",
+      "pushed_at": "2026-10-30T12:50:56Z",
       "install": "herdr plugin install zyrre/corgi"
     }
   ]

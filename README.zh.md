@@ -4,7 +4,7 @@
 
 **一个按照「你想做什么」来查找 [herdr](https://herdr.dev/) 插件的链接合集。**
 
-- 收录 **993** 个插件 / 最后更新 **2026-10-30 05:47 UTC**（每 6 小时自动刷新）
+- 收录 **992** 个插件 / 最后更新 **2026-10-30 12:54 UTC**（每 6 小时自动刷新）
 - 数据来源：打了 GitHub 话题标签 [`herdr-plugin`](https://github.com/topics/herdr-plugin) 的仓库——与官方市场 [herdr.dev/plugins](https://herdr.dev/plugins/) 的数据来源相同
 - 分类是根据仓库描述和话题标签自动推断的。如果分类不准确，可以通过 PR 修改 [`data/overrides.json`](data/overrides.json)
 - 安装：`herdr plugin install owner/repo` —— [官方文档](https://herdr.dev/docs/plugins/)
@@ -16,23 +16,23 @@
 
 ## 按目的浏览
 
-- [**🆕 最近新增**](#cat-new) (214) — 最近 7 天内加入本列表的插件。
-- [**通知与提醒**](#cat-notify) (36) — 即使离开座位，也想知道 Agent 何时完成或卡在等待输入
-- [**手机与远程操控**](#cat-remote) (59) — 想在外出或用手机时监控 Agent，只需回传批准即可
-- [**Agent 编排与并行执行**](#cat-agents) (177) — 想统一启动、分工并管理多个 AI Agent
-- [**git 工作树与分支管理**](#cat-worktree) (50) — 想为每项工作单独开一个工作树，收尾清理也自动完成
+- [**🆕 最近新增**](#cat-new) (213) — 最近 7 天内加入本列表的插件。
+- [**通知与提醒**](#cat-notify) (35) — 即使离开座位，也想知道 Agent 何时完成或卡在等待输入
+- [**手机与远程操控**](#cat-remote) (60) — 想在外出或用手机时监控 Agent，只需回传批准即可
+- [**Agent 编排与并行执行**](#cat-agents) (173) — 想统一启动、分工并管理多个 AI Agent
+- [**git 工作树与分支管理**](#cat-worktree) (51) — 想为每项工作单独开一个工作树，收尾清理也自动完成
 - [**代码审查与差异对比**](#cat-review) (44) — 想阅读 Agent 写的差异并对其发表评论
-- [**GitHub / issue 跟踪工具集成**](#cat-forge) (48) — 想以 issue 或 PR 为起点开始工作，并追踪 PR 状态
+- [**GitHub / issue 跟踪工具集成**](#cat-forge) (47) — 想以 issue 或 PR 为起点开始工作，并追踪 PR 状态
 - [**工作区与布局搭建**](#cat-layout) (33) — 打开项目时，希望标签页、窗格和启动命令一次性就位
-- [**窗格导航与快捷键**](#cat-navigate) (113) — 想用和编辑器一样的快捷键在窗格、工作区之间移动和调整大小
-- [**文件浏览与编辑器联动**](#cat-files) (70) — 想在窗格中打开文件树，或与编辑器的状态保持一致
+- [**窗格导航与快捷键**](#cat-navigate) (112) — 想用和编辑器一样的快捷键在窗格、工作区之间移动和调整大小
+- [**文件浏览与编辑器联动**](#cat-files) (71) — 想在窗格中打开文件树，或与编辑器的状态保持一致
 - [**Token 与费用管理**](#cat-cost) (23) — 想看看 Agent 花费了多少，并想削减用量
-- [**监控与仪表盘**](#cat-monitor) (76) — 想一目览尽 Agent 和机器的状态
-- [**搜索与模糊查找器**](#cat-finder) (71) — 只记得大概名字也想调出命令或项目
-- [**自动化、钩子与定时任务**](#cat-automation) (47) — 想在创建工作树或指定时机自动运行固定的操作步骤
-- [**会话保存与恢复**](#cat-session) (25) — 关闭工作后，希望之后能从同一状态继续
+- [**监控与仪表盘**](#cat-monitor) (74) — 想一目览尽 Agent 和机器的状态
+- [**搜索与模糊查找器**](#cat-finder) (73) — 只记得大概名字也想调出命令或项目
+- [**自动化、钩子与定时任务**](#cat-automation) (48) — 想在创建工作树或指定时机自动运行固定的操作步骤
+- [**会话保存与恢复**](#cat-session) (26) — 关闭工作后，希望之后能从同一状态继续
 - [**标题、命名与外观**](#cat-naming) (45) — 想让标签页名称和终端标题自动变得清晰易懂，或想改变外观
-- [**文本与 URL 提取**](#cat-text) (17) — 想不用鼠标就抓取屏幕上显示的字符串、路径或 URL
+- [**文本与 URL 提取**](#cat-text) (18) — 想不用鼠标就抓取屏幕上显示的字符串、路径或 URL
 - [**插件管理与开发**](#cat-meta) (7) — 想管理插件本身，或者自己动手做一个
 - [**其他与实用工具**](#cat-other) (52) — 不属于以上任何分类，但很实用的东西
 
@@ -44,57 +44,63 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**🆕 herdr-agent-icons**](https://github.com/adihex/herdr-agent-icons)<br><sub>adihex</sub> | Herdr 插件：通过生成的 PUA 字体，在侧边栏显示各 Agent 真实的图标 Logo。 | `python` | 1 | 2026-09-18 |
-| [**🆕 turnr**](https://github.com/antoniocosta/turnr)<br><sub>antoniocosta</sub> | herdr plugin: a side panel listing an agent's turns (Claude Code, Codex, pi, agy); click one to scroll the pane there | `claude-code` `terminal` `python` | 1 | 2026-10-24 |
-| [**🆕 herdr-hermes-session-title**](https://github.com/btorresgil/herdr-hermes-session-title)<br><sub>btorresgil</sub> | 在 Herdr 侧边栏中显示 Hermes Agent 的会话标题 | `python` | 1 | 2026-08-07 |
-| [**🆕 herdr-hive**](https://github.com/deepshape-ai/herdr-hive)<br><sub>deepshape-ai</sub> | 与团队共享 Herdr 会话。Hive 负责连接设备，Bee 负责发布选定的会话，而 Agent 仍在各自主机上持续运行。 | `collaboration` `session-sharing` `go` | 1 | 2026-10-06 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | 面向 herdr-tasks 看板的调度器——为每个已就绪的任务启动一个 worker Agent 窗格，传递目标、追踪 worker，并在评审处暂停。全部由一个 Go 二进制程序实现 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 2026-08-31 |
-| [**🆕 herdr-chromatic-spaces**](https://github.com/jackfrancisdalton/herdr-chromatic-spaces)<br><sub>jackfrancisdalton</sub> | 为每个 Herdr Space 赋予专属颜色和表情符号——彩色侧边栏圆点、Agent 分组，以及切换 Space 时可选的界面着色 | `python` | 1 | 2026-08-22 |
-| [**🆕 herdr-plugin-agent-repo**](https://github.com/khatriafaz/herdr-plugin-agent-repo)<br><sub>khatriafaz</sub> | 在 Agent 窗格标题和侧边栏中显示 Agent、仓库和分支名称的 Herdr 插件 | `javascript` | 1 | 2026-07-24 |
-| [**🆕 herdr-docs**](https://github.com/natori-hrj/herdr-docs)<br><sub>natori-hrj</sub> | 为 Herdr 打造的安静、格式统一的文档阅读窗格。 | `docs` `rust` | 1 | 2026-09-10 |
-| [**🆕 herdr-notify-wsl**](https://github.com/saeedrahimi/herdr-notify-wsl)<br><sub>saeedrahimi</sub> | 为运行在 WSL 内的 herdr Agent 提供 Windows 11 提示通知——基于 aclima01/herdr-notify-windows | `powershell` | 1 | 2026-07-23 |
+| [**🆕 herdr-idle**](https://github.com/DnzzL/herdr-idle)<br><sub>DnzzL</sub> | herdr plugin: idle agent panes give back their RAM. The pane stays; Enter resumes the same conversation. | `ai-agents` `claude-code` `terminal` `go` | 3 | 2026-10-29 |
+| [**🆕 herdr-mattermost**](https://github.com/fzf/herdr-mattermost)<br><sub>fzf</sub> | Herdr plugin: Mattermost as a UI layer. Channels are workspaces, root posts are agents. | `mattermost` `javascript` | 2 | 2026-10-29 |
+| [**🆕 herdr-numbered-workspaces**](https://github.com/abrose/herdr-numbered-workspaces)<br><sub>abrose</sub> | 在 herdr 侧边栏中为每个空间前面加上编号，与带索引的 switch_workspace 快捷键对应 | `shell` | 1 | 2026-07-21 |
+| [**🆕 herdr-wrapped-tabs**](https://github.com/AlexeyKrotkov/herdr-wrapped-tabs)<br><sub>AlexeyKrotkov</sub> | 始终可见、支持自动换行的 Herdr 标签页。 | `python` | 1 | 2026-09-24 |
+| [**🆕 herdr-unread**](https://github.com/arthurnw/herdr-unread)<br><sub>arthurnw</sub> | 将 Herdr Agent 会话标记为未读，直到再次访问或恢复 | `python` | 1 | 2026-09-14 |
+| [**🆕 asgoto**](https://github.com/asumaran/asgoto)<br><sub>asumaran</sub> | 一款跨 herdr 仓库、worktree 和窗格的树状切换工具。 | `go` | 1 | 2026-10-08 |
+| [**🆕 herdr-command-palette**](https://github.com/barnuri/herdr-command-palette)<br><sub>barnuri</sub> | 面向 herdr 的 F1 风格命令面板——可模糊搜索并运行所有已安装插件的全部操作，零依赖 | `command-palette` `terminal` `javascript` | 1 | 2026-09-01 |
+| [**🆕 herdr-auto-pull-main**](https://github.com/bring-shrubbery/herdr-auto-pull-main)<br><sub>bring-shrubbery</sub> | _(暂无描述)_ | `shell` | 1 | 2026-10-12 |
+| [**🆕 herdr-composer**](https://github.com/danieljvdm/herdr-composer)<br><sub>danieljvdm</sub> | 编排任务、附加上下文，并在隔离的 Herdr 工作区中启动编码 Agent。 | `coding-agents` `git-worktree` `rust` | 1 | 2026-10-21 |
+| [**🆕 ws.numbered.herdr**](https://github.com/dhananjaylatkar/ws.numbered.herdr)<br><sub>dhananjaylatkar</sub> | 自动为 Herdr 中的工作区编号 | `python` | 1 | 2026-10-09 |
+| [**🆕 herdr-model-badge**](https://github.com/dkbo/herdr-model-badge)<br><sub>dkbo</sub> | herdr 插件：在 Agent 侧边栏中显示每个 Agent 使用的模型及推理强度。 | `ai-agents` `terminal` `tui` `python` | 1 | 2026-09-08 |
+| [**🆕 herdr-tasks**](https://github.com/Eslsamu/herdr-tasks)<br><sub>Eslsamu</sub> | 为 Herdr 提供由 Agent 拥有的本地任务队列，并配有实时的只读浏览器视图。 | `ai-agents` `codex` `local-first` `python` `sqlite` | 1 | 2026-10-26 |
+| [**🆕 herdr-plugin-space-colors**](https://github.com/ferretorres/herdr-plugin-space-colors)<br><sub>ferretorres</sub> | 为 Herdr 提供 Peacock 风格的按工作区着色：主题会跟随当前聚焦的工作区变化。 | `rust` | 1 | 2026-09-23 |
+| [**🆕 herdr-lineup**](https://github.com/fujimogn/herdr-lineup)<br><sub>fujimogn</sub> | One sidebar row per AI coding agent in Herdr: vendor logo, state, context, weekly quota, and local origin/main commit time. | `ai-agents` `claude-code` `codex` `developer-tools` `grok` | 1 | 2026-10-27 |
+| [**🆕 agent-keep-awake**](https://github.com/happyeric77/agent-keep-awake)<br><sub>happyeric77</sub> | 在 Herdr Agent 工作期间阻止 macOS 休眠 | `javascript` | 1 | 2026-10-26 |
+| [**🆕 herdr-emoji-time**](https://github.com/hotnugs/herdr-emoji-time)<br><sub>hotnugs</sub> | 为你的 Herdr 空间、Agent 和标签页添加表情符号，给终端增添一点乐趣。 | `emoji` `terminal` `tui` `python` | 1 | 2026-09-12 |
+| [**🆕 herdr-agent-prompt**](https://github.com/jeffbking/herdr-agent-prompt)<br><sub>jeffbking</sub> | Herdr 插件：按下 prefix+p 打开浮层，查看当前聚焦编码 Agent（Claude Code、Codex、Antigravity、Pi）的原始 prompt。 | `claude-code` `codex` `python` | 1 | 2026-09-08 |
+| [**🆕 herdr-open-editor**](https://github.com/jimididit/herdr-open-editor)<br><sub>jimididit</sub> | 用 fzf 模糊搜索并选择文件，然后在你配置的编辑器中打开。 | `herd` `text-editor` `tui` `shell` | 1 | 2026-09-03 |
+| [**🆕 herdr-scope**](https://github.com/kriuchkov/herdr-scope)<br><sub>kriuchkov</sub> | A sidebar for Herdr: which agent is working, which one waits on you, and which is done, grouped by project. | `ai-agents` `claude-code` `codex` `go` | 1 | 2026-10-27 |
+| [**🆕 herdr-launcher**](https://github.com/mikitahimpel/herdr-launcher)<br><sub>mikitahimpel</sub> | Herdr plugin: a floating launcher menu for your plugin panels | `rust` | 1 | 2026-09-29 |
+| [**🆕 herdr-vimnav**](https://github.com/MykolaSuprun/herdr-vimnav)<br><sub>MykolaSuprun</sub> | herdr 的主从式切换器——实时窗格预览、MRU 优先排序、侧边栏跳转码 | `go` | 1 | 2026-10-26 |
+| [**🆕 herdr-plugins**](https://github.com/narumiruna/herdr-plugins)<br><sub>narumiruna</sub> | _(暂无描述)_ | `rust` | 1 | 2026-08-08 |
+| [**🆕 herdr-yazi-explorer**](https://github.com/pjs-0457/herdr-yazi-explorer)<br><sub>pjs-0457</sub> | 在触发它的工作区内的 herdr 标签页/分屏中打开 Yazi（标记为 🗂 yazi），退出后会自动重启 | `yazi` `shell` | 1 | 2026-08-13 |
+| [**🆕 herdr-codex-voice**](https://github.com/ricardofelixb/herdr-codex-voice)<br><sub>ricardofelixb</sub> | Experimental native Codex voice in Herdr remote panes over SSH and Tailscale | `python` | 1 | 2026-10-07 |
+| [**🆕 tab-process-name**](https://github.com/riq0h/tab-process-name)<br><sub>riq0h</sub> | 为每个标签页标注其前台运行进程名称的 herdr 插件——相当于把 tmux 的 automatic-rename 行为带到 herdr | `javascript` | 1 | 2026-07-19 |
+| [**🆕 herdr-copy-hints**](https://github.com/rotemb-wond/herdr-copy-hints)<br><sub>rotemb-wond</sub> | 面向 Herdr 的 tmux-fingers 风格键盘复制提示：路径、Git SHA、URL 等 | `clipboard` `developer-tools` `keyboard-navigation` `productivity` `terminal` | 1 | 2026-07-23 |
+| [**🆕 herdr-jira-worktree**](https://github.com/spiritsack/herdr-jira-worktree)<br><sub>spiritsack</sub> | herdr 插件：提示输入 Jira 工单，打开或复用对应的 git 工作树，并预填到全新的 Claude Code 会话中 | `shell` | 1 | 2026-08-24 |
+| [**🆕 herdr-sidepulse**](https://github.com/third774/herdr-sidepulse)<br><sub>third774</sub> | _(暂无描述)_ | `javascript` | 1 | 2026-08-14 |
+| [**🆕 herdr-copy-pane-id**](https://github.com/wine-fall/herdr-copy-pane-id)<br><sub>wine-fall</sub> | herdr 插件：将聚焦窗格的 ID 复制到剪贴板，或在每个窗格的边框上显示其 ID | `cli` `terminal` `python` | 1 | 2026-10-27 |
+| [**🆕 herdr-auto-session-title**](https://github.com/zhangzujian/herdr-auto-session-title)<br><sub>zhangzujian</sub> | 生成简洁的 Herdr 窗格标题，并与原生 Codex 会话名称保持同步 | `javascript` | 1 | 2026-07-30 |
 | [**🆕 session-hub**](https://github.com/abdallah/session-hub)<br><sub>abdallah</sub> | Registry for Claude Code sessions across machines: progress reports, inbox, herdr sidebar | `go` | 4 | 2026-10-29 |
 | [**🆕 herdr-muse**](https://github.com/akshat12/herdr-muse)<br><sub>akshat12</sub> | 面向 Muse Code 的 Herdr 集成：通过生命周期 hook 获取窗格的 idle/working/blocked 状态（无需 fork Herdr）。 | `ai-agents` `cli` `coding-agents` `muse-code` `terminal` | 2 | 2026-09-12 |
-| [**🆕 herdr-edit-windows**](https://github.com/aclima01/herdr-edit-windows)<br><sub>aclima01</sub> | 在编程 Agent 旁边的 herdr 窗格中运行的简易文本编辑器——文件树、语法高亮编辑器、未提交差异标签页。仅支持 Windows | `rust` | 1 | 2026-07-25 |
 | [**🆕 herdr-ai-usagebar**](https://github.com/agnostk/herdr-ai-usagebar)<br><sub>agnostk</sub> | herdr 插件：通过 ai-usagebar 在 herdr 侧边栏显示套餐用量（Claude、Codex、Copilot 等）。 | `ai-usagebar` `claude-code` `codex` `rust` | 1 | 2026-10-25 |
 | [**🆕 herdr-strays**](https://github.com/aleslanger/herdr-strays)<br><sub>aleslanger</sub> | 用于整理散落 git 工作树的终端 UI——浏览项目、实时查看变更文件、阅读差异，并可在不离开面板的情况下向 Claude 发送提示词 | `rust` | 1 | 2026-08-12 |
 | [**🆕 herdr-agent-tree**](https://github.com/Algorant/herdr-agent-tree)<br><sub>Algorant</sub> | 在 Herdr 原生的 Agents 侧边栏中，将 Pi 的子 Agent 与 Worker 显示在其委派方 Agent 下方。 | `shell` | 1 | 2026-10-20 |
 | [**🆕 avocado-park**](https://github.com/andymartinezot/avocado-park)<br><sub>andymartinezot</sub> | herdr plugin: park idle Claude Code, Codex and OpenCode sessions to free memory without closing their panes, then resume them in place. | `agent-tools` `claude-code` `codex` `opencode` `tui` | 1 | 2026-10-29 |
-| [**🆕 hird**](https://github.com/aoprisan/hird)<br><sub>aoprisan</sub> | 跨 harness 的 Agent 工作队列与共享断言记忆，由一个本地 SQLite 数据库支撑 | `ai-agents` `claude-code` `cli` `mcp` `rust` | 1 | 2026-09-29 |
-| [**🆕 herdr-stay-awake**](https://github.com/assawalhy/herdr-stay-awake)<br><sub>assawalhy</sub> | 只要有任意 herdr Agent 窗格在工作，就阻止机器进入睡眠（支持 Linux、macOS、Windows 和 WSL）。 | `agent-orchestration` `agents` `harness` `linux` `macos` | 1 | 2026-10-07 |
 | [**🆕 herdr-picker**](https://github.com/bkarpinos/herdr-picker)<br><sub>bkarpinos</sub> | 用于在 herdr 中搜索和预览工作区、Agent 和标签页的快速弹窗选择器 | `go` | 1 | 2026-07-25 |
 | [**🆕 herdr-launch-default-agent**](https://github.com/blauerberg/herdr-launch-default-agent)<br><sub>blauerberg</sub> | 受 Omarchy 启发的 Herdr 默认 Agent 工作流：在专属标签页中聚焦或启动你偏好的 AI Agent。 | `agents` `herdr-integration` `shell` | 1 | 2026-09-11 |
-| [**🆕 herdr-keep-root**](https://github.com/bonkey/herdr-keep-root)<br><sub>bonkey</sub> | Herdr 插件：只要某个仓库的任意 worktree 工作区处于打开状态，就保持该仓库主检出工作区一直打开，从而避免 Spaces 面板中的 worktree 分组被拍平。 | `shell` | 1 | 2026-09-08 |
 | [**🆕 herdr-sidebar-customizer**](https://github.com/dannyking/herdr-sidebar-customizer)<br><sub>dannyking</sub> | Add colors, agent details and animations to the Herdr sidebar | `ai-agents` `terminal` `python` | 1 | 2026-10-06 |
-| [**🆕 herdr-last-tab**](https://github.com/dantehemerson/herdr-last-tab)<br><sub>dantehemerson</sub> | 用于切换回上一个聚焦的标签页的插件 | `rust` | 1 | 2026-08-12 |
 | [**🆕 herdr-crook**](https://github.com/denera/herdr-crook)<br><sub>denera</sub> | A shepherd's crook to reach the agents that wandered off into Slurm jobs and containers, and bring them back into the herd. | `python` | 1 | 2026-10-22 |
-| [**🆕 herdr-ids**](https://github.com/devicki/herdr-ids)<br><sub>devicki</sub> | Herdr 插件：在侧边栏显示窗格、标签页和工作区的 ID，并可选择空间、标签页或窗格，把其 ID 输入到你的 Agent 中 | `shell` | 1 | 2026-10-16 |
-| [**🆕 herdr-respawn**](https://github.com/devicki/herdr-respawn)<br><sub>devicki</sub> | Herdr 插件：服务器重启或重新开机后，在窗格中重新启动 lazygit、编辑器等白名单内的 TUI | `shell` | 1 | 2026-10-21 |
 | [**🆕 herdr-agent-resource-badges**](https://github.com/dlepold/herdr-agent-resource-badges)<br><sub>dlepold</sub> | herdr plugin: green/orange/red CPU and RAM badges per agent in the sidebar, shown only while an agent is busy. Rust, ~3 MB RAM. | `ai-agents` `claude-code` `rust` `terminal` | 1 | 2026-10-28 |
-| [**🆕 herdr-fleece**](https://github.com/dmazlum/herdr-fleece)<br><sub>dmazlum</sub> | 在 Herdr 中截取 Agent 的最后一条回答，随后可复制、保存或发送。 | `typescript` | 1 | 2026-10-15 |
 | [**🆕 herdr-state-icons**](https://github.com/flowreaction/herdr-state-icons)<br><sub>flowreaction</sub> | 为 HerdR 的空间与 Agent 提供可着色的动态生命周期图标。 | `python` | 1 | 2026-09-10 |
-| [**🆕 nenu**](https://github.com/frizynn/nenu)<br><sub>frizynn</sub> | Self-hosted phone and web workbench for Herdr coding agents and Herdr Organizations projects. Read, answer and steer Claude Code, Codex and more from your phon… | `ai-agents` `claude-code` `codex` `coding-agents` `pwa` | 1 | 2026-10-29 |
+| [**🆕 nenu**](https://github.com/frizynn/nenu)<br><sub>frizynn</sub> | Self-hosted phone and web workbench for Herdr coding agents and Herdr Organizations projects. Read, answer and steer Claude Code, Codex and more from your phon… | `ai-agents` `claude-code` `codex` `coding-agents` `pwa` | 1 | 2026-10-30 |
 | [**🆕 operator**](https://github.com/fveracoechea/operator)<br><sub>fveracoechea</sub> | Operator: skills and CLI tooling for orchestrating coding-agent crews (OpenCode, Claude Code) via Herdr | `coding-agents` `typescript` | 1 | 2026-10-30 |
 | [**🆕 pane-identity**](https://github.com/Ghost-LZW/pane-identity)<br><sub>Ghost-LZW</sub> | 无需修改你的 Agent，即可在 Herdr 中显示窗格 ID、主机名和标签。 | `python` `terminal` | 1 | 2026-09-05 |
-| [**🆕 herdr-arcade**](https://github.com/giorgiostokje/herdr-arcade)<br><sub>giorgiostokje</sub> | Herdr 弹出窗格中的十七款终端街机游戏，当 Agent 需要关注时会自动暂停 | `python` | 1 | 2026-10-12 |
-| [**🆕 heraldr**](https://github.com/gwenwindflower/heraldr)<br><sub>gwenwindflower</sub> | 🛡️ 为 Herdr 的标签页、工作区和 Agent 提供响应式标签装饰 | `rust` | 1 | 2026-10-01 |
 | [**🆕 herdr-tab-git**](https://github.com/hasuwini77/herdr-tab-git)<br><sub>hasuwini77</sub> | 在 Herdr Spaces 侧边栏中显示 Git 分支和状态，且跟随当前活动标签页而非第一个标签页 | `git` `terminal` `tui` `javascript` | 1 | 2026-08-28 |
 | [**🆕 herdr-usage-popup**](https://github.com/Kamyil/herdr-usage-popup)<br><sub>Kamyil</sub> | Herdr 插件：在弹出面板中以简单的进度条显示模型使用百分比。 | `shell` | 1 | 2026-09-11 |
 | [**🆕 herdr-fantasy**](https://github.com/KantaKan/herdr-fantasy)<br><sub>KantaKan</sub> | Your coding agents as a fantasy RPG party, living in a herdr pane | `pixel-art` `rust` `tui` | 1 | 2026-10-21 |
-| [**🆕 herdr-turn-coordinator**](https://github.com/KarthusLorin/herdr-turn-coordinator)<br><sub>KarthusLorin</sub> | 在不依赖模型驱动的状态轮询的情况下，维持交互式 Herdr Agent TUI | `ai-agents` `python` | 1 | 2026-09-18 |
 | [**🆕 herdr-collide**](https://github.com/mcc0x/herdr-collide)<br><sub>mcc0x</sub> | Warns when agents working in different git worktrees of one repo are about to collide — and whether their edits merely overlap or will actually conflict. | `conflict-detection` `git-worktree` `rust` `terminal` | 1 | 2026-10-16 |
-| [**🆕 herdr-agent-board**](https://github.com/NoctisHsu/herdr-agent-board)<br><sub>NoctisHsu</sub> | 面向 Herdr 窗格中运行的编码 Agent 的实时任务看板 | `python` | 1 | 2026-10-14 |
-| [**🆕 herdr-caffeinate**](https://github.com/nwarwick/herdr-caffeinate)<br><sub>nwarwick</sub> | 在 Herdr Agent 工作期间阻止 macOS 系统休眠 | `caffeinate` `coding-agents` `macos` `shell` | 1 | 2026-07-29 |
 | [**🆕 herdr-deck-navigation**](https://github.com/raghu-nandan-bs/herdr-deck-navigation)<br><sub>raghu-nandan-bs</sub> | 将 herdr 内置的扁平化工作区/标签页/窗格导航器，替换为无需滚动即可快速到达任意窗格的「Deck」视图 | `rust` `terminal` `tui` | 1 | 2026-08-24 |
 | [**🆕 herdr-safe-close**](https://github.com/RodrigoEspinosa/herdr-safe-close)<br><sub>RodrigoEspinosa</sub> | Close herdr tabs and panes safely — confirm in a popup when an agent, dev server or editor is still running, or it's the last tab in the space. | `shell` | 1 | 2026-10-02 |
 | [**🆕 herdr-pickers**](https://github.com/sagmans/herdr-pickers)<br><sub>sagmans</sub> | 为 Agent、worktree、工作区和项目提供多种自定义的弹出式选择器。 | `typescript` | 1 | 2026-10-26 |
 | [**🆕 herdr-rss**](https://github.com/shindakun/herdr-rss)<br><sub>shindakun</sub> | 一个 herdr 的 RSS 阅读器插件，就是想做就做了。 | `rss` `rss-reader` `rust` | 1 | 2026-09-24 |
-| [**🆕 herdr-agent-metrics**](https://github.com/szrenwei/herdr-agent-metrics)<br><sub>szrenwei</sub> | 面向 Claude Code、Codex 和 TraeX 的轻量级 Herdr 上下文与会话用量指标 | `claude-code` `openai-codex` `traex` `python` | 1 | 2026-08-04 |
 | [**🆕 herdr-codex-autoresume**](https://github.com/UN-9BOT/herdr-codex-autoresume)<br><sub>UN-9BOT</sub> | 一个 Herdr 插件，在用量限制重置后自动恢复 Codex CLI 的 /goal。 | `typescript` | 1 | 2026-09-25 |
 | [**🆕 tabby**](https://github.com/yersonargotev/tabby)<br><sub>yersonargotev</sub> | 为聚焦标签页打上「关键命令」或「工作目录名」标签的 Herdr 插件 | `rust` | 1 | 2026-09-25 |
 | [**🆕 herdr-agents-picker**](https://github.com/yxhta/herdr-agents-picker)<br><sub>yxhta</sub> | Herdr 插件：类似工作区选择器的 Agent 窗格模糊选择器，带实时窗格预览（Rust + ratatui 编写） | `rust` | 1 | 2026-10-03 |
-| [**🆕 herdr-focus**](https://github.com/Zeus-Deus/herdr-focus)<br><sub>Zeus-Deus</sub> | herdr 插件：Agent 侧边栏的注意力层——清晰的标题、Needs you / Working / Done 分组、未读与待稳定的分流，以及用于后台 PR 检查的观察之眼 | `python` | 1 | 2026-10-25 |
-| [**🆕 shepherdr**](https://github.com/eliasstravik/shepherdr)<br><sub>eliasstravik</sub> | Run many coding agents across machines from a phone, tablet or desktop. A herdr plugin. | `typescript` | 1024 | 2026-10-30 |
+| [**🆕 shepherdr**](https://github.com/eliasstravik/shepherdr)<br><sub>eliasstravik</sub> | Run many coding agents across machines from a phone, tablet or desktop. A herdr plugin. | `typescript` | 1033 | 2026-10-30 |
 | [**🆕 fangyang-le**](https://github.com/RZfive/fangyang-le)<br><sub>RZfive</sub> | herdr 技能：将一个任务分发给 N 个并行的编码 Agent——Claude Code、OpenCode、Codex、Gemini 等 20 多种。同类启动、锁定工作区、保留折叠以供审查。Agent 绝不提交代码 | `agent-orchestration` `agent-skill` `ai-workflow` `claude-code` `codex-cli` | 4 | 2026-10-28 |
 | [**🆕 herdr-claude-usage**](https://github.com/aodanchenko/herdr-claude-usage)<br><sub>aodanchenko</sub> | Global Claude Code plan usage in Herdr: tab-bar summary + popup dashboard. statusLine-powered, multi-account aware. | `claude` `claude-code` `cli` `terminal` `shell` | 3 | 2026-09-01 |
 | [**🆕 jumar**](https://github.com/joshbarrington/jumar)<br><sub>joshbarrington</sub> | A fast terminal UI for managing git worktrees | `claude-code-plugin` `cli` `git` `git-worktree` `rust` | 2 | 2026-10-27 |
@@ -140,28 +146,21 @@
 | [**🆕 herdr-plan-approve**](https://github.com/jerryfane/herdr-plan-approve)<br><sub>jerryfane</sub> | 在 herdr 中自动批准 Claude Code 的计划模式对话框——Agent 制定计划后无需按键即可直接执行 | `claude-code` `shell` | 1 | 2026-08-25 |
 | [**🆕 herdr-plugin-layerfs**](https://github.com/jiangkoumo/herdr-plugin-layerfs)<br><sub>jiangkoumo</sub> | 将写时复制的 LayerFS 分支作为 Herdr 工作区，像 worktree 一样归组在仓库之下，并在重启后恢复 | `ai-agents` `copy-on-write` `git-worktree` `layerfs` `javascript` | 1 | 2026-10-26 |
 | [**🆕 herdr-vista**](https://github.com/kamil-pociot/herdr-vista)<br><sub>kamil-pociot</sub> | Herdr 插件：一键在当前所在的 git 仓库中打开终端文件查看器和编辑器 vista；另一个按键可审查 Agent 在其分支上的改动 | `editor` `file-viewer` `rust` | 1 | 2026-10-24 |
-| [**🆕 herdr-agent-smart-rename**](https://github.com/malone-c/herdr-agent-smart-rename)<br><sub>malone-c</sub> | 根据每个 herdr Agent 会话实际在做的事情为其命名 | `python` | 1 | 2026-08-14 |
 | [**🆕 herdr-revdiff**](https://github.com/mikhail-angelov/herdr-revdiff)<br><sub>mikhail-angelov</sub> | 面向 revdiff（https://github.com/umputun/revdiff）TUI 的 herdr 插件。 | `revdiff` `tui` `shell` | 1 | 2026-09-16 |
 | [**🆕 herdr-scratchdock**](https://github.com/mvaios/herdr-scratchdock)<br><sub>mvaios</sub> | 在 herdr 中将编码 Agent 的临时文件夹停靠在其旁边——实时目录树、文本与图片预览，并在 Agent 开始工作时自动打开。 | `claude-code` `tui` `python` | 1 | 2026-09-28 |
 | [**🆕 agentflock**](https://github.com/neospark-sol/agentflock)<br><sub>neospark-sol</sub> | 由 AI 协调的构建者与评审者小组，配有持久化的里程碑管理 | `ai-agents` `pair-programming` `typescript` | 1 | 2026-08-21 |
 | [**🆕 herdr-touchbar**](https://github.com/omerturhan/herdr-touchbar)<br><sub>omerturhan</sub> | 在 MacBook Touch Bar 上显示工作中和被阻塞的 herdr Agent——点按即可直接跳转到对应标签页 | `ai-agents` `macos` `touchbar` `swift` | 1 | 2026-09-14 |
 | [**🆕 herdr-pr-worktree**](https://github.com/poislagarde/herdr-pr-worktree)<br><sub>poislagarde</sub> | 将 GitHub 拉取请求作为 worktree 空间在 Herdr 中打开，并复用已有的检出。 | `git-worktree` `python` | 1 | 2026-10-14 |
 | [**🆕 herdr-automations**](https://github.com/ram4-dev/herdr-automations)<br><sub>ram4-dev</sub> | 面向 Herdr 的声明式 cron、间隔和事件自动化 | `automation` `bun` `typescript` | 1 | 2026-08-13 |
-| [**🆕 herdr-pane-reopen**](https://github.com/rchougule/herdr-pane-reopen)<br><sub>rchougule</sub> | herdr 插件：撤销关闭操作——将最近关闭的窗格、标签页或工作区原地重新打开，并恢复其 Agent。 | `rust` | 1 | 2026-09-17 |
-| [**🆕 herdr-readpending**](https://github.com/rcosteira79/herdr-readpending)<br><sub>rcosteira79</sub> | 标记你还没看完的 Agent。提供带编号的徽章（$read）+ 可重新排序的列表窗格。聚焦该 Agent 时会自动清除标记 | `python` | 1 | 2026-09-15 |
 | [**🆕 herdr-pomodoro**](https://github.com/sazardev/herdr-pomodoro)<br><sub>sazardev</sub> | 简约优雅、可随主题自适应的 Herdr 番茄钟插件。 | `rust` | 1 | 2026-09-08 |
 | [**🆕 herdr-agent-prs**](https://github.com/sebassdc/herdr-agent-prs)<br><sub>sebassdc</sub> | 面向 Herdr 编码 Agent 的跨仓库 PR 查看器。可查看 Agent 在任意仓库中开启或推送过的每一个 PR，并实时显示 CI、评审与合并状态。 | `ratatui` `rust` | 1 | 2026-09-26 |
 | [**🆕 herdr-scratch**](https://github.com/shadowfax92/herdr-scratch)<br><sub>shadowfax92</sub> | 由私有 tmux 会话支撑的、按窗格持久化的 Herdr 便签弹窗 | `neovim` `productivity` `rust` `terminal` `tmux` | 1 | 2026-10-22 |
 | [**🆕 goat-herdr**](https://github.com/shindakun/goat-herdr)<br><sub>shindakun</sub> | 🐐 Herdr 插件：当 Agent 需要你处理时，向 Telegram、Slack、ntfy、Pushover/bullet 或任意 webhook 发送提醒。 | `ntfy` `rust` `slack` `telegram` `webhook` | 1 | 2026-09-24 |
 | [**🆕 mimo-code-herdr**](https://github.com/ShinoharaHaruna/mimo-code-herdr)<br><sub>ShinoharaHaruna</sub> | MiMo Code <-> herdr 自定义 Agent 桥接：在侧边栏显示生命周期状态，崩溃安全的退出清理，一条命令即可启动 | `ai-agents` `cli` `coding-agent` `mimo` `mimocode` | 1 | 2026-10-04 |
 | [**🆕 herdr-git-graph**](https://github.com/sjlee06/herdr-git-graph)<br><sub>sjlee06</sub> | 为 Herdr 打造的交互式 Git 分支与提交图，基于 Rust + Ratatui 构建，具备平滑曲线、搜索与差异查看功能。 | `git` `git-graph` `ratatui` `rust` `terminal` | 1 | 2026-10-27 |
-| [**🆕 herdr-pinned-workspaces**](https://github.com/skydiver/herdr-pinned-workspaces)<br><sub>skydiver</sub> | 一个让指定工作区始终保持存活的 Herdr 插件。 | `terminal` `tui` `workspaces` `python` | 1 | 2026-09-21 |
-| [**🆕 herdr-pr-modal**](https://github.com/Tarektouati/herdr-pr-modal)<br><sub>Tarektouati</sub> | 直接从 Herdr 中，将任意 Pull Request 在其专属 worktree 中打开。 | `rust` | 1 | 2026-09-24 |
 | [**🆕 herdeck**](https://github.com/thefahien/herdeck)<br><sub>thefahien</sub> | 将命令、进程、健康检查、JSON API 和 Prometheus 查询变成 herdr 窗格中的实时标签页 | `curses` `monitoring` `prometheus` `python` `terminal-dashboard` | 1 | 2026-10-23 |
-| [**🆕 herdr-claude-tab-title**](https://github.com/tmn73/herdr-claude-tab-title)<br><sub>tmn73</sub> | 将每个 Claude Code 会话标题及其 Agent 状态同步到对应的 Herdr 标签页 | `claude-code` `tabs` `terminal` `typescript` | 1 | 2026-09-07 |
 | [**🆕 herdr-customize**](https://github.com/wapenshaw/herdr-customize)<br><sub>wapenshaw</sub> | Customize Herdr's settings and key bindings in one popup, with optional Themes and Plugins pages. Linux, macOS and Windows. | `rust` | 1 | 2026-10-26 |
 | [**🆕 herdr-balance-panes**](https://github.com/willfish/herdr-balance-panes)<br><sub>willfish</sub> | 将当前 Herdr 标签页中的窗格调整为均匀大小（相当于 tmux 的 select-layout -E） | `rust` `terminal` `tmux` | 1 | 2026-08-05 |
-| [**🆕 herdr-derby**](https://github.com/xzedx/herdr-derby)<br><sub>xzedx</sub> | 向当前 Herdr 标签页中的每个编码 Agent 发送同一条提示词并观看它们竞速：弹出窗口用于输入，窗格边框显示实时计时和完成名次 | `coding-agents` `rust` | 1 | 2026-10-23 |
 | [**🆕 herdr-pr**](https://github.com/yelsed/herdr-pr)<br><sub>yelsed</sub> | 在 herdr 窗格中以待办事项形式显示等待你处理的拉取请求，全部通过 gh CLI 读取 | `rust` | 1 | 2026-08-29 |
 | [**🆕 herdr-space-groups**](https://github.com/yojahny55/herdr-space-groups)<br><sub>yojahny55</sub> | herdr 插件：将 Space 分组为带名称、带颜色的组——支持选择器弹窗（鼠标+键盘）、侧边栏分组标题和自动排序 | `javascript` | 1 | 2026-08-29 |
 | [**🆕 visor**](https://github.com/oronbz/visor)<br><sub>oronbz</sub> | 由你的编码 Agent 搭建的终端仪表盘：PR、Jira、日历等任何内容，插件可用任意语言编写 | `ai-agents` `bubbletea` `claude-code` `cli` `dashboard` | 14 | 2026-10-29 |
@@ -218,7 +217,7 @@
 | [**🆕 herdr-services**](https://github.com/lucidstack/herdr-services)<br><sub>lucidstack</sub> | 一个用于追踪 herdr 工作区内运行服务的插件。 | `rust` | 1 | 2026-09-16 |
 | [**🆕 herdr-pane-labels**](https://github.com/macd2/herdr-pane-labels)<br><sub>macd2</sub> | 直接在 herdr 窗格边框上显示每个窗格的当前目录、Agent 会话标题，以及它是本地还是在 ssh 中 | `shell` | 1 | 2026-10-11 |
 | [**🆕 herdr-standup**](https://github.com/mcc0x/herdr-standup)<br><sub>mcc0x</sub> | Agent 实际完成工作的摘要。一条命令即可生成指定时间段内所有 Herdr 工作区的可读总结——提交、改动量、分支，以及工作成果是否已落地 | `git` `rust` `standup` `terminal` | 1 | 2026-10-16 |
-| [**🆕 herdr-sidekick**](https://github.com/minhtran3124/herdr-sidekick)<br><sub>minhtran3124</sub> | herdr 插件：面向编码 Agent 的侧边面板——worktree、带差异的已更改文件，以及 Claude Code 子 Agent | `rust` | 1 | 2026-10-29 |
+| [**🆕 herdr-sidekick**](https://github.com/minhtran3124/herdr-sidekick)<br><sub>minhtran3124</sub> | herdr 插件：面向编码 Agent 的侧边面板——worktree、带差异的已更改文件，以及 Claude Code 子 Agent | `rust` | 1 | 2026-10-30 |
 | [**🆕 herdr-session-sync**](https://github.com/nengqi/herdr-session-sync)<br><sub>nengqi</sub> | 将 Claude Code、Codex 和 Agent 的会话名称，自动同步到 Herdr 窗格标签、PTY 窗口标题和移动配套应用（Heeler）之间 | `agent` `claude-code` `codex` `heeler` `terminal-multiplexer` | 1 | 2026-10-26 |
 | [**🆕 github-issue-herdr-plugin**](https://github.com/nyanyaon/github-issue-herdr-plugin)<br><sub>nyanyaon</sub> | 用于「牧养」GitHub issue 的 Claude Code 插件 | `rust` | 1 | 2026-07-27 |
 | [**🆕 herdr-spawn**](https://github.com/nytafar/herdr-spawn)<br><sub>nytafar</sub> | 一个 MCP 工具，将聊天中的提示词交给你某台主机上开启了 Remote Control 的真实 Claude Code 会话 | `python` | 1 | 2026-08-21 |
@@ -247,13 +246,13 @@
 | [**🆕 herdr-translate**](https://github.com/zackshen/herdr-translate)<br><sub>zackshen</sub> | herdr 插件：在居中弹出层中翻译鼠标选中的终端文本 | `rust` | 1 | 2026-08-25 |
 | [**🆕 fence**](https://github.com/zenodea/fence)<br><sub>zenodea</sub> | 隔离的 herdr 会话（bubblewrap + nftabels） | `ai-agents` `bubblewrap` `claude-code` `nftables` `sandbox` | 1 | 2026-10-05 |
 | [**🆕 herdr-draft**](https://github.com/ZviBaratz/herdr-draft)<br><sub>ZviBaratz</sub> | herdr 插件：新建会话对话框——一次提交即可设置 Linear issue、worktree、放置位置、Agent 类型、clauth 账户与初始 prompt。 | `bubbletea` `claude-code` `go` `linear` `tui` | 1 | 2026-10-14 |
-| [**🆕 corgi**](https://github.com/zyrre/corgi)<br><sub>zyrre</sub> | 面向 Herdr 编码 Agent 的紧凑仪表盘，支持 supervisor 协调，并带有 Omarchy 栏小组件 | `claude-code` `codex` `tui` `rust` | 1 | 2026-10-29 |
+| [**🆕 corgi**](https://github.com/zyrre/corgi)<br><sub>zyrre</sub> | 面向 Herdr 编码 Agent 的紧凑仪表盘，支持 supervisor 协调，并带有 Omarchy 栏小组件 | `claude-code` `codex` `tui` `rust` | 1 | 2026-10-30 |
 | [**🆕 herdr-job-board**](https://github.com/larrychannon/herdr-job-board)<br><sub>larrychannon</sub> | 在 Herdr 分屏窗格中为 Agent 任务提供「待办 / 进行中 / 等你处理」看板 | `javascript` | 1 | 2026-10-30 |
 | [**🆕 herdr-fleet-plugin**](https://github.com/yarrasys/herdr-fleet-plugin)<br><sub>yarrasys</sub> | herdr 插件：根据每个仓库的 fleet 文件（.herdr/fleet.toml）启动、重启和更换一组具名编码 Agent | `coding-agents` `multi-agent` `python` | 1 | 2026-10-26 |
 | [**🆕 instinct-herdr-tunnel**](https://github.com/romiluz13/instinct-herdr-tunnel)<br><sub>romiluz13</sub> | 让 Instinct 等 AI 助手监视并操控你的 Herdr 编码 Agent：带 26 项操作白名单、bearer token 和审计日志的本地回环门户，外加 Herdr 插件 | `ai-agents` `cloudflare-tunnel` `coding-agents` `nodejs` `javascript` | 2 | 2026-10-25 |
 | [**🆕 herdr-ingest**](https://github.com/H3xept/herdr-ingest)<br><sub>H3xept</sub> | 为来自 Sentry、Linear、GitHub 或任意 JSON 数据管道的每个工作项，创建一个独立的 herdr 空间。 | `github` `linear` `sentry` `terminal` `shell` | 1 | 2026-09-26 |
 | [**🆕 herdr-stats**](https://github.com/jeffarese/herdr-stats)<br><sub>jeffarese</sub> | 在 herdr 标签栏中实时显示 CPU、内存、磁盘、温度、GPU、功耗和网络统计：盲文图表、仪表盘和响应式图标 | `linux` `macos` `rust` `system-monitor` `terminal` | 1 | 2026-10-23 |
-| [**🆕 stampede**](https://github.com/vib-z/stampede)<br><sub>vib-z</sub> | 用短信向你的 Grok Bot 下达任务。它通过 Tailscale 连接你的 Mac，由 Claude Code 完成工作，并按需加入其他 Agent（Codex、Cursor 等）。在你同意之前，不会合并、推送、发送或花费任何东西 | `agent-orchestration` `ai-agents` `claude-code` `cli` `codex` | 7 | 2026-10-29 |
+| [**🆕 stampede**](https://github.com/vib-z/stampede)<br><sub>vib-z</sub> | 用短信向你的 Grok Bot 下达任务。它通过 Tailscale 连接你的 Mac，由 Claude Code 完成工作，并按需加入其他 Agent（Codex、Cursor 等）。在你同意之前，不会合并、推送、发送或花费任何东西 | `agent-orchestration` `ai-agents` `claude-code` `cli` `codex` | 7 | 2026-10-30 |
 | [**🆕 account-capacity-dock**](https://github.com/Mako-L/account-capacity-dock)<br><sub>Mako-L</sub> | 为每个 Claude、Codex 和 Cursor 账户显示配额环：桌面 Dock、终端应用和 Herdr 小组件 | `claude` `cliproxyapi` `codex` `cursor` `python` | 4 | 2026-10-29 |
 | [**🆕 devnull-tui**](https://github.com/arhen/devnull-tui)<br><sub>arhen</sub> | /dev/null（dev-null.sh）的非官方终端 UI：在任意终端或作为 Herdr 窗格查看动态、线程和收件箱 | `cli` `dev-null` `devnull` `terminal` `tui` | 2 | 2026-10-23 |
 | [**🆕 diffui**](https://github.com/dgsienko/diffui)<br><sub>dgsienko</sub> | 本地部署的 Web 工具和终端 UI，用于审查实时差异，改进你的 Agent 式编码与评审流程 | `agentic-coding` `ai-agents` `ai-tools` `claude-code` `cli` | 2 | 2026-10-23 |
@@ -269,7 +268,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**Heeler**](https://github.com/ZingerLittleBee/Heeler)<br><sub>ZingerLittleBee</sub> | 面向 herdr 的原生 iOS Agent 控制台——通过 SSH 查看并操控你机器上的编码 Agent，配备真正的 libghostty 终端、二维码配对，以及 Agent 需要你时的推送通知。 | `ai-agents` `apns` `coding-agents` `ios` `libghostty` | 701 | 🔄 2026-10-29 |
+| [**Heeler**](https://github.com/ZingerLittleBee/Heeler)<br><sub>ZingerLittleBee</sub> | 面向 herdr 的原生 iOS Agent 控制台——通过 SSH 查看并操控你机器上的编码 Agent，配备真正的 libghostty 终端、二维码配对，以及 Agent 需要你时的推送通知。 | `ai-agents` `apns` `coding-agents` `ios` `libghostty` | 703 | 🔄 2026-10-30 |
 | [**herdr-ohmyzsh**](https://github.com/robbyrussell/herdr-ohmyzsh)<br><sub>robbyrussell</sub> | 面向 Herdr 的 Oh My Zsh 插件：在侧边栏显示耗时较长的命令、完成通知、shell 辅助工具，并可一键在所有闲置窗格中重新加载 Oh My Zsh。 | `oh-my-zsh` `zsh` `shell` | 85 | 2026-09-09 |
 | [**herdr-focus-notify**](https://github.com/yankewei/herdr-focus-notify)<br><sub>yankewei</sub> | 面向 Herdr Agent 的可点击 macOS 通知。当 Agent 被阻塞或完成时发送原生提示通知；点击后将终端置于前台并聚焦到对应的 Herdr 窗格 | `alerter` `macos` `notifications` `productivity` `rust` | 33 | 🔄 2026-10-29 |
 | [**herdr-terminal-notifier**](https://github.com/dot/herdr-terminal-notifier)<br><sub>dot</sub> | 通过 terminal-notifier 为 herdr Agent 状态变化发送可自定义的 macOS 通知 | `macos` `terminal-notifier` `shell` | 12 | 2026-09-07 |
@@ -285,7 +284,7 @@
 | [**herdr-telegram-bridge**](https://github.com/cokekitten/herdr-telegram-bridge)<br><sub>cokekitten</sub> | 当 herdr Agent 完成或被阻塞时收到 Telegram 推送——直接回复即可将文本或文件发回该 Agent。无需服务器、无需内网穿透、无需 App | `ai-agents` `chatops` `claude-code` `developer-tools` `notifications` | 4 | 2026-08-06 |
 | [**session-sounds**](https://github.com/ChrisPachulski/session-sounds)<br><sub>ChrisPachulski</sub> | 面向 macOS 和 Linux 的 Herdr，为每个 Agent 提供不同的完成提示音和关注提示音 | `coding-agents` `notifications` `rust` | 3 | 2026-07-19 |
 | [**agent-webhook-notify**](https://github.com/happyeric77/agent-webhook-notify)<br><sub>happyeric77</sub> | 当 Herdr Agent 完成或被阻塞时，发送 Webhook 通知 | `javascript` | 3 | 2026-08-12 |
-| [**herdr-telegram-notify**](https://github.com/naturalmoods/herdr-telegram-notify)<br><sub>naturalmoods</sub> | 当 Agent 完成或需要输入时通过 Telegram 通知你，并附带其最后一条消息、变更、耗时和费用。可在聊天中用文字、菜单按钮、文件、照片或语音回复；还能停止 Agent、查看其屏幕或差异，或启动新的 Agent。通知会自动标记为已回复，置顶看板展示整个群体的状态 | `claude-code` `notifications` `telegram` `javascript` | 3 | 🔄 2026-10-29 |
+| [**herdr-telegram-notify**](https://github.com/naturalmoods/herdr-telegram-notify)<br><sub>naturalmoods</sub> | Telegram notifications for Herdr TUI and the Herdr app (herdr-core): a message when an agent finishes or needs input, with its last message, changes, duration… | `claude-code` `codex` `coding-agents` `herdr-app` `herdr-core` | 3 | 🔄 2026-10-30 |
 | [**herdr-warp**](https://github.com/ProjectAJ14/herdr-warp)<br><sub>ProjectAJ14</sub> | 一个简单的插件，让 Herdr 可以通过 Warp 发送通知。 | `python` | 3 | 🔄 2026-10-15 |
 | [**herdr-discord-presence**](https://github.com/revanp/herdr-discord-presence)<br><sub>revanp</sub> | herdr 插件：将 Herdr 会话和 Agent 状态显示为 Discord Rich Presence | `typescript` | 3 | 2026-08-14 |
 | [**herdr-wsl-notify**](https://github.com/tkmct/herdr-wsl-notify)<br><sub>tkmct</sub> | 当运行在 WSL2 上的 Agent（如 Claude Code）完成或被阻塞（等待批准/输入）时，显示 Windows 桌面提示通知的 Herdr 插件 | `javascript` | 3 | 2026-08-27 |
@@ -302,7 +301,6 @@
 | [**🆕 herdr-claude-agents**](https://github.com/kamil-pociot/herdr-claude-agents)<br><sub>kamil-pociot</sub> | Herdr 插件：将 Claude Code 后台会话作为 Herdr Agent，在其项目空间中各占一个标签页，支持实时状态和通知 | `claude-code` `rust` | 1 | 🔄 2026-10-24 |
 | [**herdr-gh-runs**](https://github.com/kkjdaniel/herdr-gh-runs)<br><sub>kkjdaniel</sub> | 在 herdr 窗格中查看 GitHub Actions 运行：跟随你的仓库，支持实时状态、步骤日志和通知 | `gh` `github-actions` `terminal` `tui` `python` | 1 | 🔄 2026-10-22 |
 | [**🆕 herdr-bar**](https://github.com/openalon-org/herdr-bar)<br><sub>openalon-org</sub> | Herdr 的 macOS 菜单栏应用：实时显示 Agent 数量，一键跳转到需要你处理的窗格。 | `herdr-notify` `menu-bar` `menu-bar-app` `notification` `notify` | 1 | 2026-09-18 |
-| [**🆕 herdr-notify-wsl**](https://github.com/saeedrahimi/herdr-notify-wsl)<br><sub>saeedrahimi</sub> | 为运行在 WSL 内的 herdr Agent 提供 Windows 11 提示通知——基于 aclima01/herdr-notify-windows | `powershell` | 1 | 2026-07-23 |
 | [**🆕 goat-herdr**](https://github.com/shindakun/goat-herdr)<br><sub>shindakun</sub> | 🐐 Herdr 插件：当 Agent 需要你处理时，向 Telegram、Slack、ntfy、Pushover/bullet 或任意 webhook 发送提醒。 | `ntfy` `rust` `slack` `telegram` `webhook` | 1 | 2026-09-24 |
 | [**medley**](https://github.com/WebscapeOrg/medley)<br><sub>WebscapeOrg</sub> | 为每个 herdr 工作区和状态设置自定义声音 | `audio` `notifications` `python` | 1 | 🔄 2026-10-23 |
 
@@ -316,28 +314,28 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis（原 herdr web UI）：面向 herdr 的免费开源浏览器和手机客户端。为 Claude Code、Codex 及所有 Agent 窗格提供聊天和实时终端，支持通过 SSH 连接远程电脑和 Web 推送提醒 | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1664 | 🔄 2026-10-30 |
-| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 适用于 iPhone 和 Android 的 Herdr 移动客户端。自托管 PWA，可在手机上操控 Herdr、tmux 或 zellij 中的 Claude Code、Pi、Codex 和 OpenCode。支持推送提醒，无需应用商店 | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 1508 | 🔄 2026-10-29 |
-| [**🆕 shepherdr**](https://github.com/eliasstravik/shepherdr)<br><sub>eliasstravik</sub> | Run many coding agents across machines from a phone, tablet or desktop. A herdr plugin. | `typescript` | 1024 | 🔄 2026-10-30 |
-| [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | 从菜单栏、手机或 Telegram 监控并操控你的 herdr Agent。本地零配置，远程连接提供免费内网穿透，无需 Tailscale | `macos` `mobile` `python` | 437 | 🔄 2026-10-23 |
-| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | 通过手机远程审批和监控 Herdr Agent——面向 Android/iOS 的移动 Web 应用，支持推送通知、二维码配置和多电脑中继 | `android` `approvals` `cloudflare` `ios` `mobile` | 325 | 🔄 2026-10-30 |
+| [**ovis**](https://github.com/devswha/ovis)<br><sub>devswha</sub> | Ovis（原 herdr web UI）：面向 herdr 的免费开源浏览器和手机客户端。为 Claude Code、Codex 及所有 Agent 窗格提供聊天和实时终端，支持通过 SSH 连接远程电脑和 Web 推送提醒 | `agentic-coding` `ai-agents` `bun` `claude-code` `codex` | 1678 | 🔄 2026-10-30 |
+| [**collie**](https://github.com/AltanS/collie)<br><sub>AltanS</sub> | 适用于 iPhone 和 Android 的 Herdr 移动客户端。自托管 PWA，可在手机上操控 Herdr、tmux 或 zellij 中的 Claude Code、Pi、Codex 和 OpenCode。支持推送提醒，无需应用商店 | `agent-orchestration` `ai` `ai-agents` `ai-coding` `ai-tools` | 1512 | 🔄 2026-10-29 |
+| [**🆕 shepherdr**](https://github.com/eliasstravik/shepherdr)<br><sub>eliasstravik</sub> | Run many coding agents across machines from a phone, tablet or desktop. A herdr plugin. | `typescript` | 1033 | 🔄 2026-10-30 |
+| [**herdr-remote**](https://github.com/dcolinmorgan/herdr-remote)<br><sub>dcolinmorgan</sub> | 从菜单栏、手机或 Telegram 监控并操控你的 herdr Agent。本地零配置，远程连接提供免费内网穿透，无需 Tailscale | `macos` `mobile` `python` | 437 | 🔄 2026-10-30 |
+| [**herdr-mobile-relay**](https://github.com/0cv/herdr-mobile-relay)<br><sub>0cv</sub> | 通过手机远程审批和监控 Herdr Agent——面向 Android/iOS 的移动 Web 应用，支持推送通知、二维码配置和多电脑中继 | `android` `approvals` `cloudflare` `ios` `mobile` | 330 | 🔄 2026-10-30 |
 | [**pairfob**](https://github.com/arronKler/pairfob)<br><sub>arronKler</sub> | 扫一次二维码，你的 Herdr Agent 就在手机上。浏览器优先，可选 Android 测试版，无需 Tailscale 或端口，端到端加密 | `android` `apk` `claude-code` `codex` `herdr-mobile` | 181 | 🔄 2026-10-30 |
 | [**herdr-telegram-agents**](https://github.com/permgps/herdr-telegram-agents)<br><sub>permgps</sub> | 像在终端里一样，从 Telegram 操控你的编码 Agent。每个 Agent 对应一个话题，话题图标实时显示状态，并通过带内联按钮的双向聊天进行选择。 | `claude-code` `coding-agents` `go` `telegram` `telegram-bot` | 84 | 🔄 2026-10-24 |
 | [**termote**](https://github.com/lamngockhuong/termote)<br><sub>lamngockhuong</sub> | 自托管 PWA，可从手机或桌面控制 Claude Code、Codex、GitHub Copilot 或任意终端。单个 Go 二进制文件将 tmux/psmux/Herdr 会话流式传输到 xterm.js，支持原生或容器运行 | `ai-coding-agent` `claude-code` `cli` `codex` `github-copilot` | 67 | 🔄 2026-10-30 |
-| [**herdrchat**](https://github.com/cobanov/herdrchat)<br><sub>cobanov</sub> | 从手机操控你的 herdr 编码 Agent。已在 App Store 上架，支持 iPhone 和 iPad。 | `app-store` `herdr-client` `herdr-integration` `herdr-mobile` `ios` | 42 | 🔄 2026-10-27 |
+| [**herdrchat**](https://github.com/cobanov/herdrchat)<br><sub>cobanov</sub> | 从手机操控你的 herdr 编码 Agent。已在 App Store 上架，支持 iPhone 和 iPad。 | `app-store` `herdr-client` `herdr-integration` `herdr-mobile` `ios` | 42 | 🔄 2026-10-30 |
 | [**herdr-watch**](https://github.com/Unayung/herdr-watch)<br><sub>Unayung</sub> | 在 Apple Watch 上查看 herdr 的 Agent 状态 | `javascript` | 31 | 2026-08-14 |
 | [**herdr-connect**](https://github.com/Tomyail/herdr-connect)<br><sub>Tomyail</sub> | 通过这款 iPhone 移动伴侣应用监控并操控你的 Herdr AI 编码 Agent——查看输出、发送后续指令，并在任务完成时收到通知。通过局域网或 Tailscale 私密运行，无需云端，也无需账号。 | `agent` `mobile-app` `react-native` `typescript` | 20 | 🔄 2026-10-28 |
 | [**herdr-call**](https://github.com/eliasstravik/herdr-call)<br><sub>eliasstravik</sub> | 面向 Herdr 的语音控制 | `elevenlabs` `tailscale` `voice` `typescript` | 16 | 2026-08-07 |
 | [**vscode-devcontainers-herdr**](https://github.com/scott-the-programmer/vscode-devcontainers-herdr)<br><sub>scott-the-programmer</sub> | 面向运行在 dev container 内的 Agent 的 Herdr 中继 | `container` `devcontainer` `rust` | 15 | 🔄 2026-10-25 |
 | [**herdr-web**](https://github.com/barnuri/herdr-web)<br><sub>barnuri</sub> | 面向 herdr 的移动优先 Web UI 插件——从手机驱动你的编程 Agent，并带有通知功能 | `pwa` `typescript` | 13 | 🔄 2026-10-22 |
+| [**wherdr**](https://github.com/afloury/wherdr)<br><sub>afloury</sub> | 随时随地使用 Herdr——iPhone、安卓手机或任意浏览器皆可。私密、安全地查看编码 Agent、回复它们并运行你的 herdr-projects | `ai-agents` `claude-code` `codex` `mobile` `pwa` | 12 | 🔄 2026-10-30 |
 | [**herdr-office**](https://github.com/michaellandi/herdr-office)<br><sub>michaellandi</sub> | 一个 Herdr 插件，将你的 Agent 绘制成开放式办公室里的人物。当需要审批时，他们会举手示意。 | `javascript` | 12 | 2026-10-05 |
 | [**herdr-plugin-mobile-relay**](https://github.com/benkraus/herdr-plugin-mobile-relay)<br><sub>benkraus</sub> | _(暂无描述)_ | `typescript` | 11 | 2026-08-12 |
-| [**wherdr**](https://github.com/afloury/wherdr)<br><sub>afloury</sub> | 随时随地使用 Herdr——iPhone、安卓手机或任意浏览器皆可。私密、安全地查看编码 Agent、回复它们并运行你的 herdr-projects | `ai-agents` `claude-code` `codex` `mobile` `pwa` | 10 | 🔄 2026-10-30 |
 | [**herdr-push**](https://github.com/dcolinmorgan/herdr-push)<br><sub>dcolinmorgan</sub> | herdr 插件：零依赖地将事件推送到 herdr-remote，用于手机端监控和一键批准 | `shell` | 10 | 2026-07-09 |
 | [**herdr-go**](https://github.com/herdr-go/herdr-go)<br><sub>herdr-go</sub> | 从任何地方控制你的 herdr 编程 Agent——私密、点对点，并通过 EasyTier 加密保护 | `dart` | 8 | 2026-09-08 |
 | [**paddock**](https://github.com/lntvan166/paddock)<br><sub>lntvan166</sub> | 面向 herdr 的移动优先仪表盘——读取其 unix socket。无需任何配置即可在手机上运行 | `agent-orchestration` `coding-agents` `herdr-mobile` `paddock` `pwa` | 8 | 🔄 2026-10-28 |
 | [**🆕 quicktui-herdr**](https://github.com/quicktui/quicktui-herdr)<br><sub>quicktui</sub> | 通过 QuickTUI 在 iPhone 或安卓手机上使用 Herdr：原生移动应用、一步安装、二维码配对，以及可选的端到端加密中继 | `shell` | 8 | 🔄 2026-10-26 |
-| [**muqun-gateway**](https://github.com/osuki-dev/muqun-gateway)<br><sub>osuki-dev</sub> | 让 Muqun 能够访问你自己电脑上终端的程序。它运行在你的机器上，与 tmux 或 Herdr 通信，并直接响应你的手机——中间没有账号，也没有我们的服务器 | `rust` | 7 | 🔄 2026-10-29 |
+| [**muqun-gateway**](https://github.com/osuki-dev/muqun-gateway)<br><sub>osuki-dev</sub> | 让 Muqun 能够访问你自己电脑上终端的程序。它运行在你的机器上，与 tmux 或 Herdr 通信，并直接响应你的手机——中间没有账号，也没有我们的服务器 | `rust` | 7 | 🔄 2026-10-30 |
 | [**herdr-remote-panes**](https://github.com/Poor-Plebs/herdr-remote-panes)<br><sub>Poor-Plebs</sub> | 从一个 Herdr 操作其他机器——从菜单中选择一台机器，即可获得该机器上的终端。还可选启用实验性的双向镜像 | `golang` `ssh` `terminal` `go` | 7 | 2026-09-11 |
 | [**herdr-mobile**](https://github.com/bsorescu/herdr-mobile)<br><sub>bsorescu</sub> | 通过 SSH 控制 Herdr 编程 Agent 的手机友好型 TUI | `mobile` `ssh` `textual` `tui` `python` | 6 | 2026-08-25 |
 | [**herdr-web**](https://github.com/eyalev/herdr-web)<br><sub>eyalev</sub> | 面向 herdr Agent 多路复用器的移动优先 Web UI——从手机操控你的编程 Agent | `claude-code` `mobile` `pwa` `terminal` `javascript` | 6 | 2026-07-29 |
@@ -353,8 +351,8 @@
 | [**herdr-mobile-app**](https://github.com/teasec4/herdr-mobile-app)<br><sub>teasec4</sub> | 原生伴侣应用 + 轻量级 Go 中继：将 Agent 终端输出实时推送到手机，可查看状态并发送提示词——支持通过局域网、Tailscale 或 Funnel 连接。 | `ai` `devtools` `flutter` `herdr-integration` `herdr-mobile` | 4 | 2026-09-05 |
 | [**herdr-whistle**](https://github.com/amurru/herdr-whistle)<br><sub>amurru</sub> | 用于远程管理 Agent 的 Herdr 插件 | `golang` `telegrambot` `go` | 3 | 2026-08-06 |
 | [**herdr-topbar**](https://github.com/bigbug16/herdr-topbar)<br><sub>bigbug16</sub> | 面向 herdr 的 macOS 菜单栏图标——可跳回会话、打开项目，并查看哪个 Agent 正在等待输入 | `macos` `menubar` `swift` | 3 | 2026-08-24 |
-| [**herdr-remote**](https://github.com/dibin666/herdr-remote)<br><sub>dibin666</sub> | 通过浏览器远程访问你的 Herdr 终端工作区。 | `claude-code` `codex` `pi` `vibe-coding` `typescript` | 3 | 🔄 2026-10-24 |
-| [**community**](https://github.com/fab-agent/community)<br><sub>fab-agent</sub> | 让你的队友与 Agent 并肩工作：在 Herdr 中查看成员、部门、任务和私信 | `ai-agents` `chatinterface` `cloudflare-workers` `community` `terminal-chat` | 3 | 🔄 2026-10-15 |
+| [**herdr-remote**](https://github.com/dibin666/herdr-remote)<br><sub>dibin666</sub> | 通过浏览器远程访问你的 Herdr 终端工作区。 | `claude-code` `codex` `pi` `vibe-coding` `typescript` | 3 | 🔄 2026-10-30 |
+| [**community**](https://github.com/fab-agent/community)<br><sub>fab-agent</sub> | 让你的队友与 Agent 并肩工作：在 Herdr 中查看成员、部门、任务和私信 | `ai-agents` `chatinterface` `cloudflare-workers` `community` `terminal-chat` | 3 | 2026-10-15 |
 | [**herdr-telegram-gate**](https://github.com/hkdom/herdr-telegram-gate)<br><sub>hkdom</sub> | 面向 herdr AI Agent 群体的 Telegram 审批收件箱 + 按风险分级的自动批准——被阻塞的 Agent 会以带批准/拒绝按钮的 Telegram 卡片形式呈现（零依赖的 Node.js） | `approval-gate` `telegram` `javascript` | 3 | 2026-08-06 |
 | [**herdr-remotedownloder**](https://github.com/kosuketut/herdr-remotedownloder)<br><sub>kosuketut</sub> | 将文件从远程 Herdr 窗格下载到已连接的 Mac | `developer-tools` `file-transfer` `macos` `rust` `ssh` | 3 | 🔄 2026-10-23 |
 | [**herdr-mobile-pro**](https://github.com/spad-0x/herdr-mobile-pro)<br><sub>spad-0x</sub> | 一款高性能、移动优先的 PWA 仪表盘，采用 Cyber-Dark 设计风格，可直接从智能手机编排 Herdr 与自主 AI Agent。具备安全 HTTPS、语音听写输入、图片上传，以及将终端输出实时语义解析为聊天式界面的能力。 | `javascript` | 3 | 2026-09-12 |
@@ -370,10 +368,11 @@
 | [**🆕 herdr-async-message-relay**](https://github.com/avery20024/herdr-async-message-relay)<br><sub>avery20024</sub> | 为 Herdr Agent 提供持久化异步消息传递，支持稳定的角色路由和批量投递 | `go` | 1 | 🔄 2026-10-29 |
 | [**sightr**](https://github.com/bartholomewtj/sightr)<br><sub>bartholomewtj</sub> | Sightr——通过 Tailscale，为 Herdr 的 Agent 群提供手机网页 UI。 | `typescript` | 1 | 🔄 2026-10-22 |
 | [**herdr-amp-orbs**](https://github.com/BlockedPath/herdr-amp-orbs)<br><sub>BlockedPath</sub> | Herdr 插件：在 Herdr 窗格中运行 Amp orbs（远程 Amp Agent） | `amp` `shell` | 1 | 🔄 2026-10-27 |
-| [**🆕 nenu**](https://github.com/frizynn/nenu)<br><sub>frizynn</sub> | Self-hosted phone and web workbench for Herdr coding agents and Herdr Organizations projects. Read, answer and steer Claude Code, Codex and more from your phon… | `ai-agents` `claude-code` `codex` `coding-agents` `pwa` | 1 | 🔄 2026-10-29 |
+| [**🆕 nenu**](https://github.com/frizynn/nenu)<br><sub>frizynn</sub> | Self-hosted phone and web workbench for Herdr coding agents and Herdr Organizations projects. Read, answer and steer Claude Code, Codex and more from your phon… | `ai-agents` `claude-code` `codex` `coding-agents` `pwa` | 1 | 🔄 2026-10-30 |
 | [**🆕 agent-watch**](https://github.com/gabrielmarcano/agent-watch)<br><sub>gabrielmarcano</sub> | 通过 Wear OS 智能手表批准、回复并向终端编码 Agent（Claude Code、OpenCode、Antigravity 等）下达指令。基于 herdr 构建，配有 Go 编写的主机桥接和自托管中继服务——无需 VPN，无需开放端口。 | `ai-agents` `android` `claude-code` `coding-agents` `golang` | 1 | 🔄 2026-10-27 |
 | [**🆕 herdr-tunnel**](https://github.com/ivorpad/herdr-tunnel)<br><sub>ivorpad</sub> | herdr 插件：将本地端口暴露到公网，复制其 URL，并可随时撤下 | `tui` `python` | 1 | 2026-08-27 |
 | [**🆕 tether-browser**](https://github.com/jeffhuen/tether-browser)<br><sub>jeffhuen</sub> | 面向 AI 编码 Agent 的远程到本地浏览器桥接。Agent 在服务器上运行，Chrome 则留在你的工作站上，保留你的通行密钥、密码管理器和 GPU | `go` | 1 | 2026-10-06 |
+| [**🆕 herdr-codex-voice**](https://github.com/ricardofelixb/herdr-codex-voice)<br><sub>ricardofelixb</sub> | Experimental native Codex voice in Herdr remote panes over SSH and Tailscale | `python` | 1 | 2026-10-07 |
 | [**herdr-vps-local**](https://github.com/yavuzhansarmaz/herdr-vps-local)<br><sub>yavuzhansarmaz</sub> | 在远程主机上获得如本地般的操作体验：通过 Mutagen 将 VPS/Pi 上的仓库镜像到你的笔记本电脑。 | `rust` | 1 | 2026-09-28 |
 
 <details><summary>与此目的也相关</summary>
@@ -392,15 +391,15 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | 精简且经过调优的 Opencode 多 Agent 套件 · 可混用任意模型 · 自动委派任务 | `agentic-ai` `oh-my-opencode` `opencode` `orchestration` `typescript` | 9964 | 🔄 2026-10-29 |
+| [**oh-my-opencode-slim**](https://github.com/alvinunreal/oh-my-opencode-slim)<br><sub>alvinunreal</sub> | 精简且经过调优的 Opencode 多 Agent 套件 · 可混用任意模型 · 自动委派任务 | `agentic-ai` `oh-my-opencode` `opencode` `orchestration` `typescript` | 10000 | 🔄 2026-10-30 |
 | [**agentbox**](https://github.com/madarco/agentbox)<br><sub>madarco</sub> | 一条命令即可在沙盒虚拟机中并行运行多个 Agent（本地或云端） | `claude` `claude-code` `cli` `cmux` `codex` | 564 | 2026-10-07 |
 | [**pi-workflows**](https://github.com/osolmaz/pi-workflows)<br><sub>osolmaz</sub> | 面向 pi 编程 Agent 的工作流引擎、JSON 控制流工具与实时终端查看器 | `typescript` | 355 | 2026-10-08 |
 | [**pi-extensible-workflows**](https://github.com/vekexasia/pi-extensible-workflows)<br><sub>vekexasia</sub> | 面向 Pi 的确定性多 Agent 工作流编排与 codemode 脚本 | `codemode` `pi` `workflow` `workflows` `typescript` | 250 | 🔄 2026-10-28 |
-| [**herdr-board**](https://github.com/nelsonPires5/herdr-board)<br><sub>nelsonPires5</sub> | herdr 的看板工具——卡片就是提示词，会被派发给可见窗格中的 AI Agent | `board` `kanban` `kanban-board` `tui` `rust` | 185 | 🔄 2026-10-18 |
-| [**herdr-dagr**](https://github.com/aemrebarut/herdr-dagr)<br><sub>aemrebarut</sub> | 将 Agent 集群实时呈现为 DAG——在 herdr 分屏窗格中展示包含尝试记录、评审关卡和证据的编排图 | `agents` `dag` `multi-agent` `orchestration` `rust` | 141 | 2026-08-23 |
+| [**herdr-board**](https://github.com/nelsonPires5/herdr-board)<br><sub>nelsonPires5</sub> | herdr 的看板工具——卡片就是提示词，会被派发给可见窗格中的 AI Agent | `board` `kanban` `kanban-board` `tui` `rust` | 186 | 🔄 2026-10-18 |
+| [**herdr-dagr**](https://github.com/aemrebarut/herdr-dagr)<br><sub>aemrebarut</sub> | 将 Agent 集群实时呈现为 DAG——在 herdr 分屏窗格中展示包含尝试记录、评审关卡和证据的编排图 | `agents` `dag` `multi-agent` `orchestration` `rust` | 142 | 2026-08-23 |
 | [**agent-router**](https://github.com/nidhi-singh02/agent-router)<br><sub>nidhi-singh02</sub> | 一款 CLI 工具，会为任务选择 Cursor、Claude Code、Codex 或 OpenCode 及对应的模型/工作强度，并启动它。基于 Jev 和 Herdr 构建。 | `agents` `ai` `claude-code` `cli` `codex` | 119 | 2026-09-27 |
-| [**herdr-file-annotator**](https://github.com/JonasBaeumer/herdr-file-annotator)<br><sub>JonasBaeumer</sub> | 在不脱离实际代码库的前提下，最大化 Agent 化开发效率的 herdr 插件 | `rust` | 64 | 2026-10-07 |
-| [**proqi**](https://github.com/oborchers/proqi)<br><sub>oborchers</sub> | 一款面向同时运行多个编码 Agent 的高级用户的终端原生 prompt 编写工具。 | `ai-agents` `claude-code` `cli` `coding-agents` `developer-tools` | 43 | 🔄 2026-10-25 |
+| [**herdr-file-annotator**](https://github.com/JonasBaeumer/herdr-file-annotator)<br><sub>JonasBaeumer</sub> | 在不脱离实际代码库的前提下，最大化 Agent 化开发效率的 herdr 插件 | `rust` | 65 | 2026-10-07 |
+| [**proqi**](https://github.com/oborchers/proqi)<br><sub>oborchers</sub> | 一款面向同时运行多个编码 Agent 的高级用户的终端原生 prompt 编写工具。 | `ai-agents` `claude-code` `cli` `coding-agents` `developer-tools` | 44 | 🔄 2026-10-25 |
 | [**agentbox-herdr-plugin**](https://github.com/madarco/agentbox-herdr-plugin)<br><sub>madarco</sub> | 一条命令即可在沙盒虚拟机中并行运行多个 Agent（本地或云端） | `claude-code` `codex-cli` `opencode` `sandbox` `shell` | 34 | 2026-06-24 |
 | [**herdr-browser**](https://github.com/StructuPath/herdr-browser)<br><sub>StructuPath</sub> | Herdr 的可操控 Agent 浏览器窗格——支持实时流传输、真实交互、自适应渲染、控制台/页面错误显示、录制和 localhost 路由 | `terminal` `javascript` | 32 | 2026-10-10 |
 | [**herdr-voice**](https://github.com/brogrammerMW/herdr-voice)<br><sub>brogrammerMW</sub> | 与 Herdr 窗格中的编码 Agent 对话，并通过 Grok、OpenAI 或 Gemini 以实时语音听到它们的回答。 | `macos` `voice` `swift` | 31 | 2026-09-26 |
@@ -413,15 +412,15 @@
 | [**PromptPilot**](https://github.com/ivanarama/PromptPilot)<br><sub>ivanarama</sub> | 面向 Claude Code 及其他 AI CLI 的后台任务队列——配有网页 UI 和 Telegram 机器人 | `ai-agents` `claude-code` `telegram-bot` `python` | 20 | 🔄 2026-10-30 |
 | [**herdr-vercel-sandbox-plugin**](https://github.com/vercel-labs/herdr-vercel-sandbox-plugin)<br><sub>vercel-labs</sub> | 从 Herdr 在隔离的 Vercel Sandbox 中运行基于终端的编程 Agent | `javascript` | 15 | 2026-08-09 |
 | [**herdr-social-glass**](https://github.com/ythx-101/herdr-social-glass)<br><sub>ythx-101</sub> | 面向 macOS 版 Herdr 的、适合截图分享的 Social Glass 主题与工作流插件 | `macos` `multi-agent` `terminal-theme` `shell` | 14 | 2026-08-21 |
+| [**shepherdr**](https://github.com/afogel/shepherdr)<br><sub>afogel</sub> | 将委派出去的编程 Agent 收拢到可见、可审查的 herdr 窗格中，供你观察、恢复和接管的 herdr 插件 | `ai-agents` `claude-code` `codex` `cursor` `rust` | 12 | 2026-07-24 |
 | [**herdr-catchup**](https://github.com/wilbeibi/herdr-catchup)<br><sub>wilbeibi</sub> | herdr 的跨 Agent 编程会话交接：从正在运行的窗格中，对 Claude Code、Codex、Cursor、Cline 或 OpenCode 会话进行摘要、分叉，或转交给另一个 Agent | `ai-agents` `claude-code` `codex` `coding-agents` `context-handoff` | 12 | 2026-09-28 |
-| [**shepherdr**](https://github.com/afogel/shepherdr)<br><sub>afogel</sub> | 将委派出去的编程 Agent 收拢到可见、可审查的 herdr 窗格中，供你观察、恢复和接管的 herdr 插件 | `ai-agents` `claude-code` `codex` `cursor` `rust` | 11 | 2026-07-24 |
 | [**deevs-pi-kit**](https://github.com/DeevsDeevs/deevs-pi-kit)<br><sub>DeevsDeevs</sub> | 完美的 pi 工具包，让 Deevs 的工程师效率提升 10 倍。 | `agents` `pi` `pi-agent` `pi-extension` `pi-package` | 11 | 2026-10-08 |
 | [**herdr-devcontainer**](https://github.com/gambtho/herdr-devcontainer)<br><sub>gambtho</sub> | 通过官方 Dev Containers CLI，在仓库的 Dev Container 内打开 shell 和编程 Agent 的 Herdr 插件 | `coding-agents` `containers` `devcontainers` `developer-tools` `development-environment` | 11 | 2026-08-13 |
 | [**herdr-recap**](https://github.com/mrolafsson/herdr-recap)<br><sub>mrolafsson</sub> | 回到一堆 Agent 面前，几秒内就能知道哪些需要你处理。herdr 弹窗会逐个告诉你每个 Agent 进展到哪里（在你离开时写好的回顾）以及轮到谁行动。可直接在列表中回复、搜索对话内容、获得更好的标题。支持 Claude、Codex、OpenCode 和 Hermes | `bubbletea` `claude-code` `codex` `coding-agents` `go` | 11 | 🔄 2026-10-21 |
 | [**agys**](https://github.com/quaywin/agys)<br><sub>quaywin</sub> | 通过零污染沙盒，为 Herdr 中的 Antigravity CLI 提供轻松的多配置文件隔离和实时配额追踪 | `ai-agents` `antigravity` `cli` `context-window` `developer-tools` | 11 | 2026-09-26 |
-| [**vibetty**](https://github.com/second-state/vibetty)<br><sub>second-state</sub> | 通过 MQTT 将 AI Agent 终端实时共享给智能硬件（vibekeys、vibewatch 等），也可作为 Herdr 插件使用 | `claude-code` `codex` `vibecoding` `rust` | 11 | 🔄 2026-10-15 |
+| [**vibetty**](https://github.com/second-state/vibetty)<br><sub>second-state</sub> | 通过 MQTT 将 AI Agent 终端实时共享给智能硬件（vibekeys、vibewatch 等），也可作为 Herdr 插件使用 | `claude-code` `codex` `vibecoding` `rust` | 11 | 🔄 2026-10-30 |
 | [**namedrop**](https://github.com/ericbust/namedrop)<br><sub>ericbust</sub> | 为 Codex、Claude Code 和终端提供 @提及。让不同窗格中的 Agent 协同工作的 Herdr 插件 | `agent-collaboration` `ai-agents` `claude-code` `cli` `codex` | 10 | 🔄 2026-10-30 |
-| [**herdr-swarm**](https://github.com/StructuPath/herdr-swarm)<br><sub>StructuPath</sub> | 在同一仓库上安全并行运行多个编程 Agent：为每个 Agent 分配独立工作树，实时可见变更，Herdr 上以审查优先的方式收获成果 | `terminal` `javascript` | 10 | 🔄 2026-10-15 |
+| [**herdr-swarm**](https://github.com/StructuPath/herdr-swarm)<br><sub>StructuPath</sub> | 在同一仓库上安全并行运行多个编程 Agent：为每个 Agent 分配独立工作树，实时可见变更，Herdr 上以审查优先的方式收获成果 | `terminal` `javascript` | 10 | 2026-10-15 |
 | [**herdr-agent-messenger**](https://github.com/aashishd/herdr-agent-messenger)<br><sub>aashishd</sub> | 让运行中的 Herdr 窗格间的 AI Agent 互相发送简明、自成一体的消息——一个 Agent 可以在不共享完整上下文的情况下与另一个协调工作 | `python` | 9 | 2026-10-09 |
 | [**herdr-plugin-odysseus**](https://github.com/jpolec/herdr-plugin-odysseus)<br><sub>jpolec</sub> | 面向 Herdr 的受治理多 Agent 工作流：任务 → Herdr 窗格中的 Agent → 检查、重试、评审、策略、审批、审计、草拟 PR。 | `ai-agents` `rust` | 9 | 2026-09-25 |
 | [**herdr-helpr**](https://github.com/sohanemon/herdr-helpr)<br><sub>sohanemon</sub> | 面向 herdr 的、由提示词驱动的工作区和窗格管理 | `ai-agents` `bun` `cli` `developer-tools` `ink` | 9 | 🔄 2026-10-26 |
@@ -438,7 +437,7 @@
 | [**chatter**](https://github.com/marcvermeeren/chatter)<br><sub>marcvermeeren</sub> | Chatter 是一次跨 harness 的 Agent 协作实验——为在 Herdr 中处理同一 Git 仓库的多个 Agent 提供共享群聊和上下文层 | `agent-collaboration` `agentic-ai` `agentic-workflow` `ai-agents` `group-chat` | 7 | 2026-08-18 |
 | [**herdr-triage**](https://github.com/natori-hrj/herdr-triage)<br><sub>natori-hrj</sub> | herdr 的关注度分级——按谁最需要你来排序 Agent；长时间被阻塞的 Agent 会排到最前面 | `ai-agents` `triage` `rust` | 7 | 2026-07-23 |
 | [**herdr-fleet**](https://github.com/Northern-Lighthouse/herdr-fleet)<br><sub>Northern-Lighthouse</sub> | 通过 Tailscale 管理一批 herdr 机器——仪表盘插件、自动发现、感知容量的 Agent 派发、无盘工作区 | `ai-agents` `tailscale` `python` | 7 | 2026-08-14 |
-| [**🆕 stampede**](https://github.com/vib-z/stampede)<br><sub>vib-z</sub> | 用短信向你的 Grok Bot 下达任务。它通过 Tailscale 连接你的 Mac，由 Claude Code 完成工作，并按需加入其他 Agent（Codex、Cursor 等）。在你同意之前，不会合并、推送、发送或花费任何东西 | `agent-orchestration` `ai-agents` `claude-code` `cli` `codex` | 7 | 🔄 2026-10-29 |
+| [**🆕 stampede**](https://github.com/vib-z/stampede)<br><sub>vib-z</sub> | 用短信向你的 Grok Bot 下达任务。它通过 Tailscale 连接你的 Mac，由 Claude Code 完成工作，并按需加入其他 Agent（Codex、Cursor 等）。在你同意之前，不会合并、推送、发送或花费任何东西 | `agent-orchestration` `ai-agents` `claude-code` `cli` `codex` | 7 | 🔄 2026-10-30 |
 | [**herdr-scuttlebutt**](https://github.com/andybarilla/herdr-scuttlebutt)<br><sub>andybarilla</sub> | 为 herdr 会话中的 Agent 提供共享聊天室的 herdr 插件 | `rust` | 6 | 2026-09-22 |
 | [**herdr-pane-topic-sync**](https://github.com/danbuhler/herdr-pane-topic-sync)<br><sub>danbuhler</sub> | herdr 插件：将窗格和标签页自动命名为每个 Agent（Claude Code、Codex 等）实时的主题，而不是「1」「2」「3」 | `ai-agents` `claude-code` `terminal` `tmux-alternative` `javascript` | 6 | 2026-09-02 |
 | [**herdr-orchestrator**](https://github.com/kylezk777/herdr-orchestrator)<br><sub>kylezk777</sub> | Herdr-orch 是运行在 Herdr 之上的基于文件的 Agent 编排工具 | `agent-orchestration` `orchestrator` `rust` | 6 | 2026-07-26 |
@@ -472,7 +471,7 @@
 | [**herdr-snip**](https://github.com/eStudio37/herdr-snip)<br><sub>eStudio37</sub> | 框选一个 Agent 的输出并交给另一个 Agent。Herdr 插件：冻结窗格，两次点击框选部分内容，发送给任意 Agent | `ai-agents` `claude-code` `codex` `coding-agents` `terminal` | 3 | 🔄 2026-10-23 |
 | [**herdr-cursor**](https://github.com/gabriel-laet/herdr-cursor)<br><sub>gabriel-laet</sub> | 将 Cursor 的云端 Agent 作为一等公民的 herdr 窗格来使用 | `typescript` | 3 | 2026-09-08 |
 | [**herdr-agent-restart**](https://github.com/hmu332233/herdr-agent-restart)<br><sub>hmu332233</sub> | 当显示出现异常时，通过一个快捷键重启 Herdr 中的 Agent，并继续同一段对话。 | `agent-restart` `javascript` | 3 | 2026-09-08 |
-| [**brgr**](https://github.com/justn-hyeok/brgr)<br><sub>justn-hyeok</sub> | 在 Herdr 窗格中将 Claude Code、Codex、OpenCode、Cursor 等作为并行的编码 Agent 工作进程运行，由你的 Codex 或 Claude Code 会话统一编排 | `agent-orchestration` `ai-agents` `ai-coding` `claude-code` `codex` | 3 | 🔄 2026-10-29 |
+| [**brgr**](https://github.com/justn-hyeok/brgr)<br><sub>justn-hyeok</sub> | 在 Herdr 窗格中将 Claude Code、Codex、OpenCode、Cursor 等作为并行的编码 Agent 工作进程运行，由你的 Codex 或 Claude Code 会话统一编排 | `agent-orchestration` `ai-agents` `ai-coding` `claude-code` `codex` | 3 | 🔄 2026-10-30 |
 | [**kubeflock**](https://github.com/LoriKarikari/kubeflock)<br><sub>LoriKarikari</sub> | [实验性] 在 Herdr 中创建并连接 Kubernetes 沙盒 | `agent-sandbox` `gvisor` `kubernetes` `sandbox` `go` | 3 | 2026-09-11 |
 | [**herdr-link**](https://github.com/LZHcode1986/herdr-link)<br><sub>LZHcode1986</sub> | 为 Herdr 会话提供更快、更省 token、无需推理的跨 Agent 互操作性。用一份统一的契约取代笨重的 skill，涵盖对等发现、消息传递和窗格生命周期 | `typescript` | 3 | 🔄 2026-10-19 |
 | [**herdr-snooze**](https://github.com/mrolafsson/herdr-snooze)<br><sub>mrolafsson</sub> | 把冗长的 Agent 列表精简到只剩你正在使用的。这个 herdr 插件可将某个 Agent 或整个空间从 Agents 面板中隐藏，直到你选定的时间（15 分钟、明天 9 点、一周后），之后自动恢复，并用一个列表显示哪些被暂停及何时唤醒。可与 herdr-recap 配合使用 | `bubbletea` `claude-code` `coding-agents` `go` `multi-agent` | 3 | 🔄 2026-10-20 |
@@ -490,8 +489,9 @@
 | [**herdr-radar-plus**](https://github.com/4242labs/herdr-radar-plus)<br><sub>4242labs</sub> | Herdr 插件：按需要你处理的紧急程度对 Agent 排序，并以跨机器的具名分组呈现。基于 herdr-radar 构建。 | `agent-monitoring` `ai-agents` `coding-agents` `developer-tools` `multi-machine` | 2 | 🔄 2026-10-25 |
 | [**herdr-threads**](https://github.com/alepar/herdr-threads)<br><sub>alepar</sub> | durable group threads (aka message inbox) for your agents, cross-harness and cross-machine | `rust` | 2 | 🔄 2026-10-29 |
 | [**herdr-agent-tree**](https://github.com/dboeter/herdr-agent-tree)<br><sub>dboeter</sub> | herdr 插件：以实时树形结构展示工作区及其 Agent，停靠在每个标签页的左侧或右侧 | `agentic-workflow` `claude-code` `claudecode` `codex-cli` `coding-agents` | 2 | 🔄 2026-10-25 |
-| [**herdr-glow**](https://github.com/DevooKim/herdr-glow)<br><sub>DevooKim</sub> | 当 Herdr Agent 被阻塞时，在 macOS 屏幕边缘显示环境光晕 | `swift` | 2 | 🔄 2026-10-15 |
+| [**herdr-glow**](https://github.com/DevooKim/herdr-glow)<br><sub>DevooKim</sub> | 当 Herdr Agent 被阻塞时，在 macOS 屏幕边缘显示环境光晕 | `swift` | 2 | 2026-10-15 |
 | [**herdr-docket**](https://github.com/DnzzL/herdr-docket)<br><sub>DnzzL</sub> | 把任务交给一个具名编码 Agent：它会创建 PR，由第二个 Agent 验证，再由代码实现的合并闸门完成合并——或者交还给你。一个 Herdr 插件 | `agent-fleet` `ai-agents` `ai-code-review` `autonomous-agents` `backlog-md` | 2 | 🔄 2026-10-28 |
+| [**🆕 herdr-mattermost**](https://github.com/fzf/herdr-mattermost)<br><sub>fzf</sub> | Herdr plugin: Mattermost as a UI layer. Channels are workspaces, root posts are agents. | `mattermost` `javascript` | 2 | 🔄 2026-10-29 |
 | [**browsr**](https://github.com/g00rek/browsr)<br><sub>g00rek</sub> | 让专用的 Chromium 标签组与每个 Herdr 工作区保持同步 | `chromium` `coding-agents` `developer-tools` `hyprland` `linux` | 2 | 🔄 2026-10-19 |
 | [**herdr-prompt-bucket**](https://github.com/GNURub/herdr-prompt-bucket)<br><sub>GNURub</sub> | 面向运行在 Herdr 中的编程 Agent 的持久化、有序的提示词队列 | `claude-code` `codex` `coding-agents` `opencode` `typescript` | 2 | 2026-08-19 |
 | [**herdr-annotations**](https://github.com/IgorWarzocha/herdr-annotations)<br><sub>IgorWarzocha</sub> | 收集对终端选中内容的注释，并暂存到 Herdr Agent 中 | `ai-agents` `annotations` `terminal` `javascript` | 2 | 2026-07-18 |
@@ -519,35 +519,31 @@
 | [**herdr-pouch**](https://github.com/AltanS/herdr-pouch)<br><sub>AltanS</sub> | herdr 插件：预先为 Agent 存储提示词，待其就绪时再插入 | `ai-agents` `ai-coding` `ai-tools` `multiplexing` `typescript` | 1 | 2026-09-02 |
 | [**🆕 unblock**](https://github.com/aneym/unblock)<br><sub>aneym</sub> | 将 Agent 需要你处理的一切汇总到一个队列中。阻塞项需要你采取行动，grill 需要你做出判断——密钥永远不会进入模型的上下文 | `agents` `human-in-the-loop` `mcp` `javascript` | 1 | 🔄 2026-10-28 |
 | [**herdr-pi-reloader**](https://github.com/anrunt/herdr-pi-reloader)<br><sub>anrunt</sub> | 从 Herdr 浮层 TUI 中重新加载或重启闲置的 Pi Agent 会话 | `rust` | 1 | 2026-07-18 |
-| [**🆕 turnr**](https://github.com/antoniocosta/turnr)<br><sub>antoniocosta</sub> | herdr plugin: a side panel listing an agent's turns (Claude Code, Codex, pi, agy); click one to scroll the pane there | `claude-code` `terminal` `python` | 1 | 🔄 2026-10-24 |
-| [**🆕 hird**](https://github.com/aoprisan/hird)<br><sub>aoprisan</sub> | 跨 harness 的 Agent 工作队列与共享断言记忆，由一个本地 SQLite 数据库支撑 | `ai-agents` `claude-code` `cli` `mcp` `rust` | 1 | 2026-09-29 |
 | [**herdr-pointr**](https://github.com/aristeoibarra/herdr-pointr)<br><sub>aristeoibarra</sub> | 指向 localhost 页面上的某个 DOM 元素，即可将其对应的 React 组件、选择器及可选截图发送给负责该项目的编码 Agent。一个 herdr 插件。 | `coding-agent` `devtools` `react` `typescript` | 1 | 2026-09-25 |
 | [**herdr-quick-prompt**](https://github.com/astwys/herdr-quick-prompt)<br><sub>astwys</sub> | 向 Agent 窗格发送预定义提示词的 Herdr 插件 | `shell` | 1 | 2026-08-24 |
-| [**herdr-overview**](https://github.com/baeroe/herdr-overview)<br><sub>baeroe</sub> | herdr 的任务控制中心：以平铺方式实时总览所有空间、全部 Agent 或你收藏的窗格 | `ai-agents` `mission-control` `nodejs` `terminal` `tui` | 1 | 🔄 2026-10-15 |
+| [**herdr-overview**](https://github.com/baeroe/herdr-overview)<br><sub>baeroe</sub> | herdr 的任务控制中心：以平铺方式实时总览所有空间、全部 Agent 或你收藏的窗格 | `ai-agents` `mission-control` `nodejs` `terminal` `tui` | 1 | 2026-10-15 |
 | [**herdr-agent-queue**](https://github.com/connerohnesorge/herdr-agent-queue)<br><sub>connerohnesorge</sub> | herdr 插件：为 Claude Code 及其他 Agent 排队提示词，当前轮次结束后逐条作为新一轮提交（类似 Codex 的队列） | `claude-code` `python` | 1 | 2026-09-29 |
-| [**🆕 herdr-hive**](https://github.com/deepshape-ai/herdr-hive)<br><sub>deepshape-ai</sub> | 与团队共享 Herdr 会话。Hive 负责连接设备，Bee 负责发布选定的会话，而 Agent 仍在各自主机上持续运行。 | `collaboration` `session-sharing` `go` | 1 | 2026-10-06 |
 | [**🆕 herdr-crook**](https://github.com/denera/herdr-crook)<br><sub>denera</sub> | A shepherd's crook to reach the agents that wandered off into Slurm jobs and containers, and bring them back into the herd. | `python` | 1 | 🔄 2026-10-22 |
 | [**🆕 herdr-handoff**](https://github.com/devops-fj/herdr-handoff)<br><sub>devops-fj</sub> | 在 Herdr 编程 Agent 之间预览并安全地移交本地工作上下文 | `ai-agents` `coding-agents` `go` | 1 | 2026-08-21 |
 | [**🆕 herdr-orch**](https://github.com/ellingtonsp/herdr-orch)<br><sub>ellingtonsp</sub> | Orchestrate coding agents in herdr: mailbox, blocking ask/reply, tasks with dependencies, tracked dispatch, decision gates, verified worker release. CLI: horch. | `ai-agents` `claude-code` `cli` `codex` `go` | 1 | 2026-10-14 |
+| [**🆕 herdr-tasks**](https://github.com/Eslsamu/herdr-tasks)<br><sub>Eslsamu</sub> | 为 Herdr 提供由 Agent 拥有的本地任务队列，并配有实时的只读浏览器视图。 | `ai-agents` `codex` `local-first` `python` `sqlite` | 1 | 🔄 2026-10-26 |
 | [**🆕 herdr-state-icons**](https://github.com/flowreaction/herdr-state-icons)<br><sub>flowreaction</sub> | 为 HerdR 的空间与 Agent 提供可着色的动态生命周期图标。 | `python` | 1 | 2026-09-10 |
 | [**🆕 operator**](https://github.com/fveracoechea/operator)<br><sub>fveracoechea</sub> | Operator: skills and CLI tooling for orchestrating coding-agent crews (OpenCode, Claude Code) via Herdr | `coding-agents` `typescript` | 1 | 🔄 2026-10-30 |
 | [**herdr-agent-team**](https://github.com/gdli6177/herdr-agent-team)<br><sub>gdli6177</sub> | 用 Markdown 定义 Agent 团队的 Herdr 插件 | `javascript` | 1 | 2026-08-16 |
 | [**🆕 LunaCrab**](https://github.com/GranamyrBR/LunaCrab)<br><sub>GranamyrBR</sub> | 为另一个项目保留 | `agents` `developer-tools` `multi-agent` `observability` `rust` | 1 | 2026-08-10 |
-| [**🆕 heraldr**](https://github.com/gwenwindflower/heraldr)<br><sub>gwenwindflower</sub> | 🛡️ 为 Herdr 的标签页、工作区和 Agent 提供响应式标签装饰 | `rust` | 1 | 2026-10-01 |
 | [**🆕 herdr-plugin-done-timer**](https://github.com/hanjm93/herdr-plugin-done-timer)<br><sub>hanjm93</sub> | 在 herdr 的 Agent 面板中，为每个 AI Agent 显示从其对话记录中读取的 prompt 缓存倒计时。 | `ai-agents` `claude-code` `shell` | 1 | 2026-09-15 |
+| [**🆕 agent-keep-awake**](https://github.com/happyeric77/agent-keep-awake)<br><sub>happyeric77</sub> | 在 Herdr Agent 工作期间阻止 macOS 休眠 | `javascript` | 1 | 🔄 2026-10-26 |
 | [**🆕 the-cat-concerto**](https://github.com/Herdanis/the-cat-concerto)<br><sub>Herdanis</sub> | 由 herdr 驱动的编码 Agent 编排 prompt 与工作者契约。 | `claude-code` `codex` `coding-agent` `gemini-cli` `opencode` | 1 | 🔄 2026-10-26 |
-| [**🆕 herdr-dispatch**](https://github.com/husniadil/herdr-dispatch)<br><sub>husniadil</sub> | 面向 herdr-tasks 看板的调度器——为每个已就绪的任务启动一个 worker Agent 窗格，传递目标、追踪 worker，并在评审处暂停。全部由一个 Go 二进制程序实现 | `agent-orchestration` `ai-agents` `dispatcher` `mcp-server` `go` | 1 | 2026-08-31 |
+| [**🆕 herdr-agent-prompt**](https://github.com/jeffbking/herdr-agent-prompt)<br><sub>jeffbking</sub> | Herdr 插件：按下 prefix+p 打开浮层，查看当前聚焦编码 Agent（Claude Code、Codex、Antigravity、Pi）的原始 prompt。 | `claude-code` `codex` `python` | 1 | 2026-09-08 |
 | [**herdr-diagrams**](https://github.com/jellespijker/herdr-diagrams)<br><sub>jellespijker</sub> | 将编码 Agent 生成的 Mermaid、PlantUML、Structurizr、D2 和 Graphviz 图表以图片形式渲染在 Herdr 窗格中 | `claude-code` `diagrams` `kitty-graphics` `mermaid` `plantuml` | 1 | 🔄 2026-10-30 |
 | [**paneMorph**](https://github.com/Jenish-Shobhit/paneMorph)<br><sub>Jenish-Shobhit</sub> | 一个 herdr 插件，可在标签页和空间之间移动正在运行的窗格：可将任意窗格发送到任意位置，也可从任意位置取回，且移动操作可撤销。 | `ai-agents` `developer-tools` `pane-management` `ratatui` `rust` | 1 | 🔄 2026-10-18 |
 | [**🆕 herdr-plan-approve**](https://github.com/jerryfane/herdr-plan-approve)<br><sub>jerryfane</sub> | 在 herdr 中自动批准 Claude Code 的计划模式对话框——Agent 制定计划后无需按键即可直接执行 | `claude-code` `shell` | 1 | 2026-08-25 |
 | [**corral**](https://github.com/jirathip-dev/corral)<br><sub>jirathip-dev</sub> | 面向 herdr 编码 Agent 群的只读监控工具。 | `agent-orchestration` `ai-agents` `coding-agents` `devtools` `fleet-management` | 1 | 🔄 2026-10-27 |
-| [**🆕 herdr-turn-coordinator**](https://github.com/KarthusLorin/herdr-turn-coordinator)<br><sub>KarthusLorin</sub> | 在不依赖模型驱动的状态轮询的情况下，维持交互式 Herdr Agent TUI | `ai-agents` `python` | 1 | 2026-09-18 |
 | [**🆕 shop-plugin**](https://github.com/kyrosle/shop-plugin)<br><sub>kyrosle</sub> | 面向 Pi 和 Herdr 的可视化多 Agent 工作站，支持配置 Lead/Worker 模型、基于文件的任务交接以及明确的评审流程。本地 Alpha 版。 | `coding-agent` `developer-tools` `human-in-the-loop` `multi-agent` `pi-coding-agent` | 1 | 2026-09-27 |
 | [**herdr-panel**](https://github.com/lukeda/herdr-panel)<br><sub>lukeda</sub> | 在桌面面板中显示你的 herdr Agent 及其状态（支持 KDE Plasma 6，更多桌面环境即将支持） | `ai-agents` `kde` `kde-plasma` `plasma` `plasmoid` | 1 | 🔄 2026-10-16 |
 | [**sheprd**](https://github.com/m-mohamed/sheprd)<br><sub>m-mohamed</sub> | 将 Pi、Codex、Claude Code 和 OpenCode 统一收纳到一个可见且隔离的 Herdr「Flok」中 | `agent-tools` `claude-code` `cli` `codex` `coding-agents` | 1 | 2026-08-25 |
 | [**herdr-matrix**](https://github.com/madebygrant/herdr-matrix)<br><sub>madebygrant</sub> | Herdr Matrix。你的 Agent 化身为 Smith、Brown 和 Jones，显示 Matrix 风格的状态文字，空闲时还会出现数字雨 | `ai-agents` `matrix` `terminal` `python` | 1 | 2026-10-13 |
 | [**herdr-tournament**](https://github.com/neospeed83/herdr-tournament)<br><sub>neospeed83</sub> | 面向 Herdr 的对抗式多 Agent 代码评审 | `rust` | 1 | 2026-08-29 |
-| [**🆕 herdr-caffeinate**](https://github.com/nwarwick/herdr-caffeinate)<br><sub>nwarwick</sub> | 在 Herdr Agent 工作期间阻止 macOS 系统休眠 | `caffeinate` `coding-agents` `macos` `shell` | 1 | 2026-07-29 |
 | [**🆕 herdr-spawn**](https://github.com/nytafar/herdr-spawn)<br><sub>nytafar</sub> | 一个 MCP 工具，将聊天中的提示词交给你某台主机上开启了 Remote Control 的真实 Claude Code 会话 | `python` | 1 | 2026-08-21 |
 | [**🆕 herdr-plugins**](https://github.com/paniolo-ai/herdr-plugins)<br><sub>paniolo-ai</sub> | Paniolo 的 Herdr 插件：编码 Agent 的实时状态页脚，以及 Obsidian 直达链接 | `claude-code` `codex` `coding-agents` `cursor` `devin` | 1 | 🔄 2026-10-21 |
 | [**🆕 herdr-agent-panel**](https://github.com/patrikbraborec/herdr-agent-panel)<br><sub>patrikbraborec</sub> | herdr plugin: per-agent side panel with context usage, connectors, skills (update/remove via npx skills), sandbox info, and diffs of files the agent changed | `claude-code` `python` | 1 | 🔄 2026-10-28 |
@@ -564,7 +560,6 @@
 | [**herdr-plugin-agent-spawn**](https://github.com/varvand/herdr-plugin-agent-spawn)<br><sub>varvand</sub> | 通过一条提示词打开多个 Herdr Agent 窗格 | `python` | 1 | 2026-10-08 |
 | [**herdr-polyglot**](https://github.com/wazum/herdr-polyglot)<br><sub>wazum</sub> | 用你自己的语言编写编程 Agent 提示词——DeepL 或 Google Cloud Translate 会将其翻译为英文，并投递到 Claude Code、Codex 或任意 herdr Agent 窗格中 | `ai-agents` `bubbletea` `bubbletea-tui` `claude-code` `codex` | 1 | 2026-09-01 |
 | [**🆕 herdr-session-titles**](https://github.com/wxomi/herdr-session-titles)<br><sub>wxomi</sub> | 为 Herdr 中的 Devin、Cursor、Agy、Kiro 和 Claude 提供丰富的会话标题与任务上下文。 | `ai-agents` `terminal` `python` | 1 | 2026-10-05 |
-| [**🆕 herdr-derby**](https://github.com/xzedx/herdr-derby)<br><sub>xzedx</sub> | 向当前 Herdr 标签页中的每个编码 Agent 发送同一条提示词并观看它们竞速：弹出窗口用于输入，窗格边框显示实时计时和完成名次 | `coding-agents` `rust` | 1 | 🔄 2026-10-23 |
 | [**🆕 herdr-fleet-plugin**](https://github.com/yarrasys/herdr-fleet-plugin)<br><sub>yarrasys</sub> | herdr 插件：根据每个仓库的 fleet 文件（.herdr/fleet.toml）启动、重启和更换一组具名编码 Agent | `coding-agents` `multi-agent` `python` | 1 | 🔄 2026-10-26 |
 | [**agent-mail**](https://github.com/youssef-tharwat/agent-mail)<br><sub>youssef-tharwat</sub> | 面向编码 Agent 的持久化邮件与工作记录。本地化、紧凑、与运行时无关 | `agent-skill` `rust` | 1 | 2026-10-09 |
 | [**🆕 fence**](https://github.com/zenodea/fence)<br><sub>zenodea</sub> | 隔离的 herdr 会话（bubblewrap + nftabels） | `ai-agents` `bubblewrap` `claude-code` `nftables` `sandbox` | 1 | 2026-10-05 |
@@ -596,7 +591,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-worktrunk**](https://github.com/devashish2203/herdr-worktrunk)<br><sub>devashish2203</sub> | 集成 worktrunk 以管理 git 工作树的 Herdr 插件 | `powershell` | 191 | 2026-10-06 |
+| [**herdr-worktrunk**](https://github.com/devashish2203/herdr-worktrunk)<br><sub>devashish2203</sub> | 集成 worktrunk 以管理 git 工作树的 Herdr 插件 | `powershell` | 192 | 2026-10-06 |
 | [**herdr-plugin-jj-workspace**](https://github.com/NathanFlurry/herdr-plugin-jj-workspace)<br><sub>NathanFlurry</sub> | 将 Jujutsu (jj) 工作区作为 Herdr 工作区进行创建和删除 | `jujutsu` `rust` | 48 | 2026-09-03 |
 | [**herdr-plugin-renamer**](https://github.com/wyattjoh/herdr-plugin-renamer)<br><sub>wyattjoh</sub> | 根据 Agent 的第一条提示词，重命名自动生成的 herdr 工作树分支和工作区（通过设备端 Apple FoundationModels 或 Codex） | `rust` | 20 | 🔄 2026-10-26 |
 | [**herdr-e2b-sandbox**](https://github.com/e2b-dev/herdr-e2b-sandbox)<br><sub>e2b-dev</sub> | 将 git 工作树镜像到 E2B Sandbox 的 herdr 插件——支持单个沙盒或每个 Agent 一条分支的沙盒集群，并配有 TUI 仪表盘 | `cli` `cloud-dev` `e2b` `git-worktree` `integration` | 14 | 2026-09-29 |
@@ -619,6 +614,7 @@
 | [**herdr-quartermaster**](https://github.com/travisjeffery/herdr-quartermaster)<br><sub>travisjeffery</sub> | Herdr 插件：一个协调者，每个 bead 对应一个工作树和 Agent，bead 是唯一的记录 | `go` | 4 | 🔄 2026-10-29 |
 | [**herdr-worktreeinclude**](https://github.com/eightHundreds/herdr-worktreeinclude)<br><sub>eightHundreds</sub> | Herdr 插件：将 .worktreeinclude 指定的被 gitignore 文件复制到新工作树中 | `worktree` `rust` | 3 | 2026-07-28 |
 | [**herdr-multirepo**](https://github.com/jattento/herdr-multirepo)<br><sub>jattento</sub> | 在一个 Herdr 工作区中管理跨多个仓库的同一条功能分支 | `git-worktree` `python` | 3 | 2026-08-03 |
+| [**herdr-inbox**](https://github.com/lucasscariot/herdr-inbox)<br><sub>lucasscariot</sub> | Herdr 插件：在任意项目、框架、机器或 worktree 上启动 Agent 线程，并在一个实时收件箱中跟踪所有 Agent | `blueprint` `coding-agents` `python` `tui` `rust` | 3 | 🔄 2026-10-17 |
 | [**herdr-wish**](https://github.com/MovieHolic-Plex/herdr-wish)<br><sub>MovieHolic-Plex</sub> | Herdr 插件。许下一个愿望，omo 就会提交一个 PR。执行 omo-10 会打开 10 个 worktree。 | `omo` `wish` `javascript` | 3 | 2026-10-09 |
 | [**herdr-branch-cleanup**](https://github.com/osolmaz/herdr-branch-cleanup)<br><sub>osolmaz</sub> | 当窗格所在分支在 GitHub 上被合并或删除后，自动切换到默认分支 | `git` `github` `rust` | 3 | 2026-07-26 |
 | [**herdr-worktree-lifecycle**](https://github.com/qdentity/herdr-worktree-lifecycle)<br><sub>qdentity</sub> | Herdr 插件：将工作树生命周期事件分发给仓库自带的初始化/清理脚本 | `rust` | 3 | 2026-06-29 |
@@ -630,11 +626,10 @@
 | [**herdr-plugin-jj-workspace**](https://github.com/expnn/herdr-plugin-jj-workspace)<br><sub>expnn</sub> | 一个用于创建和删除 Jujutsu（jj）工作区的 Herdr 插件。 | `rust` | 2 | 2026-09-30 |
 | [**herdr-gc**](https://github.com/H3xept/herdr-gc)<br><sub>H3xept</sub> | 当 herdr 中的 Git worktree 被创建、打开、关闭或删除时，运行你自定义的步骤：安装、建议清理、分类等。 | `git-worktree` `terminal` `javascript` | 2 | 🔄 2026-10-18 |
 | [**🆕 jumar**](https://github.com/joshbarrington/jumar)<br><sub>joshbarrington</sub> | A fast terminal UI for managing git worktrees | `claude-code-plugin` `cli` `git` `git-worktree` `rust` | 2 | 🔄 2026-10-27 |
-| [**herdr-inbox**](https://github.com/lucasscariot/herdr-inbox)<br><sub>lucasscariot</sub> | Herdr 插件：在任意项目、框架、机器或 worktree 上启动 Agent 线程，并在一个实时收件箱中跟踪所有 Agent | `blueprint` `coding-agents` `python` `tui` `rust` | 2 | 🔄 2026-10-17 |
 | [**herdr-shear**](https://github.com/mcc0x/herdr-shear)<br><sub>mcc0x</sub> | 找出可以安全删除的 git worktree 并删除它们。herdr 的 worktree 清理工具 | `cleanup` `git-worktree` `rust` `terminal` | 2 | 🔄 2026-10-16 |
 | [**herdr-worktreeinclude**](https://github.com/serhii-chernenko/herdr-worktreeinclude)<br><sub>serhii-chernenko</sub> | 允许为新工作树指定自定义路径，并像 Claude CLI 一样遵循 `.worktreeinclude` 文件 | `worktree` `shell` | 2 | 2026-10-14 |
 | [**herdr-plugin-worktree-bootstrap**](https://github.com/zerodice0/herdr-plugin-worktree-bootstrap)<br><sub>zerodice0</sub> | 在新的 Herdr Git 工作树中安全地复制被忽略的本地文件并运行初始化命令 | `python` | 2 | 🔄 2026-10-17 |
-| [**🆕 herdr-keep-root**](https://github.com/bonkey/herdr-keep-root)<br><sub>bonkey</sub> | Herdr 插件：只要某个仓库的任意 worktree 工作区处于打开状态，就保持该仓库主检出工作区一直打开，从而避免 Spaces 面板中的 worktree 分组被拍平。 | `shell` | 1 | 2026-09-08 |
+| [**🆕 herdr-composer**](https://github.com/danieljvdm/herdr-composer)<br><sub>danieljvdm</sub> | 编排任务、附加上下文，并在隔离的 Herdr 工作区中启动编码 Agent。 | `coding-agents` `git-worktree` `rust` | 1 | 🔄 2026-10-21 |
 | [**herdr-worktree-upstream**](https://github.com/DaveBird99/herdr-worktree-upstream)<br><sub>DaveBird99</sub> | herdr 插件：将新的 worktree 关联到已有的 origin 分支 | `shell` | 1 | 2026-10-07 |
 | [**🆕 herdr-allow**](https://github.com/Feasy01/herdr-allow)<br><sub>Feasy01</sub> | herdr 插件：通过 .herdr-allow 允许列表，将被 gitignore 的文件（.env、密钥、本地配置）复制到每个新工作树中 | `shell` | 1 | 2026-07-02 |
 | [**🆕 herdr-glab**](https://github.com/hlouis/herdr-glab)<br><sub>hlouis</sub> | 面向 GitLab 合并请求的 Herdr 插件：分组 MR 面板、worktree 检出、tuicr 审查、侧边栏状态和标签栏计数。所有访问均通过 glab CLI 完成 | `cli` `gitlab` `golang` `go` | 1 | 2026-09-19 |
@@ -645,6 +640,7 @@
 | [**🆕 herdr-collide**](https://github.com/mcc0x/herdr-collide)<br><sub>mcc0x</sub> | Warns when agents working in different git worktrees of one repo are about to collide — and whether their edits merely overlap or will actually conflict. | `conflict-detection` `git-worktree` `rust` `terminal` | 1 | 🔄 2026-10-16 |
 | [**🆕 herdr-standup**](https://github.com/mcc0x/herdr-standup)<br><sub>mcc0x</sub> | Agent 实际完成工作的摘要。一条命令即可生成指定时间段内所有 Herdr 工作区的可读总结——提交、改动量、分支，以及工作成果是否已落地 | `git` `rust` `standup` `terminal` | 1 | 🔄 2026-10-16 |
 | [**🆕 herdr-pr-worktree**](https://github.com/poislagarde/herdr-pr-worktree)<br><sub>poislagarde</sub> | 将 GitHub 拉取请求作为 worktree 空间在 Herdr 中打开，并复用已有的检出。 | `git-worktree` `python` | 1 | 2026-10-14 |
+| [**🆕 herdr-jira-worktree**](https://github.com/spiritsack/herdr-jira-worktree)<br><sub>spiritsack</sub> | herdr 插件：提示输入 Jira 工单，打开或复用对应的 git 工作树，并预填到全新的 Claude Code 会话中 | `shell` | 1 | 2026-08-24 |
 | [**herdr-worktree-include**](https://github.com/tupton/herdr-worktree-include)<br><sub>tupton</sub> | 将未跟踪的文件以符号链接或复制的方式引入 herdr 创建的 git worktree。 | `shell` | 1 | 2026-09-14 |
 
 <details><summary>与此目的也相关</summary>
@@ -661,7 +657,6 @@
 - [nicholasjstock/paneyard](https://github.com/nicholasjstock/paneyard) — 将编码任务排入队列，并作为可观察、可引导、可恢复的交互式 Agent 会话并行运行
 - [tomasvarga/herdr-e2b](https://github.com/tomasvarga/herdr-e2b) — 按需将 git 工作树镜像到全新的 E2B 云沙盒——直接上传快照（包括未提交的更改），无需 push 或 clone。一个 herdr 插件
 - [poislagarde/herdr-worktree-cleanup](https://github.com/poislagarde/herdr-worktree-cleanup) — 当对应的 Herdr 空间关闭时，自动清理可安全删除的 GitHub PR worktree。Python 编写，无依赖，MIT 许可。
-- [Tarektouati/herdr-pr-modal](https://github.com/Tarektouati/herdr-pr-modal) — 直接从 Herdr 中，将任意 Pull Request 在其专属 worktree 中打开。
 - [ZviBaratz/herdr-draft](https://github.com/ZviBaratz/herdr-draft) — herdr 插件：新建会话对话框——一次提交即可设置 Linear issue、worktree、放置位置、Agent 类型、clauth 账户与初始 prompt。
 
 </details>
@@ -676,9 +671,9 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：预热沙盒、同步差异、运行测试套件 | `agent-skills` `remote-test-runner` `go` | 1510 | 🔄 2026-10-29 |
-| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | 在终端窗格中审查 Agent 的差异，并将评论发回给 Claude Code、Codex、OpenCode 或 Pi。一个 herdr 插件 | `agentic-coding` `ai-agents` `claude-code` `cli` `code-review` | 958 | 🔄 2026-10-29 |
-| [**herdr-annotate**](https://github.com/plannotator/herdr-annotate)<br><sub>plannotator</sub> | 在 Herdr 中为终端文本、文档和 Agent 回复添加注释并进行评审，并将反馈直接发回给 Agent | `annotation` `multiplexer` `rust` | 720 | 🔄 2026-10-29 |
+| [**crabbox**](https://github.com/openclaw/crabbox)<br><sub>openclaw</sub> | Crabbox：预热沙盒、同步差异、运行测试套件 | `agent-skills` `remote-test-runner` `go` | 1511 | 🔄 2026-10-30 |
+| [**herdr-reviewr**](https://github.com/persiyanov/herdr-reviewr)<br><sub>persiyanov</sub> | 在终端窗格中审查 Agent 的差异，并将评论发回给 Claude Code、Codex、OpenCode 或 Pi。一个 herdr 插件 | `agentic-coding` `ai-agents` `claude-code` `cli` `code-review` | 959 | 🔄 2026-10-29 |
+| [**herdr-annotate**](https://github.com/plannotator/herdr-annotate)<br><sub>plannotator</sub> | 在 Herdr 中为终端文本、文档和 Agent 回复添加注释并进行评审，并将反馈直接发回给 Agent | `annotation` `multiplexer` `rust` | 723 | 🔄 2026-10-29 |
 | [**roamgate**](https://github.com/powerfooI/roamgate)<br><sub>powerfooI</sub> | 适用于任意屏幕的 Herdr 客户端。可在桌面或移动设备上控制终端、监控编码 Agent，并查看文件与差异。 | `ai-agents` `bun` `code-review` `developer-tools` `git-worktree` | 321 | 🔄 2026-10-30 |
 | [**herdr-hunk-diff**](https://github.com/jhochenbaum/herdr-hunk-diff)<br><sub>jhochenbaum</sub> | 从 herdr 在 Hunk 中审查 Agent 编写的更改，并将行内评论回传给对应的 Agent | `code-review` `hunk` `typescript` | 148 | 🔄 2026-10-28 |
 | [**herdr-plannotator**](https://github.com/plannotator/herdr-plannotator)<br><sub>plannotator</sub> | 在 Herdr 的 Browser 窗格内打开 Plannotator 评审的插件 | `plannotator` `typescript` | 26 | 2026-07-29 |
@@ -692,7 +687,7 @@
 | [**huicr**](https://github.com/claytonjschneider/huicr)<br><sub>claytonjschneider</sub> | 面向代码评审的 Herdr 用户界面。 | `python` | 3 | 2026-10-01 |
 | [**herdr-review.nvim**](https://github.com/inferst/herdr-review.nvim)<br><sub>inferst</sub> | 集成 Git 和 herdr 的 Neovim 代码审查 UI | `lua` | 3 | 2026-08-01 |
 | [**herdr-review**](https://github.com/quantk/herdr-review)<br><sub>quantk</sub> | 在 Hunk 中审查 Agent 编写的更改，并通过 Herdr 回传行内反馈 | `code-review` `hunk` `javascript` | 3 | 2026-07-28 |
-| [**easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | 面向 AI 辅助编程的 Git 差异审查，提供终端 TUI 和 Tauri 桌面应用两种形式 | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 3 | 🔄 2026-10-28 |
+| [**easy-review**](https://github.com/VilfredSikker/easy-review)<br><sub>VilfredSikker</sub> | 面向 AI 辅助编程的 Git 差异审查，提供终端 TUI 和 Tauri 桌面应用两种形式 | `ai-code-review` `cli` `code-review` `desktop-app` `developer-tools` | 3 | 🔄 2026-10-30 |
 | [**herdr-hunk**](https://github.com/yuucu/herdr-hunk)<br><sub>yuucu</sub> | herdr 插件：为你的 Agent 工作区切换 Hunk 差异审查 | `diff` `hunk` `go` | 3 | 2026-10-01 |
 | [**magnum**](https://github.com/zhuravel/magnum)<br><sub>zhuravel</sub> | 把你的 AI 编码 Agent 变成 Pull Request 评审团队：Claude Code、Codex 等在 herdr 窗格中评审每次推送，由裁判验证每条发现，最终发布一份 GitHub 评审 | `ai-agents` `ai-code-review` `bubbletea` `claude-code` `cli` | 3 | 🔄 2026-10-29 |
 | [**herdr-stagr**](https://github.com/brianh20/herdr-stagr)<br><sub>brianh20</sub> | 面向 herdr 的源代码管理侧边栏——通过并排差异对比进行暂存、取消暂存和放弃更改 | `git` `tui` `rust` | 2 | 2026-08-06 |
@@ -713,7 +708,7 @@
 | [**herdr-peer-review**](https://github.com/Elio2000/herdr-peer-review)<br><sub>Elio2000</sub> | 在 herdr 窗格中打开第二个编程 Agent 来审查你的差异——可观察、自动批准、只读。附带用于「审查↔修改↔决策」自主循环的 Claude Code skill | `agent-skills` `ai-agents` `claude-code` `code-review` `codex` | 1 | 2026-07-16 |
 | [**codeMap**](https://github.com/Jenish-Shobhit/codeMap)<br><sub>Jenish-Shobhit</sub> | 一个 herdr 插件，以地图和流程图的形式展示你的代码，并在 Agent 窗格上方的一个弹窗中评审编码 Agent 所做的更改。 | `ai-agents` `code-review` `code-visualization` `developer-tools` `git` | 1 | 🔄 2026-10-18 |
 | [**herdr-git-graph**](https://github.com/jorge-huxley/herdr-git-graph)<br><sub>jorge-huxley</sub> | Herdr 的只读 git 图谱 TUI 插件，支持彩色 ASCII 分支线、分支过滤、搜索和按需查看差异 | `rust` | 1 | 2026-07-17 |
-| [**🆕 herdr-sidekick**](https://github.com/minhtran3124/herdr-sidekick)<br><sub>minhtran3124</sub> | herdr 插件：面向编码 Agent 的侧边面板——worktree、带差异的已更改文件，以及 Claude Code 子 Agent | `rust` | 1 | 🔄 2026-10-29 |
+| [**🆕 herdr-sidekick**](https://github.com/minhtran3124/herdr-sidekick)<br><sub>minhtran3124</sub> | herdr 插件：面向编码 Agent 的侧边面板——worktree、带差异的已更改文件，以及 Claude Code 子 Agent | `rust` | 1 | 🔄 2026-10-30 |
 | [**🆕 agentflock**](https://github.com/neospark-sol/agentflock)<br><sub>neospark-sol</sub> | 由 AI 协调的构建者与评审者小组，配有持久化的里程碑管理 | `ai-agents` `pair-programming` `typescript` | 1 | 2026-08-21 |
 | [**herdr-gitdeck**](https://github.com/pgen0x/herdr-gitdeck)<br><sub>pgen0x</sub> | herdr 插件：在一个文件夹内的所有 git 仓库中审查、暂存并提交差异，并将行评论发送给你的编码 Agent | `git` `ratatui` `rust` `tui` | 1 | 🔄 2026-10-16 |
 | [**🆕 herdr-devin-board**](https://github.com/rigelstpierre/herdr-devin-board)<br><sub>rigelstpierre</sub> | herdr 插件：查看你的 Devin Cloud 会话，并实时显示 PR、CI 和审查状态 | `devin` `go` | 1 | 2026-10-02 |
@@ -750,13 +745,13 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**tsk**](https://github.com/smarzban/tsk)<br><sub>smarzban</sub> | tsk 是一款完全运行在终端中的 Linear 替代品：为你和你的 Agent 提供共享任务看板——你使用 TUI，Agent 使用 CLI。 | `cli` `productivity` `rust` `task-manager` `terminal` | 240 | 🔄 2026-10-30 |
+| [**tsk**](https://github.com/smarzban/tsk)<br><sub>smarzban</sub> | tsk 是一款完全运行在终端中的 Linear 替代品：为你和你的 Agent 提供共享任务看板——你使用 TUI，Agent 使用 CLI。 | `cli` `productivity` `rust` `task-manager` `terminal` | 241 | 🔄 2026-10-30 |
 | [**ghzinga**](https://github.com/osolmaz/ghzinga)<br><sub>osolmaz</sub> | 用于查看单个 GitHub issue 或 PR 的简易可点击 TUI，用 Rust 编写 | `rust` | 90 | 2026-09-06 |
 | [**beady-eye**](https://github.com/CodeForBreakfast/beady-eye)<br><sub>CodeForBreakfast</sub> | 将你的 beads 跟踪器中的工作绘制成树，并在对应 bead 旁显示各 Agent 正在做什么。它还会监视在等待 beads 的事项，并处理那些在等待 GitHub 的 beads | `agents` `beads` `claude-code` `claude-code-plugin` `github` | 24 | 🔄 2026-10-30 |
 | [**herdr-plugin-gh-pr**](https://github.com/wyattjoh/herdr-plugin-gh-pr)<br><sub>wyattjoh</sub> | 在侧边栏显示当前聚焦 Agent 窗格所在分支的 GitHub PR 状态的 herdr 插件 | `typescript` | 23 | 2026-07-16 |
 | [**herdr-worktree-from-linear**](https://github.com/tdi/herdr-worktree-from-linear)<br><sub>tdi</sub> | 从 Linear issue 创建 git 工作树，并作为 herdr 工作区打开 | `javascript` | 19 | 2026-09-11 |
 | [**herdr-plugin-github-start**](https://github.com/ogulcancelik/herdr-plugin-github-start)<br><sub>ogulcancelik</sub> | 从 GitHub issue、PR 或讨论中启动 Codex 或 Claude 的 Herdr 插件 | `javascript` | 17 | 2026-08-31 |
-| [**gitty**](https://github.com/VedangP57/gitty)<br><sub>VedangP57</sub> | 终端中极速的 GitHub Desktop 风格 git TUI（Rust + Ratatui） | `git` `ratatui` `rust` `terminal` `tui` | 16 | 🔄 2026-10-19 |
+| [**gitty**](https://github.com/VedangP57/gitty)<br><sub>VedangP57</sub> | 终端中极速的 GitHub Desktop 风格 git TUI（Rust + Ratatui） | `git` `ratatui` `rust` `terminal` `tui` | 17 | 🔄 2026-10-19 |
 | [**herdr-jira**](https://github.com/a2u/herdr-jira)<br><sub>a2u</sub> | herdr 的 Jira TUI 插件——通过可配置的 JQL 过滤器浏览、搜索 issue，修改状态，并一键将 issue 交给终端中运行的 AI Agent 处理 | `ai-agents` `jira` `ratatui` `rust` `tui` | 15 | 2026-09-05 |
 | [**herdr-pr-tracker**](https://github.com/Matovidlo/herdr-pr-tracker)<br><sub>Matovidlo</sub> | herdr 插件：追踪每个 Claude Code 会话产生的 GitHub PR，附带 gh 状态和操作 | `claude-code` `shell` | 12 | 🔄 2026-10-22 |
 | [**herdr-linear**](https://github.com/JacquesvanWyk/herdr-linear)<br><sub>JacquesvanWyk</sub> | 在 herdr 分屏窗格或标签页中运行的 fzf 驱动 Linear 面板：搜索 issue、深入项目、创建 issue、修改状态 | `shell` | 8 | 2026-07-12 |
@@ -792,9 +787,8 @@
 | [**subscription-watcher**](https://github.com/PurrlyDigital/subscription-watcher)<br><sub>PurrlyDigital</sub> | 在 Herdr 侧边栏显示 Claude Code 和 Codex 的订阅额度。只读镜像；请在 GitLab 上提交 issue 和合并请求 | `python` | 1 | 2026-10-06 |
 | [**🆕 herdr-github-metadata**](https://github.com/ralphilius/herdr-github-metadata)<br><sub>ralphilius</sub> | Herdr 插件：在侧边栏显示 GitHub 元数据——每个 Agent 正在处理的 PR。 | `github` `python` | 1 | 2026-09-29 |
 | [**🆕 herdr-agent-prs**](https://github.com/sebassdc/herdr-agent-prs)<br><sub>sebassdc</sub> | 面向 Herdr 编码 Agent 的跨仓库 PR 查看器。可查看 Agent 在任意仓库中开启或推送过的每一个 PR，并实时显示 CI、评审与合并状态。 | `ratatui` `rust` | 1 | 2026-09-26 |
-| [**🆕 herdr-pr-modal**](https://github.com/Tarektouati/herdr-pr-modal)<br><sub>Tarektouati</sub> | 直接从 Herdr 中，将任意 Pull Request 在其专属 worktree 中打开。 | `rust` | 1 | 2026-09-24 |
 | [**herdr-ci-checks**](https://github.com/tdi/herdr-ci-checks)<br><sub>tdi</sub> | herdr 插件：在右侧窗格中实时显示当前分支的 GitHub/GitLab CI 检查状态。 | `javascript` | 1 | 2026-09-25 |
-| [**agent-checks**](https://github.com/timmo001/agent-checks)<br><sub>timmo001</sub> | Herdr 工作区的 CI 和 lint 状态，附带 Omarchy 面板 | `gh-cli` `github-workflows` `typescript` | 1 | 🔄 2026-10-29 |
+| [**agent-checks**](https://github.com/timmo001/agent-checks)<br><sub>timmo001</sub> | Herdr 工作区的 CI 和 lint 状态，附带 Omarchy 面板 | `gh-cli` `github-workflows` `typescript` | 1 | 🔄 2026-10-30 |
 | [**🆕 herdr-github-pr**](https://github.com/woshahua/herdr-github-pr)<br><sub>woshahua</sub> | 同步 GitHub PR 状态、检查、评审和评论的 Herdr 插件 | `github` `javascript` | 1 | 2026-08-21 |
 | [**🆕 herdr-pr**](https://github.com/yelsed/herdr-pr)<br><sub>yelsed</sub> | 在 herdr 窗格中以待办事项形式显示等待你处理的拉取请求，全部通过 gh CLI 读取 | `rust` | 1 | 2026-08-29 |
 | [**🆕 herdr-draft**](https://github.com/ZviBaratz/herdr-draft)<br><sub>ZviBaratz</sub> | herdr 插件：新建会话对话框——一次提交即可设置 Linear issue、worktree、放置位置、Agent 类型、clauth 账户与初始 prompt。 | `bubbletea` `claude-code` `go` `linear` `tui` | 1 | 2026-10-14 |
@@ -811,6 +805,7 @@
 - [kkjdaniel/herdr-gh-runs](https://github.com/kkjdaniel/herdr-gh-runs) — 在 herdr 窗格中查看 GitHub Actions 运行：跟随你的仓库，支持实时状态、步骤日志和通知
 - [poislagarde/herdr-pr-worktree](https://github.com/poislagarde/herdr-pr-worktree) — 将 GitHub 拉取请求作为 worktree 空间在 Herdr 中打开，并复用已有的检出。
 - [poislagarde/herdr-worktree-cleanup](https://github.com/poislagarde/herdr-worktree-cleanup) — 当对应的 Herdr 空间关闭时，自动清理可安全删除的 GitHub PR worktree。Python 编写，无依赖，MIT 许可。
+- [spiritsack/herdr-jira-worktree](https://github.com/spiritsack/herdr-jira-worktree) — herdr 插件：提示输入 Jira 工单，打开或复用对应的 git 工作树，并预填到全新的 Claude Code 会话中
 - [ukwhatn/taskherd](https://github.com/ukwhatn/taskherd) — 与 herdr Agent 会话、PR 和 Jira 工单相关联的任务看板
 
 </details>
@@ -825,7 +820,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**herdr-spreader**](https://github.com/yuk1ty/herdr-spreader)<br><sub>yuk1ty</sub> | 从一个 YAML 文件启动整套 herdr 工作区布局——标签页、窗格、命令，一次搞定 | `rust` | 142 | 2026-08-16 |
+| [**herdr-spreader**](https://github.com/yuk1ty/herdr-spreader)<br><sub>yuk1ty</sub> | 从一个 YAML 文件启动整套 herdr 工作区布局——标签页、窗格、命令，一次搞定 | `rust` | 143 | 2026-08-16 |
 | [**dotfiles**](https://github.com/lararosekelley/dotfiles)<br><sub>lararosekelley</sub> | 👩‍💻 我的 dotfiles，外加更多内容 | `bash` `bootstrap` `dotfiles` `homebrew` `macos` | 52 | 🔄 2026-10-28 |
 | [**herdr-plugin-workspace-manager**](https://github.com/razajamil/herdr-plugin-workspace-manager)<br><sub>razajamil</sub> | 声明式的标签页/窗格布局，创建工作树时自动应用每个工作区的默认设置 | `rust` | 50 | 2026-08-23 |
 | [**seshagy**](https://github.com/lmilojevicc/seshagy)<br><sub>lmilojevicc</sub> | 面向 tmux 和 herdr 的 Agent 感知会话管理器——发现项目、启动会话、追踪 AI Agent 的工作 | `bubbletea` `go` `session-management` `session-manager` `terminal` | 21 | 🔄 2026-10-29 |
@@ -889,14 +884,14 @@
 | [**herdr-floax**](https://github.com/Tyru5/herdr-floax)<br><sub>Tyru5</sub> | herdr 的浮动临时终端——类似 tmux-floax 风格的可切换弹窗，每个工作区一个，会话持久保存 | `rust` `terminal` `tmux-floax` | 29 | 🔄 2026-10-23 |
 | [**herdr-recent-navigator**](https://github.com/beyondlex/herdr-recent-navigator)<br><sub>beyondlex</sub> | 在最近使用的工作区、标签页、窗格和 Agent 之间进行 MRU（最近使用）切换——类似 JetBrains 的「最近文件」。此外还支持对任意窗格内容进行模糊搜索，完全由键盘驱动。 | `agent` `mru` `navigator` `pane` `popup` | 24 | 🔄 2026-10-18 |
 | [**herdr-nvim-nav**](https://github.com/aimdevlee/herdr-nvim-nav)<br><sub>aimdevlee</sub> | 在 herdr 窗格与 Neovim 分屏之间无缝使用 Ctrl+h/j/k/l——基于 socket，无需每次按键都启动进程 | `neovim` `neovim-plugin` `lua` | 23 | 2026-08-02 |
-| [**herdr-command-center**](https://github.com/speardragon/herdr-command-center)<br><sub>speardragon</sub> | 一个快捷键统管所有命令——一个列出你注册命令的 herdr 弹窗，用方向键或数字执行，并在命令触发前自动关闭 | `command-palette` `nodejs` `terminal` `toml` `tui` | 19 | 🔄 2026-10-19 |
+| [**herdr-command-center**](https://github.com/speardragon/herdr-command-center)<br><sub>speardragon</sub> | 一个快捷键统管所有命令——一个列出你注册命令的 herdr 弹窗，用方向键或数字执行，并在命令触发前自动关闭 | `command-palette` `nodejs` `terminal` `toml` `tui` | 20 | 🔄 2026-10-19 |
 | [**herdr-last-workspace**](https://github.com/third774/herdr-last-workspace)<br><sub>third774</sub> | 用于切换回上一个聚焦的工作区的插件 | `rust` | 19 | 2026-06-22 |
 | [**herdr-pane-mover**](https://github.com/osamahbeig/herdr-pane-mover)<br><sub>osamahbeig</sub> | herdr 的可点击浮层菜单：跨标签页和工作区移动、重新分割或交换窗格 | `terminal` `tui` `javascript` | 15 | 2026-07-10 |
 | [**herdr-cliamp**](https://github.com/coryshaw1/herdr-cliamp)<br><sub>coryshaw1</sub> | 面向 herdr 的浮动 cliamp，隐藏后仍会继续播放——播放器运行在一个分离的 herdr 会话中，因此关闭浮层只是分离而已 | `audiobook` `cliamp` `music-player` `podcast` `terminal` | 14 | 2026-08-24 |
 | [**herdr-logbook**](https://github.com/Resetnak/herdr-logbook)<br><sub>Resetnak</sub> | 终端的工作记忆——离线、以 Markdown 为主的笔记、决策记录，以及 Herdr 的当前任务 now.md | `adr` `bubbletea` `cli` `go` `markdown` | 13 | 2026-10-15 |
 | [**herdr-profiles**](https://github.com/GiorgiTarsaidze/herdr-profiles)<br><sub>GiorgiTarsaidze</sub> | 面向 Herdr 的 Chrome 风格配置文件：通过弹窗选择器切换相互隔离的空间集合。 | `rust` `terminal` | 12 | 2026-09-14 |
 | [**herdr-paddock**](https://github.com/neyham/herdr-paddock)<br><sub>neyham</sub> | 🐑 面向 herdr Agent 的卡片墙动态流——一览整个羊群，放大查看单个 Agent 并回复，全部通过普通 SSH 完成 | `bubbletea` `go` `ssh` `tui` | 12 | 🔄 2026-10-23 |
-| [**musicforprogramming**](https://github.com/pivoshenko/musicforprogramming)<br><sub>pivoshenko</sub> | 🎧 面向 musicforprogramming.net 的 TUI，使用 Rust 编写。 | `ambient` `audio` `daemon` `developer-tools` `focus` | 12 | 🔄 2026-10-21 |
+| [**musicforprogramming**](https://github.com/pivoshenko/musicforprogramming)<br><sub>pivoshenko</sub> | 🎧 面向 musicforprogramming.net 的 TUI，使用 Rust 编写。 | `ambient` `audio` `daemon` `developer-tools` `focus` | 12 | 🔄 2026-10-30 |
 | [**herdr-equalize-panes**](https://github.com/shibayu36/herdr-equalize-panes)<br><sub>shibayu36</sub> | 在分屏和关闭时自动均分窗格大小的 herdr 插件（相当于自动执行 tmux 的 select-layout -E） | `terminal` `perl` | 11 | 2026-08-22 |
 | [**terminal-markdown-renderer**](https://github.com/slara/terminal-markdown-renderer)<br><sub>slara</sub> | tmdview：在终端内的浏览器中查看渲染为 HTML 的 Markdown。借助 AI 编写的个人工具 | `cli` `markdown` `rust` `terminal` | 11 | 🔄 2026-10-18 |
 | [**herdr-omnisearch**](https://github.com/dmnkf/herdr-omnisearch)<br><sub>dmnkf</sub> | 跨所有已连接的机器，对 Herdr 的工作区、窗格及归档的 Agent 会话进行快速搜索与导航。 | `python` | 10 | 🔄 2026-10-27 |
@@ -974,15 +969,14 @@
 | [**🆕 herdr-cheatsheet**](https://github.com/ChristianDeckert/herdr-cheatsheet)<br><sub>ChristianDeckert</sub> | 可点击的 herdr 侧边栏面板：just 配方、herdr 与终端快捷键一览 | `cheatsheet` `just` `zsh` `shell` | 1 | 🔄 2026-10-29 |
 | [**🆕 herdr-notes**](https://github.com/cyperx84/herdr-notes)<br><sub>cyperx84</sub> | 面向 Herdr 的、按工作区独立的 Markdown 速记笔记，用 Go 编写 | `bubbletea` `golang` `markdown` `notes` `go` | 1 | 2026-08-16 |
 | [**🆕 herdr-tab-jump**](https://github.com/cyperx84/herdr-tab-jump)<br><sub>cyperx84</sub> | 通过任意快捷键，按位置聚焦到 herdr 的第 N 个标签页——可以把数字键分配给标签页和工作区。 | `shell` | 1 | 2026-09-01 |
-| [**🆕 herdr-last-tab**](https://github.com/dantehemerson/herdr-last-tab)<br><sub>dantehemerson</sub> | 用于切换回上一个聚焦的标签页的插件 | `rust` | 1 | 2026-08-12 |
 | [**🆕 herdr-swipe-linux**](https://github.com/enisbu/herdr-swipe-linux)<br><sub>enisbu</sub> | 面向 Linux 上 Herdr 的触控板手势：滑动可在窗格、标签页和空间之间切换，轻点即可跳转到等待中的 Agent。 | `evdev` `gestures` `gnome` `hyprland` `linux` | 1 | 2026-09-02 |
 | [**herdr-terminal-scripts**](https://github.com/Fadi729/herdr-terminal-scripts)<br><sub>Fadi729</sub> | 一个 Herdr 插件，可通过弹窗或编号槽位运行具名脚本。 | `typescript` | 1 | 2026-09-21 |
-| [**🆕 herdr-arcade**](https://github.com/giorgiostokje/herdr-arcade)<br><sub>giorgiostokje</sub> | Herdr 弹出窗格中的十七款终端街机游戏，当 Agent 需要关注时会自动暂停 | `python` | 1 | 2026-10-12 |
 | [**bindr**](https://github.com/itsmistermoon/bindr)<br><sub>itsmistermoon</sub> | 用于在具名快捷键配置之间切换，并可在弹窗中查看/编辑快捷键的 Herdr 插件。 | `rust` | 1 | 🔄 2026-10-20 |
 | [**🆕 herdr-plugin-switcher**](https://github.com/KadenThomp36/herdr-plugin-switcher)<br><sub>KadenThomp36</sub> | 按住 Ctrl，点按 Tab 即可按最近使用顺序循环切换 herdr 窗格。面向 macOS 版 herdr 的 Arc/Zen 风格窗格切换器 | `swift` | 1 | 2026-08-21 |
 | [**🆕 herdr-usage-popup**](https://github.com/Kamyil/herdr-usage-popup)<br><sub>Kamyil</sub> | Herdr 插件：在弹出面板中以简单的进度条显示模型使用百分比。 | `shell` | 1 | 2026-09-11 |
 | [**🆕 herdr-nvim-aware**](https://github.com/KoalaVim/herdr-nvim-aware)<br><sub>KoalaVim</sub> | 面向 herdr 的 Nvim 感知快捷键——支持导航、分屏、关闭、缩放 | `rust` | 1 | 2026-08-20 |
 | [**herdr-scratch**](https://github.com/macintacos/herdr-scratch)<br><sub>macintacos</sub> | 面向 herdr 的速记 shell——通过一个组合键开关的弹窗。底层基于 tmux，因此再次打开时会与离开时一模一样 | `go` | 1 | 2026-08-28 |
+| [**🆕 herdr-launcher**](https://github.com/mikitahimpel/herdr-launcher)<br><sub>mikitahimpel</sub> | Herdr plugin: a floating launcher menu for your plugin panels | `rust` | 1 | 2026-09-29 |
 | [**🆕 herdr-touchbar**](https://github.com/omerturhan/herdr-touchbar)<br><sub>omerturhan</sub> | 在 MacBook Touch Bar 上显示工作中和被阻塞的 herdr Agent——点按即可直接跳转到对应标签页 | `ai-agents` `macos` `touchbar` `swift` | 1 | 2026-09-14 |
 | [**herdr-plugins**](https://github.com/oullin/herdr-plugins)<br><sub>oullin</sub> | 面向 Herdr 的一组专注、可独立安装的插件合集 | `typescript` | 1 | 🔄 2026-10-20 |
 | [**🆕 herdr-deck-navigation**](https://github.com/raghu-nandan-bs/herdr-deck-navigation)<br><sub>raghu-nandan-bs</sub> | 将 herdr 内置的扁平化工作区/标签页/窗格导航器，替换为无需滚动即可快速到达任意窗格的「Deck」视图 | `rust` `terminal` `tui` | 1 | 2026-08-24 |
@@ -1011,7 +1005,7 @@
 - [bayoudhi/herdr-prayer-times](https://github.com/bayoudhi/herdr-prayer-times) — 在 Herdr 侧边栏中显示下一次礼拜时间和倒计时，并附带时间表弹窗和通知
 - [bearylabs/herdr-better-worktrees](https://github.com/bearylabs/herdr-better-worktrees) — 一个快速的 Herdr 弹窗，用于以可预测的 embedded-bare 布局管理 Git worktree：支持创建、克隆、打开、查看、拉取以及安全移除 worktree。
 - [janooh37-hue/hertrees](https://github.com/janooh37-hue/hertrees) — Every worktree, every agent, one popup. A Herdr plugin for git worktrees, PR state and AI agent sessions.
-- [xzedx/herdr-derby](https://github.com/xzedx/herdr-derby) — 向当前 Herdr 标签页中的每个编码 Agent 发送同一条提示词并观看它们竞速：弹出窗口用于输入，窗格边框显示实时计时和完成名次
+- [MykolaSuprun/herdr-vimnav](https://github.com/MykolaSuprun/herdr-vimnav) — herdr 的主从式切换器——实时窗格预览、MRU 优先排序、侧边栏跳转码
 - [yojahny55/herdr-space-groups](https://github.com/yojahny55/herdr-space-groups) — herdr 插件：将 Space 分组为带名称、带颜色的组——支持选择器弹窗（鼠标+键盘）、侧边栏分组标题和自动排序
 
 </details>
@@ -1026,28 +1020,28 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | 在终端中运行的 VS Code | `cli` `terminal` `vscode` `typescript` | 2217 | 🔄 2026-10-19 |
-| [**ttt**](https://github.com/eugenioenko/ttt)<br><sub>eugenioenko</sub> | TTT Editor（Terminal Text Tool）——一款可在终端中运行、真正能替代 VS Code、Zed 和 Sublime 的编辑器。这是一个操作体验如 GUI 般的 TUI，单一二进制文件，零配置。 | `cli` `code-editor` `developer-tools` `diff` `editor` | 972 | 🔄 2026-10-30 |
-| [**dotfiles**](https://github.com/babarot/dotfiles)<br><sub>babarot</sub> | 收集了以点开头的文件的仓库 | `dotfiles` `neovim` `nix` | 783 | 🔄 2026-10-29 |
-| [**herdr-file-viewer**](https://github.com/smarzban/herdr-file-viewer)<br><sub>smarzban</sub> | 面向 herdr 的只读文件查看器，支持感知 Git 状态。键盘驱动的 TUI（同时支持鼠标）：树形结构 + 内容窗格，支持差异对比、Markdown 渲染和语法高亮 | `file-viewer` `git` `ratatui` `rust` `terminal` | 691 | 🔄 2026-10-26 |
-| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | 面向 herdr 的 VS Code 风格侧边栏：将文件浏览器和 Git 源代码管理整合到一个窗格——带语法高亮的预览、VS Code 风格的差异对比、GitLens 风格的抽屉面板、AI 生成提交信息 | `git` `ratatui` `rust` `sidebar` `terminal` | 522 | 🔄 2026-10-24 |
+| [**terminal-code**](https://github.com/zenbu-labs/terminal-code)<br><sub>zenbu-labs</sub> | 在终端中运行的 VS Code | `cli` `terminal` `vscode` `typescript` | 2219 | 🔄 2026-10-30 |
+| [**ttt**](https://github.com/eugenioenko/ttt)<br><sub>eugenioenko</sub> | TTT Editor（Terminal Text Tool）——一款可在终端中运行、真正能替代 VS Code、Zed 和 Sublime 的编辑器。这是一个操作体验如 GUI 般的 TUI，单一二进制文件，零配置。 | `cli` `code-editor` `developer-tools` `diff` `editor` | 981 | 🔄 2026-10-30 |
+| [**dotfiles**](https://github.com/babarot/dotfiles)<br><sub>babarot</sub> | 收集了以点开头的文件的仓库 | `dotfiles` `neovim` `nix` | 783 | 🔄 2026-10-30 |
+| [**herdr-file-viewer**](https://github.com/smarzban/herdr-file-viewer)<br><sub>smarzban</sub> | 面向 herdr 的只读文件查看器，支持感知 Git 状态。键盘驱动的 TUI（同时支持鼠标）：树形结构 + 内容窗格，支持差异对比、Markdown 渲染和语法高亮 | `file-viewer` `git` `ratatui` `rust` `terminal` | 693 | 🔄 2026-10-26 |
+| [**herdr-sidebar**](https://github.com/alexarthurs/herdr-sidebar)<br><sub>alexarthurs</sub> | 面向 herdr 的 VS Code 风格侧边栏：将文件浏览器和 Git 源代码管理整合到一个窗格——带语法高亮的预览、VS Code 风格的差异对比、GitLens 风格的抽屉面板、AI 生成提交信息 | `git` `ratatui` `rust` `sidebar` `terminal` | 525 | 🔄 2026-10-24 |
 | [**herdr-nvim**](https://github.com/ChmaraX/herdr-nvim)<br><sub>ChmaraX</sub> | 将 Neovim 完全集成到你的 herdr 工作区 | `lua` `neovim` `nvim` `nvim-plugin` `rust` | 316 | 🔄 2026-10-22 |
 | [**token**](https://github.com/ThorstenRhau/token)<br><sub>ThorstenRhau</sub> | Neovim 配色方案，并附带面向整个终端环境的社区贡献主题。 | `bat-theme` `delta-theme` `emacs-theme` `fish-theme` `fzf-theme` | 311 | 🔄 2026-10-26 |
 | [**herdr-mirror**](https://github.com/nikok6/herdr-mirror)<br><sub>nikok6</sub> | 在同一窗口统一本地和远程会话：将远程 herdr 服务器镜像到本地侧边栏，并通过 SSH 操控 | `rust` | 261 | 2026-09-06 |
 | [**dotfiles**](https://github.com/edmundmiller/dotfiles)<br><sub>edmundmiller</sub> | 用于让我的 dotfiles 始终保持最新 | `dotfiles` `emacs` `nix-dotfiles` `nixos` `nixos-configuration` | 80 | 🔄 2026-10-30 |
-| [**herdr-lazygit**](https://github.com/Crokily/herdr-lazygit)<br><sub>Crokily</sub> | 在 herdr 侧边栏窗格中运行 lazygit，支持 AI 生成提交信息——打开、展开、提交都只需一个按键 | `git` `lazygit` `shell` | 43 | 2026-09-14 |
+| [**herdr-lazygit**](https://github.com/Crokily/herdr-lazygit)<br><sub>Crokily</sub> | 在 herdr 侧边栏窗格中运行 lazygit，支持 AI 生成提交信息——打开、展开、提交都只需一个按键 | `git` `lazygit` `shell` | 44 | 2026-09-14 |
+| [**herdr-yazi**](https://github.com/speardragon/herdr-yazi)<br><sub>speardragon</sub> | 在 herdr 窗格中打开 Yazi | `shell` | 35 | 2026-08-19 |
 | [**herdr-agent-progress**](https://github.com/eliasstravik/herdr-agent-progress)<br><sub>eliasstravik</sub> | 在 Herdr 侧边栏中显示由 Agent 上报的任务进度与活动状态。 | `rust` | 34 | 2026-09-15 |
-| [**herdr-yazi**](https://github.com/speardragon/herdr-yazi)<br><sub>speardragon</sub> | 在 herdr 窗格中打开 Yazi | `shell` | 34 | 2026-08-19 |
-| [**herdr-quicklook**](https://github.com/dwarvesf/herdr-quicklook)<br><sub>dwarvesf</sub> | herdr 的 Quick Look：将剪贴板中的路径以浮层形式弹出预览，一键切换到文件查看器 | `terminal` `shell` | 16 | 2026-08-26 |
+| [**herdr-quicklook**](https://github.com/dwarvesf/herdr-quicklook)<br><sub>dwarvesf</sub> | herdr 的 Quick Look：将剪贴板中的路径以浮层形式弹出预览，一键切换到文件查看器 | `terminal` `shell` | 17 | 2026-08-26 |
 | [**herdr-context.nvim**](https://github.com/makyinmars/herdr-context.nvim)<br><sub>makyinmars</sub> | 在 Neovim 中选中代码或停在某一行，选择一个正在运行的 Herdr Agent，将结构化的上下文暂存到该 Agent 的提示词中（不直接提交） | `lua` | 15 | 2026-09-17 |
 | [**herdr-git-status**](https://github.com/ezcorp-org/herdr-git-status)<br><sub>ezcorp-org</sub> | herdr 插件：在侧边栏分支名旁显示每个空间的 git 工作区状态（已暂存/已修改/未跟踪/冲突） | `rust` | 11 | 2026-08-10 |
-| [**bigtty**](https://github.com/v1k45/bigtty)<br><sub>v1k45</sub> | herdr 的原生 macOS 客户端：Ghostty 渲染的终端、空间侧边栏、浏览器和文件窗格 | `claude-code` `codex` `developer-tools` `ghostty` `macos` | 11 | 🔄 2026-10-29 |
+| [**bigtty**](https://github.com/v1k45/bigtty)<br><sub>v1k45</sub> | herdr 的原生 macOS 客户端：Ghostty 渲染的终端、空间侧边栏、浏览器和文件窗格 | `claude-code` `codex` `developer-tools` `ghostty` `macos` | 11 | 🔄 2026-10-30 |
 | [**herdr-workbench**](https://github.com/azizuysal/herdr-workbench)<br><sub>azizuysal</sub> | 精致的 Herdr 项目侧边栏，具备文件浏览器、实时文件/内容搜索、只读源代码管理、丰富的预览、文件图标和 Git 状态装饰 | `rust` | 9 | 🔄 2026-10-16 |
 | [**herdr-fresh**](https://github.com/rvalledorjr/herdr-fresh)<br><sub>rvalledorjr</sub> | 在 herdr 窗格内将终端 IDE「Fresh」作为文件查看器和编辑器运行的 herdr 插件 | `developer-tools` `editor` `fresh` `ide` `terminal` | 7 | 2026-07-17 |
 | [**herdr-file-viewer**](https://github.com/ismaelosuna7824/herdr-file-viewer)<br><sub>ismaelosuna7824</sub> | 集文件浏览器、代码查看器和 Git 客户端于一体的键盘驱动 Herdr 窗格应用——用 Go + Bubble Tea 编写 | `bubbletea` `git` `golang` `tui` `go` | 6 | 2026-08-08 |
 | [**herdr-marks-as-unread**](https://github.com/sachin-philip/herdr-marks-as-unread)<br><sub>sachin-philip</sub> | 通过键盘快捷键将 Agent 标记为未读。侧边栏的绿色标记会提醒你回头查看，返回后自动清除 | `python` | 6 | 🔄 2026-10-28 |
 | [**advanced-herdr-file-viewer**](https://github.com/thuanlm215/advanced-herdr-file-viewer)<br><sub>thuanlm215</sub> | 具备 Git 感知能力的只读 herdr 文件查看器：支持树形结构、差异对比、Markdown、语法高亮及内联图片预览。 | `file-viewer` `ripgrep` `rust` `tui` | 6 | 2026-09-29 |
-| [**dotfiles**](https://github.com/tifandotme/dotfiles)<br><sub>tifandotme</sub> | ~/.*（家目录下的配置文件） | `aerospace` `chezmoi` `dotfiles` `ghostty` `lazygit` | 6 | 🔄 2026-10-29 |
+| [**dotfiles**](https://github.com/tifandotme/dotfiles)<br><sub>tifandotme</sub> | ~/.*（家目录下的配置文件） | `aerospace` `chezmoi` `dotfiles` `ghostty` `lazygit` | 6 | 🔄 2026-10-30 |
 | [**herdr-markdown-viewer**](https://github.com/arvindparmar-me/herdr-markdown-viewer)<br><sub>arvindparmar-me</sub> | Herdr 插件：拖选一个 Markdown 路径并按下 prefix+m，即可在右侧分屏窗格中预览 | `shell` | 5 | 2026-07-17 |
 | [**herdr-claude-usage**](https://github.com/oszypczy/herdr-claude-usage)<br><sub>oszypczy</sub> | Claude Usage Mini：面向 herdr 的简洁极简 Claude 用量插件。在侧边栏显示上下文、5 小时和 7 天额度条。无需守护进程、无需凭据、无需联网 | `claude` `claude-code` `usage` `shell` | 5 | 2026-10-05 |
 | [**herdr-disp-model**](https://github.com/pdalinis/herdr-disp-model)<br><sub>pdalinis</sub> | 在 Herdr 的 Agent 侧边栏中显示当前正在运行的 Codex、Claude Code、Pi 和 Hermes 模型。 | `ai-agents` `claude-code` `codex` `developer-tools` `hermes-agent` | 5 | 2026-09-19 |
@@ -1056,7 +1050,7 @@
 | [**herdr-flutter**](https://github.com/ablause/herdr-flutter)<br><sub>ablause</sub> | 在编程 Agent 旁边监视、热重载并检查运行中 Flutter 应用的 herdr 侧边栏 | `dart` | 4 | 2026-07-27 |
 | [**herdr-wait**](https://github.com/cdc-lst/herdr-wait)<br><sub>cdc-lst</sub> | 根据窗格的进程树判断闲置 Agent 窗格实际在做什么（例如 'waiting: build-api' 或 'waiting: codex'）并打上标签的可配置 herdr 插件 | `typescript` | 4 | 2026-07-03 |
 | [**herdr-lazygit**](https://github.com/JacquesvanWyk/herdr-lazygit)<br><sub>JacquesvanWyk</sub> | 在 herdr 分屏窗格或标签页中打开 lazygit，支持智能切换（打开/聚焦/关闭） | `lazygit` `shell` | 4 | 2026-07-12 |
-| [**herdr-commander**](https://github.com/lurepos/herdr-commander)<br><sub>lurepos</sub> | 一个快速的 herdr 菜单，用于发现并启动 npm、cargo 命令或 vscode 任务。 | `rust` | 4 | 2026-10-08 |
+| [**herdr-commander**](https://github.com/lurepos/herdr-commander)<br><sub>lurepos</sub> | 一个快速的 herdr 菜单，用于发现并启动 npm、cargo 命令或 vscode 任务。 | `rust` | 4 | 🔄 2026-10-30 |
 | [**herdr-plugin-mermaid-preview**](https://github.com/Volpestyle/herdr-plugin-mermaid-preview)<br><sub>Volpestyle</sub> | 在 Herdr 中为 Claude Code 和 Codex 的输出内容提供 Mermaid 图的实时预览 | `claude-code` `mermaid` `openai-codex` `terminal` `javascript` | 4 | 2026-07-10 |
 | [**openloc.nvim**](https://github.com/Zamua/openloc.nvim)<br><sub>Zamua</sub> | 在已属于该工作区的 Neovim 中打开文件引用 | `lua` | 4 | 2026-08-25 |
 | [**herdr-open-in**](https://github.com/alexeyco/herdr-open-in)<br><sub>alexeyco</sub> | 在你偏好的编辑器中打开当前 Herdr 工作区 | `android-studio` `developer-tools` `helix` `jetbrains` `neovim` | 3 | 🔄 2026-10-22 |
@@ -1067,7 +1061,7 @@
 | [**herdr-x**](https://github.com/playsthisgame/herdr-x)<br><sub>playsthisgame</sub> | 在 herdr 内的终端分屏中浏览 x.com，并在 $EDITOR 中起草推文发送给自己 | `cli` `terminal` `terminal-browser` `twitter` `shell` | 3 | 2026-08-20 |
 | [**scp-explorer**](https://github.com/TinocoAI/scp-explorer)<br><sub>TinocoAI</sub> | MobaXterm 风格的 SCP 文件浏览器 herdr 插件（跨平台支持 macOS/Linux/Windows） | `curses` `file-manager` `scp` `python` | 3 | 2026-09-03 |
 | [**herdr-wherewasi**](https://github.com/Trolzie/herdr-wherewasi)<br><sub>Trolzie</sub> | Herdr 插件：在 Agent 旁边提供实时渲染 Markdown 的上下文侧边栏 | `rust` | 3 | 2026-10-08 |
-| [**herdr-yazi-links**](https://github.com/yakovlevs01/herdr-yazi-links)<br><sub>yakovlevs01</sub> | 从 Herdr 中打开 Yazi 里的文件超链接；可选补丁支持纯文本路径。 | `yazi` `python` | 3 | 🔄 2026-10-15 |
+| [**herdr-yazi-links**](https://github.com/yakovlevs01/herdr-yazi-links)<br><sub>yakovlevs01</sub> | 从 Herdr 中打开 Yazi 里的文件超链接；可选补丁支持纯文本路径。 | `yazi` `python` | 3 | 2026-10-15 |
 | [**agents-tree**](https://github.com/blavka/agents-tree)<br><sub>blavka</sub> | 实时终端树，展示编码 Agent 会话及嵌套子 Agent，包含模型、上下文用量和状态——支持 Agy、Claude Code、Codex 和 Grok Build | `agy` `claude-code` `cli` `codex` `grok-build` | 2 | 🔄 2026-10-28 |
 | [**herdr-covr**](https://github.com/evanbryant/herdr-covr)<br><sub>evanbryant</sub> | covr：面向 herdr 的极简、注意力优先的 Spaces/Agents 侧边栏插件 | `python` | 2 | 2026-10-08 |
 | [**herdr-footprint**](https://github.com/harpal-singh-qp/herdr-footprint)<br><sub>harpal-singh-qp</sub> | 在 Herdr 侧边栏中按空间显示磁盘占用与上下文用量。 | `python` | 2 | 2026-09-16 |
@@ -1075,27 +1069,28 @@
 | [**herdr-file-viewer**](https://github.com/jomarmontuya/herdr-file-viewer)<br><sub>jomarmontuya</sub> | 右侧显示的 Herdr 文件树插件，支持文件标签页、跟随当前目录、Git 状态装饰和可点击链接 | `go` | 2 | 2026-07-13 |
 | [**herdr-agents-info**](https://github.com/rchougule/herdr-agents-info)<br><sub>rchougule</sub> | 在 herdr 的 Agents 侧边栏中区分你的 Claude Code 窗格：每个窗格显示区分名称、模型、上下文占比和磁盘占用 | `claude-code` `rust` `sidebar` `terminal` `tui` | 2 | 2026-09-16 |
 | [**herdr-launcher-pane**](https://github.com/y-hirakaw/herdr-launcher-pane)<br><sub>y-hirakaw</sub> | herdr 的固定式点击启动窗格——按工作区启动 Finder/资源管理器、VS Code，或你配置的任意命令 | `launcher` `launcher-pane` `productivity` `python` | 2 | 2026-08-10 |
-| [**🆕 herdr-agent-icons**](https://github.com/adihex/herdr-agent-icons)<br><sub>adihex</sub> | Herdr 插件：通过生成的 PUA 字体，在侧边栏显示各 Agent 真实的图标 Logo。 | `python` | 1 | 2026-09-18 |
+| [**🆕 herdr-numbered-workspaces**](https://github.com/abrose/herdr-numbered-workspaces)<br><sub>abrose</sub> | 在 herdr 侧边栏中为每个空间前面加上编号，与带索引的 switch_workspace 快捷键对应 | `shell` | 1 | 2026-07-21 |
 | [**🆕 herdr-ai-usagebar**](https://github.com/agnostk/herdr-ai-usagebar)<br><sub>agnostk</sub> | herdr 插件：通过 ai-usagebar 在 herdr 侧边栏显示套餐用量（Claude、Codex、Copilot 等）。 | `ai-usagebar` `claude-code` `codex` `rust` | 1 | 🔄 2026-10-25 |
 | [**herdr-cursor-open**](https://github.com/alex-devdone/herdr-cursor-open)<br><sub>alex-devdone</sub> | 在 Cursor 或 VS Code 中打开聚焦的 herdr 窗格——包括通过 Remote-SSH 连接到远程 herdr 的窗格 | `cursor` `vscode` `shell` | 1 | 2026-09-07 |
 | [**🆕 herdr-agent-tree**](https://github.com/Algorant/herdr-agent-tree)<br><sub>Algorant</sub> | 在 Herdr 原生的 Agents 侧边栏中，将 Pi 的子 Agent 与 Worker 显示在其委派方 Agent 下方。 | `shell` | 1 | 🔄 2026-10-20 |
 | [**🆕 herdr-context**](https://github.com/Anthodev/herdr-context)<br><sub>Anthodev</sub> | 面向 herdr 的项目上下文面板——带 git 状态的文件树和 LLM 对话历史，始终陪伴在你的 Agent 身旁 | `git` `jj` `ratatui` `rust` `sidebar` | 1 | 2026-09-30 |
+| [**🆕 asgoto**](https://github.com/asumaran/asgoto)<br><sub>asumaran</sub> | 一款跨 herdr 仓库、worktree 和窗格的树状切换工具。 | `go` | 1 | 2026-10-08 |
 | [**herdr-sim**](https://github.com/baleen37/herdr-sim)<br><sub>baleen37</sub> | Herdr 插件：在侧边栏以图标显示每个 Claude Code / Codex 窗格涉及的 PR | `claude-code` `codex` `rust` | 1 | 🔄 2026-10-27 |
 | [**🆕 herdr-agents-sidebar**](https://github.com/C0R0NELL/herdr-agents-sidebar)<br><sub>C0R0NELL</sub> | 自定义 Herdr 原生 Agent 侧边栏：支持分组和优先级布局、灵活视图以及按模式配色 | `python` | 1 | 2026-10-12 |
 | [**🆕 herdr-jetbrains**](https://github.com/chenyao0910/herdr-jetbrains)<br><sub>chenyao0910</sub> | 在 Rider、WebStorm、IntelliJ IDEA 或 GoLand 中打开当前活动的 Herdr 工作区或工作树 | `developer-tools` `git-worktree` `goland` `intellij-idea` `jetbrains` | 1 | 2026-08-30 |
 | [**🆕 herdr-sidebar-customizer**](https://github.com/dannyking/herdr-sidebar-customizer)<br><sub>dannyking</sub> | Add colors, agent details and animations to the Herdr sidebar | `ai-agents` `terminal` `python` | 1 | 2026-10-06 |
-| [**🆕 herdr-ids**](https://github.com/devicki/herdr-ids)<br><sub>devicki</sub> | Herdr 插件：在侧边栏显示窗格、标签页和工作区的 ID，并可选择空间、标签页或窗格，把其 ID 输入到你的 Agent 中 | `shell` | 1 | 🔄 2026-10-16 |
-| [**🆕 herdr-respawn**](https://github.com/devicki/herdr-respawn)<br><sub>devicki</sub> | Herdr 插件：服务器重启或重新开机后，在窗格中重新启动 lazygit、编辑器等白名单内的 TUI | `shell` | 1 | 🔄 2026-10-21 |
 | [**herdr-zed-follow**](https://github.com/dlwr/herdr-zed-follow)<br><sub>dlwr</sub> | herdr 插件：让 Zed 跟随当前聚焦的 herdr 工作区。 | `zed` `shell` | 1 | 2026-09-24 |
 | [**🆕 herdr-context-monitor**](https://github.com/EMRahman/herdr-context-monitor)<br><sub>EMRahman</sub> | A minimal context meter for Herdr: one Python file, no dependencies. Shows each agent's context-window use in the sidebar, for Claude Code, Codex and Antigravi… | `ai-agents` `context-window` `python` | 1 | 2026-10-14 |
 | [**🆕 file-editor-viewer**](https://github.com/Freddy-system/file-editor-viewer)<br><sub>Freddy-system</sub> | 在 herdr 窗格中查看和编辑文件：支持 Mermaid、Graphviz 和 LaTeX 的 Markdown、源代码、图片。内置编辑器，使用 Rust 编写 | `editor` `file-viewer` `graphviz` `latex` `markdown` | 1 | 2026-10-14 |
+| [**🆕 herdr-lineup**](https://github.com/fujimogn/herdr-lineup)<br><sub>fujimogn</sub> | One sidebar row per AI coding agent in Herdr: vendor logo, state, context, weekly quota, and local origin/main commit time. | `ai-agents` `claude-code` `codex` `developer-tools` `grok` | 1 | 🔄 2026-10-27 |
 | [**🆕 herdr-tab-git**](https://github.com/hasuwini77/herdr-tab-git)<br><sub>hasuwini77</sub> | 在 Herdr Spaces 侧边栏中显示 Git 分支和状态，且跟随当前活动标签页而非第一个标签页 | `git` `terminal` `tui` `javascript` | 1 | 2026-08-28 |
 | [**🆕 herdr-vista**](https://github.com/kamil-pociot/herdr-vista)<br><sub>kamil-pociot</sub> | Herdr 插件：一键在当前所在的 git 仓库中打开终端文件查看器和编辑器 vista；另一个按键可审查 Agent 在其分支上的改动 | `editor` `file-viewer` `rust` | 1 | 🔄 2026-10-24 |
-| [**🆕 herdr-plugin-agent-repo**](https://github.com/khatriafaz/herdr-plugin-agent-repo)<br><sub>khatriafaz</sub> | 在 Agent 窗格标题和侧边栏中显示 Agent、仓库和分支名称的 Herdr 插件 | `javascript` | 1 | 2026-07-24 |
+| [**🆕 herdr-scope**](https://github.com/kriuchkov/herdr-scope)<br><sub>kriuchkov</sub> | A sidebar for Herdr: which agent is working, which one waits on you, and which is done, grouped by project. | `ai-agents` `claude-code` `codex` `go` | 1 | 🔄 2026-10-27 |
 | [**🆕 herdr-scratchdock**](https://github.com/mvaios/herdr-scratchdock)<br><sub>mvaios</sub> | 在 herdr 中将编码 Agent 的临时文件夹停靠在其旁边——实时目录树、文本与图片预览，并在 Agent 开始工作时自动打开。 | `claude-code` `tui` `python` | 1 | 2026-09-28 |
+| [**🆕 herdr-vimnav**](https://github.com/MykolaSuprun/herdr-vimnav)<br><sub>MykolaSuprun</sub> | herdr 的主从式切换器——实时窗格预览、MRU 优先排序、侧边栏跳转码 | `go` | 1 | 🔄 2026-10-26 |
+| [**🆕 herdr-yazi-explorer**](https://github.com/pjs-0457/herdr-yazi-explorer)<br><sub>pjs-0457</sub> | 在触发它的工作区内的 herdr 标签页/分屏中打开 Yazi（标记为 🗂 yazi），退出后会自动重启 | `yazi` `shell` | 1 | 2026-08-13 |
 | [**herdr-gitui**](https://github.com/Shi1xin/herdr-gitui)<br><sub>Shi1xin</sub> | 在侧边栏窗格中运行 gitui 的 herdr 插件——支持开关切换、展开以及浅色/深色主题 | `gitui` `python` | 1 | 2026-07-28 |
 | [**herdr-subagent-watch**](https://github.com/silencechung/herdr-subagent-watch)<br><sub>silencechung</sub> | herdr 插件：实时观察 Claude Code 子 Agent——弹出式查看器和侧边栏树 | `javascript` | 1 | 🔄 2026-10-28 |
-| [**🆕 herdr-focus**](https://github.com/Zeus-Deus/herdr-focus)<br><sub>Zeus-Deus</sub> | herdr 插件：Agent 侧边栏的注意力层——清晰的标题、Needs you / Working / Done 分组、未读与待稳定的分流，以及用于后台 PR 检查的观察之眼 | `python` | 1 | 🔄 2026-10-25 |
 
 <details><summary>与此目的也相关</summary>
 
@@ -1133,7 +1128,7 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**memex**](https://github.com/nicosuave/memex)<br><sub>nicosuave</sub> | 搜索 Claude Code、Codex、Pi、OpenCode、GitHub Copilot 和 Cursor 的会话记录。恢复会话。追踪 token 使用 | `bm25` `claude-code` `codex-cli` `copilot` `hermes-agent` | 295 | 🔄 2026-10-28 |
+| [**memex**](https://github.com/nicosuave/memex)<br><sub>nicosuave</sub> | 搜索 Claude Code、Codex、Pi、OpenCode、GitHub Copilot 和 Cursor 的会话记录。恢复会话。追踪 token 使用 | `bm25` `claude-code` `codex-cli` `copilot` `hermes-agent` | 297 | 🔄 2026-10-28 |
 | [**herdr-agent-usage**](https://github.com/senna-lang/herdr-agent-usage)<br><sub>senna-lang</sub> | 为 Herdr 中运行的 Agent 提供上下文用量表、配额跟踪和服务商速率限制 | `ai-agents` `claude-code` `codex` `golang` `rate-limiting` | 63 | 🔄 2026-10-25 |
 | [**llmtrim-herdr**](https://github.com/fkiene/llmtrim-herdr)<br><sub>fkiene</sub> | 降低 herdr 的 token 费用：压缩每个 Agent 窗格的请求（实测输入 -31% / 输出 -74%），并在每个窗格的徽章上显示节省的费用 | `llm-proxy` `llmtrim` `powershell` | 58 | 2026-07-02 |
 | [**quota**](https://github.com/pinkpixel-dev/quota)<br><sub>pinkpixel-dev</sub> | 桌面应用、VSCode 扩展、CLI 和 Herdr 插件，用于跟踪 GitHub Copilot、Codex、Claude Code、Antigravity、Kiro、Grok、Cursor 和 OpenCode Go 的 AI 用量 | `ai-tools` `antigravity` `claude` `codex` `cursor` | 33 | 🔄 2026-10-29 |
@@ -1153,7 +1148,7 @@
 | [**herdr-quota**](https://github.com/kvkenyon/herdr-quota)<br><sub>kvkenyon</sub> | 在 Herdr 中一目了然地查看 Claude、Codex、Cursor 和 Kimi 的订阅配额 | `ai-tools` `claude-code` `cursor` `developer-tools` `kimi` | 2 | 2026-09-05 |
 | [**herdr-whereami**](https://github.com/maedana/herdr-whereami)<br><sub>maedana</sub> | 自动重命名标签页以显示你当前所在位置的 Herdr 插件——在 git 仓库内会显示为「仓库名/分支名」 | `rust` | 2 | 2026-09-14 |
 | [**herdr-burnlog**](https://github.com/naturalmoods/herdr-burnlog)<br><sub>naturalmoods</sub> | 面向 Herdr Agent 的本地按项目记录的 token 用量与费用历史。 | `python` | 2 | 2026-09-28 |
-| [**herdr-opencodex**](https://github.com/nordz0r/herdr-opencodex)<br><sub>nordz0r</sub> | OpenCodex 的 Herdr 插件：显示花费统计以及 5 小时/7 天的剩余配额。 | `opencodex` `quota` `rust` | 2 | 🔄 2026-10-15 |
+| [**herdr-opencodex**](https://github.com/nordz0r/herdr-opencodex)<br><sub>nordz0r</sub> | OpenCodex 的 Herdr 插件：显示花费统计以及 5 小时/7 天的剩余配额。 | `opencodex` `quota` `rust` | 2 | 2026-10-15 |
 | [**🆕 scopefuel**](https://github.com/mgh3326/scopefuel)<br><sub>mgh3326</sub> | 面向 AI 编程 Agent 套餐的范围感知余量表——显示实际被限制的是什么（账号/模型/分组）以及何时恢复 | `ai-agents` `antigravity` `claude-code` `cli` `codex` | 1 | 🔄 2026-10-29 |
 | [**🆕 herdr-model-lanes**](https://github.com/terry-li-hm/herdr-model-lanes)<br><sub>terry-li-hm</sub> | herdr 插件：在工作区行中显示 Codex、Claude Max 和 Grok 的配额，并为新 Agent 提供感知配额的模型档位车道（ag） | `claude` `codex` `grok` `model-routing` `quota` | 1 | 🔄 2026-10-22 |
 
@@ -1177,11 +1172,11 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**zoetrope**](https://github.com/furkankly/zoetrope)<br><sub>furkankly</sub> | 在终端或浏览器中，将 Claude Code 或 Codex 会话实时可视化为流程图。 | `agent-visualization` `claude-code` `codex` `coding-agents` `flow` | 1128 | 2026-10-14 |
+| [**zoetrope**](https://github.com/furkankly/zoetrope)<br><sub>furkankly</sub> | 在终端或浏览器中，将 Claude Code 或 Codex 会话实时可视化为流程图。 | `agent-visualization` `claude-code` `codex` `coding-agents` `flow` | 1130 | 2026-10-14 |
 | [**clauth**](https://github.com/uwuclxdy/clauth)<br><sub>uwuclxdy</sub> | Claude Code 多账号管理器与用量监控（CLI、TUI，以及通过 MCP 实现的跨账号委托） | `account-manager` `account-switcher` `anthropic` `claude` `claude-code` | 282 | 🔄 2026-10-30 |
 | [**herdr-radar**](https://github.com/hhdebb/herdr-radar)<br><sub>hhdebb</sub> | 谁在工作、谁在等你——一目了然。按项目分组，每个 Agent 以其厂商的图标和颜色显示。worktree 嵌套在所属仓库下，各行按活跃度排序，空闲会话会淡出显示。支持浅色和深色主题。 | `claudecode` `codex-cli` `coding-agents-plugins` `developer-tools-ai-agent` `terminal-multiplexers` | 201 | 🔄 2026-10-26 |
 | [**captains-deck**](https://github.com/deimantasnork/captains-deck)<br><sub>deimantasnork</sub> | Captain's Deck——面向 Herdr 的只读 Firstmate 流程看板插件。 | `firstmate` `python` | 71 | 🔄 2026-10-22 |
-| [**herdr-beads**](https://github.com/miiraheart/herdr-beads)<br><sub>miiraheart</sub> | herdr 的 beads（bd）任务面板：以列表、表格或看板形式展示你的 bd issue，可作为侧边栏或浮动窗口 | `bd` `beads` `kanban` `rust` `tui` | 41 | 2026-10-08 |
+| [**herdr-beads**](https://github.com/miiraheart/herdr-beads)<br><sub>miiraheart</sub> | herdr 的 beads（bd）任务面板：以列表、表格或看板形式展示你的 bd issue，可作为侧边栏或浮动窗口 | `bd` `beads` `kanban` `rust` `tui` | 42 | 2026-10-08 |
 | [**herdr-pc-ram-and-cpu-usage-overlay**](https://github.com/ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay)<br><sub>ezcorp-org</sub> | herdr 插件：按空间（工作区）实时显示 CPU/内存占用率，以占整机资源的比例呈现 | `rust` | 29 | 2026-09-13 |
 | [**herdr-f1**](https://github.com/hmu332233/herdr-f1)<br><sub>hmu332233</sub> | 为 Herdr Agent 打造的 F1 风格仪表盘 | `agent-dashboard` `typescript` | 18 | 2026-10-09 |
 | [**herdr-agent-grid**](https://github.com/jeffarese/herdr-agent-grid)<br><sub>jeffarese</sub> | 面向 Herdr 的高速原生 Rust 指挥中心：Agent、子 Agent、状态、消息和 API 成本 | `agent-dashboard` `ai-agents` `claude-code` `codex` `ratatui` | 18 | 🔄 2026-10-16 |
@@ -1214,7 +1209,7 @@
 | [**herdr-slurm**](https://github.com/quan-meng/herdr-slurm)<br><sub>quan-meng</sub> | 为 Slurm 分配任务创建 Herdr 工作区和受监控的 Agent 标签页 | `hpc` `slurm` `terminal-multiplexer` `python` | 3 | 2026-08-13 |
 | [**herdr-mem-cpu-load**](https://github.com/thewtex/herdr-mem-cpu-load)<br><sub>thewtex</sub> | 面向 herdr 的 CPU、内存与负载均值监控工具。 | `rust` | 3 | 2026-09-07 |
 | [**herdr-agent-state**](https://github.com/Tyru5/herdr-agent-state)<br><sub>Tyru5</sub> | herdr 的实时 Agent 状态窗格——以更易读的形式显示工作区中每个 Agent 正在做什么 | `claude-code` `rust` `terminal` | 3 | 2026-09-22 |
-| [**adlc-herdr**](https://github.com/voodootikigod/adlc-herdr)<br><sub>voodootikigod</sub> | ADLC 的 herdr 插件——按窗格显示阶段/工单/关卡状态，附带待办看板、关卡操作和 adlc-fleet 运行可观测性。是 voodootikigod/adlc/plugins/adlc-herdr 的自动同步镜像 | `javascript` | 3 | 🔄 2026-10-25 |
+| [**adlc-herdr**](https://github.com/voodootikigod/adlc-herdr)<br><sub>voodootikigod</sub> | ADLC 的 herdr 插件——按窗格显示阶段/工单/关卡状态，附带待办看板、关卡操作和 adlc-fleet 运行可观测性。是 voodootikigod/adlc/plugins/adlc-herdr 的自动同步镜像 | `javascript` | 3 | 🔄 2026-10-30 |
 | [**🆕 herdr-muse**](https://github.com/akshat12/herdr-muse)<br><sub>akshat12</sub> | 面向 Muse Code 的 Herdr 集成：通过生命周期 hook 获取窗格的 idle/working/blocked 状态（无需 fork Herdr）。 | `ai-agents` `cli` `coding-agents` `muse-code` `terminal` | 2 | 2026-09-12 |
 | [**herdr-cache-timer**](https://github.com/ArteenHD/herdr-cache-timer)<br><sub>ArteenHD</sub> | 在 Herdr 侧边栏中直接显示每个 Agent 的 prompt 缓存何时过期 | `claude-code` `prompt-caching` `terminal` `javascript` | 2 | 2026-08-08 |
 | [**herdr-agent-dashboard**](https://github.com/carsonjones/herdr-agent-dashboard)<br><sub>carsonjones</sub> | prefix+a 显示 herdr Agent 列表 | `typescript` | 2 | 2026-07-16 |
@@ -1236,6 +1231,7 @@
 | [**herdr-tokscale-dashboard**](https://github.com/astkaasa/herdr-tokscale-dashboard)<br><sub>astkaasa</sub> | 将 Tokscale 作为本地 Herdr 仪表盘窗格打开 | `dashboard` `tokscale` `shell` | 1 | 2026-06-26 |
 | [**herdr-nodejs-center**](https://github.com/AZenking/herdr-nodejs-center)<br><sub>AZenking</sub> | 用于监控并聚焦本地 Node.js、Bun 和 Deno 服务的 Herdr 弹窗 | `developer-tools` `nodejs` `javascript` | 1 | 🔄 2026-10-18 |
 | [**herdr-plugin-codex-subs**](https://github.com/benkraus/herdr-plugin-codex-subs)<br><sub>benkraus</sub> | 显示 CLIProxyAPI 中 Codex 订阅额度和重置积分的 Herdr 仪表盘 | `go` | 1 | 2026-07-30 |
+| [**🆕 herdr-model-badge**](https://github.com/dkbo/herdr-model-badge)<br><sub>dkbo</sub> | herdr 插件：在 Agent 侧边栏中显示每个 Agent 使用的模型及推理强度。 | `ai-agents` `terminal` `tui` `python` | 1 | 2026-09-08 |
 | [**🆕 herdr-agent-resource-badges**](https://github.com/dlepold/herdr-agent-resource-badges)<br><sub>dlepold</sub> | herdr plugin: green/orange/red CPU and RAM badges per agent in the sidebar, shown only while an agent is busy. Rust, ~3 MB RAM. | `ai-agents` `claude-code` `rust` `terminal` | 1 | 🔄 2026-10-28 |
 | [**🆕 herdr-machine-memory**](https://github.com/gosuwtf/herdr-machine-memory)<br><sub>gosuwtf</sub> | Herdr plugin: tab-bar memory usage for this machine and every connected Herdr machine | `python` | 1 | 🔄 2026-10-25 |
 | [**herdr-overview**](https://github.com/iamgp/herdr-overview)<br><sub>iamgp</sub> | 面向 Herdr 的 Mission Control / Exposé——以平铺方式实时展示所有 space | `terminal` `tui` `javascript` | 1 | 2026-08-28 |
@@ -1245,14 +1241,11 @@
 | [**🆕 herdr-job-board**](https://github.com/larrychannon/herdr-job-board)<br><sub>larrychannon</sub> | 在 Herdr 分屏窗格中为 Agent 任务提供「待办 / 进行中 / 等你处理」看板 | `javascript` | 1 | 🔄 2026-10-30 |
 | [**pi-herdr-sidebar**](https://github.com/mastnacek/pi-herdr-sidebar)<br><sub>mastnacek</sub> | 面向 Pi 编码 Agent 的原生 Rust Herdr 插件侧边栏：状态遥测、实时技能、关卡——基于 Rust/Ratatui 的 VSA 切片 | `pi` `ratatui` `rust` | 1 | 2026-10-14 |
 | [**herdr-compose**](https://github.com/mattyan1053/herdr-compose)<br><sub>mattyan1053</sub> | 用于 docker compose 的 Herdr 插件 | `terminal` `tui` `shell` | 1 | 2026-07-24 |
-| [**🆕 herdr-agent-board**](https://github.com/NoctisHsu/herdr-agent-board)<br><sub>NoctisHsu</sub> | 面向 Herdr 窗格中运行的编码 Agent 的实时任务看板 | `python` | 1 | 2026-10-14 |
 | [**🆕 mission-control-capcom**](https://github.com/philals/mission-control-capcom)<br><sub>philals</sub> | 面向故事驱动工作的任务控制中心：本地看板、Claude Code 技能，以及展示任务、草稿 PR、CI 和手动运行的实时终端看板 | `claude-code` `kanban` `rust` `tui` | 1 | 🔄 2026-10-29 |
-| [**🆕 herdr-readpending**](https://github.com/rcosteira79/herdr-readpending)<br><sub>rcosteira79</sub> | 标记你还没看完的 Agent。提供带编号的徽章（$read）+ 可重新排序的列表窗格。聚焦该 Agent 时会自动清除标记 | `python` | 1 | 2026-09-15 |
-| [**🆕 herdr-agent-metrics**](https://github.com/szrenwei/herdr-agent-metrics)<br><sub>szrenwei</sub> | 面向 Claude Code、Codex 和 TraeX 的轻量级 Herdr 上下文与会话用量指标 | `claude-code` `openai-codex` `traex` `python` | 1 | 2026-08-04 |
 | [**🆕 herdeck**](https://github.com/thefahien/herdeck)<br><sub>thefahien</sub> | 将命令、进程、健康检查、JSON API 和 Prometheus 查询变成 herdr 窗格中的实时标签页 | `curses` `monitoring` `prometheus` `python` `terminal-dashboard` | 1 | 🔄 2026-10-23 |
 | [**🆕 taskherd**](https://github.com/ukwhatn/taskherd)<br><sub>ukwhatn</sub> | 与 herdr Agent 会话、PR 和 Jira 工单相关联的任务看板 | `claude-code` `kanban` `task-management` `tui` `go` | 1 | 2026-09-01 |
 | [**herdr-virtualboard**](https://github.com/virtualboard/herdr-virtualboard)<br><sub>virtualboard</sub> | 在 Herdr 中管理 VirtualBoard 功能规格的看板：列代表生命周期阶段，卡片代表规格，派发卡片会在窗格中启动对应角色的 Agent。 | `go` | 1 | 🔄 2026-10-16 |
-| [**🆕 corgi**](https://github.com/zyrre/corgi)<br><sub>zyrre</sub> | 面向 Herdr 编码 Agent 的紧凑仪表盘，支持 supervisor 协调，并带有 Omarchy 栏小组件 | `claude-code` `codex` `tui` `rust` | 1 | 🔄 2026-10-29 |
+| [**🆕 corgi**](https://github.com/zyrre/corgi)<br><sub>zyrre</sub> | 面向 Herdr 编码 Agent 的紧凑仪表盘，支持 supervisor 协调，并带有 Omarchy 栏小组件 | `claude-code` `codex` `tui` `rust` | 1 | 🔄 2026-10-30 |
 
 <details><summary>与此目的也相关</summary>
 
@@ -1262,6 +1255,7 @@
 - [Northern-Lighthouse/herdr-fleet](https://github.com/Northern-Lighthouse/herdr-fleet) — 通过 Tailscale 管理一批 herdr 机器——仪表盘插件、自动发现、感知容量的 Agent 派发、无盘工作区
 - [cdowell09/herdr-pr-board](https://github.com/cdowell09/herdr-pr-board) — 面向 Herdr 的可配置跨仓库 GitHub 拉取请求仪表盘
 - [bengemine/herdr-hibernate](https://github.com/bengemine/herdr-hibernate) — 让 Herdr 中空闲的编程 Agent 窗格（Claude Code、Codex、Grok）休眠——释放内存，按 Enter 即可恢复原会话
+- [DnzzL/herdr-idle](https://github.com/DnzzL/herdr-idle) — herdr plugin: idle agent panes give back their RAM. The pane stays; Enter resumes the same conversation.
 - [spad-0x/herdr-mobile-pro](https://github.com/spad-0x/herdr-mobile-pro) — 一款高性能、移动优先的 PWA 仪表盘，采用 Cyber-Dark 设计风格，可直接从智能手机编排 Herdr 与自主 AI Agent。具备安全 HTTPS、语音听写输入、图片上传，以及将终端输出实时语义解析为聊天式…
 - [4242labs/herdr-radar-plus](https://github.com/4242labs/herdr-radar-plus) — Herdr 插件：按需要你处理的紧急程度对 Agent 排序，并以跨机器的具名分组呈现。基于 herdr-radar 构建。
 - [eugeneb50/herdr-mcp](https://github.com/eugeneb50/herdr-mcp) — herdr 插件兼 MCP 服务器：通过 AI 客户端操控 herdr 窗格和 Agent，支持配方、触发器、计划任务、仪表盘和 Web 试验场
@@ -1288,13 +1282,13 @@
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
 | [**herdr-navigator**](https://github.com/thanhdat77/herdr-navigator)<br><sub>thanhdat77</sub> | 通过一个模糊导航器跳转到任意 Herdr 工作区、Agent、项目、会话、远程连接、目录或操作 | `fuzzy-finder` `rust` `terminal` `workspace-manager` | 187 | 2026-09-24 |
-| [**herdr-bar**](https://github.com/jeffarese/herdr-bar)<br><sub>jeffarese</sub> | 面向 herdr 的 Cmd+K 与自动标签标题：可模糊跳转到任意标签页、Agent、仓库或分支。 | `command-bar` `fuzzy-finder` `python` `terminal` `tui` | 174 | 🔄 2026-10-28 |
-| [**termscope**](https://github.com/iurysza/termscope)<br><sub>iurysza</sub> | 在分屏中打开终端屏幕上已经可见的文件和链接 | `python` `television` `terminal` `tmux` | 68 | 🔄 2026-10-25 |
+| [**herdr-bar**](https://github.com/jeffarese/herdr-bar)<br><sub>jeffarese</sub> | 面向 herdr 的 Cmd+K 与自动标签标题：可模糊跳转到任意标签页、Agent、仓库或分支。 | `command-bar` `fuzzy-finder` `python` `terminal` `tui` | 179 | 🔄 2026-10-28 |
+| [**termscope**](https://github.com/iurysza/termscope)<br><sub>iurysza</sub> | 在分屏中打开终端屏幕上已经可见的文件和链接 | `python` `television` `terminal` `tmux` | 69 | 🔄 2026-10-25 |
 | [**herdr-sessionizer**](https://github.com/andrewchng/herdr-sessionizer)<br><sub>andrewchng</sub> | 通过模糊搜索打开项目和工作树，再从声明式 TOML 布局（标签页、窗格分割、命令、按仓库覆盖配置）启动工作区 | `bun` `fuzzy-finder` `fzf` `git-worktree` `sessionizer` | 52 | 🔄 2026-10-26 |
 | [**herdr-plugin-sesh**](https://github.com/fullerzz/herdr-plugin-sesh)<br><sub>fullerzz</sub> | 面向 Herdr 的 Sesh 风格工作区选择器 TUI，集成 zoxide，可从常用目录创建工作区 | `bubbletea` `sesh` `tui` `zoxide` `go` | 51 | 🔄 2026-10-30 |
 | [**herdr-command-palette**](https://github.com/JanTvrdik/herdr-command-palette)<br><sub>JanTvrdik</sub> | herdr 的 fzf 命令面板——模糊选择并运行任意插件操作 | `shell` | 47 | 2026-06-29 |
 | [**herdr-drovr**](https://github.com/AVGVSTVS96/herdr-drovr)<br><sub>AVGVSTVS96</sub> | 轻松移动 herdr 窗格和标签页 | `fzf` `terminal` `javascript` | 26 | 2026-10-10 |
-| [**herdr-palette**](https://github.com/vjeantet/herdr-palette)<br><sub>vjeantet</sub> | Sublime Text / VS Code 风格的 herdr 命令面板——内置操作、插件动作和你自己的命令，全部藏在一个按键之后 | `command-palette` `fuzzy-search` `terminal` `tui` `rust` | 19 | 2026-10-05 |
+| [**herdr-palette**](https://github.com/vjeantet/herdr-palette)<br><sub>vjeantet</sub> | Sublime Text / VS Code 风格的 herdr 命令面板——内置操作、插件动作和你自己的命令，全部藏在一个按键之后 | `command-palette` `fuzzy-search` `terminal` `tui` `rust` | 20 | 2026-10-05 |
 | [**herdr-omni**](https://github.com/mmjang/herdr-omni)<br><sub>mmjang</sub> | 一个搜索框，覆盖 Herdr 的工作区、操作以及正在运行或已保存的 Codex 与 Claude 会话。可按名称模糊查找、搜索对话内容，并从中断处继续。 | `claude-code` `codex` `opencode` `rust` | 13 | 🔄 2026-10-29 |
 | [**herdr-zoxide**](https://github.com/den-tanui/herdr-zoxide)<br><sub>den-tanui</sub> | 从 zoxide 记录的目录创建工作区、标签页和窗格的 Herdr 插件 | `zoxide` `shell` | 12 | 2026-07-25 |
 | [**herdr-palette**](https://github.com/ramarivera/herdr-palette)<br><sub>ramarivera</sub> | 面向 Herdr 工作区的 Rust/Ratatui 模糊命令面板 | `command-palette` `ratatui` `rust` `terminal` `tui` | 11 | 2026-09-11 |
@@ -1307,7 +1301,7 @@
 | [**herdr-hunk**](https://github.com/JacquesvanWyk/herdr-hunk)<br><sub>JacquesvanWyk</sub> | herdr 中用于 Hunk 差异对比的交互式 fzf 选择器：支持提交、范围、stash，并可在 Agent 完成时自动打开 | `fzf` `hunk` `shell` | 6 | 2026-07-12 |
 | [**bracco**](https://github.com/rawnly/bracco)<br><sub>rawnly</sub> | 终端中快速且感知 Git 的模糊文件选择器 | `cli` `fuzzy` `fuzzy-finder` `ratatui` `rust` | 6 | 🔄 2026-10-28 |
 | [**herdr-sessionizer**](https://github.com/salkhalil/herdr-sessionizer)<br><sub>salkhalil</sub> | herdr 的 tmux-sessionizer：用 fzf 搜索已打开的工作区和 zoxide 目录，创建或聚焦并附带模板标签页 | `shell` | 6 | 2026-07-27 |
-| [**herdr-kiosk**](https://github.com/thomasschafer/herdr-kiosk)<br><sub>thomasschafer</sub> | 模糊查找 Git 仓库和分支，并在 Herdr 中作为工作树打开 | `rust` | 6 | 🔄 2026-10-26 |
+| [**herdr-kiosk**](https://github.com/thomasschafer/herdr-kiosk)<br><sub>thomasschafer</sub> | 模糊查找 Git 仓库和分支，并在 Herdr 中作为工作树打开 | `rust` | 6 | 🔄 2026-10-30 |
 | [**herdr-launcher**](https://github.com/arjenblokzijl/herdr-launcher)<br><sub>arjenblokzijl</sub> | 模糊选择一个声明式 TOML 工作流，填写表单，在新的 herdr 空间中启动编程 Agent | `launcher` `ratatui` `rust` `tui` | 5 | 2026-07-10 |
 | [**herdr-palette**](https://github.com/cesarferreira/herdr-palette)<br><sub>cesarferreira</sub> | 面向 Herdr 的弹窗式命令面板 | `typescript` | 5 | 2026-09-08 |
 | [**herdr-pickr**](https://github.com/javoscript/herdr-pickr)<br><sub>javoscript</sub> | YAP！又一个面向 Herdr 多路复用器的选择器。 | `fzf` `lua` | 5 | 2026-09-23 |
@@ -1318,7 +1312,7 @@
 | [**herdr-cast**](https://github.com/aliou/herdr-cast)<br><sub>aliou</sub> | 个人 Herdr 插件——提供原生 macOS Agent 通知、模糊工作区导航、基于 zoxide 的工作区创建以及布局命令 | `developer-tools` `macos` `notifications` `ratatui` `rust` | 4 | 🔄 2026-10-24 |
 | [**herdr-workspace-save**](https://github.com/chandrasekharan98/herdr-workspace-save)<br><sub>chandrasekharan98</sub> | 保存 Herdr 工作区（布局、工作目录、Agent 会话、正在运行的命令），之后可从 fzf 选择器中重新打开 | `claude-code` `terminal` `tmux` `python` | 4 | 2026-10-13 |
 | [**herdr-grep-nvim**](https://github.com/cinco/herdr-grep-nvim)<br><sub>cinco</sub> | herdr 插件：用 fzf + ripgrep 进行实时搜索，并在你工作区旁边的分屏中用 nvim 打开匹配结果 | `shell` | 3 | 2026-07-17 |
-| [**herdr-simple-switcher**](https://github.com/haphamdev/herdr-simple-switcher)<br><sub>haphamdev</sub> | 对工作区、标签页和 AI Agent 进行模糊搜索 | `shell` | 3 | 🔄 2026-10-15 |
+| [**herdr-simple-switcher**](https://github.com/haphamdev/herdr-simple-switcher)<br><sub>haphamdev</sub> | 对工作区、标签页和 AI Agent 进行模糊搜索 | `shell` | 3 | 2026-10-15 |
 | [**herdr-command-palette**](https://github.com/hota911/herdr-command-palette)<br><sub>hota911</sub> | 面向 herdr 内置操作（工作区、标签页、窗格、Agent）的 fzf 命令面板 | `command-palette` `fzf` `shell` | 3 | 2026-08-16 |
 | [**herdr-spotify**](https://github.com/iikjl/herdr-spotify)<br><sub>iikjl</sub> | herdr 的 Spotify 正在播放浮层插件——专辑封面、播放控制，并可通过 Spotify Web API 搜索/加入队列/点赞 | `spotify` `terminal` `go` | 3 | 2026-07-07 |
 | [**herdr-workspacer**](https://github.com/mcuste/herdr-workspacer)<br><sub>mcuste</sub> | 使用 zoxide 查找项目，然后切换或创建 Herdr 工作区 | `rust` `tui` `zoxide` | 3 | 2026-10-01 |
@@ -1342,6 +1336,7 @@
 | [**herdr-sessionizer**](https://github.com/42lizard/herdr-sessionizer)<br><sub>42lizard</sub> | tmux-sessionizer 风格的 herdr 插件 | `fzf` `shell` | 1 | 2026-08-28 |
 | [**herdr-url-picker**](https://github.com/abrose/herdr-url-picker)<br><sub>abrose</sub> | herdr 插件：用 fzf 选取当前窗格中显示的 URL，并用默认浏览器打开 | `shell` | 1 | 2026-07-22 |
 | [**🆕 herdr-jump**](https://github.com/agustinvalencia/herdr-jump)<br><sub>agustinvalencia</sub> | 为 herdr 空间和 Agent 分别提供的浮层选择器——跳转到任意工作区或 Agent，并以颜色实时显示状态 | `go` | 1 | 2026-07-24 |
+| [**🆕 herdr-command-palette**](https://github.com/barnuri/herdr-command-palette)<br><sub>barnuri</sub> | 面向 herdr 的 F1 风格命令面板——可模糊搜索并运行所有已安装插件的全部操作，零依赖 | `command-palette` `terminal` `javascript` | 1 | 2026-09-01 |
 | [**🆕 herdr-picker**](https://github.com/bkarpinos/herdr-picker)<br><sub>bkarpinos</sub> | 用于在 herdr 中搜索和预览工作区、Agent 和标签页的快速弹窗选择器 | `go` | 1 | 2026-07-25 |
 | [**herdr-url-picker**](https://github.com/chouxcreams/herdr-url-picker)<br><sub>chouxcreams</sub> | Herdr 插件：从聚焦窗格中选取一个 URL 并在浏览器中打开 | `shell` | 1 | 2026-07-22 |
 | [**🆕 herdr-spotify**](https://github.com/DeepRuparel/herdr-spotify)<br><sub>DeepRuparel</sub> | 面向 Herdr 的 Spotify 集成——Go 编写，提供零配置的本地控制，并通过 PKCE 授权支持搜索/加入队列/保存 | `spotify` `go` | 1 | 2026-08-28 |
@@ -1352,6 +1347,7 @@
 | [**🆕 herdr-sesh**](https://github.com/fedeya/herdr-sesh)<br><sub>fedeya</sub> | herdr 的 sesh 风格 fzf 选择器：在工作区和 Agent 之间跳转，或打开 sesh 配置、zoxide 与 fd 目录，支持实时预览和上一个工作区切换 | `fzf` `sesh` `zoxide` `shell` | 1 | 2026-10-01 |
 | [**🆕 herdr-palette**](https://github.com/iancharters/herdr-palette)<br><sub>iancharters</sub> | 面向 Herdr 的模糊搜索命令面板——包含核心命令，以及自动发现的插件操作，均在可见位置执行。快速、键盘优先、终端原生。 | `go` | 1 | 2026-09-25 |
 | [**🆕 herdr-keys**](https://github.com/JacquesvanWyk/herdr-keys)<br><sub>JacquesvanWyk</sub> | 面向 herdr 的可模糊搜索快捷键速查表（支持功能包、发现和个人自定义覆盖） | `shell` | 1 | 2026-07-12 |
+| [**🆕 herdr-open-editor**](https://github.com/jimididit/herdr-open-editor)<br><sub>jimididit</sub> | 用 fzf 模糊搜索并选择文件，然后在你配置的编辑器中打开。 | `herd` `text-editor` `tui` `shell` | 1 | 2026-09-03 |
 | [**herdr-fzf-url**](https://github.com/kaar/herdr-fzf-url)<br><sub>kaar</sub> | 从 herdr 窗格的滚动记录中模糊查找并打开 URL——tmux-fzf-url 的 herdr 移植版 | `shell` | 1 | 2026-07-29 |
 | [**herdr-shortcut**](https://github.com/matheus3301/herdr-shortcut)<br><sub>matheus3301</sub> | 面向 Herdr 的快捷任务选择器兼编程 Agent 启动器 | `bubbletea` `claude-code` `codex` `coding-agents` `developer-tools` | 1 | 2026-07-24 |
 | [**🆕 herdr-pickers**](https://github.com/sagmans/herdr-pickers)<br><sub>sagmans</sub> | 为 Agent、worktree、工作区和项目提供多种自定义的弹出式选择器。 | `typescript` | 1 | 🔄 2026-10-26 |
@@ -1381,14 +1377,14 @@
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
 | [**herdr-browser**](https://github.com/ogulcancelik/herdr-browser)<br><sub>ogulcancelik</sub> | 在 Herdr 窗格内渲染真实的 Chromium 视图，并通过 CDP 进行操控 | `browser` `browser-automation` `cdp` `chromium` `kitty-graphics` | 360 | 2026-08-22 |
-| [**herdr-auto-title**](https://github.com/kryptamine/herdr-auto-title)<br><sub>kryptamine</sub> | 根据当前工作内容、Git 分支、终端活动和 Claude Code 会话，自动为 Herdr 的标签页和窗格命名。 | `claude-code` `coding-agents` `developer-tools` `terminal` `terminal-multiplexer` | 278 | 🔄 2026-10-29 |
+| [**herdr-auto-title**](https://github.com/kryptamine/herdr-auto-title)<br><sub>kryptamine</sub> | 根据当前工作内容、Git 分支、终端活动和 Claude Code 会话，自动为 Herdr 的标签页和窗格命名。 | `claude-code` `coding-agents` `developer-tools` `terminal` `terminal-multiplexer` | 278 | 🔄 2026-10-30 |
 | [**herdr-automatic-rename**](https://github.com/qu8n/herdr-automatic-rename)<br><sub>qu8n</sub> | 根据前台进程（类似 tmux）或 Agent 会话上下文自动命名 herdr 标签页 | `shell` | 227 | 🔄 2026-10-22 |
 | [**herdr-auto-title**](https://github.com/sh1ma/herdr-auto-title)<br><sub>sh1ma</sub> | 根据 Claude Code 和 Codex 的对话内容，自动生成 herdr 标签页标题 | `claude-code` `codex` `python` | 55 | 2026-09-11 |
-| [**herdr-workflows**](https://github.com/aorumbayev/herdr-workflows)<br><sub>aorumbayev</sub> | 为 herdr 中的重复步骤提供声明式自动化 | `agentic-ai` `agentic-workflow` `agents` `ai` `claude` | 37 | 🔄 2026-10-28 |
-| [**zed-herdr**](https://github.com/ImArtisann/zed-herdr)<br><sub>ImArtisann</sub> | 自动将当前活动的 HerdR 工作区与已有的 Zed 会话保持同步 | `typescript` | 35 | 2026-10-06 |
+| [**herdr-workflows**](https://github.com/aorumbayev/herdr-workflows)<br><sub>aorumbayev</sub> | 为 herdr 中的重复步骤提供声明式自动化 | `agentic-ai` `agentic-workflow` `agents` `ai` `claude` | 38 | 🔄 2026-10-28 |
+| [**zed-herdr**](https://github.com/ImArtisann/zed-herdr)<br><sub>ImArtisann</sub> | 自动将当前活动的 HerdR 工作区与已有的 Zed 会话保持同步 | `typescript` | 36 | 2026-10-06 |
 | [**herdr-worktree-setup**](https://github.com/tdi/herdr-worktree-setup)<br><sub>tdi</sub> | herdr 插件：创建工作树时执行按项目定制的初始化步骤（从 main 复制 .env、mise trust、direnv allow、安装依赖等） | `javascript` | 30 | 2026-09-11 |
 | [**herdr-auto-pilot**](https://github.com/0xGosu/herdr-auto-pilot)<br><sub>0xGosu</sub> | 通过 Herdr API 代替你自动向运行中的 AI 编程 CLI 发送提示词的 Herdr 插件。插件具有从你的操作中学习的训练模式，并内置防止危险/恶意操作的防护机制。经过充分训练后，可让它以「完全自主提示（FSP）」模式运行 | `go` | 29 | 🔄 2026-10-28 |
-| [**herdr-automations**](https://github.com/DnzzL/herdr-automations)<br><sub>DnzzL</sub> | 在终端中运行、面向编程 Agent 的定时任务，基于 Herdr。每次运行都会准备一条提示词、一行 cron 和一个全新的 git 工作树。仅需一个 YAML 文件，无需存储、提供预编译二进制、可按自动化单独指定模型、支持睡眠后补跑，并附带实时看板 | `ai-agents` `automation` `claude-code` `coding-agents` `cron` | 21 | 🔄 2026-10-20 |
+| [**herdr-automations**](https://github.com/DnzzL/herdr-automations)<br><sub>DnzzL</sub> | 在终端中运行、面向编程 Agent 的定时任务，基于 Herdr。每次运行都会准备一条提示词、一行 cron 和一个全新的 git 工作树。仅需一个 YAML 文件，无需存储、提供预编译二进制、可按自动化单独指定模型、支持睡眠后补跑，并附带实时看板 | `ai-agents` `automation` `claude-code` `coding-agents` `cron` | 22 | 🔄 2026-10-30 |
 | [**bermuda**](https://github.com/bon5co/bermuda)<br><sub>bon5co</sub> | 在 herdr 上由 Claude Code 驱动的编排——Agent 无法跳过的流程、定时任务、带 claim 的线程，以及供 Agent 日后检索的论坛 | `agent-orchestration` `agents` `ai-agents` `automation` `claude-code` | 14 | 🔄 2026-10-21 |
 | [**herdr-routines**](https://github.com/mrcndz/herdr-routines)<br><sub>mrcndz</sub> | 运行定时任务的 Herdr 插件：按 cron 或固定间隔在工作区中打开标签页，运行命令或启动 Agent | `python` | 12 | 2026-07-18 |
 | [**herdr-updater**](https://github.com/diegopzz/herdr-updater)<br><sub>diegopzz</sub> | 在整个机群范围内安全地让 Herdr 本体及其插件保持最新 | `rust` `updater` | 10 | 2026-09-17 |
@@ -1411,13 +1407,14 @@
 | [**herdr-js-worktree-bootstrap**](https://github.com/LeonardoTrapani/herdr-js-worktree-bootstrap)<br><sub>LeonardoTrapani</sub> | 为 JavaScript 和 TypeScript 自动初始化 Herdr 工作树，支持基于锁文件的安装和安全的环境变量还原 | `automation` `bun` `developer-tools` `git-worktree` `javascript` | 2 | 2026-07-15 |
 | [**herdr-callsigns**](https://github.com/reobin/herdr-callsigns)<br><sub>reobin</sub> | 为每个 herdr 窗格自动起一个简短好记的呼号，让你和你的 Agent 可以用窗格名称代替 ID | `shell` | 2 | 🔄 2026-10-26 |
 | [**🆕 herdr-kata**](https://github.com/salmonumbrella/herdr-kata)<br><sub>salmonumbrella</sub> | 将 Kata 的 cron 作业和工作流作为 Herdr Agent 运行 | `kata` `go` | 2 | 🔄 2026-10-25 |
-| [**herdr-hermes-manager**](https://github.com/skaftanis/herdr-hermes-manager)<br><sub>skaftanis</sub> | Herdr 的 Hermes Agent 工作区、cron 控制、最近对话和持续的 Bot 聊天 | `hermes-agent` `macos` `terminal` `tui` `python` | 2 | 🔄 2026-10-15 |
+| [**herdr-hermes-manager**](https://github.com/skaftanis/herdr-hermes-manager)<br><sub>skaftanis</sub> | Herdr 的 Hermes Agent 工作区、cron 控制、最近对话和持续的 Bot 聊天 | `hermes-agent` `macos` `terminal` `tui` `python` | 2 | 2026-10-15 |
 | [**herdr-starkeep**](https://github.com/yuya-take/herdr-starkeep)<br><sub>yuya-take</sub> | 在轨道训练舰上，看你的 herdr Agent 化身骑士工作——子 Agent 则以学徒身份加入 | `rust` | 2 | 2026-10-06 |
 | [**herdr-claude-autoupdate**](https://github.com/0xMMA/herdr-claude-autoupdate)<br><sub>0xMMA</sub> | herdr 插件：将空闲的 Claude Code 窗格原地重启到新安装的版本，保留相同会话和参数，草稿也不会丢失 | `claude-code` `typescript` | 1 | 2026-10-11 |
-| [**🆕 herdr-stay-awake**](https://github.com/assawalhy/herdr-stay-awake)<br><sub>assawalhy</sub> | 只要有任意 herdr Agent 窗格在工作，就阻止机器进入睡眠（支持 Linux、macOS、Windows 和 WSL）。 | `agent-orchestration` `agents` `harness` `linux` `macos` | 1 | 2026-10-07 |
+| [**🆕 herdr-auto-pull-main**](https://github.com/bring-shrubbery/herdr-auto-pull-main)<br><sub>bring-shrubbery</sub> | _(暂无描述)_ | `shell` | 1 | 2026-10-12 |
 | [**herdr-triggers**](https://github.com/cantona/herdr-triggers)<br><sub>cantona</sub> | 常驻监听窗格输出并按正则表达式触发动作：自动登录等由正则驱动的终端触发器。 | `rust` `terminal` `terminal-based` `terminal-multiplexer` `trigger` | 1 | 2026-09-18 |
 | [**🆕 herdr-continue**](https://github.com/codergeek121/herdr-continue)<br><sub>codergeek121</sub> | 让你的 Agent 自动开始工作 | `shell` | 1 | 2026-09-30 |
 | [**🆕 herdr-auto-tab-name**](https://github.com/dev-shimada/herdr-auto-tab-name)<br><sub>dev-shimada</sub> | herdr 插件：根据当前目录自动命名标签页 | `javascript` | 1 | 🔄 2026-10-17 |
+| [**🆕 ws.numbered.herdr**](https://github.com/dhananjaylatkar/ws.numbered.herdr)<br><sub>dhananjaylatkar</sub> | 自动为 Herdr 中的工作区编号 | `python` | 1 | 2026-10-09 |
 | [**say-hook**](https://github.com/HikaruEgashira/say-hook)<br><sub>HikaruEgashira</sub> | 使用 ElevenLabs 文字转语音朗读 Claude Code hook 事件的 macOS CLI | `typescript` | 1 | 🔄 2026-10-19 |
 | [**herdr-worktree-cleanup**](https://github.com/poislagarde/herdr-worktree-cleanup)<br><sub>poislagarde</sub> | 当对应的 Herdr 空间关闭时，自动清理可安全删除的 GitHub PR worktree。Python 编写，无依赖，MIT 许可。 | `git-worktree` `python` | 1 | 2026-09-11 |
 | [**🆕 herdr-automations**](https://github.com/ram4-dev/herdr-automations)<br><sub>ram4-dev</sub> | 面向 Herdr 的声明式 cron、间隔和事件自动化 | `automation` `bun` `typescript` | 1 | 2026-08-13 |
@@ -1458,6 +1455,7 @@
 | [**sheep**](https://github.com/gokay-ai/sheep)<br><sub>gokay-ai</sub> | 面向 AI 编程 Agent 的撤销功能。Agent 的每一轮操作都会成为一个可恢复的检查点 | `ai-agents` `git` `llm` `rust` `tui` | 6 | 2026-08-28 |
 | [**herdr-undo-close**](https://github.com/pedroloch/herdr-undo-close)<br><sub>pedroloch</sub> | 如浏览器的 Cmd+Shift+T 一样，在 herdr 中重新打开已关闭的标签页——恢复标签名、含比例的分屏结构、每个窗格的工作目录以及标签页位置 | `python` | 4 | 2026-07-30 |
 | [**herdr-hibernate**](https://github.com/bengemine/herdr-hibernate)<br><sub>bengemine</sub> | 让 Herdr 中空闲的编程 Agent 窗格（Claude Code、Codex、Grok）休眠——释放内存，按 Enter 即可恢复原会话 | `claude-code` `python` | 3 | 🔄 2026-10-16 |
+| [**🆕 herdr-idle**](https://github.com/DnzzL/herdr-idle)<br><sub>DnzzL</sub> | herdr plugin: idle agent panes give back their RAM. The pane stays; Enter resumes the same conversation. | `ai-agents` `claude-code` `terminal` `go` | 3 | 🔄 2026-10-29 |
 | [**herdr-stash**](https://github.com/victor-software-house/herdr-stash)<br><sub>victor-software-house</sub> | 储藏 Herdr 工作区——停止其中的 Agent，同时保留其结构和对话内容，之后可从可点击的双栏弹窗中恢复 | `rust` `terminal` `tui` | 3 | 2026-07-29 |
 | [**herdr-pane-id-labeler**](https://github.com/4Born/herdr-pane-id-labeler)<br><sub>4Born</sub> | 让窗格标签与如 w1:p2 之类的公开窗格 ID 保持同步的 Herdr 插件 | `developer-tools` `terminal` `javascript` | 2 | 2026-07-26 |
 | [**herdr-agent-auto-naming**](https://github.com/azyu/herdr-agent-auto-naming)<br><sub>azyu</sub> | 一个 Herdr 插件，为检测到的每个 Agent 分配一个易读的双词名称，并作为窗格标签持久保存，重启后依然保留。 | `coding-agents` `developer-tools` `terminal` `python` | 2 | 🔄 2026-10-16 |
@@ -1469,8 +1467,8 @@
 | [**🆕 herdr-todos-windows**](https://github.com/aclima01/herdr-todos-windows)<br><sub>aclima01</sub> | 实时镜像 herdr Agent 任务列表（TaskCreate/TaskUpdate）的面板，方便你跟踪它的计划 | `powershell` | 1 | 2026-07-22 |
 | [**🆕 herdr-restart-agents**](https://github.com/aliaksandr-haurylau-godel/herdr-restart-agents)<br><sub>aliaksandr-haurylau-godel</sub> | Herdr 插件：重启窗格中的编码 Agent 并恢复同一会话 | `python` | 1 | 🔄 2026-10-29 |
 | [**🆕 avocado-park**](https://github.com/andymartinezot/avocado-park)<br><sub>andymartinezot</sub> | herdr plugin: park idle Claude Code, Codex and OpenCode sessions to free memory without closing their panes, then resume them in place. | `agent-tools` `claude-code` `codex` `opencode` `tui` | 1 | 🔄 2026-10-29 |
+| [**🆕 herdr-unread**](https://github.com/arthurnw/herdr-unread)<br><sub>arthurnw</sub> | 将 Herdr Agent 会话标记为未读，直到再次访问或恢复 | `python` | 1 | 2026-09-14 |
 | [**herdr-agent-hibernate**](https://github.com/dalogax/herdr-agent-hibernate)<br><sub>dalogax</sub> | 让 Herdr 中空闲的 AI Agent 窗格进入休眠：释放其占用的内存，待你返回时恢复同一会话。支持 OpenCode、Claude Code 和 Codex。 | `ai-agents` `claude-code` `codex` `opencode` `terminal` | 1 | 2026-10-01 |
-| [**🆕 herdr-pane-reopen**](https://github.com/rchougule/herdr-pane-reopen)<br><sub>rchougule</sub> | herdr 插件：撤销关闭操作——将最近关闭的窗格、标签页或工作区原地重新打开，并恢复其 Agent。 | `rust` | 1 | 2026-09-17 |
 | [**attic**](https://github.com/TheThoughtagen/attic)<br><sub>TheThoughtagen</sub> | 自动关闭空闲的 AI 编程会话，但会先归档每一个，方便之后恢复 | `claude-code` `developer-tools` `python` `session-management` `tui` | 1 | 2026-08-14 |
 | [**herdr-agent-pins**](https://github.com/ZingerLittleBee/herdr-agent-pins)<br><sub>ZingerLittleBee</sub> | 将 Herdr Agent 会话持久固定在 Agents 侧边栏顶部 | `terminal` `javascript` | 1 | 2026-08-24 |
 
@@ -1534,21 +1532,21 @@
 | [**herdr-nerd-font-tab-name-windows**](https://github.com/Only-Moon/herdr-nerd-font-tab-name-windows)<br><sub>Only-Moon</sub> | herdr-nerd-font-tab-name 的 Windows 移植版：为 herdr 标签页显示 Nerd Font 图标，跨平台支持 Windows、macOS、Linux，并支持按文件夹解析图标 | `herdr-windows` `icons` `nerd-fonts` `python` `title` | 2 | 2026-08-10 |
 | [**herdr-theme-synthwave-84**](https://github.com/s3rgiosan/herdr-theme-synthwave-84)<br><sub>s3rgiosan</sub> | Herdr 的 Synthwave '84 主题 | `python` | 2 | 2026-09-30 |
 | [**🆕 herdr-git-tab-name**](https://github.com/blurname/herdr-git-tab-name)<br><sub>blurname</sub> | 将标签页重命名为聚焦窗格所在 Git 分支名的 Herdr 插件 | `shell` | 1 | 2026-07-06 |
-| [**🆕 herdr-hermes-session-title**](https://github.com/btorresgil/herdr-hermes-session-title)<br><sub>btorresgil</sub> | 在 Herdr 侧边栏中显示 Hermes Agent 的会话标题 | `python` | 1 | 2026-08-07 |
 | [**🆕 herdr-plugin-omp-state**](https://github.com/dk3775/herdr-plugin-omp-state)<br><sub>dk3775</sub> | 对于官方集成未覆盖的窗格，通过终端标题将 omp Agent 的状态上报给 Herdr。 | `coding-agents` `omp` `python` | 1 | 2026-09-24 |
+| [**🆕 herdr-plugin-space-colors**](https://github.com/ferretorres/herdr-plugin-space-colors)<br><sub>ferretorres</sub> | 为 Herdr 提供 Peacock 风格的按工作区着色：主题会跟随当前聚焦的工作区变化。 | `rust` | 1 | 2026-09-23 |
 | [**🆕 herdr-plugin-pane-id-namer**](https://github.com/gcgo/herdr-plugin-pane-id-namer)<br><sub>gcgo</sub> | 自动生成 Agent 名称并显示在终端中。 | `shell` | 1 | 2026-09-05 |
 | [**🆕 pane-identity**](https://github.com/Ghost-LZW/pane-identity)<br><sub>Ghost-LZW</sub> | 无需修改你的 Agent，即可在 Herdr 中显示窗格 ID、主机名和标签。 | `python` `terminal` | 1 | 2026-09-05 |
-| [**🆕 herdr-chromatic-spaces**](https://github.com/jackfrancisdalton/herdr-chromatic-spaces)<br><sub>jackfrancisdalton</sub> | 为每个 Herdr Space 赋予专属颜色和表情符号——彩色侧边栏圆点、Agent 分组，以及切换 Space 时可选的界面着色 | `python` | 1 | 2026-08-22 |
+| [**🆕 herdr-emoji-time**](https://github.com/hotnugs/herdr-emoji-time)<br><sub>hotnugs</sub> | 为你的 Herdr 空间、Agent 和标签页添加表情符号，给终端增添一点乐趣。 | `emoji` `terminal` `tui` `python` | 1 | 2026-09-12 |
 | [**🆕 herdr-fantasy**](https://github.com/KantaKan/herdr-fantasy)<br><sub>KantaKan</sub> | Your coding agents as a fantasy RPG party, living in a herdr pane | `pixel-art` `rust` `tui` | 1 | 🔄 2026-10-21 |
 | [**🆕 herdr-tab-title-sync**](https://github.com/lucasleon2107/herdr-tab-title-sync)<br><sub>lucasleon2107</sub> | 将标签页名称同步为 AI Agent 对话标题的 herdr 插件 | `ai-agents` `claude-code` `terminal` `tmux` `shell` | 1 | 2026-08-04 |
 | [**🆕 herdr-pane-labels**](https://github.com/macd2/herdr-pane-labels)<br><sub>macd2</sub> | 直接在 herdr 窗格边框上显示每个窗格的当前目录、Agent 会话标题，以及它是本地还是在 ssh 中 | `shell` | 1 | 2026-10-11 |
-| [**🆕 herdr-agent-smart-rename**](https://github.com/malone-c/herdr-agent-smart-rename)<br><sub>malone-c</sub> | 根据每个 herdr Agent 会话实际在做的事情为其命名 | `python` | 1 | 2026-08-14 |
 | [**🆕 herdr-session-sync**](https://github.com/nengqi/herdr-session-sync)<br><sub>nengqi</sub> | 将 Claude Code、Codex 和 Agent 的会话名称，自动同步到 Herdr 窗格标签、PTY 窗口标题和移动配套应用（Heeler）之间 | `agent` `claude-code` `codex` `heeler` `terminal-multiplexer` | 1 | 🔄 2026-10-26 |
 | [**🆕 herdr-claude-tab-rename**](https://github.com/oronbz/herdr-claude-tab-rename)<br><sub>oronbz</sub> | Herdr 插件：让每个标签页的名称始终与其 Claude Code 会话标题保持一致（/rename 或自动标题）。 | `shell` | 1 | 🔄 2026-10-19 |
 | [**herdr-claude-title**](https://github.com/ProjectAJ14/herdr-claude-title)<br><sub>ProjectAJ14</sub> | 一个 Herdr 插件，根据窗口内正在进行的工作为终端标签页、窗格和工作区命名——Claude Code 会话的标题由 Claude 通过 claude -p 自己撰写。使用 Go 编写，支持 macOS/Linux/Windows。 | `ai` `ai-agents` `anthropic` `claude` `claude-code` | 1 | 2026-10-05 |
+| [**🆕 tab-process-name**](https://github.com/riq0h/tab-process-name)<br><sub>riq0h</sub> | 为每个标签页标注其前台运行进程名称的 herdr 插件——相当于把 tmux 的 automatic-rename 行为带到 herdr | `javascript` | 1 | 2026-07-19 |
 | [**🆕 herdr-pomodoro**](https://github.com/sazardev/herdr-pomodoro)<br><sub>sazardev</sub> | 简约优雅、可随主题自适应的 Herdr 番茄钟插件。 | `rust` | 1 | 2026-09-08 |
-| [**🆕 herdr-claude-tab-title**](https://github.com/tmn73/herdr-claude-tab-title)<br><sub>tmn73</sub> | 将每个 Claude Code 会话标题及其 Agent 状态同步到对应的 Herdr 标签页 | `claude-code` `tabs` `terminal` `typescript` | 1 | 2026-09-07 |
 | [**🆕 tabby**](https://github.com/yersonargotev/tabby)<br><sub>yersonargotev</sub> | 为聚焦标签页打上「关键命令」或「工作目录名」标签的 Herdr 插件 | `rust` | 1 | 2026-09-25 |
+| [**🆕 herdr-auto-session-title**](https://github.com/zhangzujian/herdr-auto-session-title)<br><sub>zhangzujian</sub> | 生成简洁的 Herdr 窗格标题，并与原生 Codex 会话名称保持同步 | `javascript` | 1 | 2026-07-30 |
 
 <details><summary>与此目的也相关</summary>
 
@@ -1589,9 +1587,10 @@
 | [**herdr-link-browser**](https://github.com/bonkey/herdr-link-browser)<br><sub>bonkey</sub> | Herdr 插件：按住 Ctrl 点击 http(s) 链接，即可在窗格旁以分屏方式用 terminal-browser 打开。 | `terminal-browser` `shell` | 2 | 2026-09-07 |
 | [**herdr-s3-clipboard**](https://github.com/jagzmz/herdr-s3-clipboard)<br><sub>jagzmz</sub> | 使用 S3 兼容存储，将 Herdr 中剪贴板的图片发布为可复用的公开链接或预签名链接 | `aws-s3` `clipboard` `cloudflare-r2` `developer-tools` `image-publishing` | 2 | 2026-07-16 |
 | [**🆕 herdr-scrollback-capture**](https://github.com/alexjsp/herdr-scrollback-capture)<br><sub>alexjsp</sub> | 将聚焦窗格的回滚缓冲区以 HTML 或文本形式保存到桌面的 Herdr 插件 | `shell` | 1 | 2026-06-30 |
-| [**🆕 herdr-fleece**](https://github.com/dmazlum/herdr-fleece)<br><sub>dmazlum</sub> | 在 Herdr 中截取 Agent 的最后一条回答，随后可复制、保存或发送。 | `typescript` | 1 | 🔄 2026-10-15 |
 | [**herdr-paste-image**](https://github.com/grooni/herdr-paste-image)<br><sub>grooni</sub> | 将剪贴板中的图片粘贴到 herdr 窗格（Codex、Gemini CLI）中——按 F8 粘贴，并配有 F9/F10 剪贴板清理工具。 | `shell` | 1 | 2026-09-21 |
 | [**🆕 herdr-yank**](https://github.com/pgilad/herdr-yank)<br><sub>pgilad</sub> | 内联键盘提示，用于复制 Herdr 窗格中可见的文本片段，或打开其中的 URL 和文件 | `rust` | 1 | 🔄 2026-10-25 |
+| [**🆕 herdr-copy-hints**](https://github.com/rotemb-wond/herdr-copy-hints)<br><sub>rotemb-wond</sub> | 面向 Herdr 的 tmux-fingers 风格键盘复制提示：路径、Git SHA、URL 等 | `clipboard` `developer-tools` `keyboard-navigation` `productivity` `terminal` | 1 | 2026-07-23 |
+| [**🆕 herdr-copy-pane-id**](https://github.com/wine-fall/herdr-copy-pane-id)<br><sub>wine-fall</sub> | herdr 插件：将聚焦窗格的 ID 复制到剪贴板，或在每个窗格的边框上显示其 ID | `cli` `terminal` `python` | 1 | 🔄 2026-10-27 |
 | [**🆕 herdr-translate**](https://github.com/zackshen/herdr-translate)<br><sub>zackshen</sub> | herdr 插件：在居中弹出层中翻译鼠标选中的终端文本 | `rust` | 1 | 2026-08-25 |
 
 <details><summary>与此目的也相关</summary>
@@ -1644,12 +1643,12 @@
 
 | 插件 | 能做什么 | 标签 | ★ | 最后更新 |
 | --- | --- | --- | --: | --- |
-| [**terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | 终端里的真正浏览器 | `browser` `claude-code` `claude-code-plugin` `claude-skills` `cli` | 4339 | 🔄 2026-10-29 |
+| [**terminal-browser**](https://github.com/zenbu-labs/terminal-browser)<br><sub>zenbu-labs</sub> | 终端里的真正浏览器 | `browser` `claude-code` `claude-code-plugin` `claude-skills` `cli` | 4346 | 🔄 2026-10-29 |
 | [**herdr-lantern**](https://github.com/aigorahub/herdr-lantern)<br><sub>aigorahub</sub> | Lantern，来自 Elves。一个 Herdr 插件：羊群正在田野中——Lantern 会照亮谁需要你、以及他们正朝着什么目标努力 | `python` | 70 | 🔄 2026-10-30 |
-| [**herdr-openspec**](https://github.com/FlorisKr/herdr-openspec)<br><sub>FlorisKr</sub> | herdr 的 Openspec 插件 | `python` | 26 | 2026-10-07 |
+| [**herdr-openspec**](https://github.com/FlorisKr/herdr-openspec)<br><sub>FlorisKr</sub> | herdr 的 Openspec 插件 | `python` | 30 | 2026-10-07 |
 | [**herdr-gui**](https://github.com/undivisible/herdr-gui)<br><sub>undivisible</sub> | 为 herdr 打造的 GUI 界面及更多功能，基于 crepuscular gpui 构建。 | `crepuscularity` `gpui` `rust` | 23 | 2026-07-27 |
 | [**herdr-commandcode-plugin**](https://github.com/TheMetalStorm/herdr-commandcode-plugin)<br><sub>TheMetalStorm</sub> | 将 Commandcode 集成到 Herdr 中 | `cli` `commandcode` `herdr-integration` `shell` | 13 | 2026-07-30 |
-| [**herdr-plugins-directory**](https://github.com/MIDO-ruby7/herdr-plugins-directory)<br><sub>MIDO-ruby7</sub> | 按你想完成的事情来查找 herdr 插件的链接集合 | `python` | 12 | 🔄 2026-10-29 |
+| [**herdr-plugins-directory**](https://github.com/MIDO-ruby7/herdr-plugins-directory)<br><sub>MIDO-ruby7</sub> | 按你想完成的事情来查找 herdr 插件的链接集合 | `python` | 12 | 🔄 2026-10-30 |
 | [**herdr-plugin-cmux**](https://github.com/lachieh/herdr-plugin-cmux)<br><sub>lachieh</sub> | 将每个由 herdr 管理的 Agent 镜像到 cmux 侧边栏中各自独立的一行——带状态徽标和可点击跳转的任务行 | `javascript` | 11 | 2026-07-01 |
 | [**neon-herdr**](https://github.com/neon-solutions/neon-herdr)<br><sub>neon-solutions</sub> | Neon 官方的 Herdr 插件 | `typescript` | 11 | 2026-08-06 |
 | [**herdr-freebuff-plugin**](https://github.com/TheMetalStorm/herdr-freebuff-plugin)<br><sub>TheMetalStorm</sub> | Herdr 的 Freebuff 生命周期集成插件——通过文件轮询和 PTY 内容抓取来报告闲置/工作中/被阻塞状态 | `cli` `freebuff` `herdr-integration` `shell` | 8 | 2026-07-22 |
@@ -1674,8 +1673,8 @@
 | [**herdr-suite-site**](https://github.com/StructuPath/herdr-suite-site)<br><sub>StructuPath</sub> | StructuPath Herdr Suite 的官网首页——herdr.structupath.ai | `herdr-integration` `javascript` | 2 | 2026-10-05 |
 | [**herdr-stt**](https://github.com/xtwist/herdr-stt)<br><sub>xtwist</sub> | 面向 Herdr 的语音转文字功能。 | `rust` | 2 | 2026-09-18 |
 | [**herdr-zen**](https://github.com/y4m3/herdr-zen)<br><sub>y4m3</sub> | 为 Herdr 提供带可调居中窗格宽度的禅模式 | `rust` `terminal` `zen-mode` | 2 | 2026-08-19 |
-| [**🆕 herdr-edit-windows**](https://github.com/aclima01/herdr-edit-windows)<br><sub>aclima01</sub> | 在编程 Agent 旁边的 herdr 窗格中运行的简易文本编辑器——文件树、语法高亮编辑器、未提交差异标签页。仅支持 Windows | `rust` | 1 | 2026-07-25 |
 | [**🆕 herdr-tts**](https://github.com/Aktrov/herdr-tts)<br><sub>Aktrov</sub> | 一个 Herdr 插件，可用自然的神经网络语音（Piper）朗读选中的终端文本——右键点击或使用快捷键触发，并配有停止键。 | `tts` `python` | 1 | 2026-09-07 |
+| [**🆕 herdr-wrapped-tabs**](https://github.com/AlexeyKrotkov/herdr-wrapped-tabs)<br><sub>AlexeyKrotkov</sub> | 始终可见、支持自动换行的 Herdr 标签页。 | `python` | 1 | 2026-09-24 |
 | [**🆕 herdr-quotabar**](https://github.com/ArnaudRinquin/herdr-quotabar)<br><sub>ArnaudRinquin</sub> | 将 Claude 套餐配额（5 小时 / 7 天 / 按模型）以紧凑的一行显示在 Herdr 标签栏中，服务商可插拔替换。 | `claude-code` `python` | 1 | 2026-09-08 |
 | [**🆕 herdr-stoplight**](https://github.com/BowlOfSoup/herdr-stoplight)<br><sub>BowlOfSoup</sub> | 根据 Herdr 的实时状态驱动一个物理 Arduino 红绿灯模块 | `go` | 1 | 2026-07-11 |
 | [**🆕 archify-herdr-plugin**](https://github.com/bozoinc/archify-herdr-plugin)<br><sub>bozoinc</sub> | 派生自 archify DESIGN.md（已验证来源）的 Herdr 插件。M6 适配器由指令派生 | `html` | 1 | 🔄 2026-10-19 |
@@ -1688,11 +1687,11 @@
 | [**🆕 herdr-tiling**](https://github.com/jaeheonji/herdr-tiling)<br><sub>jaeheonji</sub> | 为 Herdr 提供 Hyprland 风格的窗格移动方式和 tmux 风格的布局。 | `rust` | 1 | 🔄 2026-10-28 |
 | [**🆕 herdr-services**](https://github.com/lucidstack/herdr-services)<br><sub>lucidstack</sub> | 一个用于追踪 herdr 工作区内运行服务的插件。 | `rust` | 1 | 2026-09-16 |
 | [**🆕 subtitle-sanitizer**](https://github.com/luismascotto/subtitle-sanitizer)<br><sub>luismascotto</sub> | Go CLI tool (and WASM too!) to load ASS/SRT subtitles, apply rules to identify and remove text for hearing impaired and other little details. Inspired on Subti… | `go` | 1 | 🔄 2026-10-28 |
-| [**🆕 herdr-docs**](https://github.com/natori-hrj/herdr-docs)<br><sub>natori-hrj</sub> | 为 Herdr 打造的安静、格式统一的文档阅读窗格。 | `docs` `rust` | 1 | 2026-09-10 |
+| [**🆕 herdr-plugins**](https://github.com/narumiruna/herdr-plugins)<br><sub>narumiruna</sub> | _(暂无描述)_ | `rust` | 1 | 2026-08-08 |
 | [**🆕 herdr-api-client**](https://github.com/playsthisgame/herdr-api-client)<br><sub>playsthisgame</sub> | 在 herdr 分屏窗格或标签页中运行的 HTTP/REST API 客户端——无需离开终端即可浏览、运行和测试请求 | `http-client` `rest-client` `tui` `shell` | 1 | 2026-08-08 |
 | [**herdr-browser**](https://github.com/redsquiggle/herdr-browser)<br><sub>redsquiggle</sub> | 让 Chromium 标签组与 Herdr 工作区保持一致 | `chromium` `ratatui` `rust` | 1 | 2026-07-28 |
 | [**🆕 herdr-rss**](https://github.com/shindakun/herdr-rss)<br><sub>shindakun</sub> | 一个 herdr 的 RSS 阅读器插件，就是想做就做了。 | `rss` `rss-reader` `rust` | 1 | 2026-09-24 |
-| [**🆕 herdr-pinned-workspaces**](https://github.com/skydiver/herdr-pinned-workspaces)<br><sub>skydiver</sub> | 一个让指定工作区始终保持存活的 Herdr 插件。 | `terminal` `tui` `workspaces` `python` | 1 | 2026-09-21 |
+| [**🆕 herdr-sidepulse**](https://github.com/third774/herdr-sidepulse)<br><sub>third774</sub> | _(暂无描述)_ | `javascript` | 1 | 2026-08-14 |
 | [**herdr-pdf**](https://github.com/tim80411/herdr-pdf)<br><sub>tim80411</sub> | 面向 herdr 的 PDF 查看器插件：通过 pane.graphics 流式 API 将页面渲染到分屏窗格中。 | `go` `pdf` `terminal` | 1 | 2026-09-17 |
 | [**herdr-plugin-k8s-context**](https://github.com/tkuchiki/herdr-plugin-k8s-context)<br><sub>tkuchiki</sub> | 以隔离的 Kubernetes context 和 namespace 打开 Herdr 标签页 | `go` | 1 | 2026-08-15 |
 | [**multitrunk-herdr-plugin**](https://github.com/yoyoyeti/multitrunk-herdr-plugin)<br><sub>yoyoyeti</sub> | 面向 multitrunk 任务工作区的 Herdr 插件 | `git` `multitrunk` `rust` | 1 | 2026-08-31 |
